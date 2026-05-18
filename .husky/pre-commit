@@ -1,0 +1,2 @@
+bash scripts/scan-secrets.sh
+npx lint-staged

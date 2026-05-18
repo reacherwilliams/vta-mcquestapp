@@ -1,0 +1,685 @@
+// MCQuest — multi-curriculum MCQ practice platform
+//
+// Schema design notes:
+// - Questions and options are polymorphic ContentBlock JSON so a single
+//   question can mix text, LaTeX (math), images, and graphs without a
+//   table-per-type explosion. The renderer dispatches on `kind`.
+// - Attempt rows are the audit/analytics backbone: every answer ever
+//   given lives here, never updated. Wrong-only retry queues and
+//   mastery progress are computed from this table.
+// - The seven gamification tables (Streak, StreakFreeze, League, etc.)
+//   are intentionally separate from the practice tables so progression
+//   logic can evolve without migrations on the hot path.
+// - Contributor monetization (Phase 3) is sketched but not implemented;
+//   the columns exist so we don't need a breaking migration later.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ─── Curriculum taxonomy ─────────────────────────────────────────────────────
+// Curriculum → Subject → Chapter → (optional) Unit → Question
+// PaperStyle and Year are FREE-TEXT tags on Question so we don't need to
+// model every CIE / IB / AP paper variant up front.
+
+enum CurriculumCode {
+  IGCSE
+  AS_LEVEL
+  A2_LEVEL
+  IB_DP
+  AP
+}
+
+model Curriculum {
+  id          String         @id @default(cuid())
+  code        CurriculumCode @unique
+  displayName String
+  description String?
+  sortOrder   Int            @default(0)
+  isActive    Boolean        @default(true)
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+  subjects    Subject[]
+
+  @@map("curriculums")
+}
+
+model Subject {
+  id           String     @id @default(cuid())
+  curriculumId String
+  code         String // e.g. "PHY", "MATH", "BIO"
+  name         String
+  description  String?
+  iconKey      String? // lucide icon name for the picker grid
+  accentColor  String? // hex for the subject's card on the home grid
+  sortOrder    Int        @default(0)
+  isActive     Boolean    @default(true)
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  curriculum   Curriculum @relation(fields: [curriculumId], references: [id], onDelete: Cascade)
+  chapters     Chapter[]
+  questions    Question[]
+
+  @@unique([curriculumId, code])
+  @@map("subjects")
+}
+
+model Chapter {
+  id        String     @id @default(cuid())
+  subjectId String
+  name      String
+  description String?
+  sortOrder Int        @default(0)
+  isActive  Boolean    @default(true)
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  subject   Subject    @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  units     Unit[]
+  questions Question[]
+
+  @@unique([subjectId, name])
+  @@map("chapters")
+}
+
+model Unit {
+  id        String     @id @default(cuid())
+  chapterId String
+  name      String
+  description String?
+  sortOrder Int        @default(0)
+  isActive  Boolean    @default(true)
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  chapter   Chapter    @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  questions Question[]
+
+  @@unique([chapterId, name])
+  @@map("units")
+}
+
+// ─── Questions + Options ─────────────────────────────────────────────────────
+// Single-correct MCQ first; multi-correct + drag-drop deferred to phase 2.
+// `stem` and each `option.content` are JSON ContentBlock — see types.ts.
+
+enum QuestionDifficulty {
+  EASY
+  MEDIUM
+  HARD
+  CHALLENGE
+}
+
+enum QuestionStatus {
+  DRAFT
+  IN_REVIEW
+  PUBLISHED
+  ARCHIVED
+}
+
+model Question {
+  id            String             @id @default(cuid())
+  subjectId     String
+  chapterId     String
+  unitId        String?
+  // Free-text tags that capture the "paper-style" filter: year of the
+  // syllabus, term/session, paper number, topic codes. Kept as a JSON
+  // array of strings so adding/removing tags doesn't need a migration.
+  // Example: ["2024", "Paper 2", "May/June", "kinematics"]
+  tags          Json               @default("[]")
+  // ContentBlock[] — see src/lib/questions/types.ts for the shape
+  stem          Json
+  // Inline explanation shown after the user answers (right or wrong).
+  // Also a ContentBlock[] so we can embed diagrams in the explanation.
+  explanation   Json?
+  difficulty    QuestionDifficulty @default(MEDIUM)
+  status        QuestionStatus     @default(DRAFT)
+  // Marketing flag: "this question was AI-drafted and reviewed by a human"
+  // surfaces in the question detail and in T&C compliance reports.
+  aiAssisted    Boolean            @default(false)
+  // Free-text citation: "Original — Dr Smith" or "Inspired by CIE 0625/12 Q14".
+  // NEVER store verbatim past-paper text; only meta references.
+  sourceNote    String?
+  // The Contributor who authored it (for revenue share).
+  authorId      String?
+  // The Admin/SuperAdmin who approved publication.
+  publishedById String?
+  publishedAt   DateTime?
+  createdAt     DateTime           @default(now())
+  updatedAt     DateTime           @updatedAt
+  subject       Subject            @relation(fields: [subjectId], references: [id], onDelete: Restrict)
+  chapter       Chapter            @relation(fields: [chapterId], references: [id], onDelete: Restrict)
+  unit          Unit?              @relation(fields: [unitId], references: [id], onDelete: SetNull)
+  author        User?              @relation("QuestionAuthor", fields: [authorId], references: [id], onDelete: SetNull)
+  publishedBy   User?              @relation("QuestionPublisher", fields: [publishedById], references: [id], onDelete: SetNull)
+  options       QuestionOption[]
+  attempts      Attempt[]
+  reviews       QuestionReview[]
+  reports       QuestionReport[]
+
+  @@index([subjectId, chapterId, status])
+  @@index([authorId])
+  @@map("questions")
+}
+
+model QuestionOption {
+  id         String   @id @default(cuid())
+  questionId String
+  // ContentBlock — text | image | math | graph | mixed
+  content    Json
+  // The correct option for single-correct MCQs. Future multi-correct
+  // questions can set this true on multiple rows.
+  isCorrect  Boolean  @default(false)
+  // Per-option explanation shown when this option is selected and wrong.
+  rationale  String?
+  sortOrder  Int      @default(0)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([questionId])
+  @@map("question_options")
+}
+
+// ─── Practice + attempts ─────────────────────────────────────────────────────
+
+enum AttemptMode {
+  PRACTICE
+  WRONG_RETRY
+  EXAM
+  BOSS
+}
+
+model Attempt {
+  id              String      @id @default(cuid())
+  userId          String
+  questionId      String
+  // Which option the user picked. Null if they ran out of time / skipped.
+  selectedOptionId String?
+  isCorrect       Boolean     @default(false)
+  // Seconds spent on this question.
+  timeSeconds     Int         @default(0)
+  // The user's self-rated confidence (the metacognition layer described
+  // in the strategic plan). Optional — only stored when the UI prompts.
+  confidence      String? // "high" | "medium" | "low"
+  mode            AttemptMode @default(PRACTICE)
+  // The PracticeSession this attempt belongs to (so we can score sessions
+  // independently of individual attempts).
+  sessionId       String?
+  // XP awarded for this attempt (varies by mode, difficulty, confidence).
+  xpAwarded       Int         @default(0)
+  createdAt       DateTime    @default(now())
+  user            User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question        Question    @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  session         PracticeSession? @relation(fields: [sessionId], references: [id], onDelete: SetNull)
+
+  @@index([userId, questionId, createdAt])
+  @@index([userId, mode, createdAt])
+  @@index([sessionId])
+  @@map("attempts")
+}
+
+enum SessionStatus {
+  IN_PROGRESS
+  COMPLETED
+  ABANDONED
+}
+
+// A PracticeSession is one filtered "round" of questions — either
+// section practice, a wrong-only retry queue, or a timed exam.
+model PracticeSession {
+  id              String        @id @default(cuid())
+  userId          String
+  mode            AttemptMode
+  // Snapshot of the filter the user picked (curriculum/subject/chapter/year).
+  // Lets us show "you practised Cambridge IGCSE Physics — Forces, 2024-style"
+  // on review screens.
+  filter          Json
+  // Question IDs the session will iterate through, in order.
+  questionIds     Json
+  // Index into questionIds the user is currently on.
+  currentIndex    Int           @default(0)
+  status          SessionStatus @default(IN_PROGRESS)
+  // For EXAM mode: server-anchored deadline. Null for PRACTICE / WRONG_RETRY.
+  expiresAt       DateTime?
+  startedAt       DateTime      @default(now())
+  completedAt     DateTime?
+  user            User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  attempts        Attempt[]
+
+  @@index([userId, status])
+  @@map("practice_sessions")
+}
+
+// ─── Mastery tracking ────────────────────────────────────────────────────────
+// Aggregated views of Attempt data. Updated via cron job + on-demand
+// recompute. NOT the source of truth — Attempts are. Keep this as a
+// projection so reads stay fast.
+
+model SubjectProgress {
+  id              String   @id @default(cuid())
+  userId          String
+  subjectId       String
+  // Running counts.
+  attempted       Int      @default(0)
+  correct         Int      @default(0)
+  masteryPercent  Float    @default(0) // 0–100
+  // Per-chapter breakdown.
+  chapterStats    Json     @default("[]") // [{ chapterId, attempted, correct, mastery }]
+  lastPracticedAt DateTime?
+  updatedAt       DateTime @updatedAt
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, subjectId])
+  @@index([userId])
+  @@map("subject_progress")
+}
+
+// ─── Wrong-answer queue ──────────────────────────────────────────────────────
+// One row per (user, question) the user has gotten wrong AND not yet
+// re-attempted successfully. Drives the "Wrong-Answer Graveyard" page
+// and the wrong-only retry sessions.
+
+model WrongAnswer {
+  id            String    @id @default(cuid())
+  userId        String
+  questionId    String
+  // The first wrong attempt that landed this row here.
+  firstWrongAt  DateTime  @default(now())
+  // How many times the user has retried this question.
+  retryCount    Int       @default(0)
+  // Cleared when the user gets it right on retry; the row is then archived,
+  // not deleted, so the Graveyard can show "vanquished" tombstones.
+  resolvedAt    DateTime?
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, questionId])
+  @@index([userId, resolvedAt])
+  @@map("wrong_answers")
+}
+
+// ─── Users + auth ────────────────────────────────────────────────────────────
+// NextAuth v5 adapter tables. Keep the auth model lean — student-specific
+// preferences (avatar, daily XP goal, etc.) live on a sibling table so the
+// hot User row stays small.
+
+enum UserRole {
+  SUPER_ADMIN
+  ADMIN
+  CONTRIBUTOR
+  STUDENT
+}
+
+enum UserStatus {
+  ACTIVE
+  PENDING
+  SUSPENDED
+  DELETED
+}
+
+model User {
+  id                String     @id @default(cuid())
+  email             String     @unique
+  emailVerified     DateTime?
+  // bcrypt hash. Null when the user only signs in via OAuth.
+  password          String?
+  firstName         String
+  lastName          String
+  image             String?
+  role              UserRole   @default(STUDENT)
+  status            UserStatus @default(ACTIVE)
+  // Parental-consent flag for under-13 accounts (COPPA / GDPR-K).
+  // Required before AI features or social leaderboards activate.
+  parentalConsentAt DateTime?
+  dateOfBirth       DateTime?
+  // MFA
+  mfaEnabled        Boolean    @default(false)
+  mfaSecret         String? // encrypted, optional
+  mfaBackupCodes    String? // JSON array of bcrypt-hashed codes
+  // Password-reset state
+  passwordResetToken     String?   @unique
+  passwordResetExpiresAt DateTime?
+  // Audit
+  lastLoginAt       DateTime?
+  createdAt         DateTime   @default(now())
+  updatedAt         DateTime   @updatedAt
+  // NextAuth adapter tables
+  accounts          Account[]
+  sessions          Session[]
+  userSessions      UserSession[]
+  // Domain relations
+  attempts          Attempt[]
+  practiceSessions  PracticeSession[]
+  subjectProgress   SubjectProgress[]
+  wrongAnswers      WrongAnswer[]
+  questionsAuthored Question[]       @relation("QuestionAuthor")
+  questionsPublished Question[]      @relation("QuestionPublisher")
+  questionReviews   QuestionReview[]
+  questionReports   QuestionReport[]
+  preferences       UserPreferences?
+  streak            Streak?
+  xpTotal           XpLedger[]
+  badges            BadgeAward[]
+  leagues           LeagueMembership[]
+  squadMemberships  SquadMember[]
+  subscription      Subscription?
+
+  @@map("users")
+}
+
+// Per-user settings + cosmetic state. Pulled out so the User row doesn't
+// bloat with every new preference.
+model UserPreferences {
+  id              String   @id @default(cuid())
+  userId          String   @unique
+  // Daily XP goal — Easy 10 / Normal 20 / Hard 30 / Insane 50.
+  dailyXpGoal     Int      @default(20)
+  // Picked curriculum + subjects. Filters the home grid.
+  primaryCurriculumId String?
+  enabledSubjectIds   String[] @default([])
+  // Avatar cosmetics keyed by category.
+  avatar          Json     @default("{}")
+  // Soundboard preferences.
+  soundsEnabled   Boolean  @default(true)
+  hapticsEnabled  Boolean  @default(true)
+  reducedMotion   Boolean  @default(false)
+  // Leaderboard visibility: full | first-name | initials | hidden.
+  leaderboardVisibility String @default("first-name")
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("user_preferences")
+}
+
+// ─── NextAuth adapter tables ─────────────────────────────────────────────────
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@map("accounts")
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("auth_sessions")
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+  @@map("verification_tokens")
+}
+
+// Step-up MFA + session revocation tracking. Schema mirrors School-Core's
+// proven pattern.
+model UserSession {
+  id            String    @id @default(cuid())
+  userId        String
+  ipAddress     String?
+  userAgent     String?   @db.Text
+  provider      String?
+  createdAt     DateTime  @default(now())
+  lastSeenAt    DateTime  @default(now())
+  revokedAt     DateTime?
+  revokedBy     String?
+  mfaVerifiedAt DateTime?
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, revokedAt])
+  @@map("user_sessions")
+}
+
+// ─── Gamification ────────────────────────────────────────────────────────────
+// Streak / Streak Freeze / League / Badge / XP — the engagement spine.
+// All append-only or per-user-singleton; no joins on the hot path.
+
+model Streak {
+  id              String   @id @default(cuid())
+  userId          String   @unique
+  current         Int      @default(0)
+  longest         Int      @default(0)
+  lastActiveDate  DateTime?
+  freezesAvailable Int     @default(1) // refilled weekly
+  updatedAt       DateTime @updatedAt
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("streaks")
+}
+
+model StreakFreeze {
+  id        String   @id @default(cuid())
+  userId    String
+  usedFor   DateTime // the calendar date the freeze covered
+  consumedAt DateTime @default(now())
+
+  @@index([userId, usedFor])
+  @@map("streak_freezes")
+}
+
+// XP is append-only — every awarded delta is a row. Lets us show
+// "today's XP", "this week", and full lifetime without aggregation drift.
+model XpLedger {
+  id        String   @id @default(cuid())
+  userId    String
+  delta     Int
+  reason    String // "correct_easy" | "boss_win" | "streak_bonus" | ...
+  attemptId String?
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+  @@map("xp_ledger")
+}
+
+enum LeagueTier {
+  BRONZE
+  SILVER
+  GOLD
+  DIAMOND
+  CHAMPION
+}
+
+model League {
+  id        String     @id @default(cuid())
+  tier      LeagueTier
+  // Each league lasts one calendar week. Identifier is "{tier}-{yyyy-ww}".
+  weekTag   String
+  startsAt  DateTime
+  endsAt    DateTime
+  createdAt DateTime   @default(now())
+  members   LeagueMembership[]
+
+  @@unique([tier, weekTag])
+  @@index([endsAt])
+  @@map("leagues")
+}
+
+model LeagueMembership {
+  id         String   @id @default(cuid())
+  leagueId   String
+  userId     String
+  weeklyXp   Int      @default(0)
+  rank       Int? // computed at week end
+  promoted   Boolean? // null = ongoing; true/false = settled
+  joinedAt   DateTime @default(now())
+  league     League   @relation(fields: [leagueId], references: [id], onDelete: Cascade)
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([leagueId, userId])
+  @@index([userId])
+  @@map("league_memberships")
+}
+
+model Badge {
+  id          String       @id @default(cuid())
+  key         String       @unique // "first_perfect" | "ten_streak" | "subject_master_phy"
+  name        String
+  description String
+  iconKey     String
+  rarity      String       @default("common") // common | rare | epic | legendary
+  awards      BadgeAward[]
+
+  @@map("badges")
+}
+
+model BadgeAward {
+  id        String   @id @default(cuid())
+  userId    String
+  badgeId   String
+  awardedAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  badge     Badge    @relation(fields: [badgeId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, badgeId])
+  @@map("badge_awards")
+}
+
+model Squad {
+  id          String        @id @default(cuid())
+  name        String
+  inviteCode  String        @unique
+  createdById String
+  createdAt   DateTime      @default(now())
+  members     SquadMember[]
+
+  @@map("squads")
+}
+
+model SquadMember {
+  id       String @id @default(cuid())
+  squadId  String
+  userId   String
+  isLeader Boolean @default(false)
+  joinedAt DateTime @default(now())
+  squad    Squad  @relation(fields: [squadId], references: [id], onDelete: Cascade)
+  user     User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([squadId, userId])
+  @@map("squad_members")
+}
+
+// ─── Subscriptions / billing ─────────────────────────────────────────────────
+// One row per user; nullable while we're free-tier-only.
+
+enum SubscriptionStatus {
+  ACTIVE
+  TRIALING
+  PAST_DUE
+  CANCELED
+  EXPIRED
+}
+
+enum SubscriptionPlan {
+  FREE
+  PRO
+  PRO_FAMILY
+}
+
+enum SubscriptionSource {
+  STRIPE // web
+  APP_STORE // iOS IAP
+  PLAY_STORE // Android IAP
+  COMP // comp / promo
+}
+
+model Subscription {
+  id                 String              @id @default(cuid())
+  userId             String              @unique
+  plan               SubscriptionPlan    @default(FREE)
+  status             SubscriptionStatus  @default(ACTIVE)
+  source             SubscriptionSource? // null while plan=FREE
+  // Stripe ids (web) — null for IAP-sourced subscriptions.
+  stripeCustomerId       String?
+  stripeSubscriptionId   String?
+  stripePriceId          String?
+  // IAP receipts (mobile) — stored encrypted in production.
+  iapOriginalTxId        String?
+  // Common period state.
+  currentPeriodStart DateTime?
+  currentPeriodEnd   DateTime?
+  cancelAtPeriodEnd  Boolean             @default(false)
+  trialEndsAt        DateTime?
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+  user               User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("subscriptions")
+}
+
+// ─── Contributor moderation (Phase 3 stubs) ──────────────────────────────────
+
+model QuestionReview {
+  id         String   @id @default(cuid())
+  questionId String
+  reviewerId String
+  // approved | rejected | needs_changes
+  decision   String
+  notes      String?
+  createdAt  DateTime @default(now())
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  reviewer   User     @relation(fields: [reviewerId], references: [id], onDelete: Cascade)
+
+  @@index([questionId])
+  @@map("question_reviews")
+}
+
+model QuestionReport {
+  id         String   @id @default(cuid())
+  questionId String
+  reporterId String
+  // bug | bad_answer | bad_explanation | copyright | other
+  category   String
+  notes      String?
+  resolved   Boolean  @default(false)
+  createdAt  DateTime @default(now())
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  reporter   User     @relation(fields: [reporterId], references: [id], onDelete: Cascade)
+
+  @@index([questionId, resolved])
+  @@map("question_reports")
+}
+
+// ─── Audit ───────────────────────────────────────────────────────────────────
+// Lighter than School-Core's audit log — we don't have multi-tenant
+// blast radius — but keeps the pattern for question moderation +
+// admin actions.
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  userId    String? // null = system event
+  action    String // "QUESTION_PUBLISHED" | "USER_SUSPENDED" | ...
+  entity    String
+  entityId  String?
+  metadata  Json     @default("{}")
+  ipAddress String?
+  userAgent String?  @db.Text
+  createdAt DateTime @default(now())
+
+  @@index([userId, createdAt])
+  @@index([entity, entityId])
+  @@map("audit_log")
+}
