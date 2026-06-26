@@ -1,4 +1,4 @@
-// MCQuest — multi-curriculum MCQ practice platform
+// MCQ MasterLoop — multi-curriculum MCQ practice platform
 //
 // Schema design notes:
 // - Questions and options are polymorphic ContentBlock JSON so a single
@@ -26,17 +26,9 @@ datasource db {
 // PaperStyle and Year are FREE-TEXT tags on Question so we don't need to
 // model every CIE / IB / AP paper variant up front.
 
-enum CurriculumCode {
-  IGCSE
-  AS_LEVEL
-  A2_LEVEL
-  IB_DP
-  AP
-}
-
 model Curriculum {
   id          String         @id @default(cuid())
-  code        CurriculumCode @unique
+  code        String         @unique
   displayName String
   description String?
   sortOrder   Int            @default(0)
@@ -44,8 +36,25 @@ model Curriculum {
   createdAt   DateTime       @default(now())
   updatedAt   DateTime       @updatedAt
   subjects    Subject[]
+  examCalendar ExamCalendarEntry[]
+  reviewerAssignments ReviewerAssignment[]
+  bounties    Bounty[]
 
   @@map("curriculums")
+}
+
+model ExamCalendarEntry {
+  id           String     @id @default(cuid())
+  curriculumId String
+  title        String
+  examDate     DateTime
+  region       String     @default("Global")
+  notes        String?
+  createdAt    DateTime   @default(now())
+  curriculum   Curriculum @relation(fields: [curriculumId], references: [id], onDelete: Cascade)
+
+  @@index([curriculumId, examDate])
+  @@map("exam_calendar_entries")
 }
 
 model Subject {
@@ -58,28 +67,38 @@ model Subject {
   accentColor  String? // hex for the subject's card on the home grid
   sortOrder    Int        @default(0)
   isActive     Boolean    @default(true)
+  // AP subjects may include Free Response Questions alongside MCQ.
+  // When true, the subject detail page shows an FRQ disclaimer.
+  hasFrq       Boolean    @default(false)
   createdAt    DateTime   @default(now())
   updatedAt    DateTime   @updatedAt
   curriculum   Curriculum @relation(fields: [curriculumId], references: [id], onDelete: Cascade)
-  chapters     Chapter[]
-  questions    Question[]
+  chapters         Chapter[]
+  questions        Question[]
+  subjectProgress  SubjectProgress[]
+  reviewerAssignments ReviewerAssignment[]
+  bounties         Bounty[]
 
   @@unique([curriculumId, code])
   @@map("subjects")
 }
 
 model Chapter {
-  id        String     @id @default(cuid())
-  subjectId String
-  name      String
+  id          String     @id @default(cuid())
+  subjectId   String
+  name        String
   description String?
-  sortOrder Int        @default(0)
-  isActive  Boolean    @default(true)
-  createdAt DateTime   @default(now())
-  updatedAt DateTime   @updatedAt
-  subject   Subject    @relation(fields: [subjectId], references: [id], onDelete: Cascade)
-  units     Unit[]
-  questions Question[]
+  sortOrder   Int        @default(0)
+  isActive    Boolean    @default(true)
+  // IB DP SL/HL classification. Null for non-IB chapters.
+  // "SL" = Standard Level only, "HL" = Higher Level only, "BOTH" = common to SL and HL
+  ibLevel     String?
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+  subject     Subject    @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  units       Unit[]
+  questions   Question[]
+  bounties    Bounty[]
 
   @@unique([subjectId, name])
   @@map("chapters")
@@ -114,9 +133,22 @@ enum QuestionDifficulty {
 
 enum QuestionStatus {
   DRAFT
-  IN_REVIEW
+  IN_SUBJECT_REVIEW
+  IN_CURRICULUM_REVIEW
   PUBLISHED
   ARCHIVED
+}
+
+enum ReviewerScope {
+  SUBJECT
+  CURRICULUM
+}
+
+enum BountyStatus {
+  OPEN       // no active claim
+  CLAIMED    // a contributor has claimed it (claimExpiresAt is in the future)
+  FULFILLED  // filledCount == count; all required questions submitted + approved
+  CLOSED     // manually closed by the reviewer who created it (or admin)
 }
 
 model Question {
@@ -134,8 +166,13 @@ model Question {
   // Inline explanation shown after the user answers (right or wrong).
   // Also a ContentBlock[] so we can embed diagrams in the explanation.
   explanation   Json?
+  // When true, the UI shows checkboxes and requires the user to select ALL
+  // correct options before submitting. Drives AP-style "select two" questions.
+  allowMultipleCorrect Boolean @default(false)
   difficulty    QuestionDifficulty @default(MEDIUM)
   status        QuestionStatus     @default(DRAFT)
+  // Build year — the exam year this question targets (e.g. 2024).
+  year          Int?
   // Marketing flag: "this question was AI-drafted and reviewed by a human"
   // surfaces in the question detail and in T&C compliance reports.
   aiAssisted    Boolean            @default(false)
@@ -144,9 +181,16 @@ model Question {
   sourceNote    String?
   // The Contributor who authored it (for revenue share).
   authorId      String?
+  // Optional link back to the bounty this question fulfilled. Set automatically
+  // when the contributor has an active claim matching the question's scope.
+  bountyId      String?
   // The Admin/SuperAdmin who approved publication.
   publishedById String?
   publishedAt   DateTime?
+  // Denormalised pointers updated on each review decision so the reviewer queue
+  // doesn't need to join QuestionReview. Full audit trail lives in QuestionReview.
+  lastReviewerId String?
+  lastReviewNote String?
   createdAt     DateTime           @default(now())
   updatedAt     DateTime           @updatedAt
   subject       Subject            @relation(fields: [subjectId], references: [id], onDelete: Restrict)
@@ -154,10 +198,13 @@ model Question {
   unit          Unit?              @relation(fields: [unitId], references: [id], onDelete: SetNull)
   author        User?              @relation("QuestionAuthor", fields: [authorId], references: [id], onDelete: SetNull)
   publishedBy   User?              @relation("QuestionPublisher", fields: [publishedById], references: [id], onDelete: SetNull)
+  lastReviewer  User?              @relation("QuestionLastReviewer", fields: [lastReviewerId], references: [id], onDelete: SetNull)
+  bounty        Bounty?            @relation(fields: [bountyId], references: [id], onDelete: SetNull)
   options       QuestionOption[]
   attempts      Attempt[]
   reviews       QuestionReview[]
   reports       QuestionReport[]
+  wrongAnswers  WrongAnswer[]
 
   @@index([subjectId, chapterId, status])
   @@index([authorId])
@@ -239,6 +286,11 @@ model PracticeSession {
   filter          Json
   // Question IDs the session will iterate through, in order.
   questionIds     Json
+  // Shuffled option order per question: { [questionId]: optionId[] }
+  // Null for PRACTICE sessions (options shown in canonical DB order).
+  // Set at session-creation time for WRONG_RETRY so the order is stable
+  // across refreshes but different from the student's previous attempt.
+  optionOrders    Json?
   // Index into questionIds the user is currently on.
   currentIndex    Int           @default(0)
   status          SessionStatus @default(IN_PROGRESS)
@@ -271,6 +323,7 @@ model SubjectProgress {
   lastPracticedAt DateTime?
   updatedAt       DateTime @updatedAt
   user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  subject         Subject  @relation(fields: [subjectId], references: [id], onDelete: Cascade)
 
   @@unique([userId, subjectId])
   @@index([userId])
@@ -294,6 +347,7 @@ model WrongAnswer {
   // not deleted, so the Graveyard can show "vanquished" tombstones.
   resolvedAt    DateTime?
   user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question      Question  @relation(fields: [questionId], references: [id], onDelete: Cascade)
 
   @@unique([userId, questionId])
   @@index([userId, resolvedAt])
@@ -307,6 +361,9 @@ model WrongAnswer {
 
 enum UserRole {
   SUPER_ADMIN
+  // Co-founder: full content + team oversight (Question Bank, admins),
+  // finance is view-only (no money movement). Sits above ADMIN.
+  CO_FOUNDER
   ADMIN
   CONTRIBUTOR
   STUDENT
@@ -341,6 +398,8 @@ model User {
   // Password-reset state
   passwordResetToken     String?   @unique
   passwordResetExpiresAt DateTime?
+  // Stripe Connect (contributor payouts)
+  stripeConnectId   String?
   // Audit
   lastLoginAt       DateTime?
   createdAt         DateTime   @default(now())
@@ -354,8 +413,12 @@ model User {
   practiceSessions  PracticeSession[]
   subjectProgress   SubjectProgress[]
   wrongAnswers      WrongAnswer[]
-  questionsAuthored Question[]       @relation("QuestionAuthor")
-  questionsPublished Question[]      @relation("QuestionPublisher")
+  questionsAuthored     Question[]           @relation("QuestionAuthor")
+  questionsPublished    Question[]           @relation("QuestionPublisher")
+  questionsLastReviewed Question[]           @relation("QuestionLastReviewer")
+  reviewerAssignments   ReviewerAssignment[]
+  bountiesCreated       Bounty[]             @relation("BountyCreator")
+  bountiesClaimed       Bounty[]             @relation("BountyClaimer")
   questionReviews   QuestionReview[]
   questionReports   QuestionReport[]
   preferences       UserPreferences?
@@ -364,7 +427,11 @@ model User {
   badges            BadgeAward[]
   leagues           LeagueMembership[]
   squadMemberships  SquadMember[]
+  marathonEntries   MarathonEntry[]
   subscription      Subscription?
+  auditLogs         AuditLog[]
+  contributorApplication ContributorApplication?
+  contributorPayouts     ContributorPayout[]
 
   @@map("users")
 }
@@ -582,6 +649,34 @@ model SquadMember {
   @@map("squad_members")
 }
 
+// ─── Marathon events ──────────────────────────────────────────────────────────
+
+model MarathonEvent {
+  id          String           @id @default(cuid())
+  title       String
+  questionIds String[]
+  startsAt    DateTime
+  endsAt      DateTime
+  createdAt   DateTime         @default(now())
+  entries     MarathonEntry[]
+
+  @@map("marathon_events")
+}
+
+model MarathonEntry {
+  id         String        @id @default(cuid())
+  eventId    String
+  userId     String
+  score      Int           @default(0)
+  xpEarned   Int           @default(0)
+  finishedAt DateTime?
+  event      MarathonEvent @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  user       User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([eventId, userId])
+  @@map("marathon_entries")
+}
+
 // ─── Subscriptions / billing ─────────────────────────────────────────────────
 // One row per user; nullable while we're free-tier-only.
 
@@ -630,14 +725,46 @@ model Subscription {
   @@map("subscriptions")
 }
 
+// ─── Contributor marketplace ──────────────────────────────────────────────────
+
+model ContributorApplication {
+  id        String   @id @default(cuid())
+  userId    String   @unique
+  status    String   @default("PENDING")
+  statement String   @db.Text
+  sampleUrl String?
+  notes     String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("contributor_applications")
+}
+
+model ContributorPayout {
+  id               String   @id @default(cuid())
+  userId           String
+  amountCents      Int
+  periodStart      DateTime
+  periodEnd        DateTime
+  status           String   @default("PENDING")
+  stripeTransferId String?
+  createdAt        DateTime @default(now())
+  user             User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("contributor_payouts")
+}
+
 // ─── Contributor moderation (Phase 3 stubs) ──────────────────────────────────
 
 model QuestionReview {
   id         String   @id @default(cuid())
   questionId String
   reviewerId String
-  // approved | rejected | needs_changes
+  // approve | reject | needs_changes | reassign | admin_override
   decision   String
+  // The stage the decision was made at: subject | curriculum | admin
+  stage      String   @default("curriculum")
   notes      String?
   createdAt  DateTime @default(now())
   question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
@@ -645,6 +772,59 @@ model QuestionReview {
 
   @@index([questionId])
   @@map("question_reviews")
+}
+
+// A (User, Scope) tuple granting review rights at the subject or curriculum
+// tier. A single user can hold many — e.g. SubjectReviewer for Physics under
+// IGCSE plus CurriculumReviewer for the entire AS Level catalog.
+model ReviewerAssignment {
+  id           String        @id @default(cuid())
+  userId       String
+  scope        ReviewerScope
+  subjectId    String?       // set when scope = SUBJECT
+  curriculumId String?       // set when scope = CURRICULUM
+  createdAt    DateTime      @default(now())
+  user         User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  subject      Subject?      @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  curriculum   Curriculum?   @relation(fields: [curriculumId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, scope, subjectId, curriculumId])
+  @@index([subjectId])
+  @@index([curriculumId])
+  @@map("reviewer_assignments")
+}
+
+// A request from a Curriculum Reviewer for N questions matching a specific
+// scope (subject + optional chapter / year / difficulty). Contributors browse
+// open bounties, claim one (soft 7-day lock), submit questions tagged with the
+// bountyId; when the count is met the bounty is FULFILLED.
+model Bounty {
+  id             String              @id @default(cuid())
+  curriculumId   String
+  subjectId      String
+  chapterId      String?             // null = any chapter in the subject
+  year           Int?                // null = any year
+  difficulty     QuestionDifficulty? // null = any difficulty
+  count          Int                 @default(1)
+  filledCount    Int                 @default(0)
+  notes          String?
+  status         BountyStatus        @default(OPEN)
+  createdById    String
+  claimedById    String?
+  claimedAt      DateTime?
+  claimExpiresAt DateTime?           // 7 days from claimedAt — checked on read
+  createdAt      DateTime            @default(now())
+  updatedAt      DateTime            @updatedAt
+  curriculum     Curriculum          @relation(fields: [curriculumId], references: [id], onDelete: Cascade)
+  subject        Subject             @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  chapter        Chapter?            @relation(fields: [chapterId], references: [id], onDelete: SetNull)
+  createdBy      User                @relation("BountyCreator", fields: [createdById], references: [id], onDelete: Cascade)
+  claimedBy      User?               @relation("BountyClaimer", fields: [claimedById], references: [id], onDelete: SetNull)
+  questions      Question[]
+
+  @@index([status, curriculumId])
+  @@index([claimedById])
+  @@map("bounties")
 }
 
 model QuestionReport {
@@ -678,6 +858,8 @@ model AuditLog {
   ipAddress String?
   userAgent String?  @db.Text
   createdAt DateTime @default(now())
+
+  user      User?    @relation(fields: [userId], references: [id])
 
   @@index([userId, createdAt])
   @@index([entity, entityId])

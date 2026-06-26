@@ -1,10 +1,22 @@
 import { NextResponse } from "next/server"
 import { nextAuthForMiddleware } from "@/lib/auth"
+import { isAdminTier } from "@/lib/permissions"
 
 // Routes accessible to everyone (auth or not). Auth pages bounce signed-in
 // users back to the dashboard so they don't sit on /login.
 const authRoutes = ["/login", "/register", "/forgot-password", "/reset-password"]
-const alwaysPublicRoutes = ["/", "/legal", "/api/auth", "/contact"]
+const alwaysPublicRoutes = [
+  "/",
+  "/legal",
+  "/api/auth",
+  "/contact",
+  // Entire practice section and profile are open while auth is mocked.
+  // Remove "/practice" and "/profile" once real auth (NextAuth signIn) is wired up —
+  // sub-routes like /practice/demo and /practice/session can stay public for the demo flow.
+  "/practice",
+  "/profile",
+  "/onboarding",
+]
 
 export default nextAuthForMiddleware(function proxy(req) {
   const { pathname } = req.nextUrl
@@ -40,7 +52,7 @@ export default nextAuthForMiddleware(function proxy(req) {
   // Auth pages: signed-in users go straight to their home.
   if (isAuthRoute) {
     if (isAuthenticated) {
-      const dest = role === "SUPER_ADMIN" || role === "ADMIN" ? "/admin" : "/practice"
+      const dest = isAdminTier(role) ? "/admin" : "/practice"
       return NextResponse.redirect(new URL(dest, ORIGIN))
     }
     return NextResponse.next()
@@ -53,9 +65,9 @@ export default nextAuthForMiddleware(function proxy(req) {
     return NextResponse.redirect(loginUrl)
   }
 
-  // Admin routes require ADMIN or SUPER_ADMIN.
+  // Admin routes require admin tier (ADMIN, CO_FOUNDER, or SUPER_ADMIN).
   if (pathname.startsWith("/admin")) {
-    if (role !== "ADMIN" && role !== "SUPER_ADMIN") {
+    if (!isAdminTier(role)) {
       return NextResponse.redirect(new URL("/practice", ORIGIN))
     }
   }
@@ -69,3 +81,7 @@ export default nextAuthForMiddleware(function proxy(req) {
 
   return NextResponse.next()
 } as Parameters<typeof nextAuthForMiddleware>[0])
+
+export const config = {
+  matcher: ["/((?!_next/static|_next/image|favicon.ico|.*\\.).*)"],
+}

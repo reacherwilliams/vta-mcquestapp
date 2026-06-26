@@ -1,5 +1,5 @@
 {
-  "name": "mcquest",
+  "name": "mcq-masterloop",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,9 +10,13 @@
     "postinstall": "prisma generate --schema ./prisma/schema.prisma",
     "db:push": "prisma db push --config ./prisma/prisma.config.ts",
     "db:studio": "prisma studio --config ./prisma/prisma.config.ts",
-    "db:seed": "tsx prisma/seed.ts",
+    "db:seed": "NODE_TLS_REJECT_UNAUTHORIZED=0 tsx prisma/seed.ts",
     "prepare": "husky",
-    "scan-secrets": "bash scripts/scan-secrets.sh"
+    "scan-secrets": "bash scripts/scan-secrets.sh",
+    "cap:sync": "next build && npx cap sync",
+    "cap:ios": "npm run cap:sync && npx cap open ios",
+    "cap:android": "npm run cap:sync && npx cap open android",
+    "cap:assets": "npx capacitor-assets generate --config capacitor.assets.config.ts"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.2",
@@ -32,6 +36,7 @@
     "@hookform/resolvers": "^5.2.2",
     "@prisma/adapter-pg": "^7.8.0",
     "@prisma/client": "^7.8.0",
+    "@revenuecat/purchases-capacitor": "^13.1.1",
     "@sentry/nextjs": "^10.53.1",
     "@upstash/ratelimit": "^2.0.8",
     "@upstash/redis": "^1.38.0",

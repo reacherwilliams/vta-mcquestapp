@@ -1,0 +1,38 @@
+{
+  "appId": "app.mcquest",
+  "appName": "MCQuest",
+  "bundleVersion": "1.0.0",
+
+  "ios": {
+    "bundleId": "app.mcquest",
+    "teamId": "REPLACE_WITH_APPLE_TEAM_ID",
+    "appleId": "REPLACE_WITH_APPLE_ID_EMAIL",
+    "categories": ["Education"],
+    "ageRating": "4+",
+    "contentRights": "No third-party material"
+  },
+
+  "android": {
+    "packageName": "app.mcquest",
+    "category": "EDUCATION",
+    "contentRating": "Everyone"
+  },
+
+  "listings": {
+    "en-US": {
+      "name": "MCQuest",
+      "subtitle": "MCQ practice for exam success",
+      "shortDescription": "Practice exam-style multiple-choice questions for IGCSE, A-Level, IB, and AP.",
+      "fullDescription": "MCQuest is the fastest way to drill multiple-choice questions across the world's leading international curricula — IGCSE, AS/A2, IB, and AP.\n\nBuilt for serious learners:\n• Exam-style originals written by experienced teachers and examiners\n• Wrong-only retry mode — focus time where it matters most\n• Timed exam mode with realistic pressure\n• Gamified streaks, XP, and unlockable badges to keep motivation high\n• Detailed per-option rationales so you understand why, not just what\n• Subjects: Mathematics, Physics, Chemistry, Biology, Economics, and more\n\nFree tier: 10 questions per day. Go Pro for unlimited practice.\n\nNo ads. No data sold. Built by educators.",
+      "keywords": ["IGCSE", "A-Level", "IB", "AP", "MCQ", "exam practice", "revision", "quiz", "multiple choice", "study"],
+      "privacyPolicyUrl": "https://mcquest.app/privacy",
+      "supportUrl": "https://mcquest.app/support"
+    }
+  },
+
+  "screenshots": {
+    "note": "Place 6.7-inch (iPhone 16 Pro Max) and 12.9-inch (iPad) screenshots in assets/screenshots/ios/ and assets/screenshots/android/. Required sizes documented at https://developer.apple.com/help/app-store-connect/reference/screenshot-specifications",
+    "iosRequired": ["6.7-inch", "12.9-inch iPad"],
+    "androidRequired": ["phone", "7-inch tablet", "10-inch tablet"]
+  }
+}
