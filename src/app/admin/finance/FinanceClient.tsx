@@ -98,7 +98,7 @@ export function FinanceClient({
   const incomeLabel = incomeIsProjected ? (range.isCurrent ? "Projected income" : "Income") : "Income"
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-8 md:py-12">
+    <div>
       {/* Header + month nav */}
       <header className="mb-6 flex flex-wrap items-end justify-between gap-3">
         <div>

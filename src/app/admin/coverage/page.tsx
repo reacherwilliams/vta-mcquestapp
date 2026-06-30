@@ -122,7 +122,7 @@ export default async function CoveragePage({ searchParams }: { searchParams: Sea
   const gaps = nodes.filter((n) => !n.hasChildren && n.live === 0).length
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-8 md:py-12">
+    <div>
       <header className="mb-6">
         <h1 className="text-2xl font-black tracking-tight text-slate-900 dark:text-slate-100">Syllabus coverage</h1>
         <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
