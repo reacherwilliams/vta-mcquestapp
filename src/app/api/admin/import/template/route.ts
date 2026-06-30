@@ -2,10 +2,18 @@ import "server-only"
 import { NextResponse } from "next/server"
 import { auth } from "@/lib/auth"
 import { prisma } from "@/lib/prisma"
+import { PAPER_OPTIONS, COMMAND_WORDS, SKILL_TYPES } from "@/lib/questions/tags"
 import ExcelJS from "exceljs"
 
 function isAdmin(role: string | undefined) {
   return role === "ADMIN" || role === "SUPER_ADMIN" || role === "CO_FOUNDER"
+}
+
+// Excel column number → letter (1→A, 27→AA), so validation survives column reorders.
+function colLetter(n: number): string {
+  let s = ""
+  while (n > 0) { const m = (n - 1) % 26; s = String.fromCharCode(65 + m) + s; n = Math.floor((n - 1) / 26) }
+  return s
 }
 
 export async function GET() {
@@ -14,7 +22,7 @@ export async function GET() {
     return NextResponse.json({ error: "Forbidden." }, { status: 403 })
   }
 
-  // ── Fetch DB hierarchy ────────────────────────────────────────────────────
+  // ── Fetch DB hierarchy (active subjects only) ─────────────────────────────
   const subjects = await prisma.subject.findMany({
     where: { isActive: true },
     include: {
@@ -26,6 +34,16 @@ export async function GET() {
       },
     },
     orderBy: [{ curriculum: { sortOrder: "asc" } }, { sortOrder: "asc" }],
+  })
+
+  // Syllabus topic tree (for the topic_code column lookup).
+  const topics = await prisma.topic.findMany({
+    where: { subject: { isActive: true } },
+    select: {
+      code: true, title: true,
+      subject: { select: { code: true, curriculum: { select: { code: true } } } },
+    },
+    orderBy: [{ subject: { sortOrder: "asc" } }, { sortOrder: "asc" }, { code: "asc" }],
   })
 
   // Unique curricula
@@ -66,6 +84,7 @@ export async function GET() {
     { header: "Curriculum Code", key: "currCode", width: 18 },
     { header: "Curriculum Name", key: "currName", width: 28 },
     { header: "Subject Code",    key: "subjCode", width: 18 },
+    { header: "Syllabus Code",   key: "syllCode", width: 14 },
     { header: "Subject Name",    key: "subjName", width: 32 },
     { header: "Chapter Name",    key: "chapName", width: 40 },
     { header: "IB Level",        key: "ibLevel",  width: 12 },
@@ -84,6 +103,7 @@ export async function GET() {
         currCode: s.curriculum.code,
         currName: s.curriculum.displayName,
         subjCode: s.code,
+        syllCode: s.syllabusCode ?? "",
         subjName: s.name,
         chapName: "(no chapters)",
         ibLevel: "",
@@ -94,12 +114,28 @@ export async function GET() {
           currCode: s.curriculum.code,
           currName: s.curriculum.displayName,
           subjCode: s.code,
+          syllCode: s.syllabusCode ?? "",
           subjName: s.name,
           chapName: ch.name,
           ibLevel: ch.ibLevel ?? "",
         })
       }
     }
+  }
+
+  // ─ Topics reference sheet — look up topic_code values ─────────────────────
+  const sheetTopics = wb.addWorksheet("Topics")
+  sheetTopics.columns = [
+    { header: "Curriculum Code", key: "currCode", width: 18 },
+    { header: "Subject Code",    key: "subjCode", width: 18 },
+    { header: "Topic Code",      key: "topicCode", width: 28 },
+    { header: "Topic Title",     key: "title",    width: 50 },
+  ]
+  const topicsHeader = sheetTopics.getRow(1)
+  topicsHeader.font = { bold: true, color: { argb: "FFFFFFFF" } }
+  topicsHeader.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FF3F6212" } }
+  for (const t of topics) {
+    sheetTopics.addRow({ currCode: t.subject.curriculum.code, subjCode: t.subject.code, topicCode: t.code, title: t.title })
   }
 
   // ─ Main "Questions" sheet ─────────────────────────────────────────────────
@@ -109,8 +145,12 @@ export async function GET() {
     { header: "curriculum_code *",     key: "curriculum_code",     width: 18 },
     { header: "subject_code *",        key: "subject_code",        width: 18 },
     { header: "chapter_name *",        key: "chapter_name",        width: 36 },
+    { header: "topic_code",            key: "topic_code",          width: 22 },
     { header: "year",                  key: "year",                width: 10 },
     { header: "difficulty *",          key: "difficulty",          width: 14 },
+    { header: "paper",                 key: "paper",               width: 10 },
+    { header: "command_word",          key: "command_word",        width: 16 },
+    { header: "skill_types (comma-sep)", key: "skill_types",       width: 24 },
     { header: "tags (comma-sep)",      key: "tags",                width: 24 },
     { header: "stem_text *",           key: "stem_text",           width: 60 },
     { header: "stem_latex",            key: "stem_latex",          width: 40 },
@@ -145,55 +185,32 @@ export async function GET() {
   // Freeze pane below header + after col C
   sheetQ.views = [{ state: "frozen", xSplit: 3, ySplit: 1 }]
 
-  // Data validation for rows 2–201
+  // Column letters derived from COLS so dropdowns stay correct if columns move.
+  const L = (key: string) => colLetter(COLS.findIndex((c) => c.key === key) + 1)
   const curriculumCodes = curricula.map(([c]) => c)
-
-  // curriculum_code dropdown (inline if ≤ 255 chars total)
   const currList = `"${curriculumCodes.join(",")}"`
-  if (currList.length <= 255) {
-    for (let r = 2; r <= 201; r++) {
-      sheetQ.getCell(`A${r}`).dataValidation = {
-        type: "list",
-        allowBlank: true,
-        formulae: [currList],
-        showErrorMessage: true,
-        errorTitle: "Invalid curriculum",
-        error: `Must be one of: ${curriculumCodes.join(", ")}`,
+  const paperList = `"${PAPER_OPTIONS.join(",")}"`
+  const commandList = `"${COMMAND_WORDS.join(",")}"`
+
+  for (let r = 2; r <= 201; r++) {
+    if (currList.length <= 255) {
+      sheetQ.getCell(`${L("curriculum_code")}${r}`).dataValidation = {
+        type: "list", allowBlank: true, formulae: [currList],
+        showErrorMessage: true, errorTitle: "Invalid curriculum", error: `Must be one of: ${curriculumCodes.join(", ")}`,
       }
     }
-  }
-
-  // difficulty dropdown
-  for (let r = 2; r <= 201; r++) {
-    sheetQ.getCell(`E${r}`).dataValidation = {
-      type: "list",
-      allowBlank: false,
-      formulae: ['"EASY,MEDIUM,HARD,CHALLENGE"'],
-      showErrorMessage: true,
-      errorTitle: "Invalid difficulty",
-      error: "Must be EASY, MEDIUM, HARD, or CHALLENGE",
+    sheetQ.getCell(`${L("difficulty")}${r}`).dataValidation = {
+      type: "list", allowBlank: false, formulae: ['"EASY,MEDIUM,HARD,CHALLENGE"'],
+      showErrorMessage: true, errorTitle: "Invalid difficulty", error: "Must be EASY, MEDIUM, HARD, or CHALLENGE",
     }
-    // correct_answer dropdown (column Q = 17)
-    sheetQ.getCell(`Q${r}`).dataValidation = {
-      type: "list",
-      allowBlank: false,
-      formulae: ['"A,B,C,D"'],
-      showErrorMessage: true,
-      errorTitle: "Invalid answer",
-      error: "Must be A, B, C, or D",
+    sheetQ.getCell(`${L("correct_answer")}${r}`).dataValidation = {
+      type: "list", allowBlank: false, formulae: ['"A,B,C,D"'],
+      showErrorMessage: true, errorTitle: "Invalid answer", error: "Must be A, B, C, or D",
     }
-    // ai_assisted dropdown (column Y = 25)
-    sheetQ.getCell(`Y${r}`).dataValidation = {
-      type: "list",
-      allowBlank: true,
-      formulae: ['"TRUE,FALSE"'],
-    }
-    // allow_multiple_correct dropdown (column Z = 26)
-    sheetQ.getCell(`Z${r}`).dataValidation = {
-      type: "list",
-      allowBlank: true,
-      formulae: ['"TRUE,FALSE"'],
-    }
+    sheetQ.getCell(`${L("paper")}${r}`).dataValidation = { type: "list", allowBlank: true, formulae: [paperList] }
+    sheetQ.getCell(`${L("command_word")}${r}`).dataValidation = { type: "list", allowBlank: true, formulae: [commandList] }
+    sheetQ.getCell(`${L("ai_assisted")}${r}`).dataValidation = { type: "list", allowBlank: true, formulae: ['"TRUE,FALSE"'] }
+    sheetQ.getCell(`${L("allow_multiple_correct")}${r}`).dataValidation = { type: "list", allowBlank: true, formulae: ['"TRUE,FALSE"'] }
   }
 
   // Alternate row shading for readability
@@ -206,14 +223,19 @@ export async function GET() {
   // Pick first available curriculum/subject/chapter from DB for the example
   const sampleSubject = subjects[0]
   const sampleChapter = sampleSubject?.chapters[0]
+  const sampleTopic = topics.find((t) => t.subject.code === sampleSubject?.code && t.subject.curriculum.code === sampleSubject?.curriculum.code)
 
   sheetQ.addRow({
     curriculum_code: sampleSubject?.curriculum.code ?? "IGCSE",
     subject_code:    sampleSubject?.code ?? "PHY",
     chapter_name:    sampleChapter?.name ?? "Forces and Motion",
+    topic_code:      sampleTopic?.code ?? "",
     year:            "2024",
     difficulty:      "MEDIUM",
-    tags:            "Paper 1",
+    paper:           "1",
+    command_word:    "calculate",
+    skill_types:     "application",
+    tags:            "kinematics",
     stem_text:       "A car of mass 1200 kg accelerates from rest to 20 m/s in 8 s. What is the resultant force acting on the car?",
     stem_latex:      "",
     option_a_text:   "150 N",
@@ -270,16 +292,26 @@ export async function GET() {
     ["• Never copy verbatim text from past papers. All questions must be original, exam-style content."],
     ["• Use 'source_note' to record inspiration (e.g. 'Inspired by 2023 Nov P1 Q14') — not verbatim text."],
     [""],
+    ["SYLLABUS TOPIC"],
+    ["• Optional 'topic_code' tags the question to the syllabus topic tree (e.g. " + (topics[0]?.code ?? "IGCSE.PHY.1.4") + ")."],
+    ["• Look up valid codes on the 'Topics' sheet (filtered by curriculum + subject). Unknown codes are ignored."],
+    [""],
+    ["FACET COLUMNS (structured tags)"],
+    ["• paper — the paper number (1–6). Dropdown."],
+    ["• command_word — the question's command verb (define, calculate, explain…). Dropdown."],
+    ["• skill_types — comma-separated skills (e.g. graph-reading, data-analysis). Options: " + SKILL_TYPES.join(", ") + "."],
+    ["• These power exam-mode presets and faceted filtering — prefer them over free tags."],
+    [""],
     ["TAGS"],
     ["• Use the 'year' column for the exam year (e.g. 2024)."],
-    ["• Use 'tags' for extra labels separated by commas (e.g. Paper 1, HL, Kinematics)."],
+    ["• Use 'tags' only for extra free-text labels not covered above (comma-separated)."],
   ]
 
   for (const [i, row] of instructions.entries()) {
     const wsRow = sheetInfo.addRow(row)
     if (i === 0) {
       wsRow.font = { bold: true, size: 14, color: { argb: "FF3F6212" } }
-    } else if (row[0].startsWith("HOW") || row[0].startsWith("LATEX") || row[0].startsWith("DIFFICULTY") || row[0].startsWith("LEGAL") || row[0].startsWith("TAGS")) {
+    } else if (row[0].startsWith("HOW") || row[0].startsWith("LATEX") || row[0].startsWith("DIFFICULTY") || row[0].startsWith("LEGAL") || row[0].startsWith("TAGS") || row[0].startsWith("SYLLABUS") || row[0].startsWith("FACET")) {
       wsRow.font = { bold: true, size: 11 }
     }
   }

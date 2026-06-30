@@ -3,6 +3,7 @@ import { NextResponse } from "next/server"
 import { auth } from "@/lib/auth"
 import { prisma } from "@/lib/prisma"
 import { QuestionDifficulty } from "@prisma/client"
+import { joinTags } from "@/lib/questions/tags"
 import ExcelJS from "exceljs"
 
 function isAdmin(role: string | undefined) {
@@ -84,8 +85,12 @@ export async function POST(req: Request) {
     curriculumCode: string
     subjectCode: string
     chapterName: string
+    topicCode: string
     year: string
     difficulty: string
+    paper: string
+    commandWord: string
+    skillTypes: string
     tags: string
     stemText: string
     stemLatex: string
@@ -112,8 +117,12 @@ export async function POST(req: Request) {
       curriculumCode: currCode,
       subjectCode: cell(row, "subject_code"),
       chapterName: cell(row, "chapter_name"),
+      topicCode: cell(row, "topic_code"),
       year: cell(row, "year"),
       difficulty: cell(row, "difficulty") || "MEDIUM",
+      paper: cell(row, "paper"),
+      commandWord: cell(row, "command_word"),
+      skillTypes: cell(row, "skill_types"),
       tags: cell(row, "tags"),
       stemText,
       stemLatex: cell(row, "stem_latex"),
@@ -160,6 +169,13 @@ export async function POST(req: Request) {
   const chapterByKey: Record<string, string> = {}
   for (const ch of allChapters) chapterByKey[`${ch.subjectId}::${ch.name}`] = ch.id
 
+  const allTopics = await prisma.topic.findMany({
+    where: { subjectId: { in: allSubjects.map((s) => s.id) } },
+    select: { id: true, code: true, subjectId: true },
+  })
+  const topicByKey: Record<string, string> = {}
+  for (const t of allTopics) topicByKey[`${t.subjectId}::${t.code.toUpperCase()}`] = t.id
+
   // ── Process rows ──────────────────────────────────────────────────────────
   const results: { index: number; id?: string; error?: string }[] = []
   const VALID_DIFFICULTIES = ["EASY", "MEDIUM", "HARD", "CHALLENGE"]
@@ -185,6 +201,9 @@ export async function POST(req: Request) {
 
     const chapterId = chapterByKey[`${subjectId}::${r.chapterName}`]
     if (!chapterId) { results.push({ index: idx, error: `Row ${r.rowNum}: Chapter '${r.chapterName}' not found in subject '${r.subjectCode}'` }); continue }
+
+    // Optional syllabus topic — unknown codes are ignored (left untagged).
+    const topicId = r.topicCode ? (topicByKey[`${subjectId}::${r.topicCode.toUpperCase()}`] ?? null) : null
 
     // Build content
     const stem = buildBlocks(r.stemText, r.stemLatex)
@@ -215,12 +234,20 @@ export async function POST(req: Request) {
 
     const explanation = buildBlocks(r.explanationText, r.explanationLatex)
 
-    // Build tags: year + comma-sep tags
-    const tags: string[] = []
-    if (r.year) tags.push(r.year)
+    // Build tags: structured facets (paper / command word / skills) namespaced,
+    // plus free tags (year + the free-text tags column).
+    const paperNum = r.paper ? parseInt(r.paper, 10) : NaN
+    const freeTags: string[] = []
+    if (r.year) freeTags.push(r.year)
     for (const t of r.tags.split(",").map((t) => t.trim()).filter(Boolean)) {
-      if (!tags.includes(t)) tags.push(t)
+      if (!freeTags.includes(t)) freeTags.push(t)
     }
+    const tags = joinTags({
+      paper: Number.isFinite(paperNum) && paperNum > 0 ? paperNum : null,
+      command: r.commandWord.trim().toLowerCase(),
+      skills: r.skillTypes.split(",").map((s) => s.trim().toLowerCase()).filter(Boolean),
+      free: freeTags,
+    })
 
     try {
       const yearInt = r.year ? parseInt(r.year, 10) : null
@@ -228,6 +255,7 @@ export async function POST(req: Request) {
         data: {
           subjectId,
           chapterId,
+          topicId,
           stem,
           explanation,
           difficulty,

@@ -166,10 +166,23 @@ export function SubjectsTab({ subjects, curricula, curriculumId }: Props) {
 
   const activeCurriculum = curricula.find((c) => c.id === curriculumId)
 
+  // Inactive subjects (e.g. no-MCQ ones) are hidden by default; toggle to manage them.
+  const [showInactive, setShowInactive] = useState(false)
+  const inactiveCount = subjects.filter((s) => !s.isActive).length
+  const visibleSubjects = showInactive ? subjects : subjects.filter((s) => s.isActive)
+
   return (
     <div className="space-y-4">
       {/* Header row */}
       <div className="flex flex-wrap items-center gap-3">
+        {inactiveCount > 0 && (
+          <button
+            onClick={() => setShowInactive((v) => !v)}
+            className="rounded-full border border-slate-200 px-3 py-1 text-xs font-semibold text-slate-600 transition hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
+          >
+            {showInactive ? "Hide inactive" : `Show inactive (${inactiveCount})`}
+          </button>
+        )}
         {/* Active filter chip */}
         {activeCurriculum && (
           <div className="flex items-center gap-1.5 rounded-full border border-lime-200 bg-lime-50 px-3 py-1 text-xs font-semibold text-lime-800 dark:border-lime-800/40 dark:bg-lime-950/20 dark:text-lime-400">
@@ -188,7 +201,7 @@ export function SubjectsTab({ subjects, curricula, curriculumId }: Props) {
       </div>
 
       {/* Table */}
-      {subjects.length === 0 ? (
+      {visibleSubjects.length === 0 ? (
         <div className="rounded-2xl border border-dashed border-slate-300 py-16 text-center text-sm text-slate-400 dark:border-slate-700">
           No subjects found{activeCurriculum ? ` for ${activeCurriculum.displayName}` : ""}. Add one to get started.
         </div>
@@ -210,7 +223,7 @@ export function SubjectsTab({ subjects, curricula, curriculumId }: Props) {
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-100 bg-white dark:divide-slate-800 dark:bg-slate-900">
-              {subjects.map((s) => (
+              {visibleSubjects.map((s) => (
                 <tr key={s.id} className="group hover:bg-slate-50 dark:hover:bg-slate-800/50">
                   <td className="px-4 py-3">
                     <span className="rounded-full bg-lime-100 px-2 py-0.5 text-[10px] font-black uppercase tracking-widest text-lime-800 dark:bg-lime-950/40 dark:text-lime-400">
