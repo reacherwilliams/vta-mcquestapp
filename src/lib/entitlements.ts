@@ -80,3 +80,69 @@ export async function getEntitledSubjectScope(userId: string, role?: string | nu
 export function scopeAllows(scope: string[] | null, subjectId: string): boolean {
   return scope === null || scope.includes(subjectId)
 }
+
+// ─── Trials ───────────────────────────────────────────────────────────────────
+// New students get a time-limited TRIAL enrollment for the subjects they pick
+// at signup. The trial length is SA-configurable.
+
+const TRIAL_KEY = "entitlement_trial"
+const DEFAULT_TRIAL_DAYS = 7
+
+export async function getTrialDays(): Promise<number> {
+  const row = await prisma.platformSetting.findUnique({ where: { key: TRIAL_KEY } })
+  const days = (row?.value as { days?: number } | undefined)?.days
+  return typeof days === "number" && days > 0 ? days : DEFAULT_TRIAL_DAYS
+}
+
+export async function setTrialDays(days: number, updatedById?: string): Promise<void> {
+  const clean = Math.max(1, Math.min(365, Math.round(days)))
+  await prisma.platformSetting.upsert({
+    where: { key: TRIAL_KEY },
+    create: { key: TRIAL_KEY, value: { days: clean }, updatedById: updatedById ?? null },
+    update: { value: { days: clean }, updatedById: updatedById ?? null },
+  })
+}
+
+/**
+ * Grant a TRIAL enrollment for each subject the student doesn't already hold one
+ * for. Idempotent: existing enrollments (trial/paid/comp) are left untouched, so
+ * re-running onboarding never resets or extends a trial. Returns the count newly
+ * granted.
+ */
+export async function grantTrialEnrollments(userId: string, subjectIds: string[]): Promise<number> {
+  if (!subjectIds.length) return 0
+  const existing = await prisma.enrollment.findMany({
+    where: { userId, subjectId: { in: subjectIds } },
+    select: { subjectId: true },
+  })
+  const have = new Set(existing.map((e) => e.subjectId))
+  const fresh = subjectIds.filter((id) => !have.has(id))
+  if (!fresh.length) return 0
+
+  const days = await getTrialDays()
+  const expiresAt = new Date(Date.now() + days * 24 * 60 * 60 * 1000)
+  await prisma.enrollment.createMany({
+    data: fresh.map((subjectId) => ({ userId, subjectId, status: "ACTIVE" as const, source: "TRIAL" as const, expiresAt })),
+    skipDuplicates: true,
+  })
+  return fresh.length
+}
+
+export type TrialStatus = { onTrial: boolean; daysLeft: number; expiresAt: Date | null }
+
+/**
+ * Trial summary for banners. `onTrial` is true while the student holds an
+ * active, unexpired TRIAL enrollment; daysLeft counts down to the SOONEST trial
+ * expiry so we can warn before access lapses.
+ */
+export async function getTrialStatus(userId: string): Promise<TrialStatus> {
+  const now = new Date()
+  const trial = await prisma.enrollment.findFirst({
+    where: { userId, status: "ACTIVE", source: "TRIAL", expiresAt: { gt: now } },
+    orderBy: { expiresAt: "asc" },
+    select: { expiresAt: true },
+  })
+  if (!trial?.expiresAt) return { onTrial: false, daysLeft: 0, expiresAt: null }
+  const daysLeft = Math.max(0, Math.ceil((trial.expiresAt.getTime() - now.getTime()) / (24 * 60 * 60 * 1000)))
+  return { onTrial: true, daysLeft, expiresAt: trial.expiresAt }
+}

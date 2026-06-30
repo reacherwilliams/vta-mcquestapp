@@ -3,6 +3,7 @@ import { redirect } from "next/navigation"
 import { auth } from "@/lib/auth"
 import { prisma } from "@/lib/prisma"
 import { levelProgress } from "@/lib/xp"
+import { getEntitledSubjectScope, getTrialStatus } from "@/lib/entitlements"
 import { cn } from "@/lib/utils"
 import { BottomNav } from "./BottomNav"
 
@@ -98,6 +99,15 @@ export default async function PracticeDashboard() {
   const plan = subscription?.plan ?? "FREE"
   const FREE_DAILY_LIMIT = 10
 
+  // Entitlement trial status. Only relevant when the gate actually restricts
+  // this user (scope !== null means they're gated, not exempt/grandfathered).
+  const [entitledScope, trial] = await Promise.all([
+    getEntitledSubjectScope(userId, session.user.role as string | undefined),
+    getTrialStatus(userId),
+  ])
+  const isGated = entitledScope !== null
+  const trialEnded = isGated && !trial.onTrial && entitledScope.length === 0
+
   const totalXp   = xpRows.reduce((s, r) => s + r.delta, 0)
   const todayXp   = todayXpRows.reduce((s, r) => s + r.delta, 0)
   const dailyGoal = prefs?.dailyXpGoal ?? 20
@@ -178,6 +188,34 @@ export default async function PracticeDashboard() {
 
       {/* Scrollable content */}
       <main className="mx-auto w-full max-w-2xl flex-1 space-y-6 px-6 py-6 pb-28 sm:px-10">
+
+        {/* Entitlement trial banner — shown only while the gate restricts this user */}
+        {isGated && trial.onTrial && (
+          <Link
+            href="/pricing"
+            className="flex items-center justify-between gap-3 rounded-2xl border border-lime-200 bg-lime-50 px-5 py-3.5 transition hover:bg-lime-100 dark:border-lime-800 dark:bg-lime-950/20 dark:hover:bg-lime-950/30"
+          >
+            <div>
+              <p className="text-sm font-bold text-lime-700 dark:text-lime-400">
+                {trial.daysLeft} {trial.daysLeft === 1 ? "day" : "days"} left in your free trial
+              </p>
+              <p className="text-xs text-lime-600 dark:text-lime-500">Subscribe to keep full access to your subjects</p>
+            </div>
+            <span className="shrink-0 rounded-full bg-lime-500 px-3 py-1 text-xs font-black text-white">Subscribe</span>
+          </Link>
+        )}
+        {trialEnded && (
+          <Link
+            href="/pricing"
+            className="flex items-center justify-between gap-3 rounded-2xl border border-rose-200 bg-rose-50 px-5 py-3.5 transition hover:bg-rose-100 dark:border-rose-800 dark:bg-rose-950/20 dark:hover:bg-rose-950/30"
+          >
+            <div>
+              <p className="text-sm font-bold text-rose-700 dark:text-rose-400">Your free trial has ended</p>
+              <p className="text-xs text-rose-600 dark:text-rose-500">Subscribe to unlock your subjects again</p>
+            </div>
+            <span className="shrink-0 rounded-full bg-rose-500 px-3 py-1 text-xs font-black text-white">Subscribe</span>
+          </Link>
+        )}
 
         {/* Free-tier daily limit banner */}
         {plan === "FREE" && todayAttemptCount >= FREE_DAILY_LIMIT && (

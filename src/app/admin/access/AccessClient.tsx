@@ -29,11 +29,32 @@ type Lookup = {
 
 const SOURCES = ["TRIAL", "PAID", "COMP"] as const
 
-export function AccessClient({ initialGate }: { initialGate: Gate }) {
+export function AccessClient({ initialGate, initialTrialDays }: { initialGate: Gate; initialTrialDays: number }) {
   // ── Gate ──────────────────────────────────────────────────────────────────
   const [gate, setGate] = useState<Gate>(initialGate)
   const [savingGate, setSavingGate] = useState(false)
   const [gateMsg, setGateMsg] = useState<string | null>(null)
+
+  // ── Trial length ────────────────────────────────────────────────────────────
+  const [trialDays, setTrialDays] = useState<number>(initialTrialDays)
+  const [savingTrial, setSavingTrial] = useState(false)
+  const [trialMsg, setTrialMsg] = useState<string | null>(null)
+
+  async function saveTrial() {
+    setSavingTrial(true)
+    setTrialMsg(null)
+    try {
+      const res = await fetch("/api/admin/access/trial", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ days: trialDays }),
+      })
+      const data = await res.json()
+      if (!res.ok) { setTrialMsg(data.error ?? "Failed to save."); return }
+      setTrialDays(data.days)
+      setTrialMsg("Saved.")
+    } finally { setSavingTrial(false) }
+  }
 
   async function saveGate(next: Gate) {
     setSavingGate(true)
@@ -172,6 +193,30 @@ export function AccessClient({ initialGate }: { initialGate: Gate }) {
           </div>
         </div>
         {gateMsg && <p className="mt-3 text-xs text-slate-400">{gateMsg}</p>}
+      </section>
+
+      {/* ── Free trial length ────────────────────────────────────────────── */}
+      <section className="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900">
+        <h2 className="text-sm font-bold text-slate-800 dark:text-slate-100">Free trial length</h2>
+        <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400">
+          New students get a trial of this length for the subjects they pick at signup.
+        </p>
+        <div className="mt-3 flex items-center gap-2">
+          <input
+            type="number"
+            min={1}
+            max={365}
+            value={trialDays}
+            onChange={(e) => setTrialDays(Number(e.target.value))}
+            className="w-20 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300"
+          />
+          <span className="text-sm text-slate-500">days</span>
+          <button onClick={saveTrial} disabled={savingTrial || trialDays < 1}
+            className="ml-2 rounded-lg bg-slate-800 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-700 disabled:opacity-50 dark:bg-slate-700">
+            {savingTrial ? "Saving…" : "Save"}
+          </button>
+          {trialMsg && <span className="text-xs text-slate-400">{trialMsg}</span>}
+        </div>
       </section>
 
       {/* ── Per-student enrollments ──────────────────────────────────────── */}

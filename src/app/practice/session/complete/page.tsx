@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { resolveAccent, ACCENTS } from "@/lib/accents"
+import { auth } from "@/lib/auth"
 import { cn } from "@/lib/utils"
 
 export const metadata = { title: "All done!" }
@@ -18,6 +19,9 @@ export default async function CompletePage({ searchParams }: { searchParams: Sea
   const styleKey = resolveStyle(style)
   const accentKey = resolveAccent(accent)
   const theme = ACCENTS[accentKey]
+
+  const session = await auth()
+  const isGuest = !session?.user?.id
 
   const filterHref = `/practice/filter?style=${styleKey}&accent=${accentKey}`
 
@@ -65,6 +69,28 @@ export default async function CompletePage({ searchParams }: { searchParams: Sea
             Choose a different topic
           </Link>
         </div>
+
+        {/* Guest conversion: register to unlock the real bank + persistent mistake retries */}
+        {isGuest && (
+          <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5 text-left dark:border-slate-800 dark:bg-slate-900">
+            <p className="text-sm font-bold text-slate-800 dark:text-slate-100">Liked that? Make it count.</p>
+            <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
+              Create a free account to unlock the full question bank, track your progress, and have every
+              question you get wrong saved so you can retry your mistakes anytime.
+            </p>
+            <div className="mt-3 flex items-center gap-3">
+              <Link
+                href="/register"
+                className="rounded-xl bg-lime-500 px-4 py-2 text-xs font-black uppercase tracking-widest text-slate-900 transition hover:bg-lime-400"
+              >
+                Create free account
+              </Link>
+              <Link href="/login" className="text-xs font-semibold text-slate-500 hover:text-slate-700 dark:hover:text-slate-300">
+                I already have one
+              </Link>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )

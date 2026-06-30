@@ -2,6 +2,7 @@ import "server-only"
 import { NextResponse } from "next/server"
 import { auth } from "@/lib/auth"
 import { prisma } from "@/lib/prisma"
+import { grantTrialEnrollments } from "@/lib/entitlements"
 
 export async function POST(req: Request) {
   const session = await auth()
@@ -65,5 +66,11 @@ export async function POST(req: Request) {
     update: {},
   })
 
-  return NextResponse.json({ ok: true })
+  // Start the free trial: grant a time-limited TRIAL enrollment for each chosen
+  // subject (idempotent — won't reset an existing trial or paid access). Created
+  // regardless of whether the entitlement gate is on yet, so access is ready the
+  // moment it's switched on.
+  const trialsGranted = await grantTrialEnrollments(userId, enabledSubjectIds)
+
+  return NextResponse.json({ ok: true, trialsGranted })
 }
