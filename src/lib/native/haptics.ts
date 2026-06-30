@@ -1,13 +1,15 @@
 "use client"
 
-type ImpactStyle = "Light" | "Medium" | "Heavy"
-type NotificationType = "Success" | "Warning" | "Error"
-
 let _haptics: typeof import("@capacitor/haptics").Haptics | null = null
 
+// Resolve the Haptics plugin ONLY on a native platform. On web the plugin
+// throws ("not implemented on web"), so we no-op there instead — otherwise the
+// rejection escapes as an unhandledRejection in the browser console.
 async function getHaptics() {
   if (_haptics) return _haptics
   try {
+    const { Capacitor } = await import("@capacitor/core")
+    if (!Capacitor.isNativePlatform()) return null
     const { Haptics } = await import("@capacitor/haptics")
     _haptics = Haptics
     return _haptics
