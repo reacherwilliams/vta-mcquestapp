@@ -140,8 +140,8 @@ export type ProfitShareConfig = { beneficiaries: ProfitBeneficiary[] }
 
 const DEFAULT_PROFIT_SHARE: ProfitShareConfig = {
   beneficiaries: [
-    { label: "Reacher", pct: 30, email: "reacher.williams@mcq-masterloop.com" },
-    { label: "Jayesh", pct: 30, email: "jayesh.patole@mcq-masterloop.com" },
+    { label: "Reacher Williams", pct: 30, email: "reacher.williams@mcq-masterloop.com" },
+    { label: "Jayesh Patole", pct: 30, email: "jayesh.patole@mcq-masterloop.com" },
     { label: "VantageTech Apps, LLC", pct: 30, email: null },
     { label: "Ministry / Tithe", pct: 10, email: null },
   ],
