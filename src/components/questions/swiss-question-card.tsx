@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { useMemo, useState } from "react"
+import { useMemo, useState, type ReactNode } from "react"
 import { cn } from "@/lib/utils"
 import type { DemoQuestion } from "@/lib/questions/demo-data"
 import { ACCENTS, type Accent } from "@/lib/accents"
@@ -22,9 +22,15 @@ type Props = {
   wrongHref?: string
   onAnswered?: (isRight: boolean, confidence?: Confidence) => void
   accent?: Accent
+  // QA/test mode: skip the confidence tap and reveal the answer immediately on submit.
+  hideConfidence?: boolean
+  // Replaces the post-reveal Exit/Continue row (used by the admin QA queue for Pass/Send-back).
+  revealFooter?: ReactNode
+  // When set, the pre-reveal "Exit" calls this instead of navigating to the landing page.
+  onExit?: () => void
 }
 
-export function SwissQuestionCard({ question, currentIndex, total, nextHref, wrongHref, onAnswered, accent = "lime" }: Props) {
+export function SwissQuestionCard({ question, currentIndex, total, nextHref, wrongHref, onAnswered, accent = "lime", hideConfidence, revealFooter, onExit }: Props) {
   const theme = ACCENTS[accent]
   const [selectedIds, setSelectedIds] = useState(() => new Set<string>())
   const [submitted, setSubmitted] = useState(false)
@@ -59,13 +65,7 @@ export function SwissQuestionCard({ question, currentIndex, total, nextHref, wro
     })
   }
 
-  function submit() {
-    if (!selectedIds.size || submitted) return
-    // Just lock in the answer + ask for confidence — no correctness cue yet.
-    setSubmitted(true)
-  }
-
-  function pickConfidence(c: Confidence | undefined) {
+  function reveal(c: Confidence | undefined) {
     if (revealed) return
     setRevealed(true)
     const right =
@@ -73,6 +73,17 @@ export function SwissQuestionCard({ question, currentIndex, total, nextHref, wro
       [...selectedIds].every((id) => correctIds.has(id))
     if (right) notifySuccess(); else notifyError()
     onAnswered?.(right, c)
+  }
+
+  function submit() {
+    if (!selectedIds.size || submitted) return
+    setSubmitted(true)
+    // In QA/test mode there's no confidence step — reveal straight away.
+    if (hideConfidence) reveal(undefined)
+  }
+
+  function pickConfidence(c: Confidence | undefined) {
+    reveal(c)
   }
 
   const isRight =
@@ -212,12 +223,22 @@ export function SwissQuestionCard({ question, currentIndex, total, nextHref, wro
                 </p>
               )}
               <div className="flex items-center justify-between gap-4">
-                <Link
-                  href="/"
-                  className="text-[11px] font-medium uppercase tracking-[0.18em] text-slate-400 hover:text-slate-700 dark:hover:text-slate-200"
-                >
-                  ← Exit
-                </Link>
+                {onExit ? (
+                  <button
+                    type="button"
+                    onClick={onExit}
+                    className="text-[11px] font-medium uppercase tracking-[0.18em] text-slate-400 hover:text-slate-700 dark:hover:text-slate-200"
+                  >
+                    ← Exit
+                  </button>
+                ) : (
+                  <Link
+                    href="/"
+                    className="text-[11px] font-medium uppercase tracking-[0.18em] text-slate-400 hover:text-slate-700 dark:hover:text-slate-200"
+                  >
+                    ← Exit
+                  </Link>
+                )}
                 <button
                   type="button"
                   onClick={submit}
@@ -293,20 +314,22 @@ export function SwissQuestionCard({ question, currentIndex, total, nextHref, wro
                       )}
                     </div>
                   </div>
-                  <div className="flex items-center justify-between">
-                    <Link href="/" className="text-[11px] font-medium uppercase tracking-[0.18em] text-slate-400 hover:text-slate-700 dark:hover:text-slate-200">← Exit</Link>
-                    <Link
-                      href={isRight ? nextHref : (wrongHref ?? nextHref)}
-                      className={cn(
-                        "border-b-2 border-current pb-0.5 text-sm font-semibold uppercase tracking-[0.18em] transition",
-                        isRight
-                          ? "text-emerald-700 hover:text-emerald-900 dark:text-emerald-300 dark:hover:text-emerald-100"
-                          : "text-rose-700 hover:text-rose-900 dark:text-rose-300 dark:hover:text-rose-100",
-                      )}
-                    >
-                      Continue →
-                    </Link>
-                  </div>
+                  {revealFooter ?? (
+                    <div className="flex items-center justify-between">
+                      <Link href="/" className="text-[11px] font-medium uppercase tracking-[0.18em] text-slate-400 hover:text-slate-700 dark:hover:text-slate-200">← Exit</Link>
+                      <Link
+                        href={isRight ? nextHref : (wrongHref ?? nextHref)}
+                        className={cn(
+                          "border-b-2 border-current pb-0.5 text-sm font-semibold uppercase tracking-[0.18em] transition",
+                          isRight
+                            ? "text-emerald-700 hover:text-emerald-900 dark:text-emerald-300 dark:hover:text-emerald-100"
+                            : "text-rose-700 hover:text-rose-900 dark:text-rose-300 dark:hover:text-rose-100",
+                        )}
+                      >
+                        Continue →
+                      </Link>
+                    </div>
+                  )}
                 </>
               )}
             </div>

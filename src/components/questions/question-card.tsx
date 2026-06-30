@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { useMemo, useState } from "react"
+import { useMemo, useState, type ReactNode } from "react"
 import { cn } from "@/lib/utils"
 import type { DemoQuestion } from "@/lib/questions/demo-data"
 import { ACCENTS, type Accent } from "@/lib/accents"
@@ -22,9 +22,13 @@ type Props = {
   wrongHref?: string
   onAnswered?: (isRight: boolean, confidence?: Confidence) => void
   accent?: Accent
+  // QA/test mode: skip the confidence tap and reveal the answer immediately on submit.
+  hideConfidence?: boolean
+  // Replaces the post-reveal Continue button (used by the admin QA queue for Pass/Send-back).
+  revealFooter?: ReactNode
 }
 
-export function QuestionCard({ question, currentIndex, total, nextHref, wrongHref, onAnswered, accent = "lime" }: Props) {
+export function QuestionCard({ question, currentIndex, total, nextHref, wrongHref, onAnswered, accent = "lime", hideConfidence, revealFooter }: Props) {
   const theme = ACCENTS[accent]
   const [selectedIds, setSelectedIds] = useState(() => new Set<string>())
   const [submitted, setSubmitted] = useState(false)
@@ -58,13 +62,7 @@ export function QuestionCard({ question, currentIndex, total, nextHref, wrongHre
     })
   }
 
-  function submit() {
-    if (!selectedIds.size || submitted) return
-    // Lock in the answer + ask confidence — no correctness cue yet.
-    setSubmitted(true)
-  }
-
-  function pickConfidence(c: Confidence | undefined) {
+  function reveal(c: Confidence | undefined) {
     if (revealed) return
     setRevealed(true)
     const right =
@@ -72,6 +70,17 @@ export function QuestionCard({ question, currentIndex, total, nextHref, wrongHre
       [...selectedIds].every((id) => correctIds.has(id))
     if (right) notifySuccess(); else notifyError()
     onAnswered?.(right, c)
+  }
+
+  function submit() {
+    if (!selectedIds.size || submitted) return
+    setSubmitted(true)
+    // In QA/test mode there's no confidence step — reveal straight away.
+    if (hideConfidence) reveal(undefined)
+  }
+
+  function pickConfidence(c: Confidence | undefined) {
+    reveal(c)
   }
 
   const isRight =
@@ -278,17 +287,19 @@ export function QuestionCard({ question, currentIndex, total, nextHref, wrongHre
                   >
                     {isRight ? "Nailed it!" : "Not quite."}
                   </h2>
-                  <Link
-                    href={isRight ? nextHref : (wrongHref ?? nextHref)}
-                    className={cn(
-                      "rounded-2xl border-b-4 px-8 py-3 text-sm font-extrabold uppercase tracking-widest text-white transition active:translate-y-px active:border-b-2",
-                      isRight
-                        ? "border-emerald-700 bg-emerald-500 hover:bg-emerald-400"
-                        : "border-rose-700 bg-rose-500 hover:bg-rose-400",
-                    )}
-                  >
-                    Continue →
-                  </Link>
+                  {revealFooter ?? (
+                    <Link
+                      href={isRight ? nextHref : (wrongHref ?? nextHref)}
+                      className={cn(
+                        "rounded-2xl border-b-4 px-8 py-3 text-sm font-extrabold uppercase tracking-widest text-white transition active:translate-y-px active:border-b-2",
+                        isRight
+                          ? "border-emerald-700 bg-emerald-500 hover:bg-emerald-400"
+                          : "border-rose-700 bg-rose-500 hover:bg-rose-400",
+                      )}
+                    >
+                      Continue →
+                    </Link>
+                  )}
                 </div>
               )}
 
