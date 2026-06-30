@@ -16,6 +16,7 @@ type Subject = {
   id: string
   name: string
   code: string
+  syllabusCode?: string | null
   curriculumId: string
   curriculum: { code: string; displayName: string }
 }
@@ -646,7 +647,7 @@ export function QuestionEditor({ mode, questionId, initial, subjects, initialCha
                 <option value="">Select subject…</option>
                 {subjects
                   .filter((s) => !curriculumFilter || s.curriculumId === curriculumFilter)
-                  .map((s) => <option key={s.id} value={s.id}>{s.name}{s.code ? ` · ${s.code}` : ""}</option>)
+                  .map((s) => <option key={s.id} value={s.id}>{s.name}{(s.syllabusCode ?? s.code) ? ` · ${s.syllabusCode ?? s.code}` : ""}</option>)
                 }
               </select>
             </div>

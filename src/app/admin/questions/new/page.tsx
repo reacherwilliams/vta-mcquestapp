@@ -7,7 +7,7 @@ export default async function NewQuestionPage() {
   const subjects = await prisma.subject.findMany({
     where: { isActive: true },
     select: {
-      id: true, name: true, code: true, curriculumId: true,
+      id: true, name: true, code: true, syllabusCode: true, curriculumId: true,
       curriculum: { select: { code: true, displayName: true } },
     },
     orderBy: [{ curriculum: { sortOrder: "asc" } }, { name: "asc" }],

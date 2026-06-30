@@ -60,7 +60,11 @@ model ExamCalendarEntry {
 model Subject {
   id           String     @id @default(cuid())
   curriculumId String
-  code         String // e.g. "PHY", "MATH", "BIO"
+  code         String // internal short code, e.g. "PHY", "MATH", "BIO"
+  // CAIE syllabus number tied to the curriculum, e.g. "9700" (A-Level Biology),
+  // "0610" (IGCSE Biology), "0625" (IGCSE Physics). Null for non-Cambridge
+  // curricula (IB / AP) which don't use these codes.
+  syllabusCode String?
   name         String
   description  String?
   iconKey      String? // lucide icon name for the picker grid

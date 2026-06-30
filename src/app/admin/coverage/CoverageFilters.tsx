@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation"
 
-type Subject = { id: string; name: string; code: string; curriculumId: string }
+type Subject = { id: string; name: string; code: string; syllabusCode?: string | null; curriculumId: string }
 type Curriculum = { id: string; code: string; displayName: string }
 
 // Curriculum → Subject cascade for the coverage page. Mirrors the editor / QA
@@ -46,7 +46,7 @@ export function CoverageFilters({
         <label className="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">Subject</label>
         <select value={subjectId} onChange={(e) => go({ subjectId: e.target.value })} className={cls}>
           {visibleSubjects.map((s) => (
-            <option key={s.id} value={s.id}>{s.name}{s.code ? ` · ${s.code}` : ""}</option>
+            <option key={s.id} value={s.id}>{s.name}{(s.syllabusCode ?? s.code) ? ` · ${s.syllabusCode ?? s.code}` : ""}</option>
           ))}
         </select>
       </div>

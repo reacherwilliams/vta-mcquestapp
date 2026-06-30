@@ -54,22 +54,22 @@ async function main() {
 
   // ── Subjects ──────────────────────────────────────────────────────────────────
   const subjects = await Promise.all([
-    // IGCSE
-    upsertSubject(igcse.id, "MATH", "Mathematics", "calculator", "#16a34a", 1),
-    upsertSubject(igcse.id, "PHY",  "Physics",     "atom",       "#0284c7", 2),
-    upsertSubject(igcse.id, "BIO",  "Biology",     "leaf",       "#15803d", 3),
-    upsertSubject(igcse.id, "CHEM", "Chemistry",   "flask-conical", "#9333ea", 4),
-    upsertSubject(igcse.id, "ENG",  "English Language", "book-open", "#b45309", 5),
-    // AS Level
-    upsertSubject(as.id, "MATH", "Mathematics", "calculator", "#16a34a", 1),
-    upsertSubject(as.id, "PHY",  "Physics",     "atom",       "#0284c7", 2),
-    upsertSubject(as.id, "BIO",  "Biology",     "leaf",       "#15803d", 3),
-    upsertSubject(as.id, "CHEM", "Chemistry",   "flask-conical", "#9333ea", 4),
-    // A2 Level
-    upsertSubject(a2.id, "MATH", "Mathematics", "calculator", "#16a34a", 1),
-    upsertSubject(a2.id, "PHY",  "Physics",     "atom",       "#0284c7", 2),
-    upsertSubject(a2.id, "BIO",  "Biology",     "leaf",       "#15803d", 3),
-    upsertSubject(a2.id, "CHEM", "Chemistry",   "flask-conical", "#9333ea", 4),
+    // IGCSE — CAIE syllabus codes
+    upsertSubject(igcse.id, "MATH", "Mathematics", "calculator", "#16a34a", 1, false, "0580"),
+    upsertSubject(igcse.id, "PHY",  "Physics",     "atom",       "#0284c7", 2, false, "0625"),
+    upsertSubject(igcse.id, "BIO",  "Biology",     "leaf",       "#15803d", 3, false, "0610"),
+    upsertSubject(igcse.id, "CHEM", "Chemistry",   "flask-conical", "#9333ea", 4, false, "0620"),
+    upsertSubject(igcse.id, "ENG",  "English Language", "book-open", "#b45309", 5, false, "0500"),
+    // AS Level — share the A-Level syllabus code
+    upsertSubject(as.id, "MATH", "Mathematics", "calculator", "#16a34a", 1, false, "9709"),
+    upsertSubject(as.id, "PHY",  "Physics",     "atom",       "#0284c7", 2, false, "9702"),
+    upsertSubject(as.id, "BIO",  "Biology",     "leaf",       "#15803d", 3, false, "9700"),
+    upsertSubject(as.id, "CHEM", "Chemistry",   "flask-conical", "#9333ea", 4, false, "9701"),
+    // A2 Level — same A-Level syllabus code as AS
+    upsertSubject(a2.id, "MATH", "Mathematics", "calculator", "#16a34a", 1, false, "9709"),
+    upsertSubject(a2.id, "PHY",  "Physics",     "atom",       "#0284c7", 2, false, "9702"),
+    upsertSubject(a2.id, "BIO",  "Biology",     "leaf",       "#15803d", 3, false, "9700"),
+    upsertSubject(a2.id, "CHEM", "Chemistry",   "flask-conical", "#9333ea", 4, false, "9701"),
     // IB DP
     upsertSubject(ib.id, "MATH_AA", "Mathematics AA", "calculator", "#16a34a", 1),
     upsertSubject(ib.id, "MATH_AI", "Mathematics AI", "calculator", "#15803d", 2),
@@ -772,11 +772,12 @@ async function upsertSubject(
   accentColor: string,
   sortOrder: number,
   hasFrq = false,
+  syllabusCode: string | null = null,
 ) {
   return prisma.subject.upsert({
     where: { curriculumId_code: { curriculumId, code } },
-    update: { hasFrq },
-    create: { curriculumId, code, name, iconKey, accentColor, sortOrder, hasFrq },
+    update: { hasFrq, syllabusCode },
+    create: { curriculumId, code, name, iconKey, accentColor, sortOrder, hasFrq, syllabusCode },
   })
 }
 

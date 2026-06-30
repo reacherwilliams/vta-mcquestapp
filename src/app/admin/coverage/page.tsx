@@ -23,7 +23,7 @@ export default async function CoveragePage({ searchParams }: { searchParams: Sea
   const [allSubjects, curricula] = await Promise.all([
     prisma.subject.findMany({
       where: { isActive: true },
-      select: { id: true, name: true, code: true, curriculum: { select: { id: true, code: true, displayName: true, sortOrder: true } } },
+      select: { id: true, name: true, code: true, syllabusCode: true, curriculum: { select: { id: true, code: true, displayName: true, sortOrder: true } } },
       orderBy: [{ curriculum: { sortOrder: "asc" } }, { name: "asc" }],
     }),
     prisma.curriculum.findMany({
@@ -133,7 +133,7 @@ export default async function CoveragePage({ searchParams }: { searchParams: Sea
       {/* Curriculum → Subject cascade */}
       <CoverageFilters
         curricula={curricula}
-        subjects={allSubjects.map((s) => ({ id: s.id, name: s.name, code: s.code, curriculumId: s.curriculum.id }))}
+        subjects={allSubjects.map((s) => ({ id: s.id, name: s.name, code: s.code, syllabusCode: s.syllabusCode, curriculumId: s.curriculum.id }))}
         curriculumId={curriculumId}
         subjectId={subjectId}
       />
