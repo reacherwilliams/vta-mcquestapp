@@ -1,0 +1,2767 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Precalculus",
+  "source": "school-core:AP-PRECALC@Effective Fall 2023",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: Polynomial and Rational Functions",
+      "level": 1,
+      "examWeight": 30,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: Exponential and Logarithmic Functions",
+      "level": 1,
+      "examWeight": 27,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: Trigonometric and Polar Functions",
+      "level": 1,
+      "examWeight": 30,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: Unit 4",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "Change in Arithmetic and Geometric Sequences",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "Parametric Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Change in Tandem",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "Periodic Phenomena",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "3.2",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "Parametric Functions Modeling Planar Motion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "Rates of Change",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "Change in Linear and Exponential Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "Rates of Change in Linear and Quadratic Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "Sine and Cosine Function Values",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "Parametric Functions and Rates of Change",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "Exponential Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Exponential Function Manipulation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "3.4",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "Polynomial Functions and Rates of Change",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "Parametrically Defined Circles and Lines",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.5",
+      "parentCode": "Unit 4",
+      "title": "Implicitly Defined Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "Sinusoidal Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "Exponential Function Context and Data Modeling",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "Polynomial Functions and Complex Zeros",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.6",
+      "parentCode": "Unit 1",
+      "title": "Polynomial Functions and End Behavior",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.6",
+      "parentCode": "Unit 4",
+      "title": "Conic Sections",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.6",
+      "parentCode": "Unit 3",
+      "title": "Sinusoidal Function Transformations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "Competing Function Model Validation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.7",
+      "parentCode": "Unit 3",
+      "title": "Sinusoidal Function Modeling",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.7",
+      "parentCode": "Unit 4",
+      "title": "Parametrization of Implicitly Defined Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.7",
+      "parentCode": "Unit 1",
+      "title": "1.7",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "Composition of Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.8",
+      "parentCode": "Unit 3",
+      "title": "The Tangent Function",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.8",
+      "parentCode": "Unit 2",
+      "title": "Inverse Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.8",
+      "parentCode": "Unit 1",
+      "title": "Rational Functions and Zeros",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.8",
+      "parentCode": "Unit 4",
+      "title": "Vectors",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.9",
+      "parentCode": "Unit 2",
+      "title": "Logarithmic Expressions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.9",
+      "parentCode": "Unit 4",
+      "title": "Vector-Valued Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "3.9",
+      "parentCode": "Unit 3",
+      "title": "Inverse Trigonometric Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.9",
+      "parentCode": "Unit 1",
+      "title": "Rational Functions and Vertical Asymptotes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.10",
+      "parentCode": "Unit 1",
+      "title": "Rational Functions and Holes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "2.10",
+      "parentCode": "Unit 2",
+      "title": "Inverses of Exponential Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "3.10",
+      "parentCode": "Unit 3",
+      "title": "Trigonometric Equations and Inequalities",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "4.10",
+      "parentCode": "Unit 4",
+      "title": "Matrices",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "2.11",
+      "parentCode": "Unit 2",
+      "title": "Logarithmic Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "3.11",
+      "parentCode": "Unit 3",
+      "title": "The Secant, Cosecant, and Cotangent Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "4.11",
+      "parentCode": "Unit 4",
+      "title": "The Inverse and Determinant of a Matrix",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "1.11",
+      "parentCode": "Unit 1",
+      "title": "Equivalent Representations of Polynomial and Rational Expressions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "3.12",
+      "parentCode": "Unit 3",
+      "title": "Equivalent Representations of Trigonometric Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "2.12",
+      "parentCode": "Unit 2",
+      "title": "Logarithmic Function Manipulation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "1.12",
+      "parentCode": "Unit 1",
+      "title": "Transformations of Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "4.12",
+      "parentCode": "Unit 4",
+      "title": "Linear Transformations and Matrices",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "3.13",
+      "parentCode": "Unit 3",
+      "title": "Trigonometry and Polar Coordinates",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "2.13",
+      "parentCode": "Unit 2",
+      "title": "Exponential and Logarithmic Equations and Inequalities",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "1.13",
+      "parentCode": "Unit 1",
+      "title": "Function Model Selection and Assumption Articulation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "4.13",
+      "parentCode": "Unit 4",
+      "title": "Matrices as Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "4.14",
+      "parentCode": "Unit 4",
+      "title": "Matrices Modeling",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "1.14",
+      "parentCode": "Unit 1",
+      "title": "Function Model Construction and Application",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "3.14",
+      "parentCode": "Unit 3",
+      "title": "Polar Function Graphs",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "2.14",
+      "parentCode": "Unit 2",
+      "title": "Logarithmic Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "2.15",
+      "parentCode": "Unit 2",
+      "title": "Semi-log Plots",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "3.15",
+      "parentCode": "Unit 3",
+      "title": "Rates of Change in Polar Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "2.12.A.1",
+      "parentCode": "2.12",
+      "title": "Product property: logarithm of product equals sum of logarithms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1.A.1",
+      "parentCode": "3.1",
+      "title": "Periodic relationships show repeating output patterns at equal input intervals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.8.A.1",
+      "parentCode": "2.8",
+      "title": "Function is invertible if each output maps from exactly one input.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.15.A.1",
+      "parentCode": "2.15",
+      "title": "Semi-log plots with logarithmic y-axis linearize exponential data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.14.A.1",
+      "parentCode": "2.14",
+      "title": "Logarithmic functions are exponential inverses modeling proportional growth or repeated multiplication.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.9.A.1",
+      "parentCode": "2.9",
+      "title": "Logarithm logb c equals the exponent a such that b^a = c.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.10.A.1",
+      "parentCode": "2.10",
+      "title": "Logarithmic functions have form f(x) = a log_b x with restricted parameters.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.13.A.1",
+      "parentCode": "2.13",
+      "title": "Exponent and logarithm properties solve exponential and logarithmic equations and inequalities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.11.A.1",
+      "parentCode": "2.11",
+      "title": "Logarithmic functions have domain x > 0 and range of all reals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1.A.1",
+      "parentCode": "1.1",
+      "title": "Function maps inputs to outputs; domain and range defined by independent/dependent variables.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2.A.1",
+      "parentCode": "1.2",
+      "title": "Average rate of change equals the ratio of output change to input change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.13.A.1",
+      "parentCode": "4.13",
+      "title": "Linear transformations correspond to matrices with specific coefficient arrangements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.3.A.1",
+      "parentCode": "1.3",
+      "title": "Linear functions have constant average rates of change over any interval.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.12.A.1",
+      "parentCode": "4.12",
+      "title": "Linear transformations map input vectors to output vectors via constant multiples.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.11.A.1",
+      "parentCode": "4.11",
+      "title": "Identity matrix has ones on diagonal, zeros elsewhere.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.4.A.1",
+      "parentCode": "1.4",
+      "title": "Polynomial functions have form p(x) = anx^n + ... + a0 with degree n and leading coefficient an.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.5.A.1",
+      "parentCode": "1.5",
+      "title": "Complex zeros of p satisfy p(a) = 0; real zeros correspond to linear factors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.9.A.1",
+      "parentCode": "4.9",
+      "title": "Position vectors represent planar motion; magnitude equals distance from origin.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.8.A.1",
+      "parentCode": "4.8",
+      "title": "Vector is directed line segment with tail, head, and magnitude.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.14.A.1",
+      "parentCode": "4.14",
+      "title": "Construct transition matrices from percent change rates in contextual scenarios.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.6.A.1",
+      "parentCode": "1.6",
+      "title": "Polynomial outputs increase or decrease without bound as inputs approach positive infinity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.8.A.1",
+      "parentCode": "1.8",
+      "title": "Rational function zeros equal numerator zeros within the domain.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.9.A.1",
+      "parentCode": "1.9",
+      "title": "Vertical asymptotes occur where denominator zeros exceed numerator zeros.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.10.A.1",
+      "parentCode": "1.10",
+      "title": "Holes occur when numerator zero multiplicity exceeds denominator multiplicity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.11.A.1",
+      "parentCode": "1.11",
+      "title": "Factored form reveals zeros, intercepts, asymptotes, holes, domain, range.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.7.A.1",
+      "parentCode": "4.7",
+      "title": "Parametric equations satisfy the original implicit equation for all parameter values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.6.A.1",
+      "parentCode": "4.6",
+      "title": "Parabolas with vertex (h,k) have vertex form based on orientation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.12.A.1",
+      "parentCode": "1.12",
+      "title": "Adding constant k to function vertically translates graph by k units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.5.A.1",
+      "parentCode": "4.5",
+      "title": "Equations with two variables can implicitly define one or more functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.13.A.1",
+      "parentCode": "1.13",
+      "title": "Linear functions model scenarios with roughly constant rates of change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.4.A.1",
+      "parentCode": "4.4",
+      "title": "Unit circle motion modeled parametrically using cosine and sine functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.3.A.1",
+      "parentCode": "4.3",
+      "title": "Direction of parametric motion determined by increasing or decreasing x and y components.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.2.A.1",
+      "parentCode": "4.2",
+      "title": "Parametric functions model particle position in the plane over time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1.A.1",
+      "parentCode": "4.1",
+      "title": "Parametric functions consist of two equations where x and y depend on parameter t.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.14.A.1",
+      "parentCode": "1.14",
+      "title": "Models constructed using restrictions from mathematical or contextual scenarios.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.15.A.1",
+      "parentCode": "3.15",
+      "title": "Positive increasing or negative decreasing functions increase distance from origin.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.14.A.1",
+      "parentCode": "3.14",
+      "title": "Polar function graphs pair angle measures as inputs with radii as outputs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1.A.1",
+      "parentCode": "2.1",
+      "title": "Sequences are functions with discrete point graphs, not continuous curves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.13.A.1",
+      "parentCode": "3.13",
+      "title": "Polar coordinates use radius and angle to locate points; multiple representations exist.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.2.A.1",
+      "parentCode": "2.2",
+      "title": "Linear functions and arithmetic sequences both use initial value plus repeated constant addition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.12.A.1",
+      "parentCode": "3.12",
+      "title": "Pythagorean identity sin² θ + cos² θ = 1 derives from unit circle coordinates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.11.A.1",
+      "parentCode": "3.11",
+      "title": "Secant is the reciprocal of cosine when cosine is nonzero.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.10.A.1",
+      "parentCode": "3.10",
+      "title": "Inverse trigonometric functions solve trig equations; adjust for domain restrictions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.3.A.1",
+      "parentCode": "2.3",
+      "title": "Exponential functions have form f(x) = ab^x with growth or decay conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.10.A.1",
+      "parentCode": "4.10",
+      "title": "Matrix defined as rectangular array with n rows and m columns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.4.A.1",
+      "parentCode": "2.4",
+      "title": "Product property shows horizontal translations equal vertical dilations in exponentials.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.9.A.1",
+      "parentCode": "3.9",
+      "title": "Inverse trig functions swap inputs and outputs; outputs represent angles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.5.A.1",
+      "parentCode": "2.5",
+      "title": "Exponential functions model proportional growth through repeated multiplication.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.8.A.1",
+      "parentCode": "3.8",
+      "title": "Tangent function equals the slope of the terminal ray on unit circle.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.7.A.1",
+      "parentCode": "3.7",
+      "title": "Interval between consecutive extrema determines period and frequency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.6.A.1",
+      "parentCode": "3.6",
+      "title": "Sinusoidal functions are sine or cosine transformations with parameters a, b, c, d.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.6.A.1",
+      "parentCode": "2.6",
+      "title": "Linear, quadratic, and exponential models fit data with changing rates of change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.7.A.1",
+      "parentCode": "2.7",
+      "title": "Composite function f ○ g uses g's outputs as f's inputs, restricting domain accordingly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.5.A.1",
+      "parentCode": "3.5",
+      "title": "Sinusoidal functions involve sine and cosine transformations; cosine is shifted sine.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.3.A.1",
+      "parentCode": "3.3",
+      "title": "Point on circle at angle θ has coordinates (r cos θ, r sin θ).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.6.A.2",
+      "parentCode": "2.6",
+      "title": "Compare models using context and applicability to select the most appropriate one.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2.A.2",
+      "parentCode": "4.2",
+      "title": "Find horizontal and vertical extrema by analyzing x(t) and y(t) extrema.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.4.A.2",
+      "parentCode": "2.4",
+      "title": "Power property shows horizontal dilations equal base changes in exponentials.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.1.A.2",
+      "parentCode": "4.1",
+      "title": "Parametric functions are written as f(t) = (x(t), y(t)) with coordinates dependent on t.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.9.A.2",
+      "parentCode": "2.9",
+      "title": "Some logarithmic values are computable by hand; others require technology.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.15.A.2",
+      "parentCode": "3.15",
+      "title": "Positive decreasing or negative increasing functions decrease distance from origin.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.14.A.2",
+      "parentCode": "2.14",
+      "title": "Construct logarithmic models from proportion with zero or two input-output pairs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.14.A.2",
+      "parentCode": "1.14",
+      "title": "Models created through parent function transformations for data and contexts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.1.A.2",
+      "parentCode": "3.1",
+      "title": "One cycle of a periodic graph can be extended to construct the full graph.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.5.A.2",
+      "parentCode": "3.5",
+      "title": "Period and frequency are reciprocals; sine and cosine have period 2π.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.14.A.2",
+      "parentCode": "3.14",
+      "title": "Restrict polar function domains by selecting angle and radius endpoints.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.5.A.2",
+      "parentCode": "2.5",
+      "title": "Add constants to data to reveal underlying exponential proportional patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.13.A.2",
+      "parentCode": "2.13",
+      "title": "Check solutions for extraneous results violating mathematical or contextual constraints.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.1.A.2",
+      "parentCode": "2.1",
+      "title": "Arithmetic sequences have constant differences between successive terms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.11.A.2",
+      "parentCode": "4.11",
+      "title": "Matrix multiplied by identity matrix equals original matrix.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.11.A.2",
+      "parentCode": "2.11",
+      "title": "Logarithmic functions are monotonic and concave throughout; no extrema or inflection points.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.13.A.2",
+      "parentCode": "3.13",
+      "title": "Convert polar to rectangular using x = r cos θ and y = r sin θ.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.4.A.2",
+      "parentCode": "1.4",
+      "title": "Local extrema occur where polynomials switch from increasing to decreasing; global extrema are the greatest maximum and least minimum.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.3.A.2",
+      "parentCode": "1.3",
+      "title": "Quadratic functions' average rates of change form a linear pattern.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.10.A.2",
+      "parentCode": "4.10",
+      "title": "Matrix multiplication requires column-row matching; product entry is dot product.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.9.A.2",
+      "parentCode": "4.9",
+      "title": "Velocity vectors show direction and speed; component signs indicate horizontal and vertical motion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.8.A.2",
+      "parentCode": "3.8",
+      "title": "Tangent equals sine divided by cosine where cosine is nonzero.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.5.A.2",
+      "parentCode": "1.5",
+      "title": "Multiplicity counts repeated factors; degree n polynomial has n complex zeros total.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.12.A.2",
+      "parentCode": "4.12",
+      "title": "Zero vector always maps to zero vector under linear transformations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.12.A.2",
+      "parentCode": "3.12",
+      "title": "Pythagorean identity manipulates to other forms like tan² θ = sec² θ − 1.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.8.A.2",
+      "parentCode": "4.8",
+      "title": "Vector components are differences of endpoint coordinates; expressed as ordered pair.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.3.A.2",
+      "parentCode": "3.3",
+      "title": "Use special triangles to find exact sine and cosine values for π/4 and π/6 multiples.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2.A.2",
+      "parentCode": "2.2",
+      "title": "Linear functions expressible using slope and any point, analogous to arithmetic sequences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.7.A.2",
+      "parentCode": "4.7",
+      "title": "Functions parametrize as (t, f(t)); invertible functions' inverses parametrize as (f(t), t).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.12.A.2",
+      "parentCode": "2.12",
+      "title": "Power property: logarithm of power equals exponent times logarithm.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.6.A.2",
+      "parentCode": "1.6",
+      "title": "Polynomial outputs increase or decrease without bound as inputs approach negative infinity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.13.A.2",
+      "parentCode": "4.13",
+      "title": "Unit vector images determine the columns of the transformation matrix.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.7.A.2",
+      "parentCode": "3.7",
+      "title": "Maximum and minimum values determine amplitude and vertical shift.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.8.A.2",
+      "parentCode": "1.8",
+      "title": "Zeros and poles determine sign intervals for rational inequalities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.11.A.2",
+      "parentCode": "3.11",
+      "title": "Cosecant is the reciprocal of sine when sine is nonzero.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.9.A.2",
+      "parentCode": "1.9",
+      "title": "Near vertical asymptotes, rational function values grow unbounded in either direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.7.A.2",
+      "parentCode": "2.7",
+      "title": "Composite function values can be found using any representation type of f and g.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.10.A.2",
+      "parentCode": "1.10",
+      "title": "Hole location (c, L) found by examining limits approaching c from both sides.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.10.A.2",
+      "parentCode": "3.10",
+      "title": "Periodicity of trig functions typically yields infinitely many equation solutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.11.A.2",
+      "parentCode": "1.11",
+      "title": "Standard form reveals end behavior of polynomial and rational functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2.A.2",
+      "parentCode": "1.2",
+      "title": "Instantaneous rate of change at a point can be approximated using small interval averages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.6.A.2",
+      "parentCode": "3.6",
+      "title": "Parameter d creates vertical translation of sinusoidal graphs by d units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.6.A.2",
+      "parentCode": "4.6",
+      "title": "Ellipses have standard form; circles occur when radii are equal.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.8.A.2",
+      "parentCode": "2.8",
+      "title": "Inverse function reverses input-output pairs: if f(a) = b, then f⁻¹(b) = a.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.3.A.2",
+      "parentCode": "2.3",
+      "title": "Natural number inputs indicate base factors; domain is all real numbers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.12.A.2",
+      "parentCode": "1.12",
+      "title": "Adding constant h inside function horizontally translates graph by −h units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.14.B.1",
+      "parentCode": "4.14",
+      "title": "Matrix-vector multiplication predicts future states after one transition step.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.5.A.2",
+      "parentCode": "4.5",
+      "title": "Graph equations by finding ordered pairs satisfying the equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.10.A.2",
+      "parentCode": "2.10",
+      "title": "Exponential functions show multiplicative output change for additive input change; logarithmic functions reverse this.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.4.A.2",
+      "parentCode": "4.4",
+      "title": "Transformed parametric equations represent circles of any center and radius.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.15.A.2",
+      "parentCode": "2.15",
+      "title": "Semi-log plots don't require adding constants to identify exponential models.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.13.A.2",
+      "parentCode": "1.13",
+      "title": "Quadratic functions model linear rate changes or symmetric data with extrema.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.1.A.2",
+      "parentCode": "1.1",
+      "title": "Input and output values vary together via function rule in multiple representations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.9.A.2",
+      "parentCode": "3.9",
+      "title": "Inverse trig functions (arcsine, arccosine, arctangent) require restricted domains for invertibility.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.3.A.2",
+      "parentCode": "4.3",
+      "title": "Motion direction at a point varies depending on the parameter value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.1.B.1",
+      "parentCode": "3.1",
+      "title": "Period k is the smallest positive value where f(x+k)=f(x); one period determines all behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.1.A.3",
+      "parentCode": "1.1",
+      "title": "Increasing function: input increases implies output increases; f(a) < f(b) when a < b.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.2.A.3",
+      "parentCode": "1.2",
+      "title": "Compare rates at two points using average rates over sufficiently small intervals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3.A.3",
+      "parentCode": "1.3",
+      "title": "Average rate of change equals the slope of the secant line connecting two points.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.4.A.3",
+      "parentCode": "1.4",
+      "title": "Between any two distinct real zeros exists at least one local extremum of the polynomial.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.5.A.3",
+      "parentCode": "1.5",
+      "title": "Real zeros correspond to x-intercepts; serve as interval endpoints for inequalities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.6.A.3",
+      "parentCode": "1.6",
+      "title": "Leading term's degree and sign determine end behavior by dominating lower-degree terms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.11.A.3",
+      "parentCode": "1.11",
+      "title": "Different representations provide context-specific information for problem-solving.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.12.A.3",
+      "parentCode": "1.12",
+      "title": "Multiplying function by nonzero a vertically dilates; negative a reflects over x-axis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.13.A.3",
+      "parentCode": "1.13",
+      "title": "Two-dimensional geometry uses quadratic; three-dimensional uses cubic functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.14.A.3",
+      "parentCode": "1.14",
+      "title": "Technology-based regression models: linear, quadratic, cubic, quartic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.1.A.3",
+      "parentCode": "2.1",
+      "title": "Arithmetic sequence general term: a_n equals initial value plus constant difference times position.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.2.A.3",
+      "parentCode": "2.2",
+      "title": "Exponential functions and geometric sequences both use initial value times repeated multiplication.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3.A.3",
+      "parentCode": "2.3",
+      "title": "Exponential functions are monotonic and have constant concavity; no extrema or inflection points.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.4.A.3",
+      "parentCode": "2.4",
+      "title": "Negative exponents represent reciprocals of positive exponent expressions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.5.A.3",
+      "parentCode": "2.5",
+      "title": "Construct exponential models from ratios or pairs by solving equations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.6.B.1",
+      "parentCode": "2.6",
+      "title": "A model is valid when its residual plot shows no discernible pattern.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.7.A.3",
+      "parentCode": "2.7",
+      "title": "Function composition is not commutative; order matters when composing functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.8.B.1",
+      "parentCode": "2.8",
+      "title": "Composing a function with its inverse yields the identity function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.9.A.3",
+      "parentCode": "2.9",
+      "title": "Logarithmic scales use multiplicative units equal to powers of the base.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.10.A.3",
+      "parentCode": "2.10",
+      "title": "Logarithmic and exponential functions with same base are inverses of each other.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.11.A.3",
+      "parentCode": "2.11",
+      "title": "Horizontal shifts destroy proportional inputs; proportional inputs characterize logarithmic functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.12.A.3",
+      "parentCode": "2.12",
+      "title": "Change of base property converts logarithms between different bases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.13.A.3",
+      "parentCode": "2.13",
+      "title": "Logarithms rewrite exponential expressions to reveal useful information differently.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.14.A.3",
+      "parentCode": "2.14",
+      "title": "Apply transformations to f(x) = alogb x for context or data characteristics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.15.B.1",
+      "parentCode": "2.15",
+      "title": "Linear modeling techniques apply to semi-log graph analysis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.5.A.3",
+      "parentCode": "3.5",
+      "title": "Amplitude is half the distance between maximum and minimum values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.6.A.3",
+      "parentCode": "3.6",
+      "title": "Parameter c creates phase shift; horizontal translation of −c units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.9.A.3",
+      "parentCode": "3.9",
+      "title": "Sine domain restricted to [−π/2, π/2]; cosine to [0, π]; tangent to (−π/2, π/2).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.7.A.3",
+      "parentCode": "3.7",
+      "title": "Comparing data points to model outputs determines phase shift.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.8.B.1",
+      "parentCode": "3.8",
+      "title": "Tangent function has period π due to half-revolution repetition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.10.A.3",
+      "parentCode": "3.10",
+      "title": "Context often implies domain restrictions that limit solution count.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.11.A.3",
+      "parentCode": "3.11",
+      "title": "Secant and cosecant have vertical asymptotes where their reciprocal functions are zero; range excludes (−1, 1).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.12.B.1",
+      "parentCode": "3.12",
+      "title": "Sine sum identity: sin(α + β) = sin α cos β + cos α sin β.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.13.A.3",
+      "parentCode": "3.13",
+      "title": "Convert rectangular to polar using r = √(x² + y²) and arctan with quadrant adjustment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.14.A.3",
+      "parentCode": "3.14",
+      "title": "Input changes affect angle measure; output changes affect distance from origin.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.15.A.3",
+      "parentCode": "3.15",
+      "title": "Monotonicity changes indicate relative extrema at closest or farthest origin points.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.1.A.3",
+      "parentCode": "4.1",
+      "title": "Generate numerical tables by evaluating x and y at multiple parameter values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.2.A.3",
+      "parentCode": "4.2",
+      "title": "Zeros of x(t) give y-intercepts; zeros of y(t) give x-intercepts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3.A.3",
+      "parentCode": "4.3",
+      "title": "One curve admits multiple parametrizations with different traversal directions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.4.A.3",
+      "parentCode": "4.4",
+      "title": "Line segments can be parametrized using starting point and coordinate rates of change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.5.A.3",
+      "parentCode": "4.5",
+      "title": "Solving for a variable defines functions whose graphs match the equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.6.A.3",
+      "parentCode": "4.6",
+      "title": "Hyperbolas have standard forms with corresponding asymptote equations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.7.B.1",
+      "parentCode": "4.7",
+      "title": "Parabolas parametrize by solving for one variable and replacing the other with t.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.8.A.3",
+      "parentCode": "4.8",
+      "title": "Vector direction parallels origin to component point; magnitude uses Pythagorean theorem.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.11.A.3",
+      "parentCode": "4.11",
+      "title": "Matrix times its inverse equals the identity matrix.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.12.A.3",
+      "parentCode": "4.12",
+      "title": "Vectors and vector sets can be represented as matrices with appropriate dimensions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.13.A.3",
+      "parentCode": "4.13",
+      "title": "Rotation matrices rotate vectors counterclockwise by specified angles about origin.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.14.B.2",
+      "parentCode": "4.14",
+      "title": "Repeated matrix multiplication converges to steady state, an unchanging distribution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.7.A.4",
+      "parentCode": "2.7",
+      "title": "The identity function f(x) = x leaves other functions unchanged under composition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4.A.4",
+      "parentCode": "1.4",
+      "title": "Even-degree polynomials have exactly one global extremum: either maximum or minimum.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.5.A.4",
+      "parentCode": "3.5",
+      "title": "Midline is the average of maximum and minimum function values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.6.A.4",
+      "parentCode": "3.6",
+      "title": "Parameter a scales amplitude; vertical dilation by factor of a.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.7.A.4",
+      "parentCode": "3.7",
+      "title": "Technology constructs sinusoidal models via estimation or regression.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.5.A.4",
+      "parentCode": "2.5",
+      "title": "Build exponential models by transforming f(x) = ab^x appropriately.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.11.A.4",
+      "parentCode": "4.11",
+      "title": "2×2 matrix inverse can be computed with or without technology.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.8.B.2",
+      "parentCode": "3.8",
+      "title": "Vertical asymptotes occur at π/2 + kπ where cosine equals zero.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4.A.4",
+      "parentCode": "2.4",
+      "title": "Fractional exponents represent roots of the base number.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.3.A.4",
+      "parentCode": "2.3",
+      "title": "Functions whose vertical shifts maintain proportional output intervals are exponential.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.11.A.4",
+      "parentCode": "3.11",
+      "title": "Cotangent is the reciprocal of tangent, or cosine divided by sine.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.2.A.4",
+      "parentCode": "2.2",
+      "title": "Exponential functions expressible using ratio and any point, analogous to geometric sequences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.12.B.2",
+      "parentCode": "3.12",
+      "title": "Cosine sum identity: cos(α + β) = cos α cos β − sin α sin β.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.1.B.1",
+      "parentCode": "2.1",
+      "title": "Geometric sequences have constant ratios between successive terms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.3.B.1",
+      "parentCode": "1.3",
+      "title": "Linear functions' average rates of change are constant; they change at rate zero.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.13.A.4",
+      "parentCode": "3.13",
+      "title": "Complex numbers have rectangular form a + bi and polar form r(cos θ + i sin θ).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.14.A.4",
+      "parentCode": "1.14",
+      "title": "Piecewise-defined function models combined from multiple modeling techniques.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.1.A.4",
+      "parentCode": "1.1",
+      "title": "Decreasing function: input increases implies output decreases; f(a) > f(b) when a < b.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.15.A.4",
+      "parentCode": "3.15",
+      "title": "Average rate of change measures radius change per radian over θ interval.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.12.A.4",
+      "parentCode": "4.12",
+      "title": "Linear transformations and 2×2 matrices correspond one-to-one via matrix multiplication.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.1.A.4",
+      "parentCode": "4.1",
+      "title": "Graph parametric functions by connecting points in order of increasing parameter values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.3.A.4",
+      "parentCode": "4.3",
+      "title": "Slope between curve points equals ratio of average rates of change of y and x.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.13.A.4",
+      "parentCode": "1.13",
+      "title": "Polynomials model data with multiple zeros or multiple extrema.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.2.B.1",
+      "parentCode": "1.2",
+      "title": "Rates of change measure how two quantities vary together.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.12.A.4",
+      "parentCode": "1.12",
+      "title": "Multiplying input by nonzero b horizontally dilates by 1/b; negative b reflects over y-axis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.14.B.3",
+      "parentCode": "4.14",
+      "title": "Inverse matrix multiplication predicts previous states from current state vectors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.5.B.1",
+      "parentCode": "4.5",
+      "title": "Positive change ratio means variables increase or decrease together; negative means opposite.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.13.A.4",
+      "parentCode": "4.13",
+      "title": "Determinant absolute value measures how transformations scale area.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.11.B.1",
+      "parentCode": "1.11",
+      "title": "Polynomial long division produces quotient and remainder with degree constraint.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.7.B.2",
+      "parentCode": "4.7",
+      "title": "Ellipses parametrize with cosine and sine functions centered at (h, k).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.8.A.4",
+      "parentCode": "4.8",
+      "title": "Trigonometry determines vector components from geometric representation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.11.A.4",
+      "parentCode": "2.11",
+      "title": "Logarithmic functions have vertical asymptote at x = 0 with unbounded end behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.12.A.4",
+      "parentCode": "2.12",
+      "title": "Natural logarithm is a logarithmic function with base e.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.10.A.4",
+      "parentCode": "2.10",
+      "title": "Logarithmic graphs reflect exponential graphs across the line y = x.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.13.B.1",
+      "parentCode": "2.13",
+      "title": "Find inverse of transformed exponential functions by reversing operations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.5.A.4",
+      "parentCode": "1.5",
+      "title": "Non-real complex zeros occur in conjugate pairs for polynomials with real coefficients.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.14.A.4",
+      "parentCode": "2.14",
+      "title": "Use technology and logarithmic regression to construct data models.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.8.B.2",
+      "parentCode": "2.8",
+      "title": "Domain and range swap between function and inverse; reverse table pairs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.15.B.2",
+      "parentCode": "2.15",
+      "title": "Exponential y = ab^x linearizes to y = (log_n b)x + log_n a on semi-log.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.1.B.2",
+      "parentCode": "3.1",
+      "title": "Period can be estimated by observing where output values begin repeating.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.6.B.2",
+      "parentCode": "2.6",
+      "title": "Model error is prediction minus actual; context determines preference for over/underestimate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4.A.5",
+      "parentCode": "1.4",
+      "title": "Inflection points occur where concavity changes from up to down or down to up.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.12.A.5",
+      "parentCode": "1.12",
+      "title": "Combined additive and multiplicative transformations produce multiple translations and dilations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.8.B.3",
+      "parentCode": "2.8",
+      "title": "Reflect function graph over the line y = x to obtain inverse.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.7.B.3",
+      "parentCode": "4.7",
+      "title": "Hyperbolas parametrize using secant and tangent; orientation determines variable assignment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.7.B.1",
+      "parentCode": "2.7",
+      "title": "Composition connects quantities without a direct formula between them.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5.B.2",
+      "parentCode": "4.5",
+      "title": "Zero rate of change indicates vertical or horizontal intervals in graphs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.7.A.5",
+      "parentCode": "3.7",
+      "title": "Models apply within context domains; predict dependent values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.11.B.2",
+      "parentCode": "1.11",
+      "title": "Polynomial division results determine slant asymptote equations for rational functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.14.A.5",
+      "parentCode": "2.14",
+      "title": "Natural logarithm functions effectively model real-world phenomena.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.2.A.5",
+      "parentCode": "2.2",
+      "title": "Sequences and their corresponding functions can have different domain restrictions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.15.A.5",
+      "parentCode": "3.15",
+      "title": "Average rate of change estimates function values within specified θ intervals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.1.B.2",
+      "parentCode": "2.1",
+      "title": "Geometric sequence general term: g_n equals initial value times ratio raised to position power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.13.B.1",
+      "parentCode": "4.13",
+      "title": "Composing linear transformations yields another linear transformation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5.A.5",
+      "parentCode": "3.5",
+      "title": "Sinusoidal graphs alternate between concave down and concave up.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.5.A.5",
+      "parentCode": "2.5",
+      "title": "Use technology to construct exponential models via regression analysis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5.A.5",
+      "parentCode": "1.5",
+      "title": "Even-multiplicity zeros produce graph tangency to x-axis; same sign nearby.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.11.B.1",
+      "parentCode": "4.11",
+      "title": "Determinant of 2×2 matrix equals ad minus bc.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.10.A.5",
+      "parentCode": "2.10",
+      "title": "Exponential and logarithmic functions swap coordinates of ordered pairs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.1.B.3",
+      "parentCode": "3.1",
+      "title": "Periodic functions share characteristics with other functions; one period contains all function characteristics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.6.A.5",
+      "parentCode": "3.6",
+      "title": "Parameter b scales period; horizontal dilation affecting period by 1/b factor.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.8.B.1",
+      "parentCode": "4.8",
+      "title": "Scalar multiplication multiplies constant by each component; preserves direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.1.A.5",
+      "parentCode": "4.1",
+      "title": "Restricted domains create specific start and end points on parametric graphs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.3.A.5",
+      "parentCode": "2.3",
+      "title": "Exponential function limits approach infinity, negative infinity, or zero based on parameters.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.12.B.3",
+      "parentCode": "3.12",
+      "title": "Sum identities serve as difference and double-angle identities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.12.A.5",
+      "parentCode": "4.12",
+      "title": "Matrix-vector multiplication transforms multiple input vectors to output vectors simultaneously.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.11.A.5",
+      "parentCode": "3.11",
+      "title": "Cotangent has vertical asymptotes where tangent is zero; it decreases between asymptotes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.14.B.1",
+      "parentCode": "1.14",
+      "title": "Rational functions model inverse proportional relationships in contextual data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.13.A.5",
+      "parentCode": "1.13",
+      "title": "Degree n polynomials model data showing constant nth differences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.2.B.2",
+      "parentCode": "1.2",
+      "title": "Positive rate of change: quantities increase or decrease together.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.8.B.3",
+      "parentCode": "3.8",
+      "title": "Between asymptotes, tangent increases and changes concavity from down to up.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.13.B.2",
+      "parentCode": "2.13",
+      "title": "Find inverse of transformed logarithmic functions by reversing operations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.3.B.2",
+      "parentCode": "1.3",
+      "title": "Quadratic functions' average rates of change increase or decrease at constant rate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.8.B.4",
+      "parentCode": "2.8",
+      "title": "Find inverse by swapping x and y, then solving for y algebraically.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.5.A.6",
+      "parentCode": "2.5",
+      "title": "Natural base e (≈2.718) is commonly used in contextual exponential models.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.14.C.1",
+      "parentCode": "1.14",
+      "title": "Models answer questions, predict values and rates of change with proper units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.2.B.3",
+      "parentCode": "1.2",
+      "title": "Negative rate of change: one quantity increases while other decreases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.8.B.2",
+      "parentCode": "4.8",
+      "title": "Vector addition: add components; graphically chain vectors head-to-tail.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.11.B.2",
+      "parentCode": "4.11",
+      "title": "Absolute determinant value equals parallelogram area; zero determinant means parallel vectors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.7.B.2",
+      "parentCode": "2.7",
+      "title": "Create analytic form of f(g(x)) by substituting g(x) into f's formula.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.2.B.1",
+      "parentCode": "2.2",
+      "title": "Constant change indicates linear; proportional change indicates exponential function behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.12.B.4",
+      "parentCode": "3.12",
+      "title": "Verify identities using known properties and algebraic manipulation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.8.C.1",
+      "parentCode": "3.8",
+      "title": "Adding d vertically translates tangent graph and inflection line by d units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.13.A.6",
+      "parentCode": "1.13",
+      "title": "Degree n polynomial fits n+1 points with distinct inputs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.12.A.6",
+      "parentCode": "1.12",
+      "title": "Transformations may change a function's domain and range from parent function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.6.A.6",
+      "parentCode": "3.6",
+      "title": "Combined parameters determine amplitude |a|, period 2π/b, vertical shift d, phase shift −c.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.1.B.3",
+      "parentCode": "2.1",
+      "title": "Arithmetic sequences increase uniformly; geometric sequences increase at accelerating rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.11.C.1",
+      "parentCode": "1.11",
+      "title": "Binomial theorem with Pascal's Triangle efficiently expands binomial expressions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.14.A.6",
+      "parentCode": "2.14",
+      "title": "Use logarithmic models to predict dependent variable values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.13.B.2",
+      "parentCode": "4.13",
+      "title": "Composition matrices equal the product of individual transformation matrices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.5.A.6",
+      "parentCode": "3.5",
+      "title": "Sine is odd with origin symmetry; cosine is even with y-axis symmetry.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.5.A.6",
+      "parentCode": "1.5",
+      "title": "Polynomial degree equals smallest n where nth successive differences are constant.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.3.B.3",
+      "parentCode": "1.3",
+      "title": "Increasing average rate of change indicates concave up; decreasing indicates concave down.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.11.B.3",
+      "parentCode": "4.11",
+      "title": "Square matrix is invertible if and only if determinant is nonzero.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.12.C.1",
+      "parentCode": "3.12",
+      "title": "Equivalent forms make trigonometric information more accessible.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.8.B.5",
+      "parentCode": "2.8",
+      "title": "Context may further restrict domain beyond what mathematics requires.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.13.A.7",
+      "parentCode": "1.13",
+      "title": "Piecewise functions model data with different characteristics across intervals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.7.B.3",
+      "parentCode": "2.7",
+      "title": "Build numerical or graphical representation of f ○ g from points (x, f(g(x))).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.5.B.1",
+      "parentCode": "1.5",
+      "title": "Even functions satisfy f(−x) = f(x); even-degree monomials are even functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.5.B.1",
+      "parentCode": "2.5",
+      "title": "Base b represents growth factor per unit input and relates to percent change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.13.C.1",
+      "parentCode": "4.13",
+      "title": "Inverse transformations compose to produce the identity transformation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.8.C.2",
+      "parentCode": "3.8",
+      "title": "Adding c inside shifts tangent graph horizontally left by c units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.2.B.2",
+      "parentCode": "2.2",
+      "title": "Both types use initial value and constant change, but linear uses addition, exponential uses multiplication.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.8.B.3",
+      "parentCode": "4.8",
+      "title": "Dot product: sum of products of corresponding components.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.5.B.2",
+      "parentCode": "1.5",
+      "title": "Odd functions satisfy f(−x) = −f(x); odd-degree monomials are odd functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.13.C.2",
+      "parentCode": "4.13",
+      "title": "Inverse transformations use inverse matrices to undo original transformations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.8.C.1",
+      "parentCode": "4.8",
+      "title": "Unit vector has magnitude 1; divide vector by its magnitude.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.8.C.3",
+      "parentCode": "3.8",
+      "title": "Multiplying by a dilates vertically by a; negative a reflects over x-axis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.13.B.1",
+      "parentCode": "1.13",
+      "title": "Models require assumptions about consistency and constant elements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.2.B.3",
+      "parentCode": "2.2",
+      "title": "All four types can be uniquely determined by exactly two distinct values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.12.C.2",
+      "parentCode": "3.12",
+      "title": "Equivalent forms aid in solving trigonometric equations and inequalities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.5.B.2",
+      "parentCode": "2.5",
+      "title": "Equivalent exponential forms reveal different growth intervals and factors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.7.C.1",
+      "parentCode": "2.7",
+      "title": "Decompose complex functions into simpler functions; substitute carefully.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.5.B.3",
+      "parentCode": "2.5",
+      "title": "Use exponential models to predict values within contextual domain constraints.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "3.8.C.4",
+      "parentCode": "3.8",
+      "title": "Multiplying angle by b dilates horizontally by 1/b; period becomes π/b.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.13.B.2",
+      "parentCode": "1.13",
+      "title": "Models require assumptions about how quantities relate and change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.8.C.2",
+      "parentCode": "4.8",
+      "title": "Vector expressed as linear combination of standard basis unit vectors i⃗ and j⃗.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.7.C.2",
+      "parentCode": "2.7",
+      "title": "Additive transformations creating translations compose g(x) = x + k with f.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.7.C.3",
+      "parentCode": "2.7",
+      "title": "Multiplicative transformations creating dilations compose g(x) = kx with f.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "1.13.B.3",
+      "parentCode": "1.13",
+      "title": "Domain restrictions derive from mathematical, contextual, or data extrema.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "3.8.C.5",
+      "parentCode": "3.8",
+      "title": "Combined transformation: vertical dilation a, period π/b, shifts d and −c.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "4.8.D.1",
+      "parentCode": "4.8",
+      "title": "Dot product equals magnitude product times cosine of angle between vectors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "4.8.D.2",
+      "parentCode": "4.8",
+      "title": "Law of Sines and Cosines solve triangles formed by vector addition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "1.13.B.4",
+      "parentCode": "1.13",
+      "title": "Range restrictions derive from mathematical, contextual, or data considerations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    }
+  ]
+}

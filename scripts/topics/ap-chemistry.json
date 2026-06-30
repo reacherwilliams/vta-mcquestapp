@@ -1,0 +1,2735 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Chemistry",
+  "source": "school-core:AP-CHEM@Effective Fall 2024",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: Atomic Structure and Properties",
+      "level": 1,
+      "examWeight": 7,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: Compound Structure and Properties",
+      "level": 1,
+      "examWeight": 7,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: Properties of Substances and Mixtures",
+      "level": 1,
+      "examWeight": 18,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: Chemical Reactions",
+      "level": 1,
+      "examWeight": 7,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 5",
+      "parentCode": null,
+      "title": "Unit 5: Kinetics",
+      "level": 1,
+      "examWeight": 7,
+      "sortOrder": 4
+    },
+    {
+      "code": "Unit 6",
+      "parentCode": null,
+      "title": "Unit 6: Thermochemistry",
+      "level": 1,
+      "examWeight": 7,
+      "sortOrder": 5
+    },
+    {
+      "code": "Unit 7",
+      "parentCode": null,
+      "title": "Unit 7: Principles of Equilibrium",
+      "level": 1,
+      "examWeight": 7,
+      "sortOrder": 6
+    },
+    {
+      "code": "Unit 8",
+      "parentCode": null,
+      "title": "Unit 8: Acids and Bases",
+      "level": 1,
+      "examWeight": 11,
+      "sortOrder": 7
+    },
+    {
+      "code": "Unit 9",
+      "parentCode": null,
+      "title": "Unit 9: Thermodynamics and Electrochemistry",
+      "level": 1,
+      "examWeight": 7,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "Types of Chemical Bonds",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "Unit 5",
+      "title": "Reaction Rates",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Moles and Molar Mass",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.1",
+      "parentCode": "Unit 9",
+      "title": "Introduction to Entropy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "Intermolecular and Interparticle Forces",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1",
+      "parentCode": "Unit 8",
+      "title": "Introduction to Acids and Bases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1",
+      "parentCode": "Unit 7",
+      "title": "Introduction to Equilibrium",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "Introduction to Chemical Reactions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "Unit 6",
+      "title": "Endothermic and Exothermic Processes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "Mass Spectra of Elements",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "Properties of Solids",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2",
+      "parentCode": "Unit 8",
+      "title": "pH and pOH of Strong Acids and Bases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "Unit 5",
+      "title": "Introduction to Rate Law",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2",
+      "parentCode": "Unit 7",
+      "title": "Direction of Reversible Reactions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2",
+      "parentCode": "Unit 6",
+      "title": "Energy Diagrams",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "Net Ionic Equations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.2",
+      "parentCode": "Unit 9",
+      "title": "Absolute Entropy and Entropy Change",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "Intramolecular Force and Potential Energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.3",
+      "parentCode": "Unit 9",
+      "title": "Gibbs Free Energy and Thermodynamic Favorability",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "Structure of Ionic Solids",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.3",
+      "parentCode": "Unit 5",
+      "title": "Concentration Changes Over Time",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3",
+      "parentCode": "Unit 8",
+      "title": "Weak Acid and Base Equilibria",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "Representations and Phenomena of Reactions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.3",
+      "parentCode": "Unit 7",
+      "title": "Reaction Quotient and Equilibrium Constant",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "Elemental Composition of Pure Substances",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3",
+      "parentCode": "Unit 6",
+      "title": "Heat Transfer and Thermal Equilibrium",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "Solids, Liquids, and Gases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.4",
+      "parentCode": "Unit 6",
+      "title": "Heat Capacity and Calorimetry",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "Composition of Mixtures",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.4",
+      "parentCode": "Unit 7",
+      "title": "Calculating the Equilibrium Constant",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "Ideal Gas Law",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Structure of Metals and Alloys",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.4",
+      "parentCode": "Unit 5",
+      "title": "Elementary Reactions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.4",
+      "parentCode": "Unit 8",
+      "title": "Acid-Base Reactions and Buffers",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "Physical and Chemical Changes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.4",
+      "parentCode": "Unit 9",
+      "title": "Thermodynamic and Kinetic Control",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.5",
+      "parentCode": "Unit 5",
+      "title": "Collision Model",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "Atomic Structure and Electron Configuration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "Lewis Diagrams",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "Kinetic Molecular Theory",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5",
+      "parentCode": "Unit 4",
+      "title": "Stoichiometry",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.5",
+      "parentCode": "Unit 6",
+      "title": "Energy of Phase Changes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.5",
+      "parentCode": "Unit 7",
+      "title": "Magnitude of the Equilibrium Constant",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.5",
+      "parentCode": "Unit 8",
+      "title": "Acid-Base Titrations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.5",
+      "parentCode": "Unit 9",
+      "title": "Free Energy and Equilibrium",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.6",
+      "parentCode": "Unit 4",
+      "title": "Introduction to Titration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "9.6",
+      "parentCode": "Unit 9",
+      "title": "Free Energy of Dissolution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.6",
+      "parentCode": "Unit 1",
+      "title": "Photoelectron Spectroscopy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.6",
+      "parentCode": "Unit 3",
+      "title": "Deviation from Ideal Gas Law",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "Resonance and Formal Charge",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.6",
+      "parentCode": "Unit 5",
+      "title": "Reaction Energy Profile and Phenomena",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "8.6",
+      "parentCode": "Unit 8",
+      "title": "Molecular Structure of Acids and Bases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.6",
+      "parentCode": "Unit 6",
+      "title": "Introduction to Enthalpy of Reaction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.6",
+      "parentCode": "Unit 7",
+      "title": "Properties of the Equilibrium Constant",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.7",
+      "parentCode": "Unit 6",
+      "title": "Bond Enthalpies",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.7",
+      "parentCode": "Unit 5",
+      "title": "Introduction to Reaction Mechanisms",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.7",
+      "parentCode": "Unit 3",
+      "title": "Solutions and Mixtures",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.7",
+      "parentCode": "Unit 4",
+      "title": "Types of Chemical Reactions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "9.7",
+      "parentCode": "Unit 9",
+      "title": "Coupled Reactions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.7",
+      "parentCode": "Unit 7",
+      "title": "Calculating Equilibrium Concentrations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.7",
+      "parentCode": "Unit 1",
+      "title": "Periodic Trends",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "8.7",
+      "parentCode": "Unit 8",
+      "title": "pH and pKa",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "VSEPR and Hybridization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.8",
+      "parentCode": "Unit 6",
+      "title": "Enthalpy of Formation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.8",
+      "parentCode": "Unit 4",
+      "title": "Introduction to Acid-Base Reactions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "9.8",
+      "parentCode": "Unit 9",
+      "title": "Galvanic (Voltaic) and Electrolytic Cells",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "7.8",
+      "parentCode": "Unit 7",
+      "title": "Representations and Phenomena of Equilibrium",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.8",
+      "parentCode": "Unit 3",
+      "title": "Representations of Solutions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "8.8",
+      "parentCode": "Unit 8",
+      "title": "Properties of Buffers",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.8",
+      "parentCode": "Unit 1",
+      "title": "Valence Electrons and Ionic Compounds",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.8",
+      "parentCode": "Unit 5",
+      "title": "Reaction Mechanism and Rate Law",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.9",
+      "parentCode": "Unit 3",
+      "title": "Separation of Solutions and Mixtures",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.9",
+      "parentCode": "Unit 4",
+      "title": "Oxidation-Reduction (Redox) Reactions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "5.9",
+      "parentCode": "Unit 5",
+      "title": "Pre-Equilibrium Approximation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "9.9",
+      "parentCode": "Unit 9",
+      "title": "Cell Potential and Free Energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "6.9",
+      "parentCode": "Unit 6",
+      "title": "Hess's Law",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "7.9",
+      "parentCode": "Unit 7",
+      "title": "Introduction to Le Châtelier's Principle",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "8.9",
+      "parentCode": "Unit 8",
+      "title": "Henderson-Hasselbalch Equation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "7.10",
+      "parentCode": "Unit 7",
+      "title": "Reaction Quotient and Le Châtelier's Principle",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "9.10",
+      "parentCode": "Unit 9",
+      "title": "Cell Potential Under Nonstandard Conditions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "3.10",
+      "parentCode": "Unit 3",
+      "title": "Solubility",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "8.10",
+      "parentCode": "Unit 8",
+      "title": "Buffer Capacity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "5.10",
+      "parentCode": "Unit 5",
+      "title": "Multistep Reaction Energy Profile",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "5.11",
+      "parentCode": "Unit 5",
+      "title": "Catalysis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "9.11",
+      "parentCode": "Unit 9",
+      "title": "Electrolysis and Faraday's Law",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "3.11",
+      "parentCode": "Unit 3",
+      "title": "Spectroscopy and the Electromagnetic Spectrum",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "7.11",
+      "parentCode": "Unit 7",
+      "title": "Introduction to Solubility Equilibria",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "8.11",
+      "parentCode": "Unit 8",
+      "title": "pH and Solubility",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "7.12",
+      "parentCode": "Unit 7",
+      "title": "Common-Ion Effect",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "3.12",
+      "parentCode": "Unit 3",
+      "title": "Properties of Photons",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "3.13",
+      "parentCode": "Unit 3",
+      "title": "Beer-Lambert Law",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "9.11.A.1",
+      "parentCode": "9.11",
+      "title": "Faraday's laws relate electrons transferred, electrode mass, current, time, and ionic charge.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1.A.1",
+      "parentCode": "1.1",
+      "title": "Mass measurements connect to particle counts in chemical reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2.A.1",
+      "parentCode": "1.2",
+      "title": "Mass spectra identify element isotopes and their relative abundances.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.3.A.1",
+      "parentCode": "1.3",
+      "title": "Pure substances contain molecules or ions in fixed proportions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.4.A.1",
+      "parentCode": "1.4",
+      "title": "Pure substances have one type of particle; mixtures contain multiple types in variable proportions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.5.A.1",
+      "parentCode": "1.5",
+      "title": "Atoms contain electrons, protons, and neutrons in nucleus and electron regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.6.A.1",
+      "parentCode": "1.6",
+      "title": "PES peak position indicates ionization energy; peak height indicates electron count.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.7.A.1",
+      "parentCode": "1.7",
+      "title": "Periodic table organization reflects electron configuration patterns and shell filling.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.8.A.1",
+      "parentCode": "1.8",
+      "title": "Chemical bond formation depends on valence electron and nuclear interactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1.A.1",
+      "parentCode": "2.1",
+      "title": "Electronegativity increases right and up in periodic table trends.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.2.A.1",
+      "parentCode": "2.2",
+      "title": "Potential energy graphs show equilibrium bond length and bond energy relationships.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.3.A.1",
+      "parentCode": "2.3",
+      "title": "Ionic crystals arrange cations and anions systematically to optimize electrostatic forces.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.4.A.1",
+      "parentCode": "2.4",
+      "title": "Metallic bonding features positive ions surrounded by mobile valence electrons.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.5.A.1",
+      "parentCode": "2.5",
+      "title": "Lewis diagrams follow systematic rules for construction and representation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.6.A.1",
+      "parentCode": "2.6",
+      "title": "Resonance structures refine Lewis diagrams for accurate molecular predictions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.7.A.1",
+      "parentCode": "2.7",
+      "title": "VSEPR predicts electron pair arrangement via Coulombic repulsion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1.A.1",
+      "parentCode": "3.1",
+      "title": "London dispersion forces result from temporary dipole Coulombic interactions between molecules.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.2.A.1",
+      "parentCode": "3.2",
+      "title": "Intermolecular force strength determines vapor pressure, boiling point, and melting point.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.3.A.1",
+      "parentCode": "3.3",
+      "title": "Solids are crystalline or amorphous with limited particle motion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.4.A.1",
+      "parentCode": "3.4",
+      "title": "Ideal gas law relates pressure, volume, moles, and temperature.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.5.A.1",
+      "parentCode": "3.5",
+      "title": "KMT connects observable gas properties to particle motion and energy distribution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.6.A.1",
+      "parentCode": "3.6",
+      "title": "Real gases deviate from ideal behavior due to intermolecular forces and molecular volume effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.7.A.1",
+      "parentCode": "3.7",
+      "title": "Solutions are homogeneous mixtures with uniform properties; heterogeneous mixtures have varying properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.8.A.1",
+      "parentCode": "3.8",
+      "title": "Particulate models show solution structure through component concentrations and interactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.9.A.1",
+      "parentCode": "3.9",
+      "title": "Solutions require chromatography methods exploiting differential intermolecular interactions for separation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.10.A.1",
+      "parentCode": "3.10",
+      "title": "Similar intermolecular forces promote solubility and miscibility between substances.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.11.A.1",
+      "parentCode": "3.11",
+      "title": "Spectral regions correspond to specific molecular or electronic transitions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.12.A.1",
+      "parentCode": "3.12",
+      "title": "Photon absorption or emission changes atomic/molecular energy by photon energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.13.A.1",
+      "parentCode": "3.13",
+      "title": "Beer-Lambert law equation A = εbc relates light absorption to molar absorptivity, path length, concentration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1.A.1",
+      "parentCode": "4.1",
+      "title": "Physical changes alter properties without changing composition or substance identity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.2.A.1",
+      "parentCode": "4.2",
+      "title": "Balanced equations represent all physical and chemical processes symbolically.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.3.A.1",
+      "parentCode": "4.3",
+      "title": "Translate balanced equations into symbolic particulate molecular representations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.4.A.1",
+      "parentCode": "4.4",
+      "title": "Chemical processes break/form bonds; physical processes alter intermolecular interactions only.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.5.A.1",
+      "parentCode": "4.5",
+      "title": "Atom conservation allows calculation of products from reactants or vice versa.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.6.A.1",
+      "parentCode": "4.6",
+      "title": "Titrations determine analyte amount; equivalence point occurs at complete consumption.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.7.A.1",
+      "parentCode": "4.7",
+      "title": "Acid-base reactions transfer protons between chemical species.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.8.A.1",
+      "parentCode": "4.8",
+      "title": "Brønsted-Lowry acids donate protons; bases accept protons.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.9.A.1",
+      "parentCode": "4.9",
+      "title": "Construct balanced redox equations by combining oxidation and reduction half-reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1.A.1",
+      "parentCode": "5.1",
+      "title": "Chemical kinetics measures how quickly reactants convert to products over time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.2.A.1",
+      "parentCode": "5.2",
+      "title": "Experimental methods monitor reactant/product amounts to determine reaction rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.3.A.1",
+      "parentCode": "5.3",
+      "title": "Reaction order determined from concentration-time graphs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.4.A.1",
+      "parentCode": "5.4",
+      "title": "Elementary reaction rate laws derive directly from collision stoichiometry.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.5.A.1",
+      "parentCode": "5.5",
+      "title": "Successful collisions between reactants initiate bond-breaking and bond-making.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.6.A.1",
+      "parentCode": "5.6",
+      "title": "Elementary reactions break existing bonds and form new bonds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.7.A.1",
+      "parentCode": "5.7",
+      "title": "Reaction mechanisms are sequential elementary steps with reactants, intermediates, products, catalysts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.8.A.1",
+      "parentCode": "5.8",
+      "title": "Rate law is determined by the rate-limiting step's molecularity in mechanisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.9.A.1",
+      "parentCode": "5.9",
+      "title": "Use pre-equilibrium approximation when first step is not rate-limiting.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.10.A.1",
+      "parentCode": "5.10",
+      "title": "Elementary reaction energetics enable construction of multistep reaction energy profiles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.11.A.1",
+      "parentCode": "5.11",
+      "title": "Catalysts increase reaction rates by raising collision frequency or lowering activation energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1.A.1",
+      "parentCode": "6.1",
+      "title": "Temperature shifts reveal whether a system gains or loses energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.2.A.1",
+      "parentCode": "6.2",
+      "title": "Energy diagrams represent processes as endothermic or exothermic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.3.A.1",
+      "parentCode": "6.3",
+      "title": "Warmer bodies have particles with greater average kinetic energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.4.A.1",
+      "parentCode": "6.4",
+      "title": "Heat transfer between bodies quantified by q=mcΔT; calorimetry measures heat transfer.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.5.A.1",
+      "parentCode": "6.5",
+      "title": "Energy transfer during phase changes causes energy increases or decreases; temperature remains constant.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.6.A.1",
+      "parentCode": "6.6",
+      "title": "Enthalpy change indicates heat released or absorbed during reaction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.7.A.1",
+      "parentCode": "6.7",
+      "title": "Chemical reactions involve breaking and forming bonds, altering system potential energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.8.A.1",
+      "parentCode": "6.8",
+      "title": "Use standard enthalpy of formation tables to calculate reaction enthalpy changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.9.A.1",
+      "parentCode": "6.9",
+      "title": "Complex processes decompose into individual steps, each with distinct energy changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1.A.1",
+      "parentCode": "7.1",
+      "title": "Reversible processes occur in physical and chemical systems including phase changes and reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.2.A.1",
+      "parentCode": "7.2",
+      "title": "Net reaction direction depends on relative forward and reverse reaction rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.3.A.1",
+      "parentCode": "7.3",
+      "title": "Qc and Qp describe relative concentrations or pressures at any time; at equilibrium, Q equals K.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.4.A.1",
+      "parentCode": "7.4",
+      "title": "Kc and Kp are calculated from experimental equilibrium concentration or pressure data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.5.A.1",
+      "parentCode": "7.5",
+      "title": "Large K values drive reactions to completion; small K values inhibit reaction progression.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.6.A.1",
+      "parentCode": "7.6",
+      "title": "Reversing a reaction inverts its equilibrium constant value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.7.A.1",
+      "parentCode": "7.7",
+      "title": "Equilibrium concentrations predictable from initial conditions and equilibrium constant.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.8.A.1",
+      "parentCode": "7.8",
+      "title": "Particulate models show particle ratios before and at equilibrium, revealing K value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.9.A.1",
+      "parentCode": "7.9",
+      "title": "Le Châtelier's principle predicts equilibrium system responses to various stresses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.10.A.1",
+      "parentCode": "7.10",
+      "title": "Disturbances make Q ≠ K; system responds to restore equilibrium.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.11.A.1",
+      "parentCode": "7.11",
+      "title": "Salt dissolution is reversible; Ksp describes its extent.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.12.A.1",
+      "parentCode": "7.12",
+      "title": "Common ion presence reduces salt solubility; explain via Le Châtelier or Ksp calculations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1.A.1",
+      "parentCode": "8.1",
+      "title": "pH and pOH quantify hydronium and hydroxide ion concentrations logarithmically.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.2.A.1",
+      "parentCode": "8.2",
+      "title": "Strong acids completely ionize; [H3O+] equals initial acid concentration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.3.A.1",
+      "parentCode": "8.3",
+      "title": "Weak acids partially ionize; most molecules remain un-ionized in solution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.4.A.1",
+      "parentCode": "8.4",
+      "title": "Strong acid-strong base mixtures react quantitatively; pH depends on excess reagent.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.5.A.1",
+      "parentCode": "8.5",
+      "title": "Titration curves plot pH versus titrant volume to summarize controlled acid-base reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.6.A.1",
+      "parentCode": "8.6",
+      "title": "Molecular structure determines acid-base strength through conjugate base stabilization effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.7.A.1",
+      "parentCode": "8.7",
+      "title": "Comparing solution pH to pKa predicts whether acid or base form predominates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.8.A.1",
+      "parentCode": "8.8",
+      "title": "Buffers contain conjugate acid-base pairs; conjugate acid neutralizes added base, conjugate base neutralizes added acid.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.9.A.1",
+      "parentCode": "8.9",
+      "title": "Buffer pH depends on pKa and conjugate acid-base pair concentration ratio.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.10.A.1",
+      "parentCode": "8.10",
+      "title": "Higher buffer component concentrations increase capacity while maintaining constant pH.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.11.A.1",
+      "parentCode": "8.11",
+      "title": "Salt solubility depends on pH when ions are weak acids, bases, or hydroxide.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.1.A.1",
+      "parentCode": "9.1",
+      "title": "Entropy increases when matter disperses; particles move freely occupying larger volumes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.2.A.1",
+      "parentCode": "9.2",
+      "title": "Calculate entropy change using absolute entropies of products minus reactants.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.3.A.1",
+      "parentCode": "9.3",
+      "title": "Standard Gibbs free energy (ΔG°) measures reactions with all reactants/products in standard states.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.4.A.1",
+      "parentCode": "9.4",
+      "title": "Thermodynamically favorable reactions may proceed at immeasurably slow rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.5.A.1",
+      "parentCode": "9.5",
+      "title": "Negative ΔG° indicates products favored at equilibrium with K > 1.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.6.A.1",
+      "parentCode": "9.6",
+      "title": "ΔG° dissolution depends on lattice energy, solvation reorganization, solute-solvent interactions; predictions challenging due to cancellations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.7.A.1",
+      "parentCode": "9.7",
+      "title": "External energy sources drive thermodynamically unfavorable processes like electrolysis and photosynthesis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.8.A.1",
+      "parentCode": "9.8",
+      "title": "Cell components have specific roles; operational characteristics visible macroscopically and particulate level.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.9.A.1",
+      "parentCode": "9.9",
+      "title": "Electrochemical cells contain redox reactions that are either thermodynamically favored or unfavored.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.10.A.1",
+      "parentCode": "9.10",
+      "title": "Cell potential depends on concentrations and distance from equilibrium.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1.A.2",
+      "parentCode": "7.1",
+      "title": "At equilibrium, concentrations and partial pressures remain constant with no observable changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2.A.2",
+      "parentCode": "3.2",
+      "title": "Particulate models show how intermolecular interactions create macroscopic properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.4.A.2",
+      "parentCode": "8.4",
+      "title": "Weak acid-strong base mixtures form buffers, excess base, or salt solutions with predictable pH.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.4.A.2",
+      "parentCode": "9.4",
+      "title": "Kinetic control occurs when high activation energy prevents thermodynamically favorable reactions from proceeding measurably.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.5.A.2",
+      "parentCode": "9.5",
+      "title": "K and ΔG° relate through exponential and logarithmic mathematical equations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.11.A.2",
+      "parentCode": "5.11",
+      "title": "Catalysts are consumed and regenerated, maintaining constant net concentration throughout.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.1.A.2",
+      "parentCode": "5.1",
+      "title": "Stoichiometry determines the relative rates of reactant and product concentration changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.4.A.2",
+      "parentCode": "4.4",
+      "title": "Salt dissolution breaks ionic bonds while forming ion-dipole interactions; classification ambiguous.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.5.A.2",
+      "parentCode": "8.5",
+      "title": "Equivalence point moles of titrant equal moles of analyte; determines analyte concentration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.1.A.2",
+      "parentCode": "6.1",
+      "title": "Energy changes manifest as endothermic or exothermic processes in heating, cooling, phase changes, and reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.3.A.2",
+      "parentCode": "8.3",
+      "title": "Weak acid equilibrium described by Ka or pKa; pH determined from concentration and pKa.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.3.A.2",
+      "parentCode": "6.3",
+      "title": "Particle collisions transfer energy between bodies in thermal contact.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.4.A.2",
+      "parentCode": "6.4",
+      "title": "Energy is conserved in all chemical and physical processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2.A.2",
+      "parentCode": "5.2",
+      "title": "Rate law expresses reaction rate proportional to reactant concentrations raised to powers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2.A.2",
+      "parentCode": "4.2",
+      "title": "Chemical equations show atom rearrangement; mass and charge conservation demonstrated.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.1.A.2",
+      "parentCode": "4.1",
+      "title": "Chemical changes create new substances; heat, light, gas, precipitate, color indicate change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.5.A.2",
+      "parentCode": "6.5",
+      "title": "Energy absorbed in forward phase changes equals energy released in reverse phase changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.6.A.2",
+      "parentCode": "6.6",
+      "title": "Exothermic reactions release heat; endothermic reactions absorb heat until equilibrium.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.7.A.2",
+      "parentCode": "8.7",
+      "title": "Acid-base indicators change properties like color based on protonation state and pH.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2.A.2",
+      "parentCode": "1.2",
+      "title": "Average atomic mass calculated from weighted isotopic masses and abundances.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.7.A.2",
+      "parentCode": "6.7",
+      "title": "Sum bond energies to calculate enthalpy change; compare energy released versus required.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.3.A.2",
+      "parentCode": "1.3",
+      "title": "Mass ratios of elements in a compound remain constant.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.4.A.2",
+      "parentCode": "1.4",
+      "title": "Elemental analysis reveals atomic ratios in substances and assesses sample purity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.1.A.2",
+      "parentCode": "1.1",
+      "title": "Avogadro's number converts moles to actual particle counts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.5.A.2",
+      "parentCode": "1.5",
+      "title": "Coulomb's law quantifies electrostatic force between charged particles inversely with distance squared.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.7.A.2",
+      "parentCode": "4.7",
+      "title": "Redox reactions transfer electrons; combustion with O₂ produces CO₂ and H₂O from hydrocarbons.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.9.B.1",
+      "parentCode": "6.9",
+      "title": "Net enthalpy change equals sum of individual enthalpy changes due to energy conservation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.7.A.2",
+      "parentCode": "1.7",
+      "title": "Element position predicts periodicity trends via effective nuclear charge concepts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.10.A.2",
+      "parentCode": "9.10",
+      "title": "Le Châtelier's principle does not apply to electrochemical systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.8.A.2",
+      "parentCode": "1.8",
+      "title": "Same group elements form similar compounds with analogous properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.6.A.2",
+      "parentCode": "7.6",
+      "title": "Multiplying stoichiometric coefficients by factor c raises K to power c.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.1.A.2",
+      "parentCode": "2.1",
+      "title": "Similar electronegativity atoms form nonpolar covalent bonds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.13.A.2",
+      "parentCode": "3.13",
+      "title": "With constant path length and wavelength, absorbance is proportional only to concentration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2.A.2",
+      "parentCode": "2.2",
+      "title": "Higher bond order and smaller atomic core produce shorter, stronger bonds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.7.A.2",
+      "parentCode": "9.7",
+      "title": "Coupling unfavorable reactions to favorable ones via shared intermediates yields favorable overall ΔG°.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.10.A.2",
+      "parentCode": "8.10",
+      "title": "Buffer composition ratio determines whether it neutralizes added acid or base better.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.4.A.2",
+      "parentCode": "2.4",
+      "title": "Interstitial alloys have smaller atoms filling spaces between larger atoms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.4.A.2",
+      "parentCode": "5.4",
+      "title": "Three-or-more particle simultaneous collisions in elementary reactions are uncommon.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.3.A.2",
+      "parentCode": "7.3",
+      "title": "Solids and pure liquids are excluded from reaction quotient expressions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.6.A.2",
+      "parentCode": "2.6",
+      "title": "Octet rule and formal charge select optimal Lewis structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.8.A.2",
+      "parentCode": "9.8",
+      "title": "Galvanic cells are thermodynamically favored; electrolytic cells are unfavored; diagrams identify reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.7.A.2",
+      "parentCode": "2.7",
+      "title": "Lewis diagrams and VSEPR predict geometry, angles, bond energies, dipoles, hybridization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.3.A.2",
+      "parentCode": "5.3",
+      "title": "First-order reactions show linear ln[concentration] versus time plots.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.1.A.2",
+      "parentCode": "9.1",
+      "title": "Entropy increases when energy disperses; higher temperature broadens kinetic energy distribution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.1.A.2",
+      "parentCode": "3.1",
+      "title": "Polar molecule dipole moments create dipole-dipole and ion-dipole interactions stronger than dispersion forces.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.11.A.2",
+      "parentCode": "7.11",
+      "title": "Calculate solubility from Ksp; compare relative solubilities of substances.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.9.A.2",
+      "parentCode": "9.9",
+      "title": "Standard cell potential is calculated from half-reaction reduction potentials.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.12.A.2",
+      "parentCode": "3.12",
+      "title": "Wavelength, frequency, and light speed relate via c = λν; photon energy via E = hν.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.10.A.2",
+      "parentCode": "7.10",
+      "title": "Concentration changes Q; temperature changes K; redistribution restores equality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.3.A.2",
+      "parentCode": "3.3",
+      "title": "Liquid particles are in close contact, continually moving and colliding.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.4.A.2",
+      "parentCode": "3.4",
+      "title": "Partial pressures are independent; total pressure equals sum of partial pressures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.5.A.2",
+      "parentCode": "3.5",
+      "title": "Particles move randomly; kinetic energy depends on mass and velocity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.8.A.2",
+      "parentCode": "4.8",
+      "title": "Water in aqueous solutions accepts and donates protons in acid-base reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.7.A.2",
+      "parentCode": "7.7",
+      "title": "Q versus K determines reaction direction; Q = K indicates dynamic equilibrium.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.5.A.2",
+      "parentCode": "4.5",
+      "title": "Equation coefficients show proportional relationships for molar calculations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.7.A.2",
+      "parentCode": "3.7",
+      "title": "Molarity is the standard laboratory expression for solution composition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.3.A.2",
+      "parentCode": "9.3",
+      "title": "ΔG° < 0 indicates thermodynamically favored processes; avoid misleading 'spontaneous' term.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.9.A.2",
+      "parentCode": "7.9",
+      "title": "Le Châtelier's principle predicts stress effects on measurable solution properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.5.A.2",
+      "parentCode": "5.5",
+      "title": "Successful collisions require sufficient energy and proper orientation for rearrangement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.1.A.2",
+      "parentCode": "8.1",
+      "title": "Water autoionization is characterized by Kw equaling 1.0 × 10−14 at 25°C.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.6.A.2",
+      "parentCode": "5.6",
+      "title": "Reaction coordinate plots the complex motions rearranging reactants into products.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.7.A.2",
+      "parentCode": "5.7",
+      "title": "Combined elementary steps must equal the overall balanced chemical equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2.A.2",
+      "parentCode": "8.2",
+      "title": "Strong bases completely dissociate; [OH−] depends on group I or II origin.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2.A.3",
+      "parentCode": "3.2",
+      "title": "Ionic solids are brittle with high melting points; conduct electricity when molten.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.10.A.3",
+      "parentCode": "9.10",
+      "title": "Cell potential magnitude decreases as system approaches equilibrium; direction determined by Q relative to K.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3.A.3",
+      "parentCode": "6.3",
+      "title": "Thermal equilibrium occurs when both bodies have equal average kinetic energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.2.A.3",
+      "parentCode": "4.2",
+      "title": "Molecular, complete ionic, and net ionic equations serve different contextual purposes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.3.A.3",
+      "parentCode": "9.3",
+      "title": "Calculate ΔG° from standard free energies of formation of products and reactants.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.6.A.3",
+      "parentCode": "7.6",
+      "title": "Adding reactions multiplies their individual equilibrium constants together.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.2.A.3",
+      "parentCode": "2.2",
+      "title": "Coulomb's law: larger charges and smaller distances strengthen ionic interactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3.A.3",
+      "parentCode": "3.3",
+      "title": "Solids and liquids have similar molar volumes due to close particle contact.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.1.A.3",
+      "parentCode": "8.1",
+      "title": "Neutral solutions have pH = pOH = 7.0 at 25°C with pKw = 14.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.5.A.3",
+      "parentCode": "4.5",
+      "title": "Stoichiometry integrates with gas laws and molarity for quantitative analysis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.4.A.3",
+      "parentCode": "6.4",
+      "title": "Different substances show different temperature changes from same thermal energy input.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.8.A.3",
+      "parentCode": "9.8",
+      "title": "Oxidation always occurs at anode; reduction always occurs at cathode.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.9.B.2",
+      "parentCode": "6.9",
+      "title": "Reversing reactions negates ΔH; scaling multiplies ΔH; summing reactions adds ΔH values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.5.A.3",
+      "parentCode": "3.5",
+      "title": "Temperature directly corresponds to average particle kinetic energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.1.A.3",
+      "parentCode": "3.1",
+      "title": "Dipole-dipole and ion-dipole force strength depend on partial charge signs and orientation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.7.A.3",
+      "parentCode": "1.7",
+      "title": "Periodic trends enable property value prediction without experimental data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.11.A.3",
+      "parentCode": "7.11",
+      "title": "Solubility rules quantitatively relate to Ksp; Ksp>1 means soluble.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.2.A.3",
+      "parentCode": "5.2",
+      "title": "Reactant powers are orders; sum of powers equals overall reaction order.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.5.A.3",
+      "parentCode": "9.5",
+      "title": "ΔG° near zero gives K ≈ 1; extreme ΔG° values cause K to deviate strongly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.6.A.3",
+      "parentCode": "2.6",
+      "title": "Lewis structures have limitations, especially with odd electron counts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.7.A.3",
+      "parentCode": "4.7",
+      "title": "Electrons transfer from oxidized species to reduced species in redox reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.5.A.3",
+      "parentCode": "5.5",
+      "title": "Maxwell-Boltzmann distribution estimates fraction of sufficiently energetic collisions versus temperature.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.3.A.3",
+      "parentCode": "5.3",
+      "title": "Second-order reactions show linear 1/[concentration] versus time plots.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.6.A.3",
+      "parentCode": "6.6",
+      "title": "Bond breaking/forming changes potential energy, causing observable temperature changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.6.A.3",
+      "parentCode": "5.6",
+      "title": "Energy profile shows reactants, transition state, products; activation energy is reactant-to-transition state difference.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.8.A.3",
+      "parentCode": "4.8",
+      "title": "Ionization in water allows identification and strength comparison of conjugate pairs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.9.A.3",
+      "parentCode": "9.9",
+      "title": "Standard free energy change relates negatively to cell potential via ΔGo = −nFEo.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.1.A.3",
+      "parentCode": "1.1",
+      "title": "Atomic mass units numerically equal molar mass in grams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.7.A.3",
+      "parentCode": "5.7",
+      "title": "Intermediates are produced then consumed, existing only during reaction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.8.A.3",
+      "parentCode": "1.8",
+      "title": "Ionic compound charges are determined by valence electrons and periodic table position.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.4.A.3",
+      "parentCode": "3.4",
+      "title": "Graphs effectively illustrate relationships among pressure, volume, temperature, and moles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.4.A.3",
+      "parentCode": "8.4",
+      "title": "Weak base-strong acid mixtures form buffers, excess acid, or salt solutions with predictable pH.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.4.A.3",
+      "parentCode": "2.4",
+      "title": "Substitutional alloys have similar-sized atoms replacing each other in lattice.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.1.A.3",
+      "parentCode": "2.1",
+      "title": "Unequal electronegativity creates polar bonds on ionic-covalent continuum.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3.A.3",
+      "parentCode": "1.3",
+      "title": "Empirical formula shows lowest whole number atom ratios.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.11.A.3",
+      "parentCode": "5.11",
+      "title": "Catalysts binding to reactants improves orientation or lowers activation energy via intermediates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.7.A.3",
+      "parentCode": "8.7",
+      "title": "Select indicators with pKa near the equivalence point pH for accurate titrations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3.A.3",
+      "parentCode": "8.3",
+      "title": "Weak bases partially ionize; most molecules remain un-ionized in solution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.7.A.3",
+      "parentCode": "2.7",
+      "title": "Hybridization describes electron arrangement; sp/sp2/sp3 have 180°/120°/109.5° angles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.1.A.3",
+      "parentCode": "7.1",
+      "title": "Equilibrium is dynamic with forward and reverse reactions occurring at equal rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.1.A.3",
+      "parentCode": "6.1",
+      "title": "Exothermic reactions release energy to surroundings; endothermic reactions absorb energy from surroundings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.1.A.3",
+      "parentCode": "5.1",
+      "title": "Reaction rate depends on concentration, temperature, surface area, catalysts, and environment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.5.A.3",
+      "parentCode": "8.5",
+      "title": "At half-equivalence point, conjugate pair concentrations equal; pH equals pKa.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.5.A.3",
+      "parentCode": "1.5",
+      "title": "Electrons occupy shells and subshells; core and valence electrons explained by Aufbau principle.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.3.A.4",
+      "parentCode": "9.3",
+      "title": "Both ΔH° and ΔS° must be considered for some processes like water freezing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.2.A.4",
+      "parentCode": "5.2",
+      "title": "Rate constant is temperature-dependent with units reflecting overall reaction order.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.3.A.4",
+      "parentCode": "5.3",
+      "title": "Slopes from concentration plots determine rate constants for orders zero, one, two.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.3.A.4",
+      "parentCode": "8.3",
+      "title": "Weak base equilibrium described by Kb or pKb; pH determined from concentration and pKb.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.6.A.4",
+      "parentCode": "5.6",
+      "title": "Reaction rate increases with temperature; more collisions reach transition state energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.7.A.4",
+      "parentCode": "5.7",
+      "title": "Detecting intermediates experimentally supports specific reaction mechanisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.4.A.4",
+      "parentCode": "8.4",
+      "title": "Weak acid-weak base mixtures reach equilibrium; neither reagent fully consumed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.11.A.4",
+      "parentCode": "5.11",
+      "title": "Covalent bonding catalysts form new intermediates via proton transfer or bond formation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.1.A.4",
+      "parentCode": "6.1",
+      "title": "Solution formation is exothermic or endothermic based on intermolecular interaction strength changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.5.A.4",
+      "parentCode": "8.5",
+      "title": "Strong acid/base titrations yield neutral pH at equivalence; weak acid/base titrations yield basic/acidic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.4.A.4",
+      "parentCode": "6.4",
+      "title": "Heating increases system energy; cooling decreases system energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.1.A.4",
+      "parentCode": "7.1",
+      "title": "Graphical analysis of concentration or pressure versus time reveals equilibrium establishment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.5.A.4",
+      "parentCode": "9.5",
+      "title": "Negative ΔG° favors products; positive ΔG° favors reactants.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.5.A.4",
+      "parentCode": "1.5",
+      "title": "Ionization energy depends on electron distance from nucleus and effective nuclear charge.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.1.A.4",
+      "parentCode": "2.1",
+      "title": "Metal-nonmetal bonds ionic; nonmetal-nonmetal covalent; properties confirm type.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.7.A.4",
+      "parentCode": "2.7",
+      "title": "Orbital overlap forms sigma and pi bonds; sigma stronger; pi prevents rotation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.1.A.4",
+      "parentCode": "3.1",
+      "title": "Hydrogen bonding occurs between H bonded to N, O, F and electronegative atoms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.2.A.4",
+      "parentCode": "3.2",
+      "title": "Network solids have high melting points; three-dimensional structures are hard and rigid.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.3.A.4",
+      "parentCode": "3.3",
+      "title": "Gas particles move constantly with no definite volume or shape.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.6.A.4",
+      "parentCode": "7.6",
+      "title": "K and Q share identical mathematical forms; algebraic rules apply to both.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.5.A.4",
+      "parentCode": "3.5",
+      "title": "Maxwell-Boltzmann distribution graphs particle energy and velocity distributions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.10.A.4",
+      "parentCode": "9.10",
+      "title": "Use Nernst equation qualitatively; rote calculation alone insufficient for understanding.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.7.A.4",
+      "parentCode": "4.7",
+      "title": "Oxidation numbers identify oxidized and reduced species in redox reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.11.A.4",
+      "parentCode": "7.11",
+      "title": "Use molar solubility of saturated solutions to calculate Ksp.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.1.A.4",
+      "parentCode": "8.1",
+      "title": "Kw varies with temperature, so neutral pH deviates from 7.0 above or below 25°C.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.2.A.5",
+      "parentCode": "3.2",
+      "title": "Molecular solids have low melting points and don't conduct electricity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.1.A.5",
+      "parentCode": "3.1",
+      "title": "Large biomolecules exhibit noncovalent interactions within and between molecules.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.1.A.5",
+      "parentCode": "2.1",
+      "title": "Metallic solids have delocalized valence electrons across atoms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.4.A.5",
+      "parentCode": "6.4",
+      "title": "Both specific and molar heat capacities are used in energy calculations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.5.A.5",
+      "parentCode": "8.5",
+      "title": "Polyprotic acid titration curves reveal number of protons and each associated pKa.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.3.A.5",
+      "parentCode": "9.3",
+      "title": "Calculate ΔG° using enthalpy, entropy, and absolute temperature relationship.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.11.A.5",
+      "parentCode": "5.11",
+      "title": "Surface catalysts form bound intermediates through adsorption or covalent surface bonding.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.3.A.5",
+      "parentCode": "8.3",
+      "title": "Percent ionization calculated from pKa/pKb and initial concentration or equilibrium concentrations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.3.A.5",
+      "parentCode": "5.3",
+      "title": "First-order reactions have constant half-life related to rate constant.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.7.A.5",
+      "parentCode": "4.7",
+      "title": "Precipitation forms insoluble compounds; Na, K, NH₄, and NO₃ salts are soluble.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.2.A.5",
+      "parentCode": "5.2",
+      "title": "Comparing initial rates determines reaction order for each reactant.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.3.A.6",
+      "parentCode": "8.3",
+      "title": "Conjugate acid-base pair constants related through Kw relationship.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.4.A.6",
+      "parentCode": "6.4",
+      "title": "Systems change energy via heating/cooling, phase transitions, and chemical reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.2.A.6",
+      "parentCode": "3.2",
+      "title": "Metallic solids conduct electricity and are malleable; interstitial alloys reduce ductility.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.3.A.6",
+      "parentCode": "5.3",
+      "title": "Radioactive decay exemplifies first-order reaction kinetics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "9.3.A.6",
+      "parentCode": "9.3",
+      "title": "Predict thermodynamic favorability at different temperatures from signs of ΔH° and ΔS°.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.4.A.7",
+      "parentCode": "6.4",
+      "title": "Temperature change in dissolution calorimetry indicates exothermic or endothermic processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.2.A.7",
+      "parentCode": "3.2",
+      "title": "Noncovalent interactions determine the shape and properties of biomolecules.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    }
+  ]
+}

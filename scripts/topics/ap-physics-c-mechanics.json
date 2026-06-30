@@ -1,0 +1,1935 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Physics C: Mechanics",
+  "source": "school-core:AP-PHYS-CM@Effective Fall 2024",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: Kinematics",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: Force and Translational Dynamics",
+      "level": 1,
+      "examWeight": 20,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: Work, Energy and Power",
+      "level": 1,
+      "examWeight": 15,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: Linear Momentum",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 5",
+      "parentCode": null,
+      "title": "Unit 5: Torque and Rotational Dynamics",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 4
+    },
+    {
+      "code": "Unit 6",
+      "parentCode": null,
+      "title": "Unit 6: Energy and Momentum of Rotating Systems",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 5
+    },
+    {
+      "code": "Unit 7",
+      "parentCode": null,
+      "title": "Unit 7: Oscillations",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.1",
+      "parentCode": "Unit 5",
+      "title": "Rotational Kinematics",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "Linear Momentum",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1",
+      "parentCode": "Unit 7",
+      "title": "Defining Simple Harmonic Motion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Scalars and Vectors",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "Translational Kinetic Energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "Systems and Center of Mass",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "Unit 6",
+      "title": "6.1",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "4.2",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "Unit 5",
+      "title": "Connecting Linear and Rotational Motion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "Displacement, Velocity, and Acceleration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "Forces and Free-Body Diagrams",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2",
+      "parentCode": "Unit 7",
+      "title": "Frequency and Period of SHM",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2",
+      "parentCode": "Unit 6",
+      "title": "Torque and Work",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "3.2",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "Newton's Third Law",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.3",
+      "parentCode": "Unit 7",
+      "title": "Representing and Analyzing SHM",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "Conservation of Linear Momentum",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "Potential Energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "Representing Motion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.3",
+      "parentCode": "Unit 5",
+      "title": "Torque",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3",
+      "parentCode": "Unit 6",
+      "title": "Angular Momentum and Angular Impulse",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.4",
+      "parentCode": "Unit 6",
+      "title": "Conservation of Angular Momentum",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "Reference Frames and Relative Motion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Newton's First Law",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "Conservation of Energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "Elastic and Inelastic Collisions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.4",
+      "parentCode": "Unit 5",
+      "title": "Rotational Inertia",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.4",
+      "parentCode": "Unit 7",
+      "title": "Energy of Simple Harmonic Oscillators",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "Newton's Second Law",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.5",
+      "parentCode": "Unit 7",
+      "title": "Simple and Physical Pendulums",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "Motion in Two or Three Dimensions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.5",
+      "parentCode": "Unit 6",
+      "title": "Rolling",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "Power",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.5",
+      "parentCode": "Unit 5",
+      "title": "Rotational Equilibrium and Newton's First Law in Rotational Form",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.6",
+      "parentCode": "Unit 5",
+      "title": "Newton's Second Law in Rotational Form",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "Gravitational Force",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.6",
+      "parentCode": "Unit 6",
+      "title": "Motion of Orbiting Satellites",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "Kinetic and Static Friction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.8",
+      "parentCode": "Unit 2",
+      "title": "Spring Forces",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.9",
+      "parentCode": "Unit 2",
+      "title": "Resistive Forces",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.10",
+      "parentCode": "Unit 2",
+      "title": "Circular Motion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "7.5.A.1",
+      "parentCode": "7.5",
+      "title": "Physical pendulum is rigid body oscillating about fixed axis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.4.A.1",
+      "parentCode": "7.4",
+      "title": "Total SHM energy equals kinetic energy plus potential energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.3.A.1",
+      "parentCode": "7.3",
+      "title": "SHM displacement follows sinusoidal equations; extrema and zeros characterize motion behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.2.A.1",
+      "parentCode": "7.2",
+      "title": "Period relates to angular frequency; spring and pendulum periods follow specific formulas.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1.A.1",
+      "parentCode": "7.1",
+      "title": "SHM is a specific type of periodic motion with special characteristics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1.A.1",
+      "parentCode": "1.1",
+      "title": "Scalars have magnitude; vectors have magnitude and direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.2.A.1",
+      "parentCode": "2.2",
+      "title": "Forces are vectors describing interactions; always result from object interactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.6.A.1",
+      "parentCode": "6.6",
+      "title": "Central object motion is negligible when satellite mass is much smaller.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.5.A.1",
+      "parentCode": "6.5",
+      "title": "Total kinetic energy equals translational plus rotational kinetic energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.4.A.1",
+      "parentCode": "6.4",
+      "title": "Total angular momentum equals sum of all constituent parts' momenta.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2.A.1",
+      "parentCode": "1.2",
+      "title": "Objects treated as point particles with mass and charge properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.4.A.1",
+      "parentCode": "2.4",
+      "title": "Net force equals the vector sum of all forces on a system.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.3.A.1",
+      "parentCode": "6.3",
+      "title": "Angular momentum of rigid systems equals moment of inertia times angular velocity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.2.A.1",
+      "parentCode": "6.2",
+      "title": "Torque transfers energy when applied through angular displacement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.6.A.1",
+      "parentCode": "5.6",
+      "title": "Net torque causes angular velocity to change in rotating systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.5.A.1",
+      "parentCode": "5.5",
+      "title": "Rotational and translational equilibrium are independent; net torque zero maintains constant angular velocity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.4.A.1",
+      "parentCode": "5.4",
+      "title": "Rotational inertia measures resistance to rotation based on mass distribution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.3.A.1",
+      "parentCode": "1.3",
+      "title": "Motion can be represented through multiple formats and representations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.3.A.1",
+      "parentCode": "2.3",
+      "title": "Newton's third law explains interactions through paired forces between objects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.5.A.1",
+      "parentCode": "2.5",
+      "title": "Unbalanced forces produce nonzero net force on a system.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.3.A.1",
+      "parentCode": "5.3",
+      "title": "Torque depends only on the perpendicular force component to the position vector.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.2.A.1",
+      "parentCode": "5.2",
+      "title": "Linear distance traveled equals radius times angular displacement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1.A.1",
+      "parentCode": "5.1",
+      "title": "Angular displacement measures rotation angle in radians about an axis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.4.A.1",
+      "parentCode": "4.4",
+      "title": "Elastic collisions conserve total kinetic energy of the system.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.4.A.1",
+      "parentCode": "1.4",
+      "title": "Reference frame choice determines direction and magnitude of measured quantities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.6.A.1",
+      "parentCode": "2.6",
+      "title": "Gravitational force depends on mass and distance, acts attractively along center-to-center line.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.3.A.1",
+      "parentCode": "4.3",
+      "title": "System center-of-mass velocity is constant without net external forces.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.5.A.1",
+      "parentCode": "1.5",
+      "title": "Decompose multidimensional motion into one-dimensional kinematic analysis by components.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.7.A.1",
+      "parentCode": "2.7",
+      "title": "Kinetic friction acts opposite to relative motion, independent of contact area.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1.A.1",
+      "parentCode": "4.1",
+      "title": "Momentum equals mass times velocity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.5.A.1",
+      "parentCode": "3.5",
+      "title": "Power measures the rate of energy change through transfer or conversion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1.A.1",
+      "parentCode": "2.1",
+      "title": "System properties emerge from interactions between constituent objects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.8.A.1",
+      "parentCode": "2.8",
+      "title": "Ideal springs exert force proportional to length change from equilibrium.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.4.A.1",
+      "parentCode": "3.4",
+      "title": "Single-object systems contain only kinetic energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.3.A.1",
+      "parentCode": "3.3",
+      "title": "Systems with conservative forces between objects possess potential energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1.A.1",
+      "parentCode": "3.1",
+      "title": "Translational kinetic energy equals one-half mass times velocity squared.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.10.A.1",
+      "parentCode": "2.10",
+      "title": "Centripetal acceleration points toward circle center; magnitude equals v²/r.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.9.A.1",
+      "parentCode": "2.9",
+      "title": "Resistive forces oppose motion and depend linearly on velocity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.3.A.2",
+      "parentCode": "5.3",
+      "title": "Lever arm is the perpendicular distance from axis to force line.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.1.A.2",
+      "parentCode": "1.1",
+      "title": "Arrows represent vectors with length proportional to magnitude.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2.A.2",
+      "parentCode": "1.2",
+      "title": "Displacement measures change in position from initial to final location.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.3.A.2",
+      "parentCode": "1.3",
+      "title": "Three kinematic equations describe constant acceleration motion in one dimension.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.4.B.1",
+      "parentCode": "1.4",
+      "title": "Measurements convert between different reference frames.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.5.A.2",
+      "parentCode": "1.5",
+      "title": "Velocity and acceleration differ across dimensions and need not be uniform.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.1.A.2",
+      "parentCode": "2.1",
+      "title": "Systems can be modeled as single objects when internal details are irrelevant.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2.A.2",
+      "parentCode": "2.2",
+      "title": "Contact forces result from touching; macroscopic effects of interatomic electric forces.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.3.A.2",
+      "parentCode": "2.3",
+      "title": "Internal forces do not affect a system's center of mass motion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.4.A.2",
+      "parentCode": "2.4",
+      "title": "Translational equilibrium occurs when net force on system equals zero.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.5.A.2",
+      "parentCode": "2.5",
+      "title": "System acceleration is proportional to net force, in same direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.6.A.2",
+      "parentCode": "2.6",
+      "title": "Gravitational field represents force per unit mass; acceleration equals field strength numerically.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.7.A.2",
+      "parentCode": "2.7",
+      "title": "Kinetic friction equals coefficient times normal force; depends on materials.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.8.A.2",
+      "parentCode": "2.8",
+      "title": "Spring force magnitude follows Hooke's law with proportionality constant.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.9.A.2",
+      "parentCode": "2.9",
+      "title": "Newton's second law yields differential equations; separation of variables integrates velocity with initial conditions to find position and acceleration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.10.A.2",
+      "parentCode": "2.10",
+      "title": "Various forces provide centripetal acceleration; gravity alone at loop top minimum speed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.1.A.2",
+      "parentCode": "3.1",
+      "title": "Kinetic energy has magnitude only, no directional component.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.3.A.2",
+      "parentCode": "3.3",
+      "title": "Potential energy is a scalar quantity dependent on object positions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.4.A.2",
+      "parentCode": "3.4",
+      "title": "Multi-object systems can have kinetic and potential energies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.5.A.2",
+      "parentCode": "3.5",
+      "title": "Average power equals total energy transferred divided by elapsed time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.1.A.2",
+      "parentCode": "4.1",
+      "title": "Momentum is a vector with velocity direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.3.A.2",
+      "parentCode": "4.3",
+      "title": "Total system momentum equals sum of individual object momenta.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.4.A.2",
+      "parentCode": "4.4",
+      "title": "Individual object kinetic energies change; total kinetic energy remains constant.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.1.A.2",
+      "parentCode": "5.1",
+      "title": "Angular velocity is the time rate of change of angular position.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2.A.2",
+      "parentCode": "5.2",
+      "title": "Linear and angular kinematics quantities relate through radius multiplier.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.4.A.2",
+      "parentCode": "5.4",
+      "title": "Rotational inertia for point mass equals mass times squared distance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.5.A.2",
+      "parentCode": "5.5",
+      "title": "Unbalanced torques cause angular velocity to change in rigid systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.6.A.2",
+      "parentCode": "5.6",
+      "title": "Angular acceleration is proportional to net torque and inversely proportional to rotational inertia.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2.A.2",
+      "parentCode": "6.2",
+      "title": "Work by torque equals integral of torque over angular displacement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.3.A.2",
+      "parentCode": "6.3",
+      "title": "Angular momentum uses cross product of position and momentum; axis selection and geometry matter.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.4.A.2",
+      "parentCode": "6.4",
+      "title": "Angular momentum changes only through external interactions; system selection determines conservation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.5.B.1",
+      "parentCode": "6.5",
+      "title": "Rolling without slipping relates center-of-mass motion to rotational motion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.6.A.2.i",
+      "parentCode": "6.6",
+      "title": "Circular orbits maintain constant total energy, potential energy, angular momentum, and kinetic energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.1.A.2",
+      "parentCode": "7.1",
+      "title": "Restoring force proportional to displacement causes SHM; equilibrium is zero net force.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.3.A.2",
+      "parentCode": "7.3",
+      "title": "SHM position satisfies the differential equation d²x/dt² = −ω²x from Newton's second law.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.4.A.2",
+      "parentCode": "7.4",
+      "title": "Total energy in SHM systems remains constant over time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.5.A.2",
+      "parentCode": "7.5",
+      "title": "Period formula derived from rotational Newton's second law for small amplitudes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.4.B.1",
+      "parentCode": "6.4",
+      "title": "Angular momentum is always conserved in physical interactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.4.A.3",
+      "parentCode": "5.4",
+      "title": "Total rotational inertia is sum of individual rotational inertias.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.6.A.2.ii",
+      "parentCode": "6.6",
+      "title": "Elliptical orbits conserve total energy and angular momentum; potential and kinetic energy vary.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.6.A.3",
+      "parentCode": "2.6",
+      "title": "Weight is the gravitational force on an object near an astronomical body.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.1.A.3",
+      "parentCode": "2.1",
+      "title": "Systems can exchange energy and mass with their environment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.4.B.1",
+      "parentCode": "3.4",
+      "title": "Mechanical energy equals kinetic plus potential energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.10.A.3",
+      "parentCode": "2.10",
+      "title": "Tangential acceleration changes speed; directed along the circle's path.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.5.A.2.i",
+      "parentCode": "7.5",
+      "title": "Gravitational force on center of mass creates restoring torque from equilibrium.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.5.A.3",
+      "parentCode": "2.5",
+      "title": "Velocity changes only when nonzero net external force acts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.1.A.3",
+      "parentCode": "1.1",
+      "title": "Distance and speed are scalars; position, displacement, velocity, acceleration are vectors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.4.A.3",
+      "parentCode": "2.4",
+      "title": "Zero net force means system velocity remains constant.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.5.A.3",
+      "parentCode": "3.5",
+      "title": "Average power equals total work done divided by time interval.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.5.A.3",
+      "parentCode": "1.5",
+      "title": "Motion in one dimension is independent of perpendicular dimensional changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3.A.3",
+      "parentCode": "2.3",
+      "title": "Tension results from internal forces in strings; properties vary by ideal conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.1.A.3",
+      "parentCode": "4.1",
+      "title": "Momentum analyzes collisions with large internal forces and explosions separating objects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.4.B.2",
+      "parentCode": "1.4",
+      "title": "Observed velocity combines object and observer motion via vector addition; acceleration is frame-invariant.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.9.A.3",
+      "parentCode": "2.9",
+      "title": "Terminal velocity is maximum speed when constant and resistive forces balance, yielding zero net force.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3.A.3",
+      "parentCode": "4.3",
+      "title": "Internal momentum changes balance; system selection determines if momentum conserves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.8.A.3",
+      "parentCode": "2.8",
+      "title": "Spring force direction always points toward system equilibrium position.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.5.B.2",
+      "parentCode": "6.5",
+      "title": "Friction in ideal rolling without slipping dissipates no energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.3.A.3",
+      "parentCode": "7.3",
+      "title": "SHM characteristics derived from x = A cos(ωt + φ); acceleration a = −ω²x; vmax = Aω, amax = Aω².",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.4.A.3",
+      "parentCode": "4.4",
+      "title": "Inelastic collisions result in decreased total kinetic energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.1.A.3",
+      "parentCode": "5.1",
+      "title": "Angular acceleration is the time rate of change of angular velocity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.2.B.1",
+      "parentCode": "2.2",
+      "title": "Free-body diagrams visualize forces and help determine equations for situations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.1.A.3",
+      "parentCode": "3.1",
+      "title": "Kinetic energy values depend on the reference frame of measurement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.2.A.3",
+      "parentCode": "5.2",
+      "title": "Rigid body points share identical angular velocity and acceleration values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3.A.3",
+      "parentCode": "1.3",
+      "title": "Gravitational acceleration near Earth's surface is constant and downward.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.3.B.1",
+      "parentCode": "5.3",
+      "title": "Force diagrams show forces, magnitudes, directions, and locations relative to rotation axis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3.B.1",
+      "parentCode": "6.3",
+      "title": "Angular impulse equals torque integrated over time interval.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.2.B.1",
+      "parentCode": "1.2",
+      "title": "Average quantities depend on initial and final states over time interval.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.2.A.3",
+      "parentCode": "6.2",
+      "title": "Torque-angle graph area represents work done by torque.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.6.A.3",
+      "parentCode": "5.6",
+      "title": "Rotating systems require independent linear and rotational motion analysis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.4.A.3",
+      "parentCode": "7.4",
+      "title": "Maximum kinetic energy occurs when potential energy is minimum.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3.A.3",
+      "parentCode": "3.3",
+      "title": "Zero potential energy reference point is observer-chosen for analytical convenience.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.7.B.1",
+      "parentCode": "2.7",
+      "title": "Static friction acts between non-moving surfaces in contact.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.4.A.4",
+      "parentCode": "5.4",
+      "title": "Solid rotational inertia found by integrating mass elements squared distance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.1.A.4",
+      "parentCode": "2.1",
+      "title": "Individual objects behave differently from each other and the system.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4.A.4",
+      "parentCode": "2.4",
+      "title": "Velocity changes only in direction of unbalanced force components.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.4.A.4",
+      "parentCode": "7.4",
+      "title": "Maximum potential energy occurs at minimum kinetic energy; amplitude changes affect total energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.5.A.4",
+      "parentCode": "1.5",
+      "title": "Projectile motion has zero acceleration one direction, constant acceleration perpendicular.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.7.B.2",
+      "parentCode": "2.7",
+      "title": "Static friction prevents sliding up to maximum value; depends on coefficient.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.1.A.4",
+      "parentCode": "5.1",
+      "title": "Rotational kinematics equations parallel linear motion with constant acceleration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.1.A.4",
+      "parentCode": "1.1",
+      "title": "Vectors expressed as magnitude-direction or unit vector notation with i, j, k components.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.2.B.2",
+      "parentCode": "1.2",
+      "title": "Average velocity equals displacement divided by elapsed time interval.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.5.A.4",
+      "parentCode": "3.5",
+      "title": "Instantaneous power is the derivative of work with respect to time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.10.A.4",
+      "parentCode": "2.10",
+      "title": "Net acceleration combines centripetal and tangential acceleration vectors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.3.A.4",
+      "parentCode": "3.3",
+      "title": "Change in potential energy equals negative integral of conservative force over displacement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.8.B.1.i",
+      "parentCode": "2.8",
+      "title": "Series springs: reciprocal of equivalent constant equals sum of reciprocals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.3.A.4.i",
+      "parentCode": "1.3",
+      "title": "Instantaneous velocity equals the slope of position-time graph.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.3.B.2",
+      "parentCode": "5.3",
+      "title": "Torque equals r cross F; cross-product magnitude is AB sin θ with right-hand rule direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.2.B.2",
+      "parentCode": "2.2",
+      "title": "Free-body diagrams show all forces exerted on object by environment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.6.B.1",
+      "parentCode": "2.6",
+      "title": "Gravitational force can be treated as constant when change in distance is negligible.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4.A.4",
+      "parentCode": "4.4",
+      "title": "Lost kinetic energy converts to heat, sound, deformation via nonconservative forces.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.6.A.2.iii",
+      "parentCode": "6.6",
+      "title": "Gravitational potential energy is zero at infinite separation; Ug = −G(m₁m₂)/r.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.5.A.2.ii",
+      "parentCode": "7.5",
+      "title": "Small-angle approximation simplifies restoring torque equation for small oscillations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.4.B.2",
+      "parentCode": "6.4",
+      "title": "Zero net external torque means constant total angular momentum.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4.B.2",
+      "parentCode": "3.4",
+      "title": "Energy changes must balance within system or transfer externally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.3.A.4",
+      "parentCode": "7.3",
+      "title": "Resonance occurs at natural frequency, increasing amplitude when external force matches system frequency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.3.A.4",
+      "parentCode": "4.3",
+      "title": "Conservation of momentum determines velocities before and after collisions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.3.B.2",
+      "parentCode": "6.3",
+      "title": "Angular impulse direction aligns with the applied torque direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.5.C.1",
+      "parentCode": "6.5",
+      "title": "Slipping decouples center-of-mass motion from rotational motion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.6.A.3",
+      "parentCode": "6.6",
+      "title": "Circular orbit total energy relates to potential and kinetic energy: K = −½U.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.10.A.5",
+      "parentCode": "2.10",
+      "title": "Period and frequency describe uniform circular motion; T = 2πr/v.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.3.A.5",
+      "parentCode": "3.3",
+      "title": "Conservative force equals negative potential energy slope; points toward decreasing energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.4.B.3",
+      "parentCode": "3.4",
+      "title": "Systems can be defined with constant total energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5.A.5",
+      "parentCode": "3.5",
+      "title": "Instantaneous power equals force times velocity times cosine of angle.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.5.A.2.iii",
+      "parentCode": "7.5",
+      "title": "Small-angle approximation yields second-order SHM differential equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.3.B.1",
+      "parentCode": "4.3",
+      "title": "Momentum conservation applies universally to all interactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.4.A.5",
+      "parentCode": "4.4",
+      "title": "Perfectly inelastic collisions result in objects moving together with one velocity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.3.A.4.ii",
+      "parentCode": "1.3",
+      "title": "Instantaneous acceleration equals the slope of velocity-time graph.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.3.A.5",
+      "parentCode": "7.3",
+      "title": "SHM period is independent of amplitude; changing amplitude does not alter period.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.4.B.1",
+      "parentCode": "5.4",
+      "title": "Rotational inertia is minimum when axis passes through center of mass.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.2.B.3",
+      "parentCode": "1.2",
+      "title": "Average acceleration equals velocity change divided by time interval.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.3.B.3",
+      "parentCode": "6.3",
+      "title": "Angular impulse equals area under torque-versus-time graph.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.1.A.5",
+      "parentCode": "1.1",
+      "title": "Opposite directions in 1D are represented by opposite signs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.1.A.5",
+      "parentCode": "2.1",
+      "title": "Internal system structure significantly affects how to analyze systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.4.B.3",
+      "parentCode": "6.4",
+      "title": "Nonzero net torque transfers angular momentum to environment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.5.C.2",
+      "parentCode": "6.5",
+      "title": "Kinetic friction during slipping dissipates energy from the system.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.4.A.5",
+      "parentCode": "2.4",
+      "title": "Inertial frames are where Newton's first law can be verified.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.2.B.3",
+      "parentCode": "2.2",
+      "title": "Forces originate from center of mass point; system mass concentrated there.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.6.B.2",
+      "parentCode": "2.6",
+      "title": "Earth's surface gravitational field strength approximates 10 N/kg or 10 m/s².",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.7.B.3",
+      "parentCode": "2.7",
+      "title": "Static friction coefficient typically exceeds kinetic friction coefficient.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.8.B.1.ii",
+      "parentCode": "2.8",
+      "title": "Series arrangement yields equivalent constant smaller than any individual.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.3.A.6",
+      "parentCode": "7.3",
+      "title": "Graphical representations can determine and analyze SHM properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.3.C.1",
+      "parentCode": "6.3",
+      "title": "Change in angular momentum is final minus initial angular momentum.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.3.B.2",
+      "parentCode": "4.3",
+      "title": "Zero net external force means total system momentum remains constant.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.10.B.1",
+      "parentCode": "2.10",
+      "title": "Orbital centripetal acceleration from gravity; period relates to mass via Kepler's law.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.3.A.4.iii",
+      "parentCode": "1.3",
+      "title": "Displacement equals the area under the velocity-time curve.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.6.A.4.i",
+      "parentCode": "6.6",
+      "title": "Escape velocity allows satellite to reach infinite distance with zero final speed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.2.B.4",
+      "parentCode": "2.2",
+      "title": "Align axes parallel to acceleration direction to simplify algebraic representation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.4.B.4",
+      "parentCode": "3.4",
+      "title": "Energy change equals net external energy transfer.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.8.B.1.iii",
+      "parentCode": "2.8",
+      "title": "Parallel springs: equivalent constant equals sum of individual constants.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6.C.1",
+      "parentCode": "2.6",
+      "title": "Apparent weight equals the normal force magnitude exerted on an object.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.3.A.6.i",
+      "parentCode": "3.3",
+      "title": "Stable equilibrium: small displacement produces restoring force back to equilibrium.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.5.A.3",
+      "parentCode": "7.5",
+      "title": "Simple pendulum models point mass at distance from pivot point.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.1.A.6",
+      "parentCode": "2.1",
+      "title": "External changes can alter a system's internal structure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.2.B.4",
+      "parentCode": "1.2",
+      "title": "Acceleration occurs when velocity magnitude or direction changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.4.B.2",
+      "parentCode": "5.4",
+      "title": "Parallel axis theorem relates inertia about offset axis to center of mass.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.4.C.1",
+      "parentCode": "3.4",
+      "title": "Energy is conserved universally in all interactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.6.A.4.ii",
+      "parentCode": "6.6",
+      "title": "Escape velocity achieves zero total mechanical energy; vesc = √(2GM/r).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.2.B.5",
+      "parentCode": "1.2",
+      "title": "Small time intervals yield average values approximating instantaneous values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.3.A.4.iv",
+      "parentCode": "1.3",
+      "title": "Change in velocity equals the area under the acceleration-time curve.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.3.A.6.ii",
+      "parentCode": "3.3",
+      "title": "Unstable equilibrium: small displacement produces force away from equilibrium.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.3.C.2",
+      "parentCode": "6.3",
+      "title": "Angular impulse equals change in angular momentum; follows from Newton's second law.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.5.A.4",
+      "parentCode": "7.5",
+      "title": "Torsion pendulum exhibits SHM with restoring torque proportional to displacement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.3.B.3",
+      "parentCode": "4.3",
+      "title": "Nonzero net force transfers momentum between system and environment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.6.C.2",
+      "parentCode": "2.6",
+      "title": "Accelerating systems experience apparent weight different from gravitational force.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.1.B.1",
+      "parentCode": "2.1",
+      "title": "Center of mass lies on symmetry lines for symmetric distributions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.1.B.2",
+      "parentCode": "2.1",
+      "title": "Center of mass position calculated from weighted sum of particle positions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.2.C.1.i",
+      "parentCode": "1.2",
+      "title": "Instantaneous velocity is derivative of position with respect to time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.4.C.2",
+      "parentCode": "3.4",
+      "title": "Zero work and no nonconservative forces conserve mechanical energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.3.A.6.iii",
+      "parentCode": "3.3",
+      "title": "Stable equilibrium occurs at local minima of potential energy function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.2.C.1.ii",
+      "parentCode": "1.2",
+      "title": "Instantaneous acceleration is derivative of velocity with respect to time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "3.4.C.3",
+      "parentCode": "3.4",
+      "title": "Nonzero work transfers energy between system and environment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.1.B.3",
+      "parentCode": "2.1",
+      "title": "Center of mass for continuous bodies uses integral of mass density.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "3.3.A.6.iv",
+      "parentCode": "3.3",
+      "title": "Unstable equilibrium occurs at local maxima of potential energy function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.1.B.4",
+      "parentCode": "2.1",
+      "title": "Systems behave as single objects located at their center of mass.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "3.3.A.7.i",
+      "parentCode": "3.3",
+      "title": "Elastic potential energy of ideal springs described by standard spring equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    }
+  ]
+}

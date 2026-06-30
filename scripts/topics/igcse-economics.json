@@ -1,0 +1,1343 @@
+{
+  "curriculumCode": "IGCSE",
+  "subject": "Economics",
+  "source": "school-core:CAIE-0455@2027–2029",
+  "strands": [
+    {
+      "code": "1",
+      "parentCode": null,
+      "title": "The basic economic problem",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2",
+      "parentCode": null,
+      "title": "The allocation of resources",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3",
+      "parentCode": null,
+      "title": "Microeconomic decision-makers",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4",
+      "parentCode": null,
+      "title": "Government and the macroeconomy",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5",
+      "parentCode": null,
+      "title": "Economic development",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6",
+      "parentCode": null,
+      "title": "International trade and globalisation",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.1",
+      "parentCode": "3",
+      "title": "Money and banking",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "6",
+      "title": "Specialisation and free trade",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "5",
+      "title": "Living standards",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "4",
+      "title": "Government macroeconomic intervention",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "1",
+      "title": "The nature of the basic economic problem",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "2",
+      "title": "The role of markets in allocating resources",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.2",
+      "parentCode": "2",
+      "title": "Demand",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "1",
+      "title": "Factors of production",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "3",
+      "title": "Households",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "4",
+      "title": "Fiscal policy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "5",
+      "title": "Poverty",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2",
+      "parentCode": "6",
+      "title": "Globalisation and trade restrictions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.3",
+      "parentCode": "4",
+      "title": "Monetary policy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3",
+      "parentCode": "6",
+      "title": "Foreign exchange rates",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "2",
+      "title": "Supply",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "1",
+      "title": "Opportunity cost",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "3",
+      "title": "Workers",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.3",
+      "parentCode": "5",
+      "title": "Population",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.4",
+      "parentCode": "5",
+      "title": "Differences in economic development between countries",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "3",
+      "title": "Firms",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "1",
+      "title": "Production possibility curve (PPC) diagrams",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4",
+      "parentCode": "2",
+      "title": "Price determination",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.4",
+      "parentCode": "6",
+      "title": "Current account of the balance of payments",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "4",
+      "title": "Supply-side policy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.5",
+      "parentCode": "2",
+      "title": "Price changes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5",
+      "parentCode": "4",
+      "title": "Economic growth",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5",
+      "parentCode": "3",
+      "title": "Firms and production",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.6",
+      "parentCode": "2",
+      "title": "Price elasticity of demand (PED)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.6",
+      "parentCode": "3",
+      "title": "Firms’ costs, revenue and objectives",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.6",
+      "parentCode": "4",
+      "title": "Employment and unemployment",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.7",
+      "parentCode": "2",
+      "title": "Price elasticity of supply (PES)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.7",
+      "parentCode": "4",
+      "title": "Inflation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.7",
+      "parentCode": "3",
+      "title": "Types of markets",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.8",
+      "parentCode": "2",
+      "title": "Market economic system",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.9",
+      "parentCode": "2",
+      "title": "Market failure",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.10",
+      "parentCode": "2",
+      "title": "Mixed economic system",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "6.1.1",
+      "parentCode": "6.1",
+      "title": "Understand specialisation by country, its basis, and trade-offs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.3.1",
+      "parentCode": "5.3",
+      "title": "Define key population measures including birth rate, death rate, and migration terms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.2.1",
+      "parentCode": "5.2",
+      "title": "Distinguish between absolute and relative poverty definitions and characteristics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1.1",
+      "parentCode": "5.1",
+      "title": "Understand living standard indicators: GDP per head, HDI, and their relative strengths",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.3.1",
+      "parentCode": "4.3",
+      "title": "Understand what money supply and monetary policy mean and their definitions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.4.1",
+      "parentCode": "4.4",
+      "title": "Understanding what supply-side policy means and its economic purpose",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.5.1",
+      "parentCode": "4.5",
+      "title": "Understand what economic growth means and its basic definition",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.6.1",
+      "parentCode": "4.6",
+      "title": "Understand and define employment, unemployment, and full employment concepts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.7.1",
+      "parentCode": "4.7",
+      "title": "Understand what inflation and deflation are and their definitions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1.1",
+      "parentCode": "1.1",
+      "title": "Understand scarcity and the basic economic problem across different economic actors",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2.1",
+      "parentCode": "1.2",
+      "title": "Understand the four factors of production and their definitions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.3.1",
+      "parentCode": "1.3",
+      "title": "Understand opportunity cost definition and recognize examples across contexts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.4.1",
+      "parentCode": "1.4",
+      "title": "Define PPCs and construct or analyse PPC diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.4.1",
+      "parentCode": "6.4",
+      "title": "Identify the four main components that comprise the current account.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1.1",
+      "parentCode": "2.1",
+      "title": "Understand market definition, examples, and the functions of buyers and sellers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.2.1",
+      "parentCode": "2.2",
+      "title": "Understand demand definition, individual-to-market demand relationship, and demand diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.3.1",
+      "parentCode": "2.3",
+      "title": "Understand supply definition, relationship between individual and market supply, interpret supply diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.4.1",
+      "parentCode": "2.4",
+      "title": "Price mechanism determines what, how, and for whom goods are produced",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.5.1",
+      "parentCode": "2.5",
+      "title": "Understand how demand and supply changes cause price changes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.6.1",
+      "parentCode": "2.6",
+      "title": "Understand the meaning and concept of price elasticity of demand",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.3.1",
+      "parentCode": "6.3",
+      "title": "Understand what a foreign exchange rate is and its definition",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.7.1",
+      "parentCode": "2.7",
+      "title": "Understand the definition and meaning of price elasticity of supply",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.8.1",
+      "parentCode": "2.8",
+      "title": "Understand what constitutes a market economic system and its basic definition",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.9.1",
+      "parentCode": "2.9",
+      "title": "Understand what market failure means and when it occurs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.10.1",
+      "parentCode": "2.10",
+      "title": "Understand what a mixed economic system is and how it functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1.1",
+      "parentCode": "3.1",
+      "title": "Understanding what money is, what it does, and its key properties",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.2.1",
+      "parentCode": "3.2",
+      "title": "Identify factors affecting household spending, saving, and borrowing decisions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.3.1",
+      "parentCode": "3.3",
+      "title": "Understand wage and non-wage factors influencing occupational choice decisions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.2.1",
+      "parentCode": "6.2",
+      "title": "Understand what globalisation means and its core definition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.4.1",
+      "parentCode": "3.4",
+      "title": "Classify firms by sector and ownership; compare small and large firm benefits",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.2.1",
+      "parentCode": "4.2",
+      "title": "Understand definitions of government budget, deficit, and surplus.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.5.1",
+      "parentCode": "3.5",
+      "title": "Understand factors influencing demand for labor, capital, and raw materials in production",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.6.1",
+      "parentCode": "3.6",
+      "title": "Understand definitions of total and average costs, fixed costs, variable costs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.4.1",
+      "parentCode": "5.4",
+      "title": "Understand causes and consequences of international economic development differences",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.7.1",
+      "parentCode": "3.7",
+      "title": "Analyze competitive markets' features and impacts on market outcomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1.1",
+      "parentCode": "4.1",
+      "title": "Identify six key macroeconomic aims governments pursue in economic policy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.8.2",
+      "parentCode": "2.8",
+      "title": "Evaluate both strengths and weaknesses of market economic systems comprehensively",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.1.2",
+      "parentCode": "4.1",
+      "title": "Explain why governments prioritize specific aims and measurement criteria.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.9.2",
+      "parentCode": "2.9",
+      "title": "Define key market failure terminology including goods types and cost/benefit categories.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.7.2",
+      "parentCode": "4.7",
+      "title": "Learn how CPI is used to measure inflation rates",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2.2",
+      "parentCode": "6.2",
+      "title": "Analyse causes of globalisation changes and their effects on multiple economic factors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.5.2",
+      "parentCode": "3.5",
+      "title": "Analyze labor versus capital-intensive methods, their adoption reasons, and trade-offs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.10.2",
+      "parentCode": "2.10",
+      "title": "Evaluate the strengths and weaknesses of mixed economic systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.5.2",
+      "parentCode": "4.5",
+      "title": "Learn how to measure economic growth through real GDP calculations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.1.2",
+      "parentCode": "5.1",
+      "title": "Explain causes of living standard and income distribution variations globally and domestically",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.1.2",
+      "parentCode": "3.1",
+      "title": "Central banks' functions and significance in the financial system",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.4.2",
+      "parentCode": "1.4",
+      "title": "Explain what different points on/off a PPC indicate about production efficiency",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.7.2",
+      "parentCode": "3.7",
+      "title": "Analyze monopoly markets' features and impacts on market outcomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.6.2",
+      "parentCode": "3.6",
+      "title": "Calculate costs and interpret diagrams showing output effects on production costs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.3.2",
+      "parentCode": "3.3",
+      "title": "Analyse wage determination through labour market forces, unions, policy, and diagram interpretation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2.2",
+      "parentCode": "2.2",
+      "title": "Identify causes of demand extensions and contractions with illustrative diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.3.2",
+      "parentCode": "1.3",
+      "title": "Analyze resource allocation decisions by various economic agents using opportunity cost",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.4.2",
+      "parentCode": "4.4",
+      "title": "Identifying key supply-side policy tools used to boost productive capacity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.3.2",
+      "parentCode": "2.3",
+      "title": "Explain extensions and contractions in supply; diagram movements along supply curves",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2.2",
+      "parentCode": "1.2",
+      "title": "Identify the economic rewards earned by each factor of production",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2.2",
+      "parentCode": "5.2",
+      "title": "Identify multiple causes of poverty including economic and personal factors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.4.2",
+      "parentCode": "2.4",
+      "title": "Understand market equilibrium definition, schedules, and graphical representation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.1.2",
+      "parentCode": "1.1",
+      "title": "Identify the three fundamental questions determining how resources are allocated economically",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.1.2",
+      "parentCode": "6.1",
+      "title": "Define free trade and evaluate its benefits and drawbacks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.5.2",
+      "parentCode": "2.5",
+      "title": "Analyze price effects on sales using demand and supply diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2.2",
+      "parentCode": "4.2",
+      "title": "Calculate government budget deficit or surplus amounts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.6.2",
+      "parentCode": "2.6",
+      "title": "Calculate PED, interpret values across elasticity spectrum, diagram demand curves",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.4.2",
+      "parentCode": "6.4",
+      "title": "Calculate current account deficits and surpluses across all component sections.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.3.2",
+      "parentCode": "6.3",
+      "title": "Identify reasons for buying and selling foreign currencies in markets",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.4.2",
+      "parentCode": "3.4",
+      "title": "Understand merger types and their strategic implications for firms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.3.2",
+      "parentCode": "4.3",
+      "title": "Identify the key tools of monetary policy including interest rates, money supply, and exchange rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.7.2",
+      "parentCode": "2.7",
+      "title": "Calculate PES, interpret values, and diagram supply curves showing elasticity ranges",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.6.2",
+      "parentCode": "4.6",
+      "title": "Learn unemployment measurement methods, labour force surveys, and rate calculation formula.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.3.2",
+      "parentCode": "5.3",
+      "title": "Explain variations in birth rates, death rates, and net migration across different countries",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.3.3",
+      "parentCode": "5.3",
+      "title": "Analyze causes of differing birth rates, death rates, and migration rates internationally",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.1.3",
+      "parentCode": "3.1",
+      "title": "Commercial banks' functions and significance in the financial system",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.1.3",
+      "parentCode": "1.1",
+      "title": "Distinguish between economic and free goods based on scarcity characteristics",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.2.3",
+      "parentCode": "1.2",
+      "title": "Analyse factors causing variations in factor availability and quality",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.4.3",
+      "parentCode": "1.4",
+      "title": "Analyse movements along PPC curves in relation to opportunity cost",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.2.3",
+      "parentCode": "2.2",
+      "title": "Explain causes of demand shifts and represent them diagrammatically",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3.3",
+      "parentCode": "2.3",
+      "title": "Explain supply curve shifts from changing conditions; diagram leftward and rightward shifts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.4.3",
+      "parentCode": "2.4",
+      "title": "Analyze market disequilibrium, shortages, and surpluses using schedules and curves",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.6.3",
+      "parentCode": "2.6",
+      "title": "Identify key determinants affecting whether demand is elastic or inelastic",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.7.3",
+      "parentCode": "2.7",
+      "title": "Identify and explain key determinants affecting the elasticity of supply",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.9.3",
+      "parentCode": "2.9",
+      "title": "Identify causes of market failure across different market and goods contexts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.10.3",
+      "parentCode": "2.10",
+      "title": "Analyze government policies to correct market failures and their economic impacts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3.3",
+      "parentCode": "3.3",
+      "title": "Explain wage differences based on market forces, bargaining, discrimination, and sector characteristics",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.4.3",
+      "parentCode": "3.4",
+      "title": "Analyze how production scale impacts firm and industry costs and efficiency",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.5.3",
+      "parentCode": "3.5",
+      "title": "Distinguish production from productivity; examine influences and investment impacts on productivity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.6.3",
+      "parentCode": "3.6",
+      "title": "Understand definitions of total revenue and average revenue.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.1.3",
+      "parentCode": "4.1",
+      "title": "Analyze trade-offs and conflicts between competing macroeconomic policy objectives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.2.3",
+      "parentCode": "4.2",
+      "title": "Identify government spending areas, their rationales, and economic effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3.3",
+      "parentCode": "4.3",
+      "title": "Explain how monetary policy instruments help governments reach macroeconomic objectives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.4.3",
+      "parentCode": "4.4",
+      "title": "Analysing how supply-side policies help governments reach economic objectives",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.5.3",
+      "parentCode": "4.5",
+      "title": "Analyze causes of growth and evaluate its advantages and disadvantages",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.6.3",
+      "parentCode": "4.6",
+      "title": "Identify and explain four types of unemployment and their underlying causes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.7.3",
+      "parentCode": "4.7",
+      "title": "Identify and explain demand-pull and cost-push inflation causes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.2.3",
+      "parentCode": "5.2",
+      "title": "Analyze policy measures to reduce poverty and redistribute income across society.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.2.3",
+      "parentCode": "6.2",
+      "title": "Evaluate advantages and disadvantages of MNCs for both host and home nations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3.3",
+      "parentCode": "6.3",
+      "title": "Explain how foreign exchange rates are determined through market supply and demand",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.4.3",
+      "parentCode": "6.4",
+      "title": "Explain the causes underlying current account deficits and surpluses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.7.4",
+      "parentCode": "4.7",
+      "title": "Analyze inflation effects on various stakeholders and the broader economy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.2.4",
+      "parentCode": "4.2",
+      "title": "Understand multiple economic purposes and objectives of taxation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.3.4",
+      "parentCode": "5.3",
+      "title": "Understand the concept of optimum population and its economic significance",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.6.4",
+      "parentCode": "3.6",
+      "title": "Calculate revenue and analyse how sales volume influences total revenue.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4.4",
+      "parentCode": "3.4",
+      "title": "Construct and interpret ATC curves showing scale economies and diseconomies",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.3.4",
+      "parentCode": "3.3",
+      "title": "Examine causes and consequences of changes in occupational and geographical labour mobility",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.9.4",
+      "parentCode": "2.9",
+      "title": "Analyse resource misallocation consequences including over/under-consumption and monopoly effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.2.4",
+      "parentCode": "6.2",
+      "title": "Identify and describe the main types of trade restrictions and protectionist measures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.6.4",
+      "parentCode": "2.6",
+      "title": "Analyze how price changes affect consumer spending and firm revenue using diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.4.4",
+      "parentCode": "6.4",
+      "title": "Analyze consequences of current account imbalances on macroeconomic indicators.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.3.4",
+      "parentCode": "6.3",
+      "title": "Analyse effects of exchange rate changes on prices and trade demand",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.6.4",
+      "parentCode": "4.6",
+      "title": "Analyze unemployment impacts on individuals, firms, government, and broader economy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.5.4",
+      "parentCode": "4.5",
+      "title": "Define recession, identify causes, and analyze impacts on economic stakeholders",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4.4",
+      "parentCode": "1.4",
+      "title": "Explain what causes PPC shifts and their implications for economic growth",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.3.5",
+      "parentCode": "3.3",
+      "title": "Define division of labour and analyse its advantages and disadvantages",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5.5",
+      "parentCode": "4.5",
+      "title": "Evaluate various policies governments use to promote economic growth",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.6.5",
+      "parentCode": "3.6",
+      "title": "Identify firm objectives including survival, welfare, profit maximisation, growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.7.5",
+      "parentCode": "4.7",
+      "title": "Evaluate available policies and their effectiveness in controlling inflation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.3.5",
+      "parentCode": "5.3",
+      "title": "Analyze effects of population size changes and shifts in age-gender distribution",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.2.5",
+      "parentCode": "6.2",
+      "title": "Understand rationales for implementing various forms of trade protection measures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.6.5",
+      "parentCode": "2.6",
+      "title": "Evaluate PED significance for decision-making across stakeholders",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.6.5",
+      "parentCode": "4.6",
+      "title": "Examine various unemployment reduction policies and evaluate their effectiveness.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.2.5",
+      "parentCode": "4.2",
+      "title": "Classify taxes by progressivity and directness with examples.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.4.5",
+      "parentCode": "6.4",
+      "title": "Evaluate policies and their effectiveness in achieving balance of payments stability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.2.6",
+      "parentCode": "4.2",
+      "title": "Analyze taxation effects across multiple economic stakeholders.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.2.6",
+      "parentCode": "6.2",
+      "title": "Analyse effects of trade restrictions on different economies and free trade outcomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.2.7",
+      "parentCode": "4.2",
+      "title": "Define fiscal policy and its role in economics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.2.8",
+      "parentCode": "4.2",
+      "title": "Identify fiscal policy tools of tax and spending adjustments.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.2.9",
+      "parentCode": "4.2",
+      "title": "Explain how fiscal policy tools support macroeconomic objectives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    }
+  ]
+}

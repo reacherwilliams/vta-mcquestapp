@@ -1,0 +1,1375 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Music Theory",
+  "source": "school-core:AP-MUS-THEORY@Effective Fall 2020",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: Unit 1",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: Unit 2",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: Unit 3",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: Unit 4",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 5",
+      "parentCode": null,
+      "title": "Unit 5: Unit 5",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "Unit 6",
+      "parentCode": null,
+      "title": "Unit 6: Unit 6",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "Unit 7",
+      "parentCode": null,
+      "title": "Unit 7: Unit 7",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "Unit 8",
+      "parentCode": null,
+      "title": "Unit 8: Unit 8",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "4.1",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "Triad and Chord Qualities (M, m, d, A)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Pitch and Pitch Notation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1",
+      "parentCode": "Unit 8",
+      "title": "Modes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1",
+      "parentCode": "Unit 7",
+      "title": "Tonicization through Secondary Dominant Chords",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "Unit 6",
+      "title": "6.1",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "Minor Scales: Natural, Harmonic, and Melodic",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "Unit 5",
+      "title": "Adding Predominant Function IV (iv) and ii (ii°) to a Melodic Phrase",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "SATB Voice Leading",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "Unit 5",
+      "title": "5.2",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "Diatonic Chords and Roman Numerals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2",
+      "parentCode": "Unit 8",
+      "title": "Phrase Relationships",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "Relative Keys: Determining Relative Minor Key and Notating Key Signatures",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2",
+      "parentCode": "Unit 7",
+      "title": "Part Writing of Secondary Dominant Chords",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "Rhythmic Values",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2",
+      "parentCode": "Unit 6",
+      "title": "Embellishing Tones: Writing Passing Tones and Neighbor Tones",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "Harmonic Progression, Functional Harmony, and Cadences",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "Half Steps and Whole Steps",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "Key Relationships: Parallel, Closely Related, and Distantly Related Keys",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "Chord Inversions and Figured Bass: Introduction to Figured Bass",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.3",
+      "parentCode": "Unit 5",
+      "title": "5.3",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3",
+      "parentCode": "Unit 6",
+      "title": "Embellishing Tones: Identifying Anticipations, Escape Tones, Appoggiaturas, and Pedal Points",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.3",
+      "parentCode": "Unit 7",
+      "title": "Tonicization through Secondary Leading Tone Chords",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3",
+      "parentCode": "Unit 8",
+      "title": "8.3",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "Voice Leading with Seventh Chords",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "Major Scales and Scale Degrees",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Other Scales: Chromatic, Whole-Tone, and Pentatonic",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "Seventh Chords",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.4",
+      "parentCode": "Unit 7",
+      "title": "Part Writing of Secondary Leading Tone Chords",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.4",
+      "parentCode": "Unit 5",
+      "title": "The iii (III) Chord",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.4",
+      "parentCode": "Unit 6",
+      "title": "6.4",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "Interval Size and Quality",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "Seventh Chord Inversions and Figures",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "Major Keys and Key Signatures",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.5",
+      "parentCode": "Unit 6",
+      "title": "Motive and Motivic Transformation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.5",
+      "parentCode": "Unit 5",
+      "title": "Cadences and Predominant Function",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5",
+      "parentCode": "Unit 4",
+      "title": "Voice Leading with Seventh Chords in Inversions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.6",
+      "parentCode": "Unit 1",
+      "title": "Simple and Compound Beat Division",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "Interval Inversion and Compound Intervals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.6",
+      "parentCode": "Unit 6",
+      "title": "Melodic Sequence",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.6",
+      "parentCode": "Unit 5",
+      "title": "Cadential 6/4 Chords",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.7",
+      "parentCode": "Unit 1",
+      "title": "Meter and Time Signature",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.7",
+      "parentCode": "Unit 5",
+      "title": "Additional 6/4 Chords",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "Transposing Instruments",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.7",
+      "parentCode": "Unit 6",
+      "title": "Harmonic Sequence",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.8",
+      "parentCode": "Unit 2",
+      "title": "Timbre",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.8",
+      "parentCode": "Unit 1",
+      "title": "Rhythmic Patterns",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.9",
+      "parentCode": "Unit 2",
+      "title": "Melodic Features",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.9",
+      "parentCode": "Unit 1",
+      "title": "Tempo",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.10",
+      "parentCode": "Unit 1",
+      "title": "Dynamics and Articulation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "2.10",
+      "parentCode": "Unit 2",
+      "title": "Melodic Transposition",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "2.11",
+      "parentCode": "Unit 2",
+      "title": "Texture Types",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "2.12",
+      "parentCode": "Unit 2",
+      "title": "Texture Devices",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "2.13",
+      "parentCode": "Unit 2",
+      "title": "Rhythmic Devices",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "RHY-1.A.1",
+      "parentCode": "1.2",
+      "title": "Notes and rests have durations extended by ties and augmentation dots.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-1.A.1",
+      "parentCode": "1.1",
+      "title": "Pitches are discrete frequencies notated on staffs with clefs; octaves and accidentals distinguish pitch.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-1.C.1",
+      "parentCode": "1.3",
+      "title": "Half steps and whole steps form fundamental pitch patterns and interval structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-1.D.1",
+      "parentCode": "1.4",
+      "title": "Half and whole step patterns create major and minor scales.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-1.F.1",
+      "parentCode": "1.5",
+      "title": "Music is in a key when scale pitches predominate with that pitch as center.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "RHY-1.B.1",
+      "parentCode": "1.6",
+      "title": "Meter consists of three interlocking pulse speeds: beat, beat division, and measure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "RHY-1.C.1",
+      "parentCode": "1.7",
+      "title": "Meter types determined by beat-division relationship and beat-measure grouping patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-1.J.1",
+      "parentCode": "2.3",
+      "title": "Parallel keys share the same tonic but have different key signatures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "RHY-2.A.1",
+      "parentCode": "1.8",
+      "title": "Rhythmic patterns derive from beat divisions and can be identified, notated, and performed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DES-3.A.1",
+      "parentCode": "1.9",
+      "title": "Tempo markings express relative speed using Italian words or metronome markings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DES-3.B.1",
+      "parentCode": "1.10",
+      "title": "Dynamics indicate relative loudness using Italian abbreviations, hairpins, and accent symbols.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-1.G.1",
+      "parentCode": "2.1",
+      "title": "Minor scales use specific half/whole step patterns; harmonic and melodic forms alter natural minor.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-1.H.1",
+      "parentCode": "2.2",
+      "title": "Relative keys share key signatures but have different tonics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-1.K.1",
+      "parentCode": "2.4",
+      "title": "Chromatic, whole-tone, and pentatonic scales provide alternative pitch organization systems used in melodies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-1.L.1",
+      "parentCode": "2.5",
+      "title": "Intervals measured by distance and quality; enharmonic equivalents sound identical but differ in spelling.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-1.M.1",
+      "parentCode": "2.6",
+      "title": "Interval inversion found by moving lower note up octave; inversions sum to nine.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-1.N.1",
+      "parentCode": "2.7",
+      "title": "Convert notated pitches to sounding pitches for transposing instruments using provided specifications.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DES-2.A.1",
+      "parentCode": "2.8",
+      "title": "Standard ensembles and unique mixes identified by distinctive instrument/voice timbres and registers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-3.C.1",
+      "parentCode": "2.9",
+      "title": "Melody combines pitch and rhythm into expressive pitch succession.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-3.C.6",
+      "parentCode": "2.10",
+      "title": "Moving melody to new pitch level while preserving intervals and rhythm.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DES-1.A.1",
+      "parentCode": "2.11",
+      "title": "Texture combines simultaneous musical components influenced by timbre, pitch density, and range.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DES-1.B.1",
+      "parentCode": "2.12",
+      "title": "Texture descriptions include specific devices like Alberti bass, canon, and ostinato.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-2.H.1",
+      "parentCode": "4.3",
+      "title": "Tonal music organizes pitches hierarchically around a central tonic pitch in common practice tradition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "RHY-3.A.1",
+      "parentCode": "2.13",
+      "title": "Syncopation, cross-rhythm, and hemiola challenge metric regularity through accentuation and rhythmic contrast.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-1.O.1",
+      "parentCode": "3.1",
+      "title": "Chords contain three or more pitches simultaneously or arpeggiated; triads and seventh chords are stacked in thirds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-2.A.1",
+      "parentCode": "3.2",
+      "title": "Diatonic chords identified by Roman numerals indicating scale degree, quality, and function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-2.A.2",
+      "parentCode": "3.3",
+      "title": "Chords arranged with different bass notes create inversions labeled by figured bass numerals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-2.C.1",
+      "parentCode": "3.4",
+      "title": "Seventh chords commonly exhibit major, minor, or fully-diminished quality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-2.D.1",
+      "parentCode": "3.5",
+      "title": "Seventh chords can be inverted with the seventh degree in bass.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DES-1.C.1",
+      "parentCode": "4.2",
+      "title": "Musical lines classified as soprano, alto, tenor, bass based on pitch position.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-4.A.6",
+      "parentCode": "4.4",
+      "title": "Follow standard conventions when writing chordal sevenths in four-voice texture.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-4.A.10",
+      "parentCode": "4.5",
+      "title": "Inverted seventh chords enable stepwise bass motion and smooth voice leading.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-2.H.7",
+      "parentCode": "5.1",
+      "title": "Predominant chords intensify key through tonic-predominant-dominant-tonic progressions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-2.J.3",
+      "parentCode": "5.4",
+      "title": "Mediant triads rarely appear in common practice harmony; III in minor represents relative major.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-2.I.3",
+      "parentCode": "5.5",
+      "title": "Plagal and Phrygian half cadences use predominant function; deceptive cadences avoid authentic V-I resolution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-2.K.1",
+      "parentCode": "5.6",
+      "title": "Second-inversion triads appear only in four specific harmonic contexts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-2.L.1",
+      "parentCode": "5.7",
+      "title": "Pedal 6/4 chord embellishes triad thirds and fifths with neighbor tones, static bass.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-2.N.1",
+      "parentCode": "6.2",
+      "title": "Unaccented passing and neighbor tones enliven bass lines in chorale style.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-2.M.4",
+      "parentCode": "6.3",
+      "title": "Nonharmonic tones include anticipations, escape tones, appoggiaturas, and pedal points.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FOR-1.B.1",
+      "parentCode": "6.5",
+      "title": "Motives are short melodic/rhythmic units varied through transformation procedures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-3.E.2",
+      "parentCode": "6.6",
+      "title": "Melodic sequence repeats a segment at consistent transposition intervals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-2.P.1",
+      "parentCode": "6.7",
+      "title": "Repeated chord segment transposed at consistent intervals; may accompany melodic sequence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-2.Q.1",
+      "parentCode": "7.1",
+      "title": "Tonicization temporarily emphasizes non-tonic chords through altered scale degrees shown as accidentals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-2.E.2",
+      "parentCode": "7.2",
+      "title": "Secondary dominants follow same doubling and voice-leading rules as regular dominants.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-2.Q.3",
+      "parentCode": "7.3",
+      "title": "Secondary leading-tone chords tonicize major or minor triads; triads appear inverted, sevenths in any inversion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-4.A.14",
+      "parentCode": "7.4",
+      "title": "Secondary leading-tone chords follow standard doubling and voice-leading rules.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PIT-1.P.1",
+      "parentCode": "8.1",
+      "title": "Seven modal scales (Ionian through Locrian) are foundational pitch categories in music theory.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FOR-1.C.1",
+      "parentCode": "8.2",
+      "title": "Phrases use similarity or contrast represented by lowercase letters: a a' or a b.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FOR-1.D.1",
+      "parentCode": "8.2",
+      "title": "Periods combine antecedent and consequent phrases; parallel or contrasting types.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-2.E.3",
+      "parentCode": "7.2",
+      "title": "Chromatic bass pitches imply tonicization; ♯4 resolving to 5 suggests Ⅴ/Ⅴ.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "RHY-3.A.2",
+      "parentCode": "2.13",
+      "title": "Agogic accent, anacrusis, and fermata extend or alter normal rhythmic duration and timing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-3.E.1",
+      "parentCode": "6.5",
+      "title": "Composers transform motives through procedures affecting rhythm, pitch, or both combined.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-1.O.2",
+      "parentCode": "3.1",
+      "title": "Chord members in stacked-thirds configuration are named: root, third, fifth, and seventh.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-2.K.2",
+      "parentCode": "5.6",
+      "title": "Cadential 6/4 embellishes dominant, occupies strong metrical position before it.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-2.H.2",
+      "parentCode": "4.3",
+      "title": "Harmonic progression is a chord sequence represented by Roman numerals with Arabic numerals for inversions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-2.B.1",
+      "parentCode": "3.3",
+      "title": "Figured bass numerals indicate intervals above the bass note, implying specific harmonic chords.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-2.C.2",
+      "parentCode": "3.4",
+      "title": "Chord members with resolution tendency, like sevenths, function as chordal dissonance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-1.A.2",
+      "parentCode": "1.1",
+      "title": "Aural exam assessment requires relative pitch identification with reference pitches provided.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-2.L.2",
+      "parentCode": "5.7",
+      "title": "Passing 6/4 harmonizes scale fragment; upper voices move stepwise on weak beat.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-1.E.1",
+      "parentCode": "1.4",
+      "title": "Scale degrees function relative to tonic using names or numbers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-4.B.1",
+      "parentCode": "4.2",
+      "title": "All chords must be spelled correctly with required accidentals in progressions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-1.F.2",
+      "parentCode": "1.5",
+      "title": "Key signatures show scale pitches; diatonic pitches belong to key, chromatic pitches do not.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "RHY-1.B.2",
+      "parentCode": "1.6",
+      "title": "Simple meter divides the beat into two; compound meter divides it into three.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "RHY-1.D.1",
+      "parentCode": "1.7",
+      "title": "Time signature numerators indicate meter type; denominators indicate beat or division value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "RHY-2.A.2",
+      "parentCode": "1.8",
+      "title": "Rhythmic notation must clearly show beat structure through proper beaming and sequencing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DES-3.A.2",
+      "parentCode": "1.9",
+      "title": "Tempo adjustments include accelerando, ritardando, ritenuto, and rubato for flexibility.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DES-3.C.1",
+      "parentCode": "1.10",
+      "title": "Articulation describes attack, release, and pitch connection using symbols, words, and interpretive flexibility.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-1.I.1",
+      "parentCode": "2.2",
+      "title": "Minor keys share key signatures with their relative major keys.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-1.J.2",
+      "parentCode": "2.3",
+      "title": "Closely related keys differ by no more than one accidental; their tonics are diatonic triads.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-4.A.7",
+      "parentCode": "4.4",
+      "title": "Approach sevenths by common tone or step; alternatively by ascending leap or descending third leap.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-1.L.2",
+      "parentCode": "2.5",
+      "title": "Harmonic intervals are simultaneous; melodic intervals are successive; steps and leaps categorize melodic intervals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-1.M.2",
+      "parentCode": "2.6",
+      "title": "Compound intervals are simple intervals plus octave; they sound similar but larger.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DES-2.A.2",
+      "parentCode": "2.8",
+      "title": "Western instrumental families identified by timbre and register; specialized ensembles and groupings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-4.A.11",
+      "parentCode": "4.5",
+      "title": "Leading-tone seventh chords function as dominant substitutes or tonic prolongations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-3.C.2",
+      "parentCode": "2.9",
+      "title": "Melodies derive from scales/modes organized as motives and phrases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-2.Q.2",
+      "parentCode": "7.1",
+      "title": "Secondary dominant chords precede major or minor triads, creating temporary tonics through V-I progression.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DES-1.A.2",
+      "parentCode": "2.11",
+      "title": "Main texture types: monophony, homophony, polyphony, heterophony; includes counterpoint and canonic forms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-2.H.8",
+      "parentCode": "5.1",
+      "title": "Subdominant and supertonic chords precede dominant and function as predominant harmonies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PIT-4.B.2",
+      "parentCode": "4.2",
+      "title": "Doubling conventions: prefer roots, allow thirds/fifths, never sevenths, special rules for V7 and 6/4.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PIT-4.A.12",
+      "parentCode": "4.5",
+      "title": "Spell inverted seventh chords completely; resolve tendency tones individually.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PIT-2.B.2",
+      "parentCode": "3.3",
+      "title": "Slashes and accidentals in figured bass indicate chromatic alterations to specific pitches.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "RHY-3.B.1",
+      "parentCode": "6.5",
+      "title": "Rhythmic patterns transform through augmentation and diminution procedures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PIT-4.E.1",
+      "parentCode": "5.6",
+      "title": "Sixth and fourth above bass resolve downward by step in cadential 6/4.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PIT-1.I.2",
+      "parentCode": "2.2",
+      "title": "Major and minor keys are called modes; shifting between them changes mode.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PIT-2.L.3",
+      "parentCode": "5.7",
+      "title": "Arpeggiated 6/4 from bass triad arpeggio; upper voices static, waltz-like pattern.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PIT-1.J.3",
+      "parentCode": "2.3",
+      "title": "Distantly related keys differ by more than one accidental; includes parallel keys.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "RHY-2.B.1",
+      "parentCode": "1.8",
+      "title": "Performed rhythms should match notation unless style allows deviation, like swing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PIT-1.F.3",
+      "parentCode": "1.5",
+      "title": "The circle of fifths visually displays relationships and proximity among keys.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "RHY-1.D.2",
+      "parentCode": "1.7",
+      "title": "Metrical accents follow strong-weak patterns; downbeat strongest, offbeats weakest.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "RHY-1.E.1",
+      "parentCode": "2.13",
+      "title": "Borrowed divisions substitute compound or simple divisions, creating triplets, duplets, and irregular divisions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PIT-4.A.8",
+      "parentCode": "4.4",
+      "title": "Resolve sevenths downward by step; exceptions for V 3 and retained sevenths allowed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PIT-1.O.3",
+      "parentCode": "3.1",
+      "title": "Interval structure determines chord quality: major, minor, diminished, or augmented triads.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PIT-3.C.3",
+      "parentCode": "2.9",
+      "title": "Melody features include contour, conjunct/disjunct motion, register, range.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DES-3.D.1",
+      "parentCode": "1.10",
+      "title": "Sight-singing requires performing pitch, rhythm, and all expressive markings with steady tempo.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PIT-2.H.3",
+      "parentCode": "4.3",
+      "title": "Harmonic rhythm is the rate of chord change, which can accelerate or decelerate within a passage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PIT-4.B.3",
+      "parentCode": "4.2",
+      "title": "Inverted triads require complete spelling of all chord tones.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "PIT-2.H.4",
+      "parentCode": "4.3",
+      "title": "Chords in tonal progressions function as tonic, dominant, or predominant based on contextual relationships.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "PIT-4.E.2",
+      "parentCode": "5.6",
+      "title": "Figured bass numerals indicate specific voice leading patterns in cadential 6/4.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "RHY-1.E.2",
+      "parentCode": "2.13",
+      "title": "Asymmetrical meters contain unequal beat divisions, contrasting with regular symmetrical meter patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "PIT-4.A.9",
+      "parentCode": "4.4",
+      "title": "Omit fifth in root-position V7 and double root; inverted sevenths must be complete.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "PIT-4.F.1",
+      "parentCode": "5.7",
+      "title": "Passing 6/4 part-writing: double fifth, all voices move stepwise throughout.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "PIT-3.B.1",
+      "parentCode": "1.5",
+      "title": "Accurate melodic dictation requires identifying pitch relationships to tonic and correct notation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "PIT-3.C.4",
+      "parentCode": "2.9",
+      "title": "Motive is recurring small musical idea developed through composition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "PIT-4.C.1",
+      "parentCode": "4.2",
+      "title": "Vary outer voice motion; avoid more than three consecutive thirds or sixths.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "PIT-4.F.2",
+      "parentCode": "5.7",
+      "title": "Pedal 6/4 part-writing: static bass, upper voices resolve stepwise to next chord.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "PIT-3.C.5",
+      "parentCode": "2.9",
+      "title": "Vocal text setting is melismatic when syllable spans multiple pitches.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "PIT-4.C.2",
+      "parentCode": "4.2",
+      "title": "Leading tones resolve up; diminished fifths resolve inward to thirds naturally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "PIT-4.C.3",
+      "parentCode": "4.2",
+      "title": "Chord tones distributed freely across pitch range while maintaining voice ranges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "PIT-4.C.4",
+      "parentCode": "4.2",
+      "title": "Upper voices spaced max octave apart; bass can exceed octave to upper voices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    }
+  ]
+}

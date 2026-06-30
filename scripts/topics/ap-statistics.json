@@ -1,0 +1,3343 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Statistics",
+  "source": "school-core:AP-STATS@Effective Fall 2020",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: Exploring One-Variable Data",
+      "level": 1,
+      "examWeight": 15,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: Exploring Two-Variable Data",
+      "level": 1,
+      "examWeight": 5,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: Collecting Data",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: Probability, Random Variables, and Probability Distributions",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 5",
+      "parentCode": null,
+      "title": "Unit 5: Sampling Distributions",
+      "level": 1,
+      "examWeight": 7,
+      "sortOrder": 4
+    },
+    {
+      "code": "Unit 6",
+      "parentCode": null,
+      "title": "Unit 6: Inference for Categorical Data: Proportions",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 5
+    },
+    {
+      "code": "Unit 7",
+      "parentCode": null,
+      "title": "Unit 7: Inference for Quantitative Data: Means",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 6
+    },
+    {
+      "code": "Unit 8",
+      "parentCode": null,
+      "title": "Unit 8: Inference for Categorical Data: Chi-Square",
+      "level": 1,
+      "examWeight": 2,
+      "sortOrder": 7
+    },
+    {
+      "code": "Unit 9",
+      "parentCode": null,
+      "title": "Unit 9: Inference for Quantitative Data: Slopes",
+      "level": 1,
+      "examWeight": 2,
+      "sortOrder": 8
+    },
+    {
+      "code": "8.1",
+      "parentCode": "Unit 8",
+      "title": "Introducing Statistics: Methods — Inference for Categorical Data: Chi-Square",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "Unit 6",
+      "title": "Introducing Statistics: Why Be Normal?",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "Introducing Statistics: Methods for Exploring Two-Variable Data",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "Unit 5",
+      "title": "Introducing Statistics: Why Is My Sample Not Like Yours?",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Introducing Statistics: What Can We Learn from Data?",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "3.1",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1",
+      "parentCode": "Unit 7",
+      "title": "Introducing Statistics: Why Should I Worry About Error?",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "Introducing Statistics: Random and Non-Random Patterns",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.1",
+      "parentCode": "Unit 9",
+      "title": "Introducing Statistics: Methods",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "Representing Two Categorical Variables",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2",
+      "parentCode": "Unit 6",
+      "title": "Constructing a Confidence Interval for a Population Proportion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "The Language of Variation: Variables",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.2",
+      "parentCode": "Unit 9",
+      "title": "Confidence Intervals for the Slope of a Regression Model",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "Introduction to Planning a Study",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "Estimating Probabilities Using Simulation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2",
+      "parentCode": "Unit 8",
+      "title": "Setting Up a Chi-Square Goodness of Fit Test",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2",
+      "parentCode": "Unit 7",
+      "title": "Constructing a Confidence Interval for a Population Mean",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "Unit 5",
+      "title": "The Normal Distribution, Revisited",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.3",
+      "parentCode": "Unit 5",
+      "title": "The Central Limit Theorem",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "Random Sampling and Data Collection",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3",
+      "parentCode": "Unit 8",
+      "title": "Carrying Out a Chi-Square Test for Goodness of Fit",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "Representing a Categorical Variable with Tables",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "Introduction to Probability",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "Statistics for Two Categorical Variables",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.3",
+      "parentCode": "Unit 7",
+      "title": "Justifying a Claim About a Population Mean Based on a Confidence Interval",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3",
+      "parentCode": "Unit 6",
+      "title": "Justifying a Claim Based on a Confidence Interval for a Population Proportion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.3",
+      "parentCode": "Unit 9",
+      "title": "Justifying a Claim About the Slope of a Regression Model Based on a Confidence Interval",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.4",
+      "parentCode": "Unit 5",
+      "title": "Biased and Unbiased Point Estimates",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "Mutually Exclusive Events",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "2.4",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "Representing a Categorical Variable with Graphs",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.4",
+      "parentCode": "Unit 7",
+      "title": "Setting Up a Test for a Population Mean",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.4",
+      "parentCode": "Unit 8",
+      "title": "Expected Counts in Two-Way Tables",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.4",
+      "parentCode": "Unit 9",
+      "title": "Setting Up a Test for the Slope of a Regression Model",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "Potential Problems with Sampling",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.4",
+      "parentCode": "Unit 6",
+      "title": "Setting Up a Test for a Population Proportion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "3.5",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.5",
+      "parentCode": "Unit 8",
+      "title": "Chi-Square Test for Homogeneity or Independence",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.5",
+      "parentCode": "Unit 6",
+      "title": "Interpreting p-Values",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5",
+      "parentCode": "Unit 4",
+      "title": "Conditional Probability",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "Representing a Quantitative Variable with Graphs",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.5",
+      "parentCode": "Unit 5",
+      "title": "Sampling Distributions for Sample Proportions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.5",
+      "parentCode": "Unit 9",
+      "title": "Inference for Quantitative Data: Slopes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.5",
+      "parentCode": "Unit 7",
+      "title": "Carrying Out a Test for a Population Mean",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "Correlation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.6",
+      "parentCode": "Unit 3",
+      "title": "Selecting an Experimental Design",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.6",
+      "parentCode": "Unit 1",
+      "title": "Describing the Distribution of a Quantitative Variable",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "Linear Regression Models",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.6",
+      "parentCode": "Unit 4",
+      "title": "Independent Events and Unions of Events",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.6",
+      "parentCode": "Unit 5",
+      "title": "Sampling Distributions for Differences in Sample Proportions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.6",
+      "parentCode": "Unit 6",
+      "title": "Concluding a Test for a Population Proportion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.6",
+      "parentCode": "Unit 7",
+      "title": "Confidence Intervals for the Difference of Two Means",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "8.6",
+      "parentCode": "Unit 8",
+      "title": "Carrying Out a Chi-Square Test for Homogeneity or Independence",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "9.6",
+      "parentCode": "Unit 9",
+      "title": "Selecting an Appropriate Inference Procedure",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.7",
+      "parentCode": "Unit 7",
+      "title": "Justifying a Claim About the Difference of Two Means Based on a Confidence Interval",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.7",
+      "parentCode": "Unit 6",
+      "title": "Potential Errors When Performing Tests",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "2.7",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.7",
+      "parentCode": "Unit 5",
+      "title": "Sampling Distributions for Sample Means",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "8.7",
+      "parentCode": "Unit 8",
+      "title": "Inference for Quantitative Data: Slopes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.7",
+      "parentCode": "Unit 1",
+      "title": "Summary Statistics for a Quantitative Variable",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.7",
+      "parentCode": "Unit 3",
+      "title": "Inference and Argumentation: Experiments",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.7",
+      "parentCode": "Unit 4",
+      "title": "Introduction to Random Variables and Probability Distributions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.8",
+      "parentCode": "Unit 6",
+      "title": "Confidence Intervals for the Difference of Two Proportions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "7.8",
+      "parentCode": "Unit 7",
+      "title": "Setting Up a Test for the Difference of Two Population Means",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.8",
+      "parentCode": "Unit 4",
+      "title": "Mean and Standard Deviation of Random Variables",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.8",
+      "parentCode": "Unit 1",
+      "title": "Graphical Representations of Summary Statistics",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.8",
+      "parentCode": "Unit 2",
+      "title": "Least Squares Regression",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.8",
+      "parentCode": "Unit 5",
+      "title": "Sampling Distributions for Differences in Sample Means",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "6.9",
+      "parentCode": "Unit 6",
+      "title": "Justifying a Claim Based on a Confidence Interval for a Difference of Population Proportions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.9",
+      "parentCode": "Unit 2",
+      "title": "Analyzing Departures from Linearity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.9",
+      "parentCode": "Unit 1",
+      "title": "Comparing Distributions of a Quantitative Variable",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "7.9",
+      "parentCode": "Unit 7",
+      "title": "Carrying Out a Test for the Difference of Two Population Means",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.9",
+      "parentCode": "Unit 4",
+      "title": "Combining Random Variables",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.10",
+      "parentCode": "Unit 4",
+      "title": "Introduction to the Binomial Distribution and Simulation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "7.10",
+      "parentCode": "Unit 7",
+      "title": "Inference for Categorical Data: Chi-Square",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "1.10",
+      "parentCode": "Unit 1",
+      "title": "1.10",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "6.10",
+      "parentCode": "Unit 6",
+      "title": "Setting Up a Test for the Difference of Two Population Proportions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "4.11",
+      "parentCode": "Unit 4",
+      "title": "Parameters for a Binomial Distribution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "6.11",
+      "parentCode": "Unit 6",
+      "title": "Carrying Out a Test for the Difference of Two Population Proportions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "4.12",
+      "parentCode": "Unit 4",
+      "title": "The Geometric Distribution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "UNC-3.C.1",
+      "parentCode": "4.11",
+      "title": "Binomial mean equals np; standard deviation equals √(np(1−p)).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-3.E.1",
+      "parentCode": "4.12",
+      "title": "Geometric variable counts trials until first success in independent binary trials.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-1.G.1",
+      "parentCode": "5.1",
+      "title": "Sample statistics vary; this variation can be random or systematic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-6.A.1",
+      "parentCode": "5.2",
+      "title": "Continuous random variables take any value; intervals have associated probabilities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-4.F.1",
+      "parentCode": "6.3",
+      "title": "Each confidence interval either contains or doesn't contain the true population proportion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-4.A.1",
+      "parentCode": "6.2",
+      "title": "Use one-sample z-interval for population proportion confidence intervals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-3.H.1",
+      "parentCode": "5.3",
+      "title": "Sampling distribution shows all possible statistic values from samples of fixed size.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-1.H.1",
+      "parentCode": "6.1",
+      "title": "Distribution shape variation can result from random or systematic causes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-3.I.1",
+      "parentCode": "5.4",
+      "title": "Unbiased estimators equal the population parameter on average.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-3.K.1",
+      "parentCode": "5.5",
+      "title": "Sample proportion distribution has mean p and standard deviation √(p(1−p)/n).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-3.T.1",
+      "parentCode": "5.8",
+      "title": "Difference in sample means has mean μ1 − μ2 and specified standard deviation formula.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-3.N.1",
+      "parentCode": "5.6",
+      "title": "Difference in sample proportions has mean p1-p2 and specified standard deviation formula.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-3.Q.1",
+      "parentCode": "5.7",
+      "title": "Sample mean distribution has same mean as population, standard deviation reduced by √n.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-1.A.1",
+      "parentCode": "1.1",
+      "title": "Numbers gain meaning through context, conveying information about variation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-1.B.1",
+      "parentCode": "1.2",
+      "title": "Variables are characteristics that differ across individuals in data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-1.A.1",
+      "parentCode": "1.3",
+      "title": "Frequency tables show counts; relative frequency tables show proportions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-1.C.1",
+      "parentCode": "1.4",
+      "title": "Bar charts display frequencies or proportions for categorical variables.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-7.M.1",
+      "parentCode": "9.5",
+      "title": "Null distribution of regression slope follows t-distribution under conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-1.F.1",
+      "parentCode": "1.5",
+      "title": "Discrete variables take countable values, finite or countably infinite.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-7.J.1",
+      "parentCode": "9.4",
+      "title": "Use t-test to test the slope of a regression model.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-4.AG.1",
+      "parentCode": "9.3",
+      "title": "Confidence intervals for slope capture true population parameter approximately C% of times.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-1.H.1",
+      "parentCode": "1.6",
+      "title": "Quantitative distributions are described by shape, center, variability, and unusual features.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-4.AC.1",
+      "parentCode": "9.2",
+      "title": "Residuals estimate deviations; sample SD estimates population SD with n−2.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-1.K.1",
+      "parentCode": "9.1",
+      "title": "Scatter plot variation around a line can be random or systematic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-1.I.1",
+      "parentCode": "1.7",
+      "title": "Statistics are numerical summaries computed from sample data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-8.L.1",
+      "parentCode": "8.6",
+      "title": "Chi-square test statistic formula uses observed and expected counts with df calculation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-8.I.1",
+      "parentCode": "8.5",
+      "title": "Null hypothesis: no difference in categorical distributions across populations; alternative: difference exists.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-8.H.1",
+      "parentCode": "8.4",
+      "title": "Calculate cell expected counts using row total times column total divided by table total.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-8.F.1",
+      "parentCode": "8.3",
+      "title": "Chi-square test statistic formula uses observed and expected counts with category-based degrees of freedom.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-8.A.1",
+      "parentCode": "8.2",
+      "title": "Expected counts equal sample size multiplied by null hypothesis probability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-1.L.1",
+      "parentCode": "1.8",
+      "title": "Five-number summary comprises minimum, Q1, median, Q3, maximum.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-1.J.1",
+      "parentCode": "8.1",
+      "title": "Observed versus expected variation can be random or statistically significant.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-1.N.1",
+      "parentCode": "1.9",
+      "title": "Use graphs like histograms and boxplots to compare multiple data distributions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-1.D.1",
+      "parentCode": "2.1",
+      "title": "Data patterns and associations can occur randomly or represent real relationships.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-1.P.1",
+      "parentCode": "2.2",
+      "title": "Multiple graph types display one categorical variable subdivided by another.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-1.Q.1",
+      "parentCode": "2.3",
+      "title": "Marginal relative frequencies equal row/column totals divided by table total.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DAT-1.B.1",
+      "parentCode": "2.5",
+      "title": "Correlation r measures strength and direction of linear association between variables.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-7.I.1",
+      "parentCode": "7.9",
+      "title": "Two-sample t-test statistic follows t-distribution with df between min(n₁−1, n₂−1) and n₁+n₂−2.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DAT-1.D.1",
+      "parentCode": "2.6",
+      "title": "Linear regression uses explanatory variable to predict response variable.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DAT-1.G.1",
+      "parentCode": "2.8",
+      "title": "Least-squares regression minimizes squared residuals and passes through mean point.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-7.F.1",
+      "parentCode": "7.8",
+      "title": "Use two-sample t-test to compare means of two quantitative populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-4.Z.1",
+      "parentCode": "7.7",
+      "title": "Confidence level indicates proportion of intervals capturing true difference.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DAT-1.I.1",
+      "parentCode": "2.9",
+      "title": "Outliers have large residuals and deviate from the general trend.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-4.V.1",
+      "parentCode": "7.6",
+      "title": "Sampling distribution of difference of means is normal under specified conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DAT-2.A.1",
+      "parentCode": "3.2",
+      "title": "Population is the complete set of all subjects of interest.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-7.E.1",
+      "parentCode": "7.5",
+      "title": "Test statistic t follows t-distribution with n−1 degrees of freedom.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-7.B.1",
+      "parentCode": "7.4",
+      "title": "Use one-sample t-test when population standard deviation is unknown.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DAT-2.C.1",
+      "parentCode": "3.3",
+      "title": "Sampling without replacement selects items once; with replacement allows repeated selection.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-4.S.1",
+      "parentCode": "7.3",
+      "title": "Each confidence interval either contains or doesn't contain the true population mean.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-7.A.1",
+      "parentCode": "7.2",
+      "title": "t-distribution has heavier tails than normal distribution when using sample standard deviation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-1.I.1",
+      "parentCode": "7.1",
+      "title": "Random variation causes errors and uncertainty in statistical inference conclusions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DAT-2.E.1",
+      "parentCode": "3.4",
+      "title": "Bias systematically favors certain responses over others in sampling.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-6.K.1",
+      "parentCode": "6.11",
+      "title": "Test statistic for two proportions uses pooled proportion and combines standard errors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-5.A.1",
+      "parentCode": "6.7",
+      "title": "Type I error: rejecting a true null hypothesis; false positive result.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-3.D.1",
+      "parentCode": "3.6",
+      "title": "Different experimental designs have tradeoffs based on research context and constraints.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-3.E.1",
+      "parentCode": "3.7",
+      "title": "Statistical conclusions drawn from data reflect the underlying population distribution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-6.H.1",
+      "parentCode": "6.10",
+      "title": "Null hypothesis for difference of proportions specifies zero difference.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-1.F.1",
+      "parentCode": "4.1",
+      "title": "Data patterns can occur even when variation is fundamentally random.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-2.A.1",
+      "parentCode": "4.2",
+      "title": "Random processes produce outcomes determined by chance, not certainty.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-4.M.1",
+      "parentCode": "6.9",
+      "title": "Repeated sampling produces confidence intervals capturing true difference C% of time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-4.A.1",
+      "parentCode": "4.3",
+      "title": "Sample space contains all possible non-overlapping outcomes of random process.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-4.I.1",
+      "parentCode": "6.8",
+      "title": "Use two-sample z-interval for comparing two population proportions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-4.C.1",
+      "parentCode": "4.4",
+      "title": "Joint probability measures the likelihood of both events occurring simultaneously.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-4.D.1",
+      "parentCode": "4.5",
+      "title": "Conditional probability measures likelihood of event A given event B occurred.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-4.E.1",
+      "parentCode": "4.6",
+      "title": "Independent events: occurrence of one doesn't affect the other's probability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DAT-3.B.1",
+      "parentCode": "6.6",
+      "title": "Significance level α is predetermined probability of Type I error.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-5.A.1",
+      "parentCode": "4.7",
+      "title": "Random variables represent numerical results from random processes or trials.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-6.G.1",
+      "parentCode": "6.5",
+      "title": "Null distribution can be randomization or theoretical (z) distribution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-5.C.1",
+      "parentCode": "4.8",
+      "title": "Parameters are fixed numerical values characterizing populations or distributions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-5.E.1",
+      "parentCode": "4.9",
+      "title": "Linear combination mean equals linear combination of means.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "VAR-6.D.1",
+      "parentCode": "6.4",
+      "title": "Null hypothesis assumes truth; alternative hypothesis is what we test for.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "UNC-3.A.1",
+      "parentCode": "4.10",
+      "title": "Construct probability distributions via rules or random simulation methods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DAT-2.A.2",
+      "parentCode": "3.2",
+      "title": "Sample is a subset selected from the population.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-3.Q.2",
+      "parentCode": "5.7",
+      "title": "Without replacement sampling produces smaller standard deviation; negligible when n < 10% of population.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-5.C.2",
+      "parentCode": "4.8",
+      "title": "Mean of discrete random variable equals sum of values times probabilities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-7.B.2",
+      "parentCode": "7.4",
+      "title": "Matched pairs become one sample; find differences, then test like population mean.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DAT-3.B.2",
+      "parentCode": "6.6",
+      "title": "Compare p-value to α; reject H₀ if p-value ≤ α.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-4.S.2",
+      "parentCode": "7.3",
+      "title": "C% confidence means the interval likely captures the true population mean.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-6.A.2",
+      "parentCode": "5.2",
+      "title": "Normal distributions model populations using bell-shaped curves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DAT-2.C.2",
+      "parentCode": "3.3",
+      "title": "SRS gives every group equal selection chance using random number generators or tables.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-3.N.2",
+      "parentCode": "5.6",
+      "title": "Sampling without replacement reduces standard deviation; negligible if samples are less than 10% of populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-4.C.2",
+      "parentCode": "4.4",
+      "title": "Mutually exclusive events cannot happen together; their intersection probability is zero.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-7.A.2",
+      "parentCode": "7.2",
+      "title": "Increasing degrees of freedom makes t-distribution approach normal distribution shape.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-6.D.2",
+      "parentCode": "6.4",
+      "title": "Null has equality; alternative has strict inequality. One-sided or two-sided based on question.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-4.AC.2",
+      "parentCode": "9.2",
+      "title": "Slope sampling distribution is unbiased with SD dependent on sigma and x spread.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-4.D.2",
+      "parentCode": "4.5",
+      "title": "Multiplication rule: joint probability equals P(A) times conditional probability P(B|A).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-3.A.2",
+      "parentCode": "4.10",
+      "title": "Binomial variable counts successes across n independent two-outcome trials.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-8.M.1",
+      "parentCode": "8.6",
+      "title": "P-value determined using chi-square distribution table or computational technology.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DAT-2.E.2",
+      "parentCode": "3.4",
+      "title": "Volunteer samples are typically unrepresentative due to voluntary response bias.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-1.I.2",
+      "parentCode": "1.7",
+      "title": "Mean equals sum of all values divided by total count of values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-1.H.2",
+      "parentCode": "1.6",
+      "title": "Outliers are unusually small or large data points relative to others.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-3.K.2",
+      "parentCode": "5.5",
+      "title": "Without replacement sampling reduces standard deviation; negligible if n < 10% of population.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-8.I.2",
+      "parentCode": "8.5",
+      "title": "Null hypothesis: no association between categorical variables; alternative: association exists.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DAT-3.C.1",
+      "parentCode": "6.11",
+      "title": "P-value assumes null hypothesis true: both population proportions are equal.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-4.E.2",
+      "parentCode": "4.6",
+      "title": "Independent events have conditional probabilities equal to marginals and multiplicative intersection.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-8.F.2",
+      "parentCode": "8.3",
+      "title": "Null distribution modeled by randomization or theoretical chi-square distribution under null hypothesis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-5.A.2",
+      "parentCode": "6.7",
+      "title": "Type II error: failing to reject false null hypothesis; false negative result.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-4.AG.2",
+      "parentCode": "9.3",
+      "title": "Interpret slope confidence intervals with sample context and population details.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-8.A.2",
+      "parentCode": "8.2",
+      "title": "Chi-square statistic quantifies discrepancy between observed and expected counts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-6.H.2",
+      "parentCode": "6.10",
+      "title": "Null hypothesis states equal proportions or zero difference.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-5.E.2",
+      "parentCode": "4.9",
+      "title": "Independence means one variable's information doesn't affect the other's distribution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-1.L.2",
+      "parentCode": "1.8",
+      "title": "Boxplot displays five-number summary with box, median line, whiskers, outliers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-7.K.1",
+      "parentCode": "9.4",
+      "title": "Null hypothesis states slope equals hypothesized value; alternative is one or two-sided.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-4.F.2",
+      "parentCode": "6.3",
+      "title": "Confidence level expresses how confident we are interval captures true proportion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-3.E.2",
+      "parentCode": "3.7",
+      "title": "Random assignment enables detection of treatment effects unlikely due to chance alone.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-1.O.1",
+      "parentCode": "1.9",
+      "title": "Use numerical summaries like mean and standard deviation to compare datasets.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-3.J.1",
+      "parentCode": "5.4",
+      "title": "Estimators show variability that probability distributions can model.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-5.A.2",
+      "parentCode": "4.7",
+      "title": "Discrete random variables have countable values with probabilities summing to one.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-1.P.2",
+      "parentCode": "2.2",
+      "title": "Graphs reveal distribution patterns and relationships between two categorical variables.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-1.F.2",
+      "parentCode": "1.5",
+      "title": "Continuous variables take uncountably infinite values with infinite divisibility.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DAT-3.G.1",
+      "parentCode": "7.9",
+      "title": "P-value interpretation assumes null hypothesis true: population means equal.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-4.B.1",
+      "parentCode": "6.2",
+      "title": "Check independence and appropriate sampling distribution for inference validity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-1.Q.2",
+      "parentCode": "2.3",
+      "title": "Conditional relative frequency represents one part relative to its row or column total.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-7.M.2",
+      "parentCode": "9.5",
+      "title": "Slope test statistic follows t-distribution with df = n − 2 for null distribution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-6.G.2",
+      "parentCode": "6.5",
+      "title": "Z-statistic formula: (sample statistic minus null value) divided by standard deviation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DAT-1.B.2",
+      "parentCode": "2.5",
+      "title": "Correlation coefficient calculated via formula or technology, typically technology used.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-2.A.2",
+      "parentCode": "4.2",
+      "title": "Outcomes are individual results from single trials of random processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-7.G.1",
+      "parentCode": "7.8",
+      "title": "Null assumes equal means; alternative specifies one-tailed or two-tailed differences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-3.T.2",
+      "parentCode": "5.8",
+      "title": "Without replacement reduces standard deviation; negligible if samples under 10% population sizes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DAT-1.D.2",
+      "parentCode": "2.6",
+      "title": "Predicted values calculated using ŷ = a + bx equation with intercept and slope.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-1.C.2",
+      "parentCode": "1.4",
+      "title": "Bar height represents count or proportion within each category.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-4.M.2",
+      "parentCode": "6.9",
+      "title": "Interpretations must reference sample characteristics and represented population details.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DAT-1.G.2",
+      "parentCode": "2.8",
+      "title": "Slope equals correlation times ratio of standard deviations of variables.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-1.B.1",
+      "parentCode": "1.3",
+      "title": "Percentages, relative frequencies, and rates convey equivalent proportional information.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-3.E.2",
+      "parentCode": "4.12",
+      "title": "Geometric probability function: P(X = x) = (1 − p)^(x−1) p for trial x.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-4.Z.2",
+      "parentCode": "7.7",
+      "title": "Interpretation must reference samples and describe populations represented.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-4.J.1",
+      "parentCode": "6.8",
+      "title": "Verify independence through random sampling and 10% rule; check normality with count conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-4.V.2",
+      "parentCode": "7.6",
+      "title": "Use two-sample t-interval for confidence intervals of difference between means.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-3.D.1",
+      "parentCode": "4.11",
+      "title": "Interpret binomial probabilities and parameters contextually with appropriate units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DAT-1.I.2",
+      "parentCode": "2.9",
+      "title": "High-leverage points have extreme x-values compared to other observations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-1.C.1",
+      "parentCode": "1.2",
+      "title": "Categorical variables represent group membership or category names, not numbers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-4.A.2",
+      "parentCode": "4.3",
+      "title": "Probability equals favorable outcomes divided by total outcomes when equally likely.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DAT-3.E.1",
+      "parentCode": "7.5",
+      "title": "P-value is computed assuming the null hypothesis about population mean is true.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "UNC-3.H.2",
+      "parentCode": "5.3",
+      "title": "Large sample means follow approximately normal distributions regardless of population shape.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VAR-5.A.3",
+      "parentCode": "4.7",
+      "title": "Probability distributions display variable values and associated probabilities graphically, tabularly, or functionally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VAR-1.C.2",
+      "parentCode": "1.2",
+      "title": "Quantitative variables represent numerical measurements or counts of quantities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-1.B.2",
+      "parentCode": "1.3",
+      "title": "Categorical counts and frequencies support contextual data claims and interpretations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-1.C.3",
+      "parentCode": "1.4",
+      "title": "Multiple graphical methods represent categorical frequencies and proportions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-1.G.1",
+      "parentCode": "1.5",
+      "title": "Histogram bar heights represent frequencies; interval width affects appearance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-1.H.3",
+      "parentCode": "1.6",
+      "title": "Distributions are right-skewed, left-skewed, or symmetric based on tail length.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-1.I.3",
+      "parentCode": "1.7",
+      "title": "Median is middle value; average two middle values for even datasets.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DAT-1.B.3",
+      "parentCode": "2.5",
+      "title": "Strong correlation alone does not guarantee linear model appropriateness or validity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-1.M.1",
+      "parentCode": "1.8",
+      "title": "Summary statistics support data claims in context.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-1.P.3",
+      "parentCode": "2.2",
+      "title": "Two-way tables organize categorical data using frequency counts or relative frequencies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-1.R.1",
+      "parentCode": "2.3",
+      "title": "Summary statistics compare distributions and reveal associations between categorical variables.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DAT-1.D.3",
+      "parentCode": "2.6",
+      "title": "Extrapolation beyond data range produces less reliable predictions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DAT-1.G.3",
+      "parentCode": "2.8",
+      "title": "Y-intercept may lack meaningful interpretation in real-world context.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DAT-1.I.3",
+      "parentCode": "2.9",
+      "title": "Influential points substantially change slope, intercept, or correlation when removed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DAT-2.A.3",
+      "parentCode": "3.2",
+      "title": "Observational studies examine existing data or follow subjects without assigning treatments.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DAT-2.C.3",
+      "parentCode": "3.3",
+      "title": "Stratified sampling divides population into homogeneous groups, samples each stratum separately.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DAT-2.E.3",
+      "parentCode": "3.4",
+      "title": "Undercoverage bias occurs when some population members have reduced selection chances.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VAR-3.E.3",
+      "parentCode": "3.7",
+      "title": "Significant treatment group differences establish causal relationships in experiments.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-2.A.3",
+      "parentCode": "4.2",
+      "title": "Events group multiple outcomes together from random processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VAR-4.A.3",
+      "parentCode": "4.3",
+      "title": "Probability values range from 0 to 1 inclusive.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VAR-4.E.3",
+      "parentCode": "4.6",
+      "title": "Union probability represents likelihood of either or both events occurring.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VAR-5.C.3",
+      "parentCode": "4.8",
+      "title": "Standard deviation measures spread of discrete random variable values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VAR-5.E.3",
+      "parentCode": "4.9",
+      "title": "For independent variables, variance of linear combination uses sum of squared coefficients.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-3.B.1",
+      "parentCode": "4.10",
+      "title": "Calculate exact binomial probabilities using the binomial probability function formula.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-3.F.1",
+      "parentCode": "4.12",
+      "title": "Geometric distribution mean is 1/p; standard deviation is √((1−p)/p).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VAR-6.A.3",
+      "parentCode": "5.2",
+      "title": "Area under normal curve equals probability for interval.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-3.H.3",
+      "parentCode": "5.3",
+      "title": "CLT requires independent observations and sufficiently large sample size conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-3.J.2",
+      "parentCode": "5.4",
+      "title": "Sample statistics serve as point estimators for population parameters.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-3.L.1",
+      "parentCode": "5.5",
+      "title": "Sample proportion distribution is approximately normal when np ≥ 10 and n(1−p) ≥ 10.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-3.O.1",
+      "parentCode": "5.6",
+      "title": "Difference in proportions is approximately normal when all four conditions exceed ten.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-3.R.1",
+      "parentCode": "5.7",
+      "title": "Normal population distribution yields normal sampling distribution of sample means.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-3.U.1",
+      "parentCode": "5.8",
+      "title": "Normal populations yield normal sampling distribution for difference in sample means.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-4.B.2",
+      "parentCode": "6.2",
+      "title": "Verify random sampling, 10% rule, and np̂ ≥ 10 and n(1−p̂) ≥ 10 conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-4.F.3",
+      "parentCode": "6.3",
+      "title": "Repeated sampling produces intervals; approximately C% capture true population proportion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VAR-6.D.3",
+      "parentCode": "6.4",
+      "title": "Population proportion null hypothesis has form p equals p-naught value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VAR-6.G.3",
+      "parentCode": "6.5",
+      "title": "Population proportion test statistic uses sample proportion minus null value over standard error.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DAT-3.B.3",
+      "parentCode": "6.6",
+      "title": "Rejection supports alternative hypothesis; non-rejection does not.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-5.B.1",
+      "parentCode": "6.7",
+      "title": "Significance level α equals probability of Type I error under null hypothesis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-4.K.1",
+      "parentCode": "6.8",
+      "title": "Calculate confidence interval using point estimate and standard error formula.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-4.N.1",
+      "parentCode": "6.9",
+      "title": "Confidence intervals provide evidence supporting contextual claims about proportion differences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VAR-6.H.3",
+      "parentCode": "6.10",
+      "title": "Alternative hypotheses can be one-sided or two-sided directional statements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DAT-3.D.1",
+      "parentCode": "6.11",
+      "title": "Compare p-value to alpha to decide rejecting or failing to reject null hypothesis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-4.O.1",
+      "parentCode": "7.2",
+      "title": "Use one-sample t-interval when population standard deviation is unknown for quantitative data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-4.S.3",
+      "parentCode": "7.3",
+      "title": "Interpretation must reference the sample and the population it represents.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VAR-7.C.1",
+      "parentCode": "7.4",
+      "title": "Null is μ = μ₀; alternative is one-sided or two-sided based on context.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DAT-3.F.1",
+      "parentCode": "7.5",
+      "title": "Compare p-value to α to decide whether to reject null hypothesis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-4.W.1",
+      "parentCode": "7.6",
+      "title": "Verify independence through random sampling and normality via sample sizes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-4.AA.1",
+      "parentCode": "7.7",
+      "title": "Confidence interval supplies evidence to support contextual claims about differences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VAR-7.H.1",
+      "parentCode": "7.8",
+      "title": "Verify independence via random sampling and normality via sample size and distribution shape checks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DAT-3.H.1",
+      "parentCode": "7.9",
+      "title": "Compare p-value to α: reject H₀ if p-value ≤ α; fail to reject if p-value > α.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VAR-8.A.3",
+      "parentCode": "8.2",
+      "title": "Chi-square distributions are right-skewed; skew decreases with higher degrees of freedom.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VAR-8.G.1",
+      "parentCode": "8.3",
+      "title": "P-value determined via chi-square table or computer output based on degrees of freedom.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VAR-8.J.1",
+      "parentCode": "8.5",
+      "title": "Use chi-square test for homogeneity when comparing categorical proportions across populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VAR-8.M.2",
+      "parentCode": "8.6",
+      "title": "P-value represents proportion of chi-square distribution values exceeding test statistic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-4.AC.3",
+      "parentCode": "9.2",
+      "title": "Use t-interval procedure to construct confidence intervals for regression slope.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-4.AH.1",
+      "parentCode": "9.3",
+      "title": "Slope confidence intervals provide evidence supporting contextual claims about relationships.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VAR-7.L.1",
+      "parentCode": "9.4",
+      "title": "Verify linearity, equal variance, independence, and normality conditions before testing slope.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DAT-3.M.1",
+      "parentCode": "9.5",
+      "title": "Interpret p-value from significance test of regression slope.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "UNC-4.O.2",
+      "parentCode": "7.2",
+      "title": "Sample mean standardized with sample SD follows t-distribution with n-1 degrees of freedom.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "VAR-4.E.4",
+      "parentCode": "4.6",
+      "title": "Addition rule: union probability equals sum of probabilities minus intersection probability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-4.AI.1",
+      "parentCode": "9.3",
+      "title": "Larger sample sizes narrow confidence intervals for regression slope estimates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-1.P.4",
+      "parentCode": "2.2",
+      "title": "Joint relative frequency equals a cell frequency divided by table total.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DAT-1.C.1",
+      "parentCode": "2.5",
+      "title": "Correlation r is unitless, ranges from −1 to 1; near 0 means no association.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DAT-1.G.4",
+      "parentCode": "2.8",
+      "title": "R-squared represents proportion of response variation explained by model.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-4.AB.1",
+      "parentCode": "7.7",
+      "title": "Larger sample sizes produce narrower confidence intervals for mean differences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DAT-2.C.4",
+      "parentCode": "3.3",
+      "title": "Cluster sampling randomly selects groups, then collects data from all within selected clusters.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-4.X.1",
+      "parentCode": "7.6",
+      "title": "Margin of error equals critical t-value times standard error of difference.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-4.F.4",
+      "parentCode": "6.3",
+      "title": "Interpretation must reference sample details and population being represented.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-4.T.1",
+      "parentCode": "7.3",
+      "title": "Confidence intervals provide evidence to support claims about population means in context.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-3.G.1",
+      "parentCode": "4.12",
+      "title": "Interpret geometric probabilities and parameters in appropriate context and units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DAT-1.J.1",
+      "parentCode": "2.9",
+      "title": "Variable transformations like logarithms can linearize non-linear relationships.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DAT-3.F.2",
+      "parentCode": "7.5",
+      "title": "Test results provide statistical reasoning to answer research questions about populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DAT-2.A.4",
+      "parentCode": "3.2",
+      "title": "Experiments assign treatments to experimental units for comparison.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DAT-3.B.4",
+      "parentCode": "6.6",
+      "title": "State conclusions about alternative hypothesis in context.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "VAR-7.C.2",
+      "parentCode": "7.4",
+      "title": "Specify subtraction order when calculating mean differences in matched pairs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "VAR-6.D.4",
+      "parentCode": "6.4",
+      "title": "One-sided alternatives use less-than or greater-than; two-sided uses not-equal.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-4.C.1",
+      "parentCode": "6.2",
+      "title": "Standard error of proportion estimate is √[p̂(1−p̂)/n].",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-1.I.4",
+      "parentCode": "1.7",
+      "title": "Q1 and Q3 are medians of lower and upper data halves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-3.H.4",
+      "parentCode": "5.3",
+      "title": "Randomization distribution simulates statistics by repeatedly reassigning observed responses randomly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-3.U.2",
+      "parentCode": "5.8",
+      "title": "Large sample sizes (n ≥ 30 each) enable normal approximation regardless of population distribution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-3.M.1",
+      "parentCode": "5.5",
+      "title": "Interpret sampling distribution probabilities and parameters within specific population context.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-5.B.2",
+      "parentCode": "6.7",
+      "title": "Power: probability test correctly rejects false null hypothesis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "VAR-5.A.4",
+      "parentCode": "4.7",
+      "title": "Cumulative distributions show probabilities of random variables being at most each value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-3.R.2",
+      "parentCode": "5.7",
+      "title": "Non-normal populations yield approximately normal sample mean distribution when n ≥ 30.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "VAR-8.J.2",
+      "parentCode": "8.5",
+      "title": "Use chi-square test for independence to assess association between row and column variables.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-3.P.1",
+      "parentCode": "5.6",
+      "title": "Interpret parameters in context using appropriate units for specific populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "VAR-4.A.4",
+      "parentCode": "4.3",
+      "title": "Complement probability equals one minus the event probability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DAT-3.N.1",
+      "parentCode": "9.5",
+      "title": "Compare p-value to α to decide whether to reject null hypothesis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DAT-3.I.1",
+      "parentCode": "8.3",
+      "title": "P-value represents probability of extreme test statistic under null hypothesis and probability model.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-4.L.1",
+      "parentCode": "6.8",
+      "title": "Apply confidence intervals to estimate differences in proportions with specified units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DAT-3.K.1",
+      "parentCode": "8.6",
+      "title": "P-value is probability of observing test statistic as extreme assuming null hypothesis true.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-2.A.4",
+      "parentCode": "4.2",
+      "title": "Simulations model random events; record outcome counts to estimate probabilities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "VAR-5.F.1",
+      "parentCode": "4.9",
+      "title": "Linear transformations preserve shape; mean and standard deviation transform proportionally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "VAR-3.E.4",
+      "parentCode": "3.7",
+      "title": "Representative experimental units enable generalization; random selection improves representativeness.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-1.G.2",
+      "parentCode": "1.5",
+      "title": "Stem-and-leaf plots split values into stem and leaf components.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-1.H.4",
+      "parentCode": "1.6",
+      "title": "Distributions are unimodal, bimodal, or uniform based on peak patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "VAR-6.I.1",
+      "parentCode": "6.10",
+      "title": "Two-sample z-test is appropriate for difference of proportions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "VAR-8.B.1",
+      "parentCode": "8.2",
+      "title": "Null specifies category proportions; alternative claims at least one differs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "VAR-6.G.4",
+      "parentCode": "6.5",
+      "title": "P-value is probability of test statistic as extreme or more under null hypothesis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "VAR-5.D.1",
+      "parentCode": "4.8",
+      "title": "Interpret parameters in context using appropriate units and population.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DAT-2.E.4",
+      "parentCode": "3.4",
+      "title": "Nonresponse bias results when data unavailable or refusal differs from respondents.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-1.D.1",
+      "parentCode": "1.4",
+      "title": "Categorical graphs reveal patterns supporting context-based data claims.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DAT-3.D.2",
+      "parentCode": "6.11",
+      "title": "Test results provide statistical reasoning to answer research questions about populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-1.M.2",
+      "parentCode": "1.8",
+      "title": "Mean-median relationship reflects distribution symmetry and skewness direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DAT-3.H.2",
+      "parentCode": "7.9",
+      "title": "Two-sample significance test results justify claims about population differences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "VAR-6.B.1",
+      "parentCode": "5.2",
+      "title": "Find interval boundaries using z-scores or technology.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-4.AD.1",
+      "parentCode": "9.2",
+      "title": "Check linearity, equal variance, independence, and normality for inference validity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "UNC-1.H.5",
+      "parentCode": "1.6",
+      "title": "A gap is a region with no observed data between two values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "UNC-1.E.1",
+      "parentCode": "1.4",
+      "title": "Multiple representations enable comparison across categorical datasets.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "VAR-6.D.5",
+      "parentCode": "6.4",
+      "title": "Null hypothesis specifies population proportion value, typically indicating no effect.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "VAR-5.B.1",
+      "parentCode": "4.7",
+      "title": "Interpreting distributions reveals population shape, center, spread, and supports conclusions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DAT-3.A.1",
+      "parentCode": "6.5",
+      "title": "P-value is proportion of null distribution as extreme or more than observed statistic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "VAR-4.B.1",
+      "parentCode": "4.3",
+      "title": "Probability represents long-run relative frequency in repeatable situations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DAT-3.L.1",
+      "parentCode": "8.6",
+      "title": "Reject or fail to reject null hypothesis by comparing p-value to significance level.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DAT-3.B.5",
+      "parentCode": "6.6",
+      "title": "Cannot prove null hypothesis true; absence of evidence is not evidence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "UNC-5.B.3",
+      "parentCode": "6.7",
+      "title": "Type II error probability equals one minus the test power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "UNC-2.A.5",
+      "parentCode": "4.2",
+      "title": "Relative frequencies from simulations estimate true outcome or event probabilities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "VAR-6.J.1",
+      "parentCode": "6.10",
+      "title": "Verify independence through random sampling and normality using pooled proportion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DAT-2.E.5",
+      "parentCode": "3.4",
+      "title": "Response bias stems from flawed instruments like confusing or leading questions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DAT-2.C.5",
+      "parentCode": "3.3",
+      "title": "Systematic sampling selects every nth item after random starting point.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "UNC-4.O.3",
+      "parentCode": "7.2",
+      "title": "Matched pairs analysis uses paired differences as single sample for t-interval inference.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "UNC-4.AE.1",
+      "parentCode": "9.2",
+      "title": "Margin of error equals critical t-value multiplied by slope standard error.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "UNC-4.U.1",
+      "parentCode": "7.3",
+      "title": "Larger sample sizes produce narrower confidence intervals, all else equal.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DAT-2.B.1",
+      "parentCode": "3.2",
+      "title": "Generalizations require random or representative samples from target population.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "VAR-7.D.1",
+      "parentCode": "7.4",
+      "title": "Verify independence via random sampling and n ≤ 10% N; verify normality via sample size and distribution shape.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DAT-1.J.2",
+      "parentCode": "2.9",
+      "title": "Random residuals and higher r² indicate transformation improves model fit.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "UNC-4.X.2",
+      "parentCode": "7.6",
+      "title": "Standard error uses sample standard deviations and sample sizes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DAT-1.H.1",
+      "parentCode": "2.8",
+      "title": "Regression coefficients are slope and y-intercept estimates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DAT-1.C.2",
+      "parentCode": "2.5",
+      "title": "Correlation between variables does not imply causal relationship between them.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DAT-3.N.2",
+      "parentCode": "9.5",
+      "title": "Slope significance test results support answers to research questions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "UNC-1.G.3",
+      "parentCode": "1.5",
+      "title": "Dotplots use stacked dots positioned by value on horizontal axis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "VAR-8.C.1",
+      "parentCode": "8.2",
+      "title": "Chi-square goodness-of-fit test assesses one categorical variable's proportion distribution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DAT-3.J.1",
+      "parentCode": "8.3",
+      "title": "Hypothesis decision made by comparing p-value to predetermined significance level alpha.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "UNC-1.I.5",
+      "parentCode": "1.7",
+      "title": "p-th percentile has p percent of data at or below it.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "UNC-3.S.1",
+      "parentCode": "5.7",
+      "title": "Interpret sampling distribution probabilities and parameters within specific population context.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "UNC-3.H.5",
+      "parentCode": "5.3",
+      "title": "Simulate sampling distributions by generating many random samples from population.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "VAR-8.K.1",
+      "parentCode": "8.5",
+      "title": "Independence test requires SRS; homogeneity test requires stratified sample or experiment; all expected counts >5.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "UNC-3.V.1",
+      "parentCode": "5.8",
+      "title": "Interpret probabilities and parameters in context with appropriate units for populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "VAR-6.B.2",
+      "parentCode": "5.2",
+      "title": "Use inequalities and symmetry to find intervals for given areas.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "UNC-4.C.2",
+      "parentCode": "6.2",
+      "title": "Margin of error quantifies likely variation between statistic and parameter.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "UNC-4.G.1",
+      "parentCode": "6.3",
+      "title": "Confidence interval provides evidence to support or refute contextual claims.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "UNC-1.J.1",
+      "parentCode": "1.7",
+      "title": "Range, IQR, and standard deviation measure distribution spread.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "DAT-3.A.2",
+      "parentCode": "6.5",
+      "title": "P-value interpretation assumes null hypothesis and probability model are true.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "UNC-2.A.6",
+      "parentCode": "4.2",
+      "title": "More simulation trials yield simulated probabilities closer to true probabilities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "VAR-6.E.1",
+      "parentCode": "6.4",
+      "title": "Use one-sample z-test to test single categorical variable population proportion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "DAT-2.C.6",
+      "parentCode": "3.3",
+      "title": "Census includes every item or subject in the entire population.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "UNC-5.C.1",
+      "parentCode": "6.7",
+      "title": "Type II error probability decreases with larger samples, higher α, lower SE, or farther true parameter.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "UNC-1.G.4",
+      "parentCode": "1.5",
+      "title": "Cumulative graphs show cumulative counts or proportions up to values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "DAT-3.L.2",
+      "parentCode": "8.6",
+      "title": "Chi-square test results provide evidence supporting or refuting population claims.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "DAT-1.H.2",
+      "parentCode": "2.8",
+      "title": "Slope shows predicted y-change per unit increase in x.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "UNC-4.Y.1",
+      "parentCode": "7.6",
+      "title": "Difference in sample means estimates difference in population means.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "DAT-3.B.6",
+      "parentCode": "6.6",
+      "title": "Small p-values provide convincing evidence for alternative hypothesis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "UNC-4.U.2",
+      "parentCode": "7.3",
+      "title": "Interval width is proportional to one over the square root of sample size.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "DAT-2.B.2",
+      "parentCode": "3.2",
+      "title": "Samples generalize only to the population they were selected from.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "VAR-8.D.1",
+      "parentCode": "8.2",
+      "title": "Calculate expected counts by multiplying sample size by null proportion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "UNC-4.C.3",
+      "parentCode": "6.2",
+      "title": "Margin of error equals z* times standard error for proportions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "UNC-4.H.1",
+      "parentCode": "6.3",
+      "title": "Larger samples produce narrower confidence intervals, proportional to one over square root n.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "UNC-4.AE.2",
+      "parentCode": "9.2",
+      "title": "Standard error of slope uses residual SD divided by x variability and sample size.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "DAT-2.E.6",
+      "parentCode": "3.4",
+      "title": "Non-random sampling methods introduce bias by avoiding chance-based selection.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "UNC-1.H.6",
+      "parentCode": "1.6",
+      "title": "Clusters are data concentrations typically separated by gaps.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "VAR-6.C.1",
+      "parentCode": "5.2",
+      "title": "Normal distributions approximate similarly-shaped distributions well.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "DAT-3.J.2",
+      "parentCode": "8.3",
+      "title": "Chi-square test results provide statistical evidence addressing population-level research questions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "UNC-4.P.1",
+      "parentCode": "7.2",
+      "title": "Verify independence via randomization and n ≤ 10% N; verify normality by sample size or distribution shape.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "UNC-4.AF.1",
+      "parentCode": "9.2",
+      "title": "Sample regression slope b serves as point estimate for population slope beta.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "UNC-4.C.4",
+      "parentCode": "6.2",
+      "title": "Rearrange margin of error formula to calculate required sample size.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "UNC-4.Q.1",
+      "parentCode": "7.2",
+      "title": "Find t* critical value using t-table or technology with n-1 degrees of freedom.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "DAT-2.D.1",
+      "parentCode": "3.3",
+      "title": "Each sampling method has trade-offs depending on research question and population.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "VAR-8.E.1",
+      "parentCode": "8.2",
+      "title": "Verify random sampling, independence (n ≤ 10% N), and all expected counts exceed 5.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "UNC-1.J.2",
+      "parentCode": "1.7",
+      "title": "Range is max minus min; IQR is Q3 minus Q1 difference.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "UNC-5.D.1",
+      "parentCode": "6.7",
+      "title": "Consequence severity of error types varies by context and application.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "VAR-6.F.1",
+      "parentCode": "6.4",
+      "title": "Check independence via random sampling and 10% condition; verify normality with success/failure counts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "UNC-1.H.7",
+      "parentCode": "1.6",
+      "title": "Descriptive statistics describe data without inferring to populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "DAT-3.B.7",
+      "parentCode": "6.6",
+      "title": "Large p-values provide no convincing evidence for either hypothesis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "UNC-4.U.3",
+      "parentCode": "7.3",
+      "title": "Higher confidence levels produce wider intervals for the same sample.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "DAT-1.H.3",
+      "parentCode": "2.8",
+      "title": "Y-intercept is predicted response when explanatory variable equals zero.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "UNC-1.G.5",
+      "parentCode": "1.5",
+      "title": "Many additional graphical methods represent quantitative data distributions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "DAT-2.B.3",
+      "parentCode": "3.2",
+      "title": "Observational studies cannot establish causation between variables.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "UNC-4.Y.2",
+      "parentCode": "7.6",
+      "title": "Two-sample t-interval: point estimate plus/minus critical value times standard error.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "UNC-4.H.2",
+      "parentCode": "6.3",
+      "title": "Higher confidence levels produce wider confidence intervals for same sample.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "UNC-4.H.3",
+      "parentCode": "6.3",
+      "title": "Confidence interval width equals two times the margin of error value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "UNC-5.D.2",
+      "parentCode": "6.7",
+      "title": "Type I error consequences inform choice of significance level α.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "UNC-4.D.1",
+      "parentCode": "6.2",
+      "title": "Confidence interval for proportion is p̂ ± z*√[p̂(1−p̂)/n].",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "UNC-1.J.3",
+      "parentCode": "1.7",
+      "title": "Standard deviation measures spread; variance is standard deviation squared.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "DAT-3.B.8",
+      "parentCode": "6.6",
+      "title": "Formal decision rule compares p-value to α for H₀: p = p₀.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "UNC-4.Q.2",
+      "parentCode": "7.2",
+      "title": "Standard error of sample mean equals sample standard deviation divided by square root of sample size.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "UNC-4.D.2",
+      "parentCode": "6.2",
+      "title": "Critical values define middle C% interval for confidence level C%.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "UNC-4.Q.3",
+      "parentCode": "7.2",
+      "title": "Margin of error is t* multiplied by standard error of the sample mean.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "DAT-3.B.9",
+      "parentCode": "6.6",
+      "title": "Significance test results answer research questions about population.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "UNC-1.J.4",
+      "parentCode": "1.7",
+      "title": "Unit changes affect calculated statistic values differently.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "UNC-4.R.1",
+      "parentCode": "7.2",
+      "title": "Sample mean is the point estimate for the population mean parameter.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "UNC-4.E.1",
+      "parentCode": "6.2",
+      "title": "Use confidence intervals to estimate population proportions from samples.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "UNC-1.K.1",
+      "parentCode": "1.7",
+      "title": "Outliers exceed 1.5×IQR from quartiles or ±2 standard deviations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "UNC-1.K.2",
+      "parentCode": "1.7",
+      "title": "Mean and SD are non-resistant; median and IQR are resistant to outliers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "UNC-4.R.2",
+      "parentCode": "7.2",
+      "title": "One-sample t-interval confidence interval: sample mean plus/minus margin of error using t*.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    }
+  ]
+}

@@ -1,0 +1,2799 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Computer Science Principles",
+  "source": "school-core:AP-CS-P@Effective Fall 2020",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Big Idea 1: Creative Development",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Big Idea 2: Data",
+      "level": 1,
+      "examWeight": 17,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Big Idea 3: Algorithms and Programming",
+      "level": 1,
+      "examWeight": 30,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Big Idea 4: Computer Systems and Networks",
+      "level": 1,
+      "examWeight": 11,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 5",
+      "parentCode": null,
+      "title": "Big Idea 5: Impact of Computing",
+      "level": 1,
+      "examWeight": 21,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "Binary Numbers",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Collaboration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "Unit 5",
+      "title": "Beneficial and Harmful Effects of Computing Innovations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "The Internet",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "Variables and Assignments",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "Fault Tolerance",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "Program Function and Purpose",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "Data Compression",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "Data Abstraction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "Unit 5",
+      "title": "Digital Divide",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "Parallel and Distributed Computing",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "Algorithms and Expressions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.3",
+      "parentCode": "Unit 5",
+      "title": "Computing Bias",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "Extracting Information from Data",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "Program Design and Development",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Using Programs with Data",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "Strings",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.4",
+      "parentCode": "Unit 5",
+      "title": "Crowdsourcing",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "Identifying and Correcting Errors",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "Boolean Expressions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.5",
+      "parentCode": "Unit 5",
+      "title": "Legal and Ethical Concerns",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.6",
+      "parentCode": "Unit 5",
+      "title": "Safe Computing",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.6",
+      "parentCode": "Unit 3",
+      "title": "Conditionals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.7",
+      "parentCode": "Unit 3",
+      "title": "Nested Conditionals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.8",
+      "parentCode": "Unit 3",
+      "title": "Iteration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.9",
+      "parentCode": "Unit 3",
+      "title": "Developing Algorithms",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "3.10",
+      "parentCode": "Unit 3",
+      "title": "Lists",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "3.11",
+      "parentCode": "Unit 3",
+      "title": "Binary Search",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "3.12",
+      "parentCode": "Unit 3",
+      "title": "Calling Procedures",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "3.13",
+      "parentCode": "Unit 3",
+      "title": "Developing Procedures",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "3.14",
+      "parentCode": "Unit 3",
+      "title": "Libraries",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "3.15",
+      "parentCode": "Unit 3",
+      "title": "Random Values",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "3.16",
+      "parentCode": "Unit 3",
+      "title": "Simulations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "3.17",
+      "parentCode": "Unit 3",
+      "title": "Algorithmic Efficiency",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "3.18",
+      "parentCode": "Unit 3",
+      "title": "Undecidable Problems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 17
+    },
+    {
+      "code": "CRD-1.A.1",
+      "parentCode": "1.1",
+      "title": "Computing innovations fundamentally integrate programs into their core functionality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DAT-2.D.1",
+      "parentCode": "2.4",
+      "title": "Programs process data to extract and discover information.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IOC-1.C.1",
+      "parentCode": "5.2",
+      "title": "Internet access varies by socioeconomic, geographic, demographic factors and countries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DAT-2.A.1",
+      "parentCode": "2.3",
+      "title": "Information consists of facts and patterns discovered from data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IOC-1.D.1",
+      "parentCode": "5.3",
+      "title": "Computing innovations reflect human biases from algorithms and training data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CSN-1.E.1",
+      "parentCode": "4.2",
+      "title": "Internet design includes fault tolerance through routing and data transmission abstractions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-4.A.1",
+      "parentCode": "3.17",
+      "title": "Problems are general tasks; instances include specific inputs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-3.F.1",
+      "parentCode": "3.16",
+      "title": "Simulations abstract complex real-world objects or phenomena for specific purposes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-3.E.1",
+      "parentCode": "3.15",
+      "title": "RANDOM(a, b) generates equally likely integers between a and b inclusive.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CRD-2.A.1",
+      "parentCode": "1.2",
+      "title": "Computing innovations solve problems or enable creative expression.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-3.D.1",
+      "parentCode": "3.14",
+      "title": "Software libraries contain reusable procedures for program creation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-3.B.1",
+      "parentCode": "3.13",
+      "title": "Procedural abstraction names processes, hiding implementation details from users.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-3.A.1",
+      "parentCode": "3.12",
+      "title": "Procedures are named instruction groups with optional parameters and return values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CSN-2.A.1",
+      "parentCode": "4.3",
+      "title": "Sequential computing executes operations one after another in order.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CRD-2.E.1",
+      "parentCode": "1.3",
+      "title": "Development processes vary between structured and exploratory approaches.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-2.P.1",
+      "parentCode": "3.11",
+      "title": "Binary search repeatedly halves sorted data by checking the middle element.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-2.N.1",
+      "parentCode": "3.10",
+      "title": "Lists support indexing, assignment, insertion, appending, removal, and length operations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-2.L.1",
+      "parentCode": "3.9",
+      "title": "Different algorithm implementations can achieve identical outcomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-2.J.1",
+      "parentCode": "3.8",
+      "title": "Iteration repeats code either a fixed number of times or conditionally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IOC-2.A.1",
+      "parentCode": "5.6",
+      "title": "PII identifies individuals; examples include SSN, phone, medical, biometric data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-2.I.1",
+      "parentCode": "3.7",
+      "title": "Conditional statements can be placed inside other conditional statements for complex logic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-2.G.1",
+      "parentCode": "3.6",
+      "title": "Selection executes different algorithm parts based on condition truth value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-2.E.1",
+      "parentCode": "3.5",
+      "title": "Boolean values represent logical states of true or false.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CSN-1.A.1",
+      "parentCode": "4.1",
+      "title": "Computing devices are physical objects capable of running programs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CRD-2.I.1",
+      "parentCode": "1.4",
+      "title": "Logic errors cause incorrect or unexpected program behavior despite valid syntax.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-2.D.1",
+      "parentCode": "3.4",
+      "title": "Concatenation combines multiple strings into a single new string.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IOC-1.A.1",
+      "parentCode": "5.1",
+      "title": "Computing innovations are created by people.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DAT-1.A.1",
+      "parentCode": "2.1",
+      "title": "Data stored in variables, lists, constants; passed to/from procedures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-4.B.1",
+      "parentCode": "3.18",
+      "title": "Decidable problems have algorithms that correctly solve all instances.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-2.A.1",
+      "parentCode": "3.3",
+      "title": "Algorithms are finite instruction sets designed to accomplish specific tasks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-1.C.1",
+      "parentCode": "3.2",
+      "title": "Lists organize elements in order with positional structure and indexing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IOC-1.F.1",
+      "parentCode": "5.5",
+      "title": "Computer-created material belongs to its creator or organization as intellectual property.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "AAP-1.A.1",
+      "parentCode": "3.1",
+      "title": "Variables are program abstractions storing single or collection values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IOC-1.E.1",
+      "parentCode": "5.4",
+      "title": "Public information access enables problem identification, solution development, and result sharing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DAT-1.D.1",
+      "parentCode": "2.2",
+      "title": "Compression reduces the number of bits needed for data storage or transmission.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CSN-1.E.2",
+      "parentCode": "4.2",
+      "title": "Redundancy means adding extra components to prevent system failure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "AAP-2.H.1",
+      "parentCode": "3.6",
+      "title": "If-statements alter control flow by executing statements based on Boolean expression values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "AAP-1.C.2",
+      "parentCode": "3.2",
+      "title": "Each list value has a unique numerical position identifier.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "AAP-2.E.2",
+      "parentCode": "3.5",
+      "title": "Relational operators compare values and evaluate to Boolean results.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "AAP-2.L.2",
+      "parentCode": "3.9",
+      "title": "Superficially similar algorithms may produce different outputs or effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DAT-2.D.2",
+      "parentCode": "2.4",
+      "title": "Visual tools communicate insights and knowledge derived from data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DAT-2.A.2",
+      "parentCode": "2.3",
+      "title": "Data enable identification of trends, connections, and problem solutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CRD-2.I.2",
+      "parentCode": "1.4",
+      "title": "Syntax errors occur when programming language rules are violated.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "AAP-3.E.2",
+      "parentCode": "3.15",
+      "title": "Random values cause programs to produce different results on each execution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "AAP-4.B.2",
+      "parentCode": "3.18",
+      "title": "Undecidable problems lack algorithms guaranteeing correct yes-or-no answers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CRD-2.A.2",
+      "parentCode": "1.2",
+      "title": "Understanding purpose improves developers' ability to create innovations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CSN-2.A.2",
+      "parentCode": "4.3",
+      "title": "Parallel computing breaks programs into operations executed simultaneously.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "AAP-3.D.2",
+      "parentCode": "3.14",
+      "title": "Code segments originate from internal or external sources like libraries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "AAP-2.D.2",
+      "parentCode": "3.4",
+      "title": "Substrings extract portions from within existing strings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "AAP-3.F.2",
+      "parentCode": "3.16",
+      "title": "Simulations use varying values to represent changing states of phenomena.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "AAP-3.B.2",
+      "parentCode": "3.13",
+      "title": "Breaking large problems into smaller subproblems solved by individual procedures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CRD-1.A.2",
+      "parentCode": "1.1",
+      "title": "Computing innovations exist in physical, software, and conceptual forms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IOC-1.F.2",
+      "parentCode": "5.5",
+      "title": "Digital information's easy distribution creates ownership, value, and usage concerns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CSN-1.A.2",
+      "parentCode": "4.1",
+      "title": "Computing systems combine devices and programs toward shared goals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "AAP-3.A.2",
+      "parentCode": "3.12",
+      "title": "Procedures have different names depending on programming language conventions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IOC-1.E.2",
+      "parentCode": "5.4",
+      "title": "Distributed citizen science approaches have significantly impacted scientific research and problem-solving.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "AAP-2.P.2",
+      "parentCode": "3.11",
+      "title": "Binary search requires data to be sorted before use.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IOC-1.A.2",
+      "parentCode": "5.1",
+      "title": "New innovations change how people approach and complete tasks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IOC-1.D.2",
+      "parentCode": "5.3",
+      "title": "Programmers must actively reduce algorithmic bias to counteract human prejudices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CRD-2.E.2",
+      "parentCode": "1.3",
+      "title": "Programs use common phases: investigation, design, prototyping, testing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "AAP-1.A.2",
+      "parentCode": "3.1",
+      "title": "Meaningful variable names improve code readability and comprehension.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "AAP-2.N.2",
+      "parentCode": "3.10",
+      "title": "List procedure implementation follows programming language syntax rules.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DAT-1.A.2",
+      "parentCode": "2.1",
+      "title": "Computers represent all data digitally using bits as lowest-level components.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DAT-1.D.2",
+      "parentCode": "2.2",
+      "title": "Smaller file size does not imply reduced information content or quality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "AAP-2.K.1",
+      "parentCode": "3.8",
+      "title": "Iteration statements repeat code blocks until a stopping condition is satisfied.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "AAP-2.A.2",
+      "parentCode": "3.3",
+      "title": "Algorithms can be expressed via natural language, diagrams, pseudocode, or code.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "AAP-4.A.2",
+      "parentCode": "3.17",
+      "title": "Decision problems seek yes/no answers; optimization finds best solutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IOC-2.A.2",
+      "parentCode": "5.6",
+      "title": "Search engines track and store user search histories over time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IOC-1.C.2",
+      "parentCode": "5.2",
+      "title": "Digital divide means unequal access to devices and Internet by socioeconomic status.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CRD-2.E.3",
+      "parentCode": "1.3",
+      "title": "Iterative processes refine programs through feedback loops and revisit earlier phases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "CSN-2.A.3",
+      "parentCode": "4.3",
+      "title": "Distributed computing uses multiple devices to execute programs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "CSN-1.E.3",
+      "parentCode": "4.2",
+      "title": "Multiple paths between devices create network redundancy and fault tolerance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "CRD-1.A.3",
+      "parentCode": "1.1",
+      "title": "Collaborative design incorporates diverse talents and perspectives into innovations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "CRD-2.B.1",
+      "parentCode": "1.2",
+      "title": "A program is statements executed by computer to perform tasks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IOC-2.A.3",
+      "parentCode": "5.6",
+      "title": "Websites maintain records of individual visitors and page views.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IOC-1.F.3",
+      "parentCode": "5.5",
+      "title": "Intellectual property requires protective measures to maintain ownership rights.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "CRD-2.I.3",
+      "parentCode": "1.4",
+      "title": "Run-time errors occur during program execution; each language defines specific types.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DAT-1.A.3",
+      "parentCode": "2.1",
+      "title": "Bit (binary digit) is either 0 or 1.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IOC-1.E.3",
+      "parentCode": "5.4",
+      "title": "Citizen science involves non-scientists contributing research data via personal computing devices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DAT-1.D.3",
+      "parentCode": "2.2",
+      "title": "Compression effectiveness depends on data redundancy and algorithm choice.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DAT-2.A.3",
+      "parentCode": "2.3",
+      "title": "Correlation in data does not imply causation; further research required.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IOC-1.D.3",
+      "parentCode": "5.3",
+      "title": "Bias infiltrates every stage of the software development process.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IOC-1.C.3",
+      "parentCode": "5.2",
+      "title": "Digital divide impacts both groups and individuals collectively and separately.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DAT-2.D.3",
+      "parentCode": "2.4",
+      "title": "Search tools efficiently locate specific information within data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "AAP-1.A.3",
+      "parentCode": "3.1",
+      "title": "Data types include numbers, Booleans, lists, and strings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "AAP-1.C.3",
+      "parentCode": "3.2",
+      "title": "Natural numbers reference positions in lists and strings systematically.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "AAP-2.L.3",
+      "parentCode": "3.9",
+      "title": "Conditional statements and Boolean expressions can express the same logic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "AAP-2.A.3",
+      "parentCode": "3.3",
+      "title": "Programming languages implement algorithms for program execution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IOC-1.A.3",
+      "parentCode": "5.1",
+      "title": "Computing innovations produce unanticipated effects that creators did not foresee.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "AAP-2.F.1",
+      "parentCode": "3.5",
+      "title": "Logical operators NOT, AND, OR evaluate Boolean expressions to true or false.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "AAP-2.H.2",
+      "parentCode": "3.6",
+      "title": "If-statement executes code block when condition is true; does nothing when false.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "AAP-2.K.2",
+      "parentCode": "3.8",
+      "title": "REPEAT n TIMES syntax executes a block of statements exactly n times.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "AAP-2.O.1",
+      "parentCode": "3.10",
+      "title": "List traversal can be complete, accessing all elements, or partial, accessing some.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "AAP-2.P.3",
+      "parentCode": "3.11",
+      "title": "Binary search outperforms linear search on sorted data sets.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "AAP-3.A.3",
+      "parentCode": "3.12",
+      "title": "Parameters are inputs; arguments provide values when procedures are called.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "AAP-3.B.3",
+      "parentCode": "3.13",
+      "title": "Modularity is dividing programs into separate, independent subprograms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "AAP-3.D.3",
+      "parentCode": "3.14",
+      "title": "Libraries simplify the development of complex programs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "AAP-3.F.3",
+      "parentCode": "3.16",
+      "title": "Simulations mimic real-world events to draw inferences without real-world constraints.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "AAP-4.A.3",
+      "parentCode": "3.17",
+      "title": "Efficiency measures computational resources as input size function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "AAP-4.B.3",
+      "parentCode": "3.18",
+      "title": "Some undecidable problem instances solvable, but not all instances universally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "CSN-1.A.3",
+      "parentCode": "4.1",
+      "title": "Networks connect devices to enable data transmission.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "AAP-2.F.2",
+      "parentCode": "3.5",
+      "title": "NOT operator reverses Boolean value: true becomes false, false becomes true.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "IOC-1.E.4",
+      "parentCode": "5.4",
+      "title": "Crowdsourcing gathers input and information from many Internet-connected people collectively.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "IOC-1.A.4",
+      "parentCode": "5.1",
+      "title": "Single effects viewed as beneficial and harmful by different or same people.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DAT-1.D.4",
+      "parentCode": "2.2",
+      "title": "Lossless compression reduces size while perfectly reconstructing original data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "AAP-2.L.4",
+      "parentCode": "3.9",
+      "title": "Boolean expressions can be rewritten as conditional statements equivalently.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "IOC-1.F.4",
+      "parentCode": "5.5",
+      "title": "Plagiarism—using others' work without permission—carries legal consequences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "CRD-2.I.4",
+      "parentCode": "1.4",
+      "title": "Overflow errors occur when numbers exceed defined value range limits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "IOC-1.C.4",
+      "parentCode": "5.2",
+      "title": "Digital divide raises equity, access, and influence issues globally and locally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DAT-2.A.4",
+      "parentCode": "2.3",
+      "title": "Multiple data sources often required to draw valid conclusions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "CRD-1.A.4",
+      "parentCode": "1.1",
+      "title": "Diverse perspectives in collaboration reduce bias during innovation development.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "AAP-3.F.4",
+      "parentCode": "3.16",
+      "title": "Developing simulations requires removing details and simplifying functionality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "AAP-3.D.4",
+      "parentCode": "3.14",
+      "title": "APIs specify library procedure behaviors and usage guidelines.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "AAP-1.C.4",
+      "parentCode": "3.2",
+      "title": "Strings are sequences of characters organized in specific order.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DAT-2.D.4",
+      "parentCode": "2.4",
+      "title": "Filtering systems find information and reveal patterns in datasets.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "CRD-2.B.2",
+      "parentCode": "1.2",
+      "title": "A code segment is a subset of statements within a program.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "AAP-3.B.4",
+      "parentCode": "3.13",
+      "title": "Extracting shared features enables code reuse and reduces duplication complexity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "AAP-3.A.4",
+      "parentCode": "3.12",
+      "title": "Procedure calls pause execution, run procedure code, then return control after completion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "CSN-1.A.4",
+      "parentCode": "4.1",
+      "title": "Networks represent a specific category of computing systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "IOC-2.A.4",
+      "parentCode": "5.6",
+      "title": "Devices, websites, and networks collect user location information.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "AAP-2.O.2",
+      "parentCode": "3.10",
+      "title": "Iteration statements enable list traversal.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "CSN-2.A.4",
+      "parentCode": "4.3",
+      "title": "Efficiency comparison measures time to complete identical tasks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "AAP-4.A.4",
+      "parentCode": "3.17",
+      "title": "Algorithm efficiency determined via formal mathematical reasoning.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DAT-1.A.4",
+      "parentCode": "2.1",
+      "title": "One byte equals 8 bits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "CSN-1.E.4",
+      "parentCode": "4.2",
+      "title": "Failed devices or connections trigger rerouting of data through alternate paths.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "AAP-2.A.4",
+      "parentCode": "3.3",
+      "title": "All algorithms combine sequencing, selection, and iteration constructs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "AAP-1.A.4",
+      "parentCode": "3.1",
+      "title": "Different values suit different data type representations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "CRD-2.E.4",
+      "parentCode": "1.3",
+      "title": "Incremental development breaks problems into pieces, testing each before integration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "AAP-2.K.3",
+      "parentCode": "3.8",
+      "title": "REPEAT UNTIL syntax repeats code until a Boolean condition becomes true.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "AAP-2.H.3",
+      "parentCode": "3.6",
+      "title": "If-else statement executes first block when true; otherwise executes second block.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "IOC-1.A.5",
+      "parentCode": "5.1",
+      "title": "Computing advances foster creativity across medicine, engineering, communications, and arts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "IOC-1.E.5",
+      "parentCode": "5.4",
+      "title": "Computing-enabled collaboration amplifies and enhances individual human capabilities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "AAP-1.B.1",
+      "parentCode": "3.1",
+      "title": "Assignment operator changes variable values during program execution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "AAP-1.D.1",
+      "parentCode": "3.2",
+      "title": "Data abstraction separates conceptual properties from implementation details.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DAT-1.A.5",
+      "parentCode": "2.1",
+      "title": "Abstraction reduces complexity by hiding irrelevant details, focusing attention.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "AAP-2.B.1",
+      "parentCode": "3.3",
+      "title": "Sequencing executes algorithm steps in written code order.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "CSN-1.E.5",
+      "parentCode": "4.2",
+      "title": "Fault tolerance enables systems to function despite failures, ensuring network availability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "CRD-2.I.5",
+      "parentCode": "1.4",
+      "title": "Use testing, tracing, visualizations, debuggers, and output statements to find errors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "IOC-1.F.5",
+      "parentCode": "5.5",
+      "title": "Legal material use includes Creative Commons, open source, and open access licenses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "AAP-2.F.3",
+      "parentCode": "3.5",
+      "title": "AND operator returns true only when both conditions are true.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "CSN-2.A.5",
+      "parentCode": "4.3",
+      "title": "Sequential solution time equals sum of all step durations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "AAP-2.K.4",
+      "parentCode": "3.8",
+      "title": "Infinite loops result when REPEAT UNTIL condition never evaluates to true.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "AAP-2.L.5",
+      "parentCode": "3.9",
+      "title": "Multiple distinct algorithms can solve the same computational problem.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "CRD-2.F.1",
+      "parentCode": "1.3",
+      "title": "Program design requires investigation to establish requirements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "AAP-2.O.3",
+      "parentCode": "3.10",
+      "title": "FOR EACH loops iterate over each item in a list.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "IOC-2.A.5",
+      "parentCode": "5.6",
+      "title": "Technology allows collection and exploitation of information about various entities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "AAP-3.A.5",
+      "parentCode": "3.12",
+      "title": "Procedure calls use syntax procName(arg1, arg2, ...) with ordered parameter assignment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "CSN-1.A.5",
+      "parentCode": "4.1",
+      "title": "Network paths are sequences of connected devices between endpoints.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "AAP-3.B.5",
+      "parentCode": "3.13",
+      "title": "Parameters generalize procedures for reuse with different input values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "AAP-3.D.5",
+      "parentCode": "3.14",
+      "title": "API documentation explains behaviors and usage of library procedures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "CRD-1.A.5",
+      "parentCode": "1.1",
+      "title": "User consultation and communication are essential during innovation development.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "AAP-3.F.5",
+      "parentCode": "3.16",
+      "title": "Simulation bias arises from choices about which elements to include or exclude.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "CRD-2.B.3",
+      "parentCode": "1.2",
+      "title": "Programs must handle diverse inputs and various situations correctly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DAT-2.B.1",
+      "parentCode": "2.3",
+      "title": "Metadata describes data, such as creation date or file size.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "IOC-1.C.5",
+      "parentCode": "5.2",
+      "title": "Individuals, organizations, and governments all influence the digital divide.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DAT-1.D.5",
+      "parentCode": "2.2",
+      "title": "Lossy compression achieves greater size reduction but reconstructs only approximations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "AAP-4.A.5",
+      "parentCode": "3.17",
+      "title": "Informally measure efficiency by counting statement executions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DAT-2.D.5",
+      "parentCode": "2.4",
+      "title": "Spreadsheets organize data and identify trends efficiently.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "IOC-1.B.1",
+      "parentCode": "5.1",
+      "title": "Innovations used beyond original intent; advertising, machine learning can enable or harm.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "CRD-2.F.2",
+      "parentCode": "1.3",
+      "title": "Investigation identifies constraints and user concerns during development.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "AAP-3.B.6",
+      "parentCode": "3.13",
+      "title": "Procedural abstraction enhances code readability and understanding.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "AAP-2.K.5",
+      "parentCode": "3.8",
+      "title": "REPEAT UNTIL checks condition first; if true, loop body never executes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "CRD-1.A.6",
+      "parentCode": "1.1",
+      "title": "User feedback informs program purpose and ensures diverse perspective incorporation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "DAT-2.D.6",
+      "parentCode": "2.4",
+      "title": "Transform, filter, combine, and visualize data using programs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "CRD-2.B.4",
+      "parentCode": "1.2",
+      "title": "Program behavior describes execution and user interaction patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "AAP-1.D.2",
+      "parentCode": "3.2",
+      "title": "Named data abstractions simplify programs by hiding implementation specifics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "CSN-1.A.6",
+      "parentCode": "4.1",
+      "title": "Routing determines how data reaches destination nodes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "CSN-2.A.6",
+      "parentCode": "4.3",
+      "title": "Parallel solution time equals sequential tasks plus longest parallel task.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "DAT-1.D.6",
+      "parentCode": "2.2",
+      "title": "Lossy compression typically achieves greater bit reduction than lossless methods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "IOC-1.F.6",
+      "parentCode": "5.5",
+      "title": "All external material use requires proper citation and attribution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "DAT-2.B.2",
+      "parentCode": "2.3",
+      "title": "Metadata modifications do not alter the underlying primary data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "AAP-1.B.2",
+      "parentCode": "3.1",
+      "title": "Assignment evaluates expressions and assigns copied results to variables.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "IOC-2.A.6",
+      "parentCode": "5.6",
+      "title": "Search engines use history for website suggestions and targeted marketing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "DAT-1.A.6",
+      "parentCode": "2.1",
+      "title": "Grouped bits represent abstractions: numbers, characters, colors, others.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "AAP-2.F.4",
+      "parentCode": "3.5",
+      "title": "OR operator returns true if at least one condition is true.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "AAP-4.A.6",
+      "parentCode": "3.17",
+      "title": "Different correct algorithms for same problem vary in efficiency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "AAP-3.A.6",
+      "parentCode": "3.12",
+      "title": "DISPLAY outputs expression values followed by a space character.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "AAP-2.M.1",
+      "parentCode": "3.9",
+      "title": "New algorithms emerge from ideas, combinations, or modifications of existing ones.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "CSN-1.E.6",
+      "parentCode": "4.2",
+      "title": "Redundancy requires extra resources but provides important fault tolerance benefits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "AAP-2.B.2",
+      "parentCode": "3.3",
+      "title": "Code statements express specific actions for program execution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "CRD-2.J.1",
+      "parentCode": "1.4",
+      "title": "Testing with defined inputs verifies expected outcomes and guides program revisions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "IOC-1.E.6",
+      "parentCode": "5.4",
+      "title": "Crowdsourcing enables new collaboration models linking organizations with funding and support.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "AAP-3.F.6",
+      "parentCode": "3.16",
+      "title": "Simulations are useful when real-world experiments are impractical or dangerous.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "DAT-1.D.7",
+      "parentCode": "2.2",
+      "title": "Choose lossless compression when original quality and reconstruction are critical.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "AAP-2.M.2",
+      "parentCode": "3.9",
+      "title": "Familiarity with established algorithms aids new algorithm development and construction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "AAP-1.B.3",
+      "parentCode": "3.1",
+      "title": "Variables retain their most recently assigned value only.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "IOC-1.B.2",
+      "parentCode": "5.1",
+      "title": "Computing innovations may cause harmful impacts on society, economy, culture.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "CSN-2.A.7",
+      "parentCode": "4.3",
+      "title": "Speedup equals sequential time divided by parallel execution time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "AAP-3.A.7",
+      "parentCode": "3.12",
+      "title": "RETURN exits procedure and sends expression value back to caller.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "IOC-2.A.7",
+      "parentCode": "5.6",
+      "title": "Aggregated data from location, cookies, and browsing reveals individual knowledge.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "AAP-1.D.3",
+      "parentCode": "3.2",
+      "title": "Lists serve as fundamental mechanisms for creating data abstractions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "AAP-3.B.7",
+      "parentCode": "3.13",
+      "title": "Procedures can be optimized internally without affecting external users.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "CRD-2.B.5",
+      "parentCode": "1.2",
+      "title": "Programs can be described by function or detailed implementation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "AAP-4.A.7",
+      "parentCode": "3.17",
+      "title": "Polynomial or slower algorithms are reasonable; exponential/factorial unreasonable.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "CRD-1.B.1",
+      "parentCode": "1.1",
+      "title": "Online tools enable programmers to share ideas and provide collaborative feedback.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "DAT-2.E.1",
+      "parentCode": "2.4",
+      "title": "Iterative program use enables users to gain insight from data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "CSN-1.A.7",
+      "parentCode": "4.1",
+      "title": "Bandwidth measures maximum data transmission capacity per time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "DAT-1.A.7",
+      "parentCode": "2.1",
+      "title": "Same bit sequence represents different data types in different contexts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "AAP-3.F.7",
+      "parentCode": "3.16",
+      "title": "Simulations help formulate and refine hypotheses about phenomena.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "CRD-2.J.2",
+      "parentCode": "1.4",
+      "title": "Test inputs should cover extremes and boundaries of expected input data ranges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "DAT-2.B.3",
+      "parentCode": "2.3",
+      "title": "Metadata facilitate finding, organizing, and managing information.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "AAP-2.F.5",
+      "parentCode": "3.5",
+      "title": "Logical operator operands are Boolean expressions or Boolean values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "IOC-1.F.7",
+      "parentCode": "5.5",
+      "title": "Open licensing models facilitate widespread access to digital information.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "CRD-2.F.3",
+      "parentCode": "1.3",
+      "title": "Investigation methods include surveys, user testing, interviews, observations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "CSN-1.E.7",
+      "parentCode": "4.2",
+      "title": "Multiple routing options increase Internet reliability and enable network scalability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "AAP-2.B.3",
+      "parentCode": "3.3",
+      "title": "Expressions contain values, variables, operators, or procedure calls.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "CSN-2.B.1",
+      "parentCode": "4.3",
+      "title": "Parallel computing combines sequential and parallel execution portions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "IOC-2.A.8",
+      "parentCode": "5.6",
+      "title": "PII online enhances personalized user experiences and service quality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "IOC-1.F.8",
+      "parentCode": "5.5",
+      "title": "Using computing to harm people creates legal and ethical concerns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "CRD-2.F.4",
+      "parentCode": "1.3",
+      "title": "Requirements describe program functionality and necessary user interactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "AAP-3.A.8",
+      "parentCode": "3.12",
+      "title": "Assignment syntax captures procedure return values into variables.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "CRD-2.J.3",
+      "parentCode": "1.4",
+      "title": "Program requirements determine which defined inputs are appropriate for testing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "DAT-2.B.4",
+      "parentCode": "2.3",
+      "title": "Metadata improves data utility by providing contextual information.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "AAP-1.D.4",
+      "parentCode": "3.2",
+      "title": "Data abstractions improve program development and maintenance efficiency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "CRD-1.B.2",
+      "parentCode": "1.1",
+      "title": "Established models like pair programming facilitate effective collaboration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "IOC-1.B.3",
+      "parentCode": "5.1",
+      "title": "Responsible programmers anticipate unintended uses and beneficial or harmful effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "AAP-3.C.1",
+      "parentCode": "3.13",
+      "title": "Procedure syntax defines named blocks with zero or more parameters.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "AAP-4.A.8",
+      "parentCode": "3.17",
+      "title": "Unsolvable efficiently within reasonable time seek approximate solutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "CSN-1.A.8",
+      "parentCode": "4.1",
+      "title": "Bandwidth is quantified using bits per second units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "AAP-2.M.3",
+      "parentCode": "3.9",
+      "title": "Reusing existing algorithms reduces development time, testing, and debugging complexity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "DAT-2.E.2",
+      "parentCode": "2.4",
+      "title": "Filtering and cleaning data reveals insights and knowledge.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "DAT-1.D.8",
+      "parentCode": "2.2",
+      "title": "Choose lossy compression when minimizing size and transmission time matter most.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "AAP-2.B.4",
+      "parentCode": "3.3",
+      "title": "Expression evaluation yields a single resulting value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "AAP-3.F.8",
+      "parentCode": "3.16",
+      "title": "Random number generators simulate real-world variability in simulations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "DAT-1.A.8",
+      "parentCode": "2.1",
+      "title": "Analog data changes smoothly over time (music pitch, colors, position).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "CRD-2.C.1",
+      "parentCode": "1.2",
+      "title": "Program inputs are data in tactile, audio, visual, or text forms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "IOC-1.B.4",
+      "parentCode": "5.1",
+      "title": "Programmers cannot anticipate all possible uses of their innovations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "CRD-1.C.1",
+      "parentCode": "1.1",
+      "title": "Effective teams develop communication, consensus, conflict resolution, negotiation skills.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "CRD-2.C.2",
+      "parentCode": "1.2",
+      "title": "Events are actions that supply input data to programs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "CRD-2.F.5",
+      "parentCode": "1.3",
+      "title": "Specifications formally define all program requirements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "DAT-1.A.9",
+      "parentCode": "2.1",
+      "title": "Digital approximation of analog data is abstraction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "DAT-2.B.5",
+      "parentCode": "2.3",
+      "title": "Metadata enables structuring and organization of data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "DAT-2.E.3",
+      "parentCode": "2.4",
+      "title": "Combining, clustering, and classifying data generates insights.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "AAP-1.D.5",
+      "parentCode": "3.2",
+      "title": "Data abstractions can group heterogeneous element types together.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "AAP-2.B.5",
+      "parentCode": "3.3",
+      "title": "Expression evaluation follows language-defined order of operations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "AAP-3.A.9",
+      "parentCode": "3.12",
+      "title": "INPUT accepts user values and returns them for program use.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "AAP-3.C.2",
+      "parentCode": "3.13",
+      "title": "Procedures can return values anywhere, immediately exiting to caller.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "AAP-4.A.9",
+      "parentCode": "3.17",
+      "title": "Heuristics provide non-optimal solutions when optimal techniques impractical.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "CSN-1.B.1",
+      "parentCode": "4.1",
+      "title": "Internet connects networks using open, standardized communication protocols.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "CSN-2.B.2",
+      "parentCode": "4.3",
+      "title": "Parallel solutions scale more effectively than sequential solutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "IOC-1.F.9",
+      "parentCode": "5.5",
+      "title": "Computing's role in social and political issues raises legal concerns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "IOC-2.A.9",
+      "parentCode": "5.6",
+      "title": "Stored PII streamlines online shopping and transaction processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "CSN-2.B.3",
+      "parentCode": "4.3",
+      "title": "Distributed computing solves problems impossible on single computers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "CRD-2.C.3",
+      "parentCode": "1.2",
+      "title": "Events from key presses, clicks, or starts affect execution flow.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "AAP-2.B.6",
+      "parentCode": "3.3",
+      "title": "Sequential statements execute in appearance order.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "CRD-2.F.6",
+      "parentCode": "1.3",
+      "title": "Design phase determines how to fulfill program specifications.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "IOC-1.F.10",
+      "parentCode": "5.5",
+      "title": "Unequal computing access creates ethical concerns about digital equity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "DAT-1.A.10",
+      "parentCode": "2.1",
+      "title": "Sampling technique measures analog signals at regular intervals for digital storage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "DAT-2.C.1",
+      "parentCode": "2.3",
+      "title": "Data processing capability depends on user and tool capacity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "IOC-1.B.5",
+      "parentCode": "5.1",
+      "title": "Innovations often produce unintended beneficial effects advancing other fields.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "IOC-2.A.10",
+      "parentCode": "5.6",
+      "title": "Information misuse occurs when privacy protections are inadequate or ignored.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "CSN-1.B.2",
+      "parentCode": "4.1",
+      "title": "Internet access requires connecting devices through existing connections.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "DAT-2.E.4",
+      "parentCode": "2.4",
+      "title": "Translating and transforming digital data yields insight and knowledge.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "AAP-1.D.6",
+      "parentCode": "3.2",
+      "title": "Lists unify multiple items as single values; languages call them arrays.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "IOC-1.F.11",
+      "parentCode": "5.5",
+      "title": "Computing innovations raise concerns including media access and algorithmic bias.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "CSN-1.B.3",
+      "parentCode": "4.1",
+      "title": "Protocols are agreed rules governing system behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "CSN-2.B.4",
+      "parentCode": "4.3",
+      "title": "Distributed computing solves larger problems faster than single computers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "AAP-2.B.7",
+      "parentCode": "3.3",
+      "title": "Algorithm clarity and readability are essential programming considerations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "AAP-1.D.7",
+      "parentCode": "3.2",
+      "title": "Reference sheet notation creates, initializes, and assigns lists using index syntax.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "DAT-2.E.5",
+      "parentCode": "2.4",
+      "title": "Program-based data transformation reveals emerging patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "IOC-1.B.6",
+      "parentCode": "5.1",
+      "title": "Wide distribution and large-scale use create impacts beyond programmer's control.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "DAT-2.C.2",
+      "parentCode": "2.3",
+      "title": "Data sets present challenges including cleaning, incompleteness, invalidity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "DAT-1.B.1",
+      "parentCode": "2.1",
+      "title": "Fixed-bit integer representation limits range, causing overflow errors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "CRD-2.F.7",
+      "parentCode": "1.3",
+      "title": "Design includes brainstorming, storyboarding, modularization, diagrams, testing strategy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "CRD-2.C.4",
+      "parentCode": "1.2",
+      "title": "Program inputs typically determine the outputs produced.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "IOC-2.A.11",
+      "parentCode": "5.6",
+      "title": "Online information can be misused unintentionally; emails forwarded, tweets retweeted, posts viewed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "DAT-1.B.2",
+      "parentCode": "2.1",
+      "title": "Some languages abstract integers, limited only by computer memory.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "AAP-2.C.1",
+      "parentCode": "3.3",
+      "title": "Arithmetic operators include addition, subtraction, multiplication, division, modulus.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "CRD-2.C.5",
+      "parentCode": "1.2",
+      "title": "Event-driven programming executes statements when triggered.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "CSN-1.B.4",
+      "parentCode": "4.1",
+      "title": "Open protocols enable straightforward device connections to Internet.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "DAT-2.C.3",
+      "parentCode": "2.3",
+      "title": "Data collection methods may result in non-uniform formatting and spelling.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "IOC-2.A.12",
+      "parentCode": "5.6",
+      "title": "PII enables stalking, identity theft, and planning of criminal activities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "CRD-2.G.1",
+      "parentCode": "1.3",
+      "title": "Documentation describes code function and development process.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "CSN-2.B.5",
+      "parentCode": "4.3",
+      "title": "Sequential portions limit overall efficiency despite parallel computing increases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "IOC-2.A.13",
+      "parentCode": "5.6",
+      "title": "Online information persists; deletion is difficult or impossible.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "CRD-2.G.2",
+      "parentCode": "1.3",
+      "title": "Comments document code for humans without affecting program execution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "AAP-2.C.2",
+      "parentCode": "3.3",
+      "title": "MOD operator returns remainder; 17 MOD 5 equals 2.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "CSN-1.B.5",
+      "parentCode": "4.1",
+      "title": "Internet routing dynamically adjusts rather than following predetermined paths.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "CRD-2.C.6",
+      "parentCode": "1.2",
+      "title": "Input sources include users or other programs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "DAT-2.C.4",
+      "parentCode": "2.3",
+      "title": "Data cleaning standardizes format while preserving meaning.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "DAT-1.B.3",
+      "parentCode": "2.1",
+      "title": "Fixed-bit real numbers limit range, causing round-off errors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "DAT-2.C.5",
+      "parentCode": "2.3",
+      "title": "Data bias stems from collection methods; more data alone insufficient.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "DAT-1.C.1",
+      "parentCode": "2.1",
+      "title": "Number bases like binary and decimal represent data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "CSN-1.B.6",
+      "parentCode": "4.1",
+      "title": "Scalability enables systems to grow and adapt to increased demands.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "CRD-2.G.3",
+      "parentCode": "1.3",
+      "title": "Documentation should occur continuously during program development.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "CRD-2.D.1",
+      "parentCode": "1.2",
+      "title": "Program outputs are data in tactile, audio, visual, or text forms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "AAP-2.C.3",
+      "parentCode": "3.3",
+      "title": "Five arithmetic operators: +, -, *, /, MOD perform calculations on operands.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "IOC-2.A.14",
+      "parentCode": "5.6",
+      "title": "Programs track location, routes traveled, and duration at specific locations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "DAT-1.C.2",
+      "parentCode": "2.1",
+      "title": "Binary (base 2) uses only digits 0 and 1.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "IOC-2.A.15",
+      "parentCode": "5.6",
+      "title": "Social media posts combined with other sources reveal deduced private information.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "CSN-1.B.7",
+      "parentCode": "4.1",
+      "title": "Internet architecture supports expansion and adaptation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "CRD-2.D.2",
+      "parentCode": "1.2",
+      "title": "Program output depends on inputs or internal state values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "AAP-2.C.4",
+      "parentCode": "3.3",
+      "title": "Mathematical order of operations applies; MOD precedence equals * and /.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "DAT-2.C.6",
+      "parentCode": "2.3",
+      "title": "Data set size influences extractable information and insights.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "CRD-2.G.4",
+      "parentCode": "1.3",
+      "title": "Documentation supports correct development and maintenance individually and collaboratively.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "DAT-1.C.3",
+      "parentCode": "2.1",
+      "title": "Decimal (base 10) uses digits 0 through 9.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "DAT-2.C.7",
+      "parentCode": "2.3",
+      "title": "Large data sets require parallel processing systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "CRD-2.G.5",
+      "parentCode": "1.3",
+      "title": "Alternative documentation methods apply when environments lack comment support.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "IOC-2.B.1",
+      "parentCode": "5.6",
+      "title": "Authentication protects devices; examples include strong passwords and multifactor methods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "CSN-1.C.1",
+      "parentCode": "4.1",
+      "title": "Data travels as streams containing packets of encapsulated chunks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "DAT-2.C.8",
+      "parentCode": "2.3",
+      "title": "System scalability affects data processing and storage capacity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "DAT-1.C.4",
+      "parentCode": "2.1",
+      "title": "Binary digit position determines value: bit multiplied by place value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "CRD-2.H.1",
+      "parentCode": "1.3",
+      "title": "Acknowledge code from collaborative or external sources appropriately.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "CSN-1.C.2",
+      "parentCode": "4.1",
+      "title": "Packets hold data plus routing and reassembly metadata.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "CSN-1.C.3",
+      "parentCode": "4.1",
+      "title": "Packets arrive unpredictably regarding order and completeness.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 17
+    },
+    {
+      "code": "CSN-1.C.4",
+      "parentCode": "4.1",
+      "title": "IP, TCP, and UDP are standard Internet protocols.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 18
+    },
+    {
+      "code": "CSN-1.D.1",
+      "parentCode": "4.1",
+      "title": "Web systems interconnect pages, programs, and files.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 19
+    },
+    {
+      "code": "CSN-1.D.2",
+      "parentCode": "4.1",
+      "title": "HTTP protocol enables World Wide Web functionality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 20
+    },
+    {
+      "code": "CSN-1.D.3",
+      "parentCode": "4.1",
+      "title": "Web applications operate on top of Internet infrastructure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 21
+    }
+  ]
+}

@@ -1,0 +1,1319 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Microeconomics",
+  "source": "school-core:AP-MICRO@Effective Fall 2022",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: Basic Economic Concepts",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: Supply and Demand",
+      "level": 1,
+      "examWeight": 20,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: Production, Cost, and the Perfect Competition Model",
+      "level": 1,
+      "examWeight": 22,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: Imperfect Competition",
+      "level": 1,
+      "examWeight": 15,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 5",
+      "parentCode": null,
+      "title": "Unit 5: Factor Markets",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 4
+    },
+    {
+      "code": "Unit 6",
+      "parentCode": null,
+      "title": "Unit 6: Market Failure and the Role of Government",
+      "level": 1,
+      "examWeight": 8,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "The Production Function",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "Unit 6",
+      "title": "Socially Efficient and Inefficient Market Outcomes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "Unit 5",
+      "title": "Factor Markets",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Scarcity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "Introduction to Imperfectly Competitive Markets",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "Demand",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.2",
+      "parentCode": "Unit 6",
+      "title": "Externalities",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "Resource Allocation and Economic Systems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "Supply",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "Short-Run Production Costs",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "4.2",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "Unit 5",
+      "title": "Changes in Factor Demand and Factor Supply",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.3",
+      "parentCode": "Unit 5",
+      "title": "Profit-Maximizing Behavior in Perfectly Competitive Factor Markets",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "Long-Run Production Costs",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3",
+      "parentCode": "Unit 6",
+      "title": "Public and Private Goods",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "Production Possibilities Curve",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "Price Elasticity of Demand",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "Price Discrimination",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.4",
+      "parentCode": "Unit 5",
+      "title": "Monopsonistic Markets",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "4.4",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Price Elasticity of Supply",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "Comparative Advantage and Trade",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "Types of Profit",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.4",
+      "parentCode": "Unit 6",
+      "title": "6.4",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "Cost-Benefit Analysis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.5",
+      "parentCode": "Unit 6",
+      "title": "6.5",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "Profit Maximization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5",
+      "parentCode": "Unit 4",
+      "title": "Oligopoly and Game Theory",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "Other Elasticities",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.6",
+      "parentCode": "Unit 1",
+      "title": "Marginal Analysis and Consumer Choice",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "2.6",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.6",
+      "parentCode": "Unit 3",
+      "title": "Firms' Short-Run Decisions to Produce and Long-Run Decisions to Enter or Exit a Market",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "Market Disequilibrium and Changes in Equilibrium",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.7",
+      "parentCode": "Unit 3",
+      "title": "Perfect Competition",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.8",
+      "parentCode": "Unit 2",
+      "title": "The Effects of Government Intervention in Markets",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.9",
+      "parentCode": "Unit 2",
+      "title": "International Trade and Public Policy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "MKT-3.C.1",
+      "parentCode": "2.2",
+      "title": "Price changes cause quantity supplied to move along the supply curve.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-1.B.1",
+      "parentCode": "1.2",
+      "title": "Resource allocation answers what to produce, how to produce, and who consumes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-3.E.9",
+      "parentCode": "2.5",
+      "title": "Elasticity applies to any demand or supply determinant, not only price.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-1.C.1",
+      "parentCode": "1.3",
+      "title": "PPC model demonstrates resource allocation trade-offs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-3.E.6",
+      "parentCode": "2.4",
+      "title": "Price elasticity of supply measures quantity supplied responsiveness to price changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "POL-3.C.1",
+      "parentCode": "6.3",
+      "title": "Private goods are rival and excludable; public goods are non-rival and non-excludable.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "POL-3.A.1",
+      "parentCode": "6.2",
+      "title": "Socially optimal output occurs where marginal social benefit equals marginal social cost.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "POL-2.A.1",
+      "parentCode": "6.1",
+      "title": "Optimal quantity occurs where marginal benefit equals marginal cost, maximizing surplus.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-2.A.1",
+      "parentCode": "1.4",
+      "title": "Absolute advantage means producing more output with same resources.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-4.B.1",
+      "parentCode": "2.7",
+      "title": "Market disequilibrium triggers forces that restore equilibrium price and quantity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PRD-4.D.1",
+      "parentCode": "5.4",
+      "title": "Monopsony firms hire labor where marginal revenue product exceeds marginal factor cost.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PRD-4.C.1",
+      "parentCode": "5.3",
+      "title": "Firms hire workers where market wage equals marginal revenue product of labor.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CBA-1.A.1",
+      "parentCode": "1.5",
+      "title": "Rational decision-makers account for all opportunity costs in total economic cost calculations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "POL-1.A.1",
+      "parentCode": "2.8",
+      "title": "Price floors, ceilings, and quantity controls affect incentives across all market structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PRD-4.B.1",
+      "parentCode": "5.2",
+      "title": "Labor demand shifts with changes in output price and worker productivity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PRD-4.A.1",
+      "parentCode": "5.1",
+      "title": "Firms hire factors based on productivity, output price, and factor costs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CBA-2.A.1",
+      "parentCode": "1.6",
+      "title": "Consumers must make optimal decisions given their resource constraints.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "POL-1.B.1",
+      "parentCode": "2.9",
+      "title": "Trade openness changes equilibrium price and surplus distribution compared to autarky.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PRD-3.B.8",
+      "parentCode": "4.3",
+      "title": "Market power enables firms to use price discrimination for profit and surplus capture.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PRD-3.B.1",
+      "parentCode": "4.1",
+      "title": "Imperfect competition includes monopoly, oligopoly, monopolistic competition, and monopsony.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PRD-3.A.1",
+      "parentCode": "3.7",
+      "title": "Perfect competition is efficient with free entry and no firm market power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PRD-2.A.1",
+      "parentCode": "3.6",
+      "title": "Short-run production decisions compare revenue to variable costs or price to AVC.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PRD-3.C.1",
+      "parentCode": "4.5",
+      "title": "Oligopoly features few interdependent firms with high entry barriers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-3.A.1",
+      "parentCode": "2.1",
+      "title": "Property rights establish the foundation enabling markets to operate effectively.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-3.E.1",
+      "parentCode": "2.3",
+      "title": "Elasticity measures percentage changes in quantity from price, income, or related good price changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CBA-2.D.1",
+      "parentCode": "3.5",
+      "title": "Firms maximize profit by equating marginal revenue with marginal cost.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CBA-2.C.1",
+      "parentCode": "3.4",
+      "title": "Firms prioritize economic profit over accounting profit when making decisions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PRD-1.A.9",
+      "parentCode": "3.3",
+      "title": "Long run: all inputs adjustable, all costs variable.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PRD-1.A.1",
+      "parentCode": "3.1",
+      "title": "Production function shows how inputs transform into outputs across time horizons.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PRD-1.A.4",
+      "parentCode": "3.2",
+      "title": "Total cost comprises fixed costs and variable costs combined.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-1.A.1",
+      "parentCode": "1.1",
+      "title": "Trade-offs result from insufficient resources to satisfy all wants.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PRD-1.A.5",
+      "parentCode": "3.2",
+      "title": "Fixed costs stay constant; marginal and average costs vary with output levels.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-1.A.2",
+      "parentCode": "1.1",
+      "title": "Most production factors are scarce; knowledge is non-rival and abundant.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-1.B.2",
+      "parentCode": "1.2",
+      "title": "Economic systems like command, market, or mixed coordinate resource allocation differently.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-1.C.2",
+      "parentCode": "1.3",
+      "title": "PPC illustrates scarcity, opportunity cost, efficiency, underutilization, and growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-2.A.2",
+      "parentCode": "1.4",
+      "title": "Comparative advantage means producing at lower opportunity cost.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CBA-1.A.2",
+      "parentCode": "1.5",
+      "title": "Consumer utility and firm revenue measure total benefits in economic decisions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CBA-2.A.2",
+      "parentCode": "1.6",
+      "title": "Rational consumers make choices to maximize their total utility.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-3.A.2",
+      "parentCode": "2.1",
+      "title": "Economic actors adjust behavior in response to incentives they face.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-3.C.2",
+      "parentCode": "2.2",
+      "title": "Market supply sums individual supplies; market curve slopes upward.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-3.E.2",
+      "parentCode": "2.3",
+      "title": "Price elasticity equals percentage change in quantity demanded divided by percentage change in price.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-3.E.7",
+      "parentCode": "2.4",
+      "title": "Supply elasticity classified as elastic (>1), inelastic (<1), or unit elastic (=1).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-3.E.10",
+      "parentCode": "2.5",
+      "title": "Income elasticity measures quantity demanded change relative to income change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-4.B.2",
+      "parentCode": "2.7",
+      "title": "Supply and demand shifts alter equilibrium outcomes; elasticity determines magnitude of change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "POL-1.A.2",
+      "parentCode": "2.8",
+      "title": "Taxes and subsidies shift supply and demand curves by changing consumer and producer incentives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "POL-1.B.2",
+      "parentCode": "2.9",
+      "title": "Tariffs alter domestic price, quantity, revenue, and consumer and total surplus.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PRD-1.A.2",
+      "parentCode": "3.1",
+      "title": "Marginal and average products vary as input levels change, affecting total output.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PRD-1.A.10",
+      "parentCode": "3.3",
+      "title": "Long-run input-output relationship characterized by returns to scale.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CBA-2.C.2",
+      "parentCode": "3.4",
+      "title": "Accounting profit omits implicit costs; including them yields normal profit.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PRD-2.A.2",
+      "parentCode": "3.6",
+      "title": "Long-run entry and exit decisions respond to profit opportunities and anticipated losses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PRD-3.A.2",
+      "parentCode": "3.7",
+      "title": "Prices signal marginal costs and benefits, incentivizing efficient production and consumption decisions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PRD-3.B.2",
+      "parentCode": "4.1",
+      "title": "Imperfectly competitive firms must lower price to increase quantity sold.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PRD-3.B.9",
+      "parentCode": "4.3",
+      "title": "Perfect price discrimination achieves competitive output while monopolist captures all surplus.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PRD-3.C.2",
+      "parentCode": "4.5",
+      "title": "Oligopolistic firms are incentivized to collude and form cartels.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PRD-4.A.2",
+      "parentCode": "5.1",
+      "title": "Labor demand decreases with wages; labor supply increases with wages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PRD-4.B.2",
+      "parentCode": "5.2",
+      "title": "Labor supply shifts due to immigration, education, conditions, demographics, preferences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PRD-4.C.2",
+      "parentCode": "5.3",
+      "title": "Firms hire labor when marginal revenue product exceeds the market wage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PRD-4.D.2",
+      "parentCode": "5.4",
+      "title": "In monopsony, marginal factor cost exceeds the supply price of labor.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "POL-2.A.2",
+      "parentCode": "6.1",
+      "title": "Market equilibrium equals social optimum only when all benefits and costs internalized.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "POL-3.A.2",
+      "parentCode": "6.2",
+      "title": "Externalities stem from undefined property rights or prohibitive transaction costs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "POL-3.C.2",
+      "parentCode": "6.3",
+      "title": "Free rider problem prevents private production of public goods; government must produce them.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CBA-1.B.1",
+      "parentCode": "1.5",
+      "title": "Optimal choices occur where total net benefits reach their maximum level.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "POL-2.B.1",
+      "parentCode": "6.1",
+      "title": "Rational agents exploit market power through strategic private actions and incentives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "POL-3.A.3",
+      "parentCode": "6.2",
+      "title": "Rational agents respond to private incentives, ignoring external costs and benefits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PRD-3.B.3",
+      "parentCode": "4.1",
+      "title": "Imperfectly competitive markets set prices above marginal cost, creating inefficiency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PRD-1.A.3",
+      "parentCode": "3.1",
+      "title": "Additional units of one input yield progressively smaller output increases in short run.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "CBA-2.A.3",
+      "parentCode": "1.6",
+      "title": "Additional consumption yields less satisfaction with each additional unit consumed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MKT-3.D.1",
+      "parentCode": "2.2",
+      "title": "Supply determinant changes shift the entire supply curve position.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "POL-3.C.3",
+      "parentCode": "6.3",
+      "title": "Governments produce some private goods like education and provide free public access.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PRD-3.C.3",
+      "parentCode": "4.5",
+      "title": "Games involve players whose payoffs depend on all players' choices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MKT-3.A.3",
+      "parentCode": "2.1",
+      "title": "Individuals respond to price incentives while facing income, time, and legal constraints.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "POL-1.B.3",
+      "parentCode": "2.9",
+      "title": "Quotas change production quantities, affecting price and surplus measures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MKT-3.E.3",
+      "parentCode": "2.3",
+      "title": "Elasticity magnitude greater than 1 is elastic; less than 1 is inelastic; equal to 1 is unit elastic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "POL-1.A.3",
+      "parentCode": "2.8",
+      "title": "Taxes and subsidies have fiscal impacts on government finances.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MKT-1.C.3",
+      "parentCode": "1.3",
+      "title": "PPC shape reflects constant, increasing, or decreasing opportunity costs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MKT-3.E.11",
+      "parentCode": "2.5",
+      "title": "Cross-price elasticity measures quantity demanded change relative to another good's price.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PRD-3.A.3",
+      "parentCode": "3.7",
+      "title": "Perfectly competitive firms sell all output at constant market-determined prices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PRD-1.A.11",
+      "parentCode": "3.3",
+      "title": "Long-run ATC shaped by economies, diseconomies, or constant returns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MKT-2.B.1",
+      "parentCode": "1.4",
+      "title": "Specializing by comparative advantage enables trade expanding consumption.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MKT-3.E.8",
+      "parentCode": "2.4",
+      "title": "Supply elasticity depends on factors including prices of alternative inputs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PRD-4.C.3",
+      "parentCode": "5.3",
+      "title": "Firms optimize by equalizing marginal product per dollar across all inputs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PRD-1.A.6",
+      "parentCode": "3.2",
+      "title": "Diminishing marginal returns cause marginal cost curve to slope upward.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "POL-3.A.4",
+      "parentCode": "6.2",
+      "title": "Non-excludable goods create incentives for free riding by rational agents.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "PRD-1.A.7",
+      "parentCode": "3.2",
+      "title": "Specialization and labor division lower marginal costs for firms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "POL-2.B.2",
+      "parentCode": "6.1",
+      "title": "Agents equate private marginal benefits and costs, potentially creating inefficiencies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "PRD-1.A.12",
+      "parentCode": "3.3",
+      "title": "Minimum efficient scale influences firm concentration and market structure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MKT-3.A.4",
+      "parentCode": "2.1",
+      "title": "Price changes cause opposite quantity demanded changes, creating movement along demand curves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "PRD-3.A.4",
+      "parentCode": "3.7",
+      "title": "Competitive firms maximize profit by producing where marginal cost equals price.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "CBA-2.A.4",
+      "parentCode": "1.6",
+      "title": "Consumers maximize utility by equalizing marginal utility per dollar across all goods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "PRD-3.B.4",
+      "parentCode": "4.1",
+      "title": "Barriers to entry sustain imperfectly competitive structures and limit market access.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MKT-1.C.4",
+      "parentCode": "1.3",
+      "title": "PPC shifts with changes in resources or productivity technology.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "PRD-3.C.4",
+      "parentCode": "4.5",
+      "title": "Strategy is complete action plan; normal form shows payoff outcomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "CBA-1.B.2",
+      "parentCode": "1.5",
+      "title": "Some decisions use marginal analysis; others require comparing total benefits and costs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MKT-2.B.2",
+      "parentCode": "1.4",
+      "title": "Terms of trade based on comparative advantage enable mutual benefit.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "PRD-4.C.4",
+      "parentCode": "5.3",
+      "title": "MRP equals marginal physical product times marginal revenue; for perfect competitors, MRP equals VMPL.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MKT-3.E.4",
+      "parentCode": "2.3",
+      "title": "Price elasticity of demand depends on factors like availability of substitute goods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "POL-1.A.4",
+      "parentCode": "2.8",
+      "title": "Government intervention in efficient markets decreases allocative efficiency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "POL-3.C.4",
+      "parentCode": "6.3",
+      "title": "Open-access natural resources are non-excludable and rival; individuals overconsume them inefficiently.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "PRD-1.A.8",
+      "parentCode": "3.2",
+      "title": "Cost curves shift when input costs or productivity levels change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "MKT-1.C.5",
+      "parentCode": "1.3",
+      "title": "Economic growth causes outward PPC shift.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "MKT-3.A.5",
+      "parentCode": "2.1",
+      "title": "Income, substitution effects, and diminishing marginal utility explain downward-sloping demand.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "POL-2.B.3",
+      "parentCode": "6.1",
+      "title": "Policymakers apply cost-benefit analysis to reduce or eliminate market inefficiencies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "POL-1.A.5",
+      "parentCode": "2.8",
+      "title": "Deadweight loss measures buyer and seller losses from market intervention.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "PRD-3.C.5",
+      "parentCode": "4.5",
+      "title": "Dominant strategy yields highest payoff regardless of opponents' actions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "PRD-3.A.5",
+      "parentCode": "3.7",
+      "title": "Price equals marginal benefit and marginal cost, achieving allocative efficiency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "POL-3.B.1",
+      "parentCode": "6.2",
+      "title": "Externality policies include taxes, subsidies, regulation, public provision, property rights assignment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "MKT-3.E.5",
+      "parentCode": "2.3",
+      "title": "Price changes affect total revenue differently based on demand elasticity classification.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "CBA-2.B.1",
+      "parentCode": "1.6",
+      "title": "Marginal analysis compares additional benefits and costs to guide activity level decisions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "POL-1.A.6",
+      "parentCode": "2.8",
+      "title": "Tax and subsidy incidence depends on supply and demand elasticity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "MKT-3.A.6",
+      "parentCode": "2.1",
+      "title": "Market demand equals the sum of all individual consumer demand curves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "PRD-3.C.6",
+      "parentCode": "4.5",
+      "title": "Nash equilibrium: no player benefits from unilaterally changing actions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "PRD-3.A.6",
+      "parentCode": "3.7",
+      "title": "Short-run prices above or below long-run levels motivate firm entry or exit.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "POL-2.B.4",
+      "parentCode": "6.1",
+      "title": "Policies equating marginal social benefit and cost eliminate market inefficiencies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "CBA-2.B.2",
+      "parentCode": "1.6",
+      "title": "Optimal quantity ignores sunk costs and past fixed benefits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "PRD-3.C.7",
+      "parentCode": "4.5",
+      "title": "Oligopolies struggle with cooperation like Prisoner's Dilemma; higher prices than competition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "PRD-3.A.7",
+      "parentCode": "3.7",
+      "title": "Long-run equilibrium requires efficient scale production with zero economic profit.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "POL-2.C.1",
+      "parentCode": "6.1",
+      "title": "Market structures, externalities, information asymmetry, and public goods cause inefficiencies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "MKT-3.B.1",
+      "parentCode": "2.1",
+      "title": "Demand shifts when non-price determinants of consumer demand change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "CBA-2.B.3",
+      "parentCode": "1.6",
+      "title": "Optimal quantity occurs where marginal benefit equals marginal cost.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "PRD-3.A.8",
+      "parentCode": "3.7",
+      "title": "Long-run prices reflect whether industries have constant, increasing, or decreasing costs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "POL-2.C.2",
+      "parentCode": "6.1",
+      "title": "Non-efficient production quantities create deadweight loss and surplus reduction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "PRD-3.A.9",
+      "parentCode": "3.7",
+      "title": "Perfect competition achieves both allocative and productive efficiency long-term.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    }
+  ]
+}

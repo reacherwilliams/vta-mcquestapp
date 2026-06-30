@@ -1,0 +1,1239 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Physics C: E&M",
+  "source": "school-core:AP-PHYS-CEM@Effective Fall 2024",
+  "strands": [
+    {
+      "code": "Unit 8",
+      "parentCode": null,
+      "title": "Unit 8: Electric Charges, Fields, and Gauss’s Law",
+      "level": 1,
+      "examWeight": 15,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 9",
+      "parentCode": null,
+      "title": "Unit 9: Electric Potential",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 10",
+      "parentCode": null,
+      "title": "Unit 10: Conductors and Capacitors",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 11",
+      "parentCode": null,
+      "title": "Unit 11: Electric Circuits",
+      "level": 1,
+      "examWeight": 15,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 12",
+      "parentCode": null,
+      "title": "Unit 12: Magnetic Fields and Electromagnetism",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 4
+    },
+    {
+      "code": "Unit 13",
+      "parentCode": null,
+      "title": "Unit 13: Electromagnetic Induction",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 5
+    },
+    {
+      "code": "8.1",
+      "parentCode": "Unit 8",
+      "title": "Electric Charge and Electric Force",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.1",
+      "parentCode": "Unit 13",
+      "title": "Magnetic Flux",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.1",
+      "parentCode": "Unit 9",
+      "title": "Electric Potential Energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.1",
+      "parentCode": "Unit 10",
+      "title": "Electrostatics with Conductors",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.1",
+      "parentCode": "Unit 12",
+      "title": "Magnetic Fields",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.1",
+      "parentCode": "Unit 11",
+      "title": "Electric Current",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.2",
+      "parentCode": "Unit 10",
+      "title": "Redistribution of Charge Between Conductors",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2",
+      "parentCode": "Unit 8",
+      "title": "Conservation of Electric Charge and the Process of Charging",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.2",
+      "parentCode": "Unit 13",
+      "title": "Electromagnetic Induction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.2",
+      "parentCode": "Unit 9",
+      "title": "9.2",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.2",
+      "parentCode": "Unit 12",
+      "title": "Magnetism and Moving Charges",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.2",
+      "parentCode": "Unit 11",
+      "title": "Simple Circuits",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.3",
+      "parentCode": "Unit 8",
+      "title": "Electric Fields",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.3",
+      "parentCode": "Unit 9",
+      "title": "Conservation of Electric Energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.3",
+      "parentCode": "Unit 10",
+      "title": "Capacitors",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.3",
+      "parentCode": "Unit 11",
+      "title": "Resistance, Resistivity, and Ohm's Law",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.3",
+      "parentCode": "Unit 12",
+      "title": "Magnetic Fields of Current-Carrying Wires and the Biot-Savart Law",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.3",
+      "parentCode": "Unit 13",
+      "title": "Induced Currents and Magnetic Forces",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.4",
+      "parentCode": "Unit 11",
+      "title": "Electric Power",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "10.4",
+      "parentCode": "Unit 10",
+      "title": "Dielectrics",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "12.4",
+      "parentCode": "Unit 12",
+      "title": "12.4",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.4",
+      "parentCode": "Unit 8",
+      "title": "Electric Fields of Charge Distributions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "13.4",
+      "parentCode": "Unit 13",
+      "title": "Inductance",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.5",
+      "parentCode": "Unit 11",
+      "title": "Compound Direct Current Circuits",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "13.5",
+      "parentCode": "Unit 13",
+      "title": "Circuits with Resistors and Inductors (LR Circuits)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.5",
+      "parentCode": "Unit 8",
+      "title": "Electric Flux",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.6",
+      "parentCode": "Unit 8",
+      "title": "Gauss's Law",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "11.6",
+      "parentCode": "Unit 11",
+      "title": "Kirchhoff's Loop Rule",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "13.6",
+      "parentCode": "Unit 13",
+      "title": "Circuits with Capacitors and Inductors (LC Circuits)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "11.7",
+      "parentCode": "Unit 11",
+      "title": "11.7",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "11.8",
+      "parentCode": "Unit 11",
+      "title": "Resistor-Capacitor (RC) Circuits",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "11.1.A.1",
+      "parentCode": "11.1",
+      "title": "Current measures charge flow rate; involves drift velocity and potential differences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.1.A.1",
+      "parentCode": "9.1",
+      "title": "Electric potential energy equals work needed to assemble charges from infinity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.3.A.1",
+      "parentCode": "9.3",
+      "title": "Charged object movement between different potentials changes potential energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.1.A.1",
+      "parentCode": "10.1",
+      "title": "Ideal conductors allow electrons to move freely throughout the material.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.3.A.1",
+      "parentCode": "10.3",
+      "title": "Parallel-plate capacitors have two oppositely charged parallel conducting plates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.2.A.1",
+      "parentCode": "10.2",
+      "title": "Touching conductors redistribute charge until surfaces reach equal potential.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1.A.1",
+      "parentCode": "8.1",
+      "title": "Charge is fundamental, scalar, quantized in units of elementary charge e.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.6.A.1",
+      "parentCode": "13.6",
+      "title": "Energy conservation determines maximum current in LC circuits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.5.A.1",
+      "parentCode": "13.5",
+      "title": "Resistors dissipate energy stored in inductors during current changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.4.A.1",
+      "parentCode": "13.4",
+      "title": "Inductance opposes current changes; solenoid inductance depends on turns, length, area, permeability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.3.A.1",
+      "parentCode": "13.3",
+      "title": "Induced currents in loops experience magnetic forces from external fields.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.2.A.1",
+      "parentCode": "13.2",
+      "title": "Faraday's law relates changing magnetic flux to induced emf.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.1.A.1",
+      "parentCode": "13.1",
+      "title": "Magnetic flux through constant field equals B·A with area vector perpendicular outward.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.3.A.1",
+      "parentCode": "12.3",
+      "title": "Biot-Savart law defines magnetic field magnitude and direction from current.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.2.A.1",
+      "parentCode": "8.2",
+      "title": "System charge changes via contact, friction, and electrostatic induction, including neutral systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.2.A.1",
+      "parentCode": "12.2",
+      "title": "Moving charges create magnetic fields dependent on velocity, distance, and perpendicular orientation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.3.A.1",
+      "parentCode": "8.3",
+      "title": "Electric fields originate from charged objects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.1.A.1",
+      "parentCode": "12.1",
+      "title": "Magnetic fields are vectors produced by dipoles, never monopoles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.8.A.1",
+      "parentCode": "11.8",
+      "title": "Multiple capacitors combine into single equivalent capacitance using series and parallel rules.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.6.A.1",
+      "parentCode": "11.6",
+      "title": "Circuit energy changes occur as charges move through potential differences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.5.A.1",
+      "parentCode": "11.5",
+      "title": "Series connections force single current path; parallel connections split current across multiple paths.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.4.A.1",
+      "parentCode": "8.4",
+      "title": "Electric field expressions use integration and superposition for charge distributions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.5.A.1",
+      "parentCode": "8.5",
+      "title": "Flux measures the amount of a quantity passing through a given area.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.4.A.1",
+      "parentCode": "11.4",
+      "title": "Power depends on current and potential difference across circuit elements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.6.A.1",
+      "parentCode": "8.6",
+      "title": "Electric flux through closed surface relates to enclosed charge.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.3.A.1",
+      "parentCode": "11.3",
+      "title": "Resistance quantifies how strongly an object opposes electric charge motion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.2.A.1",
+      "parentCode": "11.2",
+      "title": "Circuits consist of loops containing various electrical components and measurement devices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.4.A.1",
+      "parentCode": "10.4",
+      "title": "Dielectric materials polarize in external electric fields unlike conductors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.5.A.2",
+      "parentCode": "8.5",
+      "title": "Electric flux through constant field equals EA cos(θ); area vector perpendicular, outward.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.1.A.2",
+      "parentCode": "8.1",
+      "title": "Electrostatic force is proportional to charges and inversely proportional to distance squared.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2.A.2",
+      "parentCode": "8.2",
+      "title": "Net charge changes only through electron transfer between system and surroundings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.3.A.2",
+      "parentCode": "8.3",
+      "title": "Electric field equals force per test charge; points away from positive, toward negative charges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.4.A.2",
+      "parentCode": "8.4",
+      "title": "Symmetry simplifies electric field analysis for certain charge distributions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.6.A.2",
+      "parentCode": "8.6",
+      "title": "Gaussian surface is a three-dimensional closed surface.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.1.A.2",
+      "parentCode": "9.1",
+      "title": "Mathematical equation describes potential energy between two charges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.3.A.2",
+      "parentCode": "9.3",
+      "title": "Charged object motion between potentials converts energy conserving total energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.1.A.2",
+      "parentCode": "10.1",
+      "title": "Excess charges move to conductor surfaces in electrostatic equilibrium.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.2.A.2",
+      "parentCode": "10.2",
+      "title": "Ground serves as zero-potential reference, infinitely sourcing or absorbing charge.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.3.A.2",
+      "parentCode": "10.3",
+      "title": "Capacitance depends on charge, voltage, plate area, separation, and dielectric material.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.4.A.2",
+      "parentCode": "10.4",
+      "title": "Dielectric constant relates material permittivity to free space permittivity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.1.A.2",
+      "parentCode": "11.1",
+      "title": "Current density describes charge flow per unit area as vector quantity related to field.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.2.A.2",
+      "parentCode": "11.2",
+      "title": "Closed circuits allow charge flow; open circuits prevent it; short circuits allow flow without potential difference.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.3.A.2",
+      "parentCode": "11.3",
+      "title": "Resistance depends on resistivity, length, area; resistivity varies with temperature and material structure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.4.A.2",
+      "parentCode": "11.4",
+      "title": "Lightbulb brightness increases with power for qualitative prediction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.5.A.2",
+      "parentCode": "11.5",
+      "title": "Series resistances sum directly; parallel resistances sum as reciprocals, reducing total resistance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.6.A.2",
+      "parentCode": "11.6",
+      "title": "Loop rule follows energy conservation; potential differences sum to zero around closed loops.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.8.A.2",
+      "parentCode": "11.8",
+      "title": "Series capacitors have equal charge on all plates by conservation principle.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.1.A.2",
+      "parentCode": "12.1",
+      "title": "Magnetic fields are vectors representable using field maps.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.2.B.1",
+      "parentCode": "12.2",
+      "title": "Magnetic force on moving charges depends on velocity-field cross product.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.3.A.2",
+      "parentCode": "12.3",
+      "title": "Magnetic field circles current-carrying wire; no radial or parallel components.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.1.A.2",
+      "parentCode": "13.1",
+      "title": "Total flux through any surface is surface integral of magnetic field.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.2.A.2",
+      "parentCode": "13.2",
+      "title": "Lenz's law determines induced emf direction; opposes flux change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.3.A.2",
+      "parentCode": "13.3",
+      "title": "Magnetic forces act only on loop segments in fields, causing acceleration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.4.A.2",
+      "parentCode": "13.4",
+      "title": "Inductors store magnetic field energy; energy dissipation and transfer obey conservation laws.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.5.A.2",
+      "parentCode": "13.5",
+      "title": "Kirchhoff's loop rule generates differential equations describing current in LR circuits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.6.A.2",
+      "parentCode": "13.6",
+      "title": "Capacitor charge exhibits simple harmonic motion in LC circuits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.3.B.1",
+      "parentCode": "11.3",
+      "title": "Ohm's law relates current, voltage, resistance; ohmic materials have constant resistance and dissipate heat.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.2.A.3",
+      "parentCode": "10.2",
+      "title": "Grounding a conductor in external field induces charge redistribution on it.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.1.A.3",
+      "parentCode": "9.1",
+      "title": "Total system energy is sum of all pairwise charge interactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.1.A.3",
+      "parentCode": "8.1",
+      "title": "Force direction depends on charge signs: same sign repels, opposite attracts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.1.A.3",
+      "parentCode": "12.1",
+      "title": "Magnetic field lines form closed loops per Gauss's law for magnetism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.5.A.3",
+      "parentCode": "8.5",
+      "title": "Total flux through surface equals surface integral of electric field dot area.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.3.A.3",
+      "parentCode": "12.3",
+      "title": "Biot-Savart law derives magnetic fields around wire segments and loops.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.2.B.2",
+      "parentCode": "12.2",
+      "title": "Moving charges experience independent electric and magnetic forces simultaneously.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.4.A.3",
+      "parentCode": "13.4",
+      "title": "Induced emf relates to inductance and current rate of change via Faraday's law.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.2.A.3",
+      "parentCode": "8.2",
+      "title": "Grounding connects charged objects to large neutral systems like Earth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.1.A.3",
+      "parentCode": "11.1",
+      "title": "Total current determined by integrating current density over conductor cross-section.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.5.A.3",
+      "parentCode": "13.5",
+      "title": "Time constant τ = L/R measures LR circuit approach to steady state exponentially.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.2.A.3",
+      "parentCode": "13.2",
+      "title": "Maxwell's equations comprehensively describe electromagnetism including induction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.5.B.1",
+      "parentCode": "11.5",
+      "title": "Ideal batteries and wires have negligible resistance; emf is terminal voltage with no current.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.6.A.3",
+      "parentCode": "8.6",
+      "title": "Total flux independent of surface size for constant enclosed charge.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.4.A.3",
+      "parentCode": "10.4",
+      "title": "Polarized dielectric field opposes the external electric field direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.3.A.3",
+      "parentCode": "10.3",
+      "title": "Electric field between plates is uniform, proportional to charge density, causes constant acceleration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.6.A.3",
+      "parentCode": "13.6",
+      "title": "Angular frequency derivable from LC circuit differential equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.3.A.3",
+      "parentCode": "13.3",
+      "title": "Loop force depends on induced current, flux change rate, resistance, and velocity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.2.A.3",
+      "parentCode": "11.2",
+      "title": "Circuit elements can simultaneously belong to more than one electrical loop.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3.A.3",
+      "parentCode": "8.3",
+      "title": "Electric field is vector quantity; net field is superposition; diagrams show magnitude and direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.1.A.3",
+      "parentCode": "10.1",
+      "title": "Charges reach equilibrium instantly, making conductor surfaces equipotential with non-uniform density.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.8.B.1",
+      "parentCode": "11.8",
+      "title": "RC circuit charge and current follow differential equations from Kirchhoff's loop rule.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.5.B.2",
+      "parentCode": "11.5",
+      "title": "Model nonideal battery internal resistance as series resistor with ideal battery source.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.6.A.4",
+      "parentCode": "8.6",
+      "title": "Construct surfaces where field is perpendicular or parallel to simplify integration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.2.A.4",
+      "parentCode": "11.2",
+      "title": "Schematics represent circuits using standard symbols; physical arrangement determines circuit properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "13.2.A.4",
+      "parentCode": "13.2",
+      "title": "Maxwell's equations show electromagnetic waves travel at constant speed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "13.5.A.4",
+      "parentCode": "13.5",
+      "title": "Inductor properties transition exponentially to steady state; eventually acts as conducting wire.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.1.A.4",
+      "parentCode": "11.1",
+      "title": "Current is scalar with conventional direction of positive charge movement despite electron flow.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.3.B.1",
+      "parentCode": "8.3",
+      "title": "Conductor charges reside on surface; interior field is zero; field perpendicular at surface.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "13.3.A.4",
+      "parentCode": "13.3",
+      "title": "Newton's second law applies to loops with induced emf in magnetic fields.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.8.B.2",
+      "parentCode": "11.8",
+      "title": "Time constant τ = RC measures charge and discharge speed in RC circuits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "12.1.B.1",
+      "parentCode": "12.1",
+      "title": "Dipoles from charge motion; poles always pair and interact by distance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "12.2.B.3",
+      "parentCode": "12.2",
+      "title": "Hall effect produces voltage in conductors with perpendicular magnetic fields.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.1.A.4",
+      "parentCode": "8.1",
+      "title": "Electric forces underlie macroscopic properties but contact forces are more practical.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "12.3.B.1",
+      "parentCode": "12.3",
+      "title": "Magnetic fields exert forces on current-carrying conductors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "10.1.A.4",
+      "parentCode": "10.1",
+      "title": "Electric field inside conductors is zero; all charge resides on surface.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "10.3.A.4",
+      "parentCode": "10.3",
+      "title": "Stored energy equals work done by external force to separate charges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "10.4.A.4",
+      "parentCode": "10.4",
+      "title": "Dielectric insertion reduces electric field in isolated capacitor.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.1.B.1",
+      "parentCode": "8.1",
+      "title": "Electrostatic forces are bidirectional; gravitational forces are always attractive.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.3.B.2",
+      "parentCode": "8.3",
+      "title": "Insulator charges distribute throughout interior during electrostatic equilibrium.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "10.4.A.5",
+      "parentCode": "10.4",
+      "title": "Dielectric insertion alters capacitor capacitance value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "10.1.A.5",
+      "parentCode": "10.1",
+      "title": "Electric field at conductor surfaces is perpendicular to the surface.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "12.1.B.2",
+      "parentCode": "12.1",
+      "title": "Magnetic dipoles align with external magnetic fields.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "11.5.B.3",
+      "parentCode": "11.5",
+      "title": "Current through internal resistance causes terminal voltage to drop below emf.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.6.A.5",
+      "parentCode": "8.6",
+      "title": "Integrate charge density over appropriate dimensions to find total charge.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "10.3.A.5",
+      "parentCode": "10.3",
+      "title": "Electric potential energy in capacitor follows a specific mathematical relationship.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "11.8.B.3",
+      "parentCode": "11.8",
+      "title": "Capacitor voltage and current change over time, reaching steady state eventually.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.1.B.2",
+      "parentCode": "8.1",
+      "title": "Electrostatic forces are typically much stronger than gravitational forces.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "10.1.A.6",
+      "parentCode": "10.1",
+      "title": "External fields cause conductor polarization while maintaining equipotential conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "11.5.C.1",
+      "parentCode": "11.5",
+      "title": "Ammeters measure current in series with zero resistance to avoid affecting circuit.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "8.6.A.6",
+      "parentCode": "8.6",
+      "title": "Gauss's law is the first of Maxwell's four fundamental electromagnetism equations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "12.1.B.3",
+      "parentCode": "12.1",
+      "title": "Ferromagnetic, paramagnetic, and diamagnetic materials respond differently to fields.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "10.1.A.7",
+      "parentCode": "10.1",
+      "title": "Closed conducting shells block external electric fields from interior regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "8.1.B.3",
+      "parentCode": "8.1",
+      "title": "Gravity dominates at large scales because macroscopic systems are electrically neutral.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "12.1.B.4",
+      "parentCode": "12.1",
+      "title": "Earth's magnetic field approximates a magnetic dipole.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "11.5.C.2",
+      "parentCode": "11.5",
+      "title": "Voltmeters measure potential difference in parallel across circuit elements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "8.1.C.1",
+      "parentCode": "8.1",
+      "title": "Permittivity measures how much a material polarizes in electric fields.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "12.1.C.1",
+      "parentCode": "12.1",
+      "title": "Magnetic permeability measures material magnetization response to fields.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "8.1.C.2",
+      "parentCode": "8.1",
+      "title": "Statement incomplete in provided text.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "12.1.C.2",
+      "parentCode": "12.1",
+      "title": "Free space has a constant magnetic permeability value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    }
+  ]
+}

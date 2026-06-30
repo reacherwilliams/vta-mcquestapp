@@ -1,0 +1,4063 @@
+{
+  "curriculumCode": "AP",
+  "subject": "US History",
+  "source": "school-core:AP-USH@Effective Fall 2020",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: Period 1: 1491–1607",
+      "level": 1,
+      "examWeight": 4,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: Period 2: 1607–1754",
+      "level": 1,
+      "examWeight": 6,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: Period 3: 1754–1800",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: Period 4: 1800–1848",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 5",
+      "parentCode": null,
+      "title": "Unit 5: Period 5: 1844–1877",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 4
+    },
+    {
+      "code": "Unit 6",
+      "parentCode": null,
+      "title": "Unit 6: Period 6: 1865–1898",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 5
+    },
+    {
+      "code": "Unit 7",
+      "parentCode": null,
+      "title": "Unit 7: Period 7: 1890–1945",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 6
+    },
+    {
+      "code": "Unit 8",
+      "parentCode": null,
+      "title": "Unit 8: Period 8: 1945–1980",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 7
+    },
+    {
+      "code": "Unit 9",
+      "parentCode": null,
+      "title": "Unit 9: Period 9: 1980–Present",
+      "level": 1,
+      "examWeight": 4,
+      "sortOrder": 8
+    },
+    {
+      "code": "9.1",
+      "parentCode": "Unit 9",
+      "title": "Contextualizing Period 9",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1",
+      "parentCode": "Unit 7",
+      "title": "Contextualizing Period 7",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "Contextualizing Period 3",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "Contextualizing Period 2",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Native American Societies and European Contact (1491-1607)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "Unit 5",
+      "title": "Contextualizing Period 5",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1",
+      "parentCode": "Unit 8",
+      "title": "Contextualizing Period 8",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "Unit 6",
+      "title": "Contextualizing Period 6",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "Contextualizing Period 4",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "The Rise of Political Parties and the Era of Jefferson",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2",
+      "parentCode": "Unit 7",
+      "title": "Imperialism: Debates",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "Unit 5",
+      "title": "Manifest Destiny",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "European Colonization and Processes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2",
+      "parentCode": "Unit 8",
+      "title": "The Cold War from 1945 to 1980",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2",
+      "parentCode": "Unit 6",
+      "title": "Westward Expansion: Economic Development",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "3.2",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.2",
+      "parentCode": "Unit 9",
+      "title": "Reagan and Conservatism",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "Native American Societies Before European Contact",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "Politics and Regional Interests",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3",
+      "parentCode": "Unit 6",
+      "title": "Westward Expansion: Social and Cultural Development",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "Taxation Without Representation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "European Exploration in the Americas",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.3",
+      "parentCode": "Unit 9",
+      "title": "The End of the Cold War",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "The Regions of British Colonies",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3",
+      "parentCode": "Unit 8",
+      "title": "The Red Scare",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.3",
+      "parentCode": "Unit 5",
+      "title": "The Mexican–American War",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.3",
+      "parentCode": "Unit 7",
+      "title": "The Spanish–American War",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.4",
+      "parentCode": "Unit 6",
+      "title": "The \"New South\"",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.4",
+      "parentCode": "Unit 7",
+      "title": "The Progressives",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "Columbian Exchange, Spanish Exploration, and Conquest",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "America on the World Stage",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.4",
+      "parentCode": "Unit 8",
+      "title": "Economy After 1945",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Transatlantic Trade",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.4",
+      "parentCode": "Unit 9",
+      "title": "A Changing Economy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "3.4",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.4",
+      "parentCode": "Unit 5",
+      "title": "The Compromise of 1850",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "Labor, Slavery, and Caste in the Spanish Colonial System",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.5",
+      "parentCode": "Unit 5",
+      "title": "Sectional Conflict: Regional Differences",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "The American Revolution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "Interactions Between American Indians and Europeans",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.5",
+      "parentCode": "Unit 6",
+      "title": "Technological Innovation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.5",
+      "parentCode": "Unit 7",
+      "title": "World War I: Military and Diplomacy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.5",
+      "parentCode": "Unit 9",
+      "title": "Migration and Immigration in the 1990s and 2000s",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.5",
+      "parentCode": "Unit 8",
+      "title": "Culture from 1945 to 1960",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5",
+      "parentCode": "Unit 4",
+      "title": "Market Revolution: Industrialization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.6",
+      "parentCode": "Unit 6",
+      "title": "The Rise of Industrial Capitalism",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "Slavery in the British Colonies",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "8.6",
+      "parentCode": "Unit 8",
+      "title": "Early Steps in the Civil Rights Movement (1940s and 1950s)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.6",
+      "parentCode": "Unit 4",
+      "title": "Market Revolution: Society and Culture",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.6",
+      "parentCode": "Unit 1",
+      "title": "Cultural Interactions Between Europeans, Native Americans, and Africans",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.6",
+      "parentCode": "Unit 7",
+      "title": "World War I: Home Front",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.6",
+      "parentCode": "Unit 5",
+      "title": "Failure of Compromise",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "9.6",
+      "parentCode": "Unit 9",
+      "title": "Challenges of the 21st Century",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.6",
+      "parentCode": "Unit 3",
+      "title": "Social Consequences of Revolutionary Ideals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.7",
+      "parentCode": "Unit 4",
+      "title": "Expanding Democracy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.7",
+      "parentCode": "Unit 1",
+      "title": "Causation in Period 1",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.7",
+      "parentCode": "Unit 3",
+      "title": "The Articles of Confederation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "2.7",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.7",
+      "parentCode": "Unit 5",
+      "title": "Election of 1860 and Secession",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.7",
+      "parentCode": "Unit 6",
+      "title": "Labor in the Gilded Age",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.7",
+      "parentCode": "Unit 7",
+      "title": "1920s: Innovations in Communication and Technology",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "8.7",
+      "parentCode": "Unit 8",
+      "title": "America as a World Power",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "9.7",
+      "parentCode": "Unit 9",
+      "title": "Causation in Period 9",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.8",
+      "parentCode": "Unit 4",
+      "title": "Jackson and Federal Power",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.8",
+      "parentCode": "Unit 2",
+      "title": "2.8",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.8",
+      "parentCode": "Unit 5",
+      "title": "Military Conflict in the Civil War",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "7.8",
+      "parentCode": "Unit 7",
+      "title": "1920s: Cultural and Political Controversies",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "6.8",
+      "parentCode": "Unit 6",
+      "title": "Immigration and Migration in the Gilded Age",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "8.8",
+      "parentCode": "Unit 8",
+      "title": "The Vietnam War",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.8",
+      "parentCode": "Unit 3",
+      "title": "The Constitutional Convention and Debates over Ratification",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.9",
+      "parentCode": "Unit 5",
+      "title": "Government Policies During the Civil War",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "3.9",
+      "parentCode": "Unit 3",
+      "title": "The Constitution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "8.9",
+      "parentCode": "Unit 8",
+      "title": "The Great Society",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.9",
+      "parentCode": "Unit 4",
+      "title": "The Development of an American Culture",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "7.9",
+      "parentCode": "Unit 7",
+      "title": "The Great Depression",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "6.9",
+      "parentCode": "Unit 6",
+      "title": "Responses to Immigration in the Gilded Age",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "5.10",
+      "parentCode": "Unit 5",
+      "title": "Reconstruction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "7.10",
+      "parentCode": "Unit 7",
+      "title": "The New Deal",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "6.10",
+      "parentCode": "Unit 6",
+      "title": "Development of the Middle Class",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "8.10",
+      "parentCode": "Unit 8",
+      "title": "The African American Civil Rights Movement (1960s)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "3.10",
+      "parentCode": "Unit 3",
+      "title": "Shaping a New Republic",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "4.10",
+      "parentCode": "Unit 4",
+      "title": "The Second Great Awakening",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "4.11",
+      "parentCode": "Unit 4",
+      "title": "An Age of Reform",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "6.11",
+      "parentCode": "Unit 6",
+      "title": "Reform in the Gilded Age",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "5.11",
+      "parentCode": "Unit 5",
+      "title": "Failure of Reconstruction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "7.11",
+      "parentCode": "Unit 7",
+      "title": "Interwar Foreign Policy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "8.11",
+      "parentCode": "Unit 8",
+      "title": "The Civil Rights Movement Expands",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "3.11",
+      "parentCode": "Unit 3",
+      "title": "Developing an American Identity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "8.12",
+      "parentCode": "Unit 8",
+      "title": "Youth Culture of the 1960s",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "6.12",
+      "parentCode": "Unit 6",
+      "title": "Controversies over the Role of Government in the Gilded Age",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "3.12",
+      "parentCode": "Unit 3",
+      "title": "Movement in the Early Republic",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "4.12",
+      "parentCode": "Unit 4",
+      "title": "African Americans in the Early Republic",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "7.12",
+      "parentCode": "Unit 7",
+      "title": "World War II: Mobilization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "5.12",
+      "parentCode": "Unit 5",
+      "title": "Comparison in Period 5",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "7.13",
+      "parentCode": "Unit 7",
+      "title": "World War II: Military",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "4.13",
+      "parentCode": "Unit 4",
+      "title": "The Society of the South in the Early Republic",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "6.13",
+      "parentCode": "Unit 6",
+      "title": "Politics in the Gilded Age",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "8.13",
+      "parentCode": "Unit 8",
+      "title": "The Environment and Natural Resources from 1968 to 1980",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "3.13",
+      "parentCode": "Unit 3",
+      "title": "Continuity and Change in Period 3",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "8.14",
+      "parentCode": "Unit 8",
+      "title": "Society in Transition",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "7.14",
+      "parentCode": "Unit 7",
+      "title": "Postwar Diplomacy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "4.14",
+      "parentCode": "Unit 4",
+      "title": "Causation in Period 4",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "6.14",
+      "parentCode": "Unit 6",
+      "title": "Continuity and Change Period 6",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "8.15",
+      "parentCode": "Unit 8",
+      "title": "Continuity and Change in Period 8",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "7.15",
+      "parentCode": "Unit 7",
+      "title": "Topic 7.15: Comparison in Period 7",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "KC-7.3.II.A",
+      "parentCode": "7.5",
+      "title": "U.S. abandoned neutrality and European non-involvement tradition to defend democracy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-7.1.II.A",
+      "parentCode": "7.4",
+      "title": "Progressive journalists exposed corruption; middle/upper-class reformers, many women, pursued urban and immigrant social change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.1",
+      "parentCode": "6.1",
+      "title": "Technology, mass production, and market expansion drove U.S. industrial capitalism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-7.3.I.C",
+      "parentCode": "7.3",
+      "title": "U.S. victory brought territorial acquisitions and increased Asian involvement, suppressing Philippine nationalism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-7.3.I.A",
+      "parentCode": "7.2",
+      "title": "American imperialists justified overseas expansion through economic, racial, and competitive arguments.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-7.1",
+      "parentCode": "7.1",
+      "title": "Economic growth created opportunities; instability sparked reform movements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.1",
+      "parentCode": "6.14",
+      "title": "Technology, mass production, and new markets drove industrial capitalism growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.1.III.A",
+      "parentCode": "6.2",
+      "title": "Mechanization increased agricultural production and lowered food prices substantially.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.II.B",
+      "parentCode": "6.3",
+      "title": "Western migrants pursued self-sufficiency through diverse economic opportunities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.1.III.C",
+      "parentCode": "6.13",
+      "title": "Agrarian activists formed Populist Party demanding stronger government economic regulation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.1.II.D",
+      "parentCode": "6.4",
+      "title": "Southern industrialization coexisted with continued agricultural dominance via sharecropping.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.1.I.B.i",
+      "parentCode": "6.5",
+      "title": "Businesses leveraged technological innovations and natural resources to exponentially increase production capacity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.1.I",
+      "parentCode": "6.6",
+      "title": "Technology, communication networks, and pro-growth policies drove rapid economic development and consolidation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.1.I.C",
+      "parentCode": "6.7",
+      "title": "Real wage increases and lower prices improved living standards despite growing wealth inequality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.1.II.B.ii",
+      "parentCode": "6.8",
+      "title": "Industrial workforce grew and diversified via internal and international migration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.I.C",
+      "parentCode": "6.9",
+      "title": "Immigration growth sparked debates over assimilation as immigrants balanced heritage and American culture.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.I.E",
+      "parentCode": "6.10",
+      "title": "Corporate demand for managers and clerical workers, educational access, and leisure time expanded middle class consumer culture.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.3.I.C",
+      "parentCode": "6.11",
+      "title": "Reform movements proposed alternative economic and social visions during industrialization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.1.II.A",
+      "parentCode": "6.12",
+      "title": "Laissez-faire advocates promoted competition, opposed government intervention in downturns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.1",
+      "parentCode": "1.1",
+      "title": "Native populations developed complex societies through environmental adaptation and transformation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-9.1",
+      "parentCode": "9.7",
+      "title": "Conservative movement gained political power in 1980s with lasting influence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.1.I.A",
+      "parentCode": "1.2",
+      "title": "Maize cultivation spread northward, enabling economic development and social diversification.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.2.I.A",
+      "parentCode": "1.3",
+      "title": "European exploration motivation: wealth, military competition, and Christian conversion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.2.I.B",
+      "parentCode": "1.4",
+      "title": "New crops and minerals from Americas fueled European population growth and economic transformation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.2.II.B",
+      "parentCode": "1.5",
+      "title": "Encomienda system exploited Native American labor for agriculture and resource extraction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.2.III",
+      "parentCode": "1.6",
+      "title": "Europeans and Native Americans held fundamentally different worldviews on religion, gender, family, land, and power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-9.3.II.A",
+      "parentCode": "9.6",
+      "title": "Post-9/11 US military response included prolonged, contested wars in Afghanistan and Iraq.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.1",
+      "parentCode": "1.7",
+      "title": "Native populations developed complex societies through environmental adaptation and transformation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-9.2.II.A",
+      "parentCode": "9.5",
+      "title": "Post-1980 population shifts enhanced South and West political, economic, cultural influence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.1",
+      "parentCode": "2.1",
+      "title": "European colonizers developed diverse patterns shaped by goals, culture, environment, and competition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-9.2.I.A",
+      "parentCode": "9.4",
+      "title": "Digital communications improvements boosted productivity and global economic participation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-9.3.I.A",
+      "parentCode": "9.3",
+      "title": "Reagan opposed communism via speeches, diplomacy, military action, weapons buildup.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.1.I.A",
+      "parentCode": "2.2",
+      "title": "Spain created exploitative institutions to extract wealth and convert Native populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.1.II.A",
+      "parentCode": "2.3",
+      "title": "Chesapeake and North Carolina colonies built wealth through tobacco exports using indentured and enslaved labor.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-9.1.I.A",
+      "parentCode": "9.2",
+      "title": "Reagan's 1980 victory enabled conservatives to cut taxes and deregulate industries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.1.III.A",
+      "parentCode": "2.4",
+      "title": "Atlantic trade networks exchanged goods, enslaved people, and commodities across continents.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.1.III.C",
+      "parentCode": "2.5",
+      "title": "European-Indian interactions produced both cooperation and conflict through strategic alliances.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.2.II.A",
+      "parentCode": "2.6",
+      "title": "British colonies adopted slavery to varying degrees based on economic demand and labor shortages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1",
+      "parentCode": "3.1",
+      "title": "British control efforts and colonial self-government desires sparked independence movement and war.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-9.1",
+      "parentCode": "9.1",
+      "title": "Conservative movement gained power in 1980s with lasting political influence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-8.1",
+      "parentCode": "8.15",
+      "title": "U.S. pursued global leadership post-1945 with significant domestic and international effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-8.2.III.C",
+      "parentCode": "8.14",
+      "title": "1960s conservatives opposed liberalism, sought limited government, assertive foreign policy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-8.1.II.D",
+      "parentCode": "8.13",
+      "title": "Middle East oil crises prompted U.S. efforts to develop national energy policy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1.II.A",
+      "parentCode": "3.3",
+      "title": "British taxation without representation and imperial authority unified colonists against economic and political constraints.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1.II.E",
+      "parentCode": "3.5",
+      "title": "Patriots won despite Loyalist opposition through military action, Washington's leadership, ideological commitment, and European support.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-8.1.II.B",
+      "parentCode": "8.12",
+      "title": "Vietnam War sparked unprecedented domestic anti-war protests, escalating in size and occasionally becoming violent.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.2.I.C",
+      "parentCode": "3.6",
+      "title": "Revolutionary era inequality awareness spurred abolition and democracy demands.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.2.II.A",
+      "parentCode": "3.7",
+      "title": "State constitutions concentrated legislative power and enforced property-based voting requirements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.2.II.C.i",
+      "parentCode": "3.8",
+      "title": "State delegates negotiated compromises to create the Constitution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.2.II.C.ii",
+      "parentCode": "3.9",
+      "title": "Constitutional Convention created limited central government with federalism and separated powers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.3.II.A",
+      "parentCode": "3.10",
+      "title": "U.S. pursued diplomacy to counter British and Spanish influence as settlers expanded westward.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-8.2.II.B",
+      "parentCode": "8.11",
+      "title": "Minority groups pursued equality and remedies for historical wrongs through organized activism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.2.III.ii",
+      "parentCode": "3.11",
+      "title": "National culture emerged while regional cultural differences persisted throughout period.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.3.I.A",
+      "parentCode": "3.12",
+      "title": "Indigenous nations strategically shifted alliances to resist settler migration and protect lands.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1.I",
+      "parentCode": "3.13",
+      "title": "Imperial powers and tribes competed for North American advantage before British victory.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-8.2.I.A",
+      "parentCode": "8.10",
+      "title": "Civil rights leaders used legal, direct action, and nonviolent strategies against discrimination.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-8.2.II.C",
+      "parentCode": "8.9",
+      "title": "Postwar prosperity masked persistent poverty concerns raised by American advocates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1",
+      "parentCode": "4.1",
+      "title": "U.S. developed modern democracy, national culture, and reformed institutions to match democratic ideals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-8.1.I.B.ii",
+      "parentCode": "8.8",
+      "title": "U.S. pursued containment of communism via military intervention in Vietnam.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-8.1.I.E",
+      "parentCode": "8.7",
+      "title": "U.S. backed anti-Communist Latin American regimes despite democratic shortcomings during Cold War.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-8.2.I",
+      "parentCode": "8.6",
+      "title": "Civil rights activists achieved legal successes ending segregation, though progress remained slow.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-8.3.II.A",
+      "parentCode": "8.5",
+      "title": "Postwar mass culture grew uniform, prompting artistic and youth resistance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-8.3.I.A",
+      "parentCode": "8.4",
+      "title": "Private sector expansion, federal spending, population growth, and technology drove postwar economic growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.I.A",
+      "parentCode": "4.2",
+      "title": "Early 1800s parties debated tariffs, federal power, and European relations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.I.D",
+      "parentCode": "4.3",
+      "title": "Regional interests superseded national concerns in slavery and economic policy debates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.3.I",
+      "parentCode": "4.4",
+      "title": "Early U.S. pursued North American territorial expansion and foreign trade promotion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.2.I.A",
+      "parentCode": "4.5",
+      "title": "Entrepreneurs organized goods manufacturing and established market relationships between producers and consumers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-8.1.II.A",
+      "parentCode": "8.3",
+      "title": "Americans disputed anticommunist exposure methods while maintaining Cold War containment consensus.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.2.III.A",
+      "parentCode": "4.6",
+      "title": "Migration to Northern industrial cities and westward expansion created new communities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.I",
+      "parentCode": "4.7",
+      "title": "Suffrage expansion from property-based to white male voting enabled participatory democracy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.I.C",
+      "parentCode": "4.8",
+      "title": "Democrats and Whigs emerged with conflicting views on federal power, banks, tariffs, and infrastructure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.II.B",
+      "parentCode": "4.9",
+      "title": "National culture blended American, European, and regional cultural elements together.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.II.A.i",
+      "parentCode": "4.10",
+      "title": "Democratic ideals, anti-rationalism, market revolution, and mobility sparked Protestant religious revival.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.II.A.ii",
+      "parentCode": "4.11",
+      "title": "Democratic ideals and market revolution spurred Second Great Awakening, driving moral reform.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-8.1.I",
+      "parentCode": "8.2",
+      "title": "U.S. pursued containment, free markets, and international security against Soviet communism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.III.B.ii",
+      "parentCode": "4.12",
+      "title": "Southern antislavery efforts primarily consisted of unsuccessful enslaved people rebellions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.3.II.B.ii",
+      "parentCode": "4.13",
+      "title": "Southern leaders defended slavery as integral despite most Southerners owning no enslaved people.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1",
+      "parentCode": "4.14",
+      "title": "U.S. developed modern democracy and national culture while refining democratic ideals and institutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-8.1",
+      "parentCode": "8.1",
+      "title": "U.S. pursued global leadership after WWII with significant domestic and international effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-7.1",
+      "parentCode": "7.15",
+      "title": "Economic growth created opportunities; instability spurred social and economic reforms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-7.3.III.E",
+      "parentCode": "7.14",
+      "title": "U.S. emerged as Earth's most powerful nation after WWII victory and peace settlements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-7.3.III.A",
+      "parentCode": "7.13",
+      "title": "Americans fought WWII to defend freedom and democracy against fascism and militarism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-7.3.III.B",
+      "parentCode": "7.12",
+      "title": "Mobilization ended Depression; strong industry equipped allies and troops.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.1",
+      "parentCode": "5.1",
+      "title": "U.S. expanded globally, pursued Western Hemisphere expansion, attracted international migration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-7.3.II.D",
+      "parentCode": "7.11",
+      "title": "Post-WWI U.S. unilateral foreign policy combined investment, diplomacy, selective intervention while claiming isolationism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-7.1.III.A",
+      "parentCode": "7.10",
+      "title": "FDR used government power to provide relief, recovery, and reform during Depression.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-7.1.I",
+      "parentCode": "7.9",
+      "title": "U.S. economy shifted from rural agriculture to urban industrial production by large corporations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.1.I.A",
+      "parentCode": "5.2",
+      "title": "Economic opportunity and religious freedom motivated westward migration and settlement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.1.I.C",
+      "parentCode": "5.3",
+      "title": "U.S. westward expansion via war and diplomacy created status questions for slavery, indigenous peoples, Mexicans.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.2.II.A",
+      "parentCode": "5.4",
+      "title": "Mexican Cession sparked intense disputes about slavery expansion into new territories.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.1.II.A",
+      "parentCode": "5.5",
+      "title": "European and Asian immigrants settled in ethnic communities preserving language and customs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-7.1.I.B",
+      "parentCode": "7.8",
+      "title": "Urban centers by 1920 provided economic opportunities for women and migrants.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.2.II.B.ii",
+      "parentCode": "5.6",
+      "title": "Courts and leaders failed to resolve slavery territorial disputes despite compromise attempts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.2.II.D",
+      "parentCode": "5.7",
+      "title": "Lincoln's 1860 victory without Southern support triggered secession debates and Civil War.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.3.I.A",
+      "parentCode": "5.8",
+      "title": "Both sides mobilized economies and societies despite significant home front resistance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.3.I.B",
+      "parentCode": "5.9",
+      "title": "Emancipation Proclamation reframed war aims and secured diplomatic advantage against Confederacy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.3.II.ii",
+      "parentCode": "5.10",
+      "title": "Reconstruction reshaped federalism and sparked citizenship rights debates for marginalized groups.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-7.1.I.A",
+      "parentCode": "7.7",
+      "title": "New technologies and manufacturing techniques boosted consumer goods production and living standards.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.3.II.D",
+      "parentCode": "5.11",
+      "title": "Sharecropping perpetuated land inequality and limited freedpeople's economic independence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.1",
+      "parentCode": "5.12",
+      "title": "U.S. expanded globally, pursued Western Hemisphere policy, attracted migrants.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-7.2.I.C",
+      "parentCode": "7.6",
+      "title": "WWI-era speech restrictions expanded amid anti-radical and anti-immigrant sentiment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.3.II.A",
+      "parentCode": "6.13",
+      "title": "Major parties exploited Civil War divisions while debating tariffs and currency amid corruption.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-7.3.II.E",
+      "parentCode": "7.11",
+      "title": "1930s Americans feared fascism but opposed military action until Pearl Harbor forced U.S. entry into WWII.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-8.3.I.B",
+      "parentCode": "8.4",
+      "title": "Education and technology expansion increased mobility, driving middle-class suburbanization and Sun Belt migration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.3.I.D",
+      "parentCode": "5.8",
+      "title": "Union victory resulted from superior leadership, strategy, resources, and destruction of Southern infrastructure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-7.1.III.B",
+      "parentCode": "7.10",
+      "title": "Radical and labor movements pushed New Deal expansion; conservatives sought to limit it.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.I.B",
+      "parentCode": "4.2",
+      "title": "Courts determined constitutional meaning; federal law superseded state law.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.3.I.A",
+      "parentCode": "6.9",
+      "title": "Social Darwinism theories justified wealth concentration as natural and inevitable social hierarchy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-7.3.I.B",
+      "parentCode": "7.2",
+      "title": "Anti-imperialists opposed expansion using self-determination, racial theories, and isolationist tradition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.2.III.D",
+      "parentCode": "4.3",
+      "title": "Economic unification plans sparked sectional debates over agricultural versus industrial benefits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.2.I.A",
+      "parentCode": "6.8",
+      "title": "Cities attracted diverse migrants escaping poverty, persecution, and limited opportunity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-7.1.I.C",
+      "parentCode": "7.9",
+      "title": "Market instability and Great Depression prompted demands for enhanced financial regulation and oversight.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.3.I.A.ii",
+      "parentCode": "4.4",
+      "title": "U.S. pursued Western Hemisphere dominance via military, removal, diplomacy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.3.I.C",
+      "parentCode": "5.9",
+      "title": "Lincoln linked antislavery struggle to founding democratic ideals for national reunification.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.2.I.B",
+      "parentCode": "4.5",
+      "title": "Technological innovations in textiles, power, parts, communication, and agriculture improved production efficiency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.1.II.C",
+      "parentCode": "6.7",
+      "title": "Workers organized unions and confronted employers over wages and working conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-7.2.II.A.i",
+      "parentCode": "7.6",
+      "title": "Nativist campaigns during WWI resulted in restrictive immigration quotas on southern, eastern Europe, and Asia.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.1.I.B",
+      "parentCode": "5.2",
+      "title": "Manifest Destiny ideology justified expansion but sparked conflict over western territories.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.2.II.B",
+      "parentCode": "4.6",
+      "title": "Manufacturing growth increased prosperity for some, creating middle class and wealthy elite alongside laboring poor.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.1.I.E.ii",
+      "parentCode": "6.12",
+      "title": "Foreign policymakers sought influence over markets and resources in Pacific, Asia, Latin America.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-8.1.I.A",
+      "parentCode": "8.2",
+      "title": "U.S. built collective security, aid, and economic systems to strengthen non-communist allies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.1.III.B",
+      "parentCode": "6.2",
+      "title": "Farmers formed local and regional cooperatives to address market consolidation and railroad dependence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-9.1.I.B",
+      "parentCode": "9.2",
+      "title": "Conservatives opposed liberal programs but faced voter resistance to reducing government social programs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-7.2.II.A.ii",
+      "parentCode": "7.8",
+      "title": "Post-WWI nativism produced immigration quotas restricting southern/eastern Europe and Asia.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.1.I.B",
+      "parentCode": "2.2",
+      "title": "France and Dutch built trade partnerships and intermarried with Native peoples for commercial gain.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-9.3.I.B",
+      "parentCode": "9.3",
+      "title": "Military spending, diplomacy, and Soviet bloc crises ended Cold War.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.3.I.B",
+      "parentCode": "4.8",
+      "title": "Frontier settlers pursued expansion; indigenous resistance prompted wars and federal relocation policies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.1.II.B",
+      "parentCode": "2.3",
+      "title": "New England Puritan colonies developed through small towns, family farms, and diversified agricultural-commercial economy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.1.I",
+      "parentCode": "2.1",
+      "title": "Different European powers pursued distinct economic goals affecting colonial development and Native relations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.3.II.A",
+      "parentCode": "5.10",
+      "title": "Constitutional amendments ended slavery and guaranteed African American citizenship and voting rights.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-9.1.I",
+      "parentCode": "9.1",
+      "title": "Conservative politics promoted traditional values and smaller government after 1980.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.II.C",
+      "parentCode": "4.9",
+      "title": "Liberal and Romantic ideas shaped American literature, art, philosophy, and architecture.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.1.III.B",
+      "parentCode": "2.4",
+      "title": "European trade transformed Indigenous communities through goods, culture shifts, and deadly epidemics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-9.2.I.B",
+      "parentCode": "9.4",
+      "title": "Computing and internet innovations transformed daily life, information access, and social behaviors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.1.II.C",
+      "parentCode": "5.3",
+      "title": "Increased U.S. conflict with Mexican Americans and Native Americans disrupted their economies and cultures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.1.III.E",
+      "parentCode": "2.5",
+      "title": "British-Indian disputes over land and resources sparked military conflicts including King Philip's War.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-9.2.II.B",
+      "parentCode": "9.5",
+      "title": "Dramatic international migration from Latin America and Asia transformed culture, labor supply.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-7.1.I",
+      "parentCode": "7.1",
+      "title": "U.S. economy shifted from agriculture to urban industrial production.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.2.II.B",
+      "parentCode": "2.6",
+      "title": "Southern colonies legalized slavery as hereditary and racial, prohibiting interracial relationships.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.1.I",
+      "parentCode": "1.7",
+      "title": "Native societies innovated in agriculture, resources, and social organization to adapt environmentally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.III.A",
+      "parentCode": "4.11",
+      "title": "Voluntary organizations promoted individual behavior change via temperance and reform.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.1.I",
+      "parentCode": "3.1",
+      "title": "British, French, and American Indian competition for advantage culminated in Seven Years' War.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.2.III.A",
+      "parentCode": "1.6",
+      "title": "Initial misunderstandings gradually gave way to cultural exchange and mutual adoption of useful practices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.1.I.B.ii",
+      "parentCode": "6.6",
+      "title": "New financial structures, marketing, and labor force expanded goods production dramatically.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-8.1.I",
+      "parentCode": "8.15",
+      "title": "U.S. pursued Cold War containment, free-market economy, and international security against Soviet expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.2.II.B.i",
+      "parentCode": "5.4",
+      "title": "Leaders and courts attempted slavery resolution through various means, including the 1850 Compromise.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-8.2.III.E",
+      "parentCode": "8.14",
+      "title": "1970s public trust in government fell due to economic, political, foreign crises.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-8.1.I",
+      "parentCode": "8.1",
+      "title": "U.S. pursued Cold War containment, free-market economics, and international security against Soviet communism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-8.2.II.D",
+      "parentCode": "8.13",
+      "title": "Environmental crises spawned activism and federal regulatory programs to protect resources.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-7.1.II.D",
+      "parentCode": "7.4",
+      "title": "Progressives disagreed on segregation, democratic expansion versus expert governance, and immigration restriction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.II.D",
+      "parentCode": "4.12",
+      "title": "African Americans built communities and pursued political strategies to protect dignity and challenge their status.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.1.II.B",
+      "parentCode": "3.3",
+      "title": "Colonial leaders justified resistance using British subject rights, individual rights, self-governance, and Enlightenment ideas.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.2.II.C",
+      "parentCode": "1.5",
+      "title": "Spanish imported enslaved Africans for colonial plantation agriculture and mining operations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-8.2.III.D",
+      "parentCode": "8.12",
+      "title": "Left-wing groups criticized liberal leaders for insufficient domestic reform and immoral foreign policies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.1.II.B",
+      "parentCode": "5.5",
+      "title": "Nativist movements sought to limit immigrants' political power and cultural influence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.2.III.C",
+      "parentCode": "4.13",
+      "title": "Southern agricultural staple exports shaped a distinctive regional identity and economic structure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.3.II.C",
+      "parentCode": "6.4",
+      "title": "Plessy v. Ferguson reversed Reconstruction gains; African Americans resisted via continued reform efforts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.2.I.D",
+      "parentCode": "3.6",
+      "title": "Republican motherhood ideal emerged from women's revolutionary participation and Enlightenment influence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.2.I.C",
+      "parentCode": "1.4",
+      "title": "Maritime advances and new trade methods transformed European and American economies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.1.I",
+      "parentCode": "6.14",
+      "title": "Industrial production with technology and government support created rapid growth and consolidation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.2.II.B",
+      "parentCode": "3.7",
+      "title": "Limited central government under Articles caused trade, finance, and foreign policy crises, spurring demands for stronger authority.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-9.3.II.B",
+      "parentCode": "9.6",
+      "title": "War on terrorism balanced security improvements against civil liberties and human rights concerns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.I",
+      "parentCode": "4.14",
+      "title": "Suffrage expanded from property-based to all adult white men; political parties grew accordingly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.2.II.D",
+      "parentCode": "3.8",
+      "title": "Convention compromised on slave state representation and federal slavery regulation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.1.I.B",
+      "parentCode": "1.2",
+      "title": "Arid regions prompted societies to adopt mobile, nomadic lifestyles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.2.II.C",
+      "parentCode": "6.3",
+      "title": "Resource scarcity intensified violent conflicts among settlers, Indians, and Mexican Americans.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.1.I",
+      "parentCode": "6.1",
+      "title": "Industrial production with technology and government support created rapid growth and consolidation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.3.II.B",
+      "parentCode": "3.10",
+      "title": "Franco-British war created U.S. foreign policy challenges and domestic political division.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-9.1.I",
+      "parentCode": "9.7",
+      "title": "Conservatives promoted traditional values and limited government after 1980.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-8.2.II.A",
+      "parentCode": "8.11",
+      "title": "Feminist and LGBTQ+ movements organized to achieve legal, economic, and social parity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-7.1.I",
+      "parentCode": "7.15",
+      "title": "U.S. shifted from rural agriculture to urban industrialism dominated by corporations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-8.2.I.C",
+      "parentCode": "8.10",
+      "title": "White resistance to desegregation created unrest; activists debated nonviolence effectiveness post-1965.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-7.2.I.A",
+      "parentCode": "7.7",
+      "title": "Radio and cinema spread national culture while increasing awareness of regional cultures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.2.III.D",
+      "parentCode": "3.11",
+      "title": "National identity concepts manifested in artistic, literary, and architectural cultural works.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.3.II.E",
+      "parentCode": "5.11",
+      "title": "Post-Reconstruction repression eventually reversed through constitutional amendments and twentieth-century courts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.3.I.B",
+      "parentCode": "3.12",
+      "title": "Westward migration expanded frontier cultures, intensifying social, political, and ethnic conflicts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.1.I",
+      "parentCode": "1.1",
+      "title": "Native societies innovated in agriculture, resources, and social organization for environmental adaptation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-7.3.III.C.ii",
+      "parentCode": "7.13",
+      "title": "Military service offered women and minorities socioeconomic advancement amid segregation debates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.1.II",
+      "parentCode": "3.13",
+      "title": "Colonial self-government aspirations opposed British control, sparking independence and revolution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.3.II.B.ii",
+      "parentCode": "6.11",
+      "title": "Women pursued equality through voluntary organizations, education, and political reform advocacy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.2.II.C",
+      "parentCode": "5.6",
+      "title": "Slavery and nativism issues collapsed Second Party System, creating sectional Republican Party.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-8.2.III.A",
+      "parentCode": "8.9",
+      "title": "Mid-1960s liberalism combined anti-communism with faith in government's social reform capacity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-7.3.III.C.i",
+      "parentCode": "7.12",
+      "title": "Mobilization expanded opportunities for women and minorities; sparked segregation debates and civil liberties challenges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-8.1.I.D.ii",
+      "parentCode": "8.8",
+      "title": "Cold War superpowers competed for allies among newly independent Asian nations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-7.3.II.B",
+      "parentCode": "7.5",
+      "title": "Limited American combat role significantly shifted war balance toward Allied victory.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.I",
+      "parentCode": "4.1",
+      "title": "Suffrage expanded from property-based to all adult white men; political parties grew.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.3.I.B",
+      "parentCode": "6.10",
+      "title": "Gospel of Wealth ideology motivated wealthy businessmen to philanthropically enhance education and urban environments.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.1.I",
+      "parentCode": "5.12",
+      "title": "Economic and security interests drove territorial acquisition, westward migration, overseas expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-8.1.II.C.i",
+      "parentCode": "8.7",
+      "title": "Americans contested the value of large nuclear arsenals and military-industrial complex expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.1.I",
+      "parentCode": "5.1",
+      "title": "Expansion enthusiasm drove territorial acquisition, westward migration, and overseas initiatives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-8.2.I.B.i",
+      "parentCode": "8.6",
+      "title": "Federal government pursued desegregation through military integration and landmark court decisions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-7.3.II.C",
+      "parentCode": "7.5",
+      "title": "Senate rejected Treaty of Versailles and League of Nations despite Wilson's postwar leadership.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.2",
+      "parentCode": "1.1",
+      "title": "European-Native American-African contact caused the Columbian Exchange and transformative changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.1.I.C",
+      "parentCode": "1.2",
+      "title": "Eastern societies combined agriculture and hunting, enabling permanent settlements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.2.II.A",
+      "parentCode": "1.4",
+      "title": "Disease epidemics devastated Indigenous populations; new crops and animals reshaped Americas.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.2.II.D",
+      "parentCode": "1.5",
+      "title": "Spanish caste system hierarchically organized Europeans, Africans, and Native Americans by status.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.2.III.B",
+      "parentCode": "1.6",
+      "title": "Native Americans resisted European expansion through diplomacy and military force to preserve sovereignty and culture.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.2",
+      "parentCode": "1.7",
+      "title": "Columbian Exchange contact produced major social, cultural, and political changes across Atlantic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.1.II",
+      "parentCode": "2.1",
+      "title": "Early British Atlantic colonies developed regional differences based on environmental and economic factors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.1.I.C",
+      "parentCode": "2.2",
+      "title": "English colonies attracted large migration for opportunity and established separate agricultural settlements from Native Americans.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.1.II.C",
+      "parentCode": "2.3",
+      "title": "Middle colonies prospered through grain exports and attracted diverse European migrants with religious tolerance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.2.I.C",
+      "parentCode": "2.4",
+      "title": "Britain imposed hierarchical imperial control through mercantilism amid colonial and Indigenous resistance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.1.III.F",
+      "parentCode": "2.5",
+      "title": "Indian resistance, especially the Pueblo Revolt, forced Spanish cultural accommodations in Southwest.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.2.II.C",
+      "parentCode": "2.6",
+      "title": "Enslaved Africans resisted slavery through rebellion and escape to preserve culture.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.1.II",
+      "parentCode": "3.1",
+      "title": "Colonial self-government ideals against renewed British imperial efforts sparked independence movement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.1.II.C",
+      "parentCode": "3.3",
+      "title": "Independence efforts combined elite leadership with broad popular movements from laborers, artisans, and women.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.2.I.E",
+      "parentCode": "3.6",
+      "title": "American Revolutionary ideals inspired subsequent independence movements globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.3.I.C",
+      "parentCode": "3.7",
+      "title": "Northwest Ordinance established procedures for statehood while promoting education, property rights, and slavery prohibition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.2.II.E",
+      "parentCode": "3.8",
+      "title": "Federalists and Anti-Federalists debated ratification; promised Bill of Rights secured approval.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.3.I.E",
+      "parentCode": "3.10",
+      "title": "Spanish missions in California used Indian labor, fostering social mobility and cultural mixing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.2.III.C",
+      "parentCode": "3.12",
+      "title": "Southern slavery expansion and growing antislavery sentiment created divergent regional positions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.2.I",
+      "parentCode": "3.13",
+      "title": "Eighteenth-century political, religious, and social ideas motivated revolutionary ideals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.1.II",
+      "parentCode": "4.1",
+      "title": "National culture emerged while diverse groups maintained their own distinctive cultures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.3.I.A.i",
+      "parentCode": "4.2",
+      "title": "Post-Louisiana Purchase, U.S. expanded influence via exploration and diplomacy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.3.II.C",
+      "parentCode": "4.3",
+      "title": "Congressional compromises temporarily eased but failed to resolve slavery tensions permanently.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.2.I.C",
+      "parentCode": "4.5",
+      "title": "Government-supported transportation infrastructure expanded markets and fostered North-Midwest interdependence over Southern links.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.2.II.A",
+      "parentCode": "4.6",
+      "title": "Factory workers shifted from subsistence agriculture to producing goods for distant markets.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.1.III.B.i",
+      "parentCode": "4.11",
+      "title": "Northern abolitionism achieved emancipation while states restricted African American rights.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.3.II.A",
+      "parentCode": "4.13",
+      "title": "Land depletion forced slaveholders westward, expanding slavery into fertile Appalachian territories.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.1.II",
+      "parentCode": "4.14",
+      "title": "National culture coexisted with distinctive group cultures among diverse Americans.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-5.1.II",
+      "parentCode": "5.1",
+      "title": "1840s-1850s saw debates over rights and citizenship for various American groups.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-5.1.I.D",
+      "parentCode": "5.2",
+      "title": "Civil War–era legislation accelerated westward migration through infrastructure and economic promotion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-5.2.I.A",
+      "parentCode": "5.5",
+      "title": "North's free labor economy conflicted with South's slavery; free-soil movement opposed expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-5.3.II.B",
+      "parentCode": "5.10",
+      "title": "Women's rights advocates split over constitutional amendments affecting citizenship and voting.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-5.1.II",
+      "parentCode": "5.12",
+      "title": "1840s-1850s debates centered on rights and citizenship for diverse populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.1.II",
+      "parentCode": "6.1",
+      "title": "Economic crises produced diverse views on economy and labor practices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.1.I.A",
+      "parentCode": "6.2",
+      "title": "Post-Civil War government subsidies for transportation and communication opened new North American markets.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.2.II.D",
+      "parentCode": "6.3",
+      "title": "Government military force confined Indians to reservations, violating treaties and sovereignty.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.1.I.D",
+      "parentCode": "6.6",
+      "title": "Business consolidation into trusts and holding companies concentrated wealth among leaders.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.1.II.B.i",
+      "parentCode": "6.7",
+      "title": "Industrial expansion led to workforce growth and increased child labor practices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-9.2.I.C",
+      "parentCode": "9.4",
+      "title": "Service sector employment rose; manufacturing jobs and union membership declined.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.2.I.B",
+      "parentCode": "6.8",
+      "title": "Ethnic urban neighborhoods created new cultural opportunities for diverse city residents.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.3.II.B.i",
+      "parentCode": "6.9",
+      "title": "Settlement house workers aided immigrant assimilation through language and cultural education.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.2.I.D",
+      "parentCode": "6.13",
+      "title": "Political machines gained power by providing social services to immigrants and poor.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.1.II",
+      "parentCode": "6.14",
+      "title": "Economic instability created diverse views on economy and labor issues.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-7.1.II",
+      "parentCode": "7.1",
+      "title": "Progressives pursued government reform to address corruption and instability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-7.1.II.B",
+      "parentCode": "7.4",
+      "title": "Progressives pursued federal economic regulation, democratic expansion, moral reform, and constitutional amendments on prohibition and suffrage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-7.2.II.B.i",
+      "parentCode": "7.6",
+      "title": "War production demand drove American migration toward urban centers seeking jobs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-7.2.I.B",
+      "parentCode": "7.8",
+      "title": "Migration spurred new art and literature expressing ethnic and regional identities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-7.1.III",
+      "parentCode": "7.9",
+      "title": "Depression-era policymakers created welfare state programs, redefining American liberalism and federal economic responsibility.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-7.1.III.C",
+      "parentCode": "7.10",
+      "title": "New Deal created lasting reforms and realigned Democratic Party support among working classes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-7.2.II.D",
+      "parentCode": "7.12",
+      "title": "Mexican and Western Hemisphere migration increased despite contradictory government policies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-7.3.III.D",
+      "parentCode": "7.13",
+      "title": "Allied victory resulted from cooperation, technology, servicemembers, and campaigns; atomic bombs sparked moral debates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-7.1.II",
+      "parentCode": "7.15",
+      "title": "Progressives advocated expanded government action addressing corruption and economic instability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-8.1.II",
+      "parentCode": "8.1",
+      "title": "Cold War sparked debates about federal power, international strategy, and civil liberties protections.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-8.1.I.B.i",
+      "parentCode": "8.2",
+      "title": "U.S. contained communism through varied measures including Korean War military engagement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-8.1.I.D.i",
+      "parentCode": "8.7",
+      "title": "Decolonization and nationalism in Africa and Middle East led Cold War powers to court nonaligned nations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-8.1.II.C.ii",
+      "parentCode": "8.8",
+      "title": "Vietnam War sparked debate over executive versus congressional war powers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-8.2.III.B.i",
+      "parentCode": "8.9",
+      "title": "Great Society used federal programs to combat racial discrimination, poverty, and social problems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-8.2.I.B.ii",
+      "parentCode": "8.10",
+      "title": "Federal government branches enacted legislation like the Civil Rights Act of 1964 for racial equality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-8.3.II.B.i",
+      "parentCode": "8.11",
+      "title": "Counterculture feminists rejected traditional values and pushed for transformed sexual and social norms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-8.3.II.B.ii",
+      "parentCode": "8.12",
+      "title": "1960s counterculture youth rejected parental values, increased cultural informality, and challenged sexual norms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-8.2.III.F",
+      "parentCode": "8.14",
+      "title": "1970s featured intensifying conservative-liberal conflicts over culture, government power, race.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-8.1.II",
+      "parentCode": "8.15",
+      "title": "Cold War policies sparked debates over federal power, international goals, and civil liberties protection.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-9.2",
+      "parentCode": "9.1",
+      "title": "Nation underwent major technological, economic, and demographic shifts entering 21st century.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-9.1.I.C",
+      "parentCode": "9.2",
+      "title": "Ongoing debates concerned trade agreements, social safety net scope, and financial system reform.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-9.3.I.C",
+      "parentCode": "9.3",
+      "title": "Post-Cold War: new diplomacy, interventions, debate over American power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-9.3.II.C",
+      "parentCode": "9.6",
+      "title": "Middle East conflicts and climate concerns sparked debate over fossil fuels and environmental impact.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-9.2",
+      "parentCode": "9.7",
+      "title": "Twenty-first century brought major technological, economic, and demographic transformation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-9.2.I.D",
+      "parentCode": "9.4",
+      "title": "Working and middle-class real wages stagnated while economic inequality increased.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.1.III",
+      "parentCode": "4.1",
+      "title": "Americans inspired by religious and intellectual movements pursued reform outside government.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-1.2.I",
+      "parentCode": "1.7",
+      "title": "Western Hemisphere expansion intensified European competition and internal social, religious, political, economic change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.1.III",
+      "parentCode": "4.14",
+      "title": "Religious and intellectual movements drove reform outside formal government institutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-5.2",
+      "parentCode": "5.12",
+      "title": "Expansion and regional divisions over slavery caused civil war.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.2.III.B",
+      "parentCode": "4.5",
+      "title": "Southern cotton and Northern manufacturing growth stimulated national and international commercial connections.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-8.2",
+      "parentCode": "8.1",
+      "title": "Civil rights and liberal expansion prompted diverse political and cultural responses during period.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-2.1.II.D",
+      "parentCode": "2.3",
+      "title": "Southern and West Indian colonies built plantation economies on enslaved African labor with distinct cultural autonomy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-8.1.I.C",
+      "parentCode": "8.2",
+      "title": "Cold War alternated between military confrontation and periods of détente coexistence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.2.II.C",
+      "parentCode": "4.6",
+      "title": "Market revolution transformed gender and family roles through ideology separating public and private spheres.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.3.II.B.i",
+      "parentCode": "4.11",
+      "title": "Northern antislavery movements grew in strength and organization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-7.2.II.C",
+      "parentCode": "7.6",
+      "title": "African Americans migrated North and West for opportunity but faced continued discrimination.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-5.3.II.C",
+      "parentCode": "5.10",
+      "title": "Republican efforts achieved temporary gains for African Americans but ultimately collapsed due to Southern resistance and Northern retreat.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-6.1.III",
+      "parentCode": "6.14",
+      "title": "Agricultural consolidation and instability prompted varied farmer responses and adaptations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-5.2.I.B",
+      "parentCode": "5.5",
+      "title": "Abolitionists used moral arguments, escape assistance, and occasional violence against slavery.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-5.1.I.E",
+      "parentCode": "5.2",
+      "title": "Trade expansion motivated diplomatic and economic initiatives to strengthen Asian ties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-9.1.I",
+      "parentCode": "9.2",
+      "title": "Conservative ideology emphasizing traditional values and limited government gained influence after 1980.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-7.2.I.D",
+      "parentCode": "7.8",
+      "title": "1920s controversies centered on gender, modernism, science, religion, race, immigration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-9.2.I",
+      "parentCode": "9.1",
+      "title": "Technology boosted economy and society while manufacturing sector declined significantly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-9.2.I",
+      "parentCode": "9.7",
+      "title": "Scientific and technological advances boosted economy while manufacturing declined.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-7.1.II.C",
+      "parentCode": "7.4",
+      "title": "Preservationists and conservationists supported national parks but disagreed on addressing natural resource overuse.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.2",
+      "parentCode": "3.1",
+      "title": "Revolutionary democratic and republican ideals inspired experiments with new government forms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-8.2",
+      "parentCode": "8.15",
+      "title": "Civil rights movements and liberal expansion provoked diverse political and cultural responses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-8.3.II.C",
+      "parentCode": "8.14",
+      "title": "Evangelical growth increased religious conservatives' political and social activism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-7.2.II.B.ii",
+      "parentCode": "7.10",
+      "title": "Depression and WWII production spurred American migration to urban employment centers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-6.2.II.A",
+      "parentCode": "6.2",
+      "title": "Railroads, mineral discovery, and government policies created new western communities and commercial centers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-5.2",
+      "parentCode": "5.1",
+      "title": "Expansion and regional divisions drove slavery debates leading to civil war.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-1.2.I",
+      "parentCode": "1.1",
+      "title": "Western Hemisphere expansion intensified competition and change within European societies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.1.II.D",
+      "parentCode": "3.3",
+      "title": "Men and women mobilized massive financial and material support for the Patriot cause amid occupation and scarcity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-6.2.II.E",
+      "parentCode": "6.3",
+      "title": "Indians maintained cultural identity and pursued economic self-sufficiency despite assimilation pressure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-6.1.III",
+      "parentCode": "6.1",
+      "title": "Agricultural consolidation and instability prompted varied farmer responses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-9.3.II.D",
+      "parentCode": "9.6",
+      "title": "US remained global superpower despite economic and foreign policy difficulties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.3.I.D",
+      "parentCode": "3.10",
+      "title": "Unclear federal-tribal relations created treaty and land seizure disputes with Indians.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-8.2.III.B.ii",
+      "parentCode": "8.10",
+      "title": "Supreme Court decisions expanded civil rights protections and individual liberties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.2.II",
+      "parentCode": "3.13",
+      "title": "New constitutions and rights defined government roles while balancing liberty and power limits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-6.1.I.E.i",
+      "parentCode": "6.6",
+      "title": "Businesses expanded internationally to control markets and resources in Pacific, Asia, Latin America.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-2.1.III",
+      "parentCode": "2.1",
+      "title": "Resource competition between Europeans and Native Americans spurred trade and conflict.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-7.1.III",
+      "parentCode": "7.15",
+      "title": "New Deal transformed U.S. into welfare state, redefining modern American liberal goals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-7.1.III",
+      "parentCode": "7.1",
+      "title": "New Deal transformed U.S. into welfare state; redefined liberalism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-8.3.I.C",
+      "parentCode": "8.9",
+      "title": "Post-1965 immigration legislation attracted global immigrants seeking American political and economic opportunities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-1.1.I.D",
+      "parentCode": "1.2",
+      "title": "Northwestern societies relied on hunting, gathering, and ocean resources for settlement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-1.2.III.C",
+      "parentCode": "1.6",
+      "title": "European contact prompted debate and development of ideological justifications for subjugating non-Europeans.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.2.III.A",
+      "parentCode": "3.10",
+      "title": "Washington and Adams established governmental institutions implementing Constitutional principles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-5.2.I",
+      "parentCode": "5.12",
+      "title": "Ideological and economic slavery differences divided North from South.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-9.2.II",
+      "parentCode": "9.7",
+      "title": "Population demographic shifts created major cultural and political effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-5.2.I.C",
+      "parentCode": "5.5",
+      "title": "Slavery defenders invoked racial ideology, social good claims, and constitutional protection arguments.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-9.2.II.C",
+      "parentCode": "9.2",
+      "title": "Cultural conflicts persisted regarding immigration, diversity, gender roles, and family structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-5.2.I",
+      "parentCode": "5.1",
+      "title": "North-South ideological and economic slavery differences produced diverging American responses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-2.2",
+      "parentCode": "2.1",
+      "title": "British colonies exchanged with Britain, creating both closer ties and resistance simultaneously.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-4.2",
+      "parentCode": "4.14",
+      "title": "Technological and commercial innovations transformed economy, society, and regional identities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-7.2",
+      "parentCode": "7.15",
+      "title": "Communications and technology fostered mass culture; migration patterns shifted significantly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-4.1.III.C",
+      "parentCode": "4.11",
+      "title": "Women's rights movement pursued equality, later debating focus on white women.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-8.2.I",
+      "parentCode": "8.1",
+      "title": "Civil rights movement achieved some desegregation successes despite slow progress toward equality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-1.2.II",
+      "parentCode": "1.7",
+      "title": "Columbian Exchange and Spanish Empire created extensive demographic, economic, and social transformations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-4.2",
+      "parentCode": "4.1",
+      "title": "Technological, agricultural, and commercial innovations accelerated economy, transforming society and identities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.2.III.i",
+      "parentCode": "3.13",
+      "title": "National culture emerged with persistent regional differences on policy and governance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-1.2.II",
+      "parentCode": "1.1",
+      "title": "The Columbian Exchange and development of transatlantic connections occurred.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.2.I",
+      "parentCode": "3.1",
+      "title": "Revolutionary ideals reflected eighteenth-century developments in politics, religion, and society.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-8.2.I",
+      "parentCode": "8.15",
+      "title": "Civil rights efforts achieved legal victories ending segregation but slow progress toward true equality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-2.1.II.E",
+      "parentCode": "2.3",
+      "title": "Colonial distance from Britain enabled democratic self-governance through town meetings and legislatures with regional variation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-9.2.II",
+      "parentCode": "9.1",
+      "title": "Population shifts created substantial cultural and political impacts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-6.2",
+      "parentCode": "6.14",
+      "title": "Industrial migration transformed urban and rural America with dramatic social change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-7.2",
+      "parentCode": "7.1",
+      "title": "Technology enabled mass culture growth; migration patterns shifted significantly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-6.2",
+      "parentCode": "6.1",
+      "title": "Migration with industrialization transformed urban and rural areas dramatically.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.2.III.B",
+      "parentCode": "3.10",
+      "title": "1790s disagreements on government power and policy sparked Federalist and Democratic-Republican parties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-4.2.I",
+      "parentCode": "4.1",
+      "title": "Transportation innovations dramatically expanded manufacturing and agricultural production capacity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-3.3.I",
+      "parentCode": "3.13",
+      "title": "Post-independence competition for resources created shifting alliances and cultural exchange.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-7.2.I",
+      "parentCode": "7.15",
+      "title": "Popular culture expanded influence while provoking debates about morality and identity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-4.2.I",
+      "parentCode": "4.14",
+      "title": "Transportation innovations dramatically increased manufacturing and agricultural production capacity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-9.3",
+      "parentCode": "9.7",
+      "title": "Cold War's end required United States to redefine foreign policy and global role.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-6.2.I",
+      "parentCode": "6.1",
+      "title": "Migration expanded cities and created new urban cultural forms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-2.2.I",
+      "parentCode": "2.1",
+      "title": "Transatlantic exchanges shaped colonial political and cultural attitudes toward Britain and each other.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-3.2.II",
+      "parentCode": "3.1",
+      "title": "New constitutions and declarations defined government roles while protecting liberties and limiting power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-7.2.I",
+      "parentCode": "7.1",
+      "title": "Popular culture gained influence while sparking debates about values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-5.2.II",
+      "parentCode": "5.1",
+      "title": "1850s slavery debates dominated politics, leading to 1860 election and secession.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-8.2.II",
+      "parentCode": "8.15",
+      "title": "Multiple movements addressing identity, social justice, and environmental issues emerged from civil rights activism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-9.3",
+      "parentCode": "9.1",
+      "title": "Cold War's end required America to redefine foreign policy and global role.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-5.2.II",
+      "parentCode": "5.12",
+      "title": "1850s slavery debates dominated politics, led to 1860 election and secession.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-6.2.I",
+      "parentCode": "6.14",
+      "title": "Migration increased urban populations and developed new urban cultural forms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-8.2.II",
+      "parentCode": "8.1",
+      "title": "Civil rights inspired diverse movements addressing identity, social justice, and environmental issues.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-1.2.III",
+      "parentCode": "1.7",
+      "title": "Europeans and Native Americans held divergent worldviews on religion, gender, family, land, power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-2.2.II",
+      "parentCode": "2.1",
+      "title": "English colonies developed slavery systems reflecting their unique economic, demographic, and geographic features.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-8.2.III",
+      "parentCode": "8.15",
+      "title": "Liberalism dominated postwar politics but faced criticism from both left and conservative movements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-7.2.II",
+      "parentCode": "7.15",
+      "title": "Economic and political factors caused sharp variations in migration numbers and experiences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-9.3.I",
+      "parentCode": "9.1",
+      "title": "Reagan's interventionist foreign policy continued through subsequent administrations post–Cold War.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-7.2.II",
+      "parentCode": "7.1",
+      "title": "Economic and global factors dramatically altered migration patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-5.3",
+      "parentCode": "5.1",
+      "title": "Union victory and Reconstruction settled slavery but left federal power and citizenship unresolved.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-5.3",
+      "parentCode": "5.12",
+      "title": "Union victory settled slavery and secession but raised federal power and citizenship questions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-4.2.II",
+      "parentCode": "4.1",
+      "title": "Market revolution affected society, workers, gender roles, and family structures significantly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-3.2.III.i",
+      "parentCode": "3.1",
+      "title": "National culture and institutions developed alongside persistent regional variations and policy differences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-3.3.II",
+      "parentCode": "3.13",
+      "title": "European presence forced new nation to protect borders, trade rights, and economic interests.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-6.2.II",
+      "parentCode": "6.14",
+      "title": "Western migration for opportunity created competition and violent conflicts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-4.2.II",
+      "parentCode": "4.14",
+      "title": "Market revolution reshaped society, labor, and gender and family relationships significantly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-8.2.III",
+      "parentCode": "8.1",
+      "title": "Postwar liberalism influenced politics but faced criticism from both left and resurgent conservatives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-9.3.I",
+      "parentCode": "9.7",
+      "title": "Reagan's interventionism persisted through Cold War end and subsequent administrations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-6.2.II",
+      "parentCode": "6.1",
+      "title": "Western migration for opportunity caused competition and violent conflict.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-3.3.II.C",
+      "parentCode": "3.10",
+      "title": "Washington cautioned against factions and entangling foreign alliances in his farewell.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-6.3",
+      "parentCode": "6.1",
+      "title": "Gilded Age generated cultural movements and debates on policy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-4.2.III",
+      "parentCode": "4.14",
+      "title": "Economic development unified nation through settlement and trade while fostering regional growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-3.3",
+      "parentCode": "3.1",
+      "title": "North American migration and resource competition intensified conflicts among peoples and nations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-8.3",
+      "parentCode": "8.1",
+      "title": "Postwar economic and demographic shifts transformed American society, politics, and culture broadly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-9.3.II",
+      "parentCode": "9.7",
+      "title": "Post-9/11 foreign policy centered on global counterterrorism operations worldwide.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-7.3",
+      "parentCode": "7.1",
+      "title": "Global conflicts elevated U.S. power; debates continued about its role.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-8.3",
+      "parentCode": "8.15",
+      "title": "Postwar economic and demographic shifts reshaped American society, politics, and culture profoundly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-5.3.I",
+      "parentCode": "5.1",
+      "title": "Northern advantages, Lincoln's leadership, and emancipation led to Union Civil War victory.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-4.2.III",
+      "parentCode": "4.1",
+      "title": "Economic development shaped settlement patterns, unified nation, and fostered regional differentiation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-9.3.II",
+      "parentCode": "9.1",
+      "title": "Post–9/11 foreign policy centered on global counterterrorism efforts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-5.3.I",
+      "parentCode": "5.12",
+      "title": "Northern resources, Lincoln's leadership, and emancipation enabled Union victory.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-7.3",
+      "parentCode": "7.15",
+      "title": "Global conflicts elevated U.S. international power; domestic debates over world role intensified.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-6.3",
+      "parentCode": "6.14",
+      "title": "Gilded Age generated cultural movements, reform efforts, and policy debates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-7.3.I",
+      "parentCode": "7.1",
+      "title": "U.S. territorial expansion sparked debates about international role.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-8.3.I",
+      "parentCode": "8.15",
+      "title": "Postwar prosperity and social changes created widespread American optimism and confidence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-6.3.I",
+      "parentCode": "6.1",
+      "title": "Cultural movements both supported and challenged Gilded Age social order.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-4.3",
+      "parentCode": "4.1",
+      "title": "U.S. pursuit of foreign trade and territorial expansion shaped foreign policy and initiatives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-8.3.I",
+      "parentCode": "8.1",
+      "title": "Postwar economic growth and social change created widespread American optimism initially.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-7.3.I",
+      "parentCode": "7.15",
+      "title": "U.S. territorial expansion sparked public debates about America's proper global role.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-4.3",
+      "parentCode": "4.14",
+      "title": "U.S. pursuit of trade and expansion shaped foreign policy and government initiatives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-5.3.II.i",
+      "parentCode": "5.12",
+      "title": "Reconstruction ended slavery, changed federal-state relations, redefined citizenship rights.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-3.3.I",
+      "parentCode": "3.1",
+      "title": "Post-independence interactions among groups created resource competition, alliances, and cultural blending.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-6.3.I",
+      "parentCode": "6.14",
+      "title": "Cultural movements both supported and challenged Gilded Age social hierarchies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-5.3.II.i",
+      "parentCode": "5.1",
+      "title": "Reconstruction ended slavery, shifted federal-state relations, redefined citizenship for minorities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-7.3.II",
+      "parentCode": "7.15",
+      "title": "WWI intensified debates over America's global role and national security priorities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "KC-7.3.II",
+      "parentCode": "7.1",
+      "title": "WWI intensified debates on national security and global interests.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "KC-4.3.I",
+      "parentCode": "4.1",
+      "title": "U.S. claimed North American territory and promoted foreign trade to establish global presence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "KC-8.3.II",
+      "parentCode": "8.1",
+      "title": "Demographic changes and Cold War anxieties sparked divisive political and moral debates nationally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "KC-6.3.II",
+      "parentCode": "6.14",
+      "title": "Social changes sparked debates on citizenship, corruption, and business-government relations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "KC-4.3.I",
+      "parentCode": "4.14",
+      "title": "U.S. pursued continental expansion and foreign trade to establish global independence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "KC-6.3.II",
+      "parentCode": "6.1",
+      "title": "Social change prompted debates on citizenship, corruption, and business-government relations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "KC-8.3.II",
+      "parentCode": "8.15",
+      "title": "Cold War anxieties and social changes created cultural shifts and deeply divisive political debates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "KC-3.3.II",
+      "parentCode": "3.1",
+      "title": "European presence challenged U.S. to protect borders, maintain trade rights, and advance interests.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "KC-4.3.II",
+      "parentCode": "4.1",
+      "title": "Western land acquisition sparked contests over slavery's extension into new territories.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "KC-4.3.II",
+      "parentCode": "4.14",
+      "title": "Western expansion prompted conflicts over slavery extension into newly acquired territories.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "KC-7.3.III",
+      "parentCode": "7.15",
+      "title": "WWII transformed American society and established U.S. as global political-military leader.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "KC-7.3.III",
+      "parentCode": "7.1",
+      "title": "WWII victory elevated U.S. to global political and military leadership.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    }
+  ]
+}

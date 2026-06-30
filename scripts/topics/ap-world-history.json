@@ -1,0 +1,2367 @@
+{
+  "curriculumCode": "AP",
+  "subject": "World History",
+  "source": "school-core:AP-WORLD-HIST@Effective Fall 2020",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: The Global Tapestry",
+      "level": 1,
+      "examWeight": 8,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: Networks of Exchange",
+      "level": 1,
+      "examWeight": 8,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: Land-Based Empires",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: Transoceanic Interconnections",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 5",
+      "parentCode": null,
+      "title": "Unit 5: Revolutions",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 4
+    },
+    {
+      "code": "Unit 6",
+      "parentCode": null,
+      "title": "Unit 6: Consequences of Industrialization",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 5
+    },
+    {
+      "code": "Unit 7",
+      "parentCode": null,
+      "title": "Unit 7: Global Conflict",
+      "level": 1,
+      "examWeight": 8,
+      "sortOrder": 6
+    },
+    {
+      "code": "Unit 8",
+      "parentCode": null,
+      "title": "Unit 8: Unit 8",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "Unit 9",
+      "parentCode": null,
+      "title": "Unit 9: Globalization",
+      "level": 1,
+      "examWeight": 8,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "The Silk Roads",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1",
+      "parentCode": "Unit 7",
+      "title": "Shifting Power After 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Developments in East Asia from c. 1200 to c. 1450",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "Empires Expand",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "4.1",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "Unit 5",
+      "title": "The Enlightenment",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.1",
+      "parentCode": "Unit 9",
+      "title": "Advances in Technology and Exchange After 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "Unit 6",
+      "title": "Rationales for Imperialism from 1750 to 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1",
+      "parentCode": "Unit 8",
+      "title": "Setting the Stage for the Cold War and Decolonization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.2",
+      "parentCode": "Unit 5",
+      "title": "Nationalism and Revolutions in the Period from 1750 to 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "4.2",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "Empires: Administration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.2",
+      "parentCode": "Unit 9",
+      "title": "Technological Advances and Limitations After 1900: Disease",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "Developments in Dar al-Islam from c. 1200 to c. 1450",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2",
+      "parentCode": "Unit 6",
+      "title": "State Expansion from 1750 to 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "The Mongol Empire and the Making of the Modern World",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2",
+      "parentCode": "Unit 8",
+      "title": "The Cold War",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2",
+      "parentCode": "Unit 7",
+      "title": "Causes of World War I",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "Developments in South and Southeast Asia from c. 1200 to c. 1450",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "Empires: Belief Systems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "Exchange in the Indian Ocean",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "Columbian Exchange",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.3",
+      "parentCode": "Unit 7",
+      "title": "Conducting War in World War I",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.3",
+      "parentCode": "Unit 9",
+      "title": "Technological Advances: Debates About the Environment After 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.3",
+      "parentCode": "Unit 5",
+      "title": "Industrial Revolution Processes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3",
+      "parentCode": "Unit 6",
+      "title": "Indigenous Responses to State Expansion from 1750 to 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3",
+      "parentCode": "Unit 8",
+      "title": "Effects of the Cold War",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.4",
+      "parentCode": "Unit 6",
+      "title": "Global Economic Development from 1750 to 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.4",
+      "parentCode": "Unit 8",
+      "title": "Spread of Communism After 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.4",
+      "parentCode": "Unit 5",
+      "title": "Industrialization Spreads in the Period from 1750 to 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.4",
+      "parentCode": "Unit 9",
+      "title": "Economics in the Global Age",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Trans-Saharan Trade Routes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "Comparison in Land-Based Empires",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "State Building in the Americas",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "Maritime Empires Established",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.4",
+      "parentCode": "Unit 7",
+      "title": "Economy in the Interwar Period",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.5",
+      "parentCode": "Unit 7",
+      "title": "Unresolved Tensions After World War I",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "Cultural Consequences of Connectivity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5",
+      "parentCode": "Unit 4",
+      "title": "Maritime Empires Maintained and Developed",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.5",
+      "parentCode": "Unit 6",
+      "title": "Economic Imperialism",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.5",
+      "parentCode": "Unit 5",
+      "title": "Technology of the Industrial Age",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.5",
+      "parentCode": "Unit 8",
+      "title": "Decolonization After 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.5",
+      "parentCode": "Unit 9",
+      "title": "Calls for Reform and Responses After 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "State Building Processes in Africa",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.6",
+      "parentCode": "Unit 6",
+      "title": "Causes of Migration in an Interconnected World",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.6",
+      "parentCode": "Unit 1",
+      "title": "Developments in Europe from c. 1200 to c. 1450",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "Environmental Consequences of Connectivity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.6",
+      "parentCode": "Unit 4",
+      "title": "Internal and External Challenges to State Power from 1450 to 1750",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.6",
+      "parentCode": "Unit 5",
+      "title": "Industrialization: Government's Role from 1750 to 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.6",
+      "parentCode": "Unit 7",
+      "title": "Causes of World War II",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "8.6",
+      "parentCode": "Unit 8",
+      "title": "Newly Independent States",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "9.6",
+      "parentCode": "Unit 9",
+      "title": "Globalized Culture After 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "Comparison of Economic Exchange",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.7",
+      "parentCode": "Unit 7",
+      "title": "Conducting World War II",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "8.7",
+      "parentCode": "Unit 8",
+      "title": "Global Resistance to Established Power Structures After 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.7",
+      "parentCode": "Unit 6",
+      "title": "Effects of Migration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.7",
+      "parentCode": "Unit 5",
+      "title": "Economic Developments and Innovations in the Industrial Age",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.7",
+      "parentCode": "Unit 4",
+      "title": "Changing Social Hierarchies from 1450 to 1750",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.7",
+      "parentCode": "Unit 1",
+      "title": "Comparison in the Period from c. 1200 to c. 1450",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "9.7",
+      "parentCode": "Unit 9",
+      "title": "Resistance to Globalization After 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.8",
+      "parentCode": "Unit 7",
+      "title": "Mass Atrocities After 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.8",
+      "parentCode": "Unit 4",
+      "title": "Continuity and Change from 1450 to 1750",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "8.8",
+      "parentCode": "Unit 8",
+      "title": "End of the Cold War",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "6.8",
+      "parentCode": "Unit 6",
+      "title": "Causation in Global Conflict",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.8",
+      "parentCode": "Unit 5",
+      "title": "Reactions to the Industrial Economy from 1750 to 1900",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "9.8",
+      "parentCode": "Unit 9",
+      "title": "Institutions Developing in a Globalized World",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "8.9",
+      "parentCode": "Unit 8",
+      "title": "Causation in the Age of the Cold War and Decolonization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "5.9",
+      "parentCode": "Unit 5",
+      "title": "Society and the Industrial Age",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "7.9",
+      "parentCode": "Unit 7",
+      "title": "Causation in Global Conflict",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "9.9",
+      "parentCode": "Unit 9",
+      "title": "Continuity and Change in a Globalized World",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "5.10",
+      "parentCode": "Unit 5",
+      "title": "Continuity and Change in the Industrial Age",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "KC-4.3.I.B",
+      "parentCode": "4.7",
+      "title": "States accommodated or suppressed ethnic and religious diversity through varied policies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.II.A",
+      "parentCode": "8.5",
+      "title": "Asian and African nationalist leaders pursued autonomy or independence from imperial powers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.III.A.i",
+      "parentCode": "8.6",
+      "title": "Colonial withdrawal prompted boundary redrawn, establishing new independent states.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.V",
+      "parentCode": "8.7",
+      "title": "20th century saw resistance to conflict, though some groups intensified it instead.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.IV.E",
+      "parentCode": "8.8",
+      "title": "U.S. military superiority, Soviet Afghanistan failure, and communist economic collapse ended Cold War.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.II",
+      "parentCode": "8.9",
+      "title": "Post-WWII anti-imperialism drove decolonization and state restructuring despite unfulfilled post-WWI self-government hopes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.1.I.A",
+      "parentCode": "9.1",
+      "title": "Communication and transportation technologies diminished constraints of geographic distance globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.2.I.A",
+      "parentCode": "1.1",
+      "title": "Song Dynasty maintained power through Confucianism and imperial bureaucracy systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1.III.D.iii",
+      "parentCode": "1.2",
+      "title": "Major religions shaped African and Asian societies during this period.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1.III.D.iv",
+      "parentCode": "1.3",
+      "title": "Three major religions shaped South and Southeast Asian societies through distinct practices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.2.I.D.i",
+      "parentCode": "1.4",
+      "title": "American state systems showed continuity, innovation, diversity, and territorial expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.2.I.D.ii",
+      "parentCode": "1.5",
+      "title": "African states showed continuity, innovation, diversity, and expanding scope like other regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1.III.D.v",
+      "parentCode": "1.6",
+      "title": "Major religions' beliefs and practices fundamentally shaped European societies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.2",
+      "parentCode": "1.7",
+      "title": "State formation showed continuity, innovation, and diversity across regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1.I.A.i",
+      "parentCode": "2.1",
+      "title": "Commercial improvements expanded Silk Road trade, fostering growth of major trading cities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.2.I.B.iii",
+      "parentCode": "2.2",
+      "title": "Mongol khanates replaced collapsed empires across multiple world regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1.I.A.ii",
+      "parentCode": "2.3",
+      "title": "Better technology and commerce expanded Indian Ocean trade, fostering new trading cities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.1",
+      "parentCode": "9.9",
+      "title": "Science and technology advances transformed understanding and improved communication, transportation, industry, agriculture, medicine.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1.II.A.ii",
+      "parentCode": "2.4",
+      "title": "Transportation technology innovations like camel saddles and caravans spurred interregional trade growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1",
+      "parentCode": "3.4",
+      "title": "Transoceanic voyaging connected hemispheres, transforming trade and society globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1.III.D",
+      "parentCode": "2.5",
+      "title": "Cross-cultural exchange spread ideas, arts, religions, and technologies across regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1.IV",
+      "parentCode": "2.6",
+      "title": "Trade networks spread crops, pathogens, and epidemic diseases like bubonic plague widely.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1.I.A.i",
+      "parentCode": "2.7",
+      "title": "Commercial innovations expanded trade routes and created prosperous trading centers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.3.II",
+      "parentCode": "3.1",
+      "title": "Gunpowder, cannons, and armed trade enabled imperial expansion across both hemispheres.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.3.I.C",
+      "parentCode": "3.2",
+      "title": "Rulers employed bureaucratic elites and military professionals to centralize control.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.VI.i",
+      "parentCode": "3.3",
+      "title": "Protestant Reformation broke with tradition; both reformations expanded Christianity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.3.II.A",
+      "parentCode": "9.8",
+      "title": "International organizations like the UN emerged to promote peace and cooperation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.3.IV.iv",
+      "parentCode": "9.7",
+      "title": "Globalization prompted diverse resistance responses across economic and cultural domains.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.V",
+      "parentCode": "4.3",
+      "title": "Eastern and Western Hemispheres exchanged plants, animals, and diseases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.3.II.A.i",
+      "parentCode": "4.4",
+      "title": "Europeans built profitable African and Asian trading posts; some Asian states restricted trade.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.3.IV.i",
+      "parentCode": "9.6",
+      "title": "20th-century political and social changes drove arts and popular culture globalization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.IV.C",
+      "parentCode": "4.5",
+      "title": "European rulers used mercantilism and joint-stock companies to expand economies and compete globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.3.III.iii",
+      "parentCode": "4.6",
+      "title": "Local groups resisted state expansion and centralization through diverse social and economic opposition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1",
+      "parentCode": "4.8",
+      "title": "Transoceanic voyaging interconnected hemispheres, transforming global trade and society.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.3.III.i",
+      "parentCode": "9.5",
+      "title": "Rights-based discourses challenged traditional assumptions about identity categories and social hierarchies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.3.I.A",
+      "parentCode": "5.1",
+      "title": "Enlightenment thinkers used reason and empiricism to reshape understanding of nature, society, and politics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.3.II.ii",
+      "parentCode": "5.2",
+      "title": "Shared language, religion, customs created national identity governments leveraged.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.3.I.D",
+      "parentCode": "9.4",
+      "title": "Late twentieth-century governments adopted free-market policies and economic liberalization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.1.I.A",
+      "parentCode": "5.3",
+      "title": "Multiple environmental, geographic, and economic factors enabled Industrial Revolution growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.1.II.B",
+      "parentCode": "5.4",
+      "title": "European and U.S. steam-powered production increased their global manufacturing share, declining others'.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.1.I.B",
+      "parentCode": "5.5",
+      "title": "Machines harnessed fossil fuel energy, dramatically expanding available power for societies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.1.V.C",
+      "parentCode": "5.6",
+      "title": "Select states pursued government-directed industrialization strategies during Industrial Revolution expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.1.III.A",
+      "parentCode": "5.7",
+      "title": "Western Europe shifted from mercantilism to free trade via laissez-faire capitalism theory.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.1.V.D",
+      "parentCode": "5.8",
+      "title": "Governments and organizations pursued political, social, educational, and urban reforms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.1.VI.A",
+      "parentCode": "5.9",
+      "title": "Industrialization created new middle and working social classes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.1",
+      "parentCode": "5.10",
+      "title": "Industrial capitalism improved living standards and expanded consumer goods availability and affordability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.1.II.A",
+      "parentCode": "9.3",
+      "title": "Human environmental damage increased resource competition globally after 1900.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.2.III",
+      "parentCode": "6.1",
+      "title": "Multiple ideologies justified imperialism: Social Darwinism, nationalism, civilizing mission, religious conversion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.2.I.A",
+      "parentCode": "6.2",
+      "title": "States consolidated control over existing colonies, replacing non-state entities with direct government rule.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.1.III",
+      "parentCode": "9.2",
+      "title": "Diseases and medical advances significantly impacted global populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.3.III.D",
+      "parentCode": "6.3",
+      "title": "Political authority questions and nationalism drove anticolonial resistance movements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.1.II.A",
+      "parentCode": "6.4",
+      "title": "Industrial demand drove global export economies extracting raw materials and food for urban populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.2.I.E",
+      "parentCode": "6.5",
+      "title": "Industrialized nations used economic imperialism in Asia and Latin America.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.4.I",
+      "parentCode": "6.6",
+      "title": "Demographic changes in industrialized and unindustrialized societies drove migration patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.4.III.A",
+      "parentCode": "6.7",
+      "title": "Male migration shifted domestic gender roles and women's responsibilities in origin societies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-5.1",
+      "parentCode": "6.8",
+      "title": "Industrial capitalism improved living standards and expanded consumer goods availability and affordability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.I",
+      "parentCode": "7.1",
+      "title": "Western dominance declined as empires collapsed and new states emerged.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.IV.B.i",
+      "parentCode": "7.2",
+      "title": "Imperialism, alliances, nationalism, and regional conflicts escalated into global war.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.IV.A.i",
+      "parentCode": "7.3",
+      "title": "Governments mobilized populations through propaganda, art, media, and nationalism for total war.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.3.I.B",
+      "parentCode": "7.4",
+      "title": "Post-WWI governments increased intervention in economic affairs during the Great Depression.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.I.B",
+      "parentCode": "7.5",
+      "title": "Interwar imperial powers maintained colonies, expanded territorially, faced anti-colonial movements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.IV.B.ii",
+      "parentCode": "7.6",
+      "title": "World War II resulted from failed post-WWI peace, economic depression, imperialism, and fascist totalitarianism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.IV.A.ii",
+      "parentCode": "7.7",
+      "title": "WWII total war required governments to mobilize populations through propaganda, nationalism, and totalitarian ideological control.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.III.C",
+      "parentCode": "7.8",
+      "title": "Extremist groups in power perpetrated genocide and ethnic violence against specific populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.1",
+      "parentCode": "7.9",
+      "title": "Science and technology advances transformed understanding and enabled progress across multiple sectors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.II",
+      "parentCode": "8.1",
+      "title": "Post-WWII anti-imperialism drove decolonization and state restructuring globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.IV.C.ii",
+      "parentCode": "8.2",
+      "title": "WWII aftermath created U.S.-Soviet superpower rivalry between capitalism and communism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.IV.D",
+      "parentCode": "8.3",
+      "title": "Cold War spawned military alliances, nuclear weapons spread, and proxy wars globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-6.2.I.i",
+      "parentCode": "8.4",
+      "title": "Internal conflict and Japanese aggression enabled Chinese communist seizure of power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1.I.C.ii",
+      "parentCode": "2.3",
+      "title": "Compass, astrolabe, and ship innovations expanded interregional luxury goods trade.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.2.V.B",
+      "parentCode": "8.2",
+      "title": "Non-Aligned Movement groups resisted Cold War blocs and proposed alternative orders.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.2.I",
+      "parentCode": "1.2",
+      "title": "Turkic-dominated Islamic states emerged from Abbasid fragmentation with continuity and innovation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.1.I.A",
+      "parentCode": "9.9",
+      "title": "Radio, cellular, internet, air travel, and shipping containers overcame geographic distance barriers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.1.II.B",
+      "parentCode": "9.3",
+      "title": "Atmospheric pollution sparked debates over climate change causes and nature.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.2.V.A",
+      "parentCode": "8.7",
+      "title": "Nonviolent leaders like Gandhi, King, and Mandela challenged wars through peaceful resistance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.1.I.A.iv",
+      "parentCode": "2.4",
+      "title": "Better transportation and commerce practices increased trade volume and expanded trans-Saharan network reach.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.4.III.B",
+      "parentCode": "6.7",
+      "title": "Migrants established ethnic enclaves that preserved and transmitted their cultures globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.1.I.C",
+      "parentCode": "5.3",
+      "title": "Factory systems centralized production and increased labor division and specialization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.1.III.A",
+      "parentCode": "9.2",
+      "title": "Poverty-linked and emergent diseases caused disruption and spurred medical innovation; longevity increased certain disease incidence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.3.II",
+      "parentCode": "2.5",
+      "title": "Trade networks caused uneven urban growth and decline in different cities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.1.I.D",
+      "parentCode": "9.1",
+      "title": "Petroleum and nuclear energy boosted productivity and material goods output worldwide.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.3.I.A.ii",
+      "parentCode": "8.4",
+      "title": "Communist China's state-controlled economy and repressive policies harmed the population.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.2",
+      "parentCode": "7.9",
+      "title": "Global challenges to existing order by peoples and states produced unprecedented worldwide conflicts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.1.I.C.i",
+      "parentCode": "2.7",
+      "title": "Transportation and commercial innovations like caravanserais and credit systems boosted luxury trade.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.1.I.D",
+      "parentCode": "5.4",
+      "title": "Industrial production methods spread from northwestern Europe to broader regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.2.I.B",
+      "parentCode": "6.2",
+      "title": "European powers, USA, and Japan expanded Asian-Pacific territories as Spanish-Portuguese dominance waned.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.3.II.B",
+      "parentCode": "3.1",
+      "title": "Major land empires: Manchu, Mughal, Ottoman, and Safavid, spanning multiple regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.1.III.C.ii",
+      "parentCode": "7.7",
+      "title": "Advanced military technology and total war tactics dramatically increased civilian and military casualties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.1.I.E",
+      "parentCode": "5.5",
+      "title": "Second Industrial Revolution innovated steel, chemicals, electricity, and machinery production.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.3.I.A",
+      "parentCode": "3.2",
+      "title": "Rulers legitimized power through religion, art, and monumental architecture.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.3.III.ii",
+      "parentCode": "9.5",
+      "title": "Education and political/professional participation expanded inclusively across race, class, gender, and religion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.2",
+      "parentCode": "6.8",
+      "title": "Industrialized states expanded overseas empires and established new colonies and transoceanic relationships.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.VI.ii",
+      "parentCode": "3.3",
+      "title": "Ottoman-Safavid rivalries deepened the Sunni-Shi'a division in Islam.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.2.II.A",
+      "parentCode": "5.6",
+      "title": "Western pressure catalyzed Japanese reforms enabling industrialization and regional dominance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.VI",
+      "parentCode": "3.4",
+      "title": "Hemisphere interactions expanded religions, created conflicts, and developed syncretic practices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.4.I.B",
+      "parentCode": "6.6",
+      "title": "New transportation enabled urban migration and return migration, driving nineteenth-century urbanization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.1.III.B",
+      "parentCode": "5.7",
+      "title": "Global trade enabled large transnational businesses using innovative banking and financial practices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.1.III.C.i",
+      "parentCode": "7.3",
+      "title": "Military technology innovations resulted in dramatically higher casualty rates during warfare.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.2.III.A",
+      "parentCode": "4.7",
+      "title": "Conquest and global trade created new elites in China and the Americas.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.2.II.C",
+      "parentCode": "6.3",
+      "title": "Anti-imperial resistance included direct rebellions and formation of new peripheral states.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.V.A",
+      "parentCode": "4.3",
+      "title": "European colonization spread Eastern Hemisphere diseases catastrophically among indigenous populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.1.II.C",
+      "parentCode": "6.5",
+      "title": "European and American merchants gained structural economic advantages in commodity trade.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.1.V.A",
+      "parentCode": "5.8",
+      "title": "Workers formed unions and political parties to improve conditions and promote alternative social visions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.2.I.B.i",
+      "parentCode": "1.3",
+      "title": "Hindu and Buddhist states emerged showing continuity, innovation, and regional diversity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.3.I",
+      "parentCode": "5.1",
+      "title": "Enlightenment ideas challenging tradition frequently preceded revolutions and government rebellions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.3.II.C",
+      "parentCode": "4.4",
+      "title": "European rivalries drove establishment of Portuguese, Spanish, Dutch, French, and British maritime empires.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.3.III.C",
+      "parentCode": "4.6",
+      "title": "Enslaved persons in the Americas organized resistance against colonial and state authorities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.1.III.D.i",
+      "parentCode": "1.1",
+      "title": "Chinese cultural traditions spread influence to neighboring East Asian regions over time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.3.IV.ii",
+      "parentCode": "9.6",
+      "title": "Global arts and entertainment increasingly reflected interconnected worldwide cultural influences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.3.I.A.i",
+      "parentCode": "7.4",
+      "title": "Soviet government used Five Year Plans to control economy, employing repression with harmful population effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.2.I.C",
+      "parentCode": "8.5",
+      "title": "Postwar colonies gained independence through negotiation or armed conflict.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.2.IV.C.i",
+      "parentCode": "8.1",
+      "title": "WWII victor's technological and economic advances redistributed global power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.2.I.B.ii",
+      "parentCode": "1.6",
+      "title": "Europe's fragmented political structure featured feudalism and decentralized monarchical governance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.II",
+      "parentCode": "4.8",
+      "title": "Classical, Islamic, and Asian knowledge spread, advancing European technological innovation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.1.VI.B",
+      "parentCode": "5.9",
+      "title": "Working-class women worked for wages; middle-class women confined to domestic roles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.2.I",
+      "parentCode": "1.7",
+      "title": "Fragmentation of Abbasid Caliphate led to Turkic-dominated Islamic states showing continuity and innovation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.3.I.E",
+      "parentCode": "9.4",
+      "title": "Tech-driven knowledge economies emerged while manufacturing shifted to Asia and Latin America.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.2.III.A.ii",
+      "parentCode": "8.6",
+      "title": "Boundary redrawing caused conflict, displacement, resettlement in India partition, Israel creation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.3",
+      "parentCode": "5.2",
+      "title": "Eighteenth-century revolutions against monarchies created new nation-states globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.1.I.C.i",
+      "parentCode": "2.1",
+      "title": "Technological and financial innovations in caravanserais and credit systems expanded luxury trade.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.3.III.ii",
+      "parentCode": "4.5",
+      "title": "Economic competition among states generated rivalries and international conflict.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.2.I.A",
+      "parentCode": "7.1",
+      "title": "Ottoman, Russian, and Qing empires collapsed from internal and external pressures, sparking revolution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.1.I.E.i",
+      "parentCode": "2.2",
+      "title": "Mongol expansion integrated new populations into Afro-Eurasian trade networks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.2.IV.C",
+      "parentCode": "8.9",
+      "title": "Cold War extended beyond ideology to profoundly impact global economic, political, social, and cultural dimensions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-5.1.IV",
+      "parentCode": "5.10",
+      "title": "Transportation and communication technologies enabled global trade and migration expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-6.3.II.C",
+      "parentCode": "9.5",
+      "title": "Global movements protested environmental and economic inequality stemming from integration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.2.II.D.i",
+      "parentCode": "8.4",
+      "title": "Land and resource redistribution movements across Africa, Asia, and Latin America sometimes promoted communism or socialism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.2.III.B",
+      "parentCode": "4.7",
+      "title": "Traditional elites lost power as centralized monarchies strengthened their authority.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.1.III.B",
+      "parentCode": "9.1",
+      "title": "Advanced contraception enabled female reproductive autonomy and reduced global fertility rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.1.II.A",
+      "parentCode": "4.8",
+      "title": "New tools, improved ships, and wind-current knowledge enabled transoceanic travel and trade.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.3.II.B",
+      "parentCode": "9.4",
+      "title": "Multinational corporations and trade agreements spread free-market economic principles globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-5.4.II.A",
+      "parentCode": "6.6",
+      "title": "Economic opportunity motivated free individual relocation seeking employment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-5.3.II.i",
+      "parentCode": "5.1",
+      "title": "Nationalism emerged as a major force shaping state and empire development.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.3.I",
+      "parentCode": "8.9",
+      "title": "States adopted varied responses to twentieth-century economic challenges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-5.3.IV.A.i",
+      "parentCode": "5.2",
+      "title": "Discontent spurred development of democratic and liberal governmental ideologies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-5.4.III.C",
+      "parentCode": "6.7",
+      "title": "Receiving societies implemented discriminatory policies and regulations against immigrant populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-5.1.IV",
+      "parentCode": "5.5",
+      "title": "Transportation and communication technologies enabled global interior exploration and commerce expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-5.3",
+      "parentCode": "6.8",
+      "title": "Eighteenth-century revolutions and rebellions led to establishment of new nation-states worldwide.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-5.1",
+      "parentCode": "5.7",
+      "title": "Industrial capitalism raised living standards and expanded affordable consumer goods availability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.2.II.B",
+      "parentCode": "8.5",
+      "title": "Regional, religious, and ethnic movements challenged colonial rule and imperial boundaries within states.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-5.3.IV.A.ii",
+      "parentCode": "5.8",
+      "title": "Discontent fueled ideologies like Marxism, socialism, and communism challenging established structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.2.V.C",
+      "parentCode": "8.7",
+      "title": "Military responses to conflict often escalated tensions rather than resolving them.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.3.III.C",
+      "parentCode": "1.6",
+      "title": "Agricultural economy relied on both free labor and coercive systems like serfdom.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.2.I.A",
+      "parentCode": "1.7",
+      "title": "Song Dynasty and other 13th-century states used traditional Confucianism and bureaucracy for governance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.1.III.A",
+      "parentCode": "1.2",
+      "title": "Islam expanded militarily and through merchants, missionaries, Sufis; intellectual advances flourished.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-5.1.VI.C",
+      "parentCode": "5.9",
+      "title": "Rapid urbanization created pollution, poverty, crime, health crises, and housing shortages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.3.I.B",
+      "parentCode": "2.1",
+      "title": "Rising luxury demand drove Asian artisans to expand textile, porcelain, and metal production.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.2.II.A.ii",
+      "parentCode": "2.2",
+      "title": "Mongol contacts facilitated major technological and cultural transfers across regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.1.I.A.iii",
+      "parentCode": "2.3",
+      "title": "Indian Ocean trade networks directly enabled state development and growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-5.3",
+      "parentCode": "5.10",
+      "title": "Eighteenth-century revolutions and rebellions created new nation-states globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.1.I.E.ii",
+      "parentCode": "2.4",
+      "title": "Empire expansion like Mali's drew new populations into Afro-Eurasian trade and communication networks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.2.II.D",
+      "parentCode": "7.1",
+      "title": "States challenged existing order; Mexican Revolution exemplified responses to political crisis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.1.III.C",
+      "parentCode": "2.5",
+      "title": "Intensifying networks produced travel accounts from major Afro-Eurasian explorers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.3.I.B",
+      "parentCode": "2.7",
+      "title": "Rising luxury demand drove expanded textile, porcelain, iron, and steel production across regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.3.III.i",
+      "parentCode": "3.1",
+      "title": "Political and religious disputes caused state rivalries and conflicts between empires.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-5.2.I.C",
+      "parentCode": "6.2",
+      "title": "European states employed military force and negotiation to expand African imperial holdings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.3.I.D",
+      "parentCode": "3.2",
+      "title": "Rulers generated revenue through tribute, taxation, and innovative collection systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.3.I.C",
+      "parentCode": "8.6",
+      "title": "Post-WWII independent governments actively guided economies toward development.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.1.VI.iii",
+      "parentCode": "3.3",
+      "title": "Sikhism emerged from Hindu-Islamic interactions in South Asia.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.3",
+      "parentCode": "3.4",
+      "title": "Empires expanded globally while being shaped by diverse incorporated populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.1.I.D",
+      "parentCode": "9.9",
+      "title": "Petroleum and nuclear power increased productivity and material goods production globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.2.I",
+      "parentCode": "7.9",
+      "title": "Western dominance declined as land and maritime empires collapsed, replaced by new states.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.1.V.B",
+      "parentCode": "4.3",
+      "title": "American foods became staples globally; cash crops used coerced labor for export.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.1.III.D.ii",
+      "parentCode": "1.1",
+      "title": "Multiple Buddhist branches and schools shaped Asian societies throughout the period.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.3.IV.iii",
+      "parentCode": "9.6",
+      "title": "Consumer culture spread globally, crossing national borders through commerce and brands.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-5.3.III.E",
+      "parentCode": "6.3",
+      "title": "Imperial discontent sparked rebellions, some religiously motivated resistance movements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.3.II.A.ii",
+      "parentCode": "4.4",
+      "title": "Maritime trade expansion enabled African states like Asante and Kongo to grow and increase influence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-6.2.V.D",
+      "parentCode": "8.7",
+      "title": "Certain movements employed violence against civilians to pursue political objectives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.3.III.A.i",
+      "parentCode": "1.1",
+      "title": "Song China's economy commercialized while relying on peasant and artisanal labor.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.2.II.A.i",
+      "parentCode": "1.2",
+      "title": "Muslim states actively promoted intellectual innovation and knowledge transfer.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.2.I.B.i",
+      "parentCode": "1.7",
+      "title": "New Hindu and Buddhist states in South and Southeast Asia showed diverse state formation patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.1.III.B",
+      "parentCode": "2.3",
+      "title": "Merchants established diaspora communities, creating bidirectional cultural exchange with indigenous populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.3.II",
+      "parentCode": "3.4",
+      "title": "Gunpowder, cannons, and armed trade enabled imperial expansion in both hemispheres.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.1.V.C",
+      "parentCode": "4.3",
+      "title": "Europeans brought Old World crops and animals; enslaved Africans brought their own foods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.3.II.A.iii",
+      "parentCode": "4.4",
+      "title": "Indian Ocean trade networks persisted with Asian merchants despite European commercial arrival.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.2",
+      "parentCode": "4.8",
+      "title": "Agriculture remained central while labor, manufacturing, gender, and environmental structures transformed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-5.3.I.C",
+      "parentCode": "5.1",
+      "title": "Enlightenment ideas fueled reform movements expanding suffrage, abolishing slavery, ending serfdom.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-5.3.III.B",
+      "parentCode": "5.2",
+      "title": "American Revolution inspired colonial rebellions establishing independent American states.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-5.1.V.B",
+      "parentCode": "5.8",
+      "title": "Asian and African governments pursued economic and military reforms despite elite resistance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-5.3.I.A",
+      "parentCode": "5.10",
+      "title": "Enlightenment thought reexamined religion's role and developed political ideas about rights and social contract.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-5.2.I.D",
+      "parentCode": "6.2",
+      "title": "Europeans established settler colonies in select imperial territories, encouraging European migration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-5.4.II.B",
+      "parentCode": "6.6",
+      "title": "Global capitalism depended on coerced and semicoerced labor migration systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-5.4",
+      "parentCode": "6.8",
+      "title": "Transoceanic empires and global capitalism dramatically changed and increased migration patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-6.2.I.A",
+      "parentCode": "7.9",
+      "title": "Ottoman, Russian, and Qing empires collapsed from internal and external factors; Russia turned communist.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-6.2.III.B",
+      "parentCode": "8.6",
+      "title": "Colonial subjects migrated to former metropoles, sustaining cultural-economic ties post-empire.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-6.1.I.B",
+      "parentCode": "9.1",
+      "title": "Green Revolution innovations supported expanding populations through chemical and genetic crop modifications.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-6.1.III.B",
+      "parentCode": "9.9",
+      "title": "Birth control innovations enabled women's fertility control and reduced global fertility rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.1.V.D",
+      "parentCode": "4.3",
+      "title": "Afro-Eurasian populations gained nutritional benefits from American crop diversity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-6.1.I.C",
+      "parentCode": "9.1",
+      "title": "Vaccines and antibiotics extended human lifespan and survival rates globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-4.3.II.B",
+      "parentCode": "3.4",
+      "title": "Major land empires: Manchu, Mughal, Ottoman, and Safavid across Eurasia.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-5.3.I.B",
+      "parentCode": "5.2",
+      "title": "Enlightenment ideas in revolutionary documents inspired resistance seeking independence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.2.II.A.iii",
+      "parentCode": "2.3",
+      "title": "State contacts and conflicts facilitated technology and cultural transfers, notably under Zheng He.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.1.I.D",
+      "parentCode": "1.1",
+      "title": "Song China's economy flourished through productivity, trade networks, and technological innovations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-5.3.IV.B",
+      "parentCode": "5.1",
+      "title": "Women's suffrage demands and feminism challenged political and gender hierarchies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-6.2.II.D",
+      "parentCode": "7.9",
+      "title": "States challenged existing order; Mexican Revolution exemplified challenges from political crisis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-5.3.I",
+      "parentCode": "5.10",
+      "title": "Enlightenment ideas questioning traditions preceded revolutions and governmental challenges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-4.2.II",
+      "parentCode": "4.8",
+      "title": "Growing demand intensified labor; peasant agriculture expanded, plantations grew, slave trade intensified.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-6.1.I.B",
+      "parentCode": "9.9",
+      "title": "Green Revolution and commercial agriculture sustained population growth through modified crops.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-5.2.II.B",
+      "parentCode": "6.2",
+      "title": "USA, Russia, and Japan expanded through territorial conquest and settlement of contiguous regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-4.2.II.D",
+      "parentCode": "4.4",
+      "title": "American colonial economies relied on agriculture and introduced diverse new labor systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-4.3.III.i",
+      "parentCode": "3.4",
+      "title": "Political and religious disputes generated rivalries and conflicts between states.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-5.3.II.i",
+      "parentCode": "5.10",
+      "title": "Nationalism significantly shaped state and empire development historically.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-5.3.II.iii",
+      "parentCode": "5.2",
+      "title": "National identity aligned with state borders; nationalists unified fragmented regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-4.3",
+      "parentCode": "4.8",
+      "title": "Expanding empires shaped and were shaped by diverse incorporated populations globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-4.2.II.B",
+      "parentCode": "4.4",
+      "title": "African enslavement continued in traditional forms with exports to Mediterranean and Indian Ocean regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-3.1.II.A.i",
+      "parentCode": "2.3",
+      "title": "Environmental knowledge, especially monsoon winds, enabled long-distance trade expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-6.1.I.C",
+      "parentCode": "9.9",
+      "title": "Vaccines and antibiotics enabled human survival and extended lifespans globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-4.2.II.C",
+      "parentCode": "4.4",
+      "title": "Plantation economy growth increased enslaved labor demand, causing major demographic and social upheaval.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-4.3.III.ii",
+      "parentCode": "4.8",
+      "title": "Economic disputes generated state rivalries and conflicts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-6.3.I",
+      "parentCode": "9.9",
+      "title": "Nations employed diverse strategies addressing twentieth-century economic challenges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-6.3.III.i",
+      "parentCode": "9.9",
+      "title": "Rights-based movements challenged traditional race, class, gender, and religious assumptions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-6.3.III.ii",
+      "parentCode": "9.9",
+      "title": "Education and professional participation expanded inclusively across race, class, gender, religion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-6.3.IV.i",
+      "parentCode": "9.9",
+      "title": "Twentieth-century changes influenced arts and globalized popular consumer culture.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "KC-6.3.IV.ii",
+      "parentCode": "9.9",
+      "title": "Arts and entertainment increasingly reflected globalized societal influences and interconnections.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "KC-6.3.IV.iii",
+      "parentCode": "9.9",
+      "title": "Consumer culture globalized and transcended national borders throughout the world.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    }
+  ]
+}

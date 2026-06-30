@@ -1,0 +1,6407 @@
+{
+  "curriculumCode": "IGCSE",
+  "subject": "Co-ordinated Sciences",
+  "source": "school-core:CAIE-0654@2025–2027",
+  "strands": [
+    {
+      "code": "B1",
+      "parentCode": null,
+      "title": "Characteristics of living organisms",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B2",
+      "parentCode": null,
+      "title": "Cells",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B3",
+      "parentCode": null,
+      "title": "Movement into and out of cells",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B4",
+      "parentCode": null,
+      "title": "Biological molecules",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B5",
+      "parentCode": null,
+      "title": "Enzymes",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B6",
+      "parentCode": null,
+      "title": "Plant nutrition",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B7",
+      "parentCode": null,
+      "title": "Human nutrition",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "B8",
+      "parentCode": null,
+      "title": "Transport in plants",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "B9",
+      "parentCode": null,
+      "title": "Transport in animals",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "B10",
+      "parentCode": null,
+      "title": "Diseases and immunity",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "B11",
+      "parentCode": null,
+      "title": "Gas exchange in humans",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "B12",
+      "parentCode": null,
+      "title": "Respiration",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "B13",
+      "parentCode": null,
+      "title": "Coordination and response",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "B14",
+      "parentCode": null,
+      "title": "Drugs",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "B15",
+      "parentCode": null,
+      "title": "Reproduction",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "B16",
+      "parentCode": null,
+      "title": "Inheritance",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "B17",
+      "parentCode": null,
+      "title": "Variation and selection",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "B18",
+      "parentCode": null,
+      "title": "Organisms and their environment",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 17
+    },
+    {
+      "code": "B19",
+      "parentCode": null,
+      "title": "Human influences on ecosystems",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 18
+    },
+    {
+      "code": "C1",
+      "parentCode": null,
+      "title": "States of matter",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 19
+    },
+    {
+      "code": "C2",
+      "parentCode": null,
+      "title": "Atoms, elements and compounds",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 20
+    },
+    {
+      "code": "C3",
+      "parentCode": null,
+      "title": "Stoichiometry",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 21
+    },
+    {
+      "code": "C4",
+      "parentCode": null,
+      "title": "Electrochemistry",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 22
+    },
+    {
+      "code": "C5",
+      "parentCode": null,
+      "title": "Chemical energetics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 23
+    },
+    {
+      "code": "C6",
+      "parentCode": null,
+      "title": "Chemical reactions",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 24
+    },
+    {
+      "code": "C7",
+      "parentCode": null,
+      "title": "Acids, bases and salts",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 25
+    },
+    {
+      "code": "C8",
+      "parentCode": null,
+      "title": "The Periodic Table",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 26
+    },
+    {
+      "code": "C9",
+      "parentCode": null,
+      "title": "Metals",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 27
+    },
+    {
+      "code": "C10",
+      "parentCode": null,
+      "title": "Chemistry of the environment",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 28
+    },
+    {
+      "code": "C11",
+      "parentCode": null,
+      "title": "Organic chemistry",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 29
+    },
+    {
+      "code": "C12",
+      "parentCode": null,
+      "title": "Experimental techniques and chemical analysis",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 30
+    },
+    {
+      "code": "P1",
+      "parentCode": null,
+      "title": "Motion, forces and energy",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 31
+    },
+    {
+      "code": "P2",
+      "parentCode": null,
+      "title": "Thermal physics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 32
+    },
+    {
+      "code": "P3",
+      "parentCode": null,
+      "title": "Waves",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 33
+    },
+    {
+      "code": "P4",
+      "parentCode": null,
+      "title": "Electricity and magnetism",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 34
+    },
+    {
+      "code": "P5",
+      "parentCode": null,
+      "title": "Nuclear physics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 35
+    },
+    {
+      "code": "P6",
+      "parentCode": null,
+      "title": "Space physics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 36
+    },
+    {
+      "code": "C5.1",
+      "parentCode": "C5",
+      "title": "Exothermic and endothermic reactions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B3.1",
+      "parentCode": "B3",
+      "title": "Diffusion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C6.1",
+      "parentCode": "C6",
+      "title": "Physical and chemical changes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B4.1",
+      "parentCode": "B4",
+      "title": "Biological molecules",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B5.1",
+      "parentCode": "B5",
+      "title": "Enzymes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B6.1",
+      "parentCode": "B6",
+      "title": "Photosynthesis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C7.1",
+      "parentCode": "C7",
+      "title": "The characteristic properties of acids and bases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B7.1",
+      "parentCode": "B7",
+      "title": "Diet",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C2.1",
+      "parentCode": "C2",
+      "title": "Elements, compounds and mixtures",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P6.1",
+      "parentCode": "P6",
+      "title": "The Solar System",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B8.1",
+      "parentCode": "B8",
+      "title": "Xylem and phloem",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P5.1",
+      "parentCode": "P5",
+      "title": "The nucleus",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P4.1",
+      "parentCode": "P4",
+      "title": "Simple phenomena of magnetism",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B9.1",
+      "parentCode": "B9",
+      "title": "Circulatory systems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C1.1",
+      "parentCode": "C1",
+      "title": "Solids, liquids and gases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P3.1",
+      "parentCode": "P3",
+      "title": "General properties of waves",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P2.1",
+      "parentCode": "P2",
+      "title": "Kinetic particle model of matter",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B10.1",
+      "parentCode": "B10",
+      "title": "Diseases and immunity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B11.1",
+      "parentCode": "B11",
+      "title": "Gas exchange in humans",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B12.1",
+      "parentCode": "B12",
+      "title": "Respiration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B13.1",
+      "parentCode": "B13",
+      "title": "Coordination and response",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B19.1",
+      "parentCode": "B19",
+      "title": "Habitat destruction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P1.1",
+      "parentCode": "P1",
+      "title": "Physical quantities and measurement techniques",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B14.1",
+      "parentCode": "B14",
+      "title": "Drugs",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B15.1",
+      "parentCode": "B15",
+      "title": "Asexual reproduction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C8.1",
+      "parentCode": "C8",
+      "title": "Arrangement of elements",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C12.1",
+      "parentCode": "C12",
+      "title": "Experimental design",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C11.1",
+      "parentCode": "C11",
+      "title": "Formulas and terminology",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C10.1",
+      "parentCode": "C10",
+      "title": "Water",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B16.1",
+      "parentCode": "B16",
+      "title": "Chromosomes and genes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B18.1",
+      "parentCode": "B18",
+      "title": "Energy flow",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C9.1",
+      "parentCode": "C9",
+      "title": "Properties of metals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B1.1",
+      "parentCode": "B1",
+      "title": "Characteristics of living organisms",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B17.1",
+      "parentCode": "B17",
+      "title": "Variation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C3.1",
+      "parentCode": "C3",
+      "title": "Formulas",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B2.1",
+      "parentCode": "B2",
+      "title": "Cell structure",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C4.1",
+      "parentCode": "C4",
+      "title": "Electrolysis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C3.2",
+      "parentCode": "C3",
+      "title": "Relative masses of atoms and molecules",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B2.2",
+      "parentCode": "B2",
+      "title": "Size of specimens",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B3.2",
+      "parentCode": "B3",
+      "title": "Osmosis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B6.2",
+      "parentCode": "B6",
+      "title": "Leaf structure",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B7.2",
+      "parentCode": "B7",
+      "title": "Digestive system",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B8.2",
+      "parentCode": "B8",
+      "title": "Water uptake",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B9.2",
+      "parentCode": "B9",
+      "title": "Heart",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B13.2",
+      "parentCode": "B13",
+      "title": "Hormones",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B15.2",
+      "parentCode": "B15",
+      "title": "Sexual reproduction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B16.2",
+      "parentCode": "B16",
+      "title": "Cell division",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B17.2",
+      "parentCode": "B17",
+      "title": "Selection",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B18.2",
+      "parentCode": "B18",
+      "title": "Food chains and food webs",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B19.2",
+      "parentCode": "B19",
+      "title": "Conservation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C1.2",
+      "parentCode": "C1",
+      "title": "Diffusion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C2.2",
+      "parentCode": "C2",
+      "title": "Atomic structure and the Periodic Table",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C4.2",
+      "parentCode": "C4",
+      "title": "Hydrogen–oxygen fuel cells",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C6.2",
+      "parentCode": "C6",
+      "title": "Rate of reaction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C7.2",
+      "parentCode": "C7",
+      "title": "Oxides",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C8.2",
+      "parentCode": "C8",
+      "title": "Group I properties",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C9.2",
+      "parentCode": "C9",
+      "title": "Uses of metals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C10.2",
+      "parentCode": "C10",
+      "title": "Air quality and climate",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C11.2",
+      "parentCode": "C11",
+      "title": "Naming organic compounds",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C12.2",
+      "parentCode": "C12",
+      "title": "Acid-base titrations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P1.2",
+      "parentCode": "P1",
+      "title": "Motion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P2.2",
+      "parentCode": "P2",
+      "title": "Thermal properties and temperature",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P3.2",
+      "parentCode": "P3",
+      "title": "Light",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P4.2",
+      "parentCode": "P4",
+      "title": "Electrical quantities",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P5.2",
+      "parentCode": "P5",
+      "title": "Radioactivity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P6.2",
+      "parentCode": "P6",
+      "title": "Stars and the Universe",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C12.3",
+      "parentCode": "C12",
+      "title": "Chromatography",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B8.3",
+      "parentCode": "B8",
+      "title": "Transpiration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P1.3",
+      "parentCode": "P1",
+      "title": "Mass and weight",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B13.3",
+      "parentCode": "B13",
+      "title": "Homeostasis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C2.3",
+      "parentCode": "C2",
+      "title": "Isotopes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P4.3",
+      "parentCode": "P4",
+      "title": "Electrical circuits",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B18.3",
+      "parentCode": "B18",
+      "title": "Carbon cycle",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C3.3",
+      "parentCode": "C3",
+      "title": "The mole and the Avogadro constant",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C7.3",
+      "parentCode": "C7",
+      "title": "Preparation of salts",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P3.3",
+      "parentCode": "P3",
+      "title": "Electromagnetic spectrum",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B7.3",
+      "parentCode": "B7",
+      "title": "Digestion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C9.3",
+      "parentCode": "C9",
+      "title": "Alloys and their properties",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C8.3",
+      "parentCode": "C8",
+      "title": "Group VII properties",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C11.3",
+      "parentCode": "C11",
+      "title": "Fuels",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B3.3",
+      "parentCode": "B3",
+      "title": "Active transport",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C6.3",
+      "parentCode": "C6",
+      "title": "Redox",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B9.3",
+      "parentCode": "B9",
+      "title": "Blood vessels",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P2.3",
+      "parentCode": "P2",
+      "title": "Transfer of thermal energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B15.3",
+      "parentCode": "B15",
+      "title": "Sexual reproduction in plants",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B16.3",
+      "parentCode": "B16",
+      "title": "Monohybrid inheritance",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C2.4",
+      "parentCode": "C2",
+      "title": "Ions and ionic bonds",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B15.4",
+      "parentCode": "B15",
+      "title": "Sexual reproduction in humans",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C8.4",
+      "parentCode": "C8",
+      "title": "Transition elements",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C11.4",
+      "parentCode": "C11",
+      "title": "Alkanes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C12.4",
+      "parentCode": "C12",
+      "title": "Separation and purification",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P1.4",
+      "parentCode": "P1",
+      "title": "Density",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B9.4",
+      "parentCode": "B9",
+      "title": "Blood",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P3.4",
+      "parentCode": "P3",
+      "title": "Sound",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B8.4",
+      "parentCode": "B8",
+      "title": "Translocation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P4.4",
+      "parentCode": "P4",
+      "title": "Electrical safety",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C9.4",
+      "parentCode": "C9",
+      "title": "Reactivity series",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P4.5",
+      "parentCode": "P4",
+      "title": "Electromagnetic effects",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C11.5",
+      "parentCode": "C11",
+      "title": "Alkenes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C2.5",
+      "parentCode": "C2",
+      "title": "Simple molecules and covalent bonds",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B15.5",
+      "parentCode": "B15",
+      "title": "Sexually transmitted infections",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C12.5",
+      "parentCode": "C12",
+      "title": "Identification of ions and gases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C9.5",
+      "parentCode": "C9",
+      "title": "Corrosion of metals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P1.5",
+      "parentCode": "P1",
+      "title": "Forces",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C8.5",
+      "parentCode": "C8",
+      "title": "Noble gases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C2.6",
+      "parentCode": "C2",
+      "title": "Giant covalent structures",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "C9.6",
+      "parentCode": "C9",
+      "title": "Extraction of metals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P1.6",
+      "parentCode": "P1",
+      "title": "Energy, work and power",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "C11.6",
+      "parentCode": "C11",
+      "title": "Alcohols",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "C2.7",
+      "parentCode": "C2",
+      "title": "Metallic bonding",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "C11.7",
+      "parentCode": "C11",
+      "title": "Polymers",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "P1.7",
+      "parentCode": "P1",
+      "title": "Pressure",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "B18.3.1",
+      "parentCode": "B18.3",
+      "title": "Describe carbon cycle processes: photosynthesis, respiration, feeding, decomposition, fossil fuels, combustion",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B18.1.1",
+      "parentCode": "B18.1",
+      "title": "Identify the Sun as the primary energy source for biological systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C2.4.1",
+      "parentCode": "C2.4",
+      "title": "Explain how cations and anions form through electron transfer.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B18.2.1",
+      "parentCode": "B18.2",
+      "title": "Define food chains as energy transfer pathways starting with producers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C6.1.1",
+      "parentCode": "C6.1",
+      "title": "Distinguish between physical and chemical changes and explain their differences",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C6.3.1",
+      "parentCode": "C6.3",
+      "title": "Redox reactions involve simultaneous oxidation and reduction processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B1.1.1",
+      "parentCode": "B1.1",
+      "title": "Define seven key characteristics that distinguish living organisms from non-living matter.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B2.1.1",
+      "parentCode": "B2.1",
+      "title": "Compare plant and animal cell structures including organelles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P6.2.1",
+      "parentCode": "P6.2",
+      "title": "Understand the Sun's proximity and light-year distance measurement",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P6.1.1",
+      "parentCode": "P6.1",
+      "title": "Describe Solar System structure: Sun, planets, minor planets, dwarf planets, asteroids, moons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B2.2.1",
+      "parentCode": "B2.2",
+      "title": "State and apply the magnification formula relating image and actual sizes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C2.5.1",
+      "parentCode": "C2.5",
+      "title": "State definition of covalent bonds and electron sharing leading to noble gas configurations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B3.1.1",
+      "parentCode": "B3.1",
+      "title": "Define diffusion as particle movement down concentration gradients via random motion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P5.2.1",
+      "parentCode": "P5.2",
+      "title": "Define ionising nuclear radiation and background radiation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B3.2.1",
+      "parentCode": "B3.2",
+      "title": "Define osmosis as water diffusion through partially permeable membranes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P5.1.1",
+      "parentCode": "P5.1",
+      "title": "Explain that nuclei consist of protons and neutrons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B3.3.1",
+      "parentCode": "B3.3",
+      "title": "Describe active transport as movement against concentration gradient using respiration energy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B4.1.1",
+      "parentCode": "B4.1",
+      "title": "Identify the chemical elements composing carbohydrates, fats, and proteins.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C2.3.1",
+      "parentCode": "C2.3",
+      "title": "Define isotopes: same element, same protons, different neutrons.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B5.1.1",
+      "parentCode": "B5.1",
+      "title": "Enzymes are proteins functioning as biological catalysts in metabolic reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C2.6.1",
+      "parentCode": "C2.6",
+      "title": "Describe the giant covalent structures of graphite and diamond.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P4.5.1",
+      "parentCode": "P4.5",
+      "title": "Understand that moving conductors or changing magnetic fields induce e.m.f.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P4.4.1",
+      "parentCode": "P4.4",
+      "title": "Explain how electric current produces heat in conductors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B6.1.1",
+      "parentCode": "B6.1",
+      "title": "Define photosynthesis as carbohydrate synthesis from raw materials using light energy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P4.3.1",
+      "parentCode": "P4.3",
+      "title": "Draw and interpret circuit diagrams with standard components and understand their behavior",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P4.2.1",
+      "parentCode": "P4.2",
+      "title": "Identify positive and negative charges as fundamental electrical properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P4.1.1",
+      "parentCode": "P4.1",
+      "title": "Describe magnetic forces between poles and materials using appropriate terminology.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B6.2.1",
+      "parentCode": "B6.2",
+      "title": "Explain large surface area and thinness as photosynthetic adaptations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C2.7.1",
+      "parentCode": "C2.7",
+      "title": "Describe metallic bonding as electrostatic attraction between positive ions and delocalised electrons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B7.1.1",
+      "parentCode": "B7.1",
+      "title": "Define balanced diet and its nutritional composition requirements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B7.2.1",
+      "parentCode": "B7.2",
+      "title": "Identify main digestive organs in diagrams: alimentary canal and associated organs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B7.3.1",
+      "parentCode": "B7.3",
+      "title": "Physical digestion breaks food into smaller pieces without changing molecules chemically.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C2.2.1",
+      "parentCode": "C2.2",
+      "title": "Describe atomic structure: nucleus with neutrons and protons; electrons in shells",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P3.4.1",
+      "parentCode": "P3.4",
+      "title": "Explain how vibrating sources produce sound waves",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P3.3.1",
+      "parentCode": "P3.3",
+      "title": "Identify EM spectrum regions by frequency and wavelength order.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P3.2.1",
+      "parentCode": "P3.2",
+      "title": "Define normal, angle of incidence, and angle of reflection using ray diagrams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B8.1.1",
+      "parentCode": "B8.1",
+      "title": "State functions of xylem and phloem in plant transport and support.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B8.2.1",
+      "parentCode": "B8.2",
+      "title": "Identify root hair cells in diagrams and describe their functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C2.1.1",
+      "parentCode": "C2.1",
+      "title": "Explain distinguishing characteristics of elements, compounds, and mixtures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B8.3.1",
+      "parentCode": "B8.3",
+      "title": "Define transpiration as water vapour loss from leaves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P3.1.1",
+      "parentCode": "P3.1",
+      "title": "Waves transfer energy without transferring matter",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B8.4.1",
+      "parentCode": "B8.4",
+      "title": "Translocation moves sucrose and amino acids through phloem from sources to sinks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C1.2.1",
+      "parentCode": "C1.2",
+      "title": "Explain diffusion using kinetic particle theory principles and concepts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B9.1.1",
+      "parentCode": "B9.1",
+      "title": "Describe circulatory system structure: vessels, pump, valves, one-way blood flow",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P2.3.1",
+      "parentCode": "P2.3",
+      "title": "Identify and exemplify good thermal conductors and insulators",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B9.2.1",
+      "parentCode": "B9.2",
+      "title": "Identify mammalian heart structures in diagrams: wall, septum, chambers, valves, arteries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C3.1.1",
+      "parentCode": "C3.1",
+      "title": "State formulas of elements and compounds from subject content",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P2.2.1",
+      "parentCode": "P2.2",
+      "title": "Qualitatively describe thermal expansion of solids, liquids, and gases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P2.1.1",
+      "parentCode": "P2.1",
+      "title": "Identify key properties that distinguish solids, liquids, and gases",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B9.3.1",
+      "parentCode": "B9.3",
+      "title": "Describe structural features of arteries, veins, and capillaries including wall thickness and valves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P1.7.1",
+      "parentCode": "P1.7",
+      "title": "Explain pressure variation with force and area using everyday examples",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B9.4.1",
+      "parentCode": "B9.4",
+      "title": "Name the four main components found in blood.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P1.6.1",
+      "parentCode": "P1.6",
+      "title": "Identify the seven main forms of energy storage in physical systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P1.5.1",
+      "parentCode": "P1.5",
+      "title": "Forces produce changes in size, shape, and motion of objects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B10.1.1",
+      "parentCode": "B10.1",
+      "title": "Define pathogens as organisms that cause disease.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C1.1.1",
+      "parentCode": "C1.1",
+      "title": "Identify characteristic properties that distinguish solids, liquids, and gases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P1.4.1",
+      "parentCode": "P1.4",
+      "title": "Define density and apply the mass-to-volume ratio equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P1.2.1",
+      "parentCode": "P1.2",
+      "title": "Define speed and apply the distance-time relationship equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P1.1.1",
+      "parentCode": "P1.1",
+      "title": "Describe using rulers and measuring cylinders to determine length or volume.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C12.5.1",
+      "parentCode": "C12.5",
+      "title": "Identify anions using specific chemical tests and observations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C12.4.1",
+      "parentCode": "C12.4",
+      "title": "Describe and explain separation and purification methods: solvent, filtration, crystallisation, distillation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B11.1.1",
+      "parentCode": "B11.1",
+      "title": "Identify breathing system parts in diagrams and images.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C12.3.1",
+      "parentCode": "C12.3",
+      "title": "Explain paper chromatography procedure for separating soluble coloured substance mixtures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C12.2.1",
+      "parentCode": "C12.2",
+      "title": "Describe acid-base titration procedure using burette, pipette, and indicator.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B12.1.1",
+      "parentCode": "B12.1",
+      "title": "Identify energy uses in organisms: contraction, synthesis, division, growth, nerves, temperature",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B19.2.1",
+      "parentCode": "B19.2",
+      "title": "Explain causes of endangerment and extinction: climate change, habitat loss, hunting, overharvesting, pollution, introduced species",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C12.1.1",
+      "parentCode": "C12.1",
+      "title": "Identify suitable equipment for measuring time, temperature, mass, and volume.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C11.7.1",
+      "parentCode": "C11.7",
+      "title": "Polymers are large molecules made from many smaller monomer molecules.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C11.6.1",
+      "parentCode": "C11.6",
+      "title": "Explain the products and process of ethanol complete combustion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B13.1.1",
+      "parentCode": "B13.1",
+      "title": "Electrical impulses travel along neurones to transmit signals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C3.2.1",
+      "parentCode": "C3.2",
+      "title": "Explain relative atomic mass as isotope average compared to carbon-12 standard",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C11.5.1",
+      "parentCode": "C11.5",
+      "title": "Identify double C=C bonds and unsaturation as defining alkene characteristics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C11.4.1",
+      "parentCode": "C11.4",
+      "title": "Identify single covalent bonding and saturated hydrocarbon classification of alkanes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B13.2.1",
+      "parentCode": "B13.2",
+      "title": "Define hormone as a chemical messenger produced by glands and transported via blood.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C11.3.1",
+      "parentCode": "C11.3",
+      "title": "Identify coal, natural gas, and petroleum as fossil fuels.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B13.3.1",
+      "parentCode": "B13.3",
+      "title": "Define homeostasis as maintaining stable internal conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C11.2.1",
+      "parentCode": "C11.2",
+      "title": "Name and draw displayed formulas for methane, ethane, ethene, and ethanol",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B14.1.1",
+      "parentCode": "B14.1",
+      "title": "Define drugs as substances that modify chemical reactions in the body.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C11.1.1",
+      "parentCode": "C11.1",
+      "title": "Draw and interpret displayed formulas showing all atoms and bonds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B15.1.1",
+      "parentCode": "B15.1",
+      "title": "Describe asexual reproduction and its production of genetically identical offspring.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B19.1.1",
+      "parentCode": "B19.1",
+      "title": "Define ecosystem as community of organisms and environment interacting together",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B15.2.1",
+      "parentCode": "B15.2",
+      "title": "Explain sexual reproduction: gamete fusion forming zygotes and genetically diverse offspring",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B15.3.1",
+      "parentCode": "B15.3",
+      "title": "Identify and draw parts of insect-pollinated flowers including sepals, petals, stamens, carpels.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C3.3.1",
+      "parentCode": "C3.3",
+      "title": "Identify g/dm³ as a unit for measuring concentration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C10.2.1",
+      "parentCode": "C10.2",
+      "title": "State composition of clean dry air by percentage of main gases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C10.1.1",
+      "parentCode": "C10.1",
+      "title": "Describe chemical tests for water using anhydrous cobalt chloride and copper sulfate",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B15.4.1",
+      "parentCode": "B15.4",
+      "title": "Identify and state functions of male reproductive system parts on diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C9.6.1",
+      "parentCode": "C9.6",
+      "title": "Relate metal extraction difficulty to reactivity series position.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C9.5.1",
+      "parentCode": "C9.5",
+      "title": "Identify oxygen and water as necessary conditions for iron rusting.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C9.4.1",
+      "parentCode": "C9.4",
+      "title": "State the complete order of the reactivity series for these elements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B15.5.1",
+      "parentCode": "B15.5",
+      "title": "Define sexually transmitted infections and their mode of transmission.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C4.1.1",
+      "parentCode": "C4.1",
+      "title": "Define electrolysis as ionic compound decomposition via electric current.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C9.3.1",
+      "parentCode": "C9.3",
+      "title": "Define alloys as metal mixtures; identify brass and stainless steel compositions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B16.1.1",
+      "parentCode": "B16.1",
+      "title": "Chromosomes comprise DNA containing genetic information organized as genes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C9.2.1",
+      "parentCode": "C9.2",
+      "title": "Explain metal uses based on physical properties: aluminium and copper applications.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C9.1.1",
+      "parentCode": "C9.1",
+      "title": "Compare physical properties of metals and non-metals: conductivity, malleability, melting/boiling points",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C8.5.1",
+      "parentCode": "C8.5",
+      "title": "Describe noble gases as unreactive monatomic gases; explain via electronic configuration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B16.2.1",
+      "parentCode": "B16.2",
+      "title": "Mitosis is nuclear division producing genetically identical daughter cells.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C4.2.1",
+      "parentCode": "C4.2",
+      "title": "Hydrogen-oxygen fuel cells produce electricity from hydrogen and oxygen, yielding only water.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C8.4.1",
+      "parentCode": "C8.4",
+      "title": "Identify key properties of transition metals: density, melting points, colored compounds, catalytic activity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C8.3.1",
+      "parentCode": "C8.3",
+      "title": "Describe halogens as diatomic non-metals with trends in density and reactivity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B16.3.1",
+      "parentCode": "B16.3",
+      "title": "Inheritance is the passing of genetic information between generations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C8.2.1",
+      "parentCode": "C8.2",
+      "title": "Describe Group I alkali metals and trends in melting point, density, reactivity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C8.1.1",
+      "parentCode": "C8.1",
+      "title": "Describe periodic table structure: periods, groups, increasing atomic number",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C7.3.1",
+      "parentCode": "C7.3",
+      "title": "Prepare, separate and purify soluble salts from acid reactions with various reagents.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C7.2.1",
+      "parentCode": "C7.2",
+      "title": "Classify oxides as acidic or basic based on metallic/non-metallic character",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B17.1.1",
+      "parentCode": "B17.1",
+      "title": "Explain that variation represents differences among individuals within a species.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C5.1.1",
+      "parentCode": "C5.1",
+      "title": "Exothermic reactions transfer thermal energy, increasing surroundings temperature.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C6.2.1",
+      "parentCode": "C6.2",
+      "title": "Describe how concentration, pressure, surface area, temperature, and catalysts affect reaction rate",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C7.1.1",
+      "parentCode": "C7.1",
+      "title": "Describe how acids react with metals, bases, and carbonates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "P1.3.1",
+      "parentCode": "P1.3",
+      "title": "Mass measures the quantity of matter in an object.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B17.2.1",
+      "parentCode": "B17.2",
+      "title": "Explain natural selection mechanisms: variation, reproduction, competition, adaptation, inheritance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "C8.1.2",
+      "parentCode": "C8.1",
+      "title": "Describe metallic to non-metallic character change across periods",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C12.2.2",
+      "parentCode": "C12.2",
+      "title": "Explain how indicators identify titration endpoint.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C9.4.2",
+      "parentCode": "C9.4",
+      "title": "Describe metal reactions with water and acid, explain using reactivity series.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C12.1.2",
+      "parentCode": "C12.1",
+      "title": "Define solvent, solute, solution, saturated solution, residue, and filtrate terms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B2.1.2",
+      "parentCode": "B2.1",
+      "title": "Describe bacterial cell structure and key components",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C2.5.2",
+      "parentCode": "C2.5",
+      "title": "Describe covalent bond formation in simple molecules using dot-and-cross diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B12.1.2",
+      "parentCode": "B12.1",
+      "title": "Explain aerobic respiration as oxygen-dependent nutrient breakdown releasing energy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C7.3.2",
+      "parentCode": "C7.3",
+      "title": "Define hydrated and anhydrous substances and their chemical differences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B3.2.2",
+      "parentCode": "B3.2",
+      "title": "Explain that osmosis moves water across cell membranes bidirectionally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C2.3.2",
+      "parentCode": "C2.3",
+      "title": "Interpret and use atomic and ionic symbols with mass and atomic numbers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P5.1.2",
+      "parentCode": "P5.1",
+      "title": "Identify relative charges: protons +1, neutrons 0, electrons −1",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B15.5.2",
+      "parentCode": "B15.5",
+      "title": "Identify HIV as a pathogen causing sexually transmitted infections.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P4.5.2",
+      "parentCode": "P4.5",
+      "title": "Identify factors that determine induced e.m.f. magnitude.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C11.7.2",
+      "parentCode": "C11.7",
+      "title": "Explain how poly(ethene) forms through addition polymerisation of ethene monomers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B3.3.2",
+      "parentCode": "B3.3",
+      "title": "Explain importance of active transport for molecular movement, including root hair ion uptake",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C6.2.2",
+      "parentCode": "C6.2",
+      "title": "State that catalysts increase reaction rate and remain unchanged",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B4.1.2",
+      "parentCode": "B4.1",
+      "title": "Explain how large biological molecules form from smaller subunit molecules through polymerization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C11.6.2",
+      "parentCode": "C11.6",
+      "title": "Identify ethanol applications as solvent and fuel.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C9.3.2",
+      "parentCode": "C9.3",
+      "title": "Recognize that alloys are harder, stronger, and more useful than pure metals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B5.1.2",
+      "parentCode": "B5.1",
+      "title": "Investigate and describe how temperature and pH changes affect enzyme activity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C11.5.2",
+      "parentCode": "C11.5",
+      "title": "Explain bromine test for identifying saturated versus unsaturated hydrocarbons.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C7.2.2",
+      "parentCode": "C7.2",
+      "title": "Define amphoteric oxides and their reactions with acids and bases",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P4.4.2",
+      "parentCode": "P4.4",
+      "title": "Identify electrical hazards including insulation damage, overheating, moisture, and circuit overloading.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B13.1.2",
+      "parentCode": "B13.1",
+      "title": "Describe mammalian nervous system structure: CNS and PNS divisions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C5.1.2",
+      "parentCode": "C5.1",
+      "title": "Endothermic reactions absorb thermal energy, decreasing surroundings temperature.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B6.1.2",
+      "parentCode": "B6.1",
+      "title": "State the word equation for photosynthesis with light and chlorophyll",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C2.6.2",
+      "parentCode": "C2.6",
+      "title": "Relate graphite and diamond structures to uses: lubricant, electrode, cutting tools.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P4.3.2",
+      "parentCode": "P4.3",
+      "title": "Draw and interpret circuits with generators and LEDs; understand their circuit behavior",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B16.1.2",
+      "parentCode": "B16.1",
+      "title": "A gene is a DNA segment coding for protein synthesis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P4.2.2",
+      "parentCode": "P4.2",
+      "title": "Describe charge interactions: like charges repel, opposite charges attract.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C11.4.2",
+      "parentCode": "C11.4",
+      "title": "Explain alkane chemical inertness and their combustion reactivity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P4.1.2",
+      "parentCode": "P4.1",
+      "title": "Compare properties of temporary magnets and permanent magnets.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C4.1.2",
+      "parentCode": "C4.1",
+      "title": "Identify anode, cathode, and electrolyte in electrolytic cells.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P3.4.2",
+      "parentCode": "P3.4",
+      "title": "Know human hearing range is approximately 20 Hz to 20 kHz",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C11.3.2",
+      "parentCode": "C11.3",
+      "title": "Recognize methane as the primary component of natural gas.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B6.2.2",
+      "parentCode": "B6.2",
+      "title": "Identify dicot leaf structures in diagrams and images",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C7.1.2",
+      "parentCode": "C7.1",
+      "title": "Describe the effects of acids on litmus and methyl orange indicators.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B13.2.2",
+      "parentCode": "B13.2",
+      "title": "Identify endocrine glands in diagrams and name their secreted hormones.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B7.1.2",
+      "parentCode": "B7.1",
+      "title": "Identify dietary sources and explain importance of nutrients including carbohydrates, fats, proteins, vitamins, minerals, fibre, water.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C2.2.2",
+      "parentCode": "C2.2",
+      "title": "State relative charges and masses of protons, neutrons, and electrons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C2.4.2",
+      "parentCode": "C2.4",
+      "title": "Define ionic bonds as electrostatic attractions between opposite charges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B7.2.2",
+      "parentCode": "B7.2",
+      "title": "Describe digestive organ functions: ingestion, digestion, absorption, assimilation, egestion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C9.1.2",
+      "parentCode": "C9.1",
+      "title": "Describe metal chemical properties: reactions with dilute acids, cold water, and steam",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B7.3.2",
+      "parentCode": "B7.3",
+      "title": "Physical digestion increases surface area for enzyme action in chemical digestion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B18.2.2",
+      "parentCode": "B18.2",
+      "title": "Build and analyse simple food chains",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B13.3.2",
+      "parentCode": "B13.3",
+      "title": "Explain negative feedback mechanisms and set points in homeostatic control.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P3.3.2",
+      "parentCode": "P3.3",
+      "title": "Understand EM waves travel at constant speed in vacuum.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C3.2.2",
+      "parentCode": "C3.2",
+      "title": "Define relative molecular mass and relative formula mass using atomic mass sums",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P3.2.2",
+      "parentCode": "P3.2",
+      "title": "Describe plane mirror image formation and characteristics: same size, distance, laterally inverted.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C11.2.2",
+      "parentCode": "C11.2",
+      "title": "Identify compound type from name endings or molecular/displayed formulas",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P3.1.2",
+      "parentCode": "P3.1",
+      "title": "Describe wave motion using rope, spring, and water wave examples",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B17.1.2",
+      "parentCode": "B17.1",
+      "title": "Identify continuous variation producing phenotypic ranges between extremes like body length.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B8.1.2",
+      "parentCode": "B8.1",
+      "title": "Identify xylem and phloem positions in dicot root, stem, and leaf sections.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B18.1.2",
+      "parentCode": "B18.1",
+      "title": "Explain how energy flows through organisms and transfers to the environment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B8.2.2",
+      "parentCode": "B8.2",
+      "title": "Explain how root hair surface area increases water and mineral ion uptake.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B14.1.2",
+      "parentCode": "B14.1",
+      "title": "Describe how antibiotics are used to treat bacterial infections.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B19.1.2",
+      "parentCode": "B19.1",
+      "title": "Define biodiversity as the number of different species in an area",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B8.3.2",
+      "parentCode": "B8.3",
+      "title": "Outline the pathway of water evaporation and diffusion through stomata.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C1.2.2",
+      "parentCode": "C1.2",
+      "title": "Explain how molecular mass affects the rate of gas diffusion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C11.1.2",
+      "parentCode": "C11.1",
+      "title": "Define saturated compounds as having only single carbon-carbon bonds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P2.3.2",
+      "parentCode": "P2.3",
+      "title": "Explain conduction via lattice vibrations and electron movement in metals",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B16.2.2",
+      "parentCode": "B16.2",
+      "title": "Mitosis functions in growth, tissue repair, cell replacement, and asexual reproduction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B8.4.2",
+      "parentCode": "B8.4",
+      "title": "Sources are plant parts that release sucrose or amino acids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B2.2.2",
+      "parentCode": "B2.2",
+      "title": "Calculate magnification and specimen size using millimetre measurements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B15.1.2",
+      "parentCode": "B15.1",
+      "title": "Identify asexual reproduction examples in visual and textual materials.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B9.1.2",
+      "parentCode": "B9.1",
+      "title": "Describe fish single circulation pathway and organization",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C2.7.2",
+      "parentCode": "C2.7",
+      "title": "Explain electrical conductivity and malleability of metals using structure and bonding",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B17.2.2",
+      "parentCode": "B17.2",
+      "title": "Explain selective breeding: human selection, crossing, offspring selection for desirable traits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C8.3.2",
+      "parentCode": "C8.3",
+      "title": "State the physical appearance of chlorine, bromine, and iodine at room temperature",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B9.2.2",
+      "parentCode": "B9.2",
+      "title": "State blood flow direction: arteries away, veins return to heart.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B15.2.2",
+      "parentCode": "B15.2",
+      "title": "Define species as organisms capable of producing fertile offspring together",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P2.2.2",
+      "parentCode": "P2.2",
+      "title": "Explain everyday applications and consequences of thermal expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B3.1.2",
+      "parentCode": "B3.1",
+      "title": "Identify substances moving across cell membranes by diffusion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P2.1.2",
+      "parentCode": "P2.1",
+      "title": "Learn terminology for state changes between solids, liquids, gases",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C10.2.2",
+      "parentCode": "C10.2",
+      "title": "State sources of carbon dioxide, carbon monoxide, particulates, methane, nitrogen oxides, sulfur dioxide.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P1.7.2",
+      "parentCode": "P1.7",
+      "title": "Define pressure and apply the equation p = F/A in calculations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P5.2.2",
+      "parentCode": "P5.2",
+      "title": "Identify major background radiation sources: radon, rocks, buildings, food, cosmic rays.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B9.3.2",
+      "parentCode": "B9.3",
+      "title": "State the functions of capillaries in the circulatory system.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C3.1.2",
+      "parentCode": "C3.1",
+      "title": "Define molecular formula as number and type of atoms per molecule",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B15.3.2",
+      "parentCode": "B15.3",
+      "title": "State the functions of flower structures identified in objective 1.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P1.6.2",
+      "parentCode": "P1.6",
+      "title": "Explain energy transfer mechanisms between stores via forces, currents, heat, and waves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P6.2.2",
+      "parentCode": "P6.2",
+      "title": "Calculate light travel time across Solar System distances",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B9.4.2",
+      "parentCode": "B9.4",
+      "title": "Recognize red and white blood cells in microscope images and diagrams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C1.1.2",
+      "parentCode": "C1.1",
+      "title": "Explain particle-level structure: separation, arrangement, and motion in three states.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B16.3.2",
+      "parentCode": "B16.3",
+      "title": "Genotype is an organism's genetic composition defined by alleles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P1.5.2",
+      "parentCode": "P1.5",
+      "title": "Calculate resultant forces acting along the same straight line.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C10.1.2",
+      "parentCode": "C10.1",
+      "title": "Describe testing water purity using melting and boiling point measurements",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C4.2.2",
+      "parentCode": "C4.2",
+      "title": "Compare advantages and disadvantages of hydrogen fuel cells versus petrol engines in vehicles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B10.1.2",
+      "parentCode": "B10.1",
+      "title": "Define transmissible disease as pathogen transmission between hosts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C9.6.2",
+      "parentCode": "C9.6",
+      "title": "State iron extraction from hematite via blast furnace reduction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P1.4.2",
+      "parentCode": "P1.4",
+      "title": "Measure density of liquids, regular solids, and irregular solids using displacement method.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C8.2.2",
+      "parentCode": "C8.2",
+      "title": "Predict properties of Group I elements using given information",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P1.2.2",
+      "parentCode": "P1.2",
+      "title": "Calculate average speed from total distance and time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B15.4.2",
+      "parentCode": "B15.4",
+      "title": "Identify and state functions of female reproductive system parts on diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P1.1.2",
+      "parentCode": "P1.1",
+      "title": "Describe measuring various time intervals using clocks and digital timers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C3.3.2",
+      "parentCode": "C3.3",
+      "title": "Define mole and Avogadro constant as 6.02 × 10²³ particles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C12.5.2",
+      "parentCode": "C12.5",
+      "title": "Identify cations using sodium hydroxide and ammonia solution tests",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C6.3.2",
+      "parentCode": "C6.3",
+      "title": "Oxidation is oxygen gain; reduction is oxygen loss.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C12.4.2",
+      "parentCode": "C12.4",
+      "title": "Suggest appropriate separation techniques based on substance properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "P1.3.2",
+      "parentCode": "P1.3",
+      "title": "Weight is the gravitational force acting on an object's mass.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C12.3.2",
+      "parentCode": "C12.3",
+      "title": "Analyze chromatograms to identify unknowns and determine substance purity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C9.5.2",
+      "parentCode": "C9.5",
+      "title": "List barrier methods such as painting, greasing, and plastic coating.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B11.1.2",
+      "parentCode": "B11.1",
+      "title": "Investigate air composition differences using limewater test.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B19.2.2",
+      "parentCode": "B19.2",
+      "title": "Describe conservation methods: monitoring, habitat protection, education, captive breeding, seed banks",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "B15.2.3",
+      "parentCode": "B15.2",
+      "title": "Identify gamete nuclei as haploid and zygote nucleus as diploid",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B2.1.3",
+      "parentCode": "B2.1",
+      "title": "Identify cell structures in diagrams of different cell types",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B2.2.3",
+      "parentCode": "B2.2",
+      "title": "Convert between millimetres and micrometres measurement units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B3.1.3",
+      "parentCode": "B3.1",
+      "title": "Explain why diffusion of gases and solutes matters in organisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B3.2.3",
+      "parentCode": "B3.2",
+      "title": "Experimentally examine how plant tissues respond to varying solution concentrations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B4.1.3",
+      "parentCode": "B4.1",
+      "title": "Apply chemical tests to identify starch, reducing sugars, proteins, and fats in samples.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B5.1.3",
+      "parentCode": "B5.1",
+      "title": "Explain enzyme action using active site, enzyme-substrate complex, substrate, and product concepts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B6.1.3",
+      "parentCode": "B6.1",
+      "title": "Identify chlorophyll as green pigment located in chloroplasts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B6.2.3",
+      "parentCode": "B6.2",
+      "title": "Explain how identified leaf structures function in photosynthesis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B7.1.3",
+      "parentCode": "B7.1",
+      "title": "Identify nutritional causes of scurvy and rickets deficiency diseases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B7.3.3",
+      "parentCode": "B7.3",
+      "title": "Chemical digestion breaks large insoluble molecules into small soluble molecules.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B8.2.3",
+      "parentCode": "B8.2",
+      "title": "Describe water transport pathway through root hair cells, cortex, xylem, and mesophyll.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B8.3.3",
+      "parentCode": "B8.3",
+      "title": "Investigate and describe how temperature and wind speed affect transpiration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B8.4.3",
+      "parentCode": "B8.4",
+      "title": "Sinks are plant parts that use or store sucrose or amino acids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B9.1.3",
+      "parentCode": "B9.1",
+      "title": "Describe mammalian double circulation pulmonary and systemic pathways",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B9.2.3",
+      "parentCode": "B9.2",
+      "title": "State heart monitoring methods: ECG, pulse rate, valve sounds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B9.3.3",
+      "parentCode": "B9.3",
+      "title": "Explain how artery and vein structure relates to blood pressure differences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B9.4.3",
+      "parentCode": "B9.4",
+      "title": "Describe functions of red cells, white cells, platelets, and plasma.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B10.1.3",
+      "parentCode": "B10.1",
+      "title": "Identify direct and indirect pathogen transmission routes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B11.1.3",
+      "parentCode": "B11.1",
+      "title": "Describe air composition differences for oxygen, carbon dioxide, water vapour.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B12.1.3",
+      "parentCode": "B12.1",
+      "title": "Write word equation for aerobic respiration with glucose, oxygen, carbon dioxide, water",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B13.1.3",
+      "parentCode": "B13.1",
+      "title": "Nervous system coordinates and regulates all body functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B13.2.3",
+      "parentCode": "B13.2",
+      "title": "Describe adrenaline's role in fight or flight and its physiological effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B13.3.3",
+      "parentCode": "B13.3",
+      "title": "Describe blood glucose regulation via liver, insulin, and glucagon.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B14.1.3",
+      "parentCode": "B14.1",
+      "title": "Explain that antibiotic resistance reduces the effectiveness of antibiotics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B15.1.3",
+      "parentCode": "B15.1",
+      "title": "Discuss asexual reproduction advantages and disadvantages for wild populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B15.3.3",
+      "parentCode": "B15.3",
+      "title": "Describe pollination as pollen grain transfer from anther to stigma.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B15.4.3",
+      "parentCode": "B15.4",
+      "title": "Describe fertilisation as nuclear fusion of sperm and egg cell nuclei",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B15.5.3",
+      "parentCode": "B15.5",
+      "title": "Recognize that HIV infection can progress to AIDS.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B16.1.3",
+      "parentCode": "B16.1",
+      "title": "An allele represents an alternative variant form of a gene.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B16.2.3",
+      "parentCode": "B16.2",
+      "title": "Chromosomes replicate exactly before mitosis begins.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B16.3.3",
+      "parentCode": "B16.3",
+      "title": "Phenotype comprises the observable physical characteristics of an organism",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B17.1.3",
+      "parentCode": "B17.1",
+      "title": "Identify discontinuous variation producing distinct phenotypes with no intermediates, such as blood groups.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B17.2.3",
+      "parentCode": "B17.2",
+      "title": "Describe multi-generational artificial selection improving crops and animals; apply to examples.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B18.2.3",
+      "parentCode": "B18.2",
+      "title": "Define and analyse food webs as interconnected food chain networks",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "B19.1.3",
+      "parentCode": "B19.1",
+      "title": "Describe reasons for habitat destruction: housing, agriculture, resource extraction, pollution",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C1.1.3",
+      "parentCode": "C1.1",
+      "title": "Describe five types of state changes: melting, boiling, evaporating, freezing, condensing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C2.2.3",
+      "parentCode": "C2.2",
+      "title": "Define proton number or atomic number as number of nuclear protons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C2.3.3",
+      "parentCode": "C2.3",
+      "title": "Explain why isotopes have identical chemical properties: same electrons, same configuration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C2.4.3",
+      "parentCode": "C2.4",
+      "title": "Show ionic bond formation between Group I and VII using dot-and-cross diagrams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C2.5.3",
+      "parentCode": "C2.5",
+      "title": "Explain low melting points, boiling points, and poor conductivity using structure and bonding",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C3.1.3",
+      "parentCode": "C3.1",
+      "title": "Deduce simple molecular compound formula from model or diagram",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C3.2.3",
+      "parentCode": "C3.2",
+      "title": "Calculate reacting masses in simple proportions without using mole concept",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C3.3.3",
+      "parentCode": "C3.3",
+      "title": "Apply mole equation to calculate amount, mass, molar mass, and relative masses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C4.1.3",
+      "parentCode": "C4.1",
+      "title": "Identify products and observations for three specific electrolysis examples.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C5.1.3",
+      "parentCode": "C5.1",
+      "title": "Interpret reaction pathway diagrams for exothermic and endothermic reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C6.2.3",
+      "parentCode": "C6.2",
+      "title": "Describe practical methods to investigate reaction rates using mass and gas formation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C6.3.3",
+      "parentCode": "C6.3",
+      "title": "Identify redox reactions by recognizing oxygen gain and loss.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C7.1.3",
+      "parentCode": "C7.1",
+      "title": "Define bases and alkalis; explain that alkalis are soluble bases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C7.2.3",
+      "parentCode": "C7.2",
+      "title": "Identify Al2O3 and ZnO as examples of amphoteric oxides",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C7.3.3",
+      "parentCode": "C7.3",
+      "title": "Describe how to prepare insoluble salts using precipitation reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C8.1.3",
+      "parentCode": "C8.1",
+      "title": "Explain group similarities via electronic configuration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C8.3.3",
+      "parentCode": "C8.3",
+      "title": "Describe and explain halogen displacement reactions with halide ions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C9.3.3",
+      "parentCode": "C9.3",
+      "title": "Explain alloy applications based on physical properties; stainless steel cutlery example.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C9.4.3",
+      "parentCode": "C9.4",
+      "title": "Deduce reactivity order from experimental data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C9.5.3",
+      "parentCode": "C9.5",
+      "title": "Explain how barrier methods work by preventing oxygen and water access.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C9.6.3",
+      "parentCode": "C9.6",
+      "title": "Describe detailed blast furnace chemistry including coke combustion, gas reduction, ore reduction, limestone decomposition, and slag formation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C10.1.3",
+      "parentCode": "C10.1",
+      "title": "Explain why distilled water is preferred over tap water in practical chemistry",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C10.2.3",
+      "parentCode": "C10.2",
+      "title": "State adverse effects of carbon dioxide, carbon monoxide, particulates, methane, nitrogen oxides, sulfur dioxide.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C11.1.3",
+      "parentCode": "C11.1",
+      "title": "Define unsaturated compounds as containing non-single carbon-carbon bonds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C11.2.3",
+      "parentCode": "C11.2",
+      "title": "Name and draw structural and displayed formulas of unbranched alkanes and alkenes up to C4",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C11.3.3",
+      "parentCode": "C11.3",
+      "title": "Define hydrocarbons as compounds containing only hydrogen and carbon.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C11.5.3",
+      "parentCode": "C11.5",
+      "title": "Explain alkene and hydrogen production via thermal catalytic cracking of alkanes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C11.7.3",
+      "parentCode": "C11.7",
+      "title": "Identify repeat units in both addition and condensation polymers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C12.3.3",
+      "parentCode": "C12.3",
+      "title": "Apply the Rf equation relating substance and solvent travel distances.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C12.4.3",
+      "parentCode": "C12.4",
+      "title": "Identify substances and evaluate purity using melting and boiling point data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C12.5.3",
+      "parentCode": "C12.5",
+      "title": "Identify gases using characteristic tests and observable reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P1.1.3",
+      "parentCode": "P1.1",
+      "title": "Determine average values for distance and time by measuring multiples including pendulum period.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P1.2.3",
+      "parentCode": "P1.2",
+      "title": "Create and analyze distance-time and speed-time graphs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P1.3.3",
+      "parentCode": "P1.3",
+      "title": "Define gravitational field strength g = W/m; know g ≈ 9.8 N/kg near Earth's surface.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P1.4.3",
+      "parentCode": "P1.4",
+      "title": "Predict floating or sinking behavior using density comparisons.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P1.5.3",
+      "parentCode": "P1.5",
+      "title": "Friction impedes relative motion between surfaces and produces heating.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P1.6.3",
+      "parentCode": "P1.6",
+      "title": "Apply conservation of energy principle to simple examples and energy flow diagrams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P2.1.3",
+      "parentCode": "P2.1",
+      "title": "Explain particle arrangement, separation, motion; draw particle diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P2.2.3",
+      "parentCode": "P2.2",
+      "title": "Know melting and boiling temperatures of water in Celsius.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P2.3.3",
+      "parentCode": "P2.3",
+      "title": "Recognise convection as key energy transfer method in fluids",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P3.1.3",
+      "parentCode": "P3.1",
+      "title": "Describe wavelength, frequency, crest, trough, amplitude, and wave speed",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P3.2.3",
+      "parentCode": "P3.2",
+      "title": "State and apply the law of reflection: angle of incidence equals angle of reflection.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P3.3.3",
+      "parentCode": "P3.3",
+      "title": "Describe practical applications across all EM spectrum regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P3.4.3",
+      "parentCode": "P3.4",
+      "title": "Understand sound waves require a medium for transmission",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P4.1.3",
+      "parentCode": "P4.1",
+      "title": "Distinguish between magnetic and non-magnetic materials.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P4.2.3",
+      "parentCode": "P4.2",
+      "title": "Explain friction charging and methods to test if objects are charged.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P4.3.3",
+      "parentCode": "P4.3",
+      "title": "Understand that current is identical at all points in a series circuit",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P4.4.3",
+      "parentCode": "P4.4",
+      "title": "Describe how fuses and trip switches protect circuits and select suitable ratings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P4.5.3",
+      "parentCode": "P4.5",
+      "title": "Describe a.c. generator construction with rotating coil and slip rings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P5.1.3",
+      "parentCode": "P5.1",
+      "title": "Define Z and A; calculate neutron number using N = A − Z",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P5.2.3",
+      "parentCode": "P5.2",
+      "title": "Understand detection of ionising radiation using detector and counter apparatus.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "P6.2.3",
+      "parentCode": "P6.2",
+      "title": "Understand how the Sun's mass causes planetary orbits",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "C1.1.4",
+      "parentCode": "C1.1",
+      "title": "Explain state changes using kinetic theory; interpret heating and cooling curves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B13.3.4",
+      "parentCode": "B13.3",
+      "title": "Identify skin structures in diagrams and images.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B8.3.4",
+      "parentCode": "B8.3",
+      "title": "Explain how temperature, wind speed, and humidity affect transpiration rate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B13.2.4",
+      "parentCode": "B13.2",
+      "title": "Identify the pancreas as the source of glucagon secretion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B5.1.4",
+      "parentCode": "B5.1",
+      "title": "Explain enzyme specificity through complementary shape and fit of active site.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B3.1.4",
+      "parentCode": "B3.1",
+      "title": "Investigate how surface area, temperature, concentration gradient, distance affect diffusion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C11.3.4",
+      "parentCode": "C11.3",
+      "title": "Recognize petroleum as a mixture of various hydrocarbon compounds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C8.3.4",
+      "parentCode": "C8.3",
+      "title": "Predict properties of other Group VII elements using given information",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B16.2.4",
+      "parentCode": "B16.2",
+      "title": "Mitosis separates chromosome copies, preserving chromosome number in daughter cells.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B10.1.4",
+      "parentCode": "B10.1",
+      "title": "Describe five key physical and cellular body defences against pathogens.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P3.4.4",
+      "parentCode": "P3.4",
+      "title": "Measure sound speed in air using distance and time measurements",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C8.1.4",
+      "parentCode": "C8.1",
+      "title": "Identify trends within groups using element information",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B13.1.4",
+      "parentCode": "B13.1",
+      "title": "Identify sensory, relay, and motor neurones in diagrams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C2.2.4",
+      "parentCode": "C2.2",
+      "title": "Define mass number or nucleon number as total protons plus neutrons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P2.3.4",
+      "parentCode": "P2.3",
+      "title": "Describe convection processes in liquids and gases",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C11.5.4",
+      "parentCode": "C11.5",
+      "title": "Explain alkene addition reactions with bromine, hydrogen, and steam under specific conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B2.1.4",
+      "parentCode": "B2.1",
+      "title": "Explain functions of organelles in plant, animal and bacterial cells",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B16.1.4",
+      "parentCode": "B16.1",
+      "title": "Sex inheritance in humans depends on XX and XY chromosome combinations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P4.2.4",
+      "parentCode": "P4.2",
+      "title": "Explain that friction charging involves only electron transfer, not positive charge.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B9.3.4",
+      "parentCode": "B9.3",
+      "title": "Explain how capillary structure enables their physiological functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C7.1.4",
+      "parentCode": "C7.1",
+      "title": "Describe how bases react with acids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C11.7.4",
+      "parentCode": "C11.7",
+      "title": "Deduce addition polymer repeat units from alkenes and work backwards.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B15.5.4",
+      "parentCode": "B15.5",
+      "title": "Outline how HIV is transmitted between individuals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C6.2.4",
+      "parentCode": "C6.2",
+      "title": "Interpret data and graphs from rate of reaction experiments",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B12.1.4",
+      "parentCode": "B12.1",
+      "title": "Write balanced symbol equation for aerobic respiration with coefficients",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B9.1.4",
+      "parentCode": "B9.1",
+      "title": "Explain why double circulation is advantageous for mammals",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P3.2.4",
+      "parentCode": "P3.2",
+      "title": "Describe plane mirror image formation and explain why the image is virtual.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C9.3.4",
+      "parentCode": "C9.3",
+      "title": "Recognize alloy structures in structural diagrams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B11.1.4",
+      "parentCode": "B11.1",
+      "title": "Investigate and describe physical activity effects on breathing rate and depth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B9.4.4",
+      "parentCode": "B9.4",
+      "title": "Recognize lymphocytes and phagocytes in microscope images and diagrams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P5.2.4",
+      "parentCode": "P5.2",
+      "title": "Apply count rate measurements in counts per second or minute.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C4.1.4",
+      "parentCode": "C4.1",
+      "title": "Describe electron and ion movement during electrolysis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P6.2.4",
+      "parentCode": "P6.2",
+      "title": "Understand that gravitational force maintains planetary orbits",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P2.1.4",
+      "parentCode": "P2.1",
+      "title": "Explain how particle motion relates to temperature changes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P1.5.4",
+      "parentCode": "P1.5",
+      "title": "Friction acts on objects moving through liquids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C3.3.4",
+      "parentCode": "C3.3",
+      "title": "Apply molar gas volume of 24 dm³ at r.t.p. in gas calculations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C9.4.4",
+      "parentCode": "C9.4",
+      "title": "Explain metal reactivities using displacement reactions and ion formation tendency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C12.5.4",
+      "parentCode": "C12.5",
+      "title": "Identify cations by observing characteristic flame test colors",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P4.1.4",
+      "parentCode": "P4.1",
+      "title": "Compare permanent magnets with electromagnets.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P2.2.4",
+      "parentCode": "P2.2",
+      "title": "Describe differences between boiling and evaporation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P1.6.4",
+      "parentCode": "P1.6",
+      "title": "Use kinetic energy equation to calculate energy from mass and velocity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P1.1.4",
+      "parentCode": "P1.1",
+      "title": "Understand scalar quantities have magnitude only; vector quantities have magnitude and direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B3.2.4",
+      "parentCode": "B3.2",
+      "title": "Define osmosis using water potential gradients and concentration differences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C9.5.4",
+      "parentCode": "C9.5",
+      "title": "Describe zinc galvanising as both barrier and sacrificial protection method.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B9.2.4",
+      "parentCode": "B9.2",
+      "title": "Investigate and describe physical activity's effect on heart rate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P4.3.4",
+      "parentCode": "P4.3",
+      "title": "Construct and use both series and parallel circuit configurations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B18.2.4",
+      "parentCode": "B18.2",
+      "title": "Define producers as organisms making nutrients via photosynthesis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P1.2.4",
+      "parentCode": "P1.2",
+      "title": "Identify acceleration and deceleration from changes in speed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B15.4.4",
+      "parentCode": "B15.4",
+      "title": "Describe testosterone and oestrogen roles in secondary sexual characteristics development",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B6.1.4",
+      "parentCode": "B6.1",
+      "title": "Investigate requirements of chlorophyll, light, and carbon dioxide for photosynthesis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P3.1.4",
+      "parentCode": "P3.1",
+      "title": "Describe wave reflection and refraction due to speed change",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P4.4.4",
+      "parentCode": "P4.4",
+      "title": "Justify double-insulation or earthing requirements for appliance safety casings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B17.2.4",
+      "parentCode": "B17.2",
+      "title": "Explain antibiotic-resistant bacteria development as natural selection example.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C5.1.4",
+      "parentCode": "C5.1",
+      "title": "Enthalpy change ∆H is negative for exothermic, positive for endothermic reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C9.6.4",
+      "parentCode": "C9.6",
+      "title": "State bauxite as main aluminium ore extracted by electrolysis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B19.1.4",
+      "parentCode": "B19.1",
+      "title": "State undesirable effects of deforestation on biodiversity, soil, flooding, carbon dioxide",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B16.3.4",
+      "parentCode": "B16.3",
+      "title": "Homozygous means possessing two identical alleles for a gene",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C2.4.4",
+      "parentCode": "C2.4",
+      "title": "Describe melting points, boiling points, electrical conductivity, and water solubility of ionic compounds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P1.3.4",
+      "parentCode": "P1.3",
+      "title": "Describe weight as a gravitational field's effect on mass; apply this concept.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P5.1.4",
+      "parentCode": "P5.1",
+      "title": "Apply nuclide notation to represent isotopes and nuclear species",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C10.1.4",
+      "parentCode": "C10.1",
+      "title": "Describe domestic water treatment: sedimentation, filtration, carbon use, and chlorination",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B15.3.4",
+      "parentCode": "B15.3",
+      "title": "State that fertilisation involves pollen nucleus fusion with ovule nucleus.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B15.2.4",
+      "parentCode": "B15.2",
+      "title": "Evaluate sexual reproduction benefits and drawbacks for wild populations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C2.5.4",
+      "parentCode": "C2.5",
+      "title": "Describe covalent bond formation in additional molecules using dot-and-cross diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C10.2.4",
+      "parentCode": "C10.2",
+      "title": "State and explain strategies to reduce climate change effects through various means.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C6.3.4",
+      "parentCode": "C6.3",
+      "title": "Identify oxidation and reduction in redox reactions using oxidation numbers for naming ions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C3.1.4",
+      "parentCode": "C3.1",
+      "title": "Construct word equations showing reactants forming products",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B17.1.4",
+      "parentCode": "B17.1",
+      "title": "Explain mutation as a change occurring in genetic material.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B7.3.4",
+      "parentCode": "B7.3",
+      "title": "Chemical digestion produces small soluble molecules for absorption.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "B14.1.4",
+      "parentCode": "B14.1",
+      "title": "Distinguish that antibiotics kill bacteria but not viruses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P3.3.4",
+      "parentCode": "P3.3",
+      "title": "Explain health hazards from excessive EM radiation exposure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "C11.1.4",
+      "parentCode": "C11.1",
+      "title": "Define homologous series as families of similar compounds with similar properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P4.5.4",
+      "parentCode": "P4.5",
+      "title": "Draw and interpret e.m.f. versus time graphs for a.c. generators.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "P1.3.5",
+      "parentCode": "P1.3",
+      "title": "Gravitational field strength equals the acceleration of free fall.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B9.4.5",
+      "parentCode": "B9.4",
+      "title": "Describe antibody production by lymphocytes and pathogen engulfment by phagocytes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C7.1.5",
+      "parentCode": "C7.1",
+      "title": "Describe the effects of alkalis on litmus and methyl orange indicators.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P1.5.5",
+      "parentCode": "P1.5",
+      "title": "Friction acts on objects moving through gases like air.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P4.3.5",
+      "parentCode": "P4.3",
+      "title": "Calculate total resistance for multiple resistors connected in series",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C2.4.5",
+      "parentCode": "C2.4",
+      "title": "Show ionic bond formation between metallic and non-metallic elements using diagrams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B18.2.5",
+      "parentCode": "B18.2",
+      "title": "Define consumers as organisms obtaining energy by feeding on others",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C3.1.5",
+      "parentCode": "C3.1",
+      "title": "Balance and interpret simple symbol equations with state symbols",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C1.1.5",
+      "parentCode": "C1.1",
+      "title": "Describe how temperature and pressure changes affect gas volume.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C2.2.5",
+      "parentCode": "C2.2",
+      "title": "Determine electronic configuration for elements with proton number one to twenty",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B9.3.5",
+      "parentCode": "B9.3",
+      "title": "Identify major blood vessels to heart and lungs in diagrams and images.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B16.3.5",
+      "parentCode": "B16.3",
+      "title": "Two identical homozygous individuals breeding together produce pure-breeding offspring",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P1.6.5",
+      "parentCode": "P1.6",
+      "title": "Use gravitational potential energy equation with mass, gravity, and height change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C2.5.5",
+      "parentCode": "C2.5",
+      "title": "Explain properties of molecular compounds using weak intermolecular forces and structure",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B16.2.5",
+      "parentCode": "B16.2",
+      "title": "Meiosis produces gametes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B5.1.5",
+      "parentCode": "B5.1",
+      "title": "Explain temperature effects on enzyme activity via kinetic energy, shape, collisions, denaturation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P3.2.5",
+      "parentCode": "P3.2",
+      "title": "Use diagrams, measurements, and calculations to analyze plane mirror reflection.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P3.3.5",
+      "parentCode": "P3.3",
+      "title": "State EM wave speed in vacuum and air numerically.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B16.1.5",
+      "parentCode": "B16.1",
+      "title": "A haploid nucleus contains one complete set of chromosomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B15.5.5",
+      "parentCode": "B15.5",
+      "title": "Explain strategies and methods for controlling STI transmission.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C9.3.5",
+      "parentCode": "C9.3",
+      "title": "Explain how different-sized atoms prevent layer sliding, increasing alloy strength.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P3.1.5",
+      "parentCode": "P3.1",
+      "title": "Recall and apply the wave speed equation v = fλ",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B3.2.5",
+      "parentCode": "B3.2",
+      "title": "Explain plant cell responses using turgidity, turgor pressure, plasmolysis, and flaccidity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B15.4.5",
+      "parentCode": "B15.4",
+      "title": "Describe menstrual cycle changes in ovaries and uterine lining without hormonal detail",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C9.5.5",
+      "parentCode": "C9.5",
+      "title": "Explain sacrificial protection using reactivity series and electron loss concepts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P4.1.5",
+      "parentCode": "P4.1",
+      "title": "Define magnetic field as a region of force on magnetic poles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B15.3.5",
+      "parentCode": "B15.3",
+      "title": "Describe structural adaptations of insect-pollinated and wind-pollinated flowers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P5.1.5",
+      "parentCode": "P5.1",
+      "title": "Recognize isotopes exist for elements; some are radioactive",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C10.2.5",
+      "parentCode": "C10.2",
+      "title": "State and explain strategies to reduce acid rain effects from sulfur dioxide.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P3.4.5",
+      "parentCode": "P3.4",
+      "title": "Explain amplitude effects on loudness and frequency effects on pitch",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B14.1.5",
+      "parentCode": "B14.1",
+      "title": "Explain how limiting antibiotic use prevents resistant bacteria development.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C11.1.5",
+      "parentCode": "C11.1",
+      "title": "Describe homologous series characteristics: same general formula and physical property trends.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B13.3.5",
+      "parentCode": "B13.3",
+      "title": "Describe mammalian thermoregulation mechanisms and blood vessel responses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C11.3.5",
+      "parentCode": "C11.3",
+      "title": "Explain how fractional distillation separates petroleum into useful fractions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P6.2.5",
+      "parentCode": "P6.2",
+      "title": "Know the Sun's composition and electromagnetic radiation output",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P2.3.5",
+      "parentCode": "P2.3",
+      "title": "Explain convection using density change concepts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B13.1.5",
+      "parentCode": "B13.1",
+      "title": "Describe reflex arc pathway from receptor through to effector.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B7.3.5",
+      "parentCode": "B7.3",
+      "title": "Amylase breaks starch to sugars; proteases break protein to amino acids; lipase breaks fats to fatty acids and glycerol.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B8.3.5",
+      "parentCode": "B8.3",
+      "title": "Explain the mechanism and causes of plant wilting.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B12.1.5",
+      "parentCode": "B12.1",
+      "title": "Explain anaerobic respiration as oxygen-independent nutrient breakdown releasing energy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C11.7.5",
+      "parentCode": "C11.7",
+      "title": "Explain the key differences between addition and condensation polymerisation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B6.1.5",
+      "parentCode": "B6.1",
+      "title": "State the balanced chemical equation for photosynthesis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B11.1.5",
+      "parentCode": "B11.1",
+      "title": "Describe gas exchange surface features in humans.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C4.1.5",
+      "parentCode": "C4.1",
+      "title": "Identify products and observations for copper sulfate electrolysis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B17.1.5",
+      "parentCode": "B17.1",
+      "title": "Identify mutation as the mechanism through which new alleles originate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P5.2.5",
+      "parentCode": "P5.2",
+      "title": "Identify alpha, beta, gamma emissions; describe nature, ionising effects, penetration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C3.3.5",
+      "parentCode": "C3.3",
+      "title": "Calculate stoichiometric masses, limiting reactants, gas volumes, and unit conversions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P4.2.5",
+      "parentCode": "P4.2",
+      "title": "Differentiate conductors from insulators with relevant examples.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P2.2.5",
+      "parentCode": "P2.2",
+      "title": "Describe condensation and solidification using particle theory.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B2.1.5",
+      "parentCode": "B2.1",
+      "title": "Recognize that cell division produces new cells",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P1.1.5",
+      "parentCode": "P1.1",
+      "title": "Know distance, speed, time, mass, energy, temperature are scalar quantities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C5.1.5",
+      "parentCode": "C5.1",
+      "title": "Activation energy is minimum energy required for colliding particles to react.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C6.2.5",
+      "parentCode": "C6.2",
+      "title": "Explain using collision theory how concentration, pressure, surface area, temperature, and catalysts affect rate",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P1.2.5",
+      "parentCode": "P1.2",
+      "title": "Identify motion states from graph shapes qualitatively.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B9.2.5",
+      "parentCode": "B9.2",
+      "title": "Describe coronary heart disease blockage and state multiple risk factors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C6.3.5",
+      "parentCode": "C6.3",
+      "title": "Oxidation involves electron loss or increased oxidation number.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P4.5.5",
+      "parentCode": "P4.5",
+      "title": "Describe magnetic field patterns from currents in wires and solenoids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B19.1.5",
+      "parentCode": "B19.1",
+      "title": "Explain undesirable effects of deforestation on biodiversity, soil, flooding, carbon dioxide",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "P2.1.5",
+      "parentCode": "P2.1",
+      "title": "Recognize random particle motion as evidence for kinetic particle model",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "B10.1.5",
+      "parentCode": "B10.1",
+      "title": "Explain five public health measures preventing disease transmission.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "C1.1.6",
+      "parentCode": "C1.1",
+      "title": "Explain temperature and pressure effects on gas volume using kinetic theory.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P4.1.6",
+      "parentCode": "P4.1",
+      "title": "Identify magnetic field direction as force direction on N pole.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B6.1.6",
+      "parentCode": "B6.1",
+      "title": "Explain chlorophyll's role transferring light energy to chemical energy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "C7.1.6",
+      "parentCode": "C7.1",
+      "title": "Use universal indicator to compare acidity, neutrality, and alkalinity by colour and pH.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "C5.1.6",
+      "parentCode": "C5.1",
+      "title": "Draw labeled reaction pathway diagrams showing reactants, products, ∆H, and Ea.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B16.3.6",
+      "parentCode": "B16.3",
+      "title": "Heterozygous means possessing two different alleles for a gene",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B16.2.6",
+      "parentCode": "B16.2",
+      "title": "Meiosis is reduction division halving chromosomes, producing genetically different haploid cells.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B16.1.6",
+      "parentCode": "B16.1",
+      "title": "A diploid nucleus contains two complete sets of chromosomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B15.4.6",
+      "parentCode": "B15.4",
+      "title": "Explain sperm adaptations: flagellum, mitochondria, and acrosomal enzymes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B15.3.6",
+      "parentCode": "B15.3",
+      "title": "Investigate and describe environmental conditions affecting seed germination: water, oxygen, temperature.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "C10.2.6",
+      "parentCode": "C10.2",
+      "title": "Describe how greenhouse gases cause global warming via thermal energy mechanisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P5.1.6",
+      "parentCode": "P5.1",
+      "title": "Link proton number to total nuclear charge magnitude",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "C11.3.6",
+      "parentCode": "C11.3",
+      "title": "Identify uses of petroleum fractions: refinery gas, petrol, naphtha, diesel, bitumen.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B13.1.6",
+      "parentCode": "B13.1",
+      "title": "Reflex actions automatically and rapidly coordinate stimuli with responses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "C6.2.6",
+      "parentCode": "C6.2",
+      "title": "State that catalysts decrease the activation energy of reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B12.1.6",
+      "parentCode": "B12.1",
+      "title": "Compare energy yield: anaerobic releases much less than aerobic respiration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "C4.1.6",
+      "parentCode": "C4.1",
+      "title": "State general rules for cathode and anode product formation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "C11.7.6",
+      "parentCode": "C11.7",
+      "title": "Describe and draw the structural arrangement of nylon polyamide.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B11.1.6",
+      "parentCode": "B11.1",
+      "title": "Explain differences in composition between inspired and expired air.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P5.2.6",
+      "parentCode": "P5.2",
+      "title": "Understand radioactive decay emits alpha, beta, gamma radiation spontaneously and randomly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P1.1.6",
+      "parentCode": "P1.1",
+      "title": "Know force, weight, velocity, acceleration, gravitational field strength are vectors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B10.1.6",
+      "parentCode": "B10.1",
+      "title": "State that vaccinations exist for some pathogens controlling disease spread.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P1.2.6",
+      "parentCode": "P1.2",
+      "title": "Determine speed using gradient of distance-time graph.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P4.5.6",
+      "parentCode": "P4.5",
+      "title": "Explain how current changes affect magnetic fields in wires and solenoids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B9.4.6",
+      "parentCode": "B9.4",
+      "title": "Explain how blood clotting prevents blood loss and pathogen entry.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "C3.1.6",
+      "parentCode": "C3.1",
+      "title": "Deduce ionic compound formula from ion model, diagram, or charges",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P1.5.6",
+      "parentCode": "P1.5",
+      "title": "Objects remain at rest or constant velocity without resultant force.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P3.4.6",
+      "parentCode": "P3.4",
+      "title": "Define echo as sound wave reflection phenomenon",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "C2.2.6",
+      "parentCode": "C2.2",
+      "title": "State relationships between group/period number and electron shell configuration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P1.6.6",
+      "parentCode": "P1.6",
+      "title": "Understand work-energy relationship for mechanical and electrical processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "C2.4.6",
+      "parentCode": "C2.4",
+      "title": "Explain ionic compound properties using structure and bonding concepts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B9.2.6",
+      "parentCode": "B9.2",
+      "title": "Discuss diet and exercise roles in reducing coronary heart disease risk.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B2.1.6",
+      "parentCode": "B2.1",
+      "title": "Describe specialized cell types and their specific functions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P2.1.6",
+      "parentCode": "P2.1",
+      "title": "Understand how particle forces, distances, motion affect material properties",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P2.2.6",
+      "parentCode": "P2.2",
+      "title": "Describe how temperature, surface area, and air movement affect evaporation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P2.3.6",
+      "parentCode": "P2.3",
+      "title": "Understand radiation transfers via infrared without requiring medium",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "C6.3.6",
+      "parentCode": "C6.3",
+      "title": "Reduction involves electron gain or decreased oxidation number.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B3.2.6",
+      "parentCode": "B3.2",
+      "title": "Explain water potential and osmosis roles in organismal water balance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P3.1.6",
+      "parentCode": "P3.1",
+      "title": "Understand transverse waves and identify electromagnetic, water, and S-wave examples",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B18.2.6",
+      "parentCode": "B18.2",
+      "title": "Classify consumers by their position in food chains",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P3.2.6",
+      "parentCode": "P3.2",
+      "title": "Define refraction as directional change of light passing between different media.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B5.1.6",
+      "parentCode": "B5.1",
+      "title": "Explain pH effects on enzyme activity through shape, fit, and denaturation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P4.3.6",
+      "parentCode": "P4.3",
+      "title": "Apply Kirchhoff's laws and voltage rules for series and parallel circuits in calculations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "B7.3.6",
+      "parentCode": "B7.3",
+      "title": "State secretion and action sites of amylase, protease, and lipase.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P4.2.6",
+      "parentCode": "P4.2",
+      "title": "Identify coulombs as the unit of electrical charge measurement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P6.2.6",
+      "parentCode": "P6.2",
+      "title": "Define and apply orbital speed equation v = 2πr/T",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "P1.2.7",
+      "parentCode": "P1.2",
+      "title": "Find distance from area under speed-time graph.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "B10.1.7",
+      "parentCode": "B10.1",
+      "title": "Identify protein coat and genetic material as viral features.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "P5.2.7",
+      "parentCode": "P5.2",
+      "title": "Understand alpha and beta decay transform nucleus into different element.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "B13.1.7",
+      "parentCode": "B13.1",
+      "title": "Sense organs contain receptors responding to specific environmental stimuli.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "P5.1.7",
+      "parentCode": "P5.1",
+      "title": "Explain fission as splitting and fusion as joining of nuclei",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "C10.2.7",
+      "parentCode": "C10.2",
+      "title": "Explain nitrogen oxide formation in engines and catalytic converter removal mechanism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "C4.1.7",
+      "parentCode": "C4.1",
+      "title": "Predict electrode products for molten binary compound electrolysis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "B15.3.7",
+      "parentCode": "B15.3",
+      "title": "Identify and describe anthers and stigmas of wind-pollinated flowers in diagrams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "B15.4.7",
+      "parentCode": "B15.4",
+      "title": "Explain egg cell adaptations: energy stores and changing jelly coat",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "B6.1.7",
+      "parentCode": "B6.1",
+      "title": "Outline uses and storage of photosynthetic carbohydrates: starch, cellulose, glucose, sucrose, nectar",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "P3.1.7",
+      "parentCode": "P3.1",
+      "title": "Understand longitudinal waves and identify sound and P-wave examples",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "P4.1.7",
+      "parentCode": "P4.1",
+      "title": "Describe the process and effects of induced magnetism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "B7.3.7",
+      "parentCode": "B7.3",
+      "title": "Hydrochloric acid kills microorganisms and provides optimal pH for stomach proteases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "B16.1.7",
+      "parentCode": "B16.1",
+      "title": "Diploid cells contain paired chromosomes; humans have 23 chromosome pairs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "P6.2.7",
+      "parentCode": "P6.2",
+      "title": "Understand gravitational field strength and orbital speed decrease with distance",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "P3.2.7",
+      "parentCode": "P3.2",
+      "title": "Define and use normal, angle of incidence, and angle of refraction in ray diagrams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "B18.2.7",
+      "parentCode": "B18.2",
+      "title": "Define herbivores as animals that feed on plants",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "P4.3.7",
+      "parentCode": "P4.3",
+      "title": "Understand the benefits of parallel lamp connections in circuits",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "B16.3.7",
+      "parentCode": "B16.3",
+      "title": "Heterozygous individuals do not produce pure-breeding offspring",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "P1.6.7",
+      "parentCode": "P1.6",
+      "title": "Calculate mechanical work using force, distance, and energy change equations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "C2.4.7",
+      "parentCode": "C2.4",
+      "title": "Describe giant lattice structures as regular alternating ion arrangements in ionic compounds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "P1.5.7",
+      "parentCode": "P1.5",
+      "title": "Apply F = ma; force and acceleration are in the same direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "B9.2.7",
+      "parentCode": "B9.2",
+      "title": "Describe heart functioning: atrial and ventricular contractions and valve action.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "C5.1.7",
+      "parentCode": "C5.1",
+      "title": "Bond breaking is endothermic; bond making is exothermic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "C3.1.7",
+      "parentCode": "C3.1",
+      "title": "Construct symbol equations with state symbols, including ionic equations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "C7.1.7",
+      "parentCode": "C7.1",
+      "title": "Describe neutralisation reactions producing salt and water from acid and alkali.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "P2.1.7",
+      "parentCode": "P2.1",
+      "title": "Explain Brownian motion as collisions with faster gas or liquid particles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "C6.2.7",
+      "parentCode": "C6.2",
+      "title": "Describe collision theory using particle density, collision frequency, kinetic energy, and activation energy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "P2.2.7",
+      "parentCode": "P2.2",
+      "title": "Describe evaporation as escape of more energetic particles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "P4.5.7",
+      "parentCode": "P4.5",
+      "title": "Understand forces on current-carrying conductors; know reversing current or field.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "B11.1.7",
+      "parentCode": "B11.1",
+      "title": "Explain physical activity link to breathing via carbon dioxide detection.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "B12.1.7",
+      "parentCode": "B12.1",
+      "title": "Write word equation for anaerobic respiration producing lactic acid from glucose",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "B2.1.7",
+      "parentCode": "B2.1",
+      "title": "Define and exemplify cell, tissue, organ, system, organism",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "C11.3.7",
+      "parentCode": "C11.3",
+      "title": "Explain property changes across fractionating column: decreasing chain length and boiling points.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "P4.2.7",
+      "parentCode": "P4.2",
+      "title": "Define electric field as region where charges experience force.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "P2.3.7",
+      "parentCode": "P2.3",
+      "title": "Describe colour and texture effects on radiation emission and absorption",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "P3.4.7",
+      "parentCode": "P3.4",
+      "title": "Know ultrasound is sound above 20 kHz frequency threshold",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "B10.1.8",
+      "parentCode": "B10.1",
+      "title": "Define active immunity as body-produced antibody defence against pathogens.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "P3.1.8",
+      "parentCode": "P3.1",
+      "title": "Describe wave diffraction through a narrow gap",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "P4.2.8",
+      "parentCode": "P4.2",
+      "title": "Establish that electric field direction is force direction on positive charge.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "P1.6.8",
+      "parentCode": "P1.6",
+      "title": "Describe energy extraction from eight renewable and non-renewable sources with equipment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "P2.2.8",
+      "parentCode": "P2.2",
+      "title": "Know that evaporation causes cooling of liquids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "B7.3.8",
+      "parentCode": "B7.3",
+      "title": "Bile neutralises stomach acid to provide suitable pH for small intestine enzymes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "P5.2.8",
+      "parentCode": "P5.2",
+      "title": "Describe beta emission as neutron conversion to proton and electron.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "B15.4.8",
+      "parentCode": "B15.4",
+      "title": "Compare sperm and egg cells in size, structure, motility, and numbers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "B12.1.8",
+      "parentCode": "B12.1",
+      "title": "Explain lactic acid accumulation during exercise creates oxygen debt",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "C4.1.8",
+      "parentCode": "C4.1",
+      "title": "Construct cathode ionic half-equations showing electron gain.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "P1.5.8",
+      "parentCode": "P1.5",
+      "title": "Create and interpret load-extension graphs with experimental procedures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "P2.1.8",
+      "parentCode": "P2.1",
+      "title": "Explain gas pressure as particle collisions exerting force per unit area",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "B16.3.8",
+      "parentCode": "B16.3",
+      "title": "Dominant alleles are expressed whenever present in the genotype",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "P2.3.8",
+      "parentCode": "P2.3",
+      "title": "Recognise Earth's temperature depends on absorbed and emitted radiation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "P3.2.8",
+      "parentCode": "P3.2",
+      "title": "Describe light passage through transparent material at boundaries between media.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "P6.2.8",
+      "parentCode": "P6.2",
+      "title": "Know stars use hydrogen fusion to release energy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "P1.2.8",
+      "parentCode": "P1.2",
+      "title": "Define velocity as directional speed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "B18.2.8",
+      "parentCode": "B18.2",
+      "title": "Define carnivores as animals that feed on other animals",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "B6.1.8",
+      "parentCode": "B6.1",
+      "title": "Explain importance of nitrate and magnesium ions in plant metabolism",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "P4.3.8",
+      "parentCode": "P4.3",
+      "title": "Understand that total current exceeds individual branch currents in parallel circuits",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "B9.2.8",
+      "parentCode": "B9.2",
+      "title": "Explain mechanisms by which physical activity affects heart rate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "P3.4.8",
+      "parentCode": "P3.4",
+      "title": "Explain sound as longitudinal waves of compressions and rarefactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "P4.5.8",
+      "parentCode": "P4.5",
+      "title": "Apply the relationship between force, field, and current directions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "C3.1.8",
+      "parentCode": "C3.1",
+      "title": "Deduce symbol equation with state symbols from given information",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "P4.2.9",
+      "parentCode": "P4.2",
+      "title": "Understand electric current as movement of charge through circuits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "B16.3.9",
+      "parentCode": "B16.3",
+      "title": "Recessive alleles express only when no dominant allele is present",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "B12.1.9",
+      "parentCode": "B12.1",
+      "title": "Describe oxygen debt removal: heart rate, breathing, hepatic lactic acid oxidation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "B10.1.9",
+      "parentCode": "B10.1",
+      "title": "State pathogens have unique antigens with specific three-dimensional shapes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "P5.2.9",
+      "parentCode": "P5.2",
+      "title": "Write decay equations using nuclide notation for alpha, beta, gamma emissions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "P1.2.9",
+      "parentCode": "P1.2",
+      "title": "Define acceleration and apply the velocity-change equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "P1.5.9",
+      "parentCode": "P1.5",
+      "title": "Define spring constant and apply the equation k = F/x.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "P1.6.9",
+      "parentCode": "P1.6",
+      "title": "Compare energy resource methods across renewability, availability, reliability, scale, impact.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "P2.1.9",
+      "parentCode": "P2.1",
+      "title": "Explain pressure changes with temperature and volume using particle model",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "P2.2.9",
+      "parentCode": "P2.2",
+      "title": "Describe melting and boiling with energy input without temperature change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "P2.3.9",
+      "parentCode": "P2.3",
+      "title": "Describe experimental methods distinguishing good thermal emitters",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "B7.3.9",
+      "parentCode": "B7.3",
+      "title": "Bile emulsifies fats and oils to increase surface area for digestion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "P3.1.9",
+      "parentCode": "P3.1",
+      "title": "Describe how wavelength and gap size affect diffraction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "P3.2.9",
+      "parentCode": "P3.2",
+      "title": "Define refractive index as the ratio of wave speeds in different regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "P3.4.9",
+      "parentCode": "P3.4",
+      "title": "Explain compressions as high-pressure zones and rarefactions as low-pressure zones",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "B6.1.9",
+      "parentCode": "B6.1",
+      "title": "Describe effects of light intensity, CO₂ concentration, and temperature on photosynthesis rate",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "P6.2.9",
+      "parentCode": "P6.2",
+      "title": "Understand star formation from interstellar clouds via gravity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "P4.3.9",
+      "parentCode": "P4.3",
+      "title": "Know that parallel resistor combination is less than either individual resistor",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "B18.2.9",
+      "parentCode": "B18.2",
+      "title": "Define decomposers as organisms feeding on dead organic material",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "P4.5.9",
+      "parentCode": "P4.5",
+      "title": "Know turning effect on coils increases with turns, current, and field strength.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "P1.5.10",
+      "parentCode": "P1.5",
+      "title": "Define limit of proportionality and identify it on load-extension graphs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "P4.2.10",
+      "parentCode": "P4.2",
+      "title": "Define current quantitatively using the charge-per-time relationship equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "B10.1.10",
+      "parentCode": "B10.1",
+      "title": "Describe antibodies binding antigens for pathogen destruction or marking.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "P1.2.10",
+      "parentCode": "P1.2",
+      "title": "Identify constant and changing acceleration from data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "B6.1.10",
+      "parentCode": "B6.1",
+      "title": "Describe gas exchange in aquatic plants under light and dark conditions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "P5.2.10",
+      "parentCode": "P5.2",
+      "title": "Define half-life; calculate using definition with tables or decay curves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "P3.4.10",
+      "parentCode": "P3.4",
+      "title": "Understand sound speed order: solids > liquids > gases",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "P2.3.10",
+      "parentCode": "P2.3",
+      "title": "Describe experimental methods distinguishing good thermal absorbers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "B16.3.10",
+      "parentCode": "B16.3",
+      "title": "Interpret pedigree diagrams to track inheritance patterns of traits",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "P3.2.10",
+      "parentCode": "P3.2",
+      "title": "Recall and apply the refractive index equation: n = sin i / sin r.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "P4.5.10",
+      "parentCode": "P4.5",
+      "title": "Describe how electric motors work with commutators and brushes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "B18.2.10",
+      "parentCode": "B18.2",
+      "title": "Use food chains to explain human impacts via overharvesting and invasive species",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "P6.2.10",
+      "parentCode": "P6.2",
+      "title": "Know stellar life cycles depend on mass and end states",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "P4.3.10",
+      "parentCode": "P4.3",
+      "title": "Calculate total resistance for two resistors connected in parallel",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "P1.6.10",
+      "parentCode": "P1.6",
+      "title": "Identify solar radiation as primary energy source for most renewable resources.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "P2.3.11",
+      "parentCode": "P2.3",
+      "title": "Identify and explain everyday applications of heat transfer methods",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "P6.2.11",
+      "parentCode": "P6.2",
+      "title": "Know supernova nebulae can form new stars and planets",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "B16.3.11",
+      "parentCode": "B16.3",
+      "title": "Use genetic diagrams to predict monohybrid cross results and phenotypic ratios",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "B18.2.11",
+      "parentCode": "B18.2",
+      "title": "Define trophic levels as organism positions in food chains and webs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "B10.1.11",
+      "parentCode": "B10.1",
+      "title": "State antibodies have complementary shapes fitting specific antigens.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "P1.2.11",
+      "parentCode": "P1.2",
+      "title": "Determine acceleration using gradient of speed-time graph.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "P5.2.11",
+      "parentCode": "P5.2",
+      "title": "Identify radioactivity applications: alarms, food irradiation, sterilisation, thickness measurement, cancer treatment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "P4.5.11",
+      "parentCode": "P4.5",
+      "title": "Describe transformer construction with soft-iron core for voltage changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "P1.5.11",
+      "parentCode": "P1.5",
+      "title": "Describe moment as turning effect with everyday examples.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "P4.2.11",
+      "parentCode": "P4.2",
+      "title": "Recognize that electric current in metals involves electron flow.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "P3.2.11",
+      "parentCode": "P3.2",
+      "title": "Describe total internal reflection using ray diagrams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "P1.6.11",
+      "parentCode": "P1.6",
+      "title": "Recognize nuclear fusion as energy source in the Sun without detailed mechanism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "P1.5.12",
+      "parentCode": "P1.5",
+      "title": "Define and apply moment = force × perpendicular distance equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "B10.1.12",
+      "parentCode": "B10.1",
+      "title": "Explain active immunity develops from infection or vaccination.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "P4.2.12",
+      "parentCode": "P4.2",
+      "title": "Explain metal conduction using delocalized electron movement model.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "P3.2.12",
+      "parentCode": "P3.2",
+      "title": "Define critical angle and its role in total internal reflection.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "B16.3.12",
+      "parentCode": "B16.3",
+      "title": "Use Punnett squares to determine possible genotypes in crosses",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "P1.2.12",
+      "parentCode": "P1.2",
+      "title": "Recognize deceleration as negative acceleration in calculations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "P6.2.12",
+      "parentCode": "P6.2",
+      "title": "Understand galaxy structure and the Sun's location in Milky Way",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "P5.2.12",
+      "parentCode": "P5.2",
+      "title": "Describe ionising radiation effects on living organisms: cell death, mutations, cancer.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "B18.2.12",
+      "parentCode": "B18.2",
+      "title": "Identify five trophic levels from producers through quaternary consumers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "P1.6.12",
+      "parentCode": "P1.6",
+      "title": "Recognize nuclear fission as energy source in reactors without detailed mechanism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "P4.5.12",
+      "parentCode": "P4.5",
+      "title": "Apply terminology of primary, secondary, step-up, and step-down transformers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "B18.2.13",
+      "parentCode": "B18.2",
+      "title": "Explain energy transfer inefficiency between trophic levels",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "P4.2.13",
+      "parentCode": "P4.2",
+      "title": "Describe ammeter selection and use with various measurement ranges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "P3.2.13",
+      "parentCode": "P3.2",
+      "title": "Describe total internal reflection in optical fibres and state applications.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "P1.6.13",
+      "parentCode": "P1.6",
+      "title": "Understand qualitative concept of energy transfer efficiency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "P5.2.13",
+      "parentCode": "P5.2",
+      "title": "Explain safe handling of radioactive materials using time, distance, shielding principles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "P1.5.13",
+      "parentCode": "P1.5",
+      "title": "Objects in equilibrium have zero resultant force and moment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "P1.2.13",
+      "parentCode": "P1.2",
+      "title": "Know Earth's gravitational acceleration constant is 9.8 m/s².",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "B10.1.13",
+      "parentCode": "B10.1",
+      "title": "Outline vaccination mechanism: antigen introduction, antibody production, memory cell formation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "P6.2.13",
+      "parentCode": "P6.2",
+      "title": "Know Milky Way is one of billions of galaxies spanning 100,000 light-years",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "P4.5.13",
+      "parentCode": "P4.5",
+      "title": "Apply the transformer voltage-turns ratio equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "B10.1.14",
+      "parentCode": "B10.1",
+      "title": "Explain how vaccination controls disease spread in populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "P4.2.14",
+      "parentCode": "P4.2",
+      "title": "Distinguish conventional current direction from actual electron flow direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "P1.5.14",
+      "parentCode": "P1.5",
+      "title": "Apply moments principle to balanced beams with forces on both sides.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "P3.2.14",
+      "parentCode": "P3.2",
+      "title": "Describe converging lens action on parallel light; parallel ray assumption.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "P6.2.14",
+      "parentCode": "P6.2",
+      "title": "Know Big Bang Theory predictions about Universe origin and expansion",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "P1.6.14",
+      "parentCode": "P1.6",
+      "title": "Calculate efficiency using energy and power ratios as percentages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "B18.2.14",
+      "parentCode": "B18.2",
+      "title": "Explain why energy loss limits food chains to fewer than five levels",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "P4.5.14",
+      "parentCode": "P4.5",
+      "title": "Apply the transformer efficiency equation for power conservation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "P3.2.15",
+      "parentCode": "P3.2",
+      "title": "Define and use principal axis, principal focus, and focal length.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "P1.6.15",
+      "parentCode": "P1.6",
+      "title": "Define and calculate power from work or energy change over time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "P1.5.15",
+      "parentCode": "P1.5",
+      "title": "Understand centre of gravity for regular shapes: blocks, spheres, cylinders.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "B18.2.15",
+      "parentCode": "B18.2",
+      "title": "Explain why eating plants is more energy efficient than eating livestock",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "P4.5.15",
+      "parentCode": "P4.5",
+      "title": "Explain why transformers are used in electrical power transmission systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "P4.2.15",
+      "parentCode": "P4.2",
+      "title": "Differentiate between direct and alternating current types.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "P1.5.16",
+      "parentCode": "P1.5",
+      "title": "Describe experimental method for centre of gravity of irregular lamina.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "P4.5.16",
+      "parentCode": "P4.5",
+      "title": "Use P = I²R to explain why high voltage reduces cable power losses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "P4.2.16",
+      "parentCode": "P4.2",
+      "title": "Explain voltage as the driving force for current in circuits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "P3.2.16",
+      "parentCode": "P3.2",
+      "title": "Draw and use ray diagrams for real image formation by converging lenses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "P1.5.17",
+      "parentCode": "P1.5",
+      "title": "Explain qualitatively how centre of gravity affects object stability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "P3.2.17",
+      "parentCode": "P3.2",
+      "title": "Describe image characteristics: enlarged/same size/diminished and upright/inverted.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "P4.2.17",
+      "parentCode": "P4.2",
+      "title": "Understand voltage distribution across series circuit components.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "P4.2.18",
+      "parentCode": "P4.2",
+      "title": "Describe voltmeter selection and use with various measurement ranges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 17
+    },
+    {
+      "code": "P3.2.18",
+      "parentCode": "P3.2",
+      "title": "Draw and use ray diagrams for virtual image formation by converging lenses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 17
+    },
+    {
+      "code": "P4.2.19",
+      "parentCode": "P4.2",
+      "title": "Define EMF as work done per unit charge around complete circuit.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 18
+    },
+    {
+      "code": "P3.2.19",
+      "parentCode": "P3.2",
+      "title": "Describe image characteristics using the terms real and virtual.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 18
+    },
+    {
+      "code": "P4.2.20",
+      "parentCode": "P4.2",
+      "title": "Identify volts as the unit of electromotive force measurement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 19
+    },
+    {
+      "code": "P3.2.20",
+      "parentCode": "P3.2",
+      "title": "Describe the use of a single lens as a magnifying glass.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 19
+    },
+    {
+      "code": "P3.2.21",
+      "parentCode": "P3.2",
+      "title": "Describe light dispersion as illustrated by prism refraction of white light.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 20
+    },
+    {
+      "code": "P4.2.21",
+      "parentCode": "P4.2",
+      "title": "Define potential difference as work done per unit charge between points.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 20
+    },
+    {
+      "code": "P4.2.22",
+      "parentCode": "P4.2",
+      "title": "Identify volts as the unit of potential difference measurement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 21
+    },
+    {
+      "code": "P3.2.22",
+      "parentCode": "P3.2",
+      "title": "Know the seven visible spectrum colours in order of frequency and wavelength.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 21
+    },
+    {
+      "code": "P4.2.23",
+      "parentCode": "P4.2",
+      "title": "Apply the resistance equation relating voltage and current.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 22
+    },
+    {
+      "code": "P4.2.24",
+      "parentCode": "P4.2",
+      "title": "Design and conduct experiment to measure resistance using voltmeter-ammeter method.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 23
+    },
+    {
+      "code": "P4.2.25",
+      "parentCode": "P4.2",
+      "title": "Analyze and interpret current-voltage graphs for ohmic resistors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 24
+    },
+    {
+      "code": "P4.2.26",
+      "parentCode": "P4.2",
+      "title": "Apply relationships between resistance and conductor length and cross-sectional area.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 25
+    },
+    {
+      "code": "P4.2.27",
+      "parentCode": "P4.2",
+      "title": "Recognize energy transfer from electrical source through components to surroundings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 26
+    },
+    {
+      "code": "P4.2.28",
+      "parentCode": "P4.2",
+      "title": "Apply the electrical power equation relating current and voltage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 27
+    },
+    {
+      "code": "P4.2.29",
+      "parentCode": "P4.2",
+      "title": "Apply the electrical energy equation relating power and time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 28
+    },
+    {
+      "code": "P4.2.30",
+      "parentCode": "P4.2",
+      "title": "Define kilowatt-hour and calculate costs of electrical appliance usage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 29
+    }
+  ]
+}

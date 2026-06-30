@@ -1,0 +1,1415 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Comparative Government",
+  "source": "school-core:AP-COMP-GOV@Effective Fall 2020",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: Political Systems, Regimes, and Governments",
+      "level": 1,
+      "examWeight": 18,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: Political Institutions",
+      "level": 1,
+      "examWeight": 22,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: Political Culture and Participation",
+      "level": 1,
+      "examWeight": 11,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: Party and Electoral Systems and Citizen Organizations",
+      "level": 1,
+      "examWeight": 13,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 5",
+      "parentCode": null,
+      "title": "Unit 5: Political and Economic Changes and Development",
+      "level": 1,
+      "examWeight": 16,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "Civil Society",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "The Practice of Political Scientists",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "Parliamentary, Presidential, and Semi-Presidential Systems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "Unit 5",
+      "title": "Impact of Global Economic and Technological Forces",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "Electoral Systems and Rules",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "Political Systems, Regimes, and Governments",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "Comparing Parliamentary, Presidential, and Semi-Presidential Systems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "Unit 5",
+      "title": "5.2",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "Political Culture",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "Objectives of Election Rules",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "Executive Systems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "Political Ideologies",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "Political Party Systems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.3",
+      "parentCode": "Unit 5",
+      "title": "Challenges from Globalization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "Democracy vs. Authoritarianism",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "Role of Political Party Systems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "Political Values and Beliefs",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.4",
+      "parentCode": "Unit 5",
+      "title": "5.4",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Executive Term Limits",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "Democratization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "Removal of Executives",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "Sources of Power and Authority",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.5",
+      "parentCode": "Unit 5",
+      "title": "International and Supranational Organizations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "Nature and Role of Political Participation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5",
+      "parentCode": "Unit 4",
+      "title": "Impact of Social Movements and Interest Groups",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.6",
+      "parentCode": "Unit 3",
+      "title": "Forces that Impact Political Participation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.6",
+      "parentCode": "Unit 1",
+      "title": "Change in Power and Authority",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "Legislative Systems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.6",
+      "parentCode": "Unit 5",
+      "title": "Adaptation of Social Policies",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.6",
+      "parentCode": "Unit 4",
+      "title": "Pluralist and Corporatist Interests",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.7",
+      "parentCode": "Unit 3",
+      "title": "Civil Rights and Civil Liberties",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.7",
+      "parentCode": "Unit 1",
+      "title": "Federal and Unitary Systems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "Independent Legislatures",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.7",
+      "parentCode": "Unit 5",
+      "title": "Impact of Industrialization and Economic Development",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.8",
+      "parentCode": "Unit 2",
+      "title": "Judicial Systems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.8",
+      "parentCode": "Unit 1",
+      "title": "Political Legitimacy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.8",
+      "parentCode": "Unit 3",
+      "title": "Political and Social Cleavages",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.8",
+      "parentCode": "Unit 5",
+      "title": "5.8",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.9",
+      "parentCode": "Unit 1",
+      "title": "Sustaining Legitimacy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "5.9",
+      "parentCode": "Unit 5",
+      "title": "Impact of Natural Resources",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.9",
+      "parentCode": "Unit 2",
+      "title": "Independent Judiciaries",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "3.9",
+      "parentCode": "Unit 3",
+      "title": "Challenges from Political and Social Cleavages",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.10",
+      "parentCode": "Unit 1",
+      "title": "Political Stability",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "IEF-1.D.1",
+      "parentCode": "3.4",
+      "title": "Authoritarian regimes use rule by law; democracies use rule of law.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LEG-5.A.1",
+      "parentCode": "5.9",
+      "title": "Rentier states use resource exports to fund government programs and improve living standards.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LEG-3.C.1",
+      "parentCode": "5.7",
+      "title": "Governments address industrialization pollution through regulation, green tech, and infrastructure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LEG-3.B.1",
+      "parentCode": "5.6",
+      "title": "Governments create new social policies addressing gender equity, health, education responding to change",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LEG-3.A.1",
+      "parentCode": "5.5",
+      "title": "IMF and World Bank impose policy conditions on countries receiving financial aid.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IEF-3.C.1",
+      "parentCode": "5.3",
+      "title": "Globalization challenges sovereignty through investment, cultural influence, environmental degradation, and foreign pressure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IEF-3.A.1",
+      "parentCode": "5.1",
+      "title": "Globalization deepens cross-national connections but challenges regime and cultural stability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PAU-1.A.1",
+      "parentCode": "1.2",
+      "title": "Political systems establish rules for authority and governmental economic influence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IEF-1.A.1",
+      "parentCode": "3.1",
+      "title": "Civil society includes voluntary, state-independent associations like religious groups and NGOs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IEF-2.B.1",
+      "parentCode": "4.6",
+      "title": "Pluralism and corporatism represent two distinct interest group systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IEF-2.A.1",
+      "parentCode": "4.5",
+      "title": "Social movements are large groups collectively pushing for significant political or social change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PAU-4.B.1",
+      "parentCode": "4.4",
+      "title": "Party systems vary by electoral rules, party structure, and regulatory laws across countries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PAU-1.B.1",
+      "parentCode": "1.3",
+      "title": "Democracy indicators include rule of law, media freedom, fair elections, transparency, and citizen participation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PAU-4.A.1",
+      "parentCode": "4.3",
+      "title": "Party systems vary globally from dominant-party to multiparty structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PAU-1.C.1",
+      "parentCode": "1.4",
+      "title": "Transition from authoritarianism to democracy through institutional and participatory reforms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PAU-3.H.1",
+      "parentCode": "2.9",
+      "title": "Judicial independence depends on court authority, appointment processes, term length, qualifications, and removal procedures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PAU-1.D.1",
+      "parentCode": "1.5",
+      "title": "Power sources include constitutions, religion, military, parties, legislatures, popular support affecting regimes differently.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PAU-1.D.2",
+      "parentCode": "1.6",
+      "title": "Democratic regimes maintain sovereignty with less coercive power than authoritarian regimes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DEM-1.A.1",
+      "parentCode": "3.5",
+      "title": "Political participation varies by voluntariness and organizational scope.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DEM-2.B.1",
+      "parentCode": "4.2",
+      "title": "Proportional representation increases party diversity and minority representation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PAU-2.A.1",
+      "parentCode": "1.7",
+      "title": "Federal systems distribute power across government levels; unitary systems concentrate it nationally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PAU-3.G.1",
+      "parentCode": "2.8",
+      "title": "Judiciaries appoint judges differently and serve varied functions across course countries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LEG-1.A.1",
+      "parentCode": "1.8",
+      "title": "Legitimacy is constituent belief in government's rightful authority.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LEG-1.B.1",
+      "parentCode": "1.9",
+      "title": "Governments sustain legitimacy via effectiveness, tradition, leadership, and laws.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PAU-3.F.1",
+      "parentCode": "2.7",
+      "title": "Multiple institutions constrain legislative power in China and Iran",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DEM-2.A.1",
+      "parentCode": "4.1",
+      "title": "Electoral rules vary in competitiveness and reflect regime political interests.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LEG-2.B.5",
+      "parentCode": "3.9",
+      "title": "Multinational states face stability challenges from group competition, legitimacy issues, and separatism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LEG-2.A.1",
+      "parentCode": "3.8",
+      "title": "Internal divisions based on class, ethnicity, religion, territory structure societies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LEG-1.C.1",
+      "parentCode": "1.10",
+      "title": "Internal actors interact with governments to strengthen or weaken stability and rule.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PAU-3.E.1",
+      "parentCode": "2.6",
+      "title": "Legislative structures vary by system type: unicameral or bicameral with distinct powers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DEM-1.C.1",
+      "parentCode": "3.7",
+      "title": "Civil liberties protections vary significantly among the six course countries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PAU-3.D.1",
+      "parentCode": "2.5",
+      "title": "Legislative branches remove executives through varied procedures controlling power abuse.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "DEM-1.B.1",
+      "parentCode": "3.6",
+      "title": "Both regimes allow voting but differ in election competitiveness and citizen policy impact.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PAU-3.B.1",
+      "parentCode": "2.2",
+      "title": "Parliamentary systems face fewer obstacles than presidential systems but still check executives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PAU-3.C.3",
+      "parentCode": "2.4",
+      "title": "Term limits prevent dictatorship and encourage governance but limit experience and continuity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PAU-3.A.1",
+      "parentCode": "2.1",
+      "title": "Parliament selects and removes head of government and cabinet.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IEF-1.C.1",
+      "parentCode": "3.2",
+      "title": "Political culture comprises collective attitudes and values shaping order-liberty balance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IEF-1.C.6",
+      "parentCode": "3.3",
+      "title": "Political ideologies define government goals through distinct beliefs about liberty, economy, and representation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PAU-3.C.1",
+      "parentCode": "2.3",
+      "title": "Executive institutions formulate, implement, and enforce policy through various methods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MPA-1.A.1",
+      "parentCode": "1.1",
+      "title": "Multiple data types enable comparisons and inferences about political systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IEF-1.D.2",
+      "parentCode": "3.4",
+      "title": "Equality beliefs exist in both regimes but differ in government responsibility and citizen choice.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MPA-1.A.2",
+      "parentCode": "1.1",
+      "title": "Quantitative analysis supports comparative analysis and political inferences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PAU-1.A.2",
+      "parentCode": "1.2",
+      "title": "States combine populations and institutions; regimes establish enduring rules governing power access.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PAU-1.B.2",
+      "parentCode": "1.3",
+      "title": "Democratic governments separate powers; authoritarian regimes concentrate power in fewer branches.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PAU-1.C.2",
+      "parentCode": "1.4",
+      "title": "Electoral system reforms enable diversity accommodation and competitive multiparty participation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PAU-1.D.3",
+      "parentCode": "1.6",
+      "title": "Regime change happens through incremental or sudden replacement via elections, coups, or revolutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PAU-2.A.2",
+      "parentCode": "1.7",
+      "title": "Centralization levels shift over time responding to internal and external political pressures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LEG-1.A.2",
+      "parentCode": "1.8",
+      "title": "Multiple sources legitimize both democratic and authoritarian regimes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LEG-1.B.2",
+      "parentCode": "1.9",
+      "title": "Peaceful conflict resolution, power transitions, anti-corruption, and development strengthen legitimacy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LEG-1.C.2",
+      "parentCode": "1.10",
+      "title": "States limit divisive actors to attract investment and improve economic growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PAU-3.A.2",
+      "parentCode": "2.1",
+      "title": "Elected president heads government; legislature removes cabinet only through impeachment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PAU-3.B.2",
+      "parentCode": "2.2",
+      "title": "Parliaments control executives through censure, legislation refusal, questioning, and election deadlines.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PAU-3.C.2",
+      "parentCode": "2.3",
+      "title": "Executive titles, powers, structures, and functions differ significantly across six countries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PAU-3.F.2",
+      "parentCode": "2.7",
+      "title": "Legislatures strengthen legitimacy through responsiveness, debate, compromise, and checks on executives",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PAU-3.H.2",
+      "parentCode": "2.9",
+      "title": "Independent courts strengthen democracy through checks, rights protection, rule of law, and power separation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IEF-1.A.2",
+      "parentCode": "3.1",
+      "title": "Civil society strength varies by regime type; governments can restrict organizations through regulation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IEF-1.C.2",
+      "parentCode": "3.2",
+      "title": "Geography, religion, and history shape beliefs about government and individual rights.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DEM-1.A.2",
+      "parentCode": "3.5",
+      "title": "Participation spans from regime-supporting to oppositional activities seeking policy or systemic change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DEM-1.B.2",
+      "parentCode": "3.6",
+      "title": "Authoritarian regimes tolerate informal protest and social media criticism less than democracies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DEM-1.C.2",
+      "parentCode": "3.7",
+      "title": "Democratic regimes allow greater media freedom; authoritarian regimes restrict media for control.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LEG-2.B.1",
+      "parentCode": "3.8",
+      "title": "Cleavages vary across countries and shape voting behavior and party systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DEM-2.A.2",
+      "parentCode": "4.1",
+      "title": "Proportional representation in multimember districts encourages multiparty competition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "DEM-2.B.2",
+      "parentCode": "4.2",
+      "title": "Single-member plurality systems create two-party systems with strong constituency accountability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PAU-4.A.2",
+      "parentCode": "4.3",
+      "title": "China enforces single-party Communist rule while permitting eight minor parties for consultation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PAU-4.B.2",
+      "parentCode": "4.4",
+      "title": "Party systems vary in their mutual effects with citizen participation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IEF-2.A.2",
+      "parentCode": "4.5",
+      "title": "Interest groups target specific issues; social movements pursue broader change across multiple constituencies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IEF-2.B.2",
+      "parentCode": "4.6",
+      "title": "Pluralism features autonomous group competition; corporatism uses state-controlled peak associations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IEF-3.A.2",
+      "parentCode": "5.1",
+      "title": "IMF, World Bank, and WTO membership promotes economic liberalization policies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IEF-3.C.2",
+      "parentCode": "5.3",
+      "title": "Governments respond to globalization by pursuing reform, controlling debates, and extending regional influence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LEG-3.A.2",
+      "parentCode": "5.5",
+      "title": "Countries use tariffs and local production incentives to reduce foreign economic dependency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LEG-3.B.2",
+      "parentCode": "5.6",
+      "title": "Social welfare policies reduce poverty, improve health and literacy, strengthen political legitimacy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LEG-3.C.2",
+      "parentCode": "5.7",
+      "title": "Tariff policies balance consumer costs against domestic industry protection and environmental impact.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LEG-5.A.2",
+      "parentCode": "5.9",
+      "title": "Resource curse causes economic stagnation, corruption, inequality, and democratic deficits in rentier states.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LEG-1.C.3",
+      "parentCode": "1.10",
+      "title": "Citizen pressure drives institutional reforms protecting liberties and transparency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DEM-1.C.3",
+      "parentCode": "3.7",
+      "title": "Authoritarian regimes restrict media access via censorship, licensing revocation, and nationalization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "LEG-3.C.3",
+      "parentCode": "5.7",
+      "title": "Budget deficits from market fluctuations force governments to cut state program funding.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "LEG-2.B.2",
+      "parentCode": "3.8",
+      "title": "States respond to cleavages differently, from repression to minority recognition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "LEG-1.B.3",
+      "parentCode": "1.9",
+      "title": "Corruption, weak elections, and economic/social problems weaken governmental legitimacy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PAU-1.D.4",
+      "parentCode": "1.6",
+      "title": "Governments change peacefully through elections or violently through coups and revolutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MPA-1.A.3",
+      "parentCode": "1.1",
+      "title": "Multiple variables complicate determining causation in comparative political analysis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DEM-2.B.3",
+      "parentCode": "4.2",
+      "title": "Presidential systems vary between plurality, federally-weighted, and majoritarian runoff rules.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PAU-1.B.3",
+      "parentCode": "1.3",
+      "title": "Authoritarian regime types include illiberal democracies, one-party states, theocracies, totalitarianism, militaries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "LEG-3.A.3",
+      "parentCode": "5.5",
+      "title": "Supranational organizations hold sovereign powers pressuring members to liberalize trade policy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PAU-4.A.3",
+      "parentCode": "4.3",
+      "title": "Russia maintains dominance through registration requirements, court disqualifications, and media restrictions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IEF-2.A.3",
+      "parentCode": "4.5",
+      "title": "Movements globally address indigenous rights, resource redistribution, election transparency, and LGBTQ+ protections.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PAU-1.A.3",
+      "parentCode": "1.2",
+      "title": "Regimes are classified as democratic or authoritarian by their power decision-making methods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IEF-2.B.3",
+      "parentCode": "4.6",
+      "title": "Corporatism grants states greater control over citizen political participation than pluralism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "LEG-5.A.3",
+      "parentCode": "5.9",
+      "title": "Resource nationalization consolidates state control and legitimacy, varying in degree across countries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IEF-1.C.3",
+      "parentCode": "3.2",
+      "title": "Political socialization is the lifelong process of acquiring political beliefs and values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IEF-1.B.1",
+      "parentCode": "3.1",
+      "title": "Strong civil society promotes democratization despite not always being explicitly political.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IEF-1.D.3",
+      "parentCode": "3.4",
+      "title": "Post-materialism prioritizes self-expression and quality of life over material gains.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IEF-3.A.3",
+      "parentCode": "5.1",
+      "title": "MNCs dominate global markets and conflict with domestic policies on labor and environment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DEM-1.A.3",
+      "parentCode": "3.5",
+      "title": "Violence increases when conventional participation avenues seem ineffective or inaccessible.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PAU-3.A.3",
+      "parentCode": "2.1",
+      "title": "President nominates prime minister approved by legislature; cabinet accountable to both.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "DEM-1.B.3",
+      "parentCode": "3.6",
+      "title": "Authoritarian regimes restrict voting access and participation far more than democratic regimes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PAU-4.A.4",
+      "parentCode": "4.3",
+      "title": "Mexico transitioned from one-party dominance through reforms, decentralization, and stronger electoral institutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "PAU-1.A.4",
+      "parentCode": "1.2",
+      "title": "Government institutions exercise state power; sovereignty grants independent legal territorial authority.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "LEG-5.A.4",
+      "parentCode": "5.9",
+      "title": "Resource privatization reduces state control while increasing inequality and sovereignty risks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DEM-1.A.4",
+      "parentCode": "3.5",
+      "title": "Authoritarian regimes use participation for legitimacy or control; democracies for genuine citizen policy influence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "IEF-2.A.4",
+      "parentCode": "4.5",
+      "title": "Social movements build power from local grassroots levels upward to national and international scales.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MPA-1.A.4",
+      "parentCode": "1.1",
+      "title": "Correlation indicates association between variables but not causation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DEM-1.C.4",
+      "parentCode": "3.7",
+      "title": "Authoritarian regimes prefer secrecy; democratic regimes favor transparent government operations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "IEF-2.B.4",
+      "parentCode": "4.6",
+      "title": "Interest group systems evolve across time; Mexico shifted from corporatism to pluralism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "LEG-2.B.3",
+      "parentCode": "3.8",
+      "title": "Cleavages can strengthen legitimacy or create conflict undermining political stability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "LEG-1.B.4",
+      "parentCode": "1.9",
+      "title": "Devolution strengthens legitimacy through local innovation but risks policy contradictions and regional inequality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DEM-1.B.4",
+      "parentCode": "3.6",
+      "title": "Authoritarian regimes prioritize public order over mass protests and individual civil rights.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "IEF-3.A.4",
+      "parentCode": "5.1",
+      "title": "Globalization provokes internal conflicts, protests, and empowers populist and nationalist groups.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "IEF-1.C.4",
+      "parentCode": "3.2",
+      "title": "Family, schools, peers, media, and organizations socialize citizens into political attitudes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DEM-2.B.4",
+      "parentCode": "4.2",
+      "title": "Electoral regulatory bodies control ballot access, reflecting regime type and democratization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "IEF-1.B.2",
+      "parentCode": "3.1",
+      "title": "Civil society monitors government, lobbies, exposes wrongdoing, and represents member interests.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "DEM-1.C.5",
+      "parentCode": "3.7",
+      "title": "Competitive authoritarian regimes like Russia blend elections with limited liberties and transparency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "LEG-1.B.5",
+      "parentCode": "1.9",
+      "title": "Election integrity doubts spark protests that undermine legitimacy and democratization progress.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DEM-2.B.5",
+      "parentCode": "4.2",
+      "title": "Appointment systems either diversify representation or concentrate elite power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "PAU-1.A.5",
+      "parentCode": "1.2",
+      "title": "Nations are groups sharing cultural, linguistic, religious, ethnic, and political commonalities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "MPA-1.A.5",
+      "parentCode": "1.1",
+      "title": "Distinguish factual observations from value-based judgments in research.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "IEF-1.C.5",
+      "parentCode": "3.2",
+      "title": "Authoritarian regimes apply stronger governmental pressure for political conformity than democracies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "LEG-2.B.4",
+      "parentCode": "3.8",
+      "title": "Social cleavages produce varying impacts, including separatist movements across countries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "IEF-1.B.3",
+      "parentCode": "3.1",
+      "title": "Restrictions on civil society reveal violations of foundational civil liberties protections.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "IEF-2.A.5",
+      "parentCode": "4.5",
+      "title": "Flat hierarchies resist suppression but hinder mobilization and government negotiations for some movements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DEM-1.A.5",
+      "parentCode": "3.5",
+      "title": "Referenda enable direct citizen policy votes for democratic input, executive power, or popular accountability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "PAU-4.A.5",
+      "parentCode": "4.3",
+      "title": "Multiparty competition levels affect citizen participation and representation in diverse systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "DEM-1.C.6",
+      "parentCode": "3.7",
+      "title": "Historical civil liberties data determines where regimes fall on authoritarian-democratic spectrum.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "MPA-1.A.6",
+      "parentCode": "1.1",
+      "title": "Empirical data supports theoretical concepts and political arguments.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "PAU-4.A.6",
+      "parentCode": "4.3",
+      "title": "Catch-all parties attract diverse voters through broad, inclusive ideological platforms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "DEM-2.B.6",
+      "parentCode": "4.2",
+      "title": "Election rules alter representation of religious, ethnic, and socioeconomic groups.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "PAU-4.A.7",
+      "parentCode": "4.3",
+      "title": "Strong party discipline in legislatures like UK Commons shapes policy outcomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "MPA-1.A.7",
+      "parentCode": "1.1",
+      "title": "System comparison generates broader conclusions about political behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "MPA-1.A.8",
+      "parentCode": "1.1",
+      "title": "Standard indices measure development, economics, inequality, freedom, governance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    }
+  ]
+}

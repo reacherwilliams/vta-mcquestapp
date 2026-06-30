@@ -1,0 +1,39 @@
+{
+  "curriculumCode": "IB_DP",
+  "subject": "Biology",
+  "source": "school-core:IB-DP-BIO@Current (overview)",
+  "strands": [
+    {
+      "code": "A",
+      "parentCode": null,
+      "title": "Unity and diversity",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B",
+      "parentCode": null,
+      "title": "Form and function",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C",
+      "parentCode": null,
+      "title": "Interaction and interdependence",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "D",
+      "parentCode": null,
+      "title": "Continuity and change",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 3
+    }
+  ]
+}

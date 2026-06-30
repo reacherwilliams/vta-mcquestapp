@@ -1,0 +1,1759 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Calculus AB",
+  "source": "school-core:AP-CALC-AB@Effective Fall 2024",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: Limits and Continuity",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: Differentiation: Definition and Fundamental Properties",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: Differentiation: Composite, Implicit, and Inverse Functions",
+      "level": 1,
+      "examWeight": 9,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: Contextual Applications of Differentiation",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 5",
+      "parentCode": null,
+      "title": "Unit 5: Analytical Applications of Differentiation",
+      "level": 1,
+      "examWeight": 15,
+      "sortOrder": 4
+    },
+    {
+      "code": "Unit 6",
+      "parentCode": null,
+      "title": "Unit 6: Integration and Accumulation of Change",
+      "level": 1,
+      "examWeight": 17,
+      "sortOrder": 5
+    },
+    {
+      "code": "Unit 7",
+      "parentCode": null,
+      "title": "Unit 7: Differential Equations",
+      "level": 1,
+      "examWeight": 6,
+      "sortOrder": 6
+    },
+    {
+      "code": "Unit 8",
+      "parentCode": null,
+      "title": "Unit 8: Applications of Integration",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "Interpreting the Meaning of the Derivative in Context",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Introducing Calculus: Can Change Occur at an Instant?",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1",
+      "parentCode": "Unit 8",
+      "title": "Finding the Average Value of a Function on an Interval",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1",
+      "parentCode": "Unit 7",
+      "title": "Modeling Situations with Differential Equations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "Defining Average and Instantaneous Rates of Change at a Point",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "Unit 6",
+      "title": "Exploring Accumulations of Change",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "The Chain Rule",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "Unit 5",
+      "title": "Using the Mean Value Theorem",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.2",
+      "parentCode": "Unit 8",
+      "title": "Connecting Position, Velocity, and Acceleration of Functions Using Integrals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2",
+      "parentCode": "Unit 7",
+      "title": "Verifying Solutions for Differential Equations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "Defining the Derivative of a Function and Using Derivative Notation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2",
+      "parentCode": "Unit 6",
+      "title": "Approximating Areas with Riemann Sums",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "Unit 5",
+      "title": "Extreme Value Theorem, Global Versus Local Extrema, and Critical Points",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "Straight-Line Motion: Connecting Position, Velocity, and Acceleration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "Estimating Limit Values from Graphs",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "Implicit Differentiation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "Estimating Limit Values from Tables",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "Estimating Derivatives of a Function at a Point",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "Rates of Change in Applied Contexts Other Than Motion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.3",
+      "parentCode": "Unit 5",
+      "title": "Determining Intervals on Which a Function Is Increasing or Decreasing",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3",
+      "parentCode": "Unit 8",
+      "title": "Using Accumulation Functions and Definite Integrals in Applied Contexts",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.3",
+      "parentCode": "Unit 7",
+      "title": "Sketching Slope Fields",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "Differentiating Inverse Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3",
+      "parentCode": "Unit 6",
+      "title": "Riemann Sums, Summation Notation, and Definite Integral Notation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "Differentiating Inverse Trigonometric Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.4",
+      "parentCode": "Unit 7",
+      "title": "Slope Fields",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Connecting Differentiability and Continuity: Determining When Derivatives Do and Do Not Exist",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "Introduction to Related Rates",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "Determining Limits Using Algebraic Properties of Limits",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.4",
+      "parentCode": "Unit 6",
+      "title": "The Fundamental Theorem of Calculus and Accumulation Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.4",
+      "parentCode": "Unit 5",
+      "title": "Using the First Derivative Test to Determine Relative (Local) Extrema",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.4",
+      "parentCode": "Unit 8",
+      "title": "Finding the Area Between Curves Expressed as Functions of x",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.5",
+      "parentCode": "Unit 4",
+      "title": "Solving Related Rates Problems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.6",
+      "parentCode": "Unit 1",
+      "title": "Determining Limits Using Algebraic Manipulation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "Applying the Power Rule",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "Selecting Procedures for Calculating Derivatives",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.5",
+      "parentCode": "Unit 5",
+      "title": "Using the Candidates Test to Determine Absolute Extrema",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.5",
+      "parentCode": "Unit 6",
+      "title": "Interpreting the Behavior of Accumulation Functions Involving Area",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.6",
+      "parentCode": "Unit 7",
+      "title": "Finding General Solutions Using Separation of Variables",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.5",
+      "parentCode": "Unit 8",
+      "title": "Finding the Area Between Curves Expressed as Functions of y",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.6",
+      "parentCode": "Unit 3",
+      "title": "Calculating Higher-Order Derivatives",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "8.6",
+      "parentCode": "Unit 8",
+      "title": "Finding the Area Between Curves That Intersect at More Than Two Points",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "Derivative Rules: Constant, Sum, Difference, and Constant Multiple",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.7",
+      "parentCode": "Unit 7",
+      "title": "Finding Particular Solutions Using Initial Conditions and Separation of Variables",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.7",
+      "parentCode": "Unit 1",
+      "title": "Selecting Procedures for Determining Limits",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.6",
+      "parentCode": "Unit 4",
+      "title": "Approximating Values of a Function Using Local Linearity and Linearization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.6",
+      "parentCode": "Unit 5",
+      "title": "Determining Concavity of Functions over Their Domains",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.6",
+      "parentCode": "Unit 6",
+      "title": "Applying Properties of Definite Integrals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.7",
+      "parentCode": "Unit 4",
+      "title": "Using L'Hospital's Rule for Determining Limits of Indeterminate Forms",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.8",
+      "parentCode": "Unit 1",
+      "title": "Determining Limits Using the Squeeze Theorem",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "Derivatives of cos x, sin x, e^x, and ln x",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.8",
+      "parentCode": "Unit 7",
+      "title": "Exponential Models with Differential Equations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.7",
+      "parentCode": "Unit 6",
+      "title": "The Fundamental Theorem of Calculus and Definite Integrals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "8.7",
+      "parentCode": "Unit 8",
+      "title": "Volumes with Cross Sections: Squares and Rectangles",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.7",
+      "parentCode": "Unit 5",
+      "title": "Using the Second Derivative Test to Determine Extrema",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.8",
+      "parentCode": "Unit 2",
+      "title": "The Product Rule",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "6.8",
+      "parentCode": "Unit 6",
+      "title": "Finding Antiderivatives and Indefinite Integrals: Basic Rules and Notation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.8",
+      "parentCode": "Unit 5",
+      "title": "Sketching Graphs of Functions and Their Derivatives",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "8.8",
+      "parentCode": "Unit 8",
+      "title": "Volumes with Cross Sections: Triangles and Semicircles",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.9",
+      "parentCode": "Unit 1",
+      "title": "Connecting Multiple Representations of Limits",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "8.9",
+      "parentCode": "Unit 8",
+      "title": "Volume with Disc Method: Revolving Around the x- or y-Axis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.9",
+      "parentCode": "Unit 2",
+      "title": "The Quotient Rule",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "6.9",
+      "parentCode": "Unit 6",
+      "title": "Integrating Using Substitution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "5.9",
+      "parentCode": "Unit 5",
+      "title": "Connecting a Function, Its First Derivative, and Its Second Derivative",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.10",
+      "parentCode": "Unit 1",
+      "title": "Exploring Types of Discontinuities",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.10",
+      "parentCode": "Unit 2",
+      "title": "Finding the Derivatives of Tangent, Cotangent, Secant, and Cosecant Functions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "5.10",
+      "parentCode": "Unit 5",
+      "title": "Introduction to Optimization Problems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "8.10",
+      "parentCode": "Unit 8",
+      "title": "Volume with Disc Method: Revolving Around Other Axes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "6.10",
+      "parentCode": "Unit 6",
+      "title": "Integrating Functions Using Long Division and Completing the Square",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "1.11",
+      "parentCode": "Unit 1",
+      "title": "Defining Continuity at a Point",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "8.11",
+      "parentCode": "Unit 8",
+      "title": "Volume with Washer Method: Revolving Around the x- or y-Axis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "5.11",
+      "parentCode": "Unit 5",
+      "title": "Solving Optimization Problems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "1.12",
+      "parentCode": "Unit 1",
+      "title": "Confirming Continuity over an Interval",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "8.12",
+      "parentCode": "Unit 8",
+      "title": "Volume with Washer Method: Revolving Around Other Axes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "1.13",
+      "parentCode": "Unit 1",
+      "title": "Removing Discontinuities",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "1.14",
+      "parentCode": "Unit 1",
+      "title": "Connecting Infinite Limits and Vertical Asymptotes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "1.15",
+      "parentCode": "Unit 1",
+      "title": "Connecting Limits at Infinity and Horizontal Asymptotes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "1.16",
+      "parentCode": "Unit 1",
+      "title": "Working with the Intermediate Value Theorem (IVT)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "CHA-5.C.4",
+      "parentCode": "8.12",
+      "title": "Washer method finds volumes of solids of revolution around horizontal or vertical axes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-1.A.1",
+      "parentCode": "1.1",
+      "title": "Limits enable calculus to understand and model dynamic change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-2.A.1",
+      "parentCode": "2.4",
+      "title": "Differentiability implies continuity; domain of derivative subset of domain of function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-3.A.1",
+      "parentCode": "2.5",
+      "title": "Power rule and definition of derivative compute derivatives of x^r functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-3.A.2",
+      "parentCode": "2.6",
+      "title": "Apply derivative rules to sums, differences, and constant multiples of functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-3.A.4",
+      "parentCode": "2.7",
+      "title": "Apply specific derivative rules for trigonometric, exponential, and logarithmic functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-3.B.1",
+      "parentCode": "2.8",
+      "title": "Use the product rule to differentiate products of differentiable functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-3.B.2",
+      "parentCode": "2.9",
+      "title": "Use the quotient rule to find derivatives of quotients of differentiable functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-3.B.3",
+      "parentCode": "2.10",
+      "title": "Use trigonometric identities to rewrite tangent, cotangent, secant, cosecant for differentiation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-3.C.1",
+      "parentCode": "3.1",
+      "title": "Chain rule enables differentiation of composite functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-3.D.1",
+      "parentCode": "3.2",
+      "title": "Chain rule forms the foundation for implicitly differentiating functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-3.E.1",
+      "parentCode": "3.3",
+      "title": "Chain rule and inverse function definition enable derivative calculation of inverses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-3.E.2",
+      "parentCode": "3.4",
+      "title": "Chain rule and inverse function derivative formula find inverse trig derivatives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-3.F.1",
+      "parentCode": "3.6",
+      "title": "Second and higher-order derivatives obtained by repeatedly differentiating the function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-3.A.1",
+      "parentCode": "4.1",
+      "title": "Derivatives represent instantaneous rates of change with respect to independent variables.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-3.B.1",
+      "parentCode": "4.2",
+      "title": "Derivatives solve rectilinear motion problems with position, speed, velocity, acceleration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-3.C.1",
+      "parentCode": "4.3",
+      "title": "Derivatives solve real-world problems involving rates of change in various contexts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-3.D.1",
+      "parentCode": "4.4",
+      "title": "Chain rule enables differentiation of variables relative to same independent variable.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-3.E.1",
+      "parentCode": "4.5",
+      "title": "Derivatives solve related rates problems by connecting unknown rates to known rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-3.F.1",
+      "parentCode": "4.6",
+      "title": "Tangent lines provide local linear approximations near the point of tangency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LIM-4.A.1",
+      "parentCode": "4.7",
+      "title": "Indeterminate forms 0/0 and ∞/∞ arise when function ratios approach these forms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-1.B.1",
+      "parentCode": "5.1",
+      "title": "MVT guarantees existence of point where instantaneous rate equals average rate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-1.C.1",
+      "parentCode": "5.2",
+      "title": "Continuous functions on closed intervals attain minimum and maximum values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-4.A.1",
+      "parentCode": "5.3",
+      "title": "First derivative reveals where functions increase and decrease on their domain.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-4.A.2",
+      "parentCode": "5.4",
+      "title": "First derivative identifies where relative extrema occur on a function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-4.A.3",
+      "parentCode": "5.5",
+      "title": "Absolute extrema on closed intervals occur only at critical points or endpoints.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-4.A.4",
+      "parentCode": "5.6",
+      "title": "Concavity determined by whether first derivative increases or decreases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-4.A.7",
+      "parentCode": "5.7",
+      "title": "Second derivative test identifies whether critical points are local maxima or minima.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-4.A.9",
+      "parentCode": "5.8",
+      "title": "Function features connect across graphical, numerical, and analytical representations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-4.A.1",
+      "parentCode": "5.9",
+      "title": "Function and derivative graphs show interconnected key features and behaviors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-4.B.1",
+      "parentCode": "5.10",
+      "title": "Derivatives identify minimum and maximum function values on specified intervals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-4.C.1",
+      "parentCode": "5.11",
+      "title": "Extreme values have contextual meaning in real-world applications.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-4.A.1",
+      "parentCode": "6.1",
+      "title": "Area under rate of change curve represents total accumulated change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LIM-5.A.1",
+      "parentCode": "6.2",
+      "title": "Definite integrals approximable across multiple function representations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-7.A.1",
+      "parentCode": "7.1",
+      "title": "Differential equations connect functions to their derivatives regarding independent variables.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LIM-5.B.1",
+      "parentCode": "6.3",
+      "title": "Riemann sum limits can be interpreted as definite integrals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-5.A.1",
+      "parentCode": "6.4",
+      "title": "Definite integrals define new accumulation functions with variable upper limits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-5.A.3",
+      "parentCode": "6.5",
+      "title": "Multiple representations of f inform understanding of accumulation function g.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-6.A.1",
+      "parentCode": "6.6",
+      "title": "Evaluate definite integrals using geometry and area relationships.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-6.B.1",
+      "parentCode": "6.7",
+      "title": "Antiderivative is a function whose derivative equals the original function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-6.C.1",
+      "parentCode": "6.8",
+      "title": "Indefinite integral notation represents antiderivative plus arbitrary constant.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-6.D.1",
+      "parentCode": "6.9",
+      "title": "U-substitution is a method to find antiderivatives of composite functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-6.D.3",
+      "parentCode": "6.10",
+      "title": "Use long division and completing the square to rearrange integrands into integrable forms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-7.B.1",
+      "parentCode": "7.2",
+      "title": "Use derivatives to confirm whether a function satisfies a differential equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-7.C.1",
+      "parentCode": "7.3",
+      "title": "Slope fields graphically represent differential equations at discrete plane points.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-7.C.3",
+      "parentCode": "7.4",
+      "title": "Differential equation solutions are functions or families of functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-7.D.1",
+      "parentCode": "7.6",
+      "title": "Separation of variables is a method for solving certain differential equations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-7.E.1",
+      "parentCode": "7.7",
+      "title": "General solutions yield infinitely many curves; particular solutions are unique.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-7.F.1",
+      "parentCode": "7.8",
+      "title": "Differential equations model motion and exponential growth/decay phenomena.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-4.B.1",
+      "parentCode": "8.1",
+      "title": "Average function value equals integral divided by interval length.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-4.C.1",
+      "parentCode": "8.2",
+      "title": "Definite integrals of velocity and speed determine displacement and distance traveled.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-4.D.1",
+      "parentCode": "8.3",
+      "title": "Integral functions accumulate rates of change over intervals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-5.A.1",
+      "parentCode": "8.4",
+      "title": "Definite integrals compute areas of regions in the coordinate plane.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-5.A.2",
+      "parentCode": "8.5",
+      "title": "Calculate plane areas using definite integrals with functions of x or y.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-5.A.3",
+      "parentCode": "8.6",
+      "title": "Calculate areas between curves using sums of integrals or absolute value of differences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-5.B.1",
+      "parentCode": "8.7",
+      "title": "Use definite integrals and area formulas to find volumes of solids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-5.B.2",
+      "parentCode": "8.8",
+      "title": "Use definite integrals and area formulas to find volumes of triangular cross sections.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-5.C.1",
+      "parentCode": "8.9",
+      "title": "Use definite integrals and disc method to find volumes of revolution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-5.C.2",
+      "parentCode": "8.10",
+      "title": "Definite integrals with disc method calculate volumes around any axis line.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-5.C.3",
+      "parentCode": "8.11",
+      "title": "Use washer method with definite integrals to find volumes of revolution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LIM-1.C.1",
+      "parentCode": "1.3",
+      "title": "Limits can be approached from one direction only.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LIM-1.C.5",
+      "parentCode": "1.4",
+      "title": "Use numerical data from tables to estimate function limits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LIM-1.D.1",
+      "parentCode": "1.5",
+      "title": "One-sided limits can be found using analytical or graphical methods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LIM-1.E.1",
+      "parentCode": "1.6",
+      "title": "Rearrange expressions into equivalent forms before evaluating limits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LIM-1.E.2",
+      "parentCode": "1.8",
+      "title": "Squeeze theorem can find limits, including standard trigonometric limit cases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LIM-2.A.1",
+      "parentCode": "1.10",
+      "title": "Discontinuities are classified as removable, jump, or vertical asymptote types.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LIM-2.A.2",
+      "parentCode": "1.11",
+      "title": "Function continuity at point c requires three conditions: function value, limit, equality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LIM-2.B.1",
+      "parentCode": "1.12",
+      "title": "Function continuity on interval requires continuity at every individual point.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LIM-2.C.1",
+      "parentCode": "1.13",
+      "title": "Removable discontinuities can be eliminated by redefining function values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LIM-2.D.1",
+      "parentCode": "1.14",
+      "title": "Limits can be extended to describe infinite behavior of functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "LIM-2.D.3",
+      "parentCode": "1.15",
+      "title": "Limits extend conceptually to include behavior as x approaches infinity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-1.A.1",
+      "parentCode": "1.16",
+      "title": "Continuous functions attain all intermediate values on closed intervals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-2.A.1",
+      "parentCode": "2.1",
+      "title": "Difference quotients measure average rates of change over intervals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-2.B.2",
+      "parentCode": "2.2",
+      "title": "Derivative defined as limit of difference quotient as h approaches zero.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CHA-2.D.1",
+      "parentCode": "2.3",
+      "title": "Estimate point derivatives using tabular or graphical data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "FUN-4.A.5",
+      "parentCode": "5.6",
+      "title": "Second derivative reveals concavity intervals of original function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "FUN-6.A.2",
+      "parentCode": "6.6",
+      "title": "Apply linearity, limit reversal, and additivity properties of definite integrals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LIM-1.C.2",
+      "parentCode": "1.3",
+      "title": "Graphs help visualize and estimate limit values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CHA-2.B.3",
+      "parentCode": "2.2",
+      "title": "Three standard notations represent the derivative of a function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CHA-2.D.2",
+      "parentCode": "2.3",
+      "title": "Use technology to calculate or estimate derivatives at specific points.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "FUN-6.D.2",
+      "parentCode": "6.9",
+      "title": "Definite integrals require limits adjustment when applying substitution technique.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "FUN-2.A.2",
+      "parentCode": "2.4",
+      "title": "Continuity alone does not guarantee differentiability at a point.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CHA-4.D.2",
+      "parentCode": "8.3",
+      "title": "Definite integrals compute net change from rates of change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "FUN-7.F.2",
+      "parentCode": "7.8",
+      "title": "Proportional rate of change yields the differential equation dy/dt = ky.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "FUN-3.A.3",
+      "parentCode": "2.6",
+      "title": "Use power rule with sum, difference, constant multiple properties for polynomial derivatives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CHA-4.A.2",
+      "parentCode": "6.1",
+      "title": "Geometric methods can compute accumulation for certain rate functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LIM-3.A.1",
+      "parentCode": "2.7",
+      "title": "Use known derivatives to evaluate limits by recognizing derivative definitions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "FUN-7.B.2",
+      "parentCode": "7.2",
+      "title": "Differential equations can have infinitely many general solutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LIM-5.A.2",
+      "parentCode": "6.2",
+      "title": "Multiple Riemann sum methods available with uniform or nonuniform partitions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "FUN-7.C.2",
+      "parentCode": "7.3",
+      "title": "Slope fields reveal solution behavior for first-order differential equations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "FUN-3.F.2",
+      "parentCode": "3.6",
+      "title": "Multiple notation systems exist for representing second and higher-order derivatives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LIM-5.B.2",
+      "parentCode": "6.3",
+      "title": "Riemann sum is sum of function values times subinterval widths.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CHA-3.A.2",
+      "parentCode": "4.1",
+      "title": "Derivatives express rate of change information in real-world applied problem contexts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CHA-3.D.2",
+      "parentCode": "4.4",
+      "title": "Product and quotient rules may also apply when differentiating variables.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "FUN-5.A.2",
+      "parentCode": "6.4",
+      "title": "Derivative of integral accumulation function equals original integrand function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CHA-1.A.2",
+      "parentCode": "1.1",
+      "title": "Average rate of change is undefined when independent variable change equals zero.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CHA-3.F.2",
+      "parentCode": "4.6",
+      "title": "Tangent line approximations may underestimate or overestimate based on function behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "FUN-7.D.2",
+      "parentCode": "7.6",
+      "title": "Integration solves differential equations by finding antiderivatives of both sides.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LIM-4.A.2",
+      "parentCode": "4.7",
+      "title": "L'Hospital's Rule evaluates limits producing indeterminate forms 0/0 or ∞/∞.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "FUN-1.C.2",
+      "parentCode": "5.2",
+      "title": "Critical points occur where derivative equals zero or is undefined.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LIM-1.D.2",
+      "parentCode": "1.5",
+      "title": "Limit theorems apply to sums, differences, products, quotients, and composite functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CHA-5.B.3",
+      "parentCode": "8.8",
+      "title": "Find volumes of semicircular and other cross sections using integrals and area formulas.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "FUN-6.B.2",
+      "parentCode": "6.7",
+      "title": "Continuous functions have accumulation function antiderivatives by integral definition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "FUN-7.E.2",
+      "parentCode": "7.7",
+      "title": "Particular solutions use initial conditions with fundamental theorem of calculus.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LIM-2.B.2",
+      "parentCode": "1.12",
+      "title": "Standard function families are continuous wherever they are defined.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LIM-2.C.2",
+      "parentCode": "1.13",
+      "title": "Piecewise functions are continuous at boundaries when side expressions equal function value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LIM-2.D.2",
+      "parentCode": "1.14",
+      "title": "Limits describe and explain asymptotic and unbounded function behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "FUN-6.C.2",
+      "parentCode": "6.8",
+      "title": "Derivative rules form the basis for computing antiderivatives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LIM-2.D.4",
+      "parentCode": "1.15",
+      "title": "Limits at infinity characterize how functions behave at their extremes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "FUN-4.A.8",
+      "parentCode": "5.7",
+      "title": "Single critical point that is a local extremum is also the absolute extremum on interval.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "CHA-2.B.1",
+      "parentCode": "2.1",
+      "title": "Derivative limits define instantaneous rates of change at points.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "FUN-4.A.10",
+      "parentCode": "5.8",
+      "title": "First and second derivatives predict and explain original function behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "LIM-1.C.3",
+      "parentCode": "1.3",
+      "title": "Graph scaling can obscure important function features.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "LIM-5.A.3",
+      "parentCode": "6.2",
+      "title": "Numerical approximation methods work independently of technology availability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "FUN-7.G.1",
+      "parentCode": "7.8",
+      "title": "The differential equation dy/dt = ky has exponential solution y = y₀e^(kt).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "LIM-2.D.5",
+      "parentCode": "1.15",
+      "title": "Limits enable comparison of function sizes and growth rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "FUN-6.C.3",
+      "parentCode": "6.8",
+      "title": "Some functions lack antiderivatives expressible in elementary closed form.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "CHA-3.A.3",
+      "parentCode": "4.1",
+      "title": "Derivative units equal function units divided by independent variable units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "FUN-6.A.3",
+      "parentCode": "6.6",
+      "title": "Extend definite integral definition to functions with removable or jump discontinuities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "LIM-5.C.1",
+      "parentCode": "6.3",
+      "title": "Definite integral is limit of Riemann sums as subinterval widths approach zero.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "CHA-4.A.3",
+      "parentCode": "6.1",
+      "title": "Sign of rate of change determines sign of accumulated change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "FUN-1.C.3",
+      "parentCode": "5.2",
+      "title": "Local extrema occur at critical points, but critical points need not be extrema.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "CHA-2.B.4",
+      "parentCode": "2.2",
+      "title": "Derivative expressible through multiple representation modes and formats.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "FUN-6.B.3",
+      "parentCode": "6.7",
+      "title": "Definite integral equals antiderivative difference: endpoint evaluation minus initial evaluation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "FUN-7.E.3",
+      "parentCode": "7.7",
+      "title": "Differential equation solutions may have limited domains of validity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "CHA-1.A.3",
+      "parentCode": "1.1",
+      "title": "Limits define instantaneous rate of change using average rates of change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "FUN-4.A.6",
+      "parentCode": "5.6",
+      "title": "Second derivative locates inflection points where concavity changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "CHA-4.E.1",
+      "parentCode": "8.3",
+      "title": "Definite integrals model accumulation and net change in applications.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "LIM-1.C.4",
+      "parentCode": "1.3",
+      "title": "Limits fail to exist when functions are unbounded, oscillating, or have unequal one-sided limits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "CHA-4.A.4",
+      "parentCode": "6.1",
+      "title": "Accumulation units equal rate of change units times independent variable units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "CHA-2.C.1",
+      "parentCode": "2.2",
+      "title": "Derivative at point equals slope of tangent line to function graph.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "LIM-5.A.4",
+      "parentCode": "6.2",
+      "title": "Function behavior determines whether approximations underestimate or overestimate integrals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "LIM-5.C.2",
+      "parentCode": "6.3",
+      "title": "Definite integrals and Riemann sum limits are interconvertible representations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    }
+  ]
+}

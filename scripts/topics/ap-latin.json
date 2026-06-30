@@ -1,0 +1,503 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Latin",
+  "source": "school-core:AP-LATIN@Effective Fall 2024",
+  "strands": [
+    {
+      "code": "Skill Category 1",
+      "parentCode": null,
+      "title": "Skill Category 1: Read and Comprehend Latin Poetry and Prose",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "Skill Category 2",
+      "parentCode": null,
+      "title": "Skill Category 2: Describing Style and Context of Latin Poetry and Prose",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "Skill Category 3",
+      "parentCode": null,
+      "title": "Skill Category 3: Analyze Latin Poetry and Prose",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.A",
+      "parentCode": "Skill Category 3",
+      "title": "Construct interpretations of Latin texts' main ideas and meanings.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.A",
+      "parentCode": "Skill Category 1",
+      "title": "Recognize what Latin words and phrases mean in texts",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STYL-1",
+      "parentCode": "Skill Category 2",
+      "title": "Analyze how repetition functions as a stylistic device in Latin writing.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "INT-1",
+      "parentCode": "Skill Category 3",
+      "title": "Identify and interpret main ideas and overall meaning in Latin texts.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "VOC-1",
+      "parentCode": "Skill Category 1",
+      "title": "Provide definitions for Latin words and phrases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STYL-1.A",
+      "parentCode": "Skill Category 2",
+      "title": "Repetition stresses importance, enhances memorability, and creates rhythm or musicality.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STYL-1.B",
+      "parentCode": "Skill Category 2",
+      "title": "Alliteration repeats initial consonants to emphasize ideas, enhance rhythm, and reinforce emotion.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "VOC-2",
+      "parentCode": "Skill Category 1",
+      "title": "Determine word meanings using surrounding contextual clues",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "INT-2",
+      "parentCode": "Skill Category 3",
+      "title": "Analyze the intended effect and rhetorical purpose of Latin texts.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "INT-3",
+      "parentCode": "Skill Category 3",
+      "title": "Interpret authorial perspective, speaker stance, and character attitudes in Latin.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "STYL-1.C",
+      "parentCode": "Skill Category 2",
+      "title": "Anaphora repeats opening words across successive units to emphasize ideas and create momentum.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.B",
+      "parentCode": "Skill Category 1",
+      "title": "Explain grammatical features' role in Latin meaning and function",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "GRAM-1",
+      "parentCode": "Skill Category 1",
+      "title": "Explain how Latin nouns create and affect textual meaning",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.B",
+      "parentCode": "Skill Category 3",
+      "title": "Support textual interpretations with targeted evidence and contextual analysis.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "STYL-1.D",
+      "parentCode": "Skill Category 2",
+      "title": "Parallel structure repeats grammatical forms to balance ideas, emphasize, and establish relationships.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "STYL-2",
+      "parentCode": "Skill Category 2",
+      "title": "Analyze how word order functions as a stylistic device in Latin writing.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "GRAM-1.A",
+      "parentCode": "Skill Category 1",
+      "title": "Nouns show gender, number, case through endings organized in declensions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "INT-4",
+      "parentCode": "Skill Category 3",
+      "title": "Provide direct Latin quotations that substantiate textual interpretations.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "GRAM-1.B",
+      "parentCode": "Skill Category 1",
+      "title": "Nominative case identifies the verb's subject",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "INT-5",
+      "parentCode": "Skill Category 3",
+      "title": "Clarify connections between cited passages and interpretive claims.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "STYL-2.A",
+      "parentCode": "Skill Category 2",
+      "title": "Chiasmus inverts paired elements to create emphasis and direct reader attention.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "STYL-2.B",
+      "parentCode": "Skill Category 2",
+      "title": "Synchysis interlocks elements in a-b-a-b format to create unexpected emphatic moments.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "INT-6",
+      "parentCode": "Skill Category 3",
+      "title": "Demonstrate how historical and cultural context reinforces textual interpretation.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "GRAM-1.C",
+      "parentCode": "Skill Category 1",
+      "title": "Nominative case used for both ideas with linking verbs",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "INT-7",
+      "parentCode": "Skill Category 3",
+      "title": "Show how literary devices and style choices strengthen interpretive arguments.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "GRAM-1.D",
+      "parentCode": "Skill Category 1",
+      "title": "Genitive case shows possession or belonging relationships",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "STYL-2.C",
+      "parentCode": "Skill Category 2",
+      "title": "Enjambment delays final words to succeeding lines for suspense or emphasis.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "GRAM-1.E",
+      "parentCode": "Skill Category 1",
+      "title": "Genitive shows description, part-to-whole, or action-related nouns",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "STYL-3",
+      "parentCode": "Skill Category 2",
+      "title": "Analyze how similes and metaphors function as stylistic devices in Latin texts.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "GRAM-1.F",
+      "parentCode": "Skill Category 1",
+      "title": "Dative case indicates indirect object or beneficiary of action",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "STYL-3.A",
+      "parentCode": "Skill Category 2",
+      "title": "Similes make explicit comparisons using connective words to vivify descriptive imagery.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "GRAM-1.G",
+      "parentCode": "Skill Category 1",
+      "title": "Dative case expresses purpose in double dative constructions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "STYL-3.B",
+      "parentCode": "Skill Category 2",
+      "title": "Metaphors make implicit comparisons using figurative language to create vivid imagery and connections.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "GRAM-1.H",
+      "parentCode": "Skill Category 1",
+      "title": "Dative with sum/desum expresses possession or deprivation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "STYL-4",
+      "parentCode": "Skill Category 2",
+      "title": "Analyze the characteristics and features of meter in Latin poetry.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "STYL-4.A",
+      "parentCode": "Skill Category 2",
+      "title": "Latin meter uses predictable long-short syllable sequences; feet include dactyls, spondees, trochees.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "GRAM-1.I",
+      "parentCode": "Skill Category 1",
+      "title": "Accusative case marks the direct object receiving action",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "STYL-4.B",
+      "parentCode": "Skill Category 2",
+      "title": "Elision suppresses word endings before vowels or h to maintain metrical patterns.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "GRAM-1.J",
+      "parentCode": "Skill Category 1",
+      "title": "Accusative case expresses duration of time",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "GRAM-1.K",
+      "parentCode": "Skill Category 1",
+      "title": "Ablative shows means, agent, manner, time, place, separation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "STYL-4.C",
+      "parentCode": "Skill Category 2",
+      "title": "Epic poetry uses dactylic hexameter with specific foot patterns in Vergilian tradition.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "GRAM-1.L",
+      "parentCode": "Skill Category 1",
+      "title": "Ablative shows respect or viewpoint for statement validity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "STYL-5",
+      "parentCode": "Skill Category 2",
+      "title": "Analyze the defining characteristics and features of Latin literary genres.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "STYL-5.A",
+      "parentCode": "Skill Category 2",
+      "title": "Epistles are major Roman genre reflecting daily life; some are highly literary and revised.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 17
+    },
+    {
+      "code": "GRAM-1.M",
+      "parentCode": "Skill Category 1",
+      "title": "Ablative with adjective provides descriptive noun modification",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 17
+    },
+    {
+      "code": "STYL-5.B",
+      "parentCode": "Skill Category 2",
+      "title": "Epic poetry is stylized genre where poets use traditional elements while adding personal contributions.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 18
+    },
+    {
+      "code": "GRAM-1.N",
+      "parentCode": "Skill Category 1",
+      "title": "Ablative with comparatives shows the standard of comparison",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 18
+    },
+    {
+      "code": "GRAM-1.O",
+      "parentCode": "Skill Category 1",
+      "title": "Ablative absolute shows time or circumstance of action",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 19
+    },
+    {
+      "code": "STYL-5.C",
+      "parentCode": "Skill Category 2",
+      "title": "Epic poems open with proem and muse invocation, then begin plot in medias res.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 19
+    },
+    {
+      "code": "GRAM-1.P",
+      "parentCode": "Skill Category 1",
+      "title": "Causa and gratia in ablative express purpose after genitive",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 20
+    },
+    {
+      "code": "STYL-5.D",
+      "parentCode": "Skill Category 2",
+      "title": "Gods are always involved in epic narrative, sometimes driving the plot forward directly.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 20
+    },
+    {
+      "code": "GRAM-1.Q",
+      "parentCode": "Skill Category 1",
+      "title": "Locative shows location for cities; accusative/ablative for motion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 21
+    },
+    {
+      "code": "STYL-5.E",
+      "parentCode": "Skill Category 2",
+      "title": "Epic heroes experience divine help and hindrance; often descend to underworld for quests.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 21
+    },
+    {
+      "code": "STYL-5.F",
+      "parentCode": "Skill Category 2",
+      "title": "Latin literature includes epigrams, historiography, love poems, didactic, drama, dialogue, oratory, novels.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 22
+    },
+    {
+      "code": "GRAM-1.R",
+      "parentCode": "Skill Category 1",
+      "title": "Vocative case identifies the person or object being addressed",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 22
+    },
+    {
+      "code": "GRAM-2",
+      "parentCode": "Skill Category 1",
+      "title": "Explain how Latin verbs and verbals create and affect textual meaning",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 23
+    },
+    {
+      "code": "CTXT-1",
+      "parentCode": "Skill Category 2",
+      "title": "Analyze references and allusions within Latin texts and their contexts.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 23
+    },
+    {
+      "code": "GRAM-2.A",
+      "parentCode": "Skill Category 1",
+      "title": "Verb person, number, tense, voice, mood shown through conjugations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 24
+    },
+    {
+      "code": "GRAM-2.B",
+      "parentCode": "Skill Category 1",
+      "title": "Indicative mood expresses factual or actual reality statements",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 25
+    }
+  ]
+}

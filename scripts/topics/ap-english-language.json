@@ -1,0 +1,199 @@
+{
+  "curriculumCode": "AP",
+  "subject": "English Language",
+  "source": "school-core:AP-ENG-LANG@Effective Fall 2024",
+  "strands": [
+    {
+      "code": "Skill Category 1",
+      "parentCode": null,
+      "title": "Skill Category 1: Skill Category 1: Rhetorical Situation – Reading",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "Skill Category 2",
+      "parentCode": null,
+      "title": "Skill Category 2: Skill Category 2: Rhetorical Situation – Writing",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "Skill Category 3",
+      "parentCode": null,
+      "title": "Skill Category 3: Skill Category 3: Claims and Evidence – Reading",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "Skill Category 4",
+      "parentCode": null,
+      "title": "Skill Category 4: Skill Category 4: Claims and Evidence – Writing",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "Skill Category 5",
+      "parentCode": null,
+      "title": "Skill Category 5: Skill Category 5: Reasoning and Organization – Reading",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "Skill Category 6",
+      "parentCode": null,
+      "title": "Skill Category 6: Skill Category 6: Reasoning and Organization – Writing",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "Skill Category 7",
+      "parentCode": null,
+      "title": "Skill Category 7: Skill Category 7: Style – Reading",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "Skill Category 8",
+      "parentCode": null,
+      "title": "Skill Category 8: Skill Category 8: Style – Writing",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.A",
+      "parentCode": "Skill Category 3",
+      "title": "Identify and explain claims and evidence within arguments.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.A",
+      "parentCode": "Skill Category 1",
+      "title": "Identify and describe rhetorical situation components including exigence, audience, writer, purpose, context, message.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.A",
+      "parentCode": "Skill Category 2",
+      "title": "Write introductions and conclusions appropriate to rhetorical situation purpose and context.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.A",
+      "parentCode": "Skill Category 4",
+      "title": "Develop paragraphs including claims with supporting evidence.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.A",
+      "parentCode": "Skill Category 5",
+      "title": "Describe line of reasoning and assess support for argument's overarching thesis.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.A",
+      "parentCode": "Skill Category 6",
+      "title": "Develop line of reasoning with explanatory commentary throughout arguments.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.A",
+      "parentCode": "Skill Category 7",
+      "title": "Explain how stylistic choices contribute to argument purpose.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.A",
+      "parentCode": "Skill Category 8",
+      "title": "Strategically use words, comparisons, and syntax to convey specific tone or style.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.B",
+      "parentCode": "Skill Category 8",
+      "title": "Write sentences that clearly convey ideas and arguments.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.B",
+      "parentCode": "Skill Category 5",
+      "title": "Explain how text organization creates unity, coherence, and reflects reasoning.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.B",
+      "parentCode": "Skill Category 7",
+      "title": "Explain how clause placement and combination show relationships among ideas.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.B",
+      "parentCode": "Skill Category 2",
+      "title": "Demonstrate understanding of audience beliefs, values, and needs in writing.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.B",
+      "parentCode": "Skill Category 1",
+      "title": "Explain how arguments demonstrate understanding of audience beliefs, values, and needs.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.B",
+      "parentCode": "Skill Category 3",
+      "title": "Identify and describe overarching thesis and structural indicators within arguments.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.B",
+      "parentCode": "Skill Category 6",
+      "title": "Use transitional elements to guide reader through argument's line of reasoning.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.B",
+      "parentCode": "Skill Category 4",
+      "title": "Write thesis statements requiring proof and potentially previewing argument structure.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    }
+  ]
+}

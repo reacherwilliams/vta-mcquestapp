@@ -1,0 +1,2031 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Computer Science A",
+  "source": "school-core:AP-CS-A@Effective Fall 2025",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: Using Objects and Methods",
+      "level": 1,
+      "examWeight": 15,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: Selection and Iteration",
+      "level": 1,
+      "examWeight": 25,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: Class Creation",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: Data Collections",
+      "level": 1,
+      "examWeight": 30,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "4.1",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "Algorithms with Selection and Repetition",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "Abstraction and Program Design",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Introduction to Algorithms, Programming, and Compilers",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "Variables and Data Types",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "Boolean Expressions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "4.2",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "Impact of Program Design",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "if Statements",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "Expressions and Output",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "Anatomy of a Class",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "Array Creation and Access",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Nested if Statements",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "Assignment Statements and Input",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "4.4",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "Constructors",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "Methods: How to Write Them",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "Casting and Range of Variables",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "2.5",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5",
+      "parentCode": "Unit 4",
+      "title": "4.5",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.6",
+      "parentCode": "Unit 3",
+      "title": "Methods: Passing and Returning References of an Object",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.6",
+      "parentCode": "Unit 4",
+      "title": "Using Text Files",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.6",
+      "parentCode": "Unit 1",
+      "title": "Compound Assignment Operators",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "Comparing Boolean Expressions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "while Loops",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.7",
+      "parentCode": "Unit 4",
+      "title": "Wrapper Classes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.7",
+      "parentCode": "Unit 1",
+      "title": "Application Program Interface (API) and Libraries",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.7",
+      "parentCode": "Unit 3",
+      "title": "3.7",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.8",
+      "parentCode": "Unit 2",
+      "title": "for Loops",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.8",
+      "parentCode": "Unit 4",
+      "title": "ArrayList Methods",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.8",
+      "parentCode": "Unit 1",
+      "title": "Documentation with Comments",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.8",
+      "parentCode": "Unit 3",
+      "title": "Scope and Access",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.9",
+      "parentCode": "Unit 1",
+      "title": "Method Signatures",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.9",
+      "parentCode": "Unit 2",
+      "title": "Implementing Selection and Iteration Algorithms",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "3.9",
+      "parentCode": "Unit 3",
+      "title": "this Keyword",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.9",
+      "parentCode": "Unit 4",
+      "title": "ArrayList Traversals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.10",
+      "parentCode": "Unit 4",
+      "title": "Implementing ArrayList Algorithms",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "2.10",
+      "parentCode": "Unit 2",
+      "title": "Implementing String Algorithms",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "1.10",
+      "parentCode": "Unit 1",
+      "title": "Calling Class Methods",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "1.11",
+      "parentCode": "Unit 1",
+      "title": "Math Class",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "2.11",
+      "parentCode": "Unit 2",
+      "title": "Nested Iteration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "4.11",
+      "parentCode": "Unit 4",
+      "title": "2D Array Creation and Access",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "4.12",
+      "parentCode": "Unit 4",
+      "title": "2D Array Traversals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "2.12",
+      "parentCode": "Unit 2",
+      "title": "2.12",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "1.12",
+      "parentCode": "Unit 1",
+      "title": "Objects: Instances of Classes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "4.13",
+      "parentCode": "Unit 4",
+      "title": "Implementing 2D Array Algorithms",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "1.13",
+      "parentCode": "Unit 1",
+      "title": "Object Creation and Storage (Instantiation)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "1.14",
+      "parentCode": "Unit 1",
+      "title": "Calling Instance Methods",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "4.14",
+      "parentCode": "Unit 4",
+      "title": "Searching Algorithms",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "1.15",
+      "parentCode": "Unit 1",
+      "title": "String Manipulation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "4.15",
+      "parentCode": "Unit 4",
+      "title": "Sorting Algorithms",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "4.16",
+      "parentCode": "Unit 4",
+      "title": "Recursion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "4.17",
+      "parentCode": "Unit 4",
+      "title": "Recursive Searching and Sorting",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "1.6.A.1",
+      "parentCode": "1.6",
+      "title": "Compound assignment operators combine arithmetic operations with assignment in numeric expressions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1.A.1",
+      "parentCode": "1.1",
+      "title": "Algorithms are step-by-step processes represented in language or diagrams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2.A.1",
+      "parentCode": "1.2",
+      "title": "Data types are value sets with operations, categorized as primitive or reference.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.3.A.1",
+      "parentCode": "2.3",
+      "title": "Selection statements alter normal sequential flow of code execution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.3.A.1",
+      "parentCode": "1.3",
+      "title": "System.out.println moves cursor to new line; System.out.print does not.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.4.A.1",
+      "parentCode": "1.4",
+      "title": "Variables require initialization with compatible types before use in expressions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.5.A.1",
+      "parentCode": "1.5",
+      "title": "Use (int) and (double) operators to convert between primitive types.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.7.A.1",
+      "parentCode": "1.7",
+      "title": "APIs provide documented specifications for using library classes organized in packages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.8.A.1",
+      "parentCode": "1.8",
+      "title": "Comments explain code to programmers; three Java types serve documentation purposes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.9.A.1",
+      "parentCode": "1.9",
+      "title": "Methods are named code blocks; procedural abstraction enables usage without understanding implementation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.10.A.1",
+      "parentCode": "1.10",
+      "title": "Class methods use static keyword and belong to the class, not instances.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.11.A.1",
+      "parentCode": "1.11",
+      "title": "Math class from java.lang package is automatically available without import.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.12.A.1",
+      "parentCode": "1.12",
+      "title": "Classes are blueprints; objects are specific instances with defined attributes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.13.A.1",
+      "parentCode": "1.13",
+      "title": "Constructors are class methods with the same name that create objects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.14.A.1",
+      "parentCode": "1.14",
+      "title": "Use dot operator with object name to invoke instance methods on class objects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.15.A.1",
+      "parentCode": "1.15",
+      "title": "String objects represent character sequences, created via literals or constructors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1.A.1",
+      "parentCode": "2.1",
+      "title": "Algorithms are built from sequencing, selection, and repetition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.2.A.1",
+      "parentCode": "2.2",
+      "title": "Equality operators compare primitive values or object references.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.4.A.1",
+      "parentCode": "2.4",
+      "title": "Nested if statements place conditional structures within other conditional structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.6.A.1",
+      "parentCode": "2.6",
+      "title": "Equivalent Boolean expressions produce identical results; truth tables prove equivalence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.7.A.1",
+      "parentCode": "2.7",
+      "title": "Iteration repeats code while a Boolean condition remains true.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.8.A.1",
+      "parentCode": "2.8",
+      "title": "for loops contain initialization, Boolean expression, and update components.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.3.A.1",
+      "parentCode": "3.3",
+      "title": "Public and private keywords control access to class members and encapsulate implementation details.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.9.A.1",
+      "parentCode": "2.9",
+      "title": "Standard algorithms solve divisibility, digit extraction, frequency, extrema, sum, and average problems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.10.A.1",
+      "parentCode": "2.10",
+      "title": "Standard algorithms search, count, and reverse substrings with specific properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.11.A.1",
+      "parentCode": "2.11",
+      "title": "Inner loops complete all iterations before outer loop advances.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1.A.1",
+      "parentCode": "3.1",
+      "title": "Abstraction reduces complexity by focusing on main ideas and hiding irrelevant details.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.2.A.1",
+      "parentCode": "3.2",
+      "title": "System reliability requires testing programs under varied conditions to ensure consistent performance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.4.A.1",
+      "parentCode": "3.4",
+      "title": "Object state comprises attributes defined by instance variables.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.5.A.1",
+      "parentCode": "3.5",
+      "title": "Void methods have no return value; void keyword precedes method name.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.6.A.1",
+      "parentCode": "3.6",
+      "title": "Object references passed as parameters share the same object; modifications affect original.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.8.A.1",
+      "parentCode": "3.8",
+      "title": "Local variables declared in blocks are only accessible within that block.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.9.A.1",
+      "parentCode": "3.9",
+      "title": "this references the current object in instance methods and constructors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.3.A.1",
+      "parentCode": "4.3",
+      "title": "Arrays store multiple same-type values: primitives or object references.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.6.A.1",
+      "parentCode": "4.6",
+      "title": "Files store persistent data retrievable during program execution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.7.A.1",
+      "parentCode": "4.7",
+      "title": "Integer and Double wrapper classes are immutable objects from java.lang.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.8.A.1",
+      "parentCode": "4.8",
+      "title": "ArrayList objects change size dynamically and store object references.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.9.A.1",
+      "parentCode": "4.9",
+      "title": "Use iteration or recursion to access ArrayList elements in sequence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.10.A.1",
+      "parentCode": "4.10",
+      "title": "Standard ArrayList algorithms use traversals for finding extrema, aggregation, filtering, counting, and element manipulation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.11.A.1",
+      "parentCode": "4.11",
+      "title": "2D arrays are arrays of arrays with fixed size, storing primitive or reference data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.12.A.1",
+      "parentCode": "4.12",
+      "title": "Nested loops traverse 2D arrays in row-major, column-major, or custom orders.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.13.A.1",
+      "parentCode": "4.13",
+      "title": "Standard algorithms use 2D traversals for searching, aggregating, counting, and manipulating elements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.14.A.1",
+      "parentCode": "4.14",
+      "title": "Linear search checks elements sequentially until target found or exhausted.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.15.A.1",
+      "parentCode": "4.15",
+      "title": "Selection and insertion sort are iterative algorithms for sorting collections.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.16.A.1",
+      "parentCode": "4.16",
+      "title": "Recursive methods call themselves with base cases that halt execution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.17.A.1",
+      "parentCode": "4.17",
+      "title": "Recursion traverses strings, arrays, and ArrayLists effectively.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.7.A.2",
+      "parentCode": "4.7",
+      "title": "Autoboxing automatically converts primitives to wrapper objects in assignments and method calls.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.4.A.2",
+      "parentCode": "3.4",
+      "title": "Constructors allocate memory, return references, initialize all instance variables.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.9.A.2",
+      "parentCode": "4.9",
+      "title": "Removing elements during traversal needs special techniques to prevent skipping.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.12.A.2",
+      "parentCode": "4.12",
+      "title": "Enhanced for loops traverse rows as 1D arrays; reassigning loop variables doesn't modify arrays.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.6.A.2",
+      "parentCode": "3.6",
+      "title": "Methods return object references directly, not copies of objects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.3.A.2",
+      "parentCode": "4.3",
+      "title": "Array length is fixed at creation and accessible via length attribute.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.7.A.2",
+      "parentCode": "1.7",
+      "title": "Attributes store class data in variables; behaviors define class actions via methods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.15.A.2",
+      "parentCode": "4.15",
+      "title": "Selection sort repeatedly finds extremum and swaps into final position.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.6.A.2",
+      "parentCode": "1.6",
+      "title": "Post-increment and post-decrement operators modify numeric variables by adding or subtracting one.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.14.A.2",
+      "parentCode": "1.14",
+      "title": "Calling methods on null references throws NullPointerException.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.15.A.2",
+      "parentCode": "1.15",
+      "title": "String class from java.lang package is available without explicit import.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.10.A.2",
+      "parentCode": "1.10",
+      "title": "Call class methods using ClassName.method(); class name optional within defining class.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.5.A.2",
+      "parentCode": "1.5",
+      "title": "Double to int casting removes decimal point digits without rounding.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.4.A.2",
+      "parentCode": "1.4",
+      "title": "Assignment operator stores right-side expression value into left-side variable.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.1.A.2",
+      "parentCode": "2.1",
+      "title": "Selection uses decision making; repetition uses looping in algorithms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.8.A.2",
+      "parentCode": "1.8",
+      "title": "Preconditions must hold before method execution; method assumes they are met.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.3.B.1",
+      "parentCode": "1.3",
+      "title": "Literal represents fixed value in code.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2.A.2",
+      "parentCode": "2.2",
+      "title": "Relational operators determine ordering relationships between numeric values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.3.A.2",
+      "parentCode": "2.3",
+      "title": "If statements execute code segments conditionally based on Boolean values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.11.A.2",
+      "parentCode": "1.11",
+      "title": "Math class provides static methods: abs, pow, sqrt, and random for mathematical operations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.4.A.2",
+      "parentCode": "2.4",
+      "title": "Inner condition evaluation depends on outer condition being true first.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.6.A.2",
+      "parentCode": "2.6",
+      "title": "De Morgan's law transforms negated AND/OR expressions into equivalent forms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.9.A.2",
+      "parentCode": "1.9",
+      "title": "Parameters enable value passing; signatures include method name and ordered parameter types.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.7.A.2",
+      "parentCode": "2.7",
+      "title": "Infinite loops result when the Boolean expression never becomes false.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.12.A.2",
+      "parentCode": "1.12",
+      "title": "Superclasses contain common attributes; subclasses inherit without replacing code.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.16.A.2",
+      "parentCode": "4.16",
+      "title": "Each recursive call maintains separate local variables tracking progress.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.10.A.2",
+      "parentCode": "4.10",
+      "title": "Complex algorithms may traverse multiple String, array, or ArrayList objects concurrently.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.8.A.2",
+      "parentCode": "2.8",
+      "title": "Initialization executes once; loop control variable evaluated, body executes, update runs, repeat.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.11.A.2",
+      "parentCode": "4.11",
+      "title": "New 2D arrays initialize elements to default values by type.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.1.A.2",
+      "parentCode": "3.1",
+      "title": "Data abstraction separates abstract properties from implementation details, managing complexity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.1.A.2",
+      "parentCode": "1.1",
+      "title": "Sequencing establishes the order in which process steps execute.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.6.A.2",
+      "parentCode": "4.6",
+      "title": "File and Scanner classes connect programs to file data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2.A.2",
+      "parentCode": "1.2",
+      "title": "Primitive types define values and operations for numbers and Booleans.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2.A.2",
+      "parentCode": "3.2",
+      "title": "Programs impact society and economy with both intended benefits and unintended harmful consequences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.3.A.2",
+      "parentCode": "3.3",
+      "title": "Classes in this course are declared public using the class keyword.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.8.A.2",
+      "parentCode": "4.8",
+      "title": "ArrayList() constructor creates an empty list with no elements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.13.A.2",
+      "parentCode": "1.13",
+      "title": "Constructor signatures include the class name and ordered parameter types.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.14.A.2",
+      "parentCode": "4.14",
+      "title": "Linear search on 2D arrays requires accessing each row individually first.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.5.A.2",
+      "parentCode": "3.5",
+      "title": "Non-void methods return single values; header specifies return type.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.9.A.2",
+      "parentCode": "3.9",
+      "title": "this can pass the current object as a method argument.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.8.A.2",
+      "parentCode": "3.8",
+      "title": "Local variables shadow instance variables when names conflict.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.17.B.1",
+      "parentCode": "4.17",
+      "title": "Binary search requires sorted data, halves search space per recursive call.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.4.A.3",
+      "parentCode": "3.4",
+      "title": "Copy mutable constructor parameters to prevent unintended state modifications.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.2.A.3",
+      "parentCode": "1.2",
+      "title": "Reference types define non-primitive objects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.8.A.3",
+      "parentCode": "2.8",
+      "title": "for loops and while loops are functionally equivalent and interchangeable.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.9.A.3",
+      "parentCode": "3.9",
+      "title": "Class methods lack access to the this reference.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.16.A.3",
+      "parentCode": "4.16",
+      "title": "Recursive and iterative solutions are interchangeable and equivalent.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.5.A.3",
+      "parentCode": "3.5",
+      "title": "Return expressions must match declared return type; called return by value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.13.A.3",
+      "parentCode": "1.13",
+      "title": "Multiple constructors with different signatures are called overloaded constructors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3.A.3",
+      "parentCode": "2.3",
+      "title": "One-way if executes code only when the condition evaluates true.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.17.B.2",
+      "parentCode": "4.17",
+      "title": "Binary search outperforms linear search in efficiency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3.A.3",
+      "parentCode": "3.3",
+      "title": "Constructors in this course are always designated public.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.6.A.3",
+      "parentCode": "4.6",
+      "title": "Create File objects with pathname string to open files.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.11.A.3",
+      "parentCode": "4.11",
+      "title": "2D array initializers use nested lists representing 1D array rows.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.4.A.3",
+      "parentCode": "2.4",
+      "title": "If-else-if executes at most one code block based on first true condition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.9.A.3",
+      "parentCode": "4.9",
+      "title": "Out-of-range index access throws IndexOutOfBoundsException.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.6.A.3",
+      "parentCode": "3.6",
+      "title": "Private members accessible only when parameter type matches enclosing class type.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.8.A.3",
+      "parentCode": "1.8",
+      "title": "Postconditions guarantee true results after method execution completes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.12.A.3",
+      "parentCode": "1.12",
+      "title": "Every Java class inherits from the Object class at the top.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.6.B.1",
+      "parentCode": "2.6",
+      "title": "Use == and != operators to compare whether variables reference same object.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.11.A.3",
+      "parentCode": "1.11",
+      "title": "Math.random() output can be transformed to generate random values within specified inclusive/exclusive ranges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3.A.3",
+      "parentCode": "4.3",
+      "title": "Array elements default to zero, 0.0, false, or null by type.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.8.A.3",
+      "parentCode": "4.8",
+      "title": "Generic ArrayList<E> specifies element type; preferred for compile-time error detection.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.15.A.3",
+      "parentCode": "4.15",
+      "title": "Insertion sort places unsorted elements into correct sorted positions with shifts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.9.B.1",
+      "parentCode": "1.9",
+      "title": "Void methods return no value and cannot be used in expressions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.1.A.3",
+      "parentCode": "3.1",
+      "title": "Attributes are class data; instance variables are unique per object, class variables shared.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.15.A.3",
+      "parentCode": "1.15",
+      "title": "String objects are immutable; methods return new strings rather than modifying.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.7.A.3",
+      "parentCode": "2.7",
+      "title": "Loop body skips execution if initial Boolean condition is false.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.5.A.3",
+      "parentCode": "1.5",
+      "title": "Int values automatically widen to double in certain expressions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.7.A.3",
+      "parentCode": "4.7",
+      "title": "Unboxing automatically converts wrapper objects to primitives in assignments and method calls.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.4.A.3",
+      "parentCode": "1.4",
+      "title": "Expressions evaluate to single values with types determined by evaluation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.1.B.1",
+      "parentCode": "1.1",
+      "title": "IDEs provide integrated tools for writing, compiling, and running code.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.2.A.3",
+      "parentCode": "3.2",
+      "title": "Programmers must obtain permission and licensing for proprietary code; open source code is freely reusable.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.1.A.3",
+      "parentCode": "2.1",
+      "title": "Selection directs algorithm execution based on true or false conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.2.A.3",
+      "parentCode": "2.2",
+      "title": "Relational operator expressions produce Boolean true or false results.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3.B.2",
+      "parentCode": "1.3",
+      "title": "String literal is character sequence in double quotes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.1.B.2",
+      "parentCode": "1.1",
+      "title": "Compilers detect errors that must be fixed before execution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.9.B.2",
+      "parentCode": "1.9",
+      "title": "Non-void methods return typed values; return values must be stored or used in expressions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.7.A.4",
+      "parentCode": "4.7",
+      "title": "Integer.parseInt() converts a String to an int value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.12.B.1",
+      "parentCode": "1.12",
+      "title": "Reference variables store object memory addresses, not actual objects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.13.B.1",
+      "parentCode": "1.13",
+      "title": "Reference variables hold object references or null values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.8.A.4",
+      "parentCode": "4.8",
+      "title": "ArrayList requires import statement from java.util package for usage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.15.A.4",
+      "parentCode": "1.15",
+      "title": "Concatenate strings with + or +=; primitives implicitly convert to strings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.1.A.4",
+      "parentCode": "2.1",
+      "title": "Repetition executes a process repeatedly until desired outcome achieved.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.3.A.4",
+      "parentCode": "2.3",
+      "title": "If-else executes one branch when true, alternate branch when false.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.6.B.2",
+      "parentCode": "2.6",
+      "title": "Compare references to null using == or != to check object existence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.9.A.4",
+      "parentCode": "4.9",
+      "title": "Do not add or remove elements in enhanced for loops to avoid ConcurrentModificationException.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.7.A.4",
+      "parentCode": "2.7",
+      "title": "Off-by-one errors result from iterating one time too many or few.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.11.A.4",
+      "parentCode": "4.11",
+      "title": "Brackets [row][col] access elements; first index is row, second is column.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.1.A.4",
+      "parentCode": "3.1",
+      "title": "Procedural abstraction names processes; method decomposition enables reuse and reduces duplication.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.3.A.4",
+      "parentCode": "3.3",
+      "title": "Each object has its own independent copy of instance variables.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4.A.4",
+      "parentCode": "3.4",
+      "title": "Java provides default no-parameter constructor with type-specific default values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.5.A.4",
+      "parentCode": "3.5",
+      "title": "Return transfers control back to caller; code after return never executes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.3.A.4",
+      "parentCode": "4.3",
+      "title": "Initializer lists create and populate arrays with specified values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.17.B.3",
+      "parentCode": "4.17",
+      "title": "Binary search implementations may be iterative or recursive.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.2.B.1",
+      "parentCode": "1.2",
+      "title": "Three primitive types: int (integers), double (real numbers), boolean (true/false).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.6.A.4",
+      "parentCode": "4.6",
+      "title": "Handle file opening errors with throws IOException declaration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.3.B.3",
+      "parentCode": "1.3",
+      "title": "Escape sequences like \\\", \\\\, \\n provide special meaning in strings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4.B.1",
+      "parentCode": "1.4",
+      "title": "Scanner class enables keyboard text input from multiple input sources.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.5.A.4",
+      "parentCode": "1.5",
+      "title": "Round doubles by adding/subtracting 0.5 before casting to int.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.7.B.1",
+      "parentCode": "2.7",
+      "title": "while loops evaluate conditions before each iteration, executing body when true.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.3.A.5",
+      "parentCode": "4.3",
+      "title": "Square brackets with index access and modify array elements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.3.A.5",
+      "parentCode": "3.3",
+      "title": "Instance variables should be private to maintain encapsulation unless specified otherwise.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5.B.1",
+      "parentCode": "1.5",
+      "title": "Integer.MAX_VALUE and Integer.MIN_VALUE define int range limits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.11.A.5",
+      "parentCode": "4.11",
+      "title": "Single brackets access entire rows of a 2D array.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.1.A.5",
+      "parentCode": "3.1",
+      "title": "Parameters generalize procedures, enabling reuse with different input values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.6.B.3",
+      "parentCode": "2.6",
+      "title": "Classes define equals methods to determine object equivalency based on attributes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.1.C.1",
+      "parentCode": "1.1",
+      "title": "Syntax errors violate language rules and are compiler-detected.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.17.C.1",
+      "parentCode": "4.17",
+      "title": "Merge sort recursively sorts arrays and ArrayLists.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.13.C.1",
+      "parentCode": "1.13",
+      "title": "Objects are created using the new keyword and a constructor call.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.2.B.2",
+      "parentCode": "1.2",
+      "title": "Variables store mutable values with names and data types during execution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.6.A.5",
+      "parentCode": "4.6",
+      "title": "Import java.io package to access File and IOException classes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.1.A.5",
+      "parentCode": "2.1",
+      "title": "Order of sequencing, selection, and repetition affects algorithm outcome.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.7.A.5",
+      "parentCode": "4.7",
+      "title": "Double.parseDouble() converts a String to a double value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.3.C.1",
+      "parentCode": "1.3",
+      "title": "Arithmetic expressions use numeric values, variables, operators as int or double.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.8.A.5",
+      "parentCode": "4.8",
+      "title": "ArrayList methods: size(), add(), get(), set(), remove() for list manipulation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.15.A.5",
+      "parentCode": "1.15",
+      "title": "Concatenating objects calls their toString method; subclasses may override it.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.9.B.3",
+      "parentCode": "1.9",
+      "title": "Arguments must match parameter types in number and order; passed by value as copies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5.A.5",
+      "parentCode": "3.5",
+      "title": "Accessor methods return copies of instance or class variable values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.4.A.5",
+      "parentCode": "3.4",
+      "title": "Default values: int→0, double→0.0, boolean→false, reference→null.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5.B.2",
+      "parentCode": "1.5",
+      "title": "Ints occupy 4 bytes, restricting values to MIN_VALUE through MAX_VALUE.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.8.A.6",
+      "parentCode": "4.8",
+      "title": "ArrayList indices begin at zero and end at size minus one.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.9.B.4",
+      "parentCode": "1.9",
+      "title": "Method overloading allows same names with different parameter signatures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.3.C.2",
+      "parentCode": "1.3",
+      "title": "Operators +, -, *, /, % determine result type based on operand types.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.6.A.6",
+      "parentCode": "4.6",
+      "title": "Scanner methods read file data: nextInt, nextDouble, nextBoolean, nextLine, next, hasNext, close.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.3.A.6",
+      "parentCode": "4.3",
+      "title": "Valid indices are 0 to length-1; invalid indices throw exception.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.5.A.6",
+      "parentCode": "3.5",
+      "title": "Mutator methods modify instance or class variable values; typically void.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.13.C.2",
+      "parentCode": "1.13",
+      "title": "Constructor parameters initialize object attributes with provided values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.1.A.6",
+      "parentCode": "3.1",
+      "title": "Procedural abstraction allows internal method changes without affecting external users.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.3.A.6",
+      "parentCode": "3.3",
+      "title": "Public methods allow internal and external access; private methods allow only internal access.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.15.B.1",
+      "parentCode": "1.15",
+      "title": "String indices range from 0 to length-1; out-of-range access throws exception.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.11.A.6",
+      "parentCode": "4.11",
+      "title": "Use length attribute for dimensions; invalid indices cause ArrayIndexOutOfBoundsException.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.1.C.2",
+      "parentCode": "1.1",
+      "title": "Logic errors cause incorrect behavior, detected through program testing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.17.C.2",
+      "parentCode": "4.17",
+      "title": "Merge sort divides arrays into single elements, recursively merges sorted subarrays.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.6.A.7",
+      "parentCode": "4.6",
+      "title": "nextLine and other Scanner methods handle whitespace differently.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.5.B.3",
+      "parentCode": "1.5",
+      "title": "Integer overflow wraps values within range, producing unexpected results.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.15.B.2",
+      "parentCode": "1.15",
+      "title": "Key methods: length, substring, indexOf, equals, compareTo for string operations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.9.B.5",
+      "parentCode": "1.9",
+      "title": "Method calls halt sequential flow, execute method statements, then return control afterward.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.1.A.7",
+      "parentCode": "3.1",
+      "title": "Design classes before implementation using natural language or diagrams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.5.A.7",
+      "parentCode": "3.5",
+      "title": "Parameters receive values that methods use to accomplish their tasks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.1.C.3",
+      "parentCode": "1.1",
+      "title": "Run-time errors occur during execution and cause abnormal termination.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.3.C.3",
+      "parentCode": "1.3",
+      "title": "Integer division truncates; double division returns full quotient.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.13.C.3",
+      "parentCode": "1.13",
+      "title": "Constructor arguments must match parameter types, order, and number via call by value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.13.C.4",
+      "parentCode": "1.13",
+      "title": "Constructor calls interrupt execution, run constructor code, then return control flow.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.5.C.1",
+      "parentCode": "1.5",
+      "title": "Double precision limits cause round-off errors; use ints to avoid them.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.3.C.4",
+      "parentCode": "1.3",
+      "title": "Remainder operator % computes division remainder.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.1.C.4",
+      "parentCode": "1.1",
+      "title": "Exceptions are unexpected run-time errors interrupting program execution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.5.A.8",
+      "parentCode": "3.5",
+      "title": "Primitive arguments passed by value; parameter changes don't affect argument.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.3.C.5",
+      "parentCode": "1.3",
+      "title": "Operator precedence and parentheses determine evaluation order in expressions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.3.C.6",
+      "parentCode": "1.3",
+      "title": "Integer division by zero throws ArithmeticException.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    }
+  ]
+}

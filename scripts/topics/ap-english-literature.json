@@ -1,0 +1,167 @@
+{
+  "curriculumCode": "AP",
+  "subject": "English Literature",
+  "source": "school-core:AP-ENG-LIT@Effective Fall 2024",
+  "strands": [
+    {
+      "code": "Skill Category 1",
+      "parentCode": null,
+      "title": "Skill Category 1: Character",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "Skill Category 2",
+      "parentCode": null,
+      "title": "Skill Category 2: Setting",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "Skill Category 3",
+      "parentCode": null,
+      "title": "Skill Category 3: Structure",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "Skill Category 4",
+      "parentCode": null,
+      "title": "Skill Category 4: Narration",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "Skill Category 5",
+      "parentCode": null,
+      "title": "Skill Category 5: Figurative Language",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "Skill Category 6",
+      "parentCode": null,
+      "title": "Skill Category 6: Literary Argumentation",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.A",
+      "parentCode": "Skill Category 3",
+      "title": "Identify how plot structure orders and sequences narrative events.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.A",
+      "parentCode": "Skill Category 1",
+      "title": "Identify textual details revealing character perspective, motives, and traits.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.A",
+      "parentCode": "Skill Category 2",
+      "title": "Identify specific textual details that convey or reveal setting.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.A",
+      "parentCode": "Skill Category 4",
+      "title": "Identify and describe the narrator or speaker of a text.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.A",
+      "parentCode": "Skill Category 5",
+      "title": "Distinguish literal from figurative word and phrase meanings.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.A",
+      "parentCode": "Skill Category 6",
+      "title": "Identify and explain the function of a simile.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.B",
+      "parentCode": "Skill Category 6",
+      "title": "Identify and explain the function of a metaphor.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.B",
+      "parentCode": "Skill Category 4",
+      "title": "Explain how point of view functions in shaping narrative meaning.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.B",
+      "parentCode": "Skill Category 1",
+      "title": "Explain how and why characters change throughout a text.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.B",
+      "parentCode": "Skill Category 3",
+      "title": "Explain how specific event sequences function in plot development.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.B",
+      "parentCode": "Skill Category 5",
+      "title": "Explain how specific words and imagery function in texts.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.B",
+      "parentCode": "Skill Category 2",
+      "title": "Explain how setting functions within narrative structure and meaning.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.A",
+      "parentCode": "Skill Category 6",
+      "title": "Develop paragraphs with claims and textual evidence supporting interpretations.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.B",
+      "parentCode": "Skill Category 6",
+      "title": "Develop thesis statements conveying defensible interpretive claims.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    }
+  ]
+}

@@ -1,0 +1,1735 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Psychology",
+  "source": "school-core:AP-PSYCH@Effective Fall 2025",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: Biological Bases of Behavior",
+      "level": 1,
+      "examWeight": 15,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: Cognition",
+      "level": 1,
+      "examWeight": 15,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: Development and Learning",
+      "level": 1,
+      "examWeight": 15,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: Social Psychology and Personality",
+      "level": 1,
+      "examWeight": 15,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 5",
+      "parentCode": null,
+      "title": "Unit 5: Mental and Physical Health",
+      "level": 1,
+      "examWeight": 15,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Interaction of Heredity and Environment",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "Perception",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "4.1",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "Themes and Methods in Developmental Psychology",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "Unit 5",
+      "title": "5.1",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.2",
+      "parentCode": "Unit 5",
+      "title": "Positive Psychology",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "Overview of the Nervous System",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "Physical Development Across the Lifespan",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "Thinking, Problem-Solving, Judgments, and Decision-Making",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "Attitude Formation and Attitude Change",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.3",
+      "parentCode": "Unit 5",
+      "title": "5.3",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "Psychology of Social Situations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "Gender and Sexual Orientation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "The Neuron and Neural Firing",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "Introduction to Memory",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.4",
+      "parentCode": "Unit 5",
+      "title": "Selection of Categories of Psychological Disorders",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "The Brain",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Encoding Memories",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "Cognitive Development Across the Lifespan",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "Psychodynamic and Humanistic Theories of Personality",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "Sleep",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.5",
+      "parentCode": "Unit 5",
+      "title": "Treatment of Psychological Disorders",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "Communication and Language Development",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "Storing Memories",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5",
+      "parentCode": "Unit 4",
+      "title": "Social-Cognitive and Trait Theories of Personality",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.6",
+      "parentCode": "Unit 3",
+      "title": "Social-Emotional Development Across the Lifespan",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "Retrieving Memories",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.6",
+      "parentCode": "Unit 4",
+      "title": "Motivation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.6",
+      "parentCode": "Unit 1",
+      "title": "Sensation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.7",
+      "parentCode": "Unit 4",
+      "title": "Emotion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.7",
+      "parentCode": "Unit 3",
+      "title": "Classical Conditioning",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "Forgetting and Other Memory Challenges",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.8",
+      "parentCode": "Unit 2",
+      "title": "Intelligence and Achievement",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.8",
+      "parentCode": "Unit 3",
+      "title": "Operant Conditioning",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.9",
+      "parentCode": "Unit 3",
+      "title": "Social, Cognitive, and Neurological Factors in Learning",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "5.5.A.1",
+      "parentCode": "5.5",
+      "title": "Psychotherapies are effective; evidence-based interventions, cultural humility, and therapeutic alliance are essential.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1.A.1",
+      "parentCode": "1.1",
+      "title": "Genetic and environmental factors interact to influence behavior and mental processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.6.A.1",
+      "parentCode": "1.6",
+      "title": "Sensation detects environmental stimuli and transduces them into neural messages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2.A.1",
+      "parentCode": "1.2",
+      "title": "Brain and spinal cord comprise the central nervous system controlling body processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1.A.1",
+      "parentCode": "2.1",
+      "title": "Perception depends on bottom-up sensory input or top-down expectations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.3.A.1",
+      "parentCode": "1.3",
+      "title": "Neurons and glial cells are foundational neural structures underlying all behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.2.A.1",
+      "parentCode": "2.2",
+      "title": "Concepts and prototypes structure thinking and categorization processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.4.A.1",
+      "parentCode": "5.4",
+      "title": "Neurodevelopmental disorders emerge during development; ADHD and ASD are key examples.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.2.A.1",
+      "parentCode": "5.2",
+      "title": "Positive psychology identifies factors contributing to well-being and psychological health.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.7.A.1",
+      "parentCode": "4.7",
+      "title": "Emotion involves physiological and cognitive experiences; theories disagree on their sequence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.6.A.1",
+      "parentCode": "4.6",
+      "title": "Drive-reduction and arousal theories explain motivation through homeostasis and optimal stimulation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.5.A.1",
+      "parentCode": "4.5",
+      "title": "Reciprocal determinism shapes personality through self-concept, self-efficacy, self-esteem.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.4.A.1",
+      "parentCode": "4.4",
+      "title": "Psychodynamic theory posits that unconscious processes fundamentally drive personality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.4.A.1",
+      "parentCode": "1.4",
+      "title": "Brain stem regulates essential autonomic functions like breathing and heart rate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.3.A.1",
+      "parentCode": "2.3",
+      "title": "Memory types differ in how they are processed, stored, and retrieved.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.3.A.1",
+      "parentCode": "4.3",
+      "title": "Social norms establish expectations and roles for individuals in various situations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.2.A.1",
+      "parentCode": "4.2",
+      "title": "Stereotypes generalize groups, reduce cognitive load, but fuel prejudice and discrimination.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.9.A.1",
+      "parentCode": "3.9",
+      "title": "Learning occurs through observation and imitation of similar models without direct experience.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.8.A.1",
+      "parentCode": "3.8",
+      "title": "Operant conditioning links consequences to behaviors; reinforced behaviors repeat more often.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.7.A.1",
+      "parentCode": "3.7",
+      "title": "Behaviorism emphasizes observable behavior over internal mental processes in learning.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.6.A.1",
+      "parentCode": "3.6",
+      "title": "Ecological systems theory explains how nested social environments influence individual development.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.5.A.1",
+      "parentCode": "3.5",
+      "title": "Language uses arbitrary symbols governed by rules to generate infinite meanings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.4.A.1",
+      "parentCode": "3.4",
+      "title": "Piaget's stages describe cognitive development from infancy through adulthood.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.3.A.1",
+      "parentCode": "3.3",
+      "title": "Sex and gender influence socialization and developmental aspects",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.2.A.1",
+      "parentCode": "3.2",
+      "title": "Prenatal development shaped by teratogens, illness, genetics, hormones, environment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.5.A.1",
+      "parentCode": "1.5",
+      "title": "Consciousness varies in awareness; sleep and wakefulness are consciousness types.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.4.A.1",
+      "parentCode": "2.4",
+      "title": "Encoding processes and strategies determine storage and retrieval effectiveness.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1.A.1",
+      "parentCode": "3.1",
+      "title": "Developmental psychology examines chronological progression and thematic issues like stability-change and nature-nurture across lifespan.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.8.A.1",
+      "parentCode": "2.8",
+      "title": "Intelligence definition and measurement remain debated and subject to historical bias.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.7.A.1",
+      "parentCode": "2.7",
+      "title": "Time significantly influences forgetting, with rapid initial decline then plateauing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.6.A.1",
+      "parentCode": "2.6",
+      "title": "Memory retrieval happens through recall or recognition with cues.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.5.A.1",
+      "parentCode": "2.5",
+      "title": "Four memory types differ in duration, capacity, and content characteristics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1.A.2",
+      "parentCode": "2.1",
+      "title": "Internal schemas and perceptual sets filter how we perceive.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.1.A.2",
+      "parentCode": "1.1",
+      "title": "Natural selection shapes behavior and mental processes for survival and reproduction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2.A.2",
+      "parentCode": "1.2",
+      "title": "Peripheral nervous system transmits CNS messages via autonomic involuntary and somatic voluntary systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.3.A.2",
+      "parentCode": "1.3",
+      "title": "Reflex arcs involve sensory, motor, and interneurons responding to stimuli.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.4.A.2",
+      "parentCode": "1.4",
+      "title": "Reticular activating system and reward center regulate alertness, movement, and learning.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.5.A.2",
+      "parentCode": "1.5",
+      "title": "Sleep/wake cycle is a 24-hour circadian rhythm disrupted by jet lag.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.6.A.2",
+      "parentCode": "1.6",
+      "title": "Just-noticeable difference and sensory adaptation explain stimulus change detection.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2.A.2",
+      "parentCode": "2.2",
+      "title": "Schemas develop through assimilation and accommodation of new information.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.3.A.2",
+      "parentCode": "2.3",
+      "title": "Repeated neuron activation strengthens synaptic connections, supporting memory formation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.4.A.2",
+      "parentCode": "2.4",
+      "title": "Mnemonic devices like method of loci enhance encoding into memory.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.5.A.2",
+      "parentCode": "2.5",
+      "title": "Maintenance and elaborative rehearsal both strengthen memory storage over time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.6.A.2",
+      "parentCode": "2.6",
+      "title": "Retrieval improves when context, mood, or physical state match encoding conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.7.A.2",
+      "parentCode": "2.7",
+      "title": "Encoding failure, interference, and inadequate retrieval impair memory access.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.8.B.1",
+      "parentCode": "2.8",
+      "title": "IQ scores historically measured mental age divided by chronological age.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.1.B.1",
+      "parentCode": "3.1",
+      "title": "Cross-sectional and longitudinal research designs help developmental psychologists understand behavior and mental processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2.B.1",
+      "parentCode": "3.2",
+      "title": "Motor skill development follows similar order but varies in timing across infants, children.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.4.A.2",
+      "parentCode": "3.4",
+      "title": "Vygotsky emphasizes social learning, scaffolding, and zone of proximal development.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.5.B.1",
+      "parentCode": "3.5",
+      "title": "Language develops through universal stages; learners use gestures and often overgeneralize rules.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.6.A.2",
+      "parentCode": "3.6",
+      "title": "Parenting styles vary culturally and differentially impact child and caregiver outcomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.7.A.2",
+      "parentCode": "3.7",
+      "title": "Classical conditioning pairs stimuli to elicit responses through acquisition, extinction, recovery, and generalization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.8.A.2",
+      "parentCode": "3.8",
+      "title": "Reinforcement and punishment vary by type; organisms discriminate and generalize reinforcers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.9.B.1",
+      "parentCode": "3.9",
+      "title": "Sudden problem-solving without association, consequence, or model observation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2.A.2",
+      "parentCode": "4.2",
+      "title": "Implicit attitudes are unconscious beliefs reflected in biases like out-group homogeneity and ethnocentrism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.3.A.2",
+      "parentCode": "4.3",
+      "title": "Social pressure influences behavior through normative and informational routes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.4.A.2",
+      "parentCode": "4.4",
+      "title": "Eight ego defense mechanisms unconsciously protect the ego from psychological threats.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.5.B.1",
+      "parentCode": "4.5",
+      "title": "Personality consists of enduring traits producing consistent behavioral responses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.6.A.2",
+      "parentCode": "4.6",
+      "title": "Self-determination and incentive theories explain motivation through internal and external rewards.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.7.A.2",
+      "parentCode": "4.7",
+      "title": "Positive emotions expand awareness and encourage action; negative emotions narrow focus.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2.B.1",
+      "parentCode": "5.2",
+      "title": "Gratitude expression increases subjective well-being and positive experiences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.4.A.2",
+      "parentCode": "5.4",
+      "title": "Neurodevelopmental disorder causes involve environmental, physiological, or genetic factors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.5.B.1",
+      "parentCode": "5.5",
+      "title": "Psychotropic medications enabled deinstitutionalization; combined medication and psychological therapy is now preferred.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.7.B.1",
+      "parentCode": "4.7",
+      "title": "Some emotions appear universal across cultures, but research shows inconsistent support.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.4.A.3",
+      "parentCode": "2.4",
+      "title": "Chunking, categorizing, and organizing information improves encoding.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.5.A.3",
+      "parentCode": "2.5",
+      "title": "Highly superior autobiographical memory reflects biological processes and personal relevance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.6.A.3",
+      "parentCode": "2.6",
+      "title": "Testing effect and metacognition enhance successful memory retrieval.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.7.A.3",
+      "parentCode": "2.7",
+      "title": "Repression protects the ego by unconsciously forgetting distressing memories.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.2.B.2",
+      "parentCode": "5.2",
+      "title": "Exercising signature strengths across six virtue categories increases happiness and well-being.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.8.B.2",
+      "parentCode": "2.8",
+      "title": "Good tests require standardization, validity (construct/predictive), and reliability (test-retest/split-half).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.5.A.3.i",
+      "parentCode": "1.5",
+      "title": "NREM stages 1-3 decrease in duration; hypnagogic sensations mark stage 1 entry.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3.B.1",
+      "parentCode": "1.3",
+      "title": "Neural transmission follows systematic processes; disruptions cause neurological disorders.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.2.B.2",
+      "parentCode": "3.2",
+      "title": "Infant reflexes signal normal physical and psychological development progress.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.4.A.3",
+      "parentCode": "3.4",
+      "title": "Crystallized intelligence stays stable; fluid intelligence declines with age; dementia affects cognition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.4.B.1",
+      "parentCode": "5.4",
+      "title": "Schizophrenia involves delusions, hallucinations, disorganized speech/thought, motor behavior, or negative symptoms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.6.A.3",
+      "parentCode": "3.6",
+      "title": "Infant attachment styles include secure and insecure variants; comfort matters more than food.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.7.A.3",
+      "parentCode": "3.7",
+      "title": "Emotional responses can be classically conditioned and treated therapeutically through counterconditioning.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.8.A.3",
+      "parentCode": "3.8",
+      "title": "Shaping gradually builds desired behavior; instinctive drift limits what can be shaped.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.1.A.3",
+      "parentCode": "1.1",
+      "title": "Twin, family, and adoption studies examine genetic influences on behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.9.B.2",
+      "parentCode": "3.9",
+      "title": "Information learned without reinforcement becomes evident later, shown through cognitive maps.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.2.B.1",
+      "parentCode": "4.2",
+      "title": "Belief perseverance maintains beliefs despite contradicting evidence through confirmation bias.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.4.A.3",
+      "parentCode": "1.4",
+      "title": "Cerebellum coordinates movement, maintains balance, and supports procedural learning.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.5.C.1",
+      "parentCode": "5.5",
+      "title": "Clinical psychologists must follow APA ethical principles: nonmaleficence, fidelity, integrity, respect.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3.A.3",
+      "parentCode": "4.3",
+      "title": "Persuasion uses central or peripheral routes; techniques include foot-in-the-door and door-in-the-face.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.4.A.3",
+      "parentCode": "4.4",
+      "title": "Projective tests assess personality by probing preconscious and unconscious mind.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.5.B.2",
+      "parentCode": "4.5",
+      "title": "Big Five traits measured via factor analysis in specialized personality inventories.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.6.A.3",
+      "parentCode": "4.6",
+      "title": "Animals use instincts for motivation; humans rely on learned and cognitive motivational processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.1.A.3",
+      "parentCode": "2.1",
+      "title": "Context, experience, and culture externally filter perception.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.2.A.3",
+      "parentCode": "2.2",
+      "title": "Algorithms systematically test solutions until finding correct answer.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3.A.3",
+      "parentCode": "2.3",
+      "title": "Working memory components interact dynamically to process information into long-term storage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.6.A.3",
+      "parentCode": "1.6",
+      "title": "Sensory systems interact; synesthesia involves cross-system sensory experiences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.5.A.4",
+      "parentCode": "2.5",
+      "title": "Physical impairment and developmental limitations disrupt memory storage processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.2.B.3",
+      "parentCode": "3.2",
+      "title": "Visual cliff research shows infants perceive depth; assesses developmental responsiveness.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.4.B.2",
+      "parentCode": "5.4",
+      "title": "Schizophrenia's causes include genetic factors, prenatal exposure, and neurotransmitter imbalances.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.6.A.4",
+      "parentCode": "3.6",
+      "title": "Peer relationships develop from parallel play in childhood to identity-focused adolescent egocentrism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.7.A.4",
+      "parentCode": "3.7",
+      "title": "Taste aversions show one-trial learning and biological preparedness in conditioning.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.8.A.4",
+      "parentCode": "3.8",
+      "title": "Superstition results from reinforcing unrelated behaviors; helplessness from perceived lack of control.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.3.A.4",
+      "parentCode": "2.3",
+      "title": "Information passes through sensory, short-term, and long-term memory systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4.A.4",
+      "parentCode": "1.4",
+      "title": "Cerebral cortex comprises two hemispheres, limbic system, corpus callosum, and cortical lobes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.2.A.4",
+      "parentCode": "2.2",
+      "title": "Heuristics use mental shortcuts but cause errors via representativeness and availability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.2.B.2",
+      "parentCode": "4.2",
+      "title": "Cognitive dissonance creates mental discomfort, motivating alignment of attitudes and actions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.3.A.4",
+      "parentCode": "4.3",
+      "title": "Conformity research identifies conditions strengthening adherence to norms and expectations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.5.D.1",
+      "parentCode": "5.5",
+      "title": "Psychodynamic therapy uses free association and dream interpretation to access unconscious material.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4.B.1",
+      "parentCode": "4.4",
+      "title": "Humanistic psychology emphasizes unconditional regard and self-actualization as primary motivators.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.6.B.1",
+      "parentCode": "1.6",
+      "title": "Retina captures and transduces visual information; brain fills blind spot gaps.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.6.A.4",
+      "parentCode": "4.6",
+      "title": "Resolving motivational conflicts between approach and avoidance goals drives behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4.A.4",
+      "parentCode": "2.4",
+      "title": "Spacing effect: distributed practice superior to massed practice encoding.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.7.B.2",
+      "parentCode": "4.7",
+      "title": "Cultural display rules and elicitors vary by gender, age, and socioeconomic status.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.3.B.2",
+      "parentCode": "1.3",
+      "title": "Neurotransmitters send excitatory or inhibitory messages affecting behavior and cognition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.7.A.4",
+      "parentCode": "2.7",
+      "title": "Memory accuracy is compromised by misinformation, source confusion, and reconstruction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.5.A.3.ii",
+      "parentCode": "1.5",
+      "title": "REM sleep is paradoxical with wakefulness brain waves but relaxed body; contains dreams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.8.B.3",
+      "parentCode": "2.8",
+      "title": "Intelligence assessments should be culturally responsive to reduce stereotype threat and inequity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.2.B.3",
+      "parentCode": "5.2",
+      "title": "Posttraumatic growth represents positive psychological outcomes following trauma.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.1.A.4",
+      "parentCode": "2.1",
+      "title": "Gestalt principles organize perception: closure, figure-ground, proximity, similarity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.6.A.5",
+      "parentCode": "4.6",
+      "title": "Motivation stems from individual differences in seeking novel and varied experiences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.8.C.1",
+      "parentCode": "2.8",
+      "title": "Flynn Effect shows global IQ increases linked to socioeconomic improvements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.5.D.2",
+      "parentCode": "5.5",
+      "title": "Cognitive therapy uses restructuring and hierarchies to address the cognitive triad of negative thoughts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.8.A.5",
+      "parentCode": "3.8",
+      "title": "Reinforcement schedules (continuous, fixed/variable interval, fixed/variable ratio) affect response strength patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.4.A.4.i",
+      "parentCode": "1.4",
+      "title": "Occipital lobes process visual information and locate at brain's rear.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.3.B.3",
+      "parentCode": "1.3",
+      "title": "Hormones function like neurotransmitters affecting behavior outside nervous system.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5.A.4",
+      "parentCode": "1.5",
+      "title": "Dream theories include activation-synthesis and consolidation mechanisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.6.A.5",
+      "parentCode": "3.6",
+      "title": "Adult social development involves cultural timing, emerging adulthood, and attachment-influenced relationships.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.1.A.5",
+      "parentCode": "2.1",
+      "title": "Attention involves sensation and perception; selective attention and change blindness demonstrate its limits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.7.A.5",
+      "parentCode": "3.7",
+      "title": "Habituation reduces responses to repeated or persistent stimuli over time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.2.B.4",
+      "parentCode": "3.2",
+      "title": "Critical sensitive periods strongly affect development, including language and animal imprinting.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.2.A.5",
+      "parentCode": "2.2",
+      "title": "Mental set, priming, and framing influence decision-making processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.6.B.2",
+      "parentCode": "1.6",
+      "title": "Lens accommodation focuses stimuli on retina; alterations cause vision defects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.4.A.5",
+      "parentCode": "2.4",
+      "title": "Serial position effect: primacy and recency effects improve memory encoding.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.3.A.5",
+      "parentCode": "2.3",
+      "title": "Deeper processing levels produce stronger memory encoding and retrieval.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.3.A.5",
+      "parentCode": "4.3",
+      "title": "Obedience research identifies conditions strengthening compliance with authority directives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.4.C.1",
+      "parentCode": "5.4",
+      "title": "Depressive disorders involve sad or irritable mood with functional impairment; includes major and persistent depressive disorder.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.4.C.2",
+      "parentCode": "5.4",
+      "title": "Depression's causes include biological, genetic, social, cultural, behavioral, and cognitive factors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.2.A.6",
+      "parentCode": "2.2",
+      "title": "Gambler's and sunk-cost fallacies impair rational decision-making.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.3.B.1",
+      "parentCode": "4.3",
+      "title": "Individualism, collectivism, and multiculturalism influence self-perception and social behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.6.B.3",
+      "parentCode": "1.6",
+      "title": "Rods detect shapes and movement in low light, enabling light-dark adaptation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.3.C.1",
+      "parentCode": "1.3",
+      "title": "Psychoactive drugs alter neurotransmitter function as agonists, antagonists, or reuptake inhibitors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.5.D.3",
+      "parentCode": "5.5",
+      "title": "Applied behavior analysis uses conditioning principles: exposure therapy, aversion therapy, token economies, biofeedback.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.6.B.1",
+      "parentCode": "4.6",
+      "title": "Eating motivation involves hormonal regulation and external environmental and social factors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.8.C.2",
+      "parentCode": "2.8",
+      "title": "Within-group IQ variation exceeds between-group variation; systemic bias affects interpretation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.2.C.1",
+      "parentCode": "3.2",
+      "title": "Adolescence marked by growth spurt, puberty, reproductive development, sex characteristics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.1.B.1",
+      "parentCode": "2.1",
+      "title": "Binocular cues use retinal disparity and convergence for depth perception.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.5.A.5",
+      "parentCode": "1.5",
+      "title": "Sleep consolidates memories and restores depleted resources from daily activities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.6.A.6",
+      "parentCode": "3.6",
+      "title": "Psychosocial stage theory posits lifelong conflict resolution across trust, autonomy, initiative stages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.4.A.4.ii",
+      "parentCode": "1.4",
+      "title": "Temporal lobes process auditory and language information on brain sides.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.1.B.2",
+      "parentCode": "2.1",
+      "title": "Monocular cues create depth illusions on two-dimensional surfaces.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.3.B.2",
+      "parentCode": "4.3",
+      "title": "Group membership affects behavior through polarization, groupthink, diffusion, loafing, and deindividuation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.2.A.7",
+      "parentCode": "2.2",
+      "title": "Executive functions enable planning, organization, and goal-directed behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.5.A.6",
+      "parentCode": "1.5",
+      "title": "Sleep disorders impair daytime function; treatment improves performance and well-being.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.8.C.3",
+      "parentCode": "2.8",
+      "title": "Intelligence tests historically limited access to employment, military, education, immigration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.6.B.1.i",
+      "parentCode": "4.6",
+      "title": "Ghrelin and leptin hormones regulate hunger and fullness signals via hypothalamus.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.5.D.4",
+      "parentCode": "5.5",
+      "title": "Cognitive-behavioral therapies combine cognitive and behavioral techniques for mental health treatment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.4.A.4.iii",
+      "parentCode": "1.4",
+      "title": "Parietal lobes process information and touch sensation near back crown.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.2.D.1",
+      "parentCode": "3.2",
+      "title": "Adulthood shows plateauing then declining reproductive ability, mobility, sensory function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.3.C.2",
+      "parentCode": "1.3",
+      "title": "Drug classes produce distinct psychological and physiological effects on neural activity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.6.B.4",
+      "parentCode": "1.6",
+      "title": "Trichromatic and opponent-process theories explain color vision; cones process colors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.4.A.4.iv",
+      "parentCode": "1.4",
+      "title": "Frontal lobes handle language, executive function, and motor control.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.2.A.8",
+      "parentCode": "2.2",
+      "title": "Creativity involves divergent thinking but is limited by functional fixedness.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.3.C.3",
+      "parentCode": "1.3",
+      "title": "Repeated drug use causes tolerance, addiction, and withdrawal symptoms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.1.B.3",
+      "parentCode": "2.1",
+      "title": "Perceptual constancy maintains object perception despite changing images.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.5.D.5",
+      "parentCode": "5.5",
+      "title": "Person-centered therapy uses active listening and unconditional positive regard in humanistic approach.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.8.D.1",
+      "parentCode": "2.8",
+      "title": "Achievement tests measure current knowledge; aptitude tests predict future performance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.6.B.1.ii",
+      "parentCode": "4.6",
+      "title": "Environmental and social cues significantly influence eating behavior beyond internal hormonal signals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.6.B.5",
+      "parentCode": "1.6",
+      "title": "Brain damage to visual regions affects vision processing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.3.B.3",
+      "parentCode": "4.3",
+      "title": "Performing before groups can enhance performance through social facilitation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.5.E",
+      "parentCode": "5.5",
+      "title": "Group therapy differs from individual therapy in structure, dynamics, and therapeutic mechanisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.1.B.4",
+      "parentCode": "2.1",
+      "title": "Objects appear to move even when stationary.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.8.D.2",
+      "parentCode": "2.8",
+      "title": "Fixed versus growth mindset beliefs significantly influence academic achievement outcomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.4.A.5",
+      "parentCode": "1.4",
+      "title": "Split brain studies show hemispheric specialization through corpus callosum severing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.3.B.4",
+      "parentCode": "4.3",
+      "title": "People overestimate agreement with others in the false consensus effect.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "5.5.F.1",
+      "parentCode": "5.5",
+      "title": "Hypnosis is an effective treatment for pain management.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "4.3.B.5",
+      "parentCode": "4.3",
+      "title": "Superordinate goals unite groups; social traps occur from self-interested behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "1.4.A.5.i",
+      "parentCode": "1.4",
+      "title": "Left hemisphere language areas include Broca's and Wernicke's; damage causes aphasia.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "4.3.B.6",
+      "parentCode": "4.3",
+      "title": "I/O psychologists study workplace performance, management practices, relationships, and burnout.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "1.4.A.5.ii",
+      "parentCode": "1.4",
+      "title": "Visual field testing reveals hemispheric specialization using contralateral organization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "1.4.A.6",
+      "parentCode": "1.4",
+      "title": "Brain plasticity enables rewiring and functional recovery from brain damage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "4.3.C.1",
+      "parentCode": "4.3",
+      "title": "Altruism involves selfless behavior; social reciprocity norms motivate prosocial actions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    }
+  ]
+}

@@ -1,0 +1,1663 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Human Geography",
+  "source": "school-core:AP-HUM-GEO@Effective Fall 2020",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: Thinking Geographically",
+      "level": 1,
+      "examWeight": 8,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: Population and Migration Patterns and Processes",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: Cultural Patterns and Processes",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: Political Patterns and Processes",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 5",
+      "parentCode": null,
+      "title": "Unit 5: Agriculture and Rural Land-Use Patterns and Processes",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 4
+    },
+    {
+      "code": "Unit 6",
+      "parentCode": null,
+      "title": "Unit 6: Cities and Urban Land-Use Patterns and Processes",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 5
+    },
+    {
+      "code": "Unit 7",
+      "parentCode": null,
+      "title": "Unit 7: Industrial and Economic Development Patterns and Processes",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "Introduction to Culture",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1",
+      "parentCode": "Unit 7",
+      "title": "The Industrial Revolution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "Population Distribution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "Unit 6",
+      "title": "The Origin and Influences of Urbanization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Introduction to Maps",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "Unit 5",
+      "title": "Introduction to Agriculture and Rural Land-Use Patterns and Processes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "Introduction to Political Geography",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.2",
+      "parentCode": "Unit 7",
+      "title": "Economic Sectors and Patterns",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2",
+      "parentCode": "Unit 6",
+      "title": "Cities Across the World",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "Unit 5",
+      "title": "Settlement Patterns and Survey Methods",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "Cultural Landscapes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "Political Processes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "Consequences of Population Distribution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "Geographic Data",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "Population Composition",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "The Power of Geographic Data",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "Cultural Patterns",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "Political Power and Territoriality",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.3",
+      "parentCode": "Unit 5",
+      "title": "5.3",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3",
+      "parentCode": "Unit 6",
+      "title": "Cities and Globalization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.3",
+      "parentCode": "Unit 7",
+      "title": "Measures of Development",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "Types of Diffusion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "Spatial Concepts",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "Defining Political Boundaries",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.4",
+      "parentCode": "Unit 5",
+      "title": "The Second Agricultural Revolution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.4",
+      "parentCode": "Unit 6",
+      "title": "6.4",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.4",
+      "parentCode": "Unit 7",
+      "title": "Women and Economic Development",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Population Dynamics",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.5",
+      "parentCode": "Unit 5",
+      "title": "The Green Revolution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "1.5",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "The Demographic Transition Model",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "Historical Causes of Diffusion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5",
+      "parentCode": "Unit 4",
+      "title": "The Function of Political Boundaries",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.5",
+      "parentCode": "Unit 6",
+      "title": "The Internal Structure of Cities",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.5",
+      "parentCode": "Unit 7",
+      "title": "Theories of Development",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.6",
+      "parentCode": "Unit 4",
+      "title": "Internal Boundaries",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.6",
+      "parentCode": "Unit 5",
+      "title": "5.6",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "Malthusian Theory",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.6",
+      "parentCode": "Unit 6",
+      "title": "Density and Land Use",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.6",
+      "parentCode": "Unit 7",
+      "title": "Trade and the World Economy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.6",
+      "parentCode": "Unit 3",
+      "title": "Contemporary Causes of Diffusion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.6",
+      "parentCode": "Unit 1",
+      "title": "Scales of Analysis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "Population Policies",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.7",
+      "parentCode": "Unit 3",
+      "title": "Diffusion of Religion and Language",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.7",
+      "parentCode": "Unit 7",
+      "title": "Changes as a Result of the World Economy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.7",
+      "parentCode": "Unit 4",
+      "title": "4.7",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.7",
+      "parentCode": "Unit 5",
+      "title": "Spatial Organization of Agriculture",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.7",
+      "parentCode": "Unit 6",
+      "title": "Infrastructure",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.7",
+      "parentCode": "Unit 1",
+      "title": "Regional Processes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.8",
+      "parentCode": "Unit 7",
+      "title": "Sustainable Development",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.8",
+      "parentCode": "Unit 5",
+      "title": "5.8",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.8",
+      "parentCode": "Unit 4",
+      "title": "Defining Devolutionary Factors",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.8",
+      "parentCode": "Unit 3",
+      "title": "Effects of Diffusion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.8",
+      "parentCode": "Unit 2",
+      "title": "Women and Demographic Change",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "6.8",
+      "parentCode": "Unit 6",
+      "title": "Urban Sustainability",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "6.9",
+      "parentCode": "Unit 6",
+      "title": "Urban Data",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.9",
+      "parentCode": "Unit 4",
+      "title": "Challenges to Sovereignty",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "5.9",
+      "parentCode": "Unit 5",
+      "title": "5.9",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.9",
+      "parentCode": "Unit 2",
+      "title": "Aging Populations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.10",
+      "parentCode": "Unit 4",
+      "title": "Consequences of Centrifugal and Centripetal Forces",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "2.10",
+      "parentCode": "Unit 2",
+      "title": "Causes of Migration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "5.10",
+      "parentCode": "Unit 5",
+      "title": "5.10",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "6.10",
+      "parentCode": "Unit 6",
+      "title": "Challenges of Urban Changes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "6.11",
+      "parentCode": "Unit 6",
+      "title": "Challenges of Urban Sustainability",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "2.11",
+      "parentCode": "Unit 2",
+      "title": "2.11",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "5.11",
+      "parentCode": "Unit 5",
+      "title": "Challenges of Contemporary Agriculture",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "5.12",
+      "parentCode": "Unit 5",
+      "title": "Women in Agriculture",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "2.12",
+      "parentCode": "Unit 2",
+      "title": "Effects of Migration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "IMP-4.B.1",
+      "parentCode": "4.5",
+      "title": "Boundaries establish sovereignty limits yet remain frequently contested and disputed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-2.B.1",
+      "parentCode": "2.5",
+      "title": "Demographic transition model explains how populations change across time periods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-6.B.1",
+      "parentCode": "6.11",
+      "title": "Urban sustainability challenges include sprawl, sanitation, climate change, pollution, and resource consumption.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-7.A.5",
+      "parentCode": "7.7",
+      "title": "Outsourcing shifts jobs from core to newly industrialized countries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-4.B.5",
+      "parentCode": "4.6",
+      "title": "Electoral districts and gerrymandering influence election outcomes across different scales.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-4.A.1",
+      "parentCode": "4.8",
+      "title": "State devolution results from geographic, ethnic, security, and economic challenges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-4.B.1",
+      "parentCode": "4.9",
+      "title": "Devolution fragments states into autonomous regions or causes complete disintegration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-1.A.1",
+      "parentCode": "1.7",
+      "title": "Regions result from shared characteristics or activity patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-2.B.3",
+      "parentCode": "2.6",
+      "title": "Malthusian theory and critiques explain population change and resulting effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-2.A.1",
+      "parentCode": "2.7",
+      "title": "Population policies promote or discourage growth through pronatalist, antinatalist, immigration measures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-4.C.1",
+      "parentCode": "4.10",
+      "title": "Centrifugal forces create state failure, inequality, statelessness, and ethnic nationalism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-2.B.1",
+      "parentCode": "2.8",
+      "title": "Female access to education, employment, healthcare, and contraception reduces fertility rates globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-5.A.1",
+      "parentCode": "5.1",
+      "title": "Physical geography and climate shape agricultural practices and methods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-7.E.1",
+      "parentCode": "7.5",
+      "title": "Multiple development theories explain geographic disparities in economic and social advancement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-5.B.1",
+      "parentCode": "5.2",
+      "title": "Agricultural practices directly influence the patterns of rural land use.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-2.C.1",
+      "parentCode": "2.9",
+      "title": "Birth rates, death rates, and life expectancy determine population aging.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-7.C.1",
+      "parentCode": "7.3",
+      "title": "Economic and social development measured through GDP, GNP, GNI, sectoral structure, income, health, and education indicators.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-5.C.1",
+      "parentCode": "5.4",
+      "title": "Second agricultural revolution advanced technology, food production, health, and labor availability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-5.D.1",
+      "parentCode": "5.5",
+      "title": "Green Revolution employed high-yield seeds, chemicals, and mechanization in agriculture.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-2.C.1",
+      "parentCode": "2.10",
+      "title": "Migration results from push factors and pull factors driving movement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-5.C.3",
+      "parentCode": "5.7",
+      "title": "Commercial agriculture displaces traditional small-scale family farming operations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-1.B.1",
+      "parentCode": "1.2",
+      "title": "Field data collection occurs through organizations and individual efforts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-6.A.1",
+      "parentCode": "6.10",
+      "title": "Urban migration causes housing discrimination, service gaps, crime, and environmental injustice.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-5.B.1",
+      "parentCode": "5.11",
+      "title": "Modern agricultural innovations create debates about sustainability and environmental impacts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-2.E.1",
+      "parentCode": "2.12",
+      "title": "Migration creates political, economic, and cultural consequences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-3.A.1",
+      "parentCode": "3.1",
+      "title": "Culture is shared practices, technologies, attitudes, and behaviors passed through society.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-7.A.1",
+      "parentCode": "7.6",
+      "title": "Trade foundations rest on complementarity and comparative advantage principles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-5.C.1",
+      "parentCode": "5.12",
+      "title": "Female roles in food systems vary geographically based on production type.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-6.A.1",
+      "parentCode": "6.1",
+      "title": "Physical location and geographic context shape how cities develop and function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-2.A.1",
+      "parentCode": "2.1",
+      "title": "Physical and human factors shape where populations settle globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-6.A.3",
+      "parentCode": "6.2",
+      "title": "Megacities and metacities represent urbanization outcomes concentrated in peripheral and semiperipheral nations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-7.A.1",
+      "parentCode": "7.1",
+      "title": "New technologies and natural resource availability enabled industrialization's emergence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-6.B.1",
+      "parentCode": "6.3",
+      "title": "World cities occupy the highest urban hierarchy level and propel globalization processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-3.B.1",
+      "parentCode": "3.2",
+      "title": "Cultural landscapes combine physical features, practices, beliefs, history, and built forms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-6.D.1",
+      "parentCode": "6.5",
+      "title": "Multiple geographic models explain urban internal structure across diverse global contexts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-6.A.1",
+      "parentCode": "6.6",
+      "title": "Housing patterns reflect and shape urban culture, technology, development cycles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-6.B.1",
+      "parentCode": "6.7",
+      "title": "Infrastructure location and quality shape cities' economic and social development patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-6.C.1",
+      "parentCode": "6.8",
+      "title": "Urban sustainability employs mixed-use zoning, walkability, transit-oriented development, and smart-growth policies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-6.E.1",
+      "parentCode": "6.9",
+      "title": "Census and survey quantitative data reveal urban population composition and size changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-1.A.1",
+      "parentCode": "1.1",
+      "title": "Maps are classified as either reference or thematic types.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-3.D.1",
+      "parentCode": "3.3",
+      "title": "Regional cultural patterns create place identity and form global landscapes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-7.B.1",
+      "parentCode": "7.2",
+      "title": "Five economic sectors display different spatial development patterns globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-3.A.1",
+      "parentCode": "3.4",
+      "title": "Diffusion occurs through relocation, contagious, hierarchical, and stimulus expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-3.A.1",
+      "parentCode": "3.5",
+      "title": "Cultural interactions and global forces create new forms of cultural expression.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-7.D.1",
+      "parentCode": "7.4",
+      "title": "Women's economic roles transform during national economic development processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-3.A.3",
+      "parentCode": "3.6",
+      "title": "Culture changes through urbanization, globalization, media, technology, politics, economics, and social ties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-2.D.1",
+      "parentCode": "2.2",
+      "title": "Population distribution and density shape political, economic, and social processes including service provision.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-3.B.1",
+      "parentCode": "3.7",
+      "title": "Cultural elements including languages and religions spread outward from origin hearths.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-1.C.1",
+      "parentCode": "1.3",
+      "title": "Geographic data informs decision-making across personal, business, and government scales.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-2.E.1",
+      "parentCode": "2.3",
+      "title": "Age structure and sex ratio patterns vary regionally and across scales.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-7.A.1",
+      "parentCode": "7.8",
+      "title": "Sustainable policies address resource depletion, consumption, pollution, and climate change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-1.A.1",
+      "parentCode": "1.4",
+      "title": "Major geographic concepts explain how places relate through location and spatial patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "SPS-3.B.1",
+      "parentCode": "3.8",
+      "title": "Cultural diffusion produces acculturation, assimilation, syncretism, and multiculturalism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-4.A.1",
+      "parentCode": "4.1",
+      "title": "Independent states form the foundation of world political organization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-2.A.1",
+      "parentCode": "2.4",
+      "title": "Fertility, mortality, and migration are key demographic factors determining population change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-4.B.1",
+      "parentCode": "4.2",
+      "title": "Sovereignty, nation-states, and self-determination fundamentally shape contemporary political geography.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-4.C.1",
+      "parentCode": "4.3",
+      "title": "Political power manifests geographically through control of people, land, and resources.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "PSO-1.C.1",
+      "parentCode": "1.6",
+      "title": "Geographers use global, regional, national, and local scales to analyze data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-4.A.1",
+      "parentCode": "4.4",
+      "title": "Political boundaries are classified into six main types based on origin.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "IMP-6.D.1",
+      "parentCode": "6.8",
+      "title": "Urban design initiatives reduce sprawl and improve livability but may increase costs and cause segregation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IMP-1.A.2",
+      "parentCode": "1.1",
+      "title": "Maps show spatial patterns like distance, direction, clustering, dispersal, elevation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IMP-1.B.2",
+      "parentCode": "1.2",
+      "title": "Geospatial technologies encompass GIS, navigation systems, remote sensing, mapping tools.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "SPS-7.C.2",
+      "parentCode": "7.3",
+      "title": "Gender inequality measured through reproductive health, empowerment, and labor market participation indicators.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-1.D.1",
+      "parentCode": "1.6",
+      "title": "Different scales reveal varying patterns and alternative data interpretations geographically.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "SPS-1.A.2",
+      "parentCode": "1.7",
+      "title": "Formal, functional, and perceptual/vernacular regions represent different classification types.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "SPS-7.B.2",
+      "parentCode": "7.2",
+      "title": "Multiple factors determine manufacturing location across core, semiperiphery, periphery.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-2.A.2",
+      "parentCode": "2.1",
+      "title": "Population distribution factors differ depending on geographic scale examined.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IMP-7.A.2",
+      "parentCode": "7.8",
+      "title": "Ecotourism protects threatened natural environments while creating local employment opportunities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-2.D.2",
+      "parentCode": "2.2",
+      "title": "Population distribution and density affect environment and natural resources through carrying capacity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-2.F.1",
+      "parentCode": "2.3",
+      "title": "Population pyramids assess growth, decline, and forecast market demand.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IMP-2.A.2",
+      "parentCode": "2.4",
+      "title": "Rate of natural increase and population-doubling time measure population growth decline.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "SPS-7.A.2",
+      "parentCode": "7.1",
+      "title": "Industrialization increased food supplies, population growth, urbanization, and class structure transformation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IMP-2.B.2",
+      "parentCode": "2.5",
+      "title": "Epidemiological transition accounts for causes underlying shifting mortality rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "SPS-2.B.2",
+      "parentCode": "2.8",
+      "title": "Female role changes affect fertility, mortality, and migration patterns per Ravenstein's laws.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "SPS-2.C.2",
+      "parentCode": "2.9",
+      "title": "Aging populations create political, social, economic consequences including dependency ratio.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IMP-2.C.2",
+      "parentCode": "2.10",
+      "title": "Migration factors span cultural, demographic, economic, environmental, political domains.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-3.A.2",
+      "parentCode": "3.1",
+      "title": "Cultural traits manifest in food, architecture, and land use patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-3.C.1",
+      "parentCode": "3.2",
+      "title": "Ethnicity, gender, and indigenous identity influence spatial organization and land use.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-3.D.2",
+      "parentCode": "3.3",
+      "title": "Cultural factors generate both unifying and dividing geographic forces.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "SPS-3.A.2",
+      "parentCode": "3.5",
+      "title": "Colonial, imperial, and trade systems historically shaped cultural patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "SPS-3.A.4",
+      "parentCode": "3.6",
+      "title": "Communication technologies reshape cultural interactions, standardize some practices while erasing others globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IMP-3.B.2",
+      "parentCode": "3.7",
+      "title": "Maps, charts, and toponyms visually display language and religion diffusion patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "SPS-6.B.2",
+      "parentCode": "6.11",
+      "title": "Solutions include regional planning, brownfield remediation, growth boundaries, and farmland protection.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-7.A.6",
+      "parentCode": "7.7",
+      "title": "Non-core countries develop manufacturing zones with lower-wage labor divisions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-4.A.2",
+      "parentCode": "4.1",
+      "title": "Political entities vary from nation-states to stateless nations and autonomous regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-4.B.2",
+      "parentCode": "4.2",
+      "title": "Colonial, imperial, independence, and devolution processes created current political boundaries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-4.C.2",
+      "parentCode": "4.3",
+      "title": "Territoriality links people, culture, and economies to specific geographic places.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IMP-4.B.2",
+      "parentCode": "4.5",
+      "title": "Boundaries align with cultural/economic divisions or result from policy like Berlin Conference.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "SPS-4.B.2",
+      "parentCode": "4.9",
+      "title": "Communication technology advances enable devolution, supranationalism, and democratization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "SPS-7.D.2",
+      "parentCode": "7.4",
+      "title": "Female workforce participation increases but wage and opportunity gaps persist.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-7.A.2",
+      "parentCode": "7.6",
+      "title": "Free trade agreements created organizations like EU, WTO, Mercosur, OPEC fostering globalization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "SPS-4.C.2",
+      "parentCode": "4.10",
+      "title": "Centripetal forces promote ethnonationalism, equitable development, and cultural unity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-5.A.2",
+      "parentCode": "5.1",
+      "title": "Intensive farming uses high inputs on limited land for maximum yield.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-5.B.2",
+      "parentCode": "5.2",
+      "title": "Rural settlements fall into three categories: clustered, dispersed, or linear.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "SPS-6.A.2",
+      "parentCode": "6.10",
+      "title": "Squatter settlements and land tenure conflicts are growing in urban areas.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "SPS-5.D.2",
+      "parentCode": "5.5",
+      "title": "Green Revolution created mixed outcomes for humans and environmental systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-5.C.4",
+      "parentCode": "5.7",
+      "title": "Agricultural products move through intricate supply chains from production to consumption.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IMP-5.B.2",
+      "parentCode": "5.11",
+      "title": "Food movements and individual choices shape production and consumption patterns globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IMP-6.E.2",
+      "parentCode": "6.9",
+      "title": "Field studies and narratives reveal individual attitudes toward urban change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-6.A.2",
+      "parentCode": "6.1",
+      "title": "Transportation, population, migration, economics, and policy drive urbanization processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-6.A.4",
+      "parentCode": "6.2",
+      "title": "Suburbanization, sprawl, and decentralization produce edge cities, exurbs, boomburbs, and associated challenges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "PSO-6.B.2",
+      "parentCode": "6.3",
+      "title": "Global networks connect cities and facilitate the mediation of worldwide processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "IMP-7.A.3",
+      "parentCode": "7.8",
+      "title": "UN Sustainable Development Goals measure progress through finance and transportation initiatives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IMP-1.A.3",
+      "parentCode": "1.1",
+      "title": "Maps selectively represent information and projections distort spatial relationships.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IMP-1.B.3",
+      "parentCode": "1.2",
+      "title": "Spatial information derives from observations, reports, narratives, documents, interviews, analysis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "SPS-1.A.3",
+      "parentCode": "1.7",
+      "title": "Regional boundaries transition gradually and frequently overlap or conflict.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PSO-2.B.1",
+      "parentCode": "2.1",
+      "title": "Three distinct methods calculate population density measurements differently.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IMP-2.A.3",
+      "parentCode": "2.4",
+      "title": "Social, cultural, political, economic factors influence fertility, mortality, migration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PSO-3.A.3",
+      "parentCode": "3.1",
+      "title": "Cultural relativism and ethnocentrism represent contrasting perspectives on cultural differences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IMP-3.B.3",
+      "parentCode": "3.7",
+      "title": "Religious diffusion originates from hearths; practices shape how widely religions spread.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IMP-4.B.3",
+      "parentCode": "4.5",
+      "title": "Boundaries shape identity and affect international cooperation or resource conflicts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "SPS-4.B.3",
+      "parentCode": "4.9",
+      "title": "Global cooperation on challenges and economies of scale promotes supranationalism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PSO-5.A.3",
+      "parentCode": "5.1",
+      "title": "Extensive farming uses large land areas with lower input intensity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PSO-5.B.3",
+      "parentCode": "5.2",
+      "title": "Three main survey methods organize rural land: metes and bounds, township and range, long lot.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PSO-5.C.5",
+      "parentCode": "5.7",
+      "title": "Agricultural technology enables larger operations and increased land productivity and capacity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IMP-5.B.3",
+      "parentCode": "5.11",
+      "title": "Global food challenges include access gaps, distribution failures, climate, and urbanization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "SPS-6.A.3",
+      "parentCode": "6.10",
+      "title": "Inclusionary zoning and local food movements address urban economic and social challenges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "SPS-7.A.3",
+      "parentCode": "7.1",
+      "title": "Industrial investors pursuing raw materials and markets fueled colonialism and imperialism expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "SPS-7.C.3",
+      "parentCode": "7.3",
+      "title": "HDI is composite measure showing development variation across countries and regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "SPS-7.D.3",
+      "parentCode": "7.4",
+      "title": "Microloans enable women entrepreneurs to establish businesses and raise living standards.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PSO-7.A.3",
+      "parentCode": "7.6",
+      "title": "Government policies at all scales, including tariffs, affect economic development.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "PSO-7.A.7",
+      "parentCode": "7.7",
+      "title": "Modern economy features post-Fordism, services, technology, and specialized growth centers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "IMP-5.B.4",
+      "parentCode": "5.11",
+      "title": "Infrastructure, scale, distribution, and policy economically influence food production practices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "SPS-4.B.4",
+      "parentCode": "4.9",
+      "title": "Supranational organizations limit member states' economic and political sovereignty.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "PSO-2.C.1",
+      "parentCode": "2.1",
+      "title": "Different density methods reveal varying population pressure impacts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "PSO-7.A.4",
+      "parentCode": "7.6",
+      "title": "Crises, lending agencies, and development strategies show economic interdependence globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "IMP-4.B.4",
+      "parentCode": "4.5",
+      "title": "UN Law of the Sea convention defines maritime rights and economic zone responsibilities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "IMP-3.B.4",
+      "parentCode": "3.7",
+      "title": "Universalizing religions spread via expansion and relocation diffusion processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "SPS-6.A.4",
+      "parentCode": "6.10",
+      "title": "Urban renewal and gentrification produce mixed positive and negative outcomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "SPS-1.A.4",
+      "parentCode": "1.7",
+      "title": "Regional analysis operates across local, national, and global geographic scales.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "IMP-3.B.5",
+      "parentCode": "3.7",
+      "title": "Ethnic religions remain near hearths or spread through relocation diffusion only.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "SPS-6.A.5",
+      "parentCode": "6.10",
+      "title": "Fragmented government across levels hampers effective urban problem-solving.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    }
+  ]
+}

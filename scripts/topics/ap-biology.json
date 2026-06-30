@@ -1,0 +1,2079 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Biology",
+  "source": "school-core:AP-BIO@Effective Fall 2025",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: Chemistry of Life",
+      "level": 1,
+      "examWeight": 8,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: Cells",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: Cellular Energetics",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: Cell Communication and Cell Cycle",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 5",
+      "parentCode": null,
+      "title": "Unit 5: Heredity",
+      "level": 1,
+      "examWeight": 8,
+      "sortOrder": 4
+    },
+    {
+      "code": "Unit 6",
+      "parentCode": null,
+      "title": "Unit 6: Gene Expression and Regulation",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 5
+    },
+    {
+      "code": "Unit 7",
+      "parentCode": null,
+      "title": "Unit 7: Natural Selection",
+      "level": 1,
+      "examWeight": 13,
+      "sortOrder": 6
+    },
+    {
+      "code": "Unit 8",
+      "parentCode": null,
+      "title": "Unit 8: Ecology",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Structure of Water and Hydrogen Bonding",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "Cell Structure and Function",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "Enzymes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "Cell Communication",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "Unit 5",
+      "title": "Meiosis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "Unit 6",
+      "title": "DNA and RNA Structure",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1",
+      "parentCode": "Unit 7",
+      "title": "Introduction to Natural Selection",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1",
+      "parentCode": "Unit 8",
+      "title": "Responses to the Environment",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "Elements of Life",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2",
+      "parentCode": "Unit 8",
+      "title": "Energy Flow Through Ecosystems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "Environmental Impacts on Enzyme Function",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "Cell Size",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "Introduction to Signal Transduction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2",
+      "parentCode": "Unit 6",
+      "title": "DNA Replication",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "Unit 5",
+      "title": "Meiosis and Genetic Diversity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2",
+      "parentCode": "Unit 7",
+      "title": "Natural Selection",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "Signal Transduction Pathways",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "Plasma Membrane",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.3",
+      "parentCode": "Unit 7",
+      "title": "Artificial Selection",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "Chemical Reactions Building and Breaking Biological Macromolecules",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "Cellular Energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3",
+      "parentCode": "Unit 8",
+      "title": "Population Ecology",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.3",
+      "parentCode": "Unit 5",
+      "title": "Mendelian Genetics",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3",
+      "parentCode": "Unit 6",
+      "title": "Transcription and RNA Processing",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Membrane Permeability",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.4",
+      "parentCode": "Unit 8",
+      "title": "Effect of Density on Populations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "Carbohydrates",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.4",
+      "parentCode": "Unit 7",
+      "title": "Population Genetics",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.4",
+      "parentCode": "Unit 6",
+      "title": "Translation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "Feedback Mechanisms and Homeostasis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.4",
+      "parentCode": "Unit 5",
+      "title": "Non-Mendelian Genetics",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "Photosynthesis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.5",
+      "parentCode": "Unit 5",
+      "title": "Environmental Effects on Phenotype",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5",
+      "parentCode": "Unit 4",
+      "title": "Cell Cycle",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "Membrane Transport",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.5",
+      "parentCode": "Unit 7",
+      "title": "Hardy–Weinberg Equilibrium",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.5",
+      "parentCode": "Unit 8",
+      "title": "Community Ecology",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "Lipids",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "Cellular Respiration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.5",
+      "parentCode": "Unit 6",
+      "title": "Regulation of Gene Expression",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.6",
+      "parentCode": "Unit 7",
+      "title": "Evidence of Evolution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "Facilitated Diffusion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.6",
+      "parentCode": "Unit 4",
+      "title": "Regulation of Cell Cycle",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.6",
+      "parentCode": "Unit 6",
+      "title": "Gene Expression and Cell Specialization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "8.6",
+      "parentCode": "Unit 8",
+      "title": "Biodiversity and Ecosystem Resilience",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.6",
+      "parentCode": "Unit 1",
+      "title": "Nucleic Acids",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "8.7",
+      "parentCode": "Unit 8",
+      "title": "Disruptions in Ecosystems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "Tonicity and Osmoregulation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.7",
+      "parentCode": "Unit 7",
+      "title": "Common Ancestry",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.7",
+      "parentCode": "Unit 6",
+      "title": "Mutations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.7",
+      "parentCode": "Unit 1",
+      "title": "Proteins",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.8",
+      "parentCode": "Unit 6",
+      "title": "Biotechnology",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "7.8",
+      "parentCode": "Unit 7",
+      "title": "Continuing Evolution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.8",
+      "parentCode": "Unit 2",
+      "title": "Mechanisms of Transport",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "7.9",
+      "parentCode": "Unit 7",
+      "title": "Phylogeny and Speciation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.9",
+      "parentCode": "Unit 2",
+      "title": "Cell Compartmentalization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.10",
+      "parentCode": "Unit 2",
+      "title": "Origins of Cell Compartmentalization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "7.11",
+      "parentCode": "Unit 7",
+      "title": "Variations in Populations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "7.12",
+      "parentCode": "Unit 7",
+      "title": "Origins of Life on Earth",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "5.2.A.1",
+      "parentCode": "5.2",
+      "title": "Proper chromosome separation produces haploid gametes with maternal and paternal chromosomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1.A.1",
+      "parentCode": "1.1",
+      "title": "Water's polarity and hydrogen bonding enable temperature regulation in organisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2.A.1",
+      "parentCode": "1.2",
+      "title": "C, H, O form most biomolecules; S, P, N serve specialized roles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.3.A.1",
+      "parentCode": "1.3",
+      "title": "Hydrolysis breaks polymer bonds by adding water molecules to monomers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.4.A.1",
+      "parentCode": "1.4",
+      "title": "Simple sugar monomers link via covalent bonds forming linear or branched polysaccharides.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.5.A.1",
+      "parentCode": "1.5",
+      "title": "Lipids are nonpolar hydrophobic molecules; saturation determines chain structure and physical state.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.6.A.1",
+      "parentCode": "1.6",
+      "title": "Nucleotides are monomers with sugar, phosphate, and nitrogenous base components.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.7.A.1",
+      "parentCode": "1.7",
+      "title": "Peptide bonds link amino acids into linear protein chains.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1.A.1",
+      "parentCode": "2.1",
+      "title": "Ribosomes, made of rRNA and protein, synthesize proteins from mRNA",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.2.A.1",
+      "parentCode": "2.2",
+      "title": "Surface area-to-volume ratios determine cellular exchange efficiency with environment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.3.A.1",
+      "parentCode": "2.3",
+      "title": "Phospholipids have polar heads facing water and nonpolar tails facing inward.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.4.A.1",
+      "parentCode": "2.4",
+      "title": "Hydrophobic membrane interior enables selective permeability between cellular environments.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.5.A.1",
+      "parentCode": "2.5",
+      "title": "Membrane selectivity enables solute concentration gradients across membranes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.6.A.1",
+      "parentCode": "2.6",
+      "title": "Channel proteins enable charged ions to cross membranes, causing polarization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.7.A.1",
+      "parentCode": "2.7",
+      "title": "Water moves osmotically from high to low water potential across concentration gradients.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.8.A.1",
+      "parentCode": "2.8",
+      "title": "ATP powers active transport and electrochemical gradient maintenance via membrane proteins.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.9.A.1",
+      "parentCode": "2.9",
+      "title": "Eukaryotic membranes and organelles separate metabolic processes and enzymatic reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.10.A.1",
+      "parentCode": "2.10",
+      "title": "Organelles evolved from free-living prokaryotes through endosymbiosis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1.A.1",
+      "parentCode": "3.1",
+      "title": "Enzymes are protein catalysts that regulate biological processes by lowering activation energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.2.A.1",
+      "parentCode": "3.2",
+      "title": "Enzyme structural changes from temperature, pH, or chemicals reduce catalytic function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.3.A.1",
+      "parentCode": "3.3",
+      "title": "Living organisms need continuous energy input to function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.4.A.1",
+      "parentCode": "3.4",
+      "title": "Photosynthesis converts light, CO₂, and water into carbohydrates and oxygen; originated in prokaryotes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.5.A.1",
+      "parentCode": "3.5",
+      "title": "Cellular respiration synthesizes ATP from biological macromolecules universally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1.A.1",
+      "parentCode": "4.1",
+      "title": "Cells communicate through direct contact or distant chemical signaling.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.2.A.1",
+      "parentCode": "4.2",
+      "title": "Signal transduction pathways connect signal reception to cellular responses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.3.A.1",
+      "parentCode": "4.3",
+      "title": "Signal transduction causes gene expression and cell function changes, altering phenotype or triggering apoptosis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.4.A.1",
+      "parentCode": "4.4",
+      "title": "Negative feedback reduces stimuli to restore set point; positive feedback amplifies responses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.5.A.1",
+      "parentCode": "4.5",
+      "title": "Cell cycle is regulated progression through interphase stages, mitosis, and cytokinesis with G0 exit option.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.6.A.1",
+      "parentCode": "4.6",
+      "title": "Internal checkpoints control cell cycle progression through multiple regulatory points.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1.A.1",
+      "parentCode": "5.1",
+      "title": "Meiosis produces haploid gamete cells in sexually reproducing diploid organisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.3.A.1",
+      "parentCode": "5.3",
+      "title": "Mendel's laws apply to genes located on different chromosomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.4.A.1",
+      "parentCode": "5.4",
+      "title": "Non-Mendelian inheritance patterns include genetic linkage, codominance, and incomplete dominance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.5.A.1",
+      "parentCode": "5.5",
+      "title": "Same genotype produces different phenotypes under varying environmental conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1.A.1",
+      "parentCode": "6.1",
+      "title": "DNA and RNA store and transmit genetic information across generations; prokaryotes use circular chromosomes, eukaryotes use linear chromosomes condensed with histones.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.2.A.1",
+      "parentCode": "6.2",
+      "title": "DNA replication is semiconservative; enzymes unwind, prime, synthesize, and ligate strands.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.3.A.1",
+      "parentCode": "6.3",
+      "title": "RNA sequence and structure determine function through mRNA, tRNA, and rRNA roles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.4.A.1",
+      "parentCode": "6.4",
+      "title": "mRNA translation to polypeptides occurs on ribosomes in cytoplasm and rough ER.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.6.A.1",
+      "parentCode": "7.6",
+      "title": "Multiple scientific disciplines provide evidence supporting evolution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.5.A.1",
+      "parentCode": "6.5",
+      "title": "DNA regulatory sequences control transcription through protein interactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.6.A.1",
+      "parentCode": "6.6",
+      "title": "Transcription factors and RNA polymerase bind DNA sequences to initiate transcription.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.7.A.1",
+      "parentCode": "6.7",
+      "title": "Mutations alter DNA sequences, affecting protein type, amount, and phenotype.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.8.A.1",
+      "parentCode": "6.8",
+      "title": "Genetic engineering techniques analyze and manipulate DNA through electrophoresis, PCR, transformation, and sequencing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1.A.1",
+      "parentCode": "7.1",
+      "title": "Natural selection represents a primary evolutionary mechanism driving biological change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.2.A.1",
+      "parentCode": "7.2",
+      "title": "Natural selection operates on phenotypic variation present in populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.3.A.1",
+      "parentCode": "7.3",
+      "title": "Humans use artificial selection to alter genetic variation within populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.4.A.1",
+      "parentCode": "7.4",
+      "title": "Random processes including mutation, drift, bottleneck, founder effect, and migration alter allele frequencies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.5.A.1",
+      "parentCode": "7.5",
+      "title": "Hardy–Weinberg equilibrium models allele frequencies under ideal non-evolving conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.7.A.1",
+      "parentCode": "7.7",
+      "title": "Shared cellular and molecular structures demonstrate evolutionary common ancestry among eukaryotes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.8.A.1",
+      "parentCode": "7.8",
+      "title": "All species evolve continuously through genomic changes, fossil record shifts, and adaptive resistance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.9.A.1",
+      "parentCode": "7.9",
+      "title": "Phylogenetic trees and cladograms depict testable evolutionary relationships.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.11.A.1",
+      "parentCode": "7.11",
+      "title": "Genetic diversity enables populations to adapt and survive environmental changes and pressures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.12.A.1",
+      "parentCode": "7.12",
+      "title": "Geological evidence supports life's origin; Earth formed 4.6 bya, habitable 3.9 bya, fossils 3.5 bya.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1.A.1",
+      "parentCode": "8.1",
+      "title": "Organisms use behavioral and physiological responses to environmental changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.2.A.1",
+      "parentCode": "8.2",
+      "title": "Organisms use energy for growth, reproduction, and homeostasis through temperature regulation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.3.A.1",
+      "parentCode": "8.3",
+      "title": "Populations are same-species organisms interacting complexly with each other and environment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.4.A.1",
+      "parentCode": "8.4",
+      "title": "Carrying capacity represents maximum sustainable population size based on available resources.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.5.A.1",
+      "parentCode": "8.5",
+      "title": "Community structure depends on species composition and diversity measured quantitatively.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.6.A.1",
+      "parentCode": "8.6",
+      "title": "Low diversity ecosystems are less resilient to environmental changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.7.A.1",
+      "parentCode": "8.7",
+      "title": "Adaptations are selected genetic variations conferring environmental advantages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.4.A.2",
+      "parentCode": "8.4",
+      "title": "Density-dependent and density-independent limiting factors produce logistic population growth modeled mathematically.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2.A.2",
+      "parentCode": "4.2",
+      "title": "Signal transduction pathways use protein modifications and phosphorylation cascades.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.4.A.2",
+      "parentCode": "3.4",
+      "title": "Stroma contains Calvin cycle reactions; thylakoids in grana contain light reactions and photosystems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.5.A.2",
+      "parentCode": "3.5",
+      "title": "Eukaryotic aerobic respiration uses coordinated enzyme reactions capturing energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.1.B.1",
+      "parentCode": "4.1",
+      "title": "Local regulators enable short-distance cell-to-cell communication in nearby vicinity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.3.B.1",
+      "parentCode": "4.3",
+      "title": "Mutations in signaling pathway components alter downstream responses and cellular outcomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.5.B.1",
+      "parentCode": "4.5",
+      "title": "Mitosis ensures equal genome distribution through prophase, metaphase, anaphase, telophase, and cytokinesis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.6.A.2",
+      "parentCode": "4.6",
+      "title": "Cyclin and cyclin-dependent kinase interactions regulate cell cycle progression.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.1.A.2",
+      "parentCode": "5.1",
+      "title": "Meiosis I separates homologous chromosomes, producing two haploid daughter cells.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.1.A.2",
+      "parentCode": "1.1",
+      "title": "Hydrogen bonds between water molecules create cohesion, adhesion, surface tension.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2.A.2",
+      "parentCode": "5.2",
+      "title": "Crossing over during prophase I exchanges genetic material between non-sister chromatids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.12.A.2",
+      "parentCode": "7.12",
+      "title": "RNA world hypothesis: RNA was earliest genetic material; replicated via base-pairing without protein catalysts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.3.A.2",
+      "parentCode": "5.3",
+      "title": "Fertilization creates genetic variation through new allele combinations; probability rules and crosses determine dominance patterns and predict inheritance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.4.A.2",
+      "parentCode": "5.4",
+      "title": "Sex-linked traits on sex chromosomes show predictable inheritance patterns differing by organism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.1.A.2",
+      "parentCode": "8.1",
+      "title": "Organisms exchange information responding to internal and external cues altering behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.1.A.2",
+      "parentCode": "6.1",
+      "title": "Both prokaryotes and eukaryotes may contain plasmids, extra-chromosomal circular DNA molecules.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.6.A.2",
+      "parentCode": "8.6",
+      "title": "Keystone species, producers, and essential factors maintain ecosystem diversity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.3.A.2",
+      "parentCode": "6.3",
+      "title": "RNA polymerase uses template DNA strand to synthesize new RNA molecules.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2.A.2",
+      "parentCode": "8.2",
+      "title": "Organisms adapt reproductive strategies based on available energy resources.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.4.A.2",
+      "parentCode": "6.4",
+      "title": "Prokaryotic translation occurs simultaneously with transcription of mRNA.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.5.A.2",
+      "parentCode": "6.5",
+      "title": "Reversible DNA and histone modifications alter gene expression without changing sequence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.6.A.2",
+      "parentCode": "6.6",
+      "title": "Negative regulators block transcription by binding to DNA sequences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.7.B.1",
+      "parentCode": "6.7",
+      "title": "DNA replication errors and external factors cause random mutations providing variation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.1.A.2",
+      "parentCode": "7.1",
+      "title": "Competition for resources causes differential survival; favorable traits increase reproductive success across generations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2.A.2",
+      "parentCode": "7.2",
+      "title": "Changing environments exert selective pressures on populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.3.A.2",
+      "parentCode": "1.3",
+      "title": "Dehydration synthesis joins monomers by removing water, forming polymers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.3.A.2",
+      "parentCode": "8.3",
+      "title": "Adaptations reflect energy/matter acquisition; growth depends on birth, death rates; unconstrained reproduction causes exponential growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.5.A.2",
+      "parentCode": "1.5",
+      "title": "Lipids function in energy storage, insulation, hormone signaling, membrane structure, and homeostasis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.6.A.2",
+      "parentCode": "1.6",
+      "title": "Nucleic acids have 5' and 3' ends; synthesis adds nucleotides to 3' end.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.4.B.1",
+      "parentCode": "7.4",
+      "title": "Random processes drive allele frequency changes through mutation, drift, and gene flow interactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.7.A.2",
+      "parentCode": "1.7",
+      "title": "R group properties determine local protein structure and function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.1.A.2",
+      "parentCode": "2.1",
+      "title": "Endomembrane system modifies, packages, and transports cellular molecules",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.3.A.2",
+      "parentCode": "3.3",
+      "title": "Organisms maintain order by coupling energy-releasing and energy-requiring processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2.A.2",
+      "parentCode": "2.2",
+      "title": "Cell size, shape, and metabolic demands are constrained by surface-to-volume ratios.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.5.A.2",
+      "parentCode": "7.5",
+      "title": "Calculate allele frequencies from genotype frequencies using Hardy–Weinberg equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.3.A.2",
+      "parentCode": "2.3",
+      "title": "Membrane proteins have hydrophilic regions facing water and hydrophobic regions contacting lipids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.6.B.1",
+      "parentCode": "7.6",
+      "title": "Fossil dating and morphological homologies reveal evolutionary change and common ancestry.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.4.A.2",
+      "parentCode": "2.4",
+      "title": "Nonpolar molecules cross freely; polar molecules require transport proteins.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.5.A.2",
+      "parentCode": "2.5",
+      "title": "Passive transport moves molecules down gradients without energy input.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.7.A.2",
+      "parentCode": "8.7",
+      "title": "Heterozygotes sometimes have higher fitness than either homozygote.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.6.A.2",
+      "parentCode": "2.6",
+      "title": "Large polar molecules move passively across membranes down concentration gradients.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.5.B.1",
+      "parentCode": "8.5",
+      "title": "Communities consist of interacting species populations that change dynamically.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.7.B.1",
+      "parentCode": "2.7",
+      "title": "Continuous molecular movement across membranes maintains growth and homeostasis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.9.A.2",
+      "parentCode": "7.9",
+      "title": "Trees show temporal change; cladograms lack time scale and evolutionary distance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.9.B.1",
+      "parentCode": "2.9",
+      "title": "Internal membranes reduce competing reactions and expand surface area for catalysis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.10.A.2",
+      "parentCode": "2.10",
+      "title": "Prokaryotes lack membrane organelles but possess specialized internal regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.1.A.2",
+      "parentCode": "3.1",
+      "title": "Substrate shape and charge must match enzyme active site for reaction to occur.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2.A.2",
+      "parentCode": "3.2",
+      "title": "Some denatured enzymes can recover their catalytic activity when conditions normalize.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.10.A.3",
+      "parentCode": "2.10",
+      "title": "Eukaryotes use internal membranes to create specialized cellular compartments.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.6.A.3",
+      "parentCode": "1.6",
+      "title": "DNA double helix has antiparallel strands with A-T and C-G base pairs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3.A.3",
+      "parentCode": "3.3",
+      "title": "Sequential metabolic pathways control energy transfer through product-to-reactant linkage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.1.B.1",
+      "parentCode": "8.1",
+      "title": "Organisms communicate via multiple signal types affecting other organisms' behavior and reproductive success.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.1.A.3",
+      "parentCode": "2.1",
+      "title": "ER provides support and transport; rough ER synthesizes proteins, smooth ER detoxifies",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.9.A.3",
+      "parentCode": "7.9",
+      "title": "Gained/lost traits construct trees; shared derived characters and molecular data are most informative.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.6.B.1",
+      "parentCode": "6.6",
+      "title": "Gene regulation causes differential expression affecting cell products and functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.4.A.3",
+      "parentCode": "3.4",
+      "title": "Light reactions produce ATP and NADPH powering Calvin cycle and cellular metabolism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.1.B.1",
+      "parentCode": "6.1",
+      "title": "Specific base pairing (purines with pyrimidines) is conserved in nucleic acids; adenine pairs with thymine or uracil, guanine pairs with cytosine.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.1.A.3",
+      "parentCode": "5.1",
+      "title": "Meiosis II separates sister chromatids, producing four haploid daughter cells.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.6.B.1",
+      "parentCode": "4.6",
+      "title": "Cell cycle disruptions lead to cancer development or programmed cell death.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.6.A.3",
+      "parentCode": "2.6",
+      "title": "Aquaporin proteins facilitate rapid water transport through membranes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.5.A.3",
+      "parentCode": "3.5",
+      "title": "ETC establishes gradients; chemiosmosis drives ATP synthesis and heat production.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.4.A.3",
+      "parentCode": "5.4",
+      "title": "One gene can control multiple traits, preventing independent segregation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.4.C.1",
+      "parentCode": "7.4",
+      "title": "Allele frequency changes demonstrate that evolution occurs within populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3.B.2",
+      "parentCode": "4.3",
+      "title": "Chemical interactions with pathway components activate or inhibit signal transduction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.2.B.1",
+      "parentCode": "4.2",
+      "title": "Receptors recognize ligands; located on surface or internally; G-protein coupled receptors exemplified.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.1.B.2",
+      "parentCode": "4.1",
+      "title": "Hormonal signals travel long distances between different cell types.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.7.A.3",
+      "parentCode": "1.7",
+      "title": "Amino acid sequence determines primary structure and overall shape.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.4.A.3",
+      "parentCode": "2.4",
+      "title": "Phospholipid tails block ions and polar molecules; small polar molecules pass minimally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.7.B.2",
+      "parentCode": "6.7",
+      "title": "Mitosis and meiosis errors cause chromosome number and structure changes affecting phenotype.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3.B.1",
+      "parentCode": "2.3",
+      "title": "Membranes are fluid mosaics of phospholipids, proteins, steroids, and carbohydrates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.7.A.3",
+      "parentCode": "8.7",
+      "title": "Mutations occur randomly, not in response to environmental needs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.2.A.3",
+      "parentCode": "5.2",
+      "title": "Sexual reproduction increases genetic variation through crossing over, chromosome assortment, and fertilization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.2.B.1",
+      "parentCode": "8.2",
+      "title": "Ecological organization progresses from populations to biomes hierarchically.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.1.B.1",
+      "parentCode": "7.1",
+      "title": "Fitness quantifies an organism's reproductive output and genetic contribution to future populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.4.A.3",
+      "parentCode": "6.4",
+      "title": "Translation involves initiation, elongation, and termination with codons specifying amino acids via tRNA.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.6.B.1",
+      "parentCode": "8.6",
+      "title": "Keystone species have disproportionate effects; their removal causes ecosystem collapse.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.5.B.2",
+      "parentCode": "8.5",
+      "title": "Population interactions regulate access to energy and matter.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.6.B.2",
+      "parentCode": "7.6",
+      "title": "DNA and protein sequence comparisons demonstrate evolutionary relationships and descent.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.2.A.3",
+      "parentCode": "7.2",
+      "title": "Phenotypic variations affect organism fitness in specific environments.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3.A.3",
+      "parentCode": "6.3",
+      "title": "RNA polymerase synthesizes mRNA 5' to 3' while reading template 3' to 5'.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.2.B.1",
+      "parentCode": "3.2",
+      "title": "Substrate and product concentrations control the efficiency of enzymatic reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.5.A.3",
+      "parentCode": "2.5",
+      "title": "Active transport uses energy to move molecules against gradients.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.5.A.3",
+      "parentCode": "6.5",
+      "title": "Phenotype depends on which genes express and at what levels they're expressed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.7.B.2",
+      "parentCode": "2.7",
+      "title": "Osmoregulation controls water balance and internal solute composition through water movement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.2.B.1",
+      "parentCode": "7.2",
+      "title": "Molecular variation increases population survival and reproduction in diverse environments.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.3.A.4",
+      "parentCode": "6.3",
+      "title": "Eukaryotic mRNA undergoes poly-A tail, GTP cap addition, and alternative splicing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.4.A.4",
+      "parentCode": "6.4",
+      "title": "Retroviruses use reverse transcriptase to convert RNA to DNA for integration and expression.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.2.B.2",
+      "parentCode": "8.2",
+      "title": "Energy flows one-way; matter cycles between organisms and environment interdependently.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.5.B.1",
+      "parentCode": "6.5",
+      "title": "Prokaryotic operons and eukaryotic genes coordinate regulation via shared mechanisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.6.B.2",
+      "parentCode": "6.6",
+      "title": "Small RNA molecules regulate gene expression.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.7.C.1",
+      "parentCode": "6.7",
+      "title": "Genotype changes affect phenotypes subject to natural selection and survival advantages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4.B.1",
+      "parentCode": "2.4",
+      "title": "Cell walls provide structural support, permeability regulation, and osmotic protection.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.1.B.2",
+      "parentCode": "7.1",
+      "title": "Environmental changes alter selection pressures, causing varied genetic variants to be favored each generation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.7.A.4",
+      "parentCode": "1.7",
+      "title": "Hydrogen bonding forms alpha-helices and beta-pleated sheets.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.2.B.2",
+      "parentCode": "3.2",
+      "title": "Higher temperatures increase enzyme-substrate collision frequency, accelerating reactions optimally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.1.B.2",
+      "parentCode": "8.1",
+      "title": "Information exchange drives evolution; innate and learned behaviors plus cooperation enhance fitness.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.5.B.1",
+      "parentCode": "2.5",
+      "title": "Endocytosis and exocytosis use energy for large molecule transport via vesicles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.7.B.1",
+      "parentCode": "8.7",
+      "title": "Invasive species exploit vacant niches or outcompete natives for resources.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.3.B.1",
+      "parentCode": "3.3",
+      "title": "Fundamental metabolic pathways are shared across all three domains of life.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.6.A.4",
+      "parentCode": "1.6",
+      "title": "DNA and RNA differ in sugar, bases, and strand structure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.9.B.1",
+      "parentCode": "7.9",
+      "title": "Trees illustrate speciation; nodes represent most recent common ancestors of groups.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4.B.1",
+      "parentCode": "3.4",
+      "title": "Thylakoid electron transport chain transfers electrons to NADP⁺ forming NADPH in photosystem I.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.5.B.1",
+      "parentCode": "3.5",
+      "title": "Glycolysis converts glucose to ATP, NADH, and pyruvate molecules.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.2.B.2",
+      "parentCode": "4.2",
+      "title": "Cascades amplify signals through shape changes, enzymes, second messengers, hormones, and ion channels.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.5.B.3",
+      "parentCode": "8.5",
+      "title": "Population relationships show positive/negative effects; examples: predation, cooperation, trophic cascades, niche partitioning.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.1.B.1",
+      "parentCode": "5.1",
+      "title": "Mitosis and meiosis both use spindle apparatus but differ in cell number and genetic content.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.1.A.4",
+      "parentCode": "2.1",
+      "title": "Golgi folds, modifies, and packages proteins for distribution",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.4.A.4",
+      "parentCode": "5.4",
+      "title": "Organellar DNA inheritance is non-nuclear and typically maternal in both animals and plants.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.7.A.5",
+      "parentCode": "1.7",
+      "title": "Multiple interactions create three-dimensional tertiary protein structure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.1.A.5",
+      "parentCode": "2.1",
+      "title": "Double membrane mitochondria compartmentalize aerobic respiration and ATP synthesis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.5.B.4",
+      "parentCode": "8.5",
+      "title": "Competition, predation, and symbiotic interactions drive population changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.2.B.3",
+      "parentCode": "3.2",
+      "title": "Inhibitors reduce enzyme activity by binding to active or allosteric sites.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.4.B.2",
+      "parentCode": "3.4",
+      "title": "Chlorophylls absorb light energy; water splits to replace electrons in photosystem II.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.2.B.3",
+      "parentCode": "8.2",
+      "title": "Biogeochemical cycles involve abiotic/biotic reservoirs and processes cycling matter.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.9.B.2",
+      "parentCode": "7.9",
+      "title": "Trees constructed from morphological or molecular sequence data similarities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5.B.2",
+      "parentCode": "3.5",
+      "title": "Pyruvate oxidation in Krebs cycle reduces NAD+ and FAD, releases CO2.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.9.B.3",
+      "parentCode": "7.9",
+      "title": "Trees represent testable hypotheses revised continuously with new evidence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.5.B.3",
+      "parentCode": "3.5",
+      "title": "Krebs cycle in matrix produces ATP, CO2, and electron carriers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.7.A.6",
+      "parentCode": "1.7",
+      "title": "Multiple polypeptides interact; all structural levels determine function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "8.2.B.4",
+      "parentCode": "8.2",
+      "title": "Water cycle circulates through oceans, atmosphere, and organisms via evaporation and precipitation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.1.A.6",
+      "parentCode": "2.1",
+      "title": "Lysosomes digest material and participate in apoptosis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.10.A.1",
+      "parentCode": "7.9",
+      "title": "Speciation occurs when populations become reproductively isolated from each other.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "8.2.B.5",
+      "parentCode": "8.2",
+      "title": "Carbon cycles through photosynthesis, respiration, decomposition, and combustion processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.1.A.7",
+      "parentCode": "2.1",
+      "title": "Vacuoles store materials; plant vacuoles maintain turgor pressure",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.5.B.4",
+      "parentCode": "3.5",
+      "title": "Glycolysis and Krebs cycle electrons feed into electron transport chain.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "8.2.B.6",
+      "parentCode": "8.2",
+      "title": "Nitrogen cycles through fixation, assimilation, and denitrification via soil microorganisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.1.A.8",
+      "parentCode": "2.1",
+      "title": "Double membrane chloroplasts in plants conduct photosynthesis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "7.10.A.2",
+      "parentCode": "7.9",
+      "title": "Biological species concept defines species by reproductive compatibility and genetic exchange.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "7.10.B.1",
+      "parentCode": "7.9",
+      "title": "Punctuated equilibrium: rapid change after stasis; gradualism: slow, continuous change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "8.2.B.7",
+      "parentCode": "8.2",
+      "title": "Phosphorus cycles from rock weathering through organisms back to soil via decomposition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "7.10.B.2",
+      "parentCode": "7.9",
+      "title": "Divergent evolution produces phenotypic diversity; adaptive radiation accelerates during habitat availability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "7.10.B.3",
+      "parentCode": "7.9",
+      "title": "Convergent evolution produces similar phenotypes from similar selective pressures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "7.10.C.1",
+      "parentCode": "7.9",
+      "title": "Sympatric speciation occurs when populations overlap geographically.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    }
+  ]
+}

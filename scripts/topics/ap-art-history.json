@@ -1,0 +1,303 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Art History",
+  "source": "school-core:AP-ART-HIST@Effective Fall 2024",
+  "strands": [
+    {
+      "code": "Skill 1",
+      "parentCode": null,
+      "title": "Skill 1: Visual Analysis",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "Skill 2",
+      "parentCode": null,
+      "title": "Skill 2: Contextual Analysis",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "Skill 3",
+      "parentCode": null,
+      "title": "Skill 3: Comparison of Works of Art",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "Skill 4",
+      "parentCode": null,
+      "title": "Skill 4: Artistic Traditions",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "Skill 5",
+      "parentCode": null,
+      "title": "Skill 5: Visual Analysis of Unknown Works",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "Skill 6",
+      "parentCode": null,
+      "title": "Skill 6: Attribution of Unknown Works",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "Skill 7",
+      "parentCode": null,
+      "title": "Skill 7: Art Historical Interpretations",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "Skill 8",
+      "parentCode": null,
+      "title": "Skill 8: Argumentation",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "Skill 9",
+      "parentCode": null,
+      "title": "Skill 9: BIG IDEA 1: CULTURE (CUL)",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "Skill 10",
+      "parentCode": null,
+      "title": "Skill 10: BIG IDEA 2: INTERACTIONS WITH OTHER CULTURES (INT)",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "Skill 11",
+      "parentCode": null,
+      "title": "Skill 11: BIG IDEA 3: THEORIES AND INTERPRETATIONS (THR)",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "THR",
+      "parentCode": "Skill 11",
+      "title": "Art interpretation is shaped by disciplinary perspectives, technology, and historical evidence.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.A",
+      "parentCode": "Skill 1",
+      "title": "Identify artworks with title, artist, culture, style, date, materials.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.A",
+      "parentCode": "Skill 2",
+      "title": "Describe contextual elements: function, context, siting, subject, reception.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.A",
+      "parentCode": "Skill 3",
+      "title": "Describe similarities and differences in multiple works using relevant points.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.A",
+      "parentCode": "Skill 4",
+      "title": "Explain how artworks demonstrate continuity or change in traditions.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.A",
+      "parentCode": "Skill 5",
+      "title": "Describe visual elements of unknown artworks beyond provided images.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.A",
+      "parentCode": "Skill 6",
+      "title": "Attribute artworks to specific artists, cultures, styles, or object types.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.A",
+      "parentCode": "Skill 7",
+      "title": "Describe art historical interpretations of artworks, reception, meaning.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.A",
+      "parentCode": "Skill 8",
+      "title": "Articulate defensible claims about artworks or groups of artworks.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "CUL",
+      "parentCode": "Skill 9",
+      "title": "Cultural practices and belief systems influence art creation and artistic expression.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "INT",
+      "parentCode": "Skill 10",
+      "title": "Cross-cultural interactions shape and influence art and artistic production.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.B",
+      "parentCode": "Skill 2",
+      "title": "Explain how intent, purpose, function shape artwork creation and meaning.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.B",
+      "parentCode": "Skill 5",
+      "title": "Analyze works of art beyond the provided image set.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.B",
+      "parentCode": "Skill 3",
+      "title": "Explain how artworks similarly or differently convey meaning.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.B",
+      "parentCode": "Skill 7",
+      "title": "Explain how valid interpretations derive from formal and contextual analysis.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.B",
+      "parentCode": "Skill 4",
+      "title": "Explain why artworks demonstrate continuity or change in traditions.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.B",
+      "parentCode": "Skill 8",
+      "title": "Support claims with specific and relevant visual or contextual evidence.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.B",
+      "parentCode": "Skill 6",
+      "title": "Justify artwork attribution using visual and stylistic similarities.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.B",
+      "parentCode": "Skill 1",
+      "title": "Describe visual elements: form, style, materials, technique, content.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.C",
+      "parentCode": "Skill 4",
+      "title": "Explain artwork influence on artistic production within or across cultures.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.C",
+      "parentCode": "Skill 8",
+      "title": "Explain how evidence justifies the claim.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.C",
+      "parentCode": "Skill 1",
+      "title": "Explain how artistic decisions about form and content shape works.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.C",
+      "parentCode": "Skill 2",
+      "title": "Explain how context influences artistic decisions about form and meaning.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.D",
+      "parentCode": "Skill 2",
+      "title": "Explain how artistic decisions elicit viewer response and shape reception.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.D",
+      "parentCode": "Skill 8",
+      "title": "Corroborate, qualify, or modify claims with additional evidence.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.D",
+      "parentCode": "Skill 4",
+      "title": "Explain meaning of continuity or change within artistic traditions.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    }
+  ]
+}

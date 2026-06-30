@@ -1,0 +1,71 @@
+{
+  "curriculumCode": "IB_DP",
+  "subject": "Chemistry",
+  "source": "school-core:IB-DP-CHEM@Current (overview)",
+  "strands": [
+    {
+      "code": "S",
+      "parentCode": null,
+      "title": "Structure",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "R",
+      "parentCode": null,
+      "title": "Reactivity",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "S.1",
+      "parentCode": "S",
+      "title": "Models of the particulate nature of matter",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "R.1",
+      "parentCode": "R",
+      "title": "What drives chemical reactions?",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "R.2",
+      "parentCode": "R",
+      "title": "How much, how fast and how far?",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "S.2",
+      "parentCode": "S",
+      "title": "Models of bonding and structure",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "R.3",
+      "parentCode": "R",
+      "title": "What are the mechanisms of chemical change?",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "S.3",
+      "parentCode": "S",
+      "title": "Classification of matter",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    }
+  ]
+}

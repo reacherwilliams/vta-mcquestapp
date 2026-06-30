@@ -1,0 +1,35 @@
+{
+  "_note": "MCQ-bearing subjects to add to MCQuest, with their School-Core framework slug. curriculum codes: IGCSE/AS_LEVEL/A2_LEVEL/IB_DP/AP. icon=lucide name, color=hex (no purple). syllabusCode null for non-Cambridge.",
+  "subjects": [
+    { "curriculum": "IGCSE", "code": "COORDSCI", "name": "Co-ordinated Sciences", "syllabusCode": "0654", "slug": "igcse-coordinated-sciences", "hasFrq": false, "icon": "flask-conical", "color": "#0d9488" },
+    { "curriculum": "IGCSE", "code": "ECON", "name": "Economics", "syllabusCode": "0455", "slug": "igcse-economics", "hasFrq": false, "icon": "trending-up", "color": "#0284c7" },
+    { "curriculum": "AS_LEVEL", "code": "ECON", "name": "Economics", "syllabusCode": "9708", "slug": "aslevel-economics", "hasFrq": false, "icon": "trending-up", "color": "#0284c7" },
+    { "curriculum": "A2_LEVEL", "code": "ECON", "name": "Economics", "syllabusCode": "9708", "slug": "alevel-economics", "hasFrq": false, "icon": "trending-up", "color": "#0284c7" },
+
+    { "curriculum": "AP", "code": "PHY2", "name": "Physics 2", "syllabusCode": null, "slug": "ap-physics-2", "hasFrq": true, "icon": "atom", "color": "#0284c7" },
+    { "curriculum": "AP", "code": "PHYCMECH", "name": "Physics C: Mechanics", "syllabusCode": null, "slug": "ap-physics-c-mechanics", "hasFrq": true, "icon": "atom", "color": "#0369a1" },
+    { "curriculum": "AP", "code": "PHYCEM", "name": "Physics C: E&M", "syllabusCode": null, "slug": "ap-physics-c-em", "hasFrq": true, "icon": "magnet", "color": "#0369a1" },
+    { "curriculum": "AP", "code": "PRECALC", "name": "Precalculus", "syllabusCode": null, "slug": "ap-precalculus", "hasFrq": true, "icon": "calculator", "color": "#16a34a" },
+    { "curriculum": "AP", "code": "ENVSCI", "name": "Environmental Science", "syllabusCode": null, "slug": "ap-environmental-science", "hasFrq": true, "icon": "leaf", "color": "#15803d" },
+    { "curriculum": "AP", "code": "PSYCH", "name": "Psychology", "syllabusCode": null, "slug": "ap-psychology", "hasFrq": true, "icon": "brain", "color": "#db2777" },
+    { "curriculum": "AP", "code": "MACRO", "name": "Macroeconomics", "syllabusCode": null, "slug": "ap-macroeconomics", "hasFrq": true, "icon": "trending-up", "color": "#0284c7" },
+    { "curriculum": "AP", "code": "MICRO", "name": "Microeconomics", "syllabusCode": null, "slug": "ap-microeconomics", "hasFrq": true, "icon": "trending-up", "color": "#0891b2" },
+    { "curriculum": "AP", "code": "HUMGEO", "name": "Human Geography", "syllabusCode": null, "slug": "ap-human-geography", "hasFrq": true, "icon": "globe", "color": "#0d9488" },
+    { "curriculum": "AP", "code": "USHIST", "name": "US History", "syllabusCode": null, "slug": "ap-us-history", "hasFrq": true, "icon": "landmark", "color": "#b45309" },
+    { "curriculum": "AP", "code": "EUROHIST", "name": "European History", "syllabusCode": null, "slug": "ap-european-history", "hasFrq": true, "icon": "landmark", "color": "#a16207" },
+    { "curriculum": "AP", "code": "WHIST", "name": "World History", "syllabusCode": null, "slug": "ap-world-history", "hasFrq": true, "icon": "landmark", "color": "#ca8a04" },
+    { "curriculum": "AP", "code": "USGOV", "name": "US Government", "syllabusCode": null, "slug": "ap-us-government", "hasFrq": true, "icon": "scale", "color": "#dc2626" },
+    { "curriculum": "AP", "code": "COMPGOV", "name": "Comparative Government", "syllabusCode": null, "slug": "ap-comparative-government", "hasFrq": true, "icon": "scale", "color": "#ea580c" },
+    { "curriculum": "AP", "code": "ENGLANG", "name": "English Language", "syllabusCode": null, "slug": "ap-english-language", "hasFrq": true, "icon": "book-open", "color": "#b45309" },
+    { "curriculum": "AP", "code": "ENGLIT", "name": "English Literature", "syllabusCode": null, "slug": "ap-english-literature", "hasFrq": true, "icon": "book-open", "color": "#c2410c" },
+    { "curriculum": "AP", "code": "CSA", "name": "Computer Science A", "syllabusCode": null, "slug": "ap-computer-science-a", "hasFrq": true, "icon": "code", "color": "#0284c7" },
+    { "curriculum": "AP", "code": "CSP", "name": "Computer Science Principles", "syllabusCode": null, "slug": "ap-computer-science-principles", "hasFrq": true, "icon": "code", "color": "#0891b2" },
+    { "curriculum": "AP", "code": "ARTHIST", "name": "Art History", "syllabusCode": null, "slug": "ap-art-history", "hasFrq": true, "icon": "palette", "color": "#db2777" },
+    { "curriculum": "AP", "code": "MUSIC", "name": "Music Theory", "syllabusCode": null, "slug": "ap-music-theory", "hasFrq": true, "icon": "music", "color": "#e11d48" },
+    { "curriculum": "AP", "code": "SPAN", "name": "Spanish Language", "syllabusCode": null, "slug": "ap-spanish-language", "hasFrq": true, "icon": "languages", "color": "#ca8a04" },
+    { "curriculum": "AP", "code": "FREN", "name": "French Language", "syllabusCode": null, "slug": "ap-french-language", "hasFrq": true, "icon": "languages", "color": "#0284c7" },
+    { "curriculum": "AP", "code": "CHIN", "name": "Chinese Language", "syllabusCode": null, "slug": "ap-chinese-language", "hasFrq": true, "icon": "languages", "color": "#dc2626" },
+    { "curriculum": "AP", "code": "JAPN", "name": "Japanese Language", "syllabusCode": null, "slug": "ap-japanese-language", "hasFrq": true, "icon": "languages", "color": "#e11d48" },
+    { "curriculum": "AP", "code": "LATIN", "name": "Latin", "syllabusCode": null, "slug": "ap-latin", "hasFrq": true, "icon": "languages", "color": "#a16207" }
+  ]
+}

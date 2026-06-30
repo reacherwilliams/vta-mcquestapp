@@ -1,0 +1,1575 @@
+{
+  "curriculumCode": "AP",
+  "subject": "US Government",
+  "source": "school-core:AP-US-GOV@Effective Fall 2023",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: Foundations of American Democracy",
+      "level": 1,
+      "examWeight": 15,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: Interactions Among Branches of Government",
+      "level": 1,
+      "examWeight": 25,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: Civil Liberties and Civil Rights",
+      "level": 1,
+      "examWeight": 13,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: American Political Ideologies and Beliefs",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 5",
+      "parentCode": null,
+      "title": "Unit 5: Political Participation",
+      "level": 1,
+      "examWeight": 20,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "Congress: The Senate and the House of Representatives",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "The Bill of Rights",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Ideals of Democracy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "Unit 5",
+      "title": "Voting Rights and Models of Voting Behavior",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "American Attitudes About Government and Politics",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.2",
+      "parentCode": "Unit 5",
+      "title": "Voter Turnout",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "Political Socialization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "Types of Democracy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "First Amendment: Freedom of Religion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "Structures, Powers, and Functions of Congress",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.3",
+      "parentCode": "Unit 5",
+      "title": "Political Parties",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "Congressional Behavior",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "4.3",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "Government Power and Individual Rights",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "First Amendment: Freedom of Speech",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Roles and Powers of the President",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "Challenges of the Articles of Confederation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.4",
+      "parentCode": "Unit 5",
+      "title": "How and Why Political Parties Change and Adapt",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "Influence of Political Events on Ideology",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "3.4",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.5",
+      "parentCode": "Unit 5",
+      "title": "Third-Party Politics",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5",
+      "parentCode": "Unit 4",
+      "title": "4.5",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "Second Amendment: Right to Bear Arms",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "Ratification of the U.S. Constitution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "Checks on the Presidency",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.6",
+      "parentCode": "Unit 1",
+      "title": "Separation of Powers and Checks and Balances",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.6",
+      "parentCode": "Unit 4",
+      "title": "Evaluating Public Opinion Data",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "Expansion of Presidential Power",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.6",
+      "parentCode": "Unit 3",
+      "title": "Amendments: Balancing Individual Freedom with Public Order and Safety",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.6",
+      "parentCode": "Unit 5",
+      "title": "Interest Groups Influencing Policymaking",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.7",
+      "parentCode": "Unit 4",
+      "title": "Ideologies of Political Parties",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.7",
+      "parentCode": "Unit 1",
+      "title": "Relationship Between the States and National Government",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "Presidential Communication",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.7",
+      "parentCode": "Unit 3",
+      "title": "Selective Incorporation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.7",
+      "parentCode": "Unit 5",
+      "title": "Groups Influencing Policy Outcomes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.8",
+      "parentCode": "Unit 4",
+      "title": "Ideology and Policymaking",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.8",
+      "parentCode": "Unit 5",
+      "title": "Electing a President",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.8",
+      "parentCode": "Unit 1",
+      "title": "Constitutional Interpretations of Federalism",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.8",
+      "parentCode": "Unit 2",
+      "title": "Interactions Among Branches of Government",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.8",
+      "parentCode": "Unit 3",
+      "title": "Amendments: Due Process and the Rights of the Accused",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.9",
+      "parentCode": "Unit 2",
+      "title": "The Role of the Judicial Branch",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "3.9",
+      "parentCode": "Unit 3",
+      "title": "Amendments: Due Process and the Right to Privacy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "5.9",
+      "parentCode": "Unit 5",
+      "title": "Congressional Elections",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.9",
+      "parentCode": "Unit 1",
+      "title": "Federalism in Action",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.9",
+      "parentCode": "Unit 4",
+      "title": "Ideology and Economic Policy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.10",
+      "parentCode": "Unit 2",
+      "title": "The Court in Action",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "4.10",
+      "parentCode": "Unit 4",
+      "title": "4.10",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "5.10",
+      "parentCode": "Unit 5",
+      "title": "Modern Campaigns",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "3.10",
+      "parentCode": "Unit 3",
+      "title": "Social Movements and Equal Protection",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "3.11",
+      "parentCode": "Unit 3",
+      "title": "Government Responses to Social Movements",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "2.11",
+      "parentCode": "Unit 2",
+      "title": "Checks on the Judicial Branch",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "5.11",
+      "parentCode": "Unit 5",
+      "title": "Campaign Finance",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "5.12",
+      "parentCode": "Unit 5",
+      "title": "The Media",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "2.12",
+      "parentCode": "Unit 2",
+      "title": "The Bureaucracy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "3.12",
+      "parentCode": "Unit 3",
+      "title": "Balancing Minority and Majority Rights",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "3.13",
+      "parentCode": "Unit 3",
+      "title": "Affirmative Action",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "5.13",
+      "parentCode": "Unit 5",
+      "title": "Changing Media",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "2.13",
+      "parentCode": "Unit 2",
+      "title": "Discretionary and Rulemaking Authority",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "2.14",
+      "parentCode": "Unit 2",
+      "title": "Holding the Bureaucracy Accountable",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "2.15",
+      "parentCode": "Unit 2",
+      "title": "Policy and the Branches of Government",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "1.5.A.1",
+      "parentCode": "1.5",
+      "title": "Five major compromises enabled Constitutional ratification through structural and procedural concessions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1.A.1",
+      "parentCode": "1.1",
+      "title": "U.S. government founded on natural rights, social contract, popular sovereignty, and limited government.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2.A.1",
+      "parentCode": "1.2",
+      "title": "Representative democracies include participatory, pluralist, and elite models with varying participation levels.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.3.A.1",
+      "parentCode": "1.3",
+      "title": "Federalists favored constitutional ratification and strong central government with separated powers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.4.A.1",
+      "parentCode": "1.4",
+      "title": "Articles of Confederation weaknesses exposed through military, executive, judicial, commerce, and currency failures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.6.A.1",
+      "parentCode": "1.6",
+      "title": "Separated powers among three branches prevent any single branch dominance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.8.A.1",
+      "parentCode": "4.8",
+      "title": "Democratic policies reflect attitudes of participating citizens in diverse society.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.7.A.1",
+      "parentCode": "1.7",
+      "title": "Federalism shares power between national and state governments, creating ongoing power balance debates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.8.A.1",
+      "parentCode": "1.8",
+      "title": "Fourteenth Amendment protections empower national government; Court interpretations determine scope.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.9.A.1",
+      "parentCode": "1.9",
+      "title": "Power distribution between levels creates multiple policy influence opportunities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1.A.1",
+      "parentCode": "2.1",
+      "title": "Bicameral Congress reflects republicanism: Senate represents states, House represents people.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.2.A.1",
+      "parentCode": "2.2",
+      "title": "Senate and House structural differences directly shape legislative process outcomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.3.A.1",
+      "parentCode": "2.3",
+      "title": "Party ideology and polarization create gridlock preventing legislative action.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.4.A.1",
+      "parentCode": "2.4",
+      "title": "Presidents implement policy agendas using institutional support structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.5.A.1",
+      "parentCode": "2.5",
+      "title": "Senate confirmation checks presidential appointment power; conflicts arise over selections.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.6.A.1",
+      "parentCode": "2.6",
+      "title": "Strong executive power justified for national security, law enforcement, property protection, liberty.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.7.A.1",
+      "parentCode": "2.7",
+      "title": "Technology enables presidents to rapidly communicate policy priorities directly to public.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.8.A.1",
+      "parentCode": "2.8",
+      "title": "Article III and Federalist No. 78 establish judicial power and independence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.9.A.1",
+      "parentCode": "2.9",
+      "title": "Courts rely on stare decisis to follow established legal precedents in similar cases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.10.A.1",
+      "parentCode": "2.10",
+      "title": "Life tenure enables judicial independence, allowing unpopular decisions that spark power debates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.11.A.1",
+      "parentCode": "2.11",
+      "title": "Judicial review debate centers on activism versus restraint interpretations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.12.A.1",
+      "parentCode": "2.12",
+      "title": "Federal bureaucracy implements policy through regulation, enforcement, coordination with Congress.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.13.A.1",
+      "parentCode": "2.13",
+      "title": "Congress delegates discretionary power to federal agencies to create and enforce regulations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.14.A.1",
+      "parentCode": "2.14",
+      "title": "Congress oversees bureaucracy through review, investigation, and budget control mechanisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.15.A.1",
+      "parentCode": "2.15",
+      "title": "Three branches use formal and informal powers to ensure bureaucratic accountability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1.A.1",
+      "parentCode": "3.1",
+      "title": "The Bill of Rights protects individual liberties and rights in the Constitution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.2.A.1",
+      "parentCode": "3.2",
+      "title": "First Amendment balances government lawmaking power against individual religious liberty rights.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.3.A.1",
+      "parentCode": "3.3",
+      "title": "Supreme Court protects both verbal and symbolic speech under First Amendment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.5.A.1",
+      "parentCode": "3.5",
+      "title": "Supreme Court's Second Amendment decisions derive from constitutional interpretation of bearing arms rights.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.6.A.1",
+      "parentCode": "3.6",
+      "title": "Supreme Court interprets Eighth Amendment protections against cruel punishment and death penalties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.7.A.1",
+      "parentCode": "3.7",
+      "title": "Selective incorporation limits states via Fourteenth Amendment due process clause applying Bill of Rights.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.8.A.1",
+      "parentCode": "3.8",
+      "title": "Fifth and Fourteenth Amendments protect life, liberty, and property from arbitrary government action.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.9.A.1",
+      "parentCode": "3.9",
+      "title": "Supreme Court recognizes unenumerated constitutional rights using substantive due process analysis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.7.A.1",
+      "parentCode": "4.7",
+      "title": "Democratic platforms align with liberalism; Republican platforms align with conservatism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.10.A.1",
+      "parentCode": "3.10",
+      "title": "Civil rights protect against discrimination; guaranteed by Constitution and Congressional acts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.11.A.1",
+      "parentCode": "3.11",
+      "title": "Government responds to social movements via court decisions and legislation protecting rights.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.12.A.1",
+      "parentCode": "3.12",
+      "title": "Supreme Court has alternately restricted and protected minority rights through various decisions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.13.A.1",
+      "parentCode": "3.13",
+      "title": "Affirmative action policies address disparities; courts debate Fourteenth Amendment protection.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1.A.1",
+      "parentCode": "4.1",
+      "title": "Core values like individualism, equality of opportunity, free enterprise, and rule of law shape citizen-government relationships.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.2.A.1",
+      "parentCode": "4.2",
+      "title": "Political socialization is the process by which multiple social institutions shape individuals' political beliefs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.4.A.1",
+      "parentCode": "4.4",
+      "title": "Political events shape attitudes through socialization, which then influences ideology.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.6.A.1",
+      "parentCode": "4.6",
+      "title": "Polling's impact on elections depends on opinion's influence and data reliability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.9.A.1",
+      "parentCode": "4.9",
+      "title": "Ideologies differ on government's role regulating markets and economic policy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1.A.1",
+      "parentCode": "5.1",
+      "title": "Constitutional amendments expanded voting rights through citizenship, suffrage protections, and eliminating barriers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.2.A.1",
+      "parentCode": "5.2",
+      "title": "Structural barriers, political efficacy, and demographics influence voter turnout differences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.3.A.1",
+      "parentCode": "5.3",
+      "title": "Linkage institutions enable citizens to communicate preferences to policymakers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.4.A.1",
+      "parentCode": "5.4",
+      "title": "Parties adapted to candidate-centered campaigns; nomination role weakened.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.5.A.1",
+      "parentCode": "5.5",
+      "title": "Winner-take-all electoral systems structurally favor two-party dominance over third parties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.6.A.1",
+      "parentCode": "5.6",
+      "title": "Interest groups employ multiple strategies to influence policymaking and electoral processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.7.A.1",
+      "parentCode": "5.7",
+      "title": "Various political groups form to influence society and policy outcomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.8.A.1",
+      "parentCode": "5.8",
+      "title": "Presidential election processes and outcomes shaped by incumbency, primaries, caucuses, conventions, and Electoral College.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.9.A.1",
+      "parentCode": "5.9",
+      "title": "Congressional election processes and outcomes depend on incumbency, primary types, and election cycles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.10.A.1",
+      "parentCode": "5.10",
+      "title": "Modern campaigns show benefits and drawbacks through consultant dependence, fundraising costs, and cycle duration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.11.A.1",
+      "parentCode": "5.11",
+      "title": "Campaign finance law and court decisions balance money's role with free speech protections.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.12.A.1",
+      "parentCode": "5.12",
+      "title": "Media shapes which political information and issues citizens encounter regularly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.13.A.1",
+      "parentCode": "5.13",
+      "title": "Media coverage and analysis shape how citizens engage in political participation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.2.A.2",
+      "parentCode": "4.2",
+      "title": "U.S. political culture emphasizes democracy and has been shaped by global cultural exchange.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.7.A.2",
+      "parentCode": "5.7",
+      "title": "Multiple competing actors influence policymaking at different stages and degrees.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.9.B.1",
+      "parentCode": "4.9",
+      "title": "Fiscal policy encompasses congressional and presidential actions influencing economic conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.14.A.2",
+      "parentCode": "2.14",
+      "title": "Congressional oversight limits presidential power through executive branch accountability checks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.15.B.1",
+      "parentCode": "2.15",
+      "title": "Separated powers create multiple entry points for policy influence by various actors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.1.A.2",
+      "parentCode": "3.1",
+      "title": "Civil liberties protect citizens from arbitrary government interference regarding opinions and property.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.1.B.1",
+      "parentCode": "5.1",
+      "title": "Political models explain voting behavior: rational choice, retrospective, prospective, and straight ticket.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.3.A.2",
+      "parentCode": "3.3",
+      "title": "First Amendment limits include time/place/manner rules, obscenity, defamation, and dangerous speech.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2.A.2",
+      "parentCode": "5.2",
+      "title": "State election rules, registration procedures, and election type influence voter turnout.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.6.A.2",
+      "parentCode": "3.6",
+      "title": "Second and Fourth Amendment debates balance gun regulation and digital surveillance against safety and rights.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2.A.2",
+      "parentCode": "1.2",
+      "title": "Constitutional debates reflect tensions between broad participation and filtered participation models.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.3.A.2",
+      "parentCode": "1.3",
+      "title": "Anti-Federalists opposed ratification, favoring state power and warning against centralized threats.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.8.B.1",
+      "parentCode": "5.8",
+      "title": "States allocate electors via winner-take-all; Electoral College outcomes may diverge from popular vote.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.1.A.2",
+      "parentCode": "1.1",
+      "title": "Limited government maintained through separation of powers, checks and balances, federalism, republicanism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.5.A.2",
+      "parentCode": "1.5",
+      "title": "Article V amendment process requires supermajority proposal and ratification thresholds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.8.A.2",
+      "parentCode": "3.8",
+      "title": "Procedural due process requires non-arbitrary government methods; Miranda protections apply with public safety exceptions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.6.A.2",
+      "parentCode": "1.6",
+      "title": "Constitutional checks and balances protect against majority tyranny and abuse.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.7.A.2",
+      "parentCode": "1.7",
+      "title": "Exclusive powers belong to one level, including enumerated and implied constitutional powers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.3.B.1",
+      "parentCode": "5.3",
+      "title": "Political parties mobilize voters, develop platforms, recruit candidates, manage campaigns, and lead legislatures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.8.A.2",
+      "parentCode": "1.8",
+      "title": "Commerce Clause authorizes national regulation; Court interpretations define actual power limits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.13.A.2",
+      "parentCode": "5.13",
+      "title": "Growing media demand creates debates about bias, ownership, and partisan news outlets.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.9.A.2",
+      "parentCode": "1.9",
+      "title": "Shared concurrent powers limit national government policymaking authority.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.1.A.2",
+      "parentCode": "2.1",
+      "title": "Larger House membership creates more formal debate rules than smaller Senate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.8.A.2",
+      "parentCode": "4.8",
+      "title": "Policy debates reflect tension between individual liberty and government stability goals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.9.A.2",
+      "parentCode": "3.9",
+      "title": "Privacy right evolves from Griswold through Roe to Dobbs, with scope remaining contested.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2.A.2",
+      "parentCode": "2.2",
+      "title": "Committees in both chambers revise bills; majority party controls leadership roles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.4.A.2",
+      "parentCode": "5.4",
+      "title": "Parties adjust policies and messaging to appeal to demographic coalitions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.3.A.2",
+      "parentCode": "2.3",
+      "title": "Courts enable equal protection challenges to gerrymandering and redistricting practices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.10.A.2",
+      "parentCode": "3.10",
+      "title": "Equal protection clause supports civil rights, women's rights, and LGBTQ advocacy movements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.11.B.1",
+      "parentCode": "2.11",
+      "title": "Other branches limit Court power through legislation, amendments, appointments, implementation delays, and jurisdiction restrictions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.4.A.2",
+      "parentCode": "2.4",
+      "title": "Presidents exercise formal and informal powers including vetoes, foreign policy, persuasion, executive orders, and signing statements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.5.A.2",
+      "parentCode": "2.5",
+      "title": "Judicial appointments provide presidents lasting influence despite Senate confirmation checks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.12.A.2",
+      "parentCode": "5.12",
+      "title": "Media polling coverage can shift election focus from candidate qualifications to popularity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.6.A.2",
+      "parentCode": "2.6",
+      "title": "Twenty-Second Amendment reflects concern about unchecked presidential power expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.5.A.2",
+      "parentCode": "5.5",
+      "title": "Major parties adopting third-party issues reduces incentives for independent candidacies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.6.A.2",
+      "parentCode": "5.6",
+      "title": "Interest groups use iron triangles and networks to influence policy across parties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.9.A.2",
+      "parentCode": "2.9",
+      "title": "Presidential appointments reshape Court ideology, enabling establishment or rejection of precedents.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.11.A.2",
+      "parentCode": "5.11",
+      "title": "Campaign funding sources create tension between free speech and electoral fairness.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.12.A.2",
+      "parentCode": "2.12",
+      "title": "Civil service uses merit-based hiring and promotion over political patronage appointments.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.6.B.1",
+      "parentCode": "5.6",
+      "title": "Resource disparities among interest groups create unequal influence in policymaking.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.8.A.3",
+      "parentCode": "1.8",
+      "title": "Necessary and Proper Clause enables Congress; Court interpretations shape constitutional application scope.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.11.A.3",
+      "parentCode": "5.11",
+      "title": "PACs shape elections and policy through their financial contributions and expenditures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.6.A.3",
+      "parentCode": "2.6",
+      "title": "Ongoing debate between limited and expansive presidential power interpretations continues today.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.2.A.3",
+      "parentCode": "5.2",
+      "title": "Demographics and political efficacy predict individual voting likelihood.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.1.A.3",
+      "parentCode": "1.1",
+      "title": "Declaration of Independence establishes natural rights and popular sovereignty; Constitution creates limited government social contract.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.4.A.3",
+      "parentCode": "5.4",
+      "title": "Party structure shaped by critical elections, campaign finance law, technology changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.2.A.3",
+      "parentCode": "1.2",
+      "title": "Contemporary institutions and political behavior continue reflecting the three democracy models.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3.A.3",
+      "parentCode": "2.3",
+      "title": "Divided government intensifies partisanship and opposition to presidential initiatives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.1.A.3",
+      "parentCode": "2.1",
+      "title": "Staggered Senate elections create continuity; House complete turnover every two years.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.5.A.3",
+      "parentCode": "1.5",
+      "title": "Unresolved constitutional compromises remain sources of contemporary political debate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.13.A.3",
+      "parentCode": "5.13",
+      "title": "Democratic debate and citizen knowledge affected by media choices, ideology, reinforcement, and credibility questions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.5.A.3",
+      "parentCode": "2.5",
+      "title": "Presidents use executive orders when congressional agenda conflicts with presidential priorities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.6.B.1",
+      "parentCode": "1.6",
+      "title": "System design enables many groups to access and influence policymaking.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.8.A.3",
+      "parentCode": "3.8",
+      "title": "Procedural rights protect counsel, fair trial, and limit searches and bulk metadata collection.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.2.A.3",
+      "parentCode": "2.2",
+      "title": "House and Senate procedures differ; conference committees reconcile bicameral bill variations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.7.A.3",
+      "parentCode": "1.7",
+      "title": "Reserved powers belong to states under the Tenth Amendment when not delegated nationally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.14.B.1",
+      "parentCode": "2.14",
+      "title": "Presidential ideology shapes how agencies implement administration policy goals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.9.B.2",
+      "parentCode": "4.9",
+      "title": "Federal Reserve uses monetary policy to influence interest rates and economic stability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.15.B.2",
+      "parentCode": "2.15",
+      "title": "Power-sharing among branches limits and constrains national policymaking capacity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.7.A.3",
+      "parentCode": "5.7",
+      "title": "Elections and parties drive policy shifts and voting realignments.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.1.A.3",
+      "parentCode": "3.1",
+      "title": "Courts continuously interpret how the Bill of Rights applies to different situations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.1.B.1",
+      "parentCode": "3.1",
+      "title": "The Bill of Rights comprises the first ten Amendments enumerating individual liberties and rights.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.4.A.4",
+      "parentCode": "5.4",
+      "title": "Parties use technology and data to message, outreach, and mobilize voters.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.1.A.4",
+      "parentCode": "2.1",
+      "title": "Congressional powers include budgeting, taxation, war declaration, naturalization, commerce regulation, courts, legislation, and executive oversight.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.7.A.4",
+      "parentCode": "1.7",
+      "title": "Concurrent powers shared by both levels include taxation, lawmaking, and infrastructure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.3.A.4",
+      "parentCode": "2.3",
+      "title": "Representatives balance trustee, delegate, and politico roles affecting constituent accountability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.8.A.4",
+      "parentCode": "3.8",
+      "title": "Exclusionary rule prevents illegally seized evidence from use in criminal prosecutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.8.A.4",
+      "parentCode": "1.8",
+      "title": "Supremacy Clause establishes national precedence; Court determines when national power exceeds limits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.14.B.2",
+      "parentCode": "2.14",
+      "title": "Compliance monitoring verifies proper fund usage but may complicate policy implementation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.2.A.4",
+      "parentCode": "5.2",
+      "title": "Party affiliation, candidates, issues, and demographics influence voter choice.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.2.A.4",
+      "parentCode": "2.2",
+      "title": "Growing mandatory entitlements constrain discretionary spending without revenue increases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.6.B.2",
+      "parentCode": "1.6",
+      "title": "Impeachment and removal processes hold officials accountable for abuse of power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.5.A.4",
+      "parentCode": "1.5",
+      "title": "Federalism tensions and individual rights debates persist in modern surveillance and education policy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.7.A.5",
+      "parentCode": "1.7",
+      "title": "National-state power distribution shown through revenue sharing with minimal restrictions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.2.A.5",
+      "parentCode": "2.2",
+      "title": "Pork-barrel spending and logrolling influence legislative outcomes in both chambers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Chinese Language",
+  "source": "school-core:AP-CHN-LANG@Effective Fall 2024",
+  "strands": [
+    {
+      "code": "Skill Category 1",
+      "parentCode": null,
+      "title": "Skill Category 1: Skill Category 1: Comprehend Text",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "Skill Category 2",
+      "parentCode": null,
+      "title": "Skill Category 2: Skill Category 2: Make Connections",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "Skill Category 3",
+      "parentCode": null,
+      "title": "Skill Category 3: Skill Category 3: Interpret Text",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "Skill Category 4",
+      "parentCode": null,
+      "title": "Skill Category 4: Skill Category 4: Make Meanings",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "Skill Category 5",
+      "parentCode": null,
+      "title": "Skill Category 5: Skill Category 5: Speak to Others",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "Skill Category 6",
+      "parentCode": null,
+      "title": "Skill Category 6: Skill Category 6: Write to Others",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "Skill Category 7",
+      "parentCode": null,
+      "title": "Skill Category 7: Presentational Speaking",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "Skill Category 8",
+      "parentCode": null,
+      "title": "Skill Category 8: Presentational Writing",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.A",
+      "parentCode": "Skill Category 1",
+      "title": "Identify and summarize literal meaning and supporting details.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.A",
+      "parentCode": "Skill Category 3",
+      "title": "Identify text features, audience, and purpose.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.A",
+      "parentCode": "Skill Category 2",
+      "title": "Identify and explain cultural connections and topics.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.D",
+      "parentCode": "Skill Category 8",
+      "title": "Express perspectives with details and examples in written presentations.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.D",
+      "parentCode": "Skill Category 7",
+      "title": "Express perspectives with details and examples in spoken presentations.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.A",
+      "parentCode": "Skill Category 6",
+      "title": "Apply communication strategies in written exchanges.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.A",
+      "parentCode": "Skill Category 5",
+      "title": "Apply communication strategies in spoken exchanges.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.A",
+      "parentCode": "Skill Category 4",
+      "title": "Determine meaning of familiar and unfamiliar words.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.A.1",
+      "parentCode": "Skill Category 3",
+      "title": "Identify intended audience of texts.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.A.1",
+      "parentCode": "Skill Category 1",
+      "title": "Identify main ideas in comprehended texts.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.A.1",
+      "parentCode": "Skill Category 2",
+      "title": "Identify connections among cultural topics and content.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.A.1",
+      "parentCode": "Skill Category 4",
+      "title": "Determine meaning of varied vocabulary.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.A.1",
+      "parentCode": "Skill Category 5",
+      "title": "Initiate, maintain, and close spoken exchanges.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.A.1",
+      "parentCode": "Skill Category 6",
+      "title": "Initiate, maintain, and close written exchanges.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.D.1",
+      "parentCode": "Skill Category 7",
+      "title": "Explain ideas and opinions with examples in spoken presentations.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.D.1",
+      "parentCode": "Skill Category 8",
+      "title": "Explain ideas and opinions with examples in written presentations.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.A.2",
+      "parentCode": "Skill Category 4",
+      "title": "Deduce meaning of unfamiliar words.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.A.2",
+      "parentCode": "Skill Category 6",
+      "title": "Exchange relevant information in writing.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.A.2",
+      "parentCode": "Skill Category 2",
+      "title": "Explain how data illustrate cultural topics.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.D.2",
+      "parentCode": "Skill Category 8",
+      "title": "Integrate and cite sources appropriately in written presentations.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.A.2",
+      "parentCode": "Skill Category 3",
+      "title": "Identify purpose of texts.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.A.2",
+      "parentCode": "Skill Category 1",
+      "title": "Locate supporting details relevant to main ideas.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.A.2",
+      "parentCode": "Skill Category 5",
+      "title": "Comprehend messages in spoken exchanges.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.D.2",
+      "parentCode": "Skill Category 7",
+      "title": "Compare cultural features of target communities to student's own community.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.A.3",
+      "parentCode": "Skill Category 6",
+      "title": "Use varied grammar and syntax in writing.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.A.3",
+      "parentCode": "Skill Category 3",
+      "title": "Identify perspective, tone, and attitude in texts.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.A.3",
+      "parentCode": "Skill Category 2",
+      "title": "Explain text connections to target culture topics.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.A.3",
+      "parentCode": "Skill Category 1",
+      "title": "Retell or summarize text information narratively.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.B",
+      "parentCode": "Skill Category 4",
+      "title": "Use contextually appropriate vocabulary and expressions.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.A.3",
+      "parentCode": "Skill Category 5",
+      "title": "Exchange relevant information in speaking.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.A.4",
+      "parentCode": "Skill Category 6",
+      "title": "Use appropriate register for target culture.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.A.4",
+      "parentCode": "Skill Category 3",
+      "title": "Identify organizing and rhetorical structures.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.A.4",
+      "parentCode": "Skill Category 1",
+      "title": "Use multiple sources to support text comprehension.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.A.4",
+      "parentCode": "Skill Category 5",
+      "title": "Use appropriate register for target culture.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.A.4",
+      "parentCode": "Skill Category 2",
+      "title": "Infer cultural information from text sources.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.B.1",
+      "parentCode": "Skill Category 4",
+      "title": "Use varied vocabulary in communication.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.A.5",
+      "parentCode": "Skill Category 6",
+      "title": "Use strategies to maintain written exchanges.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.B.2",
+      "parentCode": "Skill Category 4",
+      "title": "Use idiomatic and culturally authentic expressions.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.B",
+      "parentCode": "Skill Category 1",
+      "title": "Identify patterns, trends, and data representations.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.B",
+      "parentCode": "Skill Category 3",
+      "title": "Identify similarities, differences, and implied meanings.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.A.5",
+      "parentCode": "Skill Category 5",
+      "title": "Use comprehensible pronunciation in speaking.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.B",
+      "parentCode": "Skill Category 2",
+      "title": "Identify interdisciplinary connections and content.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.B.1",
+      "parentCode": "Skill Category 1",
+      "title": "Identify and describe data patterns and trends.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.B.1",
+      "parentCode": "Skill Category 3",
+      "title": "Compare and contrast different text types.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.A.6",
+      "parentCode": "Skill Category 5",
+      "title": "Use effective intonation and delivery.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.B",
+      "parentCode": "Skill Category 6",
+      "title": "Apply varied syntax in written exchanges.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.B.1",
+      "parentCode": "Skill Category 2",
+      "title": "Identify connections among interdisciplinary topics.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.B.2",
+      "parentCode": "Skill Category 3",
+      "title": "Infer implied meanings from textual context.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.A.7",
+      "parentCode": "Skill Category 5",
+      "title": "Use strategies to maintain spoken exchanges.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.B.2",
+      "parentCode": "Skill Category 2",
+      "title": "Explain how data illustrate interdisciplinary topics.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "6.B.1",
+      "parentCode": "Skill Category 6",
+      "title": "Use transitions for coherent written discourse.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.B.2",
+      "parentCode": "Skill Category 1",
+      "title": "Describe data from various visual representations.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.B.3",
+      "parentCode": "Skill Category 2",
+      "title": "Explain text connections to interdisciplinary topics.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "6.B.2",
+      "parentCode": "Skill Category 6",
+      "title": "Produce varied sentence types in writing.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "5.B",
+      "parentCode": "Skill Category 5",
+      "title": "Apply varied syntax in spoken exchanges.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.B.4",
+      "parentCode": "Skill Category 2",
+      "title": "Infer interdisciplinary information from texts.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "6.B.3",
+      "parentCode": "Skill Category 6",
+      "title": "Use standard written conventions and punctuation.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "5.B.1",
+      "parentCode": "Skill Category 5",
+      "title": "Use varied grammar and syntax in speaking.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "5.B.2",
+      "parentCode": "Skill Category 5",
+      "title": "Use transitional expressions in spoken exchanges.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "6.B.4",
+      "parentCode": "Skill Category 6",
+      "title": "Monitor and correct language in writing.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "5.B.3",
+      "parentCode": "Skill Category 5",
+      "title": "Produce varied sentence types in speaking.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "5.B.4",
+      "parentCode": "Skill Category 5",
+      "title": "Monitor and correct language in speaking.",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    }
+  ]
+}

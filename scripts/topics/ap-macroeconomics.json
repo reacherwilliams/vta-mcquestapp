@@ -1,0 +1,1631 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Macroeconomics",
+  "source": "school-core:AP-MACRO@Effective Fall 2022",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: Basic Economic Concepts",
+      "level": 1,
+      "examWeight": 5,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: Economic Indicators and the Business Cycle",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: National Income and Price Determination",
+      "level": 1,
+      "examWeight": 17,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: Financial Sector",
+      "level": 1,
+      "examWeight": 18,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 5",
+      "parentCode": null,
+      "title": "Unit 5: Long-Run Consequences of Stabilization Policies",
+      "level": 1,
+      "examWeight": 20,
+      "sortOrder": 4
+    },
+    {
+      "code": "Unit 6",
+      "parentCode": null,
+      "title": "Unit 6: Open Economy–International Trade and Finance",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.1",
+      "parentCode": "Unit 5",
+      "title": "5.1",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "Unit 6",
+      "title": "Balance of Payments Accounts",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Scarcity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "The Circular Flow and GDP",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "Aggregate Demand (AD)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "Financial Assets",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "Multipliers",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2",
+      "parentCode": "Unit 6",
+      "title": "Exchange Rates",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "Limitations of GDP",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "Nominal vs. Real Interest Rates",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "Unit 5",
+      "title": "5.2",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "Opportunity Cost and the Production Possibilities Curve (PPC)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.3",
+      "parentCode": "Unit 5",
+      "title": "Money Growth and Inflation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "Unemployment",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "Short-Run Aggregate Supply (SRAS)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3",
+      "parentCode": "Unit 6",
+      "title": "The Foreign Exchange Market",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "Definition, Measurement, and Functions of Money",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "Comparative Advantage and Gains from Trade",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "Demand",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "Banking and the Expansion of the Money Supply",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.4",
+      "parentCode": "Unit 6",
+      "title": "Effect of Changes in Policies and Economic Conditions on the Foreign Exchange Market",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Price Indices and Inflation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "Long-Run Aggregate Supply (LRAS)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.4",
+      "parentCode": "Unit 5",
+      "title": "Government Deficits and the National Debt",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "Equilibrium in the Aggregate Demand–Aggregate Supply (AD–AS) Model",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.5",
+      "parentCode": "Unit 6",
+      "title": "Changes in the Foreign Exchange Market and Net Exports",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "Costs of Inflation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "Supply",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.5",
+      "parentCode": "Unit 5",
+      "title": "Crowding Out",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5",
+      "parentCode": "Unit 4",
+      "title": "The Money Market",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.6",
+      "parentCode": "Unit 6",
+      "title": "Real Interest Rates and International Capital Flows",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.6",
+      "parentCode": "Unit 1",
+      "title": "Market Equilibrium, Disequilibrium, and Changes in Equilibrium",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "2.6",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.6",
+      "parentCode": "Unit 3",
+      "title": "Changes in the AD–AS Model in the Short Run",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.6",
+      "parentCode": "Unit 4",
+      "title": "Monetary Policy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.6",
+      "parentCode": "Unit 5",
+      "title": "Economic Growth",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.7",
+      "parentCode": "Unit 5",
+      "title": "Public Policy and Economic Growth",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.7",
+      "parentCode": "Unit 4",
+      "title": "The Loanable Funds Market",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.7",
+      "parentCode": "Unit 3",
+      "title": "Long-Run Self-Adjustment",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "Business Cycles",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.8",
+      "parentCode": "Unit 3",
+      "title": "Fiscal Policy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.9",
+      "parentCode": "Unit 3",
+      "title": "Automatic Stabilizers",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "MEA-3.B.1",
+      "parentCode": "4.2",
+      "title": "Nominal interest rate is the stated loan rate without inflation adjustment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MOD-1.A.1",
+      "parentCode": "1.1",
+      "title": "Scarcity forces individuals and societies to make difficult economic choices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MOD-1.B.1",
+      "parentCode": "1.2",
+      "title": "PPC model demonstrates resource allocation tradeoffs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-1.A.1",
+      "parentCode": "1.3",
+      "title": "Absolute advantage: producing more output with same resources than others.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-2.A.1",
+      "parentCode": "1.4",
+      "title": "Price and quantity demanded move inversely; demand curves slope downward.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-2.C.1",
+      "parentCode": "1.5",
+      "title": "Higher prices incentivize producers to supply greater quantities of goods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-2.E.1",
+      "parentCode": "1.6",
+      "title": "Market equilibrium occurs when quantity demanded equals quantity supplied.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MEA-1.A.1",
+      "parentCode": "2.1",
+      "title": "GDP measures the economy's total final goods and services output.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MEA-1.B.1",
+      "parentCode": "2.2",
+      "title": "GDP measures economic performance but excludes nonmarket transactions and has other limitations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MEA-1.C.1",
+      "parentCode": "2.3",
+      "title": "Unemployment rate measures percentage of labor force currently jobless.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MEA-1.F.1",
+      "parentCode": "2.4",
+      "title": "CPI measures income change needed to maintain consistent living standards.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MEA-1.H.1",
+      "parentCode": "2.5",
+      "title": "Unexpected inflation transfers wealth between groups like lenders and borrowers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MEA-2.A.1",
+      "parentCode": "2.7",
+      "title": "Business cycles result from aggregate supply and demand fluctuations affecting output and employment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MOD-2.A.1",
+      "parentCode": "3.1",
+      "title": "AD curve shows price level versus total quantity of goods and services demanded.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MOD-2.B.1",
+      "parentCode": "3.2",
+      "title": "Autonomous expenditure changes trigger cascading effects on total expenditures and output.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MOD-2.C.1",
+      "parentCode": "3.3",
+      "title": "SRAS curve shows price level and output quantity relationship in economy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MOD-2.E.1",
+      "parentCode": "3.4",
+      "title": "Long-run price and wage flexibility eliminates inflation-unemployment trade-off.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MOD-2.G.1",
+      "parentCode": "3.5",
+      "title": "Short-run equilibrium occurs where AD and SRAS curves intersect.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MOD-2.H.1",
+      "parentCode": "3.6",
+      "title": "Aggregate demand shocks shift output, employment, and prices directionally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MOD-2.I.1",
+      "parentCode": "3.7",
+      "title": "Long-run wage and price flexibility restores full employment after demand shocks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "POL-1.A.1",
+      "parentCode": "3.8",
+      "title": "Fiscal policy targets macroeconomic goals including full employment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "POL-1.C.1",
+      "parentCode": "3.9",
+      "title": "Automatic stabilizers moderate business cycles in both downturns and expansions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MEA-3.A.1",
+      "parentCode": "4.1",
+      "title": "Cash and demand deposits represent the most liquid money forms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MEA-3.C.1",
+      "parentCode": "4.3",
+      "title": "Money is any asset accepted as payment for goods and services.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "POL-2.A.1",
+      "parentCode": "4.4",
+      "title": "Banks organize assets and liabilities using balance sheets.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-3.A.1",
+      "parentCode": "4.5",
+      "title": "Money demand inversely relates to nominal interest rate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "POL-1.D.1",
+      "parentCode": "4.6",
+      "title": "Central banks use monetary policy to achieve goals like price stability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-4.A.1",
+      "parentCode": "4.7",
+      "title": "Loanable funds market shows interactions between savers and borrowers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "POL-3.A.1",
+      "parentCode": "5.3",
+      "title": "Sustained rapid money supply changes cause inflation or deflation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "POL-3.B.1",
+      "parentCode": "5.4",
+      "title": "Budget surplus/deficit equals tax revenues minus spending and transfers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "POL-3.C.1",
+      "parentCode": "5.5",
+      "title": "Deficit governments borrow money to finance their spending programs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MEA-2.B.1",
+      "parentCode": "5.6",
+      "title": "Economic growth measures real GDP per capita growth rate over time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "POL-4.A.1",
+      "parentCode": "5.7",
+      "title": "Policies affecting productivity and labor force participation drive real GDP per capita growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MEA-4.A.1",
+      "parentCode": "6.1",
+      "title": "Current account tracks exports, income flows, and unilateral transfers between nations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-5.A.1",
+      "parentCode": "6.2",
+      "title": "Exchange rate is the price of one currency expressed in another currency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-5.B.1",
+      "parentCode": "6.3",
+      "title": "Currency demand derives from goods, services, assets; inverse exchange rate relationship.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-5.E.1",
+      "parentCode": "6.4",
+      "title": "Currency demand and supply shifts from trade and assets alter equilibrium exchange rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-5.F.1",
+      "parentCode": "6.5",
+      "title": "Currency appreciation decreases exports and increases imports, reducing net exports.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MKT-5.G.1",
+      "parentCode": "6.6",
+      "title": "Higher real interest rates attract financial capital flows between countries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "MEA-3.A.2",
+      "parentCode": "4.1",
+      "title": "Bonds and stocks serve as alternative financial assets to liquid money.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-5.F.2",
+      "parentCode": "6.5",
+      "title": "Currency depreciation increases exports and decreases imports, raising net exports.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MOD-2.G.2",
+      "parentCode": "3.5",
+      "title": "Long-run equilibrium occurs where AD and SRAS intersect the LRAS curve.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MEA-1.C.2",
+      "parentCode": "2.3",
+      "title": "Labor force participation rate shows percentage of adults in labor force.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MEA-3.B.2",
+      "parentCode": "4.2",
+      "title": "Nominal rate equals expected real rate plus expected inflation expectations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-2.B.1",
+      "parentCode": "1.4",
+      "title": "Consumer income and other factors shift the entire market demand curve.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MOD-2.A.2",
+      "parentCode": "3.1",
+      "title": "Three effects explain why AD curve slopes downward: wealth, interest rate, exchange rate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MEA-3.C.2",
+      "parentCode": "4.3",
+      "title": "Money functions as exchange medium, accounting unit, and value storage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-5.B.2",
+      "parentCode": "6.3",
+      "title": "Currency supply stems from payments abroad; positive exchange rate relationship.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "POL-4.A.2",
+      "parentCode": "5.7",
+      "title": "Infrastructure and technology investments by government promote economic growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MOD-2.H.2",
+      "parentCode": "3.6",
+      "title": "Aggregate supply shocks move output and prices in opposite directions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "POL-2.A.2",
+      "parentCode": "4.4",
+      "title": "Banks operate under fractional reserve banking system.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MOD-1.B.2",
+      "parentCode": "1.2",
+      "title": "PPC illustrates scarcity, opportunity cost, efficiency, resource utilization, growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MEA-2.A.2",
+      "parentCode": "2.7",
+      "title": "Business cycles consist of two phases: recession and expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "POL-3.C.2",
+      "parentCode": "5.5",
+      "title": "Loanable funds model demonstrates government borrowing effects on interest rates and investment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "POL-3.A.2",
+      "parentCode": "5.3",
+      "title": "Money supply changes don't affect real output at full employment long-term.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MEA-1.A.2",
+      "parentCode": "2.1",
+      "title": "Circular flow diagrams represent GDP as income and expenditure flows.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MOD-2.I.2",
+      "parentCode": "3.7",
+      "title": "LRAS shifts reflect changes in potential output and economic growth rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-5.E.2",
+      "parentCode": "6.4",
+      "title": "Fiscal policy affects aggregate demand, output, prices, and currency exchange rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-3.A.2",
+      "parentCode": "4.5",
+      "title": "Money supply is independent of nominal interest rate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "POL-1.A.2",
+      "parentCode": "3.8",
+      "title": "Government spending and taxes/transfers are fiscal policy tools.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MEA-2.B.2",
+      "parentCode": "5.6",
+      "title": "Employment and output correlate directly; firms need more workers for increased production.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-2.F.1",
+      "parentCode": "1.6",
+      "title": "Price adjustments restore equilibrium when markets experience surpluses or shortages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-5.G.2",
+      "parentCode": "6.6",
+      "title": "Central banks control short-run interest rates, influencing net capital flows.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "POL-1.D.2",
+      "parentCode": "4.6",
+      "title": "Monetary policy tools include discount rates, interest rates, open market operations, reserve ratios.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-5.A.2",
+      "parentCode": "6.2",
+      "title": "Currency appreciation means increased value; depreciation means decreased value relative to other currencies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MOD-2.C.2",
+      "parentCode": "3.3",
+      "title": "Sticky wages and prices explain upward slope of SRAS curve.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MEA-1.F.2",
+      "parentCode": "2.4",
+      "title": "CPI compares fixed basket costs across years relative to base year.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-2.D.1",
+      "parentCode": "1.5",
+      "title": "Changes in production costs and other factors shift the entire supply curve.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "POL-3.B.2",
+      "parentCode": "5.4",
+      "title": "Budget deficits accumulate as additions to the national debt.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-1.A.2",
+      "parentCode": "1.3",
+      "title": "Comparative advantage: producing goods at lower opportunity cost than competitors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MEA-4.A.2",
+      "parentCode": "6.1",
+      "title": "Current account can run surpluses or deficits; balance of trade is a CA component.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "POL-1.C.2",
+      "parentCode": "3.9",
+      "title": "Falling tax revenues during recessions sustain consumption and economic activity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MOD-2.F.1",
+      "parentCode": "3.4",
+      "title": "LRAS curve represents maximum sustainable capacity, parallel to PPC concept.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MOD-2.B.2",
+      "parentCode": "3.2",
+      "title": "Expenditure multiplier measures aggregate demand changes from component spending changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MKT-4.A.2",
+      "parentCode": "4.7",
+      "title": "Higher rates decrease quantity of loanable funds demanded.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "MEA-3.B.3",
+      "parentCode": "4.2",
+      "title": "Real rate equals nominal rate minus actual inflation rate after the fact.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MKT-1.B.1",
+      "parentCode": "1.3",
+      "title": "Specialization by comparative advantage enables trade expanding consumption beyond PPC.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MKT-4.A.3",
+      "parentCode": "4.7",
+      "title": "Higher rates increase quantity of loanable funds supplied.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MOD-2.C.3",
+      "parentCode": "3.3",
+      "title": "Production cost changes shift SRAS curve, including inflationary expectation changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "POL-3.A.3",
+      "parentCode": "5.3",
+      "title": "Long-run inflation rate equals money supply growth rate per quantity theory.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MOD-1.B.3",
+      "parentCode": "1.2",
+      "title": "PPC shape reflects constant, increasing, or decreasing opportunity costs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MOD-2.A.3",
+      "parentCode": "3.1",
+      "title": "Non-price-level changes in AD components cause the entire curve to shift.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MEA-1.F.3",
+      "parentCode": "2.4",
+      "title": "Inflation rate equals percentage change in price indices like CPI.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MOD-2.F.2",
+      "parentCode": "3.4",
+      "title": "LRAS is vertical at full employment due to flexible long-run prices and wages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MOD-2.G.3",
+      "parentCode": "3.5",
+      "title": "Short-run output can create inflationary or recessionary output gaps versus full employment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MOD-2.H.3",
+      "parentCode": "3.6",
+      "title": "Inflation results from demand-pull or cost-push mechanisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "POL-4.A.3",
+      "parentCode": "5.7",
+      "title": "Supply-side fiscal policies influence incentives affecting aggregate demand, supply, and potential output.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "POL-1.A.3",
+      "parentCode": "3.8",
+      "title": "Government spending directly affects AD; taxes/transfers affect AD indirectly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MEA-2.B.3",
+      "parentCode": "5.6",
+      "title": "Output per worker measures average labor productivity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MEA-1.D.1",
+      "parentCode": "2.3",
+      "title": "Measured unemployment understates joblessness by excluding discouraged workers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "POL-1.C.3",
+      "parentCode": "3.9",
+      "title": "Rising tax revenues during expansions restrain consumption and prevent overheating.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MEA-4.A.3",
+      "parentCode": "6.1",
+      "title": "Capital and financial account records asset transfers and financial capital movements internationally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MEA-3.A.3",
+      "parentCode": "4.1",
+      "title": "Bond prices and interest rates move in opposite directions inversely.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MOD-2.B.3",
+      "parentCode": "3.2",
+      "title": "Tax multiplier measures aggregate demand changes resulting from tax changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MEA-3.C.3",
+      "parentCode": "4.3",
+      "title": "Money supply measurement uses M1 and M2 monetary aggregate categories.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MEA-2.A.3",
+      "parentCode": "2.7",
+      "title": "Peak and trough are the turning points marking business cycle transitions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "POL-3.C.3",
+      "parentCode": "5.5",
+      "title": "Crowding out decreases private sector spending when government borrowing increases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "POL-2.A.3",
+      "parentCode": "4.4",
+      "title": "Bank reserves consist of required and excess reserves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MEA-1.A.3",
+      "parentCode": "2.1",
+      "title": "GDP can be measured three ways: expenditures, income, or value-added approaches.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MKT-5.C.1",
+      "parentCode": "6.3",
+      "title": "Equilibrium occurs when quantity demanded equals quantity supplied.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MKT-2.G.1",
+      "parentCode": "1.6",
+      "title": "Supply and demand shifts create new market equilibrium prices and quantities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MKT-3.B.1",
+      "parentCode": "4.5",
+      "title": "Money market equilibrium occurs when quantity demanded equals quantity supplied.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MKT-5.E.3",
+      "parentCode": "6.4",
+      "title": "Monetary policy influences demand, output, prices, interest rates, and exchange rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "POL-1.D.3",
+      "parentCode": "4.6",
+      "title": "Open market purchases increase reserves and monetary base; sales decrease them.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "POL-3.B.3",
+      "parentCode": "5.4",
+      "title": "Interest payments on debt grow, crowding out alternative government spending.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "MEA-2.A.4",
+      "parentCode": "2.7",
+      "title": "Output gap measures the difference between actual and potential output.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MEA-2.B.4",
+      "parentCode": "5.6",
+      "title": "Productivity depends on technology and physical and human capital per worker.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MOD-2.B.4",
+      "parentCode": "3.2",
+      "title": "Both multipliers depend on the marginal propensity to consume value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MOD-2.D.1",
+      "parentCode": "3.3",
+      "title": "Short-run inflation-unemployment trade-off exists along SRAS curve movement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "POL-1.A.4",
+      "parentCode": "3.8",
+      "title": "Government spending multiplier exceeds the tax multiplier.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "POL-1.C.4",
+      "parentCode": "3.9",
+      "title": "Transfer payments from social programs automatically stabilize income and spending.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MEA-3.A.4",
+      "parentCode": "4.1",
+      "title": "Holding money costs the forgone interest from alternative financial assets.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MEA-4.A.4",
+      "parentCode": "6.1",
+      "title": "Capital and financial account shows surpluses for inflows and deficits for outflows.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MEA-3.C.4",
+      "parentCode": "4.3",
+      "title": "Monetary base comprises currency in circulation plus bank reserves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "POL-2.A.4",
+      "parentCode": "4.4",
+      "title": "Excess reserves enable banks to expand the money supply.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MKT-3.C.1",
+      "parentCode": "4.5",
+      "title": "Disequilibrium causes surpluses or shortages; market forces restore equilibrium.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "POL-1.D.4",
+      "parentCode": "4.6",
+      "title": "Money multiplier amplifies monetary base changes on money supply in limited-reserve economies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MKT-4.B.1",
+      "parentCode": "4.7",
+      "title": "National savings equals public savings plus private savings in closed economy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MOD-1.B.4",
+      "parentCode": "1.2",
+      "title": "PPC shifts with factor changes and technology/productivity improvements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MKT-1.B.2",
+      "parentCode": "1.3",
+      "title": "Terms of trade based on comparative advantage enable mutually beneficial exchanges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MEA-1.E.1",
+      "parentCode": "2.3",
+      "title": "Three main unemployment types: cyclical, frictional, and structural.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "POL-3.C.4",
+      "parentCode": "5.5",
+      "title": "Long-term crowding out reduces capital accumulation and slows economic growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MEA-1.F.4",
+      "parentCode": "2.4",
+      "title": "Real variables equal nominal variables adjusted for price level changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MKT-5.D.1",
+      "parentCode": "6.3",
+      "title": "Market forces correct surpluses and shortages, restoring equilibrium exchange rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "MEA-1.G.1",
+      "parentCode": "2.4",
+      "title": "CPI has shortcomings like substitution bias, overstating true inflation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "POL-2.A.5",
+      "parentCode": "4.4",
+      "title": "Money multiplier measures ratio of money supply to base.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "MEA-4.A.5",
+      "parentCode": "6.1",
+      "title": "Balance of payments system records all international transactions combining current and CFA accounts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "MEA-2.B.5",
+      "parentCode": "5.6",
+      "title": "Output per capita increases with physical and human capital per capita.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "MOD-1.B.5",
+      "parentCode": "1.2",
+      "title": "Economic growth causes outward PPC shift.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "MOD-2.B.5",
+      "parentCode": "3.2",
+      "title": "MPC equals spending change divided by income change; MPC plus MPS equals one.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "MKT-4.B.2",
+      "parentCode": "4.7",
+      "title": "Open economy investment includes national savings and net capital inflow.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "POL-1.D.5",
+      "parentCode": "4.6",
+      "title": "Central banks target overnight interbank lending rates as their policy rate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "MKT-3.D.1",
+      "parentCode": "4.5",
+      "title": "Shifts in money demand and supply change equilibrium nominal interest rate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "MEA-2.A.5",
+      "parentCode": "2.7",
+      "title": "Potential output equals full-employment output at natural unemployment rate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "POL-1.A.5",
+      "parentCode": "3.8",
+      "title": "Fiscal policy restores full employment during recessionary or inflationary gaps.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "MEA-1.E.2",
+      "parentCode": "2.3",
+      "title": "Natural unemployment rate equals frictional plus structural unemployment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "MKT-4.C.1",
+      "parentCode": "4.7",
+      "title": "Equilibrium occurs when quantity demanded equals quantity supplied of funds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "POL-1.D.6",
+      "parentCode": "4.6",
+      "title": "Central banks influence nominal rates via money supply or administered interest rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "MEA-4.A.6",
+      "parentCode": "6.1",
+      "title": "BOP credits represent inflows, debits represent outflows; combined accounts must balance to zero.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "POL-2.A.6",
+      "parentCode": "4.4",
+      "title": "Money multiplier determines magnitude of money supply expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "MEA-1.E.3",
+      "parentCode": "2.3",
+      "title": "Cyclical unemployment is deviation from natural rate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "POL-1.A.6",
+      "parentCode": "3.8",
+      "title": "Fiscal policy affects aggregate demand, real output, and price level.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "MOD-1.C.1",
+      "parentCode": "5.6",
+      "title": "Outward PPC shifts correspond to rightward LRAS curve shifts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "MKT-4.D.1",
+      "parentCode": "4.7",
+      "title": "Market forces adjust rates to eliminate surpluses and shortages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "MEA-1.E.4",
+      "parentCode": "2.3",
+      "title": "Natural unemployment rate changes over time with labor force characteristics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "POL-1.D.7",
+      "parentCode": "4.6",
+      "title": "Monetary policy addresses output gaps to restore full employment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "POL-1.A.7",
+      "parentCode": "3.8",
+      "title": "AD-AS model demonstrates short-run fiscal policy effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "POL-2.A.7",
+      "parentCode": "4.4",
+      "title": "Maximum money multiplier equals one divided by reserve ratio.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "MKT-4.E.1",
+      "parentCode": "4.7",
+      "title": "Loanable funds market shows fiscal policy effects on interest rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "POL-1.D.8",
+      "parentCode": "4.6",
+      "title": "Monetary policy affects interest rates, aggregate demand, output, and prices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "POL-1.B.1",
+      "parentCode": "3.8",
+      "title": "Discretionary fiscal policy experiences lags from decision and implementation delays.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "POL-2.A.8",
+      "parentCode": "4.4",
+      "title": "Simple multiplier may overstate expansion due to bank and public behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "POL-1.D.9",
+      "parentCode": "4.6",
+      "title": "Multiple models demonstrate short-run effects of monetary policy actions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "MKT-4.E.2",
+      "parentCode": "4.7",
+      "title": "Demand and supply shifts change equilibrium rate and quantity of funds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "POL-1.E.1",
+      "parentCode": "4.6",
+      "title": "Monetary policy lags occur from recognition and adjustment delays.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    }
+  ]
+}

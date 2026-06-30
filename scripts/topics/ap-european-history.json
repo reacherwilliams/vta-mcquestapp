@@ -1,0 +1,3919 @@
+{
+  "curriculumCode": "AP",
+  "subject": "European History",
+  "source": "school-core:AP-EURO-HIST@Effective Fall 2020",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: Renaissance and Exploration",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: Age of Reformation",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: Absolutism and Constitutionalism",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: Scientific, Philosophical, and",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 5",
+      "parentCode": null,
+      "title": "Unit 5: Conflict, Crisis, and Reaction in the",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 4
+    },
+    {
+      "code": "Unit 6",
+      "parentCode": null,
+      "title": "Unit 6: Industrialization and Its Effects",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 5
+    },
+    {
+      "code": "Unit 7",
+      "parentCode": null,
+      "title": "Unit 7: 19th-Century Perspectives and",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 6
+    },
+    {
+      "code": "Unit 8",
+      "parentCode": null,
+      "title": "Unit 8: 20th-Century Global Conflicts",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 7
+    },
+    {
+      "code": "Unit 9",
+      "parentCode": null,
+      "title": "Unit 9: Cold War and Contemporary Europe",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "Contextualizing the Scientific Revolution and the Enlightenment",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "3.1",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Renaissance and Discovery",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1",
+      "parentCode": "Unit 7",
+      "title": "19th-Century Perspectives and Political Developments",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.1",
+      "parentCode": "Unit 9",
+      "title": "Contextualizing Cold War and Contemporary Europe",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "Contextualizing 16th- and 17th-Century Challenges and Developments",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "Unit 6",
+      "title": "Industrialization and Its Origins and Effects",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "Unit 5",
+      "title": "Conflict, Crisis, and Reaction in the Late 18th Century",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1",
+      "parentCode": "Unit 8",
+      "title": "20th-Century Global Conflicts",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.2",
+      "parentCode": "Unit 9",
+      "title": "Rebuilding Europe",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2",
+      "parentCode": "Unit 8",
+      "title": "World War I",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "The Scientific Revolution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "Luther and the Protestant Reformation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2",
+      "parentCode": "Unit 7",
+      "title": "Nationalism",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "3.2",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "Italian Renaissance",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "Unit 5",
+      "title": "The Rise of Global Markets",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2",
+      "parentCode": "Unit 6",
+      "title": "The Spread of Industrialization Throughout Europe",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "Northern Renaissance",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.3",
+      "parentCode": "Unit 9",
+      "title": "The Cold War",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "Protestant Reform",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "3.3",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3",
+      "parentCode": "Unit 8",
+      "title": "The Russian Revolution and Its Effects",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "The Enlightenment",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3",
+      "parentCode": "Unit 6",
+      "title": "Second Wave Industrialization and Its Effects",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.3",
+      "parentCode": "Unit 5",
+      "title": "5.3",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.3",
+      "parentCode": "Unit 7",
+      "title": "National Unification and Diplomatic Tensions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.4",
+      "parentCode": "Unit 7",
+      "title": "Darwinism, Social Darwinism",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.4",
+      "parentCode": "Unit 5",
+      "title": "The French Revolution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.4",
+      "parentCode": "Unit 6",
+      "title": "Social Effects of Industrialization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "18th-Century Society and Demographics",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "Economic Development and Mercantilism",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Wars of Religion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "Printing",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.4",
+      "parentCode": "Unit 9",
+      "title": "Two Super Powers Emerge",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.4",
+      "parentCode": "Unit 8",
+      "title": "Versailles Conference and Peace Settlement",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.5",
+      "parentCode": "Unit 6",
+      "title": "6.5",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "New Monarchies",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5",
+      "parentCode": "Unit 4",
+      "title": "18th-Century Culture and Arts",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "The Catholic Reformation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.5",
+      "parentCode": "Unit 8",
+      "title": "Global Economic Crisis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.5",
+      "parentCode": "Unit 5",
+      "title": "The French Revolution's Effects",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.5",
+      "parentCode": "Unit 9",
+      "title": "Postwar Nationalism, Ethnic Conflict, and Atrocities",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "The Dutch Golden Age",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.5",
+      "parentCode": "Unit 7",
+      "title": "The Age of Progress and Modernity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.6",
+      "parentCode": "Unit 7",
+      "title": "New Imperialism: Motivations and Methods",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "2.6",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.6",
+      "parentCode": "Unit 3",
+      "title": "Balance of Power",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.6",
+      "parentCode": "Unit 4",
+      "title": "Enlightened and Other Approaches to Power",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.6",
+      "parentCode": "Unit 5",
+      "title": "Napoleon's Rise, Dominance, and Defeat",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.6",
+      "parentCode": "Unit 6",
+      "title": "Reactions and Revolutions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "8.6",
+      "parentCode": "Unit 8",
+      "title": "Fascism and Totalitarianism",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "9.6",
+      "parentCode": "Unit 9",
+      "title": "Contemporary Western Democracies",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.6",
+      "parentCode": "Unit 1",
+      "title": "Technological Advances and the Age of Exploration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.7",
+      "parentCode": "Unit 3",
+      "title": "Absolutist Approaches to Power",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.7",
+      "parentCode": "Unit 4",
+      "title": "Causation in the Age of the Scientific Revolution and the Enlightenment",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "9.7",
+      "parentCode": "Unit 9",
+      "title": "The Fall of Communism",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.7",
+      "parentCode": "Unit 7",
+      "title": "Imperialism's Global Effects",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.7",
+      "parentCode": "Unit 5",
+      "title": "5.7",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.7",
+      "parentCode": "Unit 1",
+      "title": "Rivals on the World Stage",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.7",
+      "parentCode": "Unit 6",
+      "title": "Ideologies of Change and Reform Movements",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "8.7",
+      "parentCode": "Unit 8",
+      "title": "Europe During the Interwar Period",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "Art of the 16th Century: Mannerism and Baroque Art",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.8",
+      "parentCode": "Unit 7",
+      "title": "19th-Century Culture and Arts",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "9.8",
+      "parentCode": "Unit 9",
+      "title": "20th-Century Feminism",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.8",
+      "parentCode": "Unit 3",
+      "title": "Comparison in the Age of Absolutism and Constitutionalism",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.8",
+      "parentCode": "Unit 2",
+      "title": "Causation in the Age of Reformation and the Wars of Religion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "8.8",
+      "parentCode": "Unit 8",
+      "title": "World War II",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.8",
+      "parentCode": "Unit 5",
+      "title": "Romanticism",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.8",
+      "parentCode": "Unit 1",
+      "title": "Colonial Expansion and Columbian Exchange",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "6.8",
+      "parentCode": "Unit 6",
+      "title": "19th-Century Social Reform",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.9",
+      "parentCode": "Unit 5",
+      "title": "Continuity and Change in 18th-Century States",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "9.9",
+      "parentCode": "Unit 9",
+      "title": "Decolonization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "8.9",
+      "parentCode": "Unit 8",
+      "title": "The Holocaust",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "6.9",
+      "parentCode": "Unit 6",
+      "title": "Institutional Responses and Reform",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "7.9",
+      "parentCode": "Unit 7",
+      "title": "Causation in 19th-Century Perspectives and Political Developments",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.9",
+      "parentCode": "Unit 1",
+      "title": "The Slave Trade",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "8.10",
+      "parentCode": "Unit 8",
+      "title": "20th-Century Cultural, Intellectual, and Artistic Developments",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "1.10",
+      "parentCode": "Unit 1",
+      "title": "The Commercial Revolution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "6.10",
+      "parentCode": "Unit 6",
+      "title": "Causation in the Age of Industrialization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "9.10",
+      "parentCode": "Unit 9",
+      "title": "The European Union",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "9.11",
+      "parentCode": "Unit 9",
+      "title": "Migration and Immigration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "8.11",
+      "parentCode": "Unit 8",
+      "title": "Continuity and Changes in an Age of Global Conflict",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "1.11",
+      "parentCode": "Unit 1",
+      "title": "Causation in the Renaissance and Age of Discovery",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "9.12",
+      "parentCode": "Unit 9",
+      "title": "Technology (Topic 9.12)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "9.13",
+      "parentCode": "Unit 9",
+      "title": "Globalization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "9.14",
+      "parentCode": "Unit 9",
+      "title": "20th- and 21st-Century Culture, Arts, and Demographic Trends",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "9.15",
+      "parentCode": "Unit 9",
+      "title": "Continuity and Change in the 20th and 21st Centuries",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "KC-4.2.IV.A",
+      "parentCode": "9.2",
+      "title": "U.S. Marshall Plan funding rebuilt Western Europe's economy and boosted consumerism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1",
+      "parentCode": "9.1",
+      "title": "Early 20th-century instability led to Cold War polarization and later transnational integration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1",
+      "parentCode": "8.11",
+      "title": "Total war and instability led to Cold War polarization and transnational efforts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.3.IV.C",
+      "parentCode": "1.9",
+      "title": "European slave trade expansion resulted from American plantation economies and indigenous population collapse.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.4.I.A",
+      "parentCode": "1.10",
+      "title": "Banking innovations and agricultural commercialization created urban centers, new elites, and social tensions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.1",
+      "parentCode": "1.11",
+      "title": "Classical rediscovery and natural observation transformed European worldviews.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.1.I.A",
+      "parentCode": "3.7",
+      "title": "Absolute monarchies restricted noble political power while maintaining aristocratic social status.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.3.I.i",
+      "parentCode": "8.10",
+      "title": "Pre-WWI erosion of 19th-century optimism about inevitable progress.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.III.D",
+      "parentCode": "8.9",
+      "title": "Nazi Germany pursued racial order through Holocaust with Axis and collaborationist support.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.III.B",
+      "parentCode": "8.8",
+      "title": "Blitzkrieg and Axis attacks in Europe and Pacific achieved early military victories.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.III.A",
+      "parentCode": "8.7",
+      "title": "Western fears, American isolationism, and West-Soviet distrust enabled fascist expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.2.II",
+      "parentCode": "8.6",
+      "title": "Fascism emerged from postwar disillusionment, communist threat, weak democracies, economic crisis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.2.III",
+      "parentCode": "8.5",
+      "title": "Great Depression weakened democracies and sparked radical political movements across Europe.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.II",
+      "parentCode": "8.4",
+      "title": "Paris peace talks balanced Wilson's idealism against punishment of Germany, satisfying neither side.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.2.I",
+      "parentCode": "8.3",
+      "title": "Russian Revolution established a Marxist-Leninist communist state.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.2",
+      "parentCode": "2.1",
+      "title": "Religious diversity undermined the idea of European religious unity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.1.IV.A",
+      "parentCode": "5.4",
+      "title": "Long-term and short-term causes combined with Enlightenment thought sparked revolution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.I",
+      "parentCode": "8.2",
+      "title": "World War I emerged from complex factors, causing massive casualties and disruption.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1",
+      "parentCode": "8.1",
+      "title": "Total war and instability yielded Cold War polarization, then transnational union efforts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.4",
+      "parentCode": "7.9",
+      "title": "Nationalism and revolutions challenged European states' efforts to maintain stability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.6.I",
+      "parentCode": "7.8",
+      "title": "Romanticism rejected Neoclassicism and rationalism, emphasizing intuition and emotion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.5.III",
+      "parentCode": "7.7",
+      "title": "Imperialism shaped European society and diplomacy while sparking resistance abroad.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.5.I",
+      "parentCode": "7.6",
+      "title": "Europe pursued imperialism in Asia and Africa through economic, political, and cultural drives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.6.II.A",
+      "parentCode": "7.5",
+      "title": "Positivism asserted science as sole source of knowledge through rational analysis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.6.II.B",
+      "parentCode": "7.4",
+      "title": "Darwin's evolutionary theory unintentionally justified racialist Social Darwinism ideologies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.2.I.B",
+      "parentCode": "2.2",
+      "title": "Luther and Calvin reformed doctrine; their ideas provoked diverse responses and criticism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.1.IV.F",
+      "parentCode": "5.5",
+      "title": "French Revolutionary ideals sparked slave rebellion in Saint-Domingue, creating independent Haiti.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.1.II.B",
+      "parentCode": "2.3",
+      "title": "Printing press enabled Protestant reformers to spread ideas and establish reform widely.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.1.V.A",
+      "parentCode": "5.6",
+      "title": "Napoleon implemented lasting reforms while suppressing rights through authoritarian control mechanisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.4.II.A",
+      "parentCode": "7.3",
+      "title": "Crimean War weakened Ottoman Empire, destabilized Concert of Europe enabling Italian and German unification.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.2.III.A",
+      "parentCode": "2.4",
+      "title": "Religious reform deepened conflicts between monarchy and nobility in France.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.3.VI.A",
+      "parentCode": "5.8",
+      "title": "Rousseau prioritized emotion over reason for moral self-improvement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.3.I.F",
+      "parentCode": "7.2",
+      "title": "Nationalists promoted national loyalty through idealism, reform, unification, racialism, and expansionism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.4",
+      "parentCode": "7.1",
+      "title": "European states faced instability amid nationalism and revolutionary movements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1.I",
+      "parentCode": "6.10",
+      "title": "British industrial dominance resulted from mechanization and favorable political-social conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.2.I.D",
+      "parentCode": "2.5",
+      "title": "Catholic Reformation through Jesuits and Council of Trent revived church, deepened Christian division.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.1.III.C",
+      "parentCode": "2.7",
+      "title": "Mannerist and Baroque artists used distortion and drama; patrons commissioned works for power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.5.II.A",
+      "parentCode": "3.6",
+      "title": "After Westphalia, balance of power replaced religion as diplomatic and military focus.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.3.II.A",
+      "parentCode": "6.9",
+      "title": "Liberalism moved from non-intervention to active state involvement addressing industrialization's problems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.3.III.A",
+      "parentCode": "6.8",
+      "title": "Mass-based political parties became sophisticated instruments for reform movements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.3.I.A",
+      "parentCode": "6.7",
+      "title": "Liberals championed sovereignty and rights while disagreeing on universal participation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.4.I.C",
+      "parentCode": "6.6",
+      "title": "Early 19th-century revolutionaries sought to overturn existing political and social order.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.2.I.A",
+      "parentCode": "6.4",
+      "title": "Industrialization created distinct social classes: proletariat and bourgeoisie.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.2.II",
+      "parentCode": "3.4",
+      "title": "European global economic dominance fueled agricultural, industrial, and consumer revolutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1.III.A",
+      "parentCode": "6.3",
+      "title": "Factory system and mechanization dominated production methods by 1914.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1.I.A",
+      "parentCode": "6.2",
+      "title": "Britain's abundant natural resources directly enabled rapid industrial development.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-3.1",
+      "parentCode": "6.1",
+      "title": "Industrial Revolution spread from Britain to continental Europe with state involvement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.2.I",
+      "parentCode": "2.8",
+      "title": "Reformations transformed theology, institutions, culture, and prosperity attitudes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.1",
+      "parentCode": "5.9",
+      "title": "Political sovereignty models shaped interstate relations and state-individual relationships.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.1",
+      "parentCode": "4.1",
+      "title": "Classical texts and natural observation transformed European worldviews.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.1.IV.A",
+      "parentCode": "4.2",
+      "title": "Astronomers questioned ancient authority and developed heliocentric cosmology.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.3.I.A",
+      "parentCode": "4.3",
+      "title": "Enlightenment thinkers applied scientific methods to analyze society and institutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.4.I",
+      "parentCode": "4.4",
+      "title": "Seventeenth-century food scarcity gave way to eighteenth-century stability and growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.1.II.B",
+      "parentCode": "3.5",
+      "title": "Dutch Republic emerged from Protestant revolt, governed by urban and rural oligarchs promoting trade.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1",
+      "parentCode": "9.15",
+      "title": "Early 20th-century warfare and instability led to Cold War polarization, then transnational union.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.1",
+      "parentCode": "1.1",
+      "title": "Classical texts and nature study transformed European worldviews during the Renaissance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.3.II.B",
+      "parentCode": "4.5",
+      "title": "Printed materials expanded public literacy and shaped emerging public opinion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.3.I.B",
+      "parentCode": "9.14",
+      "title": "War and depression sparked existentialism and postmodernism, challenging scientific rationalism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.3.IV.C",
+      "parentCode": "9.13",
+      "title": "Post-WWII U.S. technology and culture imports sparked mixed European responses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.1.I.A",
+      "parentCode": "1.2",
+      "title": "Humanists revived classical texts and advanced secular, individualist values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.1.I.C",
+      "parentCode": "4.6",
+      "title": "Eighteenth-century eastern and central European states adopted enlightened absolutism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.3.II.B",
+      "parentCode": "9.12",
+      "title": "Medical advances extended lifespans yet raised unresolved social and moral questions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.3.III.C",
+      "parentCode": "9.11",
+      "title": "Immigration changed Europe's religion, sparking debates about religion's social and political role.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.1.III.B",
+      "parentCode": "1.3",
+      "title": "Northern Renaissance emphasized religious themes with naturalistic depictions of people and daily life.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.1.IV",
+      "parentCode": "4.7",
+      "title": "Scientific methods challenged classical cosmology while traditional knowledge persisted simultaneously.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.1.II",
+      "parentCode": "1.4",
+      "title": "Printing invention enabled rapid spread of new intellectual ideas across Europe.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.1",
+      "parentCode": "5.1",
+      "title": "Political sovereignty models shaped state relationships and state-individual dynamics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.2.II.A",
+      "parentCode": "1.5",
+      "title": "Monarchs initiated top-down religious reforms to control religious life and morality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.4.IV",
+      "parentCode": "9.10",
+      "title": "European states pursued economic and political integration, replacing nationalist rivalries with transnational cooperation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.VI",
+      "parentCode": "9.9",
+      "title": "Decolonization progressed unevenly with varying European cooperation, interference, or resistance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.3.II",
+      "parentCode": "1.6",
+      "title": "Navigation, cartography, and military innovations enabled European colonial and imperial expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.5",
+      "parentCode": "3.8",
+      "title": "Sovereignty conflicts produced different levels of political centralization across European states.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.4.II",
+      "parentCode": "9.8",
+      "title": "Women's lives shaped by family, work, economics, and feminist movements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.2.V.C",
+      "parentCode": "9.7",
+      "title": "Gorbachev's perestroika and glasnost reforms failed to prevent Soviet collapse.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.2.IV",
+      "parentCode": "9.6",
+      "title": "Economic growth after WWII expanded welfare; later stagnation prompted retrenchment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.3.III",
+      "parentCode": "1.7",
+      "title": "Europeans built overseas empires and trade networks via coercion and negotiation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.2",
+      "parentCode": "5.2",
+      "title": "European commercial expansion drove worldwide economic network development.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.V",
+      "parentCode": "9.5",
+      "title": "Postwar nationalist, separatist, and ethnic movements disrupted peace through conflict.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.IV.C",
+      "parentCode": "9.4",
+      "title": "US influenced Western Europe through military, political, economic power and institutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-1.3.III.A",
+      "parentCode": "1.8",
+      "title": "Portuguese built extensive commercial networks across Africa, Asia, and South America.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-4.1.IV.A",
+      "parentCode": "9.3",
+      "title": "UN cooperation failed; USSR-West tensions divided Europe into Iron Curtain.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "KC-2.1.IV",
+      "parentCode": "5.1",
+      "title": "French Revolution fundamentally challenged Europe's established political and social order.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.1.I",
+      "parentCode": "1.1",
+      "title": "Classical revival created novel scholarship methods and societal and religious values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.1.I.B",
+      "parentCode": "1.2",
+      "title": "Printing press spread humanism, challenging Church authority and reforming education.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.2.I.A",
+      "parentCode": "1.3",
+      "title": "Christian humanists like Erasmus applied Renaissance ideas to advance religious reformation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.1.II.A",
+      "parentCode": "1.4",
+      "title": "Printing press spread Renaissance beyond Italy and fostered vernacular literature, developing national cultures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.5.I.A",
+      "parentCode": "1.5",
+      "title": "New monarchies centralized state power through taxation, military, justice, and religious authority.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.3.I.A",
+      "parentCode": "1.6",
+      "title": "European states pursued gold, spices, and luxuries to increase wealth and power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.3.III.B",
+      "parentCode": "1.7",
+      "title": "Spanish colonies in Americas, Caribbean, and Pacific made Spain dominant 16th-century European power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.3.IV.i",
+      "parentCode": "1.8",
+      "title": "Colonial expansion created global exchange and increased European dominance and slavery.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.1.I",
+      "parentCode": "1.11",
+      "title": "Classical revival generated innovative scholarship methods and social-religious values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.2.I",
+      "parentCode": "2.1",
+      "title": "Reformations transformed theology, institutions, culture, and economic attitudes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.2.I.C",
+      "parentCode": "2.2",
+      "title": "Protestants like Calvinists viewed wealth as evidence of divine blessing and virtue.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.2.II.B",
+      "parentCode": "2.3",
+      "title": "Some Protestants rejected church subordination to secular state authority.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.2.III.B",
+      "parentCode": "2.4",
+      "title": "Habsburgs faced Ottoman expansion while failing to restore Catholic unity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.2.II",
+      "parentCode": "2.8",
+      "title": "Religious reform increased state control yet justified challenging state authority.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.2.II.A",
+      "parentCode": "3.4",
+      "title": "European states extracted colonial resources through mercantilist economic policies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.1.I.D",
+      "parentCode": "3.6",
+      "title": "Poland's weak monarchy enabled partition by Prussia, Russia, and Austria.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.1.I.B",
+      "parentCode": "3.7",
+      "title": "Louis XIV and Colbert centralized French state control over administration, finance, military, religion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.5.I",
+      "parentCode": "3.8",
+      "title": "Sovereignty and secular law fundamentally shaped emergence of new political institutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.1.IV",
+      "parentCode": "4.1",
+      "title": "Scientific methods challenged classical cosmology while traditional knowledge persisted.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-1.1.IV.B",
+      "parentCode": "4.2",
+      "title": "Medical discoveries presented body as integrated system, challenging Galen's humoral theory.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.3.I.B",
+      "parentCode": "4.3",
+      "title": "Locke and Rousseau created political theories grounded in natural rights and social contract.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.4.I.A",
+      "parentCode": "4.4",
+      "title": "Agricultural Revolution enabled food surplus, population expansion, and fewer demographic crises.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.3.II.C",
+      "parentCode": "4.5",
+      "title": "European culture exposed people to non-European perspectives and challenged social conventions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.3.IV.C",
+      "parentCode": "4.6",
+      "title": "By 1800, western and central European governments granted religious toleration and some civil equality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.3.I",
+      "parentCode": "4.7",
+      "title": "Enlightenment empiricism and rationalism challenged traditional views of government, society, and religion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.2.III",
+      "parentCode": "5.2",
+      "title": "Commercial competition shaped European diplomacy and military conflicts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.1.IV.B",
+      "parentCode": "5.4",
+      "title": "Early phase created constitutional monarchy, broadened participation, reformed Church, ended privileges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.1.IV.G",
+      "parentCode": "5.5",
+      "title": "Revolution's equality ideals inspired some; others opposed its violence and rejection of tradition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.1.V.B",
+      "parentCode": "5.6",
+      "title": "Napoleon's military innovations enabled continental dominance and spread revolutionary ideals throughout Europe.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.3.VI.B",
+      "parentCode": "5.8",
+      "title": "Romanticism directly opposed Enlightenment emphasis on rational thought.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-2.1.IV",
+      "parentCode": "5.9",
+      "title": "French Revolution fundamentally challenged Europe's existing political and social structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.1.I",
+      "parentCode": "6.1",
+      "title": "Britain dominated industry through mechanized textiles, metals, transport, favorable conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.1.I",
+      "parentCode": "6.2",
+      "title": "Britain dominated industry via mechanized textiles, metals, transport, and supportive governance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.1.III.B",
+      "parentCode": "6.3",
+      "title": "Technology integrated national economies, increased urbanization, created global networks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.2.I.B",
+      "parentCode": "6.4",
+      "title": "Agricultural elites maintained dominance in less industrialized European regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.4.I.D",
+      "parentCode": "6.6",
+      "title": "Economic crisis and political discontent sparked 1848 revolutions that undermined conservative order.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.3.I.B",
+      "parentCode": "6.7",
+      "title": "Radicals demanded universal male suffrage and citizenship; some extended claims to women.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.3.III.B",
+      "parentCode": "6.8",
+      "title": "Labor unions and worker movements evolved into political parties advocating reform.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.3.II.B",
+      "parentCode": "6.9",
+      "title": "Urban reforms modernized infrastructure and services; governments enacted them through public opinion, individuals, and charities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.1.II",
+      "parentCode": "6.10",
+      "title": "Continental European industrialization followed Britain's model, often with government support.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.4.II",
+      "parentCode": "7.1",
+      "title": "Concert of Europe's collapse enabled Italian and German unification, liberal reforms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.3.I.G",
+      "parentCode": "7.2",
+      "title": "Zionism emerged as Jewish nationalism in response to rising European anti-Semitism despite Jewish acculturation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.4.III.A",
+      "parentCode": "7.3",
+      "title": "Cavour's diplomacy and Garibaldi's military campaigns unified Italy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.6.III",
+      "parentCode": "7.5",
+      "title": "Late 19th-century relativism and epistemic doubt generated modernist intellectual movements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.5.I.A",
+      "parentCode": "7.6",
+      "title": "Imperial competition arose from European rivalries and strategic geopolitical concerns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.5.III.A",
+      "parentCode": "7.7",
+      "title": "Colonial competition generated diplomatic crises and strained European alliance systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.6.I.A",
+      "parentCode": "7.8",
+      "title": "Romantic artists emphasized emotion, nature, individuality, intuition, supernatural, and national histories.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-3.4.II",
+      "parentCode": "7.9",
+      "title": "Concert of Europe's collapse enabled Italian and German unification, plus liberal reforms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.I",
+      "parentCode": "8.1",
+      "title": "Complex factors caused WWI, creating immense losses for victors and vanquished alike.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.I.A",
+      "parentCode": "8.2",
+      "title": "Nationalism, military planning, alliances, and imperialism escalated Balkan conflict globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.2.I.A",
+      "parentCode": "8.3",
+      "title": "WWI worsened Russia's political, social, and economic problems, fueling revolution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.II.A",
+      "parentCode": "8.4",
+      "title": "New democracies from empires faced idealism-reality clash, eventually collapsing into crises.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.2.III.A",
+      "parentCode": "8.5",
+      "title": "WWI debt, tariffs, overproduction, currency depreciation, and speculation caused global economic weaknesses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.2.II.A",
+      "parentCode": "8.6",
+      "title": "Fascists employed modern propaganda, rejected democracy, glorified war and nationalism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.III",
+      "parentCode": "8.7",
+      "title": "Fascism, nationalism, racism, and failed appeasement caused World War II catastrophe.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.III.C",
+      "parentCode": "8.8",
+      "title": "Allied industrial power, leadership, civilian resistance, and Soviet commitment secured victory.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.4.I.B",
+      "parentCode": "8.9",
+      "title": "WWII killed millions, destroyed European Jewry, displaced populations, and disrupted social structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.3.I.A",
+      "parentCode": "8.10",
+      "title": "WWI-era Europeans maintained faith in science despite theoretical uncertainty.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.I",
+      "parentCode": "8.11",
+      "title": "Complex factors caused WWI, creating severe losses and disruptions for all.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.IV",
+      "parentCode": "9.1",
+      "title": "World War II's end triggered a fifty-year ideological conflict between democratic West and communist East.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.IV.B",
+      "parentCode": "9.3",
+      "title": "Cold War spread globally through propaganda, covert ops, regional wars, and nuclear arms race.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.IV.D",
+      "parentCode": "9.4",
+      "title": "Soviet Union dominated Eastern Europe through COMECON and Warsaw Pact structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.2.V.D.ii",
+      "parentCode": "9.5",
+      "title": "Central and eastern European nationalisms triggered Balkan war and genocide.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.2.IV.B",
+      "parentCode": "9.6",
+      "title": "Postwar welfare expansion and high taxes sparked domestic political conflict amid fiscal pressures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.IV.E",
+      "parentCode": "9.7",
+      "title": "Soviet collapse ended Cold War, enabled Eastern European capitalism and EU expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.4.II.B",
+      "parentCode": "9.8",
+      "title": "Women gained voting rights, education, and career access despite ongoing social inequality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.VI.A",
+      "parentCode": "9.9",
+      "title": "Wilson's self-determination principle raised independence expectations among colonized peoples post-WWI.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.4.IV.A",
+      "parentCode": "9.10",
+      "title": "ECSC evolved into EEC and EU, advancing economic integration and fostering shared European identity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.4.III.D",
+      "parentCode": "9.11",
+      "title": "Post-1970s economic decline fueled anti-immigrant hostility and nationalist parties targeting migrant workers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.4.I.D",
+      "parentCode": "9.13",
+      "title": "Communication and transportation technologies connected people globally, transforming daily life.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.3.III",
+      "parentCode": "9.14",
+      "title": "Religion remained culturally significant despite secularism, conflict, and rapid social change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.IV",
+      "parentCode": "9.15",
+      "title": "Cold War between liberal democratic West and communist East lasted approximately fifty years.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "KC-4.1.VI.C",
+      "parentCode": "9.9",
+      "title": "Indigenous movements faced delayed independence due to imperial resistance, external interference, instability, Cold War.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.5.III.B",
+      "parentCode": "7.7",
+      "title": "Imperial contact shaped European art, literature, and sparked anti-imperialism debate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.2.I.B",
+      "parentCode": "8.3",
+      "title": "Soviet-backed insurrections toppled Provisional Government, enabling Lenin's Bolshevik takeover.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.1.I.B",
+      "parentCode": "8.2",
+      "title": "New military technologies rendered old strategies obsolete, creating deadly trench stalemate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.2.II",
+      "parentCode": "2.1",
+      "title": "Religious reform strengthened state control yet enabled challenges to state power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.3.II",
+      "parentCode": "4.7",
+      "title": "Print and public institutions disseminated Enlightenment thought to broader audiences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.1.III.A",
+      "parentCode": "4.6",
+      "title": "Westphalia's sovereignty limits enabled Prussian rise and Habsburg eastward expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.1.II",
+      "parentCode": "6.1",
+      "title": "Continental Europe adopted British industrial model with state sponsorship.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.3.V",
+      "parentCode": "4.5",
+      "title": "Arts shifted from religious and royal subjects toward private life and civic values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.4.I.B",
+      "parentCode": "4.4",
+      "title": "Medical advances eliminated plague and reduced smallpox deaths through inoculation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.3.IV.A",
+      "parentCode": "1.8",
+      "title": "Goods exchange shifted European economic power from Mediterranean to Atlantic states.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.1.I.B",
+      "parentCode": "6.2",
+      "title": "Private entrepreneurs, engineers, and capitalists drove Britain's industrial leadership independently.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.1.IV.C",
+      "parentCode": "5.4",
+      "title": "Radical Jacobins under Robespierre instituted Terror, price controls, and de-Christianization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.3.I.C",
+      "parentCode": "4.3",
+      "title": "Enlightenment thinkers contradictorily excluded women despite proclaiming equality principles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.2.II.B",
+      "parentCode": "3.4",
+      "title": "Transatlantic slavery expanded with growing demand for New World products.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.3.III.C",
+      "parentCode": "1.7",
+      "title": "France, England, and Netherlands established colonies to compete with Portuguese and Spanish dominance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.2.IV.B",
+      "parentCode": "6.3",
+      "title": "Transportation innovations created industries, improved distribution, increased consumerism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.2",
+      "parentCode": "9.1",
+      "title": "Economic crisis and total war sparked competing ideologies about state-individual relationships in Europe.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.1.IV.C",
+      "parentCode": "4.2",
+      "title": "Bacon and Descartes promoted reasoning, experimentation, and mathematics in science.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.3",
+      "parentCode": "4.1",
+      "title": "Scientific ideas applied to society increased reason's cultural emphasis, though opposed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.1.I.E",
+      "parentCode": "3.7",
+      "title": "Peter and Catherine the Great westernized Russia's political, religious, cultural institutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.2.I.C",
+      "parentCode": "6.4",
+      "title": "Class identity strengthened through associations, unions, and philanthropic participation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.2.III.A",
+      "parentCode": "5.2",
+      "title": "European naval powers competed for Atlantic dominance during eighteenth century.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.1.II",
+      "parentCode": "8.11",
+      "title": "Paris peace talks balancing idealism and punishment created unsatisfying settlement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.4.II.D",
+      "parentCode": "6.6",
+      "title": "Russian autocratic reforms, including serfdom's end, catalyzed revolutionary movements leading to 1905 revolution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.3.II.A",
+      "parentCode": "8.10",
+      "title": "Post-Newtonian physics undermined objective knowledge certainty across disciplines.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.3.I.D",
+      "parentCode": "6.7",
+      "title": "Socialists redistributed wealth; ideology evolved from utopian to Marxist scientific critique.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.1.V",
+      "parentCode": "5.1",
+      "title": "Napoleon imposed French control invoking Revolution ideals, sparking nationalist backlash.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.3.III.C",
+      "parentCode": "6.8",
+      "title": "Feminists campaigned for women's legal, economic, and political rights and better working conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.2.III",
+      "parentCode": "2.8",
+      "title": "Religious conflicts overlapped with political and economic competition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.4.III",
+      "parentCode": "7.9",
+      "title": "Italian and German unification reshaped European power balance and diplomacy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.3.II.C",
+      "parentCode": "6.9",
+      "title": "Compulsory education advanced public order, nationalism, and economic development.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.3.I.B",
+      "parentCode": "1.6",
+      "title": "Mercantilism expanded state involvement in commercial development and overseas colonial acquisition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.2.I",
+      "parentCode": "6.10",
+      "title": "Industrialization created new social classes in European industrial regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.1.V.C",
+      "parentCode": "5.6",
+      "title": "Napoleon's empire expansion provoked nationalist resistance movements across occupied European territories.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.3.III.A",
+      "parentCode": "9.14",
+      "title": "Christian churches responded variously to totalitarianism and communism in Eastern Europe.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.1.III",
+      "parentCode": "1.11",
+      "title": "Renaissance visual arts advanced new ideas while serving personal, political, religious aims.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.4.III",
+      "parentCode": "7.1",
+      "title": "Italian and German unification reshaped European balance, prompted diplomatic restructuring.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.1.III",
+      "parentCode": "3.6",
+      "title": "Dynastic, state, and colonial interests drove post-1648 European diplomacy and warfare.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.3.II.C",
+      "parentCode": "8.8",
+      "title": "Military technology enabled industrial warfare, genocide, nuclear weapons, and existential global risk.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.1.III",
+      "parentCode": "1.1",
+      "title": "Renaissance art embodied new ideas to advance personal, political, and religious objectives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.2.III.C",
+      "parentCode": "2.4",
+      "title": "States weaponized religious conflicts for political and economic gain.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.4.II.D",
+      "parentCode": "9.8",
+      "title": "Changes in marriage, motherhood, and reproduction expanded women's personal life choices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.4.II.B",
+      "parentCode": "7.2",
+      "title": "Conservative leaders harnessed popular nationalism to build or reinforce state power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.2.II.C",
+      "parentCode": "2.3",
+      "title": "Religious conflicts enabled groups to challenge monarchical control of churches.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.4.III.B",
+      "parentCode": "7.3",
+      "title": "Bismarck employed Realpolitik—diplomacy, warfare, weaponry, democratic manipulation—to unify Germany.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.5.III",
+      "parentCode": "3.8",
+      "title": "Monarchical power struggles with groups created varying governmental authority distributions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.4.III.A",
+      "parentCode": "9.13",
+      "title": "European green movements opposed consumerism and late-century globalization trends.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.2.II.B",
+      "parentCode": "8.6",
+      "title": "Mussolini and Hitler exploited postwar discontent, economic crisis, terror, and weak democracies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.6.III.A",
+      "parentCode": "7.5",
+      "title": "Philosophy shifted from rationalism toward irrationality, viewing conflict as progressive.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.3.VI.C",
+      "parentCode": "5.8",
+      "title": "Religious revival movements like Methodism aligned with Romantic ideals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.1.V",
+      "parentCode": "9.15",
+      "title": "Nationalist, separatist, and ethnic conflicts periodically disrupted post-World War II peace.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.5.I.B",
+      "parentCode": "7.6",
+      "title": "Economic needs and nationalism drove European colonization despite American independence movements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.2.III.B",
+      "parentCode": "8.5",
+      "title": "European dependence on American capital ended when US cut flows after 1929 crash.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.1.II.B",
+      "parentCode": "8.4",
+      "title": "League of Nations weakened by absence of U.S., Germany, and Soviet Union from membership.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.5.I.C",
+      "parentCode": "1.5",
+      "title": "Commercial and professional groups gained power and influence in European political affairs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.6.I.B",
+      "parentCode": "7.8",
+      "title": "Romantic writers responded to Industrial and political revolutions through similar thematic expressions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.2.V.A",
+      "parentCode": "9.4",
+      "title": "Soviet bloc economies used central planning but restricted rights, freedoms, and emigration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-2.1.V",
+      "parentCode": "5.9",
+      "title": "Napoleon's continental control invoked French Revolutionary ideals but sparked nationalist resistance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-1.1.I.C",
+      "parentCode": "1.2",
+      "title": "Classical admiration fostered civic humanism and secular political models in city-states.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.4.IV.B",
+      "parentCode": "9.10",
+      "title": "EU members balance national sovereignty against union membership obligations and institutional demands.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-4.1.II",
+      "parentCode": "8.1",
+      "title": "Paris peace negotiations balanced idealism against punishing Germany, satisfying few parties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "KC-3.5.III.C",
+      "parentCode": "7.7",
+      "title": "Western-educated non-Europeans mounted nationalist resistance and modernized societies against imperialism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.2.II.B",
+      "parentCode": "6.4",
+      "title": "Rural-to-urban migration caused city overcrowding and rural labor/community decline.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-1.2.III.D",
+      "parentCode": "2.4",
+      "title": "Some states permitted religious pluralism to preserve internal peace.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.1.III",
+      "parentCode": "8.11",
+      "title": "Interwar fascism, nationalism, racism, and appeasement failure led to WWII.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.6.II.D",
+      "parentCode": "7.8",
+      "title": "Realism depicted ordinary lives and social problems through art and literature.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-1.5.III.B",
+      "parentCode": "3.8",
+      "title": "Monarchies encountered noble resistance defending traditional shared governance and regional autonomy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-1.3",
+      "parentCode": "1.11",
+      "title": "European exploration and settlement created encounters with indigenous populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.2",
+      "parentCode": "9.15",
+      "title": "Economic collapse and total war created internal conflicts and ideological battles over state-individual relationships.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.3.III.B",
+      "parentCode": "9.14",
+      "title": "Vatican II reformed Catholic doctrine, practice, and interfaith relations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.4.I.A",
+      "parentCode": "8.10",
+      "title": "WWI generated lost generation disillusionment, transformed women's roles, democratized society.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.2.I.C",
+      "parentCode": "8.3",
+      "title": "Bolshevik victory sparked prolonged civil war with foreign-backed anti-communist forces.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-1.2.III",
+      "parentCode": "2.1",
+      "title": "Religious conflicts intertwined with political and economic rivalries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-1.3.I.C",
+      "parentCode": "1.6",
+      "title": "Religious conversion motivated exploration and justified indigenous subjugation by colonial powers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.4.III.C",
+      "parentCode": "7.3",
+      "title": "Post-1871 Bismarck maintained balance of power through alliances isolating France.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.1.III",
+      "parentCode": "8.1",
+      "title": "Interwar fascism, nationalism, racism, and failed appeasement caused WWII, threatening civilization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-2.3.III",
+      "parentCode": "4.7",
+      "title": "Enlightenment theories questioned absolute monarchy and mercantilist economic systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-2.2.III.B",
+      "parentCode": "5.2",
+      "title": "Asian rivalries resulted in British India control and Dutch East Indies dominance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.1.I.C",
+      "parentCode": "8.2",
+      "title": "Total war stalemate triggered revolutions and insurrection, reshaping international power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.5",
+      "parentCode": "7.1",
+      "title": "Multiple motives intensified European global dominance, escalating Great Power tensions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-1.1.III.A",
+      "parentCode": "1.2",
+      "title": "Rulers commissioned classical-style art featuring naturalism and geometric perspective.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.2.III.C",
+      "parentCode": "8.5",
+      "title": "Western democracies failed to overcome depression despite economic reforms and political alliances.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.6.II.C",
+      "parentCode": "6.7",
+      "title": "Marx offered systematic capitalism critique and deterministic historical-social analysis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.1.II.C",
+      "parentCode": "8.4",
+      "title": "Versailles guilt and reparations provisions destabilized Weimar Germany's political and economic legitimacy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-2.2",
+      "parentCode": "5.1",
+      "title": "European commercial expansion accelerated global economic network development.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.2.V.B",
+      "parentCode": "9.4",
+      "title": "Khrushchev's de-Stalinization failed economically, sparking Eastern European revolts crushed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-1.4.III",
+      "parentCode": "2.8",
+      "title": "Population growth and commerce expanded cities, stressing traditional structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.2",
+      "parentCode": "6.1",
+      "title": "Industrial development level shaped everyday life experiences across regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-1.3.IV.B.i",
+      "parentCode": "1.8",
+      "title": "Columbian Exchange of plants, animals, diseases created economic opportunities for Europeans.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-2.3.V.A",
+      "parentCode": "4.5",
+      "title": "Baroque arts promoted religious sentiment and demonstrated monarchical power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-2.2",
+      "parentCode": "5.9",
+      "title": "Expanding European commerce developed a worldwide economic network.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-2.4.III.A",
+      "parentCode": "4.4",
+      "title": "European marriage patterns and birth control methods constrained demographic expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.2.II.C",
+      "parentCode": "8.6",
+      "title": "Franco's Spanish Civil War victory with fascist support prefigured World War II conflict.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.3",
+      "parentCode": "9.1",
+      "title": "Twentieth-century thought challenged objectivity, reason, and religion's moral authority.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-2.2.II.C",
+      "parentCode": "3.4",
+      "title": "Overseas products shaped the emergence of European consumer culture.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.3.III.D",
+      "parentCode": "6.8",
+      "title": "Nongovernmental religious reform movements aided the poor and opposed serfdom and slavery.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-1.3",
+      "parentCode": "1.1",
+      "title": "European exploration and settlement involved encounters with indigenous overseas populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.1.I.C",
+      "parentCode": "6.2",
+      "title": "Parliamentary representation of merchants ensured government support for industrial interests.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.5",
+      "parentCode": "7.9",
+      "title": "Multiple motives intensified European global control and increased Great Power tensions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-2.3.II.A",
+      "parentCode": "4.3",
+      "title": "Multiple institutions spread Enlightenment ideas throughout European intellectual society.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-2.1.III.B",
+      "parentCode": "3.6",
+      "title": "Austrian victory at Vienna in 1683 halted Ottoman westward expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-1.5.I.D",
+      "parentCode": "1.5",
+      "title": "Italian fragmentation fostered new secular political theory and state concepts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-1.3.III.D",
+      "parentCode": "1.7",
+      "title": "Trade competition sparked European conflicts and rivalries in seventeenth and eighteenth centuries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.5.I.C",
+      "parentCode": "7.6",
+      "title": "Europeans justified imperialism through claims of cultural and racial superiority ideologies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.1.III",
+      "parentCode": "6.3",
+      "title": "Second industrial revolution spread across Europe with larger, more complex processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-2.1.IV.D",
+      "parentCode": "5.4",
+      "title": "Conscripted armies spread French Revolutionary changes throughout Europe militarily.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.4.II.C",
+      "parentCode": "7.2",
+      "title": "Austria-Hungary's dual monarchy accommodated ethnic minorities to maintain state stability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-1.1.IV.D",
+      "parentCode": "4.2",
+      "title": "Alchemy and astrology persisted alongside new science despite belief in spiritual forces.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.2.II",
+      "parentCode": "6.10",
+      "title": "Rapid population growth and urbanization caused significant social disruptions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-2.3.I",
+      "parentCode": "4.1",
+      "title": "Empiricism and reason challenged traditional views of government, society, and religion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-3.6.III.B",
+      "parentCode": "7.5",
+      "title": "Freudian psychology highlighted unconscious irrationality in human nature and behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.4.II.E",
+      "parentCode": "9.8",
+      "title": "Women achieved higher political office and greater legislative representation across nations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-2.3.VI.D",
+      "parentCode": "5.8",
+      "title": "Political upheaval revealed emotions' power in driving mass movements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "KC-4.2",
+      "parentCode": "8.11",
+      "title": "Economic collapse and war sparked ideological conflicts over individual-state relationship.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-2.2.III",
+      "parentCode": "5.9",
+      "title": "Commercial rivalries shaped European diplomatic and military conflicts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-2.1.IV.E",
+      "parentCode": "5.4",
+      "title": "Women participated actively but citizenship rights were ultimately restricted to men.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-2.1.III.C",
+      "parentCode": "3.6",
+      "title": "Louis XIV's wars for dynastic and state interests united European powers against him.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-2.2.II.D",
+      "parentCode": "3.4",
+      "title": "American agricultural products increased European food supplies significantly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.2.I",
+      "parentCode": "6.1",
+      "title": "Industrialization created new social classes in European industrial regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-4.2.V.D.i",
+      "parentCode": "9.4",
+      "title": "Nationalism sparked mostly peaceful revolutions but instability in some former Soviet republics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.1.II.A",
+      "parentCode": "6.2",
+      "title": "France industrialized slowly with state support while preserving traditional production methods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.1.III.C",
+      "parentCode": "6.3",
+      "title": "Market volatility prompted management through monopolies, banking, and tariffs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.2.III.A",
+      "parentCode": "6.4",
+      "title": "Middle-class families emphasized nuclear structure and separate gender roles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-1.4.IV",
+      "parentCode": "2.8",
+      "title": "Family remained primary social and economic institution in several forms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.3.I.E",
+      "parentCode": "6.7",
+      "title": "Anarchists rejected all government authority, advocating voluntary cooperation instead.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-1.3.I",
+      "parentCode": "1.1",
+      "title": "Commercial and religious motivations drove European overseas exploration and colonization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-1.5.I.B",
+      "parentCode": "2.4",
+      "title": "Westphalia ended Christendom ideal, weakened Empire, empowered local religious control.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.2.III",
+      "parentCode": "6.10",
+      "title": "Industrialization transformed family structures across bourgeois and working-class society.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.5.II",
+      "parentCode": "7.1",
+      "title": "Second Industrial Revolution technologies enabled European global empire expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.4.III.D",
+      "parentCode": "7.3",
+      "title": "Bismarck's 1890 dismissal created antagonistic alliances and heightened international tensions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.6.III.C",
+      "parentCode": "7.5",
+      "title": "Quantum mechanics and relativity challenged Newtonian physics' objective authority.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.5.II.A",
+      "parentCode": "7.6",
+      "title": "Advanced weaponry gave Europeans decisive military advantage over colonized populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.6.III.D",
+      "parentCode": "7.8",
+      "title": "Modern art moved beyond representation toward subjective, abstract, and expressive forms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-1.4",
+      "parentCode": "2.1",
+      "title": "Capitalism increasingly shaped society while medieval structures persisted.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.5.II",
+      "parentCode": "7.9",
+      "title": "Second Industrial Revolution technology enabled European global empire construction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-4.2",
+      "parentCode": "8.1",
+      "title": "Economic collapse and war created internal conflicts and ideological battles over state-individual relationships.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-4.1.I.D",
+      "parentCode": "8.2",
+      "title": "War expanded beyond Europe to global theaters, becoming truly worldwide conflict.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-4.3",
+      "parentCode": "9.15",
+      "title": "Twentieth-century intellectual movements questioned objectivity, reason, and religion's role in morality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-4.2.I.D.i",
+      "parentCode": "8.3",
+      "title": "Lenin adopted free-market policies in NEP to improve Soviet economic performance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-4.1.VI.B",
+      "parentCode": "8.4",
+      "title": "Mandate system redistributed German and Ottoman territories, reshaping imperial power and Middle East interests.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-4.2.II.D",
+      "parentCode": "8.6",
+      "title": "Failed democracies in central and eastern Europe gave way to authoritarian dictatorships.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-1.3.I",
+      "parentCode": "1.11",
+      "title": "Commercial and religious motivations drove European exploration and colonization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-4.4.II.A",
+      "parentCode": "8.10",
+      "title": "Women expanded roles in military, political, and economic mobilization during world wars.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-1.3.IV.ii",
+      "parentCode": "1.8",
+      "title": "Colonial expansion exchanged goods and culture but destroyed indigenous civilizations and expanded slavery.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-2.3.II",
+      "parentCode": "4.1",
+      "title": "Public spaces and printing distributed Enlightenment thought widely.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-4.3.IV",
+      "parentCode": "9.14",
+      "title": "Twentieth-century arts emphasized experimentation and American cultural influence globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-2.3.III.A",
+      "parentCode": "4.3",
+      "title": "Locke theorized state legitimacy derives from individual consent, not divine right.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-2.4.III.B",
+      "parentCode": "4.4",
+      "title": "Lower child mortality and commercial growth increased family investment in children and privacy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-4.3.I.ii",
+      "parentCode": "9.1",
+      "title": "War-induced anxiety shaped thought and culture, eventually yielding multiple competing intellectual frameworks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-2.3.V.B",
+      "parentCode": "4.5",
+      "title": "18th-century arts reflected bourgeois values; Neoclassicism embodied Enlightenment citizenship ideals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-1.5.III.C",
+      "parentCode": "3.8",
+      "title": "Linguistic and cultural minorities resisted dominant national groups through regional identity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-2.3.IV",
+      "parentCode": "4.7",
+      "title": "Rational analysis of religion produced natural religion concepts and toleration demands.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-2.2.III",
+      "parentCode": "5.1",
+      "title": "Commercial rivalries shaped European state diplomacy and warfare patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "KC-3.2.II",
+      "parentCode": "6.1",
+      "title": "Rapid population growth and urbanization caused European social disruption.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-3.4.III.E",
+      "parentCode": "7.3",
+      "title": "Balkan nationalist tensions embroiled Great Powers in crises preceding World War I.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-2.3",
+      "parentCode": "5.1",
+      "title": "Scientific Revolution and Enlightenment increased but faced challenges regarding reason's cultural emphasis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-1.5.II.B",
+      "parentCode": "3.6",
+      "title": "Military revolution favored states with resources for new weapons, fortifications, and bureaucracies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-2.4.III",
+      "parentCode": "4.7",
+      "title": "Eighteenth-century families reflected demographic changes and commercial revolution impacts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-2.3.III",
+      "parentCode": "4.1",
+      "title": "Enlightenment theories questioned absolute monarchy and mercantilist economics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-1.4.III",
+      "parentCode": "2.1",
+      "title": "Urban growth from population and commerce strained traditional structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-2.4.IV",
+      "parentCode": "4.4",
+      "title": "Rural-to-urban migration created economic opportunities and significant social challenges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-4.3.IV.A",
+      "parentCode": "9.14",
+      "title": "Avant-garde movements transformed aesthetics, explored subjectivity, satirized Western values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-2.3.III.B",
+      "parentCode": "4.3",
+      "title": "Enlightenment economists challenged mercantilism with theories of free trade.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-2.2.II.E",
+      "parentCode": "3.4",
+      "title": "Foreign territories supplied Europe with resources, goods, labor, and markets.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-3.1.II.C",
+      "parentCode": "6.2",
+      "title": "Geographic, economic, social, and political barriers delayed eastern and southern European industrialization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-3.6",
+      "parentCode": "7.1",
+      "title": "European culture balanced scientific objectivity with subjective individual artistic expression.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-3.2.II.A",
+      "parentCode": "6.3",
+      "title": "Industrialization and agricultural commercialization increased population and lifespan.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-3.6",
+      "parentCode": "7.9",
+      "title": "European culture balanced scientific objectivity with subjective individual artistic expression.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-3.5.II.B",
+      "parentCode": "7.6",
+      "title": "Communication and transportation technologies enabled European imperial expansion and control.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-4.2.I.D.ii",
+      "parentCode": "8.6",
+      "title": "Stalin's rapid economic modernization caused severe hardship for Soviet population.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-3.3.I",
+      "parentCode": "6.10",
+      "title": "New ideologies emerged throughout society responding to industrial and political upheaval.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-4.3",
+      "parentCode": "8.1",
+      "title": "Twentieth-century movements questioned objective knowledge, reason, and religion's role in morality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-1.4.V",
+      "parentCode": "2.8",
+      "title": "Popular culture and folk ideas reinforced and sometimes challenged community norms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-2.3",
+      "parentCode": "5.9",
+      "title": "Enlightenment reason gained cultural emphasis but faced challenges in Europe.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-1.3.IV.B.ii",
+      "parentCode": "1.8",
+      "title": "Columbian Exchange facilitated European subjugation and destruction of indigenous American peoples.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-4.4",
+      "parentCode": "9.1",
+      "title": "Demographic, economic, and social upheaval transformed everyday European life profoundly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-4.3.I.ii",
+      "parentCode": "9.15",
+      "title": "War intensified anxiety in thought and culture, eventually yielding multiple intellectual frameworks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-3.2.III.B",
+      "parentCode": "6.4",
+      "title": "Late-century reforms improved working-class living standards and life quality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-4.1.I.E",
+      "parentCode": "8.2",
+      "title": "Global war elevated USA power and ended European empires, reshaping world order.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-4.3",
+      "parentCode": "8.11",
+      "title": "20th-century movements questioned objectivity, reason, and religion's moral authority.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-1.4",
+      "parentCode": "1.11",
+      "title": "Capitalism reshaped European life while medieval structures persisted alongside.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-2.1",
+      "parentCode": "3.8",
+      "title": "Sovereignty models shaped interstate relations and state-individual relationships fundamentally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-2.4.II",
+      "parentCode": "4.5",
+      "title": "Consumer revolution reflected privacy concerns, home goods acquisition, and new leisure venues.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "KC-3.5.II.C",
+      "parentCode": "7.6",
+      "title": "Medical advances allowed Europeans to survive and flourish in African and Asian colonies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-1.4.I",
+      "parentCode": "1.11",
+      "title": "Economic change created new social patterns within persistent hierarchical traditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-4.4.III",
+      "parentCode": "9.1",
+      "title": "Previously marginalized groups influenced political, intellectual, and social discussions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-4.2.I.E",
+      "parentCode": "8.6",
+      "title": "Stalin's modernization entailed kulak liquidation, famine, purges, oppressive totalitarian rule.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-2.3.VI",
+      "parentCode": "5.9",
+      "title": "Enlightenment rationalism dominated European culture but faced emotional and feeling-based challenges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-3.6.II",
+      "parentCode": "7.1",
+      "title": "Post-1848 Europe embraced realism and materialism as dominant worldviews.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-4.4",
+      "parentCode": "9.15",
+      "title": "Demographic, economic, military, and ideological changes transformed everyday life experiences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-3.3.II",
+      "parentCode": "6.10",
+      "title": "Governments responded to industrialization's problems under pressure from political organizations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-3.2.III.C",
+      "parentCode": "6.4",
+      "title": "Companionate marriage ideals replaced purely economic marriage motivations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-4.3.II",
+      "parentCode": "8.11",
+      "title": "Science and technology provided benefits but caused destruction and knowledge challenges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-2.3.VI",
+      "parentCode": "5.1",
+      "title": "Enlightenment dominance faced challenges from revival of emotional and feeling expression.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-1.5.I",
+      "parentCode": "2.8",
+      "title": "Sovereign state concept and secular law created new political institutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-2.3.IV",
+      "parentCode": "4.1",
+      "title": "Rational critique of religion produced natural religion and tolerance demands.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-3.2.IV",
+      "parentCode": "6.3",
+      "title": "Second industrial revolution generated increased consumer demand and culture.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-3.2.V",
+      "parentCode": "6.2",
+      "title": "Backward agriculture and land systems caused industrial lag alongside famine and debt.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-4.3.IV.B",
+      "parentCode": "9.14",
+      "title": "Modern writers challenged conventions, questioned values, and addressed social-political issues.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-2.3.I",
+      "parentCode": "4.3",
+      "title": "Enlightenment emphasized reason and empiricism over faith and traditional authority.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-2.4.IV.A",
+      "parentCode": "4.4",
+      "title": "Agricultural efficiency displaced rural workers, driving migration to urban employment centers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-2.1.I",
+      "parentCode": "3.8",
+      "title": "Absolute monarchy became established across much of Europe during seventeenth-eighteenth centuries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-3.2.III",
+      "parentCode": "6.1",
+      "title": "Industrial Revolution transformed bourgeois and working-class family structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-4.3.II",
+      "parentCode": "8.1",
+      "title": "Science and technology provided benefits but caused destruction and challenged objective knowledge.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-3.6.II",
+      "parentCode": "7.9",
+      "title": "Post-1848 Europe adopted realist and materialist intellectual frameworks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-1.4.IV",
+      "parentCode": "2.1",
+      "title": "Family remained central social and economic unit in varied forms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "KC-2.1.II",
+      "parentCode": "3.8",
+      "title": "Absolutism faced challenges that produced alternative European political systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-3.3",
+      "parentCode": "6.1",
+      "title": "Industrial and political complications prompted ideological and governmental responses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-2.4",
+      "parentCode": "4.1",
+      "title": "Daily life transformed through demographic, environmental, medical changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-4.4.III",
+      "parentCode": "9.15",
+      "title": "New voices achieved prominence in political, intellectual, and social discourse.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-2.4.IV.B",
+      "parentCode": "4.4",
+      "title": "Urban expansion weakened traditional values and strained municipal service capacities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-1.4.V",
+      "parentCode": "2.1",
+      "title": "Folk culture reinforced and sometimes challenged community bonds and norms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-2.3.VI.D",
+      "parentCode": "5.1",
+      "title": "Revolution, war, and rebellion revealed emotional power of mass politics nationalism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-4.4",
+      "parentCode": "8.1",
+      "title": "Demographic, economic, and social changes altered everyday life experiences and freedom definitions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-4.4",
+      "parentCode": "8.11",
+      "title": "Demographic, economic, and social changes transformed everyday life experiences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-4.4.I.C",
+      "parentCode": "9.14",
+      "title": "Mass production enabled consumer culture with accessible domestic comforts and technologies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-3.2.III.D",
+      "parentCode": "6.4",
+      "title": "Family-centered leisure activities and spaces expanded during industrialization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-1.4.II",
+      "parentCode": "1.11",
+      "title": "Agricultural dependence dominated while emerging economic changes altered rural structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-3.2.IV.A",
+      "parentCode": "6.3",
+      "title": "Mass marketing boosted production and demand for consumer goods and leisure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-2.3.VI.D",
+      "parentCode": "5.9",
+      "title": "Revolution, war, and rebellion revealed emotional power of mass politics and nationalism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-2.3.IV.A",
+      "parentCode": "4.3",
+      "title": "Enlightenment philosophers developed secular and skeptical approaches to religion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "KC-4.4.I",
+      "parentCode": "8.1",
+      "title": "The twentieth century combined vast warfare suffering with substantial improvements in living standards.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-1.5",
+      "parentCode": "2.1",
+      "title": "Sovereignty struggles produced varying levels of state political centralization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-3.3.I",
+      "parentCode": "6.1",
+      "title": "Ideologies emerged throughout society responding to industrial and political change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-3.2.IV.A",
+      "parentCode": "6.3",
+      "title": "Prussian industrialization enabled German unification and state-sponsored rapid growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-4.4.II.C",
+      "parentCode": "9.14",
+      "title": "Post-war economic recovery initiated demographic and cultural transformations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-2.2",
+      "parentCode": "3.8",
+      "title": "European commercial expansion accelerated development of worldwide economic networks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-4.4.I",
+      "parentCode": "8.11",
+      "title": "20th century combined massive suffering with dramatic living standard improvements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-1.5",
+      "parentCode": "1.11",
+      "title": "Sovereignty struggles produced varying degrees of political centralization across states.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-2.4.III",
+      "parentCode": "4.1",
+      "title": "Eighteenth-century family and private life reflected demographic and commercial changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-2.3.IV.B",
+      "parentCode": "4.3",
+      "title": "Enlightenment thinkers repositioned religion as private rather than state matter.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-2.4.IV.C",
+      "parentCode": "4.4",
+      "title": "Urban poverty concentration heightened social problems and intensified police control efforts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "KC-3.3.II",
+      "parentCode": "6.1",
+      "title": "Governments responded to industrial problems under political and social pressure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "KC-1.5.I",
+      "parentCode": "2.1",
+      "title": "Sovereignty and secular law drove creation of new political institutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "KC-1.5.I",
+      "parentCode": "1.11",
+      "title": "Sovereignty and secular law created new political institutions and structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "KC-2.2.I",
+      "parentCode": "3.8",
+      "title": "Market economy development gave early modern Europe foundation for global dominance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "KC-2.2.II",
+      "parentCode": "3.8",
+      "title": "European economic dominance fueled agricultural, industrial, and consumer revolutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    }
+  ]
+}

@@ -1,0 +1,2127 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Physics 2",
+  "source": "school-core:AP-PHYS-2@Effective Fall 2024",
+  "strands": [
+    {
+      "code": "Unit 9",
+      "parentCode": null,
+      "title": "Unit 9: Thermodynamics",
+      "level": 1,
+      "examWeight": 15,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 10",
+      "parentCode": null,
+      "title": "Unit 10: Electric Force, Field, and Potential",
+      "level": 1,
+      "examWeight": 15,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 11",
+      "parentCode": null,
+      "title": "Unit 11: Electric Circuits",
+      "level": 1,
+      "examWeight": 15,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 12",
+      "parentCode": null,
+      "title": "Unit 12: Magnetism and Electromagnetism",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 13",
+      "parentCode": null,
+      "title": "Unit 13: Geometric Optics",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 4
+    },
+    {
+      "code": "Unit 14",
+      "parentCode": null,
+      "title": "Unit 14: Waves, Sound, and Physical Optics",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 5
+    },
+    {
+      "code": "Unit 15",
+      "parentCode": null,
+      "title": "Unit 15: Modern Physics",
+      "level": 1,
+      "examWeight": 12,
+      "sortOrder": 6
+    },
+    {
+      "code": "14.1",
+      "parentCode": "Unit 14",
+      "title": "Properties of Waves and Pulses",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.1",
+      "parentCode": "Unit 13",
+      "title": "Reflection",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.1",
+      "parentCode": "Unit 11",
+      "title": "Electric Current",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.1",
+      "parentCode": "Unit 9",
+      "title": "Kinetic Theory of Temperature and Pressure",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "15.1",
+      "parentCode": "Unit 15",
+      "title": "Quantum Theory and Wave-Particle Duality",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.1",
+      "parentCode": "Unit 10",
+      "title": "Electric Charge and Electric Force",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.1",
+      "parentCode": "Unit 12",
+      "title": "Magnetic Fields",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.2",
+      "parentCode": "Unit 10",
+      "title": "Conservation of Electric Charge and the Process of Charging",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.2",
+      "parentCode": "Unit 12",
+      "title": "Magnetism and Moving Charges",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.2",
+      "parentCode": "Unit 13",
+      "title": "Images Formed by Mirrors",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.2",
+      "parentCode": "Unit 14",
+      "title": "Periodic Waves",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.2",
+      "parentCode": "Unit 9",
+      "title": "The Ideal Gas Law",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "15.2",
+      "parentCode": "Unit 15",
+      "title": "The Bohr Model of Atomic Structure",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.2",
+      "parentCode": "Unit 11",
+      "title": "Simple Circuits",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.3",
+      "parentCode": "Unit 14",
+      "title": "Boundary Behavior of Waves and Polarization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.3",
+      "parentCode": "Unit 11",
+      "title": "Resistance, Resistivity, and Ohm's Law",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.3",
+      "parentCode": "Unit 10",
+      "title": "Electric Fields",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.3",
+      "parentCode": "Unit 9",
+      "title": "Thermal Energy Transfer and Equilibrium",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.3",
+      "parentCode": "Unit 13",
+      "title": "Refraction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.3",
+      "parentCode": "Unit 12",
+      "title": "Magnetism and Current-Carrying Wires",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "15.3",
+      "parentCode": "Unit 15",
+      "title": "Emission and Absorption Spectra",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.4",
+      "parentCode": "Unit 9",
+      "title": "The First Law of Thermodynamics",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "15.4",
+      "parentCode": "Unit 15",
+      "title": "Blackbody Radiation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "10.4",
+      "parentCode": "Unit 10",
+      "title": "Electric Potential Energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "13.4",
+      "parentCode": "Unit 13",
+      "title": "Images Formed by Lenses",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.4",
+      "parentCode": "Unit 11",
+      "title": "Electric Power",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "14.4",
+      "parentCode": "Unit 14",
+      "title": "Electromagnetic Waves",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "12.4",
+      "parentCode": "Unit 12",
+      "title": "Electromagnetic Induction and Faraday's Law",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.5",
+      "parentCode": "Unit 9",
+      "title": "Specific Heat and Thermal Conductivity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "10.5",
+      "parentCode": "Unit 10",
+      "title": "Electric Potential",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "11.5",
+      "parentCode": "Unit 11",
+      "title": "Compound Direct (DC) Circuits",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "14.5",
+      "parentCode": "Unit 14",
+      "title": "The Doppler Effect",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "15.5",
+      "parentCode": "Unit 15",
+      "title": "The Photoelectric Effect",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "11.6",
+      "parentCode": "Unit 11",
+      "title": "Kirchhoff's Loop Rule",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "15.6",
+      "parentCode": "Unit 15",
+      "title": "Compton Scattering",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "10.6",
+      "parentCode": "Unit 10",
+      "title": "Capacitors",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "9.6",
+      "parentCode": "Unit 9",
+      "title": "Entropy and the Second Law of Thermodynamics",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "14.6",
+      "parentCode": "Unit 14",
+      "title": "Wave Interference and Standing Waves",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "11.7",
+      "parentCode": "Unit 11",
+      "title": "Kirchhoff's Junction Rule",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "10.7",
+      "parentCode": "Unit 10",
+      "title": "Conservation of Electric Energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "14.7",
+      "parentCode": "Unit 14",
+      "title": "Diffraction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "15.7",
+      "parentCode": "Unit 15",
+      "title": "Fission, Fusion, and Nuclear Decay",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "14.8",
+      "parentCode": "Unit 14",
+      "title": "Double-Slit Interference and Diffraction Gratings",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "15.8",
+      "parentCode": "Unit 15",
+      "title": "Types of Radioactive Decay",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "11.8",
+      "parentCode": "Unit 11",
+      "title": "Resistor-Capacitor (RC) Circuits",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "14.9",
+      "parentCode": "Unit 14",
+      "title": "Thin-Film Interference",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "15.4.A.1",
+      "parentCode": "15.4",
+      "title": "Objects spontaneously emit electromagnetic radiation from their thermal energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.4.A.1",
+      "parentCode": "9.4",
+      "title": "Internal energy comprises kinetic and potential energy; ideal gases lack potential energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.4.A.1",
+      "parentCode": "11.4",
+      "title": "Power depends on current and voltage across circuit elements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "15.3.A.1",
+      "parentCode": "15.3",
+      "title": "Photon absorption or emission transfers energy in atom systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "15.2.A.1",
+      "parentCode": "15.2",
+      "title": "Atoms contain nuclei with protons and neutrons surrounded by electrons.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "15.1.A.1",
+      "parentCode": "15.1",
+      "title": "Quantum theory explains atomic phenomena; particles exhibit dual particle-wave behavior.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.5.A.1",
+      "parentCode": "9.5",
+      "title": "Energy needed to change temperature depends on material's specific heat capacity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.5.A.1",
+      "parentCode": "11.5",
+      "title": "Series connections require all charges through each element; parallel connections allow multiple paths.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.9.A.1",
+      "parentCode": "14.9",
+      "title": "Light at medium interfaces is partially transmitted, reflected, and absorbed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.8.A.1",
+      "parentCode": "14.8",
+      "title": "Double-slit patterns result from combined diffraction and interference effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.6.A.1",
+      "parentCode": "9.6",
+      "title": "Isolated system entropy never decreases; constant only for reversible processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.7.A.1",
+      "parentCode": "14.7",
+      "title": "Waves spread around obstacles and through openings via diffraction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.1.A.1",
+      "parentCode": "10.1",
+      "title": "Charge is fundamental; electrons are −e, protons are +e, elementary charge indivisible.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.6.A.1",
+      "parentCode": "10.6",
+      "title": "Parallel-plate capacitor has two conducting plates holding opposite charges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.6.A.1",
+      "parentCode": "14.6",
+      "title": "Wave interference occurs when two or more waves interact.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.5.A.1",
+      "parentCode": "14.5",
+      "title": "Doppler effect relates rest frequency, observed frequency, and relative velocity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.6.A.1",
+      "parentCode": "11.6",
+      "title": "Charges moving through potential differences represent energy changes in circuits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.4.A.1",
+      "parentCode": "14.4",
+      "title": "EM waves have perpendicular oscillating fields; transverse waves with planar fronts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.3.A.1",
+      "parentCode": "14.3",
+      "title": "Waves reflect or transmit at boundaries; inversion depends on speed change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.2.A.1",
+      "parentCode": "14.2",
+      "title": "Period, frequency, amplitude, wavelength characterize periodic waves; energy increases with frequency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.1.A.1",
+      "parentCode": "14.1",
+      "title": "Waves transfer energy without matter; pulses are single disturbances; waves are periodic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.4.A.1",
+      "parentCode": "13.4",
+      "title": "Parallel rays converge at focal point in convex lenses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.2.A.1",
+      "parentCode": "10.2",
+      "title": "System charge changes via friction, contact, or induced polarization effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.7.A.1",
+      "parentCode": "11.7",
+      "title": "Junction rule stems from conservation of electric charge principle.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.3.A.1",
+      "parentCode": "13.3",
+      "title": "Light bends when traveling between different media.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.3.A.1",
+      "parentCode": "10.3",
+      "title": "Charged objects are sources of electric fields.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.8.A.1",
+      "parentCode": "11.8",
+      "title": "Equivalent capacitance combines multiple capacitors into single capacitor value.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.5.A.1",
+      "parentCode": "10.5",
+      "title": "Electric potential is electric potential energy measured per unit charge.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.1.A.1",
+      "parentCode": "13.1",
+      "title": "Light rays model geometric optics; wave nature needed for diffraction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.4.A.1",
+      "parentCode": "12.4",
+      "title": "Magnetic flux measures perpendicular magnetic field component through area.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.4.A.1",
+      "parentCode": "10.4",
+      "title": "Electric potential energy equals work needed to assemble charged system.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.1.A.1",
+      "parentCode": "12.1",
+      "title": "Magnetic fields are vector fields from dipoles determining forces on charges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.3.A.1",
+      "parentCode": "12.3",
+      "title": "Current-carrying wires produce magnetic fields with circular field lines; magnitude depends on current and distance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.2.A.1",
+      "parentCode": "13.2",
+      "title": "Concave mirrors reflect parallel rays toward focal point.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.1.A.1",
+      "parentCode": "11.1",
+      "title": "Current measures charge flow rate; driven by potential difference in circuits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.2.A.1",
+      "parentCode": "12.2",
+      "title": "Moving charge creates magnetic field depending on velocity, distance, and perpendicular direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "15.8.A.1",
+      "parentCode": "15.8",
+      "title": "Alpha particles, neutrinos, antineutrinos, and positrons have unique charge and mass properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.1.A.1",
+      "parentCode": "9.1",
+      "title": "Gas pressure results from atomic collisions analyzed via momentum conservation principles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.7.A.1",
+      "parentCode": "10.7",
+      "title": "Charged object motion between different potentials changes electric potential energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.2.A.1",
+      "parentCode": "9.2",
+      "title": "Ideal gas model assumes random velocities, negligible atomic volumes, elastic collisions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.2.A.1",
+      "parentCode": "11.2",
+      "title": "Circuits contain loops with various electrical elements like wires and batteries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "15.7.A.1",
+      "parentCode": "15.7",
+      "title": "Strong force dominates nuclear-scale interactions between protons and neutrons.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "15.6.A.1",
+      "parentCode": "15.6",
+      "title": "Photon-electron collision reduces photon energy and increases wavelength.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.3.A.1",
+      "parentCode": "9.3",
+      "title": "Thermal contact enables energy transfer; heating and cooling are directional thermal processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.3.A.1",
+      "parentCode": "11.3",
+      "title": "Resistance quantifies how much an object opposes electric charge movement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "15.5.A.1",
+      "parentCode": "15.5",
+      "title": "Photoelectric effect: electromagnetic radiation causes electron emission from materials.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.4.A.2",
+      "parentCode": "14.4",
+      "title": "Electromagnetic waves propagate through vacuum without requiring a medium.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.1.B.1",
+      "parentCode": "9.1",
+      "title": "Temperature characterizes average atomic kinetic energy; Maxwell-Boltzmann distribution relates speeds to temperature.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.2.A.2",
+      "parentCode": "9.2",
+      "title": "Ideal gas equation relates pressure, volume, moles, temperature via PV equals nRT.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.3.A.2",
+      "parentCode": "9.3",
+      "title": "Three mechanisms transfer thermal energy: conduction, convection, and radiation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.4.A.2",
+      "parentCode": "9.4",
+      "title": "Internal energy changes alter system structure without affecting center of mass motion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.5.A.2",
+      "parentCode": "9.5",
+      "title": "Specific heat is intrinsic property determined by atomic structure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.6.A.2",
+      "parentCode": "9.6",
+      "title": "Entropy describes energy dispersal and unavailable work; state function; maximum at equilibrium.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.1.A.1.iv",
+      "parentCode": "10.1",
+      "title": "Point charge model treats charged objects as negligibly small in analysis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.2.A.2",
+      "parentCode": "10.2",
+      "title": "Net charge changes only through electron transfer between system and surroundings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.3.A.2",
+      "parentCode": "10.3",
+      "title": "Electric field is force per unit charge; points away from positive and toward negative charges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.4.A.2",
+      "parentCode": "10.4",
+      "title": "Electric potential energy follows a general mathematical equation form.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.5.A.2",
+      "parentCode": "10.5",
+      "title": "Electric potential from multiple charges equals sum of individual potentials.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.6.A.2",
+      "parentCode": "10.6",
+      "title": "Capacitance depends on plate area, separation, and dielectric material properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.7.A.2",
+      "parentCode": "10.7",
+      "title": "Potential difference causes kinetic energy change; total energy conserved.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.1.A.2",
+      "parentCode": "11.1",
+      "title": "Current direction follows positive charge motion; electrons actually move opposite.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.2.A.2",
+      "parentCode": "11.2",
+      "title": "Closed loops allow charge flow; open circuits prevent it; short circuits bypass voltage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.3.A.2",
+      "parentCode": "11.3",
+      "title": "Resistance depends on resistivity, length, and cross-sectional area; resistivity increases with temperature.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.4.A.2",
+      "parentCode": "11.4",
+      "title": "Bulb brightness increases with power dissipation in the bulb.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.5.A.2",
+      "parentCode": "11.5",
+      "title": "Series resistances add; parallel resistance inverses add; parallel lowers total resistance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.6.A.2",
+      "parentCode": "11.6",
+      "title": "Kirchhoff's loop rule follows from energy conservation principle.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.7.A.2",
+      "parentCode": "11.7",
+      "title": "Charge entering junction per unit time equals charge exiting.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.8.A.2",
+      "parentCode": "11.8",
+      "title": "Series capacitors maintain equal charge magnitude on plates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.1.A.2",
+      "parentCode": "12.1",
+      "title": "Magnetic fields are vectors shown by closed-loop field lines from north to south.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.4.A.2",
+      "parentCode": "12.4",
+      "title": "Flux depends on perpendicular field and area; sign indicates field direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.2.B.1",
+      "parentCode": "12.2",
+      "title": "Magnetic forces govern interactions between moving charged objects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.3.B.1",
+      "parentCode": "12.3",
+      "title": "Magnetic fields exert forces on current-carrying wires; force depends on current, length, field strength, and angle.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.1.A.2",
+      "parentCode": "13.1",
+      "title": "Ray diagrams show light path through matter interactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.2.A.2",
+      "parentCode": "13.2",
+      "title": "Convex mirrors reflect parallel rays from virtual focal point.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.3.A.2",
+      "parentCode": "13.3",
+      "title": "Light speed changes cause refraction in new media.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.4.A.2",
+      "parentCode": "13.4",
+      "title": "Parallel rays diverge from focal point in concave lenses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.1.A.2",
+      "parentCode": "14.1",
+      "title": "Mechanical waves need a medium; electromagnetic waves do not.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.2.A.2",
+      "parentCode": "14.2",
+      "title": "Sinusoidal waves described by displacement equations as functions of time or position.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.3.A.2",
+      "parentCode": "14.3",
+      "title": "Transverse waves can be polarized to single plane; longitudinal waves cannot.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.5.A.2",
+      "parentCode": "14.5",
+      "title": "Greater relative velocity increases frequency difference; relative motion determines frequency shift direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.6.A.2",
+      "parentCode": "14.6",
+      "title": "Interacting waves pass through each other and overlap without bouncing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.7.A.2",
+      "parentCode": "14.7",
+      "title": "Diffraction is strongest when opening size matches wavelength.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.8.A.2",
+      "parentCode": "14.8",
+      "title": "Double-slit interference patterns demonstrate light's wave nature via Young's experiment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.9.A.2",
+      "parentCode": "14.9",
+      "title": "Reflected ray phase shift depends on refractive index comparison at interface.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "15.1.A.2",
+      "parentCode": "15.1",
+      "title": "Light exhibits wave-particle duality; photon energy depends on frequency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "15.2.A.2",
+      "parentCode": "15.2",
+      "title": "Proton count defines elements; electron arrangement and isotopes affect interactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "15.3.A.2",
+      "parentCode": "15.3",
+      "title": "Energy absorption or emission requires matching energy differences between atomic states.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "15.4.A.2",
+      "parentCode": "15.4",
+      "title": "Blackbodies absorb all incident radiation and emit energy at thermal equilibrium.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "15.5.A.2",
+      "parentCode": "15.5",
+      "title": "Threshold frequency determines electron emission; photon count irrelevant.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "15.6.A.2",
+      "parentCode": "15.6",
+      "title": "Compton effect demonstrates photons as particles; energy-momentum conservation explains photon property changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "15.7.A.2",
+      "parentCode": "15.7",
+      "title": "Nuclear reactions must conserve the total number of nucleons.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "15.8.A.2",
+      "parentCode": "15.8",
+      "title": "Four decay types conserve nucleon number, lepton number, and charge in nuclear processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.6.A.3",
+      "parentCode": "14.6",
+      "title": "Superposition: total displacement equals sum of individual displacements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "15.7.A.3",
+      "parentCode": "15.7",
+      "title": "Nuclear reactions conserve energy, mass-energy equivalence, and momentum.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.1.A.2",
+      "parentCode": "10.1",
+      "title": "Electrostatic force is proportional to charges, inversely proportional to distance squared.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.1.A.3",
+      "parentCode": "14.1",
+      "title": "Wave speed depends on wave type and medium properties; constants for light; formula for strings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "15.4.A.3",
+      "parentCode": "15.4",
+      "title": "Blackbody spectrum depends only on temperature; described by Planck's law and Wien's displacement law.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "15.8.A.3",
+      "parentCode": "15.8",
+      "title": "Specific isotopes determine which radioactive decay type occurs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.4.A.3",
+      "parentCode": "14.4",
+      "title": "EM spectrum ordered by wavelength: radio to gamma rays; visible light subdivided by color.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.3.A.3",
+      "parentCode": "14.3",
+      "title": "Wave polarization can reduce intensity, measured as power per unit area.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "15.6.A.3",
+      "parentCode": "15.6",
+      "title": "Photon wavelength shift depends on scattering angle change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.2.A.3",
+      "parentCode": "14.2",
+      "title": "Wavelength proportional to speed, inversely proportional to frequency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.2.A.3",
+      "parentCode": "9.2",
+      "title": "Graphs of pressure, temperature, volume describe and determine gas properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.5.A.3",
+      "parentCode": "10.5",
+      "title": "Potential difference is change in potential energy per unit charge moved.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.2.A.3",
+      "parentCode": "11.2",
+      "title": "Circuit elements can participate in more than one electrical loop.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "15.5.A.2.ii",
+      "parentCode": "15.5",
+      "title": "Electron energy independent of photon count; supports photon quantization.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.4.A.3",
+      "parentCode": "12.4",
+      "title": "Faraday's law relates changing flux to induced emf.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.1.B.1",
+      "parentCode": "13.1",
+      "title": "Incident light reflects from surfaces.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.2.B.2",
+      "parentCode": "12.2",
+      "title": "Magnetic force on moving charge depends on charge, velocity, field, angle.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.6.A.3",
+      "parentCode": "11.6",
+      "title": "Sum of potential differences around a closed loop equals zero.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.5.B.1",
+      "parentCode": "11.5",
+      "title": "Ideal batteries and wires have negligible resistance; emf measured at terminals with no current.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.3.A.3",
+      "parentCode": "10.3",
+      "title": "Electric field is a vector; net field is superposition; visualized via field maps and lines.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.6.A.3",
+      "parentCode": "10.6",
+      "title": "Electric field between plates is constant; charged particles undergo constant acceleration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.2.A.3",
+      "parentCode": "13.2",
+      "title": "Plane mirrors have focal point at infinite distance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.1.B.1",
+      "parentCode": "12.1",
+      "title": "Magnetic dipoles arise from charge motion; poles attract/repel; field decreases with distance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.3.B.1",
+      "parentCode": "11.3",
+      "title": "Ohm's law relates current, resistance, and voltage; ohmic materials have constant resistance and resistivity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "15.3.A.3",
+      "parentCode": "15.3",
+      "title": "Energy transitions produce photons of single frequency and wavelength.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.4.B.1",
+      "parentCode": "9.4",
+      "title": "First law conserves energy through work, heat, and internal energy changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "15.2.A.3",
+      "parentCode": "15.2",
+      "title": "Bohr model explains discrete energy states using classical circular orbits and standing waves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "15.1.A.3",
+      "parentCode": "15.1",
+      "title": "Photon speed depends on medium; constant in vacuum, reduced in materials.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.2.A.3",
+      "parentCode": "10.2",
+      "title": "Grounding connects charged system to large neutral system like Earth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.9.A.3",
+      "parentCode": "14.9",
+      "title": "Refracted waves do not experience phase change crossing medium boundaries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.3.A.3",
+      "parentCode": "13.3",
+      "title": "Refractive index inversely relates to light speed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.8.B.1",
+      "parentCode": "11.8",
+      "title": "Time constant τ = RC characterizes capacitor charge and discharge rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.5.B.1",
+      "parentCode": "9.5",
+      "title": "Conduction rate depends on thermal conductivity, geometry, temperature difference.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.8.A.3",
+      "parentCode": "14.8",
+      "title": "Double-slit pattern visualizations reveal physical properties of slits and waves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.4.A.3",
+      "parentCode": "10.4",
+      "title": "Total system energy equals sum of all pairwise interaction energies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.4.A.3",
+      "parentCode": "13.4",
+      "title": "Real images form when refracted rays intersect at common point.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.3.A.3",
+      "parentCode": "9.3",
+      "title": "Spontaneous thermal energy flows from hot to cold via atomic collisions until equilibrium.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.7.A.3",
+      "parentCode": "14.7",
+      "title": "Multiple diffracted wavefronts create observable interference patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.6.A.3",
+      "parentCode": "9.6",
+      "title": "Entropy change determined by surroundings interaction; isolated systems equilibrate; closed systems entropy can decrease.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.6.A.4",
+      "parentCode": "14.6",
+      "title": "Constructive and destructive interference produce varying amplitudes in resultant waves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "12.2.B.3",
+      "parentCode": "12.2",
+      "title": "Moving charge experiences independent forces from electric and magnetic fields.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "15.5.A.3",
+      "parentCode": "15.5",
+      "title": "Maximum kinetic energy depends on light frequency and material work function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "12.4.A.4",
+      "parentCode": "12.4",
+      "title": "Lenz's law determines induced emf direction opposing flux change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "10.3.B.1",
+      "parentCode": "10.3",
+      "title": "Conductor charges reside on surface; interior field is zero; surface field is perpendicular.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "13.1.B.2",
+      "parentCode": "13.1",
+      "title": "Incident angle equals reflected angle measured from surface normal.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "13.2.A.4",
+      "parentCode": "13.2",
+      "title": "Spherical mirror focal point lies halfway to center of curvature.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "13.3.A.4",
+      "parentCode": "13.3",
+      "title": "Snell's law relates angles and indices; rays bend away or toward normal.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.2.A.4",
+      "parentCode": "9.2",
+      "title": "Absolute zero temperature extrapolated from pressure versus temperature graph.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "13.4.A.4",
+      "parentCode": "13.4",
+      "title": "Virtual images form when diverging rays appear to originate from point.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "14.1.A.4",
+      "parentCode": "14.1",
+      "title": "Transverse waves have disturbance perpendicular to propagation direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "10.1.A.3",
+      "parentCode": "10.1",
+      "title": "Like charges repel, opposite charges attract; force is along separation line.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "15.7.A.4",
+      "parentCode": "15.7",
+      "title": "Mass and energy interchange in nuclear reactions via E = mc².",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "14.7.A.4",
+      "parentCode": "14.7",
+      "title": "Single-slit diffraction creates bright and dark bands through interference.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.5.B.2",
+      "parentCode": "9.5",
+      "title": "Thermal conductivity is intrinsic property determined by atomic arrangement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "14.8.A.4",
+      "parentCode": "14.8",
+      "title": "Diffraction gratings combine many slit patterns to produce intense interference patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "14.9.A.4",
+      "parentCode": "14.9",
+      "title": "Thin films produce interference when thickness is comparable to wavelength.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "15.1.A.4",
+      "parentCode": "15.1",
+      "title": "Particles exhibit wave properties; de Broglie wavelength inversely relates to momentum.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.4.B.1.iii",
+      "parentCode": "9.4",
+      "title": "Work on system equals negative pressure times volume change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.2.A.4",
+      "parentCode": "11.2",
+      "title": "Schematics represent circuits; arrangement affects properties; symbols show variable elements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "10.6.A.4",
+      "parentCode": "10.6",
+      "title": "Stored electric potential energy equals work done separating charges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "15.3.A.4",
+      "parentCode": "15.3",
+      "title": "Each element has unique spectral frequencies identifying its composition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.5.B.2",
+      "parentCode": "11.5",
+      "title": "Nonideal battery internal resistance modeled as series resistor with ideal battery.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.3.A.4",
+      "parentCode": "9.3",
+      "title": "Thermal equilibrium occurs when no net energy transfers between systems in contact.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.6.A.4",
+      "parentCode": "11.6",
+      "title": "Electric potential variation in a loop can be graphed versus position.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.8.B.2",
+      "parentCode": "11.8",
+      "title": "Voltage and current in RC circuits change exponentially toward steady state.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "10.5.A.4",
+      "parentCode": "10.5",
+      "title": "Touching conductors redistribute charge until surfaces reach equal potential.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "12.1.B.2",
+      "parentCode": "12.1",
+      "title": "Magnetic dipoles align with external magnetic fields like compass needles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "15.7.A.5",
+      "parentCode": "15.7",
+      "title": "Released nuclear energy appears as kinetic energy of products or photons.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "12.1.B.3",
+      "parentCode": "12.1",
+      "title": "Material composition determines magnetic response: ferromagnetic, paramagnetic, or diamagnetic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "12.2.B.4",
+      "parentCode": "12.2",
+      "title": "Hall effect describes potential difference from perpendicular magnetic field.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "10.6.A.5",
+      "parentCode": "10.6",
+      "title": "Electric potential energy in capacitor expressed mathematically.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "13.4.A.5",
+      "parentCode": "13.4",
+      "title": "Thin lens equation relates image location, object distance, focal length.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "13.2.A.5",
+      "parentCode": "13.2",
+      "title": "Real images form where reflected rays actually intersect.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "10.5.B.1",
+      "parentCode": "10.5",
+      "title": "Average electric field equals potential difference divided by distance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "14.8.A.5",
+      "parentCode": "14.8",
+      "title": "Diffraction gratings disperse white light into colors by wavelength in spectrum.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "13.3.A.5",
+      "parentCode": "13.3",
+      "title": "Total internal reflection occurs beyond critical angle threshold.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "14.7.A.5",
+      "parentCode": "14.7",
+      "title": "Opening shape determines the resulting diffraction pattern.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "13.1.B.3",
+      "parentCode": "13.1",
+      "title": "Rough surfaces scatter light in many directions via diffuse reflection.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "14.6.A.5",
+      "parentCode": "14.6",
+      "title": "Visual diagrams help determine results of wave interactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "14.9.A.5",
+      "parentCode": "14.9",
+      "title": "Practical applications include soap bubbles, oil films, and antireflection coatings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.4.B.2",
+      "parentCode": "9.4",
+      "title": "PV diagrams show processes; area under curve represents work magnitude.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "14.1.A.5",
+      "parentCode": "14.1",
+      "title": "Longitudinal waves have disturbance parallel to propagation; sound is mechanical longitudinal.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "15.5.A.3.i",
+      "parentCode": "15.5",
+      "title": "Work function: minimum energy needed to eject electrons from material.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "12.4.A.5",
+      "parentCode": "12.4",
+      "title": "Rod on rails exemplifies electromagnetic induction in uniform field.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "15.1.A.5",
+      "parentCode": "15.1",
+      "title": "Bound quantum systems have discrete quantized energy and momentum values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "10.3.B.2",
+      "parentCode": "10.3",
+      "title": "Insulator charges distribute throughout interior and surface; interior field can be nonzero.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "10.1.A.4",
+      "parentCode": "10.1",
+      "title": "Contact forces are convenient macroscopic models, though electric forces underlie them.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "11.5.B.3",
+      "parentCode": "11.5",
+      "title": "Current in nonideal battery reduces terminal voltage due to internal resistance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "15.3.A.5",
+      "parentCode": "15.3",
+      "title": "Binding energy ionizes atoms; ground state requires maximum energy removal.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "14.1.A.6",
+      "parentCode": "14.1",
+      "title": "Amplitude is maximum displacement; determines loudness and energy in waves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "14.7.A.6",
+      "parentCode": "14.7",
+      "title": "Diffraction patterns reveal slit and wave physical properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "12.1.B.4",
+      "parentCode": "12.1",
+      "title": "Earth's magnetic field approximates a dipole field configuration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "15.7.A.6",
+      "parentCode": "15.7",
+      "title": "Fusion combines smaller nuclei into larger nuclei and subatomic particles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "10.6.A.6",
+      "parentCode": "10.6",
+      "title": "Dielectric increases capacitance and creates opposing internal electric field.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "13.2.A.6",
+      "parentCode": "13.2",
+      "title": "Virtual images form where reflected rays appear to originate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "15.5.A.3.ii",
+      "parentCode": "15.5",
+      "title": "K_max equation relates photon energy, frequency, and work function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "13.1.B.4",
+      "parentCode": "13.1",
+      "title": "Smooth surfaces uniformly reflect light via specular reflection.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "10.5.B.2",
+      "parentCode": "10.5",
+      "title": "Field maps and equipotential lines describe charge configurations and predict motion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "10.1.B.1",
+      "parentCode": "10.1",
+      "title": "Electrostatic forces are attractive or repulsive; gravity only attracts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "9.4.B.3",
+      "parentCode": "9.4",
+      "title": "Special thermal processes include isovolumetric, isothermal, isobaric, and adiabatic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "14.6.A.6",
+      "parentCode": "14.6",
+      "title": "Beats from slightly different frequencies show periodic amplitude changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "13.4.A.6",
+      "parentCode": "13.4",
+      "title": "Magnification equals image height ratio and image distance ratio.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "15.7.A.7",
+      "parentCode": "15.7",
+      "title": "Fission splits nuclei into smaller nuclei and subatomic particles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "13.2.A.7",
+      "parentCode": "13.2",
+      "title": "Image location depends on focal length and object distance via mirror equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "12.1.C.1",
+      "parentCode": "12.1",
+      "title": "Magnetic permeability measures material magnetization response to external fields.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "13.4.A.7",
+      "parentCode": "13.4",
+      "title": "Ray diagrams using three principal rays determine image properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "10.1.B.2",
+      "parentCode": "10.1",
+      "title": "Electrostatic force magnitude typically exceeds gravitational force magnitude.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "15.5.A.3.iii",
+      "parentCode": "15.5",
+      "title": "Experimental apparatus uses illuminated plates and adjustable voltage to determine work function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "14.6.B.1",
+      "parentCode": "14.6",
+      "title": "Standing waves have nodes of zero amplitude and antinodes of maximum amplitude.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "13.2.A.8",
+      "parentCode": "13.2",
+      "title": "Magnification is image-to-object size ratio, depending on positions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "10.1.B.3",
+      "parentCode": "10.1",
+      "title": "Gravity dominates at large scales because large systems are electrically neutral.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "15.7.A.8",
+      "parentCode": "15.7",
+      "title": "Fission occurs spontaneously or requires energy input based on binding energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "12.1.C.2",
+      "parentCode": "12.1",
+      "title": "Vacuum permeability µ0 is constant for free space in physics equations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "15.7.B.1",
+      "parentCode": "15.7",
+      "title": "Radioactive decay spontaneously transforms nuclei; individual timing indeterminable but probabilistic. Half-life is decay time for half nuclei; λ = ln2/t₁/₂.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "12.1.C.3",
+      "parentCode": "12.1",
+      "title": "Material permeability varies with composition and arrangement, differs from vacuum.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "10.1.C.1",
+      "parentCode": "10.1",
+      "title": "Electric permittivity measures how much a material polarizes in electric field.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "13.2.A.9",
+      "parentCode": "13.2",
+      "title": "Ray diagrams using three principal rays determine image properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "10.1.C.2",
+      "parentCode": "10.1",
+      "title": "Polarization is electron rearrangement induced by external electric field.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "15.7.B.2",
+      "parentCode": "15.7",
+      "title": "Decay constant predicts remaining nuclei or determines material age.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "15.7.B.3",
+      "parentCode": "15.7",
+      "title": "Half-lives vary enormously across unstable elements and isotopes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    }
+  ]
+}

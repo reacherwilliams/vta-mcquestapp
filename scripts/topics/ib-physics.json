@@ -1,0 +1,47 @@
+{
+  "curriculumCode": "IB_DP",
+  "subject": "Physics",
+  "source": "school-core:IB-DP-PHYS@Current (overview)",
+  "strands": [
+    {
+      "code": "A",
+      "parentCode": null,
+      "title": "Space, time and motion",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "B",
+      "parentCode": null,
+      "title": "The particulate nature of matter",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "C",
+      "parentCode": null,
+      "title": "Wave behaviour",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "D",
+      "parentCode": null,
+      "title": "Fields",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "E",
+      "parentCode": null,
+      "title": "Nuclear and quantum physics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 4
+    }
+  ]
+}

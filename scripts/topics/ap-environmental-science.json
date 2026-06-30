@@ -1,0 +1,3623 @@
+{
+  "curriculumCode": "AP",
+  "subject": "Environmental Science",
+  "source": "school-core:AP-ENV-SCI@Effective Fall 2025",
+  "strands": [
+    {
+      "code": "Unit 1",
+      "parentCode": null,
+      "title": "Unit 1: The Living World: Ecosystems",
+      "level": 1,
+      "examWeight": 6,
+      "sortOrder": 0
+    },
+    {
+      "code": "Unit 2",
+      "parentCode": null,
+      "title": "Unit 2: The Living World: Biodiversity",
+      "level": 1,
+      "examWeight": 6,
+      "sortOrder": 1
+    },
+    {
+      "code": "Unit 3",
+      "parentCode": null,
+      "title": "Unit 3: Populations",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 2
+    },
+    {
+      "code": "Unit 4",
+      "parentCode": null,
+      "title": "Unit 4: Earth Systems and Resources",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 3
+    },
+    {
+      "code": "Unit 5",
+      "parentCode": null,
+      "title": "Unit 5: Land and Water Use",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 4
+    },
+    {
+      "code": "Unit 6",
+      "parentCode": null,
+      "title": "Unit 6: Energy Resources and Consumption",
+      "level": 1,
+      "examWeight": 10,
+      "sortOrder": 5
+    },
+    {
+      "code": "Unit 7",
+      "parentCode": null,
+      "title": "Unit 7: Atmospheric Pollution",
+      "level": 1,
+      "examWeight": 7,
+      "sortOrder": 6
+    },
+    {
+      "code": "Unit 8",
+      "parentCode": null,
+      "title": "Unit 8: Aquatic and Terrestrial Pollution",
+      "level": 1,
+      "examWeight": 7,
+      "sortOrder": 7
+    },
+    {
+      "code": "Unit 9",
+      "parentCode": null,
+      "title": "Unit 9: Global Change",
+      "level": 1,
+      "examWeight": 15,
+      "sortOrder": 8
+    },
+    {
+      "code": "9.1",
+      "parentCode": "Unit 9",
+      "title": "Stratospheric Ozone Depletion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "Unit 4",
+      "title": "Plate Tectonics",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "Unit 5",
+      "title": "The Tragedy of the Commons",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "Unit 2",
+      "title": "Introduction to Biodiversity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "Unit 3",
+      "title": "Generalist and Specialist Species",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1",
+      "parentCode": "Unit 8",
+      "title": "Sources of Pollution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "Unit 6",
+      "title": "Renewable and Nonrenewable Resources",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "Unit 1",
+      "title": "Introduction to Ecosystems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1",
+      "parentCode": "Unit 7",
+      "title": "Introduction to Air Pollution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.2",
+      "parentCode": "Unit 3",
+      "title": "K-Selected and r-Selected Species",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2",
+      "parentCode": "Unit 7",
+      "title": "Photochemical Smog",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "Unit 2",
+      "title": "Ecosystem Services",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2",
+      "parentCode": "Unit 6",
+      "title": "Global Energy Consumption",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "Unit 5",
+      "title": "Clearcutting",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "Unit 4",
+      "title": "Soil Formation and Erosion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.2",
+      "parentCode": "Unit 9",
+      "title": "Reducing Ozone Depletion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2",
+      "parentCode": "Unit 8",
+      "title": "Human Impacts on Ecosystems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "Unit 1",
+      "title": "Terrestrial Biomes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.3",
+      "parentCode": "Unit 5",
+      "title": "The Green Revolution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "Unit 2",
+      "title": "Island Biogeography",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "Unit 1",
+      "title": "Aquatic Biomes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.3",
+      "parentCode": "Unit 9",
+      "title": "The Greenhouse Effect",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3",
+      "parentCode": "Unit 8",
+      "title": "Endocrine Disruptors",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3",
+      "parentCode": "Unit 4",
+      "title": "Soil Composition and Properties",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.3",
+      "parentCode": "Unit 7",
+      "title": "Thermal Inversion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3",
+      "parentCode": "Unit 6",
+      "title": "Fuel Types and Uses",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "Unit 3",
+      "title": "Survivorship Curves",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.4",
+      "parentCode": "Unit 1",
+      "title": "The Carbon Cycle",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.4",
+      "parentCode": "Unit 6",
+      "title": "Distribution of Natural Energy Resources",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "Unit 4",
+      "title": "Earth's Atmosphere",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.4",
+      "parentCode": "Unit 7",
+      "title": "Natural Sources of CO2 and Particulates",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4",
+      "parentCode": "Unit 2",
+      "title": "Ecological Tolerance",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "Unit 3",
+      "title": "3.4",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.4",
+      "parentCode": "Unit 5",
+      "title": "Impact of Agricultural Practices",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.4",
+      "parentCode": "Unit 9",
+      "title": "Increases in the Greenhouse Gases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.4",
+      "parentCode": "Unit 8",
+      "title": "Human Impacts on Wetlands and Mangroves",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.5",
+      "parentCode": "Unit 5",
+      "title": "Irrigation Methods",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.5",
+      "parentCode": "Unit 7",
+      "title": "Indoor Air Pollutants",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.5",
+      "parentCode": "Unit 8",
+      "title": "Eutrophication",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.5",
+      "parentCode": "Unit 6",
+      "title": "Fossil Fuels",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5",
+      "parentCode": "Unit 4",
+      "title": "Global Wind Patterns",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5",
+      "parentCode": "Unit 1",
+      "title": "The Nitrogen Cycle",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.5",
+      "parentCode": "Unit 9",
+      "title": "Global Climate Change",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.5",
+      "parentCode": "Unit 2",
+      "title": "Natural Disruptions to Ecosystems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5",
+      "parentCode": "Unit 3",
+      "title": "Population Growth and Resource Availability",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.6",
+      "parentCode": "Unit 5",
+      "title": "Pest Control Methods",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.6",
+      "parentCode": "Unit 3",
+      "title": "Age Structure Diagrams",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.6",
+      "parentCode": "Unit 4",
+      "title": "Watersheds",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.6",
+      "parentCode": "Unit 6",
+      "title": "Nuclear Power",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.6",
+      "parentCode": "Unit 7",
+      "title": "Reduction of Air Pollutants",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "8.6",
+      "parentCode": "Unit 8",
+      "title": "Thermal Pollution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "9.6",
+      "parentCode": "Unit 9",
+      "title": "Ocean Warming",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.6",
+      "parentCode": "Unit 1",
+      "title": "The Phosphorus Cycle",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "Unit 2",
+      "title": "Adaptations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.7",
+      "parentCode": "Unit 7",
+      "title": "Acid Deposition",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.7",
+      "parentCode": "Unit 3",
+      "title": "Total Fertility Rate",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.7",
+      "parentCode": "Unit 6",
+      "title": "Energy from Biomass",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "8.7",
+      "parentCode": "Unit 8",
+      "title": "Persistent Organic Pollutants (POPs)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.7",
+      "parentCode": "Unit 4",
+      "title": "Solar Radiation and Earth's Seasons",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "9.7",
+      "parentCode": "Unit 9",
+      "title": "Ocean Acidification",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.7",
+      "parentCode": "Unit 2",
+      "title": "Ecological Succession",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.7",
+      "parentCode": "Unit 5",
+      "title": "Meat Production Methods",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.7",
+      "parentCode": "Unit 1",
+      "title": "The Hydrologic (Water) Cycle",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.8",
+      "parentCode": "Unit 7",
+      "title": "Noise Pollution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.8",
+      "parentCode": "Unit 5",
+      "title": "Impacts of Overfishing",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.8",
+      "parentCode": "Unit 1",
+      "title": "Primary Productivity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "9.8",
+      "parentCode": "Unit 9",
+      "title": "Invasive Species",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "6.8",
+      "parentCode": "Unit 6",
+      "title": "Solar Energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.8",
+      "parentCode": "Unit 3",
+      "title": "Human Population Dynamics",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.8",
+      "parentCode": "Unit 4",
+      "title": "Earth's Geography and Climate",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "8.8",
+      "parentCode": "Unit 8",
+      "title": "Bioaccumulation and Biomagnification",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "6.9",
+      "parentCode": "Unit 6",
+      "title": "Hydroelectric Power",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "8.9",
+      "parentCode": "Unit 8",
+      "title": "Solid Waste Disposal Solutions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.9",
+      "parentCode": "Unit 4",
+      "title": "El Niño and La Niña",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "9.9",
+      "parentCode": "Unit 9",
+      "title": "Endangered Species",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "3.9",
+      "parentCode": "Unit 3",
+      "title": "Demographic Transition",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "5.9",
+      "parentCode": "Unit 5",
+      "title": "Impacts of Mining",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.9",
+      "parentCode": "Unit 1",
+      "title": "Energy Flow and Matter Cycling Through Trophic Levels",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.10",
+      "parentCode": "Unit 1",
+      "title": "Energy Flow and the 10% Rule",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "9.10",
+      "parentCode": "Unit 9",
+      "title": "Human Impacts on Biodiversity Solutions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "5.10",
+      "parentCode": "Unit 5",
+      "title": "Impacts of Urbanization",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "6.10",
+      "parentCode": "Unit 6",
+      "title": "Geothermal Energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "8.10",
+      "parentCode": "Unit 8",
+      "title": "Waste Reduction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "6.11",
+      "parentCode": "Unit 6",
+      "title": "Hydrogen Fuel Cells",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "8.11",
+      "parentCode": "Unit 8",
+      "title": "Sewage Treatment",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "1.11",
+      "parentCode": "Unit 1",
+      "title": "Food Chains and Food Webs",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "5.11",
+      "parentCode": "Unit 5",
+      "title": "Ecological Footprints",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "8.12",
+      "parentCode": "Unit 8",
+      "title": "Lethal Dose 50% (LD50)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "5.12",
+      "parentCode": "Unit 5",
+      "title": "Introduction to Sustainability",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "6.12",
+      "parentCode": "Unit 6",
+      "title": "Wind Energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "5.13",
+      "parentCode": "Unit 5",
+      "title": "Methods to Reduce Urban Runoff",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "6.13",
+      "parentCode": "Unit 6",
+      "title": "Energy Conservation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "8.13",
+      "parentCode": "Unit 8",
+      "title": "Dose Response Curve",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "5.14",
+      "parentCode": "Unit 5",
+      "title": "Integrated Pest Management",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "8.14",
+      "parentCode": "Unit 8",
+      "title": "Pollution and Human Health",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "8.15",
+      "parentCode": "Unit 8",
+      "title": "Pathogens and Infectious Diseases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "5.15",
+      "parentCode": "Unit 5",
+      "title": "Sustainable Agriculture",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "5.16",
+      "parentCode": "Unit 5",
+      "title": "Aquaculture",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "5.17",
+      "parentCode": "Unit 5",
+      "title": "Sustainable Forestry",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "EIN-3.B.1",
+      "parentCode": "8.13",
+      "title": "Dose response curves show organism effects or mortality based on toxin or drug dosage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-1.C.1",
+      "parentCode": "1.10",
+      "title": "Only approximately 10% of energy transfers between successive trophic levels.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-2.C.1",
+      "parentCode": "5.3",
+      "title": "Green Revolution introduced mechanization, GMOs, fertilizers, irrigation, and pesticides to boost food production.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-1.D.1",
+      "parentCode": "1.11",
+      "title": "Food webs model interlocking food chains showing energy and nutrient flow.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-2.A.1",
+      "parentCode": "2.1",
+      "title": "Biodiversity comprises genetic, species, and habitat diversity levels.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-2.B.1",
+      "parentCode": "5.2",
+      "title": "Clearcutting provides economic benefits but causes erosion, temperature increases, and flooding.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-3.A.1",
+      "parentCode": "8.12",
+      "title": "LD50 measures the chemical dose lethal to half a species population.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-3.N.1",
+      "parentCode": "8.11",
+      "title": "Primary treatment physically removes large objects and settles solid waste.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-3.M.1",
+      "parentCode": "8.10",
+      "title": "Recycling converts solid waste materials into new usable products.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-2.B.1",
+      "parentCode": "2.2",
+      "title": "Four ecosystem service categories: provisioning, regulating, cultural, and supporting.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-2.A.1",
+      "parentCode": "5.1",
+      "title": "Self-interested individuals overexploit shared resources, depleting them faster than sustainable levels.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-2.D.1",
+      "parentCode": "2.3",
+      "title": "Island biogeography studies ecological relationships and organism distribution on islands.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-3.I.1",
+      "parentCode": "6.7",
+      "title": "Biomass burning provides cheap energy but emits pollutants and causes deforestation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-3.K.1",
+      "parentCode": "8.9",
+      "title": "Solid waste comprises discarded non-liquid, non-gas materials from various sectors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-2.F.1",
+      "parentCode": "2.4",
+      "title": "Ecological tolerance is the range of environmental conditions organisms can survive.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-2.G.1",
+      "parentCode": "2.5",
+      "title": "Natural disruptions can have consequences equal to or exceeding human-made disruptions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-3.I.1",
+      "parentCode": "8.8",
+      "title": "Selective absorption and concentration of elements in living organism cells, typically fat-soluble compounds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-3.H.1",
+      "parentCode": "8.7",
+      "title": "POPs resist environmental degradation due to synthetic carbon-based molecular structure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-3.G.1",
+      "parentCode": "8.6",
+      "title": "Heat released into water causes negative effects on aquatic organisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-3.F.1",
+      "parentCode": "8.5",
+      "title": "Eutrophication is nutrient enrichment of aquatic bodies of water.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-2.H.1",
+      "parentCode": "2.6",
+      "title": "Organisms adapt genetically to environments across short and long time scales.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-3.E.1",
+      "parentCode": "8.4",
+      "title": "Wetlands are ecosystems where water covers soil permanently or seasonally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-2.I.1",
+      "parentCode": "2.7",
+      "title": "Primary and secondary succession represent two distinct types of ecological change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-3.C.1",
+      "parentCode": "8.3",
+      "title": "Endocrine disruptors are chemicals interfering with animal endocrine systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-3.B.1",
+      "parentCode": "8.2",
+      "title": "Organisms tolerate pollutants within ranges; stress and death occur beyond optimum.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-3.A.1",
+      "parentCode": "8.1",
+      "title": "Point sources are single, identifiable pollution sources like smokestacks or pipes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-3.A.1",
+      "parentCode": "3.1",
+      "title": "Specialists thrive in stable habitats; generalists succeed in changing environments.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-3.B.1",
+      "parentCode": "3.2",
+      "title": "K-selected species are large with few offspring, extended parental care, long lifespans.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-2.J.1",
+      "parentCode": "7.8",
+      "title": "Noise pollution causes physiological stress and hearing loss in organisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-2.H.1",
+      "parentCode": "7.7",
+      "title": "Acid rain results from nitrogen and sulfur oxides in atmosphere.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-2.G.1",
+      "parentCode": "7.6",
+      "title": "Air pollution reduction uses regulation, conservation, and alternative fuel sources.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-3.C.1",
+      "parentCode": "3.3",
+      "title": "Survivorship curves display relative survival rates of age cohorts from birth to maximum age.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-2.C.1",
+      "parentCode": "4.9",
+      "title": "El Niño and La Niña involve Pacific Ocean temperature changes affecting global climate patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-3.F.1",
+      "parentCode": "3.5",
+      "title": "Environmental factors, particularly resources and space, limit population growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-2.B.1",
+      "parentCode": "4.8",
+      "title": "Sun's energy, mountains, and ocean temperature all influence weather and climate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-2.E.1",
+      "parentCode": "7.5",
+      "title": "Carbon monoxide is an asphyxiant indoor air pollutant.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-2.D.1",
+      "parentCode": "7.4",
+      "title": "Natural CO2 sources include respiration, decomposition, and volcanic eruptions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-3.E.1",
+      "parentCode": "6.5",
+      "title": "Fossil fuel combustion chemically reacts fuel with oxygen, producing CO2, water, and energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-1.B.1",
+      "parentCode": "3.7",
+      "title": "TFR depends on female age at first birth, education, family planning access, policy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-3.G.1",
+      "parentCode": "6.6",
+      "title": "Nuclear fission of U-235 releases heat for electricity generation via turbines.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-2.C.1",
+      "parentCode": "7.3",
+      "title": "Thermal inversion reverses normal atmospheric temperature gradient, creating cooler surface air.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-1.C.1",
+      "parentCode": "3.8",
+      "title": "Multiple factors including birth/death rates and access to resources determine population growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-2.A.1",
+      "parentCode": "4.7",
+      "title": "Insolation varies by season and latitude as Earth's primary energy source.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-2.A.1",
+      "parentCode": "7.1",
+      "title": "Coal burning emits CO2, SO2, toxic metals, and particulate matter.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-1.D.1",
+      "parentCode": "3.9",
+      "title": "Demographic transition describes declining birth and death rates during industrialization using four-stage model.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-4.D.1",
+      "parentCode": "4.4",
+      "title": "Atmosphere comprises major gases in varying relative proportions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-4.A.1",
+      "parentCode": "4.1",
+      "title": "Convergent boundaries create mountains, island arcs, earthquakes, volcanoes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-3.T.1",
+      "parentCode": "6.13",
+      "title": "Home energy conservation includes thermostat adjustment, water conservation, efficient appliances, and landscaping.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-3.R.1",
+      "parentCode": "6.12",
+      "title": "Wind turbines convert kinetic energy of moving air into electricity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-3.P.1",
+      "parentCode": "6.11",
+      "title": "Hydrogen fuel cells combine hydrogen and oxygen to produce electricity and water.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-4.B.1",
+      "parentCode": "4.2",
+      "title": "Soils develop through weathering, transport, and deposition of parent material.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-4.F.1",
+      "parentCode": "4.6",
+      "title": "Watersheds have distinct physical and biological characteristics including topography and vegetation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-3.N.1",
+      "parentCode": "6.10",
+      "title": "Geothermal energy uses Earth's interior heat to generate electricity via steam.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-2.B.1",
+      "parentCode": "7.2",
+      "title": "NOx and VOCs react with heat and sunlight to form photochemical smog.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-4.C.1",
+      "parentCode": "4.3",
+      "title": "Soil water holding capacity varies by type, affecting productivity and fertility.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-2.K.1",
+      "parentCode": "5.9",
+      "title": "Depletion of accessible ores forces mining deeper, increasing resource use and pollution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-3.L.1",
+      "parentCode": "6.9",
+      "title": "Hydroelectric power generated via dams, reservoirs, or turbines in flowing water.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-2.J.1",
+      "parentCode": "5.8",
+      "title": "Overfishing reduces fish populations, decreases aquatic biodiversity, and harms fishing-dependent communities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-2.M.1",
+      "parentCode": "5.10",
+      "title": "Urbanization depletes resources and causes saltwater intrusion in water systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-2.N.1",
+      "parentCode": "5.11",
+      "title": "Ecological footprints measure resource demands and waste production per individual or society.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-1.A.1",
+      "parentCode": "5.12",
+      "title": "Sustainability means using resources without depleting them for future generations using key indicators.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-1.B.1",
+      "parentCode": "5.13",
+      "title": "Increase water infiltration using permeable pavement, trees, transit, vertical development.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-4.E.1",
+      "parentCode": "4.5",
+      "title": "Equatorial solar radiation, density differences, and Coriolis effect drive global winds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-1.C.1",
+      "parentCode": "5.14",
+      "title": "IPM combines biological, physical, and limited chemical methods to control pests sustainably.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-2.H.1",
+      "parentCode": "5.7",
+      "title": "Meat production uses either CAFOs/feedlots or free-range grazing methods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-2.G.1",
+      "parentCode": "5.6",
+      "title": "Pesticide use creates resistance through artificial selection but increases crop yields.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-1.E.1",
+      "parentCode": "5.15",
+      "title": "Soil conservation prevents erosion using contour plowing, windbreaks, perennials, terracing, no-till, and strip cropping.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-1.F.1",
+      "parentCode": "5.16",
+      "title": "Aquaculture expands due to efficiency, minimal water area, and low fuel requirements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-3.J.1",
+      "parentCode": "6.8",
+      "title": "Photovoltaic cells convert sunlight to electricity; availability limits use.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-1.A.1",
+      "parentCode": "3.6",
+      "title": "Age structure diagram shapes reveal population growth rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-1.A.1",
+      "parentCode": "1.1",
+      "title": "Predators consume prey organisms in feeding relationships.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-1.G.1",
+      "parentCode": "5.17",
+      "title": "Deforestation mitigation uses reforestation, sustainable harvesting, and wood reuse.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-4.C.1",
+      "parentCode": "9.10",
+      "title": "HIPPCO framework identifies six primary causes of biodiversity decline.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-1.B.1",
+      "parentCode": "1.2",
+      "title": "Biomes contain plant and animal communities adapted to their climate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-3.A.1",
+      "parentCode": "6.1",
+      "title": "Nonrenewable sources exist in fixed amounts and cannot be easily replaced.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-4.B.1",
+      "parentCode": "9.9",
+      "title": "Multiple factors threaten species: hunting, limited diet, invasive competition, habitat specificity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-4.A.1",
+      "parentCode": "9.8",
+      "title": "Invasive species live outside their normal habitat, threatening native species.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-1.C.1",
+      "parentCode": "1.3",
+      "title": "Freshwater biomes provide essential drinking water resources.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-3.B.1",
+      "parentCode": "6.2",
+      "title": "Energy resource usage differs significantly between developed and developing nations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-4.H.1",
+      "parentCode": "9.7",
+      "title": "Ocean acidification occurs from increased atmospheric CO2 via chemical processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-1.D.1",
+      "parentCode": "1.4",
+      "title": "Carbon cycle moves carbon atoms and molecules between sources and sinks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-3.C.1",
+      "parentCode": "6.3",
+      "title": "Wood fuel, as firewood or charcoal, is accessible in developing nations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-4.G.1",
+      "parentCode": "9.6",
+      "title": "Increased atmospheric greenhouse gases cause ocean warming.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-4.F.1",
+      "parentCode": "9.5",
+      "title": "Earth's climate has naturally fluctuated across geologic history via temperature shifts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-1.E.1",
+      "parentCode": "1.5",
+      "title": "Nitrogen cycle involves movement of nitrogen atoms and molecules between sources and sinks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-3.D.1",
+      "parentCode": "6.4",
+      "title": "Natural energy resources distribute unevenly globally based on geologic history.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-4.E.1",
+      "parentCode": "9.4",
+      "title": "Excess atmospheric greenhouse gases cause climate change, sea level rise, disease spread, and population shifts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-4.C.1",
+      "parentCode": "9.3",
+      "title": "Five main greenhouse gases exist: CO₂, methane, water vapor, nitrous oxide, CFCs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-1.F.1",
+      "parentCode": "1.6",
+      "title": "Phosphorus moves between sources and sinks through biogeochemical cycling.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-4.B.1",
+      "parentCode": "9.2",
+      "title": "Replace CFCs with substitutes like HFCs, though some increase greenhouse effect.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ERT-1.G.1",
+      "parentCode": "1.7",
+      "title": "Sun-powered water cycle moves through solid, liquid, gaseous phases between sources and sinks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-2.E.1",
+      "parentCode": "5.5",
+      "title": "Irrigation accounts for the majority of human freshwater consumption globally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-1.A.1",
+      "parentCode": "1.8",
+      "title": "Primary productivity measures photosynthesis rate converting sunlight to organic compounds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-2.D.1",
+      "parentCode": "5.4",
+      "title": "Tilling, slash-and-burn farming, and fertilizers damage the environment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "STB-4.A.1",
+      "parentCode": "9.1",
+      "title": "Stratospheric ozone layer essential for life evolution and survival.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-3.D.1",
+      "parentCode": "8.15",
+      "title": "Pathogens evolve to exploit new infection and transmission opportunities in populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "EIN-3.C.1",
+      "parentCode": "8.14",
+      "title": "Multiple chemical exposures complicate linking specific pollutants to human health effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-1.B.1",
+      "parentCode": "1.9",
+      "title": "Ecosystems require continuous energy input to sustain structure and matter transfer.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "ENG-3.E.2",
+      "parentCode": "6.5",
+      "title": "Burning fossil fuels heats water into steam, which turns turbines to generate electricity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-1.A.2",
+      "parentCode": "1.1",
+      "title": "Symbiosis involves mutualism, commensalism, and parasitism interactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-1.B.2",
+      "parentCode": "1.2",
+      "title": "Nine major terrestrial biomes span from tundra to tropical rainforests.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-1.C.2",
+      "parentCode": "1.3",
+      "title": "Marine algae produce oxygen and absorb atmospheric carbon dioxide.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-1.D.2",
+      "parentCode": "1.4",
+      "title": "Carbon reservoirs hold compounds for varying durations, short or long.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-1.E.2",
+      "parentCode": "1.5",
+      "title": "Nitrogen compounds remain in most cycle reservoirs for relatively brief periods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-1.F.2",
+      "parentCode": "1.6",
+      "title": "Rocks and sediments with phosphorus minerals serve as primary cycle reservoirs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-1.G.2",
+      "parentCode": "1.7",
+      "title": "Oceans hold most water; ice caps and groundwater are minor water reservoirs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-1.A.2",
+      "parentCode": "1.8",
+      "title": "Gross primary productivity is total photosynthesis rate in an area.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-1.B.2",
+      "parentCode": "1.9",
+      "title": "Biogeochemical cycles maintain life by conserving matter throughout ecosystems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-1.C.2",
+      "parentCode": "1.10",
+      "title": "Thermodynamic laws explain energy loss between trophic levels.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-1.D.2",
+      "parentCode": "1.11",
+      "title": "Species removal or addition causes feedback effects throughout food web structure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-2.A.2",
+      "parentCode": "2.1",
+      "title": "Greater genetic diversity improves stress response; bottlenecks reduce genetic diversity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-2.C.1",
+      "parentCode": "2.2",
+      "title": "Human activities disrupt ecosystem services, causing economic and ecological consequences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-2.D.2",
+      "parentCode": "2.3",
+      "title": "Islands were historically colonized by species arriving from other locations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-2.F.2",
+      "parentCode": "2.4",
+      "title": "Tolerance ranges exist at both individual and species population levels.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-2.G.2",
+      "parentCode": "2.5",
+      "title": "Earth processes vary in timescale and occur periodically, episodically, or randomly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-2.H.2",
+      "parentCode": "2.6",
+      "title": "Environmental changes force individuals to adapt behavior, relocate, or face extinction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-2.I.2",
+      "parentCode": "2.7",
+      "title": "Keystone species disproportionately influence ecosystem structure and community composition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-3.B.2",
+      "parentCode": "3.2",
+      "title": "r-selected species are small with many offspring, minimal parental care, short lifespans.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-3.C.2",
+      "parentCode": "3.3",
+      "title": "K-selected species show Type I or II curves; r-selected species show Type III curves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-3.F.2",
+      "parentCode": "3.5",
+      "title": "Resources are finite and limited across all temporal scales.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "EIN-1.A.2",
+      "parentCode": "3.6",
+      "title": "Rapidly growing populations have proportionally more young people than stable ones.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "EIN-1.B.2",
+      "parentCode": "3.7",
+      "title": "Replacement-level fertility indicates relatively stable population.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "EIN-1.C.2",
+      "parentCode": "3.8",
+      "title": "Earth's carrying capacity and Malthusian factors limit global human population growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "EIN-1.D.2",
+      "parentCode": "3.9",
+      "title": "Developing countries exhibit higher infant mortality and greater child labor participation than developed nations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-4.A.2",
+      "parentCode": "4.1",
+      "title": "Divergent boundaries produce seafloor spreading, rift valleys, volcanoes, earthquakes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-4.B.2",
+      "parentCode": "4.2",
+      "title": "Soils are classified into horizons by composition and organic material content.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-4.C.2",
+      "parentCode": "4.3",
+      "title": "Particle size and composition influence soil porosity, permeability, and fertility.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-4.D.2",
+      "parentCode": "4.4",
+      "title": "Five atmosphere layers defined by temperature gradients: troposphere, stratosphere, mesosphere, thermosphere, exosphere.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-2.A.2",
+      "parentCode": "4.7",
+      "title": "Solar ray angle determines radiation intensity; perpendicular rays deliver maximum intensity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-2.B.2",
+      "parentCode": "4.8",
+      "title": "Rain shadows form when mountains block precipitation from reaching downwind regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-2.C.2",
+      "parentCode": "4.9",
+      "title": "Geological and geographic factors influence El Niño and La Niña regional effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "EIN-2.B.2",
+      "parentCode": "5.2",
+      "title": "Trees absorb pollutants and store carbon; cutting releases carbon, accelerating climate change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "EIN-2.C.2",
+      "parentCode": "5.3",
+      "title": "Farm mechanization increases profits and efficiency but heightens fossil fuel dependence.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "EIN-2.E.2",
+      "parentCode": "5.5",
+      "title": "Multiple irrigation methods exist: drip, flood, furrow, and spray systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "EIN-2.G.2",
+      "parentCode": "5.6",
+      "title": "Genetically engineered crops resist pests but reduce genetic diversity in crops.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "EIN-2.I.1",
+      "parentCode": "5.7",
+      "title": "Meat production requires twenty times more land than plant agriculture for equivalent calories.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "EIN-2.K.2",
+      "parentCode": "5.9",
+      "title": "Surface mining removes overburden and vegetation, increasing soil erosion susceptibility.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "EIN-2.M.2",
+      "parentCode": "5.10",
+      "title": "Urbanization increases atmospheric carbon dioxide via fossil fuel burning and landfills.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-1.A.2",
+      "parentCode": "5.12",
+      "title": "Sustainable yield is the harvest level that maintains renewable resource availability.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-1.D.1",
+      "parentCode": "5.14",
+      "title": "IPM reduces pesticide risks to wildlife, water supplies, and human health.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-1.E.2",
+      "parentCode": "5.15",
+      "title": "Soil fertility improves through crop rotation, green manure incorporation, and limestone application.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-1.F.2",
+      "parentCode": "5.16",
+      "title": "Aquaculture contaminates wastewater, escaped fish compete with wild populations, and high density spreads disease.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-1.G.2",
+      "parentCode": "5.17",
+      "title": "Forest protection from pests employs IPM and removal of infected trees.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-3.A.2",
+      "parentCode": "6.1",
+      "title": "Renewable sources replenish naturally at or near consumption rates and reuse.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-3.B.2",
+      "parentCode": "6.2",
+      "title": "Fossil fuels remain the dominant global energy source worldwide.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-3.C.2",
+      "parentCode": "6.3",
+      "title": "Peat is partially decomposed organic material used as combustible fuel.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-3.G.2",
+      "parentCode": "6.6",
+      "title": "Radioactive isotopes lose energy through radiation emission.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-3.I.2",
+      "parentCode": "6.7",
+      "title": "Ethanol fuel avoids net carbon emissions but has poor energy return on investment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-3.J.2",
+      "parentCode": "6.8",
+      "title": "Active systems mechanically collect, heat, and store solar energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-3.L.2",
+      "parentCode": "6.9",
+      "title": "Tidal energy harnesses tidal flows to power turbines.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-3.O.1",
+      "parentCode": "6.10",
+      "title": "Geothermal energy has high access costs and limited accessibility; releases hydrogen sulfide.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-3.Q.1",
+      "parentCode": "6.11",
+      "title": "Hydrogen fuel cells emit no carbon dioxide but require energy production and expensive technology.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-3.S.1",
+      "parentCode": "6.12",
+      "title": "Wind energy is renewable and clean but poses collision risks to birds and bats.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ENG-3.T.2",
+      "parentCode": "6.13",
+      "title": "Large-scale energy conservation includes vehicle efficiency, electric vehicles, public transit, and green building design.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-2.A.2",
+      "parentCode": "7.1",
+      "title": "Fossil fuel combustion releases NOx causing ozone, smog, acid rain; also produces CO, hydrocarbons, particulates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-2.B.2",
+      "parentCode": "7.2",
+      "title": "Multiple environmental factors influence photochemical smog formation rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-2.C.2",
+      "parentCode": "7.3",
+      "title": "Thermal inversions trap ground-level pollution including smog and particulate matter.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-2.D.2",
+      "parentCode": "7.4",
+      "title": "Multiple natural sources contribute particulate matter to the atmosphere.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-2.E.2",
+      "parentCode": "7.5",
+      "title": "Particulate indoor pollutants include asbestos, dust, and smoke.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-2.G.2",
+      "parentCode": "7.6",
+      "title": "Vapor recovery nozzles prevent fuel fumes release during vehicle refueling.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-2.H.2",
+      "parentCode": "7.7",
+      "title": "Motor vehicles and power plants emit nitrogen oxides; power plants emit sulfur dioxide.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-2.J.2",
+      "parentCode": "7.8",
+      "title": "Urban noise sources: transportation, construction, domestic and industrial activities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-3.A.2",
+      "parentCode": "8.1",
+      "title": "Nonpoint sources are diffused, hard-to-identify pollution like pesticides or runoff.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-3.B.2",
+      "parentCode": "8.2",
+      "title": "Coral reefs damaged by warming, sediment, and overfishing.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-3.D.1",
+      "parentCode": "8.3",
+      "title": "Endocrine disruptors cause birth defects, developmental disorders, gender imbalances.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-3.E.2",
+      "parentCode": "8.4",
+      "title": "Wetlands provide essential services: water purification, flood protection, filtration, habitat.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-3.F.2",
+      "parentCode": "8.5",
+      "title": "Algal blooms from excess nutrients consume oxygen upon decomposition, causing hypoxia and organism death.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-3.G.2",
+      "parentCode": "8.6",
+      "title": "Warmer water holds less dissolved oxygen than colder water.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-3.H.2",
+      "parentCode": "8.7",
+      "title": "Fat-soluble POPs accumulate in organism tissues, causing toxicity through bioaccumulation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-3.I.2",
+      "parentCode": "8.8",
+      "title": "Substance concentration increases in body tissue at progressively higher trophic levels.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-3.K.2",
+      "parentCode": "8.9",
+      "title": "Landfills are primary disposal method but cause groundwater contamination and gas emissions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-3.M.2",
+      "parentCode": "8.10",
+      "title": "Recycling reduces mineral demand but requires significant energy and money.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-3.N.2",
+      "parentCode": "8.11",
+      "title": "Secondary treatment uses aerated bacteria to decompose organic matter into CO₂ and sludge.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "EIN-3.C.2",
+      "parentCode": "8.14",
+      "title": "Untreated sewage in waterways causes dysentery infection in humans.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "EIN-3.D.2",
+      "parentCode": "8.15",
+      "title": "Pathogens persist across diverse environments despite apparently clean sanitary conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-4.A.2",
+      "parentCode": "9.1",
+      "title": "Ozone depletion caused by CFCs and natural atmospheric ice melting.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-4.C.2",
+      "parentCode": "9.3",
+      "title": "Water vapor's short atmospheric residence time limits its climate change contribution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-4.F.2",
+      "parentCode": "9.5",
+      "title": "Climate change causes warming, ice melt, sea level rise, and human displacement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-4.G.2",
+      "parentCode": "9.6",
+      "title": "Ocean warming affects marine species through habitat loss and physiological changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "STB-4.H.2",
+      "parentCode": "9.7",
+      "title": "Oceans absorb atmospheric CO2, becoming progressively more acidic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "EIN-4.A.2",
+      "parentCode": "9.8",
+      "title": "Invasive species are generalists that outcompete native species for resources.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "EIN-4.B.2",
+      "parentCode": "9.9",
+      "title": "Adaptable species and those able to relocate face lower extinction risk.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "EIN-4.C.2",
+      "parentCode": "9.10",
+      "title": "Roads, agriculture, and logging break habitats into isolated fragments.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "ERT-1.D.3",
+      "parentCode": "1.4",
+      "title": "Carbon cycles between photosynthesis and cellular respiration in organisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-3.B.3",
+      "parentCode": "8.2",
+      "title": "Oil spills kill marine life through toxicity, coating, and seabed contamination.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-4.C.3",
+      "parentCode": "9.3",
+      "title": "Greenhouse effect maintains Earth's surface temperature required for life.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-3.N.3",
+      "parentCode": "8.11",
+      "title": "Tertiary treatment removes remaining pollutants via ecological or chemical processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "EIN-4.A.3",
+      "parentCode": "9.8",
+      "title": "Multiple human intervention strategies can control invasive species populations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-3.M.3",
+      "parentCode": "8.10",
+      "title": "Composting decomposes organic waste into fertilizer; drawbacks include odor and rodents.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-3.K.3",
+      "parentCode": "8.9",
+      "title": "E-waste consists of discarded televisions, cell phones, computers, and similar devices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ERT-2.E.1",
+      "parentCode": "2.3",
+      "title": "Island species evolve as specialists due to limited resources; invasive generalists threaten their survival.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-3.J.1",
+      "parentCode": "8.8",
+      "title": "Persistent biomagnified substances cause eggshell thinning and developmental deformities in top carnivores.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ERT-2.I.3",
+      "parentCode": "2.7",
+      "title": "Indicator species reveal distinctive characteristics and quality of ecosystems through presence or abundance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ERT-1.A.3",
+      "parentCode": "1.1",
+      "title": "Competition for limited resources; partitioning reduces negative impacts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ERT-2.G.3",
+      "parentCode": "2.5",
+      "title": "Climate has changed throughout Earth's history due to multiple causes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-4.G.3",
+      "parentCode": "9.6",
+      "title": "Warming causes coral bleaching when algae loss turns corals white; outcomes vary.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-3.E.3",
+      "parentCode": "8.4",
+      "title": "Development, dams, overfishing, and agricultural/industrial pollution threaten wetlands.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-3.H.3",
+      "parentCode": "8.7",
+      "title": "POPs disperse globally through atmospheric and aquatic transport mechanisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ERT-1.C.3",
+      "parentCode": "1.3",
+      "title": "Marine resource distribution depends on salinity, depth, turbidity, nutrients, temperature.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-3.F.3",
+      "parentCode": "8.5",
+      "title": "Hypoxic waterways contain low dissolved oxygen levels.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-4.F.3",
+      "parentCode": "9.5",
+      "title": "Sea level changes affect marine ecosystems both positively and negatively.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-4.H.3",
+      "parentCode": "9.7",
+      "title": "Human activities causing ocean acidification include fossil fuel burning and deforestation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-2.A.3",
+      "parentCode": "7.1",
+      "title": "Burning diesel fuels releases sulfur dioxide, degrading air quality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ENG-3.M.1",
+      "parentCode": "6.9",
+      "title": "Hydroelectric power produces no air pollution but causes habitat loss and expensive construction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "EIN-1.C.3",
+      "parentCode": "3.8",
+      "title": "Density-independent and density-dependent factors both influence human population growth rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ERT-4.B.3",
+      "parentCode": "4.2",
+      "title": "Wind and water erode soils; soil protection maintains water quality through filtration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-2.B.3",
+      "parentCode": "7.2",
+      "title": "NOx produced early; ozone peaks afternoon and summer due to oxygen-sunlight reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ENG-3.J.3",
+      "parentCode": "6.8",
+      "title": "Passive systems absorb heat directly without equipment or storage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ENG-3.E.3",
+      "parentCode": "6.5",
+      "title": "Multiple extraction methods retrieve fossil fuels from Earth for energy production.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "EIN-2.F.1",
+      "parentCode": "5.5",
+      "title": "Excess soil water raises groundwater tables and prevents root oxygen absorption.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ENG-3.C.3",
+      "parentCode": "6.3",
+      "title": "Three coal types form from heat, pressure, and burial depth variations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "EIN-1.B.3",
+      "parentCode": "3.7",
+      "title": "Maternal healthcare and nutrition access determine infant mortality rates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-4.A.3",
+      "parentCode": "9.1",
+      "title": "Less ozone increases UV rays, causing skin cancer and cataracts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ERT-1.F.3",
+      "parentCode": "1.6",
+      "title": "Lack of atmospheric phosphorus makes it naturally scarce and limiting.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ENG-3.B.3",
+      "parentCode": "6.2",
+      "title": "Developing nations increase fossil fuel dependence as they industrialize.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ERT-3.F.3",
+      "parentCode": "3.5",
+      "title": "Abundant resources typically cause population growth to accelerate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "EIN-4.B.3",
+      "parentCode": "9.9",
+      "title": "Selective pressures alter organism behaviors and fitness in their environment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-2.E.3",
+      "parentCode": "7.5",
+      "title": "Indoor pollutants originate from natural, human-made, and combustion sources.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ERT-1.E.3",
+      "parentCode": "1.5",
+      "title": "Nitrogen fixation converts atmospheric nitrogen to ammonia for plant uptake and tissue synthesis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ENG-1.A.3",
+      "parentCode": "1.8",
+      "title": "Net primary productivity measures energy storage after respiratory losses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-1.G.3",
+      "parentCode": "5.17",
+      "title": "Prescribed burns reduce natural wildfire occurrence through controlled fire management.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-1.E.3",
+      "parentCode": "5.15",
+      "title": "Rotational grazing rotates livestock between pastures to prevent localized overgrazing damage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-1.D.2",
+      "parentCode": "5.14",
+      "title": "IPM minimizes environmental disruption and health threats but involves complexity and cost.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "EIN-2.I.2",
+      "parentCode": "5.7",
+      "title": "CAFOs enable rapid livestock production but create crowded conditions, waste contamination, and lower consumer costs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "EIN-2.M.3",
+      "parentCode": "5.10",
+      "title": "Impervious surfaces prevent water infiltration, causing flooding in urban areas.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "EIN-2.L.1",
+      "parentCode": "5.9",
+      "title": "Mining produces slag and tailings waste while providing low-cost energy; coal mining harms habitats and water.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-2.G.3",
+      "parentCode": "7.6",
+      "title": "Catalytic converters transform engine exhaust pollutants into less harmful compounds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ERT-4.C.3",
+      "parentCode": "4.3",
+      "title": "Various testing methods assess soil properties to inform irrigation and fertilization decisions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "EIN-3.D.3",
+      "parentCode": "8.15",
+      "title": "Climate zone expansion spreads pathogens and vectors into previously unaffected subtropical and temperate regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ENG-3.G.3",
+      "parentCode": "6.6",
+      "title": "U-235's long radioactivity creates nuclear waste disposal challenges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "EIN-4.C.3",
+      "parentCode": "9.10",
+      "title": "Different species experience varying impacts from same habitat fragmentation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-2.I.1",
+      "parentCode": "7.7",
+      "title": "Acid deposition impacts downwind communities from coal-burning power plants.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ERT-4.A.3",
+      "parentCode": "4.1",
+      "title": "Transform boundaries cause earthquakes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "EIN-3.C.3",
+      "parentCode": "8.14",
+      "title": "Asbestos exposure primarily causes mesothelioma, a serious cancer type.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ERT-3.B.3",
+      "parentCode": "3.2",
+      "title": "Biotic potential is maximum reproductive rate under ideal environmental conditions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ERT-1.B.3",
+      "parentCode": "1.2",
+      "title": "Resource distribution varies with climate, geography, latitude, altitude, nutrients, soil.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "STB-2.J.3",
+      "parentCode": "7.8",
+      "title": "Noise pollution stresses animals, masks communication, damages hearing, alters migration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ENG-1.B.3",
+      "parentCode": "1.9",
+      "title": "Solar energy flows through trophic levels from producers to higher consumers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ERT-2.A.3",
+      "parentCode": "2.1",
+      "title": "Higher species numbers increase ecosystem resilience to disturbances.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ENG-2.A.3",
+      "parentCode": "4.7",
+      "title": "Equatorial regions receive highest solar radiation; intensity decreases poleward.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "ERT-4.C.4",
+      "parentCode": "4.3",
+      "title": "Soil texture triangles classify soils by clay, silt, and sand percentages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "ERT-1.E.4",
+      "parentCode": "1.5",
+      "title": "Atmosphere serves as nitrogen cycle's primary reservoir.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "EIN-4.B.4",
+      "parentCode": "9.9",
+      "title": "Resource competition for territory, food, mates, habitat endangers species.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "ENG-3.K.1",
+      "parentCode": "6.8",
+      "title": "Solar is clean and low-impact but expensive; farms harm deserts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "STB-4.D.1",
+      "parentCode": "9.3",
+      "title": "CO₂ (GWP=1) is reference; CFCs > N₂O > methane in warming potency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "ERT-4.A.4",
+      "parentCode": "4.1",
+      "title": "Plate boundary maps predict volcano, earthquake, hot spot, and fault locations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "ERT-1.D.4",
+      "parentCode": "1.4",
+      "title": "Decomposition stored carbon for millions of years; fossil fuel burning releases it rapidly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "EIN-1.C.4",
+      "parentCode": "3.8",
+      "title": "The rule of 70 calculates population doubling time from growth rate percentage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "STB-2.A.4",
+      "parentCode": "7.1",
+      "title": "EPA Clean Air Act regulations on fuel lead reduced atmospheric lead dramatically.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "STB-4.F.4",
+      "parentCode": "9.5",
+      "title": "Atmospheric circulation distributes heat; climate change may alter circulation patterns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "STB-2.B.4",
+      "parentCode": "7.2",
+      "title": "VOCs evaporate at room temperature; examples include formaldehyde, gasoline, tree emissions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "ERT-3.F.4",
+      "parentCode": "3.5",
+      "title": "Shrinking resources cause unequal distribution, mortality, reduced fecundity, declining growth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "STB-2.E.4",
+      "parentCode": "7.5",
+      "title": "Natural indoor pollutants include radon, mold, and dust.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "STB-2.G.4",
+      "parentCode": "7.6",
+      "title": "Scrubbers remove particulates and gases from industrial exhaust streams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "ERT-3.B.4",
+      "parentCode": "3.2",
+      "title": "Many species exhibit mixed or conditional reproductive strategies between r and K selection.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "STB-2.I.2",
+      "parentCode": "7.7",
+      "title": "Acid deposition acidifies soils, water, and corrodes human-made structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "ERT-2.J.1",
+      "parentCode": "2.7",
+      "title": "Pioneer species colonize unoccupied habitats and adapt, potentially leading to new species formation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "STB-3.B.4",
+      "parentCode": "8.2",
+      "title": "Beach oil spills damage fishing and tourism economies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "STB-3.F.4",
+      "parentCode": "8.5",
+      "title": "Oligotrophic waterways have low nutrients, stable algae, and high dissolved oxygen.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "ERT-2.G.4",
+      "parentCode": "2.5",
+      "title": "Sea level fluctuations result from variations in glacial ice throughout geological time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "STB-4.H.4",
+      "parentCode": "9.7",
+      "title": "Acidification impairs coral shell formation by reducing available calcium carbonate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "STB-3.J.2",
+      "parentCode": "8.8",
+      "title": "Biomagnification harms human reproductive, nervous, and circulatory systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "ERT-1.B.4",
+      "parentCode": "1.2",
+      "title": "Biome distribution is dynamic and shifts with global climate change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "STB-3.K.4",
+      "parentCode": "8.9",
+      "title": "Sanitary landfills contain liners, water systems, leachate collection, caps, and methane systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "EIN-4.C.4",
+      "parentCode": "9.10",
+      "title": "Climate change eliminates habitats through temperature, precipitation, and sea level shifts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "STB-3.M.4",
+      "parentCode": "8.10",
+      "title": "E-waste recycling prevents hazardous metals from leaching into groundwater.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "ERT-2.A.4",
+      "parentCode": "2.1",
+      "title": "Habitat loss eliminates specialists, then generalists, and reduces large-range species.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "STB-3.N.4",
+      "parentCode": "8.11",
+      "title": "Final disinfection with chlorine, ozone, or UV light kills remaining bacteria.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "EIN-3.C.4",
+      "parentCode": "8.14",
+      "title": "High tropospheric ozone levels harm respiratory health and lung function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "ENG-1.A.4",
+      "parentCode": "1.8",
+      "title": "Productivity is measured in energy per area per time units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "EIN-3.D.4",
+      "parentCode": "8.15",
+      "title": "Poor sanitation and contaminated water in low-income areas facilitate infectious disease spread.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "EIN-2.L.2",
+      "parentCode": "5.9",
+      "title": "Declining accessible coal reserves necessitate expensive subsurface mining operations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "EIN-2.M.4",
+      "parentCode": "5.10",
+      "title": "Urban sprawl expands low-density suburbs into rural lands, creating environmental problems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "EIN-2.I.3",
+      "parentCode": "5.7",
+      "title": "Free-range grazing produces chemical-free meat with natural fertilizer but requires large land and higher costs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "ENG-3.B.4",
+      "parentCode": "6.2",
+      "title": "Global industrialization drives increased energy demand worldwide.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "EIN-2.F.2",
+      "parentCode": "5.5",
+      "title": "Furrow irrigation is cheap but loses approximately one-third water to evaporation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "ENG-3.C.4",
+      "parentCode": "6.3",
+      "title": "Natural gas, the cleanest fossil fuel, consists primarily of methane.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "ENG-2.A.4",
+      "parentCode": "4.7",
+      "title": "Seasonal solar radiation peaks at summer solstice, minimums at winter solstice.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "ENG-3.F.1",
+      "parentCode": "6.5",
+      "title": "Fracking contaminates groundwater and releases volatile organic compounds into environment.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "ENG-3.G.4",
+      "parentCode": "6.6",
+      "title": "Nuclear is nonrenewable, clean regarding air but produces thermal and solid waste pollution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "ERT-2.J.2",
+      "parentCode": "2.7",
+      "title": "Ecological succession alters biomass, species richness, and productivity in disturbed ecosystems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "ENG-3.H.1",
+      "parentCode": "6.6",
+      "title": "Major nuclear accidents caused environmental impacts through radioactive release.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "ERT-4.A.5",
+      "parentCode": "4.1",
+      "title": "Earthquakes result from stress overcoming locked faults.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "ERT-2.A.5",
+      "parentCode": "2.1",
+      "title": "Species richness measures the count of different species in ecosystems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "STB-3.J.3",
+      "parentCode": "8.8",
+      "title": "DDT, mercury, and PCBs bioaccumulate with significant environmental impacts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "ENG-3.B.5",
+      "parentCode": "6.2",
+      "title": "Resource availability, cost, and policy determine energy source choices.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "EIN-4.B.5",
+      "parentCode": "9.9",
+      "title": "Protection strategies: criminalize poaching, protect habitats, enact legislation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "ENG-3.C.5",
+      "parentCode": "6.3",
+      "title": "Crude oil from tar sands combines clay, sand, water, and bitumen.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "STB-2.A.5",
+      "parentCode": "7.1",
+      "title": "Air pollutants are classified as primary or secondary types.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "ENG-1.A.5",
+      "parentCode": "1.8",
+      "title": "Water light penetration limits aquatic photosynthesis; organisms adapted accordingly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "STB-3.L.1",
+      "parentCode": "8.9",
+      "title": "Landfill decomposition depends on trash composition and conditions for microbial activity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "STB-3.F.5",
+      "parentCode": "8.5",
+      "title": "Agricultural runoff and wastewater release are human causes of eutrophication.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "STB-2.I.3",
+      "parentCode": "7.7",
+      "title": "Limestone bedrock neutralizes acid rain effects; regional geology varies resilience.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "STB-3.M.5",
+      "parentCode": "8.10",
+      "title": "Landfill strategies include energy recovery and habitat restoration for parks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "STB-2.E.5",
+      "parentCode": "7.5",
+      "title": "Human-made pollutants include insulation, VOCs, formaldehyde, and lead.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "EIN-4.C.5",
+      "parentCode": "9.10",
+      "title": "Domesticated species management reduces genetic biodiversity of those organisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "STB-2.G.5",
+      "parentCode": "7.6",
+      "title": "Coal power plants use scrubbers and electrostatic precipitators for pollution control.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "ENG-2.A.5",
+      "parentCode": "4.7",
+      "title": "Axial tilt causes seasonal variation and daylight hour changes at each location.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "STB-4.F.5",
+      "parentCode": "9.5",
+      "title": "Ocean currents distribute heat globally; changes significantly impact coastal climates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "EIN-2.F.3",
+      "parentCode": "5.5",
+      "title": "Flood irrigation loses twenty percent to evaporation and risks soil waterlogging.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "STB-3.B.5",
+      "parentCode": "8.2",
+      "title": "Nutrient pollution creates low-oxygen dead zones in oceans.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "EIN-3.D.5",
+      "parentCode": "8.15",
+      "title": "Plague bacteria spread to humans through infected organism bites or contaminated fluid contact.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "ERT-3.B.5",
+      "parentCode": "3.2",
+      "title": "K-selected species vulnerable to invasive species; most invasives are r-selected.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "STB-2.B.5",
+      "parentCode": "7.2",
+      "title": "Photochemical smog commonly forms in urban areas due to motor vehicle emissions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "ERT-2.G.5",
+      "parentCode": "2.5",
+      "title": "Major environmental changes cause widespread habitat alterations across large areas.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "EIN-2.I.4",
+      "parentCode": "5.7",
+      "title": "Overgrazing removes vegetation and causes soil erosion through excessive animal feeding.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "STB-2.E.6",
+      "parentCode": "7.5",
+      "title": "Combustion pollutants include CO, NOx, SO2, particulates, and tobacco smoke.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "EIN-4.C.6",
+      "parentCode": "9.10",
+      "title": "Protected areas, corridors, sustainable practices, and restoration mitigate biodiversity loss.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "STB-4.F.6",
+      "parentCode": "9.5",
+      "title": "Climate change impacts soil viability and increases erosion through temperature and rainfall shifts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "ENG-3.C.6",
+      "parentCode": "6.3",
+      "title": "Fossil fuels are refined into specialized fuels for specific applications.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "STB-3.L.2",
+      "parentCode": "8.9",
+      "title": "Incineration reduces waste volume but releases significant air pollutants into atmosphere.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "STB-2.B.6",
+      "parentCode": "7.2",
+      "title": "Reducing NOx and VOC emissions decreases photochemical smog formation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "ENG-3.H.2",
+      "parentCode": "6.6",
+      "title": "Half-life enables calculation of decay rates and radioactivity levels over time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "STB-3.M.6",
+      "parentCode": "8.10",
+      "title": "Landfill gas combustion generates electricity and reduces landfill volume.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "EIN-2.I.5",
+      "parentCode": "5.7",
+      "title": "Overgrazing degrades arid regions into deserts through progressive environmental degradation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "EIN-3.D.6",
+      "parentCode": "8.15",
+      "title": "Tuberculosis spreads via inhalation of bacteria from infected person bodily fluids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "ERT-2.G.6",
+      "parentCode": "2.5",
+      "title": "Wildlife migrates short and long-term for various reasons including natural disruptions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "STB-3.B.6",
+      "parentCode": "8.2",
+      "title": "Oxygen sag curves show dissolved oxygen decline from pollution sources.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "EIN-2.F.4",
+      "parentCode": "5.5",
+      "title": "Spray irrigation is efficient but expensive and energy-intensive compared to alternatives.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "STB-3.B.7",
+      "parentCode": "8.2",
+      "title": "Industrial heavy metals contaminate groundwater and drinking supplies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "ENG-3.C.7",
+      "parentCode": "6.3",
+      "title": "Cogeneration uses fuel to simultaneously produce heat and electricity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "EIN-2.I.6",
+      "parentCode": "5.7",
+      "title": "Reduced meat consumption decreases emissions, water use, antibiotics, hormones, and improves soil.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "EIN-3.D.7",
+      "parentCode": "8.15",
+      "title": "Malaria, a parasitic disease from infected mosquito bites, predominantly occurs in sub-Saharan Africa.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "STB-2.E.7",
+      "parentCode": "7.5",
+      "title": "Radon-222 is radioactive gas from uranium decay in rocks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "EIN-2.F.5",
+      "parentCode": "5.5",
+      "title": "Drip irrigation is most efficient but prohibitively expensive for widespread adoption.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "STB-4.F.7",
+      "parentCode": "9.5",
+      "title": "Polar regions respond faster to climate change due to ice-albedo positive feedback.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "STB-3.L.3",
+      "parentCode": "8.9",
+      "title": "Illegal disposal of rejected items like tires creates environmental hazards and disease vectors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "STB-2.B.7",
+      "parentCode": "7.2",
+      "title": "Photochemical smog causes respiratory problems and eye irritation in humans.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "EIN-2.F.6",
+      "parentCode": "5.5",
+      "title": "Salt accumulation from irrigation water evaporation eventually makes soil toxic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "EIN-3.D.8",
+      "parentCode": "8.15",
+      "title": "West Nile virus transmits to humans through infected mosquito bites.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "STB-2.F.1",
+      "parentCode": "7.5",
+      "title": "Radon enters homes through soil, basements, cracks, and groundwater.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "STB-3.B.8",
+      "parentCode": "8.2",
+      "title": "Aquatic litter harms wildlife and introduces toxins into food chains.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "STB-4.F.8",
+      "parentCode": "9.5",
+      "title": "Melting polar ice absorbs more solar energy, amplifying regional warming.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "STB-3.L.4",
+      "parentCode": "8.9",
+      "title": "Ocean dumping creates plastic islands, causing wildlife entanglement and ingestion problems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "STB-2.F.2",
+      "parentCode": "7.5",
+      "title": "Radon exposure causes lung cancer, America's second leading cancer cause.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "STB-4.F.9",
+      "parentCode": "9.5",
+      "title": "Arctic warming accelerates through feedback loops releasing methane from thawing tundra.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "EIN-2.F.7",
+      "parentCode": "5.5",
+      "title": "Irrigation overuse depletes aquifers, exemplified by the Ogallala Aquifer depletion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "EIN-3.D.9",
+      "parentCode": "8.15",
+      "title": "SARS pneumonia spreads through inhalation or contact with infected respiratory fluids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "STB-3.B.9",
+      "parentCode": "8.2",
+      "title": "Excess sediment reduces light, harming producers and predators.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "EIN-3.D.10",
+      "parentCode": "8.15",
+      "title": "MERS is a viral respiratory illness transmitted from animals to humans.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "STB-3.B.10",
+      "parentCode": "8.2",
+      "title": "Bacteria convert elemental mercury to highly toxic methylmercury in water.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "STB-4.F.10",
+      "parentCode": "9.5",
+      "title": "Polar ice loss threatens species dependent on ice for habitat and food.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "EIN-3.D.11",
+      "parentCode": "8.15",
+      "title": "Zika spreads via infected mosquito bites and sexual contact between humans.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "EIN-3.D.12",
+      "parentCode": "8.15",
+      "title": "Cholera, a bacterial disease, is contracted through consumption of infected water.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    }
+  ]
+}
