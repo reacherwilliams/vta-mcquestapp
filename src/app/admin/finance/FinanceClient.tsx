@@ -16,6 +16,8 @@ type ExpenseItem = {
   recordedBy: string | null
 }
 type Range = { key: string; label: string; prevKey: string; nextKey: string; isCurrent: boolean; isFuture: boolean }
+type Beneficiary = { label: string; pct: number; email: string | null }
+type Distribution = { distributableCents: number; totalPct: number; shares: { label: string; pct: number; email: string | null; cents: number }[] }
 
 const CATEGORY_META: Record<string, { label: string; color: string }> = {
   CONTRIBUTOR_PAYOUT: { label: "Contributor payouts", color: "bg-teal-500" },
@@ -29,7 +31,7 @@ const CATEGORY_META: Record<string, { label: string; color: string }> = {
 const EDITABLE_CATEGORIES = ["PLATFORM", "SALARY", "MARKETING", "TAX", "REFUND", "OTHER"] as const
 
 export function FinanceClient({
-  canManage, range, currency, incomeCents, incomeIsProjected, actualAvailable, expenses, netCents,
+  canManage, range, currency, incomeCents, incomeIsProjected, actualAvailable, expenses, netCents, profitShare, distribution,
 }: {
   canManage: boolean
   range: Range
@@ -39,6 +41,8 @@ export function FinanceClient({
   actualAvailable: boolean
   expenses: { totalCents: number; payoutCents: number; byCategory: { category: string; cents: number }[]; items: ExpenseItem[] }
   netCents: number
+  profitShare: { beneficiaries: Beneficiary[] }
+  distribution: Distribution
 }) {
   const router = useRouter()
   const [form, setForm] = useState({ category: "PLATFORM", amount: "", incurredOn: `${range.key}-15`, note: "" })
@@ -65,6 +69,29 @@ export function FinanceClient({
   async function del(id: string) {
     const res = await fetch(`/api/admin/finance/expenses/${id}`, { method: "DELETE" })
     if (res.ok) router.refresh()
+  }
+
+  // ── Profit-share editor (SA) ────────────────────────────────────────────────
+  const [editSplit, setEditSplit] = useState(false)
+  const [bens, setBens] = useState<Beneficiary[]>(profitShare.beneficiaries)
+  const [savingSplit, setSavingSplit] = useState(false)
+  const [splitError, setSplitError] = useState<string | null>(null)
+  const editedTotal = bens.reduce((s, b) => s + (Number(b.pct) || 0), 0)
+
+  function setBen(i: number, patch: Partial<Beneficiary>) {
+    setBens((p) => p.map((b, idx) => (idx === i ? { ...b, ...patch } : b)))
+  }
+  async function saveSplit() {
+    setSavingSplit(true); setSplitError(null)
+    try {
+      const res = await fetch("/api/admin/finance/profit-share", {
+        method: "PUT", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ beneficiaries: bens.map((b) => ({ ...b, pct: Number(b.pct) })) }),
+      })
+      const data = await res.json()
+      if (!res.ok) { setSplitError(data.error ?? "Failed to save."); return }
+      setEditSplit(false); router.refresh()
+    } finally { setSavingSplit(false) }
   }
 
   const maxCat = Math.max(1, ...expenses.byCategory.map((c) => c.cents))
@@ -113,6 +140,58 @@ export function FinanceClient({
           </p>
         </div>
       </div>
+
+      {/* Profit distribution */}
+      <section className="mt-6 rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900">
+        <div className="flex items-center justify-between">
+          <h2 className="text-sm font-bold text-slate-800 dark:text-slate-100">Profit distribution</h2>
+          {canManage && !editSplit && (
+            <button onClick={() => { setBens(profitShare.beneficiaries); setEditSplit(true) }} className="text-xs font-semibold text-lime-700 hover:underline dark:text-lime-400">Edit split</button>
+          )}
+        </div>
+        <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400">
+          {distribution.distributableCents > 0
+            ? <>Splitting <span className="font-semibold">{formatMoney(distribution.distributableCents, currency)}</span> net profit for {range.label}.</>
+            : <>No profit to distribute for {range.label}{netCents < 0 ? " (net loss)." : "."}</>}
+        </p>
+
+        {!editSplit ? (
+          <div className="mt-3 space-y-2">
+            {distribution.shares.map((s) => (
+              <div key={s.label} className="flex items-center gap-3 text-sm">
+                <span className="font-medium text-slate-700 dark:text-slate-200">{s.label}</span>
+                <span className="rounded bg-slate-100 px-1.5 py-0.5 text-[11px] font-semibold text-slate-500 dark:bg-slate-800 dark:text-slate-400">{s.pct}%</span>
+                <span className="ml-auto font-bold text-slate-900 dark:text-slate-100">{formatMoney(s.cents, currency)}</span>
+              </div>
+            ))}
+            {distribution.totalPct !== 100 && (
+              <p className="text-[11px] text-amber-600 dark:text-amber-400">⚠ Percentages total {distribution.totalPct}%, not 100%.</p>
+            )}
+          </div>
+        ) : (
+          <div className="mt-3 space-y-2">
+            {bens.map((b, i) => (
+              <div key={i} className="flex flex-wrap items-center gap-2 text-sm">
+                <input value={b.label} onChange={(e) => setBen(i, { label: e.target.value })} placeholder="Name"
+                  className="w-40 rounded-lg border border-slate-200 bg-white px-2 py-1.5 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300" />
+                <input type="number" min={0} max={100} step="0.5" value={b.pct} onChange={(e) => setBen(i, { pct: Number(e.target.value) })}
+                  className="w-16 rounded-lg border border-slate-200 bg-white px-2 py-1.5 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300" />
+                <span className="text-slate-400">%</span>
+                <input value={b.email ?? ""} onChange={(e) => setBen(i, { email: e.target.value || null })} placeholder="email (optional — for personal share)"
+                  className="min-w-0 flex-1 rounded-lg border border-slate-200 bg-white px-2 py-1.5 text-xs dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300" />
+                <button onClick={() => setBens((p) => p.filter((_, idx) => idx !== i))} className="text-xs text-rose-500 hover:underline">remove</button>
+              </div>
+            ))}
+            <div className="flex items-center gap-3 pt-1">
+              <button onClick={() => setBens((p) => [...p, { label: "", pct: 0, email: null }])} className="rounded-lg border border-dashed border-slate-300 px-2.5 py-1 text-xs font-semibold text-slate-500 hover:border-slate-400 dark:border-slate-600">+ Add</button>
+              <span className={cn("text-xs font-semibold", editedTotal === 100 ? "text-emerald-600 dark:text-emerald-400" : "text-amber-600 dark:text-amber-400")}>Total {editedTotal}%</span>
+              <button onClick={saveSplit} disabled={savingSplit} className="ml-auto rounded-lg bg-slate-800 px-4 py-1.5 text-sm font-semibold text-white hover:bg-slate-700 disabled:opacity-50 dark:bg-slate-700">{savingSplit ? "Saving…" : "Save"}</button>
+              <button onClick={() => setEditSplit(false)} className="text-xs font-semibold text-slate-500 hover:text-slate-700 dark:hover:text-slate-300">Cancel</button>
+            </div>
+            {splitError && <p className="text-xs text-rose-500">{splitError}</p>}
+          </div>
+        )}
+      </section>
 
       {/* Expense breakdown */}
       <section className="mt-6 rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900">

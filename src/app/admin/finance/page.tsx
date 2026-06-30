@@ -2,7 +2,7 @@ import "server-only"
 import { redirect } from "next/navigation"
 import { auth } from "@/lib/auth"
 import { canViewFinance, canManageFinance } from "@/lib/permissions"
-import { getMonthlyFinance } from "@/lib/finance"
+import { getMonthlyFinance, getProfitShare, computeDistribution } from "@/lib/finance"
 import { FinanceClient } from "./FinanceClient"
 
 export const metadata = { title: "Admin — Finance" }
@@ -17,10 +17,14 @@ export default async function FinancePage({ searchParams }: { searchParams: Sear
 
   const { month } = await searchParams
   const fin = await getMonthlyFinance(month, new Date())
+  const profitShare = await getProfitShare()
+  const distribution = computeDistribution(fin.netCents, profitShare)
 
   return (
     <FinanceClient
       canManage={canManageFinance(session.user.role)}
+      profitShare={profitShare}
+      distribution={distribution}
       range={{ key: fin.range.key, label: fin.range.label, prevKey: fin.range.prevKey, nextKey: fin.range.nextKey, isCurrent: fin.range.isCurrent, isFuture: fin.range.isFuture }}
       currency={fin.income.currency}
       incomeCents={fin.incomeCents}

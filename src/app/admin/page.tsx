@@ -3,7 +3,7 @@ import { auth } from "@/lib/auth"
 import { prisma } from "@/lib/prisma"
 import { isFounderTier } from "@/lib/permissions"
 import { getEntitlementGate, getPricingConfig } from "@/lib/entitlements"
-import { getMonthlyFinance } from "@/lib/finance"
+import { getMonthlyFinance, getProfitShare, computeDistribution } from "@/lib/finance"
 import { computeSubjectPrice, formatMoney } from "@/lib/pricing"
 
 export const metadata = { title: "Admin — Dashboard" }
@@ -126,6 +126,15 @@ export default async function AdminDashboard() {
   // This-month P&L for the monetization card (founders only).
   const finance = founder ? await getMonthlyFinance(undefined, now) : null
 
+  // The logged-in founder's personal profit share this month (matched by email).
+  let myShare: { cents: number; pct: number } | null = null
+  if (finance) {
+    const dist = computeDistribution(finance.netCents, await getProfitShare())
+    const email = session?.user?.email?.toLowerCase()
+    const mine = email ? dist.shares.find((s) => s.email?.toLowerCase() === email) : undefined
+    if (mine) myShare = { cents: mine.cents, pct: mine.pct }
+  }
+
   const STATUS_BADGE: Record<string, string> = {
     DRAFT: "bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400",
     IN_SUBJECT_REVIEW: "bg-amber-100 text-amber-700 dark:bg-amber-950/40 dark:text-amber-400",
@@ -225,6 +234,17 @@ export default async function AdminDashboard() {
             <h2 className="text-sm font-semibold text-slate-700 dark:text-slate-300">Monetization</h2>
             <Link href="/admin/finance" className="text-xs font-semibold text-lime-700 hover:underline dark:text-lime-400">Finance →</Link>
           </div>
+
+          {/* Your personal profit share */}
+          {finance && myShare && (
+            <div className="mb-4 flex items-center justify-between rounded-xl border border-lime-200 bg-lime-50 px-4 py-3 dark:border-lime-800 dark:bg-lime-950/20">
+              <div>
+                <p className="text-[10px] font-semibold uppercase tracking-widest text-lime-700 dark:text-lime-400">Your share · {finance.range.label}</p>
+                <p className="text-[11px] text-lime-600 dark:text-lime-500">{myShare.pct}% of net profit{finance.incomeIsProjected ? " (est.)" : ""}</p>
+              </div>
+              <p className="text-2xl font-black text-lime-700 dark:text-lime-400">{formatMoney(myShare.cents, finance.income.currency)}</p>
+            </div>
+          )}
 
           {/* This month P&L */}
           {finance && (

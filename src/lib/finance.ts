@@ -128,6 +128,63 @@ export type MonthlyFinance = {
   netCents: number
 }
 
+// ─── Profit distribution ──────────────────────────────────────────────────────
+// Net profit is split among beneficiaries by configurable percentages. Personal
+// beneficiaries carry an `email` so each founder can see their own share on the
+// dashboard. SA-editable; founders view.
+
+const PROFIT_SHARE_KEY = "profit_share"
+
+export type ProfitBeneficiary = { label: string; pct: number; email: string | null }
+export type ProfitShareConfig = { beneficiaries: ProfitBeneficiary[] }
+
+const DEFAULT_PROFIT_SHARE: ProfitShareConfig = {
+  beneficiaries: [
+    { label: "Reacher", pct: 30, email: "reacher.williams@mcq-masterloop.com" },
+    { label: "Jayesh", pct: 30, email: "jayesh.patole@mcq-masterloop.com" },
+    { label: "VantageTech Apps, LLC", pct: 30, email: null },
+    { label: "Ministry / Tithe", pct: 10, email: null },
+  ],
+}
+
+export async function getProfitShare(): Promise<ProfitShareConfig> {
+  const row = await prisma.platformSetting.findUnique({ where: { key: PROFIT_SHARE_KEY } })
+  const v = row?.value as ProfitShareConfig | undefined
+  if (!v?.beneficiaries?.length) return DEFAULT_PROFIT_SHARE
+  return v
+}
+
+export async function setProfitShare(config: ProfitShareConfig, updatedById?: string): Promise<void> {
+  const beneficiaries = (config.beneficiaries ?? [])
+    .filter((b) => b.label?.trim() && Number.isFinite(b.pct) && b.pct >= 0)
+    .map((b) => ({ label: b.label.trim(), pct: Math.round(b.pct * 100) / 100, email: b.email?.trim().toLowerCase() || null }))
+  if (!beneficiaries.length) throw new Error("At least one beneficiary is required.")
+  await prisma.platformSetting.upsert({
+    where: { key: PROFIT_SHARE_KEY },
+    create: { key: PROFIT_SHARE_KEY, value: { beneficiaries }, updatedById: updatedById ?? null },
+    update: { value: { beneficiaries }, updatedById: updatedById ?? null },
+  })
+}
+
+export type Distribution = {
+  distributableCents: number          // max(0, net) — nothing to split on a loss
+  totalPct: number                    // should be 100; surfaced so SA can spot a misconfig
+  shares: { label: string; pct: number; email: string | null; cents: number }[]
+}
+
+/** Split net profit across the configured beneficiaries (no distribution on a loss). */
+export function computeDistribution(netCents: number, config: ProfitShareConfig): Distribution {
+  const distributableCents = Math.max(0, netCents)
+  const totalPct = config.beneficiaries.reduce((s, b) => s + b.pct, 0)
+  const shares = config.beneficiaries.map((b) => ({
+    label: b.label,
+    pct: b.pct,
+    email: b.email,
+    cents: Math.round((distributableCents * b.pct) / 100),
+  }))
+  return { distributableCents, totalPct, shares }
+}
+
 /** Full monthly P&L: income (actual or projected) − expenses = net. */
 export async function getMonthlyFinance(month: string | undefined, now: Date): Promise<MonthlyFinance> {
   const range = monthRange(month, now)

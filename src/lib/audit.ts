@@ -25,6 +25,7 @@ type AuditAction =
   | "ENROLLMENT_REVOKED"
   | "EXPENSE_RECORDED"
   | "EXPENSE_DELETED"
+  | "PROFIT_SHARE_UPDATED"
 
 export async function writeAudit(
   userId: string,
