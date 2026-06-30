@@ -22,7 +22,11 @@ type QaItem = {
 }
 type Subject = { id: string; name: string; curriculumId: string; curriculumCode: string }
 type Curriculum = { id: string; code: string; displayName: string }
-type SimState = { score: number | null; citation: string | null; originalId: string | null; checked: boolean }
+type CitedState =
+  | { citation: string; originalId: string; score: number | null; found: true }
+  | { citation: string; found: false }
+  | null
+type SimState = { score: number | null; citation: string | null; originalId: string | null; checked: boolean; cited?: CitedState }
 
 type Props = {
   items: QaItem[]
@@ -66,7 +70,8 @@ export function QaClient({ items, curricula, subjects, status, curriculumId, sub
       const data = await res.json().catch(() => ({}))
       if (!res.ok) { alert(data.error ?? "Originality check failed."); return }
       const top = data.top as { id: string; citation: string; score: number } | null
-      setSim((p) => ({ ...p, [questionId]: { score: top?.score ?? 0, citation: top?.citation ?? null, originalId: top?.id ?? null, checked: true } }))
+      const cited = (data.cited ?? null) as CitedState
+      setSim((p) => ({ ...p, [questionId]: { score: top?.score ?? 0, citation: top?.citation ?? null, originalId: top?.id ?? null, checked: true, cited } }))
     } finally { setSimBusy(false) }
   }
 
@@ -202,6 +207,25 @@ export function QaClient({ items, curricula, subjects, status, curriculumId, sub
                     )}
                   </div>
                 </div>
+              )}
+              {/* Cited-original verification — the author's "inspired by" claim. */}
+              {s?.checked && s.cited && (
+                s.cited.found ? (
+                  <div className="rounded-xl border border-slate-200 bg-white/90 px-3 py-2 text-right text-[10px] font-medium text-slate-600 shadow-sm backdrop-blur dark:border-slate-700 dark:bg-slate-900/90 dark:text-slate-300">
+                    <div>Cites <span className="font-mono font-semibold">{s.cited.citation}</span></div>
+                    {s.cited.score != null ? (
+                      <div className={cn("mt-0.5 font-bold", s.cited.score >= 0.85 ? "text-rose-600 dark:text-rose-400" : s.cited.score >= 0.7 ? "text-amber-600 dark:text-amber-400" : "text-emerald-600 dark:text-emerald-400")}>
+                        {Math.round(s.cited.score * 100)}% to cited original{s.cited.score >= 0.85 ? " · ⚠ too close" : s.cited.score >= 0.7 ? " · review" : " · safely inspired"}
+                      </div>
+                    ) : (
+                      <div className="mt-0.5 opacity-70">cited original not embedded</div>
+                    )}
+                  </div>
+                ) : (
+                  <div className="rounded-xl border border-amber-300 bg-amber-50 px-3 py-2 text-right text-[10px] font-medium text-amber-700 shadow-sm backdrop-blur dark:border-amber-800 dark:bg-amber-950/30 dark:text-amber-300">
+                    Cites <span className="font-mono font-semibold">{s.cited.citation}</span> — not found in bank
+                  </div>
+                )
               )}
             </div>
           )

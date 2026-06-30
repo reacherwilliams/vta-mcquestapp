@@ -5,11 +5,16 @@ import { prisma } from "@/lib/prisma"
 import { isAdminTier } from "@/lib/permissions"
 import { questionToText } from "@/lib/originals/text"
 import { normalizedHash } from "@/lib/originals/hash"
-import { checkSimilarity, findExactByHash } from "@/lib/originals/similarity"
+import { embed } from "@/lib/originals/embed"
+import { findSimilarOriginals, findExactByHash, findCitedOriginal, scoreOriginalById } from "@/lib/originals/similarity"
+import { parseCitation } from "@/lib/originals/citation"
 
 // Cross-check ONE contributor question against the Original Question Bank.
 // Embeds the question, finds the nearest originals in the same subject, and
 // stores the top match (score + citation) on the question for the review/QA UI.
+// If the source note cites a specific original ("inspired by 0625/22 Q5"), also
+// resolves that original and scores the question against it — so the claim is
+// verified, not just asserted.
 export async function POST(_req: Request, { params }: { params: Promise<{ id: string }> }) {
   const session = await auth()
   if (!session?.user?.id || !isAdminTier(session.user.role)) {
@@ -22,6 +27,7 @@ export async function POST(_req: Request, { params }: { params: Promise<{ id: st
     select: {
       id: true,
       stem: true,
+      sourceNote: true,
       subject: { select: { name: true } },
       options: { select: { content: true } },
     },
@@ -33,10 +39,22 @@ export async function POST(_req: Request, { params }: { params: Promise<{ id: st
 
   let matches
   let exact: Awaited<ReturnType<typeof findExactByHash>> = null
+  let cited: { citation: string; originalId: string; score: number | null; found: true } | { citation: string; found: false } | null = null
   try {
+    // Embed once, reuse for both the subject-pool search and the cited check.
+    const vec = await embed(text)
     // Exact (verbatim) check is cheap; semantic embedding catches rewordings.
     exact = await findExactByHash(normalizedHash(text), q.subject.name)
-    matches = await checkSimilarity(text, q.subject.name, 5)
+    matches = await findSimilarOriginals(vec, q.subject.name, 5)
+
+    // Verify an "inspired by …" claim against the specific cited original.
+    const parsed = parseCitation(q.sourceNote)
+    if (parsed) {
+      const orig = await findCitedOriginal(parsed)
+      cited = orig
+        ? { citation: orig.citation, originalId: orig.id, score: await scoreOriginalById(vec, orig.id), found: true }
+        : { citation: parsed.raw, found: false }
+    }
   } catch (e) {
     return NextResponse.json({ error: `Similarity check failed: ${(e as Error).message}` }, { status: 502 })
   }
@@ -53,5 +71,5 @@ export async function POST(_req: Request, { params }: { params: Promise<{ id: st
     },
   })
 
-  return NextResponse.json({ matches, top: top ?? null, verbatim: !!exact })
+  return NextResponse.json({ matches, top: top ?? null, verbatim: !!exact, cited })
 }

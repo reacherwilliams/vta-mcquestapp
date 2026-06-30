@@ -1,6 +1,7 @@
 import "server-only"
 import { prisma } from "@/lib/prisma"
 import { embed } from "./embed"
+import type { ParsedCitation } from "./citation"
 
 // pgvector literal: [0.1,0.2,...]
 function vectorLiteral(vec: number[]): string {
@@ -41,4 +42,36 @@ export async function findExactByHash(normHash: string, subjectName: string): Pr
 export async function checkSimilarity(text: string, subjectName: string, limit = 5): Promise<SimMatch[]> {
   const vec = await embed(text)
   return findSimilarOriginals(vec, subjectName, limit)
+}
+
+/**
+ * Resolve a parsed source-note citation to a specific original in the bank.
+ * Matches on whatever fields the citation provided; when session/year are
+ * omitted we take the most recent paper+number match.
+ */
+export async function findCitedOriginal(c: ParsedCitation): Promise<SimMatch | null> {
+  const row = await prisma.originalQuestion.findFirst({
+    where: {
+      syllabusCode: c.syllabusCode,
+      ...(c.paper != null ? { paper: c.paper } : {}),
+      ...(c.variant != null ? { variant: c.variant } : {}),
+      ...(c.session ? { session: c.session } : {}),
+      ...(c.year != null ? { year: c.year } : {}),
+      ...(c.questionNumber != null ? { questionNumber: c.questionNumber } : {}),
+    },
+    select: { id: true, citation: true },
+    orderBy: [{ year: "desc" }, { variant: "asc" }],
+  })
+  return row ? { id: row.id, citation: row.citation, score: 1 } : null
+}
+
+/** Cosine similarity of a pre-computed vector to one specific original. */
+export async function scoreOriginalById(vec: number[], id: string): Promise<number | null> {
+  const lit = vectorLiteral(vec)
+  const rows = await prisma.$queryRaw<{ score: number }[]>`
+    SELECT 1 - (embedding <=> ${lit}::vector) AS score
+    FROM original_questions
+    WHERE id = ${id} AND embedding IS NOT NULL
+  `
+  return rows[0] ? Number(rows[0].score) : null
 }

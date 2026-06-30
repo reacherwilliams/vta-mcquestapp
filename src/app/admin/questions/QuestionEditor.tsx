@@ -6,6 +6,7 @@ import { TopicPicker, type Topic } from "./TopicPicker"
 import { cn } from "@/lib/utils"
 import type { ContentBlock } from "@/lib/questions/types"
 import { splitTags, joinTags, PAPER_OPTIONS, COMMAND_WORDS, SKILL_TYPES } from "@/lib/questions/tags"
+import { parseCitation, citationLabel } from "@/lib/originals/citation"
 import { QuestionPreview } from "./QuestionPreview"
 import { HelpPanel } from "./HelpPanel"
 
@@ -798,10 +799,22 @@ export function QuestionEditor({ mode, questionId, initial, subjects, initialCha
                 type="text"
                 value={form.sourceNote}
                 onChange={(e) => set("sourceNote", e.target.value)}
-                placeholder="Original — Dr Smith"
+                placeholder="Original — Dr Smith · or “Inspired by 0625/22 Q5”"
                 className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm text-slate-700 placeholder:text-slate-300 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300 dark:placeholder:text-slate-600"
               />
-              <p className="mt-1 text-[10px] text-slate-400">Never store verbatim past-paper text.</p>
+              {(() => {
+                const ref = parseCitation(form.sourceNote)
+                return ref ? (
+                  <p className="mt-1.5 flex items-center gap-1.5 text-[10px] text-slate-500 dark:text-slate-400">
+                    <span className="rounded bg-lime-100 px-1.5 py-0.5 font-mono font-semibold text-lime-700 dark:bg-lime-950/40 dark:text-lime-400">
+                      {citationLabel(ref)}
+                    </span>
+                    recognized — QA will verify originality against this past paper
+                  </p>
+                ) : (
+                  <p className="mt-1 text-[10px] text-slate-400">Never store verbatim past-paper text.</p>
+                )
+              })()}
             </div>
             <label className="flex items-center gap-2 text-xs text-slate-600 dark:text-slate-400">
               <input
