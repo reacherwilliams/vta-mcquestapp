@@ -183,10 +183,12 @@ export function FinanceClient({
                   </div>
                 )}
                 {others.map((s) => (
-                  <div key={s.label} className="flex items-center gap-3 text-sm">
-                    <span className="font-medium text-slate-700 dark:text-slate-200">{s.label}</span>
-                    <span className="rounded bg-slate-100 px-1.5 py-0.5 text-[11px] font-semibold text-slate-500 dark:bg-slate-800 dark:text-slate-400">{s.pct}%</span>
-                    <span className="ml-auto font-bold text-slate-900 dark:text-slate-100">{formatMoney(s.cents, currency)}</span>
+                  <div key={s.label} className="rounded-xl bg-slate-50 p-3 dark:bg-slate-800/40">
+                    <div className="flex items-center gap-3 text-sm">
+                      <span className="font-bold text-slate-800 dark:text-slate-100">{s.label}</span>
+                      <span className="rounded bg-slate-200 px-1.5 py-0.5 text-[11px] font-semibold text-slate-600 dark:bg-slate-700 dark:text-slate-300">{s.pct}%</span>
+                      <span className="ml-auto font-bold text-slate-900 dark:text-slate-100">{formatMoney(s.cents, currency)}</span>
+                    </div>
                   </div>
                 ))}
                 {distribution.totalPct !== 100 && (
