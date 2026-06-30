@@ -12,7 +12,9 @@ export type Actor = {
 
 export type TransitionAction =
   | "submit"          // DRAFT → IN_SUBJECT_REVIEW or IN_CURRICULUM_REVIEW
-  | "approve"         // IN_SUBJECT_REVIEW → IN_CURRICULUM_REVIEW, or IN_CURRICULUM_REVIEW → PUBLISHED
+  | "approve"         // IN_SUBJECT_REVIEW → IN_CURRICULUM_REVIEW, or IN_CURRICULUM_REVIEW → IN_QA
+  | "pass_qa"         // IN_QA → PUBLISHED (admin QA sign-off — makes it student-visible)
+  | "fail_qa"         // IN_QA → DRAFT (QA found a problem; returns to author with note)
   | "needs_changes"   // any review stage → DRAFT (returns to author with note)
   | "reject"          // any review stage → DRAFT (returns to author with stronger note)
   | "reassign"        // hand off to another reviewer at the same tier (stays at same status)
@@ -73,9 +75,10 @@ async function hasSubjectReviewer(subjectId: string): Promise<boolean> {
   return count > 0
 }
 
-function reviewStageFor(status: QuestionStatus): "subject" | "curriculum" | "admin" {
+function reviewStageFor(status: QuestionStatus): "subject" | "curriculum" | "qa" | "admin" {
   if (status === "IN_SUBJECT_REVIEW") return "subject"
   if (status === "IN_CURRICULUM_REVIEW") return "curriculum"
+  if (status === "IN_QA") return "qa"
   return "admin"
 }
 
@@ -105,6 +108,7 @@ export async function transitionStatus(input: TransitionInput) {
   let stage = reviewStageFor(question.status)
   let nextReviewerId: string | null = question.lastReviewerId
   let setPublished = false
+  let setQaPassed = false
 
   switch (action) {
     case "submit": {
@@ -132,12 +136,43 @@ export async function transitionStatus(input: TransitionInput) {
         if (isOwn) throw new LifecycleError("Reviewers cannot approve their own questions.", 403)
         const ok = await canReviewAt(actor, question, "CURRICULUM")
         if (!ok) throw new LifecycleError("You are not a reviewer for this curriculum.", 403)
-        nextStatus = "PUBLISHED"
+        // Curriculum approval now hands off to QA — NOT straight to students.
+        nextStatus = "IN_QA"
         stage = "curriculum"
-        setPublished = true
       } else {
         throw new LifecycleError(`Cannot approve a question in status ${question.status}.`)
       }
+      nextReviewerId = actor.id
+      break
+    }
+
+    case "pass_qa": {
+      if (question.status !== "IN_QA") {
+        throw new LifecycleError(`Cannot pass QA on a question in status ${question.status}.`)
+      }
+      if (!isPlatformAdmin(actor.role)) {
+        throw new LifecycleError("Only an admin can pass QA.", 403)
+      }
+      nextStatus = "PUBLISHED"
+      stage = "qa"
+      nextReviewerId = actor.id
+      setPublished = true
+      setQaPassed = true
+      break
+    }
+
+    case "fail_qa": {
+      if (question.status !== "IN_QA") {
+        throw new LifecycleError(`Cannot fail QA on a question in status ${question.status}.`)
+      }
+      if (!isPlatformAdmin(actor.role)) {
+        throw new LifecycleError("Only an admin can fail QA.", 403)
+      }
+      if (!note || !note.trim()) {
+        throw new LifecycleError("A note is required when sending a question back from QA.")
+      }
+      nextStatus = "DRAFT"
+      stage = "qa"
       nextReviewerId = actor.id
       break
     }
@@ -217,6 +252,8 @@ export async function transitionStatus(input: TransitionInput) {
     action === "needs_changes" ? "needs_changes"
       : action === "reject" ? "reject"
       : action === "approve" ? "approve"
+      : action === "pass_qa" ? "qa_pass"
+      : action === "fail_qa" ? "qa_fail"
       : action === "reassign" ? "reassign"
       : action === "archive" ? "archive"
       : action === "restore" ? "restore"
@@ -227,11 +264,16 @@ export async function transitionStatus(input: TransitionInput) {
     lastReviewer: nextReviewerId
       ? { connect: { id: nextReviewerId } }
       : { disconnect: true },
-    lastReviewNote: action === "needs_changes" || action === "reject" ? note ?? null : null,
+    lastReviewNote:
+      action === "needs_changes" || action === "reject" || action === "fail_qa" ? note ?? null : null,
   }
   if (setPublished) {
     data.publishedAt = new Date()
     data.publishedBy = { connect: { id: actor.id } }
+  }
+  if (setQaPassed) {
+    data.qaPassedAt = new Date()
+    data.qaPassedById = actor.id
   }
 
   const updated = await prisma.$transaction(async (tx) => {

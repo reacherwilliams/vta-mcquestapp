@@ -135,6 +135,8 @@ enum QuestionStatus {
   DRAFT
   IN_SUBJECT_REVIEW
   IN_CURRICULUM_REVIEW
+  // Curriculum-approved but NOT yet visible to students — awaiting admin QA test.
+  IN_QA
   PUBLISHED
   ARCHIVED
 }
@@ -187,6 +189,9 @@ model Question {
   // The Admin/SuperAdmin who approved publication.
   publishedById String?
   publishedAt   DateTime?
+  // The admin who passed QA (IN_QA → PUBLISHED). Scalar — full trail is in QuestionReview.
+  qaPassedById  String?
+  qaPassedAt    DateTime?
   // Denormalised pointers updated on each review decision so the reviewer queue
   // doesn't need to join QuestionReview. Full audit trail lives in QuestionReview.
   lastReviewerId String?

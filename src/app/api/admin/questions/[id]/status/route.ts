@@ -6,7 +6,7 @@ import { transitionStatus, LifecycleError, type TransitionAction } from "@/lib/q
 import type { UserRole } from "@prisma/client"
 
 const VALID_ACTIONS: TransitionAction[] = [
-  "submit", "approve", "needs_changes", "reject", "reassign", "archive", "restore",
+  "submit", "approve", "pass_qa", "fail_qa", "needs_changes", "reject", "reassign", "archive", "restore",
 ]
 
 export async function PATCH(

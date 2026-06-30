@@ -61,7 +61,7 @@ export default async function FilterPage({ searchParams }: { searchParams: Searc
       <header className="border-b border-slate-100 dark:border-slate-900">
         <div className="mx-auto flex w-full max-w-2xl items-center gap-4 px-6 py-3 sm:px-10">
           <Link
-            href="/"
+            href={isAuthenticated ? "/practice" : "/"}
             aria-label="Exit"
             className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-2xl font-light leading-none text-slate-400 transition hover:bg-slate-100 hover:text-slate-700 dark:hover:bg-slate-800 dark:hover:text-slate-200"
           >

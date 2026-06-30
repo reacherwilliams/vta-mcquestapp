@@ -11,6 +11,7 @@ const STATUS_TABS = [
   { key: "DRAFT",                label: "Draft" },
   { key: "IN_SUBJECT_REVIEW",    label: "Subject Review" },
   { key: "IN_CURRICULUM_REVIEW", label: "Curriculum Review" },
+  { key: "IN_QA",                label: "QA Testing" },
   { key: "PUBLISHED",            label: "Published" },
   { key: "ARCHIVED",             label: "Archived" },
 ] as const
