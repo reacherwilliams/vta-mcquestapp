@@ -1,7 +1,7 @@
 import "server-only"
 import { NextResponse } from "next/server"
 import { auth } from "@/lib/auth"
-import { isFounderTier } from "@/lib/permissions"
+import { canManageFinance } from "@/lib/permissions"
 import { getPricingConfig, setPricingConfig } from "@/lib/entitlements"
 import type { PricingConfig } from "@/lib/pricing"
 import { writeAudit } from "@/lib/audit"
@@ -11,7 +11,7 @@ import { writeAudit } from "@/lib/audit"
 // estimate, not the charge.
 export async function GET() {
   const session = await auth()
-  if (!isFounderTier(session?.user?.role)) {
+  if (!canManageFinance(session?.user?.role)) {
     return NextResponse.json({ error: "Forbidden." }, { status: 403 })
   }
   return NextResponse.json(await getPricingConfig())
@@ -19,7 +19,7 @@ export async function GET() {
 
 export async function PUT(req: Request) {
   const session = await auth()
-  if (!isFounderTier(session?.user?.role)) {
+  if (!canManageFinance(session?.user?.role)) {
     return NextResponse.json({ error: "Forbidden." }, { status: 403 })
   }
 

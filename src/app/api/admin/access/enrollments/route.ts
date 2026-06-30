@@ -2,14 +2,14 @@ import "server-only"
 import { NextResponse } from "next/server"
 import { auth } from "@/lib/auth"
 import { prisma } from "@/lib/prisma"
-import { isFounderTier } from "@/lib/permissions"
+import { canManageFinance } from "@/lib/permissions"
 import { writeAudit } from "@/lib/audit"
 
 // Look up a student by email + return their enrollments and the full subject
 // catalogue (for the grant picker).
 export async function GET(req: Request) {
   const session = await auth()
-  if (!isFounderTier(session?.user?.role)) {
+  if (!canManageFinance(session?.user?.role)) {
     return NextResponse.json({ error: "Forbidden." }, { status: 403 })
   }
 
@@ -44,7 +44,7 @@ export async function GET(req: Request) {
 // Grant (or re-activate) one or more subject enrollments for a student.
 export async function POST(req: Request) {
   const session = await auth()
-  if (!isFounderTier(session?.user?.role)) {
+  if (!canManageFinance(session?.user?.role)) {
     return NextResponse.json({ error: "Forbidden." }, { status: 403 })
   }
 

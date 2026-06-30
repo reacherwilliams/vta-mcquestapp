@@ -105,11 +105,23 @@ const NAV = [
   },
 ]
 
-// Items visible only to SUPER_ADMIN — appended after the main nav.
+// Founder-tier "Oversight" items — appended after the main nav. Items flagged
+// superAdminOnly are hidden from CO_FOUNDER.
 const SUPER_ADMIN_NAV = [
+  {
+    href: "/admin/finance",
+    label: "Finance",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4 shrink-0">
+        <line x1="12" y1="1" x2="12" y2="23" />
+        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+      </svg>
+    ),
+  },
   {
     href: "/admin/access",
     label: "Access & Billing",
+    superAdminOnly: true,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4 shrink-0">
         <rect x="2" y="5" width="20" height="14" rx="2" />

@@ -3,6 +3,7 @@ import { auth } from "@/lib/auth"
 import { prisma } from "@/lib/prisma"
 import { isFounderTier } from "@/lib/permissions"
 import { getEntitlementGate, getPricingConfig } from "@/lib/entitlements"
+import { getMonthlyFinance } from "@/lib/finance"
 import { computeSubjectPrice, formatMoney } from "@/lib/pricing"
 
 export const metadata = { title: "Admin — Dashboard" }
@@ -122,6 +123,9 @@ export default async function AdminDashboard() {
   const subjectNames = await prisma.subject.findMany({ where: { id: { in: subjectIds } }, select: { id: true, name: true } })
   const nameById = Object.fromEntries(subjectNames.map((s) => [s.id, s.name]))
 
+  // This-month P&L for the monetization card (founders only).
+  const finance = founder ? await getMonthlyFinance(undefined, now) : null
+
   const STATUS_BADGE: Record<string, string> = {
     DRAFT: "bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400",
     IN_SUBJECT_REVIEW: "bg-amber-100 text-amber-700 dark:bg-amber-950/40 dark:text-amber-400",
@@ -219,8 +223,29 @@ export default async function AdminDashboard() {
         <section className="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900">
           <div className="mb-4 flex items-center justify-between">
             <h2 className="text-sm font-semibold text-slate-700 dark:text-slate-300">Monetization</h2>
-            <Link href="/admin/access" className="text-xs font-semibold text-lime-700 hover:underline dark:text-lime-400">Access &amp; billing →</Link>
+            <Link href="/admin/finance" className="text-xs font-semibold text-lime-700 hover:underline dark:text-lime-400">Finance →</Link>
           </div>
+
+          {/* This month P&L */}
+          {finance && (
+            <div className="mb-4 grid grid-cols-3 gap-4 rounded-xl bg-slate-50 p-4 dark:bg-slate-800/40">
+              <div>
+                <p className="text-[10px] font-semibold uppercase tracking-widest text-slate-400">{finance.incomeIsProjected ? "Income (est.)" : "Income"} · {finance.range.label}</p>
+                <p className="mt-0.5 text-xl font-black text-emerald-600 dark:text-emerald-400">{formatMoney(finance.incomeCents, finance.income.currency)}</p>
+              </div>
+              <div>
+                <p className="text-[10px] font-semibold uppercase tracking-widest text-slate-400">Expenses</p>
+                <p className="mt-0.5 text-xl font-black text-slate-900 dark:text-slate-100">{formatMoney(finance.expenses.totalCents, finance.income.currency)}</p>
+              </div>
+              <div>
+                <p className="text-[10px] font-semibold uppercase tracking-widest text-slate-400">Net</p>
+                <p className={`mt-0.5 text-xl font-black ${finance.netCents >= 0 ? "text-emerald-600 dark:text-emerald-400" : "text-rose-600 dark:text-rose-400"}`}>
+                  {finance.netCents < 0 ? "−" : ""}{formatMoney(Math.abs(finance.netCents), finance.income.currency)}
+                </p>
+              </div>
+            </div>
+          )}
+
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
             <div>
               <p className="text-[11px] font-semibold uppercase tracking-widest text-slate-400">Gate</p>

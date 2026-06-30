@@ -481,6 +481,7 @@ model User {
   contributorPayouts     ContributorPayout[]
   enrollments            Enrollment[]
   enrollmentsGranted     Enrollment[]         @relation("EnrollmentGrantedBy")
+  expensesRecorded       Expense[]            @relation("ExpenseRecorder")
 
   @@map("users")
 }
@@ -815,6 +816,36 @@ model Enrollment {
   @@unique([userId, subjectId])
   @@index([userId, status])
   @@map("enrollments")
+}
+
+// ─── Finance: expense ledger ──────────────────────────────────────────────────
+// Manual record of business expenses for the monthly P&L view. Income comes
+// from Stripe (actual charges); contributor payouts come from ContributorPayout.
+// Everything else (infra, salaries, marketing, tax, refunds) is recorded here by
+// a SUPER_ADMIN. Founders can view; only SUPER_ADMIN can write.
+enum ExpenseCategory {
+  PLATFORM  // infrastructure / hosting / tooling
+  SALARY    // team salaries / wages
+  MARKETING
+  TAX
+  REFUND
+  OTHER
+}
+
+model Expense {
+  id           String          @id @default(cuid())
+  category     ExpenseCategory @default(OTHER)
+  amountCents  Int
+  currency     String          @default("usd")
+  // The date the expense applies to — bucketed by month in the finance view.
+  incurredOn   DateTime
+  note         String?
+  recordedById String?
+  createdAt    DateTime        @default(now())
+  recordedBy   User?           @relation("ExpenseRecorder", fields: [recordedById], references: [id], onDelete: SetNull)
+
+  @@index([incurredOn])
+  @@map("expenses")
 }
 
 // ─── Platform settings ────────────────────────────────────────────────────────

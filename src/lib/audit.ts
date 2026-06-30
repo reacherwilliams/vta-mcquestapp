@@ -23,6 +23,8 @@ type AuditAction =
   | "ENTITLEMENT_PRICING_UPDATED"
   | "ENROLLMENTS_GRANTED"
   | "ENROLLMENT_REVOKED"
+  | "EXPENSE_RECORDED"
+  | "EXPENSE_DELETED"
 
 export async function writeAudit(
   userId: string,

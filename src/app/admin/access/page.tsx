@@ -1,7 +1,7 @@
 import "server-only"
 import { redirect } from "next/navigation"
 import { auth } from "@/lib/auth"
-import { isFounderTier } from "@/lib/permissions"
+import { canManageFinance } from "@/lib/permissions"
 import { getEntitlementGate, getTrialDays, getPricingConfig } from "@/lib/entitlements"
 import { AccessClient } from "./AccessClient"
 
@@ -10,7 +10,8 @@ export const metadata = { title: "Admin — Access & Entitlements" }
 export default async function AccessPage() {
   const session = await auth()
   if (!session?.user?.id) redirect("/login")
-  if (!isFounderTier(session.user.role)) redirect("/admin")
+  // SUPER_ADMIN only — co-founders see monetization on the dashboard, not this.
+  if (!canManageFinance(session.user.role)) redirect("/admin")
 
   const [gate, trialDays, pricing] = await Promise.all([getEntitlementGate(), getTrialDays(), getPricingConfig()])
 

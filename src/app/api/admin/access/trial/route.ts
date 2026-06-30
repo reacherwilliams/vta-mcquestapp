@@ -1,14 +1,14 @@
 import "server-only"
 import { NextResponse } from "next/server"
 import { auth } from "@/lib/auth"
-import { isFounderTier } from "@/lib/permissions"
+import { canManageFinance } from "@/lib/permissions"
 import { getTrialDays, setTrialDays } from "@/lib/entitlements"
 import { writeAudit } from "@/lib/audit"
 
 // SA / founder control over the free-trial length (days).
 export async function GET() {
   const session = await auth()
-  if (!isFounderTier(session?.user?.role)) {
+  if (!canManageFinance(session?.user?.role)) {
     return NextResponse.json({ error: "Forbidden." }, { status: 403 })
   }
   return NextResponse.json({ days: await getTrialDays() })
@@ -16,7 +16,7 @@ export async function GET() {
 
 export async function PUT(req: Request) {
   const session = await auth()
-  if (!isFounderTier(session?.user?.role)) {
+  if (!canManageFinance(session?.user?.role)) {
     return NextResponse.json({ error: "Forbidden." }, { status: 403 })
   }
 
