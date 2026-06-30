@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation"
 import { SwissQuestionCard } from "@/components/questions/swiss-question-card"
 import type { DemoQuestion } from "@/lib/questions/demo-data"
 import { cn } from "@/lib/utils"
+import { QaHelpPanel } from "./QaHelpPanel"
 
 type QaItem = {
   id: string
@@ -48,6 +49,7 @@ export function QaClient({ items, curricula, subjects, status, curriculumId, sub
   const [busy, setBusy] = useState(false)
   const [sendBackOpen, setSendBackOpen] = useState(false)
   const [note, setNote] = useState("")
+  const [showHelp, setShowHelp] = useState(false)
   // Originality cross-check state, keyed by question id (seeded from the server).
   const [sim, setSim] = useState<Record<string, SimState>>(() =>
     Object.fromEntries(items.map((it) => [it.id, {
@@ -277,12 +279,23 @@ export function QaClient({ items, curricula, subjects, status, curriculumId, sub
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-extrabold text-slate-900 dark:text-slate-100">QA Testing</h1>
-        <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-          Play through questions as a student would, then pass them live or send them back.
-        </p>
+      <div className="flex items-start justify-between gap-4">
+        <div>
+          <h1 className="text-2xl font-extrabold text-slate-900 dark:text-slate-100">QA Testing</h1>
+          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
+            Play through questions as a student would, then pass them live or send them back.
+          </p>
+        </div>
+        <button
+          onClick={() => setShowHelp(true)}
+          className="flex shrink-0 items-center gap-1.5 rounded-full border border-slate-200 px-3 py-1.5 text-xs font-semibold text-slate-500 transition hover:border-slate-300 hover:text-slate-700 dark:border-slate-700 dark:text-slate-400 dark:hover:text-slate-200"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-3.5 w-3.5"><circle cx="12" cy="12" r="10" /><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" /><line x1="12" y1="17" x2="12.01" y2="17" /></svg>
+          How QA works
+        </button>
       </div>
+
+      {showHelp && <QaHelpPanel onClose={() => setShowHelp(false)} />}
 
       {/* Filters */}
       <div className="flex flex-wrap items-center gap-3">
