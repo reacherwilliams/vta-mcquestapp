@@ -235,13 +235,16 @@ export function AdminNav({ role }: { role: string | undefined }) {
       {/* Desktop sidebar — persists from `md` up (reduced windows keep it); collapses to an icon rail. */}
       <aside
         className={cn(
-          "sticky top-0 hidden h-screen shrink-0 flex-col border-r border-slate-200 bg-white p-4 transition-[width] duration-200 dark:border-slate-800 dark:bg-slate-900 md:flex",
+          "sticky top-0 hidden h-screen shrink-0 flex-col overflow-hidden border-r border-slate-200 bg-white p-4 transition-[width] duration-200 dark:border-slate-800 dark:bg-slate-900 md:flex",
           collapsed ? "w-16" : "w-64",
         )}
       >
         {renderBrand(collapsed)}
-        {renderLinks(collapsed)}
-        <div className="mt-auto space-y-1 pt-6">
+        {/* Scrollable nav — keeps every item reachable on short windows */}
+        <div className="-mr-2 min-h-0 flex-1 overflow-y-auto pr-2">
+          {renderLinks(collapsed)}
+        </div>
+        <div className="shrink-0 space-y-1 pt-4">
           <Link
             href="/settings"
             title="Settings"
@@ -345,7 +348,7 @@ export function AdminNav({ role }: { role: string | undefined }) {
       {open && (
         <div className="fixed inset-0 z-30 md:hidden" onClick={() => setOpen(false)}>
           <div
-            className="absolute left-0 top-13.25 w-64 border-r border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900"
+            className="absolute bottom-0 left-0 top-13.25 w-64 overflow-y-auto border-r border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900"
             onClick={(e) => e.stopPropagation()}
           >
             {renderLinks(false)}
