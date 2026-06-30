@@ -54,25 +54,25 @@ async function main() {
 
   // ── Subjects ──────────────────────────────────────────────────────────────────
   const subjects = await Promise.all([
-    // IGCSE — CAIE syllabus codes
-    upsertSubject(igcse.id, "MATH", "Mathematics", "calculator", "#16a34a", 1, false, "0580"),
+    // IGCSE — CAIE syllabus codes. MATH (0580) and ENG (0500) have no MCQ paper → inactive.
+    upsertSubject(igcse.id, "MATH", "Mathematics", "calculator", "#16a34a", 1, false, "0580", false),
     upsertSubject(igcse.id, "PHY",  "Physics",     "atom",       "#0284c7", 2, false, "0625"),
     upsertSubject(igcse.id, "BIO",  "Biology",     "leaf",       "#15803d", 3, false, "0610"),
     upsertSubject(igcse.id, "CHEM", "Chemistry",   "flask-conical", "#9333ea", 4, false, "0620"),
-    upsertSubject(igcse.id, "ENG",  "English Language", "book-open", "#b45309", 5, false, "0500"),
-    // AS Level — share the A-Level syllabus code
-    upsertSubject(as.id, "MATH", "Mathematics", "calculator", "#16a34a", 1, false, "9709"),
+    upsertSubject(igcse.id, "ENG",  "English Language", "book-open", "#b45309", 5, false, "0500", false),
+    // AS Level — share the A-Level syllabus code. MATH (9709) has no MCQ paper → inactive.
+    upsertSubject(as.id, "MATH", "Mathematics", "calculator", "#16a34a", 1, false, "9709", false),
     upsertSubject(as.id, "PHY",  "Physics",     "atom",       "#0284c7", 2, false, "9702"),
     upsertSubject(as.id, "BIO",  "Biology",     "leaf",       "#15803d", 3, false, "9700"),
     upsertSubject(as.id, "CHEM", "Chemistry",   "flask-conical", "#9333ea", 4, false, "9701"),
-    // A2 Level — same A-Level syllabus code as AS
-    upsertSubject(a2.id, "MATH", "Mathematics", "calculator", "#16a34a", 1, false, "9709"),
+    // A2 Level — same A-Level syllabus code as AS. MATH has no MCQ paper → inactive.
+    upsertSubject(a2.id, "MATH", "Mathematics", "calculator", "#16a34a", 1, false, "9709", false),
     upsertSubject(a2.id, "PHY",  "Physics",     "atom",       "#0284c7", 2, false, "9702"),
     upsertSubject(a2.id, "BIO",  "Biology",     "leaf",       "#15803d", 3, false, "9700"),
     upsertSubject(a2.id, "CHEM", "Chemistry",   "flask-conical", "#9333ea", 4, false, "9701"),
-    // IB DP
-    upsertSubject(ib.id, "MATH_AA", "Mathematics AA", "calculator", "#16a34a", 1),
-    upsertSubject(ib.id, "MATH_AI", "Mathematics AI", "calculator", "#15803d", 2),
+    // IB DP — Maths AA/AI are constructed-response only (no MCQ) → inactive.
+    upsertSubject(ib.id, "MATH_AA", "Mathematics AA", "calculator", "#16a34a", 1, false, null, false),
+    upsertSubject(ib.id, "MATH_AI", "Mathematics AI", "calculator", "#15803d", 2, false, null, false),
     upsertSubject(ib.id, "PHY",     "Physics",        "atom",       "#0284c7", 3),
     upsertSubject(ib.id, "BIO",     "Biology",        "leaf",       "#15803d", 4),
     upsertSubject(ib.id, "CHEM",    "Chemistry",      "flask-conical", "#9333ea", 5),
@@ -816,11 +816,12 @@ async function upsertSubject(
   sortOrder: number,
   hasFrq = false,
   syllabusCode: string | null = null,
+  isActive = true, // false for subjects with no MCQ paper (kept but hidden)
 ) {
   return prisma.subject.upsert({
     where: { curriculumId_code: { curriculumId, code } },
-    update: { hasFrq, syllabusCode },
-    create: { curriculumId, code, name, iconKey, accentColor, sortOrder, hasFrq, syllabusCode },
+    update: { hasFrq, syllabusCode, isActive },
+    create: { curriculumId, code, name, iconKey, accentColor, sortOrder, hasFrq, syllabusCode, isActive },
   })
 }
 
