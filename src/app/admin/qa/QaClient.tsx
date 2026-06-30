@@ -15,12 +15,15 @@ type QaItem = {
   stemPreview: string
   display: DemoQuestion
 }
-type Subject = { id: string; name: string; curriculumCode: string }
+type Subject = { id: string; name: string; curriculumId: string; curriculumCode: string }
+type Curriculum = { id: string; code: string; displayName: string }
 
 type Props = {
   items: QaItem[]
+  curricula: Curriculum[]
   subjects: Subject[]
   status: "IN_QA" | "PUBLISHED"
+  curriculumId: string
   subjectId: string
   cappedAt: number | null
 }
@@ -32,7 +35,7 @@ const DIFFICULTY_BADGE: Record<string, string> = {
   CHALLENGE: "bg-rose-50 text-rose-700 dark:bg-rose-950/30 dark:text-rose-400",
 }
 
-export function QaClient({ items, subjects, status, subjectId, cappedAt }: Props) {
+export function QaClient({ items, curricula, subjects, status, curriculumId, subjectId, cappedAt }: Props) {
   const router = useRouter()
   const [testing, setTesting] = useState<number | null>(null)
   const [acted, setActed] = useState<Set<string>>(() => new Set())
@@ -40,10 +43,16 @@ export function QaClient({ items, subjects, status, subjectId, cappedAt }: Props
   const [sendBackOpen, setSendBackOpen] = useState(false)
   const [note, setNote] = useState("")
 
-  function setFilter(next: { status?: string; subjectId?: string }) {
+  // Subjects shown in the second dropdown cascade from the chosen curriculum.
+  const visibleSubjects = curriculumId ? subjects.filter((s) => s.curriculumId === curriculumId) : subjects
+
+  function setFilter(next: { status?: string; curriculumId?: string; subjectId?: string }) {
     const params = new URLSearchParams()
     params.set("status", next.status ?? status)
-    const sid = next.subjectId ?? subjectId
+    const cid = next.curriculumId ?? curriculumId
+    if (cid) params.set("curriculumId", cid)
+    // Changing the curriculum clears the subject selection.
+    const sid = "subjectId" in next ? next.subjectId : (next.curriculumId !== undefined ? "" : subjectId)
     if (sid) params.set("subjectId", sid)
     router.push(`/admin/qa?${params.toString()}`)
   }
@@ -195,24 +204,19 @@ export function QaClient({ items, subjects, status, subjectId, cappedAt }: Props
             </button>
           ))}
         </div>
-        <div className="relative">
-          <select
-            value={subjectId}
-            onChange={(e) => setFilter({ subjectId: e.target.value })}
-            className="appearance-none rounded-xl border border-slate-200 bg-white py-2 pl-3 pr-10 text-sm text-slate-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
-          >
-            <option value="">All subjects</option>
-            {subjects.map((s) => (
-              <option key={s.id} value={s.id}>{s.curriculumCode} — {s.name}</option>
-            ))}
-          </select>
-          <svg
-            className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"
-            viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
-          >
-            <polyline points="6 9 12 15 18 9" />
-          </svg>
-        </div>
+        {/* Curriculum → Subject cascade */}
+        <FilterSelect
+          value={curriculumId}
+          onChange={(v) => setFilter({ curriculumId: v })}
+          placeholder="All curricula"
+          options={curricula.map((c) => ({ value: c.id, label: c.displayName }))}
+        />
+        <FilterSelect
+          value={subjectId}
+          onChange={(v) => setFilter({ subjectId: v })}
+          placeholder="All subjects"
+          options={visibleSubjects.map((s) => ({ value: s.id, label: curriculumId ? s.name : `${s.curriculumCode} — ${s.name}` }))}
+        />
         {remaining.length > 0 && (
           <button
             onClick={() => setTesting(0)}
@@ -256,6 +260,37 @@ export function QaClient({ items, subjects, status, subjectId, cappedAt }: Props
           </ul>
         </div>
       )}
+    </div>
+  )
+}
+
+// Styled select with a padded custom chevron (native arrow sits flush to the edge).
+function FilterSelect({
+  value, onChange, placeholder, options,
+}: {
+  value: string
+  onChange: (v: string) => void
+  placeholder: string
+  options: { value: string; label: string }[]
+}) {
+  return (
+    <div className="relative">
+      <select
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        className="appearance-none rounded-xl border border-slate-200 bg-white py-2 pl-3 pr-10 text-sm text-slate-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
+      >
+        <option value="">{placeholder}</option>
+        {options.map((o) => (
+          <option key={o.value} value={o.value}>{o.label}</option>
+        ))}
+      </select>
+      <svg
+        className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"
+        viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+      >
+        <polyline points="6 9 12 15 18 9" />
+      </svg>
     </div>
   )
 }

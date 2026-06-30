@@ -9,7 +9,7 @@ import { QaClient } from "./QaClient"
 
 export const metadata = { title: "Admin — QA Testing" }
 
-type SearchParams = Promise<{ status?: string; subjectId?: string }>
+type SearchParams = Promise<{ status?: string; curriculumId?: string; subjectId?: string }>
 
 // Only these two pools are testable: awaiting-QA and already-live.
 function resolveStatus(raw: string | undefined): "IN_QA" | "PUBLISHED" {
@@ -31,12 +31,19 @@ export default async function QaPage({ searchParams }: { searchParams: SearchPar
   if (!session?.user?.id) redirect("/login")
   if (!isAdminTier(session.user.role)) redirect("/admin")
 
-  const { status: rawStatus, subjectId } = await searchParams
+  const { status: rawStatus, curriculumId, subjectId } = await searchParams
   const status = resolveStatus(rawStatus)
 
-  const [rows, subjects] = await Promise.all([
+  const [rows, subjects, curricula] = await Promise.all([
     prisma.question.findMany({
-      where: { status, ...(subjectId ? { subjectId } : {}) },
+      where: {
+        status,
+        ...(subjectId
+          ? { subjectId }
+          : curriculumId
+            ? { subject: { curriculumId } }
+            : {}),
+      },
       include: {
         subject: { include: { curriculum: true } },
         chapter: true,
@@ -47,8 +54,13 @@ export default async function QaPage({ searchParams }: { searchParams: SearchPar
     }),
     prisma.subject.findMany({
       where: { isActive: true },
-      select: { id: true, name: true, curriculum: { select: { code: true } } },
+      select: { id: true, name: true, curriculum: { select: { id: true, code: true } } },
       orderBy: [{ curriculum: { sortOrder: "asc" } }, { name: "asc" }],
+    }),
+    prisma.curriculum.findMany({
+      where: { isActive: true },
+      select: { id: true, code: true, displayName: true },
+      orderBy: { sortOrder: "asc" },
     }),
   ])
 
@@ -81,8 +93,10 @@ export default async function QaPage({ searchParams }: { searchParams: SearchPar
   return (
     <QaClient
       items={items}
-      subjects={subjects.map((s) => ({ id: s.id, name: s.name, curriculumCode: s.curriculum.code }))}
+      curricula={curricula}
+      subjects={subjects.map((s) => ({ id: s.id, name: s.name, curriculumId: s.curriculum.id, curriculumCode: s.curriculum.code }))}
       status={status}
+      curriculumId={curriculumId ?? ""}
       subjectId={subjectId ?? ""}
       cappedAt={rows.length === 100 ? 100 : null}
     />
