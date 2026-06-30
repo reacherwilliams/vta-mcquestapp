@@ -83,6 +83,23 @@ export function scopeAllows(scope: string[] | null, subjectId: string): boolean 
   return scope === null || scope.includes(subjectId)
 }
 
+/**
+ * Whether the entitlement regime grants this user UNCAPPED access — i.e. the
+ * legacy FREE daily limit should NOT apply. True only when the gate is on AND
+ * the user is an admin or holds an active enrollment (trial or paid). When the
+ * gate is off this is always false, so the legacy FREE-tier behaviour is intact.
+ * Grandfathered FREE users (no enrollment) stay on the legacy cap.
+ */
+export async function hasEntitlementFullAccess(userId: string, role?: string | null): Promise<boolean> {
+  const gate = await getEntitlementGate()
+  if (!gate.enabled) return false
+  if (isAdminTier(role)) return true
+  const count = await prisma.enrollment.count({
+    where: { userId, status: "ACTIVE", OR: [{ expiresAt: null }, { expiresAt: { gt: new Date() } }] },
+  })
+  return count > 0
+}
+
 // ─── Trials ───────────────────────────────────────────────────────────────────
 // New students get a time-limited TRIAL enrollment for the subjects they pick
 // at signup. The trial length is SA-configurable.

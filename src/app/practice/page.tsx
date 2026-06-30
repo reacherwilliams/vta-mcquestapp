@@ -107,6 +107,9 @@ export default async function PracticeDashboard() {
   ])
   const isGated = entitledScope !== null
   const trialEnded = isGated && !trial.onTrial && entitledScope.length === 0
+  // Entitlement-based full access (active trial/paid) — hide the legacy FREE
+  // daily-limit banners, which don't apply to these users.
+  const entitlementFullAccess = isGated && entitledScope.length > 0
 
   const totalXp   = xpRows.reduce((s, r) => s + r.delta, 0)
   const todayXp   = todayXpRows.reduce((s, r) => s + r.delta, 0)
@@ -218,7 +221,7 @@ export default async function PracticeDashboard() {
         )}
 
         {/* Free-tier daily limit banner */}
-        {plan === "FREE" && todayAttemptCount >= FREE_DAILY_LIMIT && (
+        {!entitlementFullAccess && plan === "FREE" && todayAttemptCount >= FREE_DAILY_LIMIT && (
           <Link
             href="/pricing"
             className="flex items-center justify-between gap-3 rounded-2xl border border-amber-200 bg-amber-50 px-5 py-3.5 transition hover:bg-amber-100 dark:border-amber-800 dark:bg-amber-950/20 dark:hover:bg-amber-950/30"
@@ -231,7 +234,7 @@ export default async function PracticeDashboard() {
           </Link>
         )}
 
-        {plan === "FREE" && todayAttemptCount < FREE_DAILY_LIMIT && todayAttemptCount > 0 && (
+        {!entitlementFullAccess && plan === "FREE" && todayAttemptCount < FREE_DAILY_LIMIT && todayAttemptCount > 0 && (
           <Link
             href="/pricing"
             className="flex items-center justify-between gap-3 rounded-2xl border border-slate-200 bg-white px-5 py-3 transition hover:bg-slate-50 dark:border-slate-800 dark:bg-slate-900 dark:hover:bg-slate-800/60"

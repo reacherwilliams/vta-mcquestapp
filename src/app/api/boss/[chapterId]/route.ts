@@ -2,6 +2,7 @@ import "server-only"
 import { NextResponse } from "next/server"
 import { auth } from "@/lib/auth"
 import { prisma } from "@/lib/prisma"
+import { getEntitledSubjectScope, scopeAllows } from "@/lib/entitlements"
 
 type RouteCtx = { params: Promise<{ chapterId: string }> }
 
@@ -30,6 +31,14 @@ export async function POST(req: Request, { params }: RouteCtx) {
   const { unlocked } = await checkBossUnlock(userId, chapterId)
   if (!unlocked) {
     return NextResponse.json({ error: "Boss not yet unlocked. Attempt ≥80% of chapter questions first." }, { status: 403 })
+  }
+
+  // Entitlement check — the chapter's subject must be accessible to this user.
+  const chapter = await prisma.chapter.findUnique({ where: { id: chapterId }, select: { subjectId: true } })
+  if (!chapter) return NextResponse.json({ error: "Chapter not found." }, { status: 404 })
+  const scope = await getEntitledSubjectScope(userId, session.user.role as string | undefined)
+  if (!scopeAllows(scope, chapter.subjectId)) {
+    return NextResponse.json({ error: "You're not enrolled in this subject." }, { status: 403 })
   }
 
   // Pick 10 hardest CHALLENGE questions from the chapter

@@ -3,6 +3,7 @@ import { NextResponse } from "next/server"
 import { auth } from "@/lib/auth"
 import { prisma } from "@/lib/prisma"
 import { calcXp } from "@/lib/xp"
+import { hasEntitlementFullAccess } from "@/lib/entitlements"
 
 // ── Badge catalogue (upserted on first use, no separate seed step needed) ──────
 const BADGE_DEFS = [
@@ -127,12 +128,15 @@ export async function POST(req: Request) {
   }
 
   // ── Free-tier gate (10 attempts per UTC day) ──────────────────────────────
+  // Skipped for users with entitlement-based full access (active trial or paid
+  // enrollment under the gate) — they practise fully, no daily cap.
   const sub = await prisma.subscription.findUnique({
     where: { userId },
     select: { plan: true },
   })
   const plan = sub?.plan ?? "FREE"
-  if (plan === "FREE") {
+  const uncapped = plan !== "FREE" || (await hasEntitlementFullAccess(userId, session.user.role as string | undefined))
+  if (!uncapped) {
     const dayStart = new Date()
     dayStart.setUTCHours(0, 0, 0, 0)
     const todayCount = await prisma.attempt.count({
