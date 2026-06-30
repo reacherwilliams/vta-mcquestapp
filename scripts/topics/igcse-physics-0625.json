@@ -2,43 +2,2799 @@
   "curriculumCode": "IGCSE",
   "subject": "Physics",
   "syllabusCode": "0625",
-  "source": "school-core:CAMBRIDGE_IGCSE",
-  "note": "Sample/representative tree following the CAIE 0625 syllabus structure. examWeight is null here; the real import from School-Core carries per-strand weighting from LibraryStrand.metadata.",
+  "source": "school-core:CAIE-0625@2026–2028",
   "strands": [
-    { "code": "IGCSE.PHY.1", "parentCode": null, "title": "Motion, forces and energy", "level": 1, "examWeight": null, "sortOrder": 0 },
-    { "code": "IGCSE.PHY.1.1", "parentCode": "IGCSE.PHY.1", "title": "Physical quantities and measurement techniques", "level": 2, "sortOrder": 0 },
-    { "code": "IGCSE.PHY.1.2", "parentCode": "IGCSE.PHY.1", "title": "Motion", "level": 2, "sortOrder": 1 },
-    { "code": "IGCSE.PHY.1.3", "parentCode": "IGCSE.PHY.1", "title": "Mass and weight", "level": 2, "sortOrder": 2 },
-    { "code": "IGCSE.PHY.1.4", "parentCode": "IGCSE.PHY.1", "title": "Density", "level": 2, "sortOrder": 3 },
-    { "code": "IGCSE.PHY.1.5", "parentCode": "IGCSE.PHY.1", "title": "Forces", "level": 2, "sortOrder": 4 },
-    { "code": "IGCSE.PHY.1.6", "parentCode": "IGCSE.PHY.1", "title": "Momentum", "level": 2, "sortOrder": 5 },
-    { "code": "IGCSE.PHY.1.7", "parentCode": "IGCSE.PHY.1", "title": "Energy, work and power", "level": 2, "sortOrder": 6 },
-    { "code": "IGCSE.PHY.1.8", "parentCode": "IGCSE.PHY.1", "title": "Pressure", "level": 2, "sortOrder": 7 },
-
-    { "code": "IGCSE.PHY.2", "parentCode": null, "title": "Thermal physics", "level": 1, "examWeight": null, "sortOrder": 1 },
-    { "code": "IGCSE.PHY.2.1", "parentCode": "IGCSE.PHY.2", "title": "Kinetic particle model of matter", "level": 2, "sortOrder": 0 },
-    { "code": "IGCSE.PHY.2.2", "parentCode": "IGCSE.PHY.2", "title": "Thermal properties and temperature", "level": 2, "sortOrder": 1 },
-    { "code": "IGCSE.PHY.2.3", "parentCode": "IGCSE.PHY.2", "title": "Transfer of thermal energy", "level": 2, "sortOrder": 2 },
-
-    { "code": "IGCSE.PHY.3", "parentCode": null, "title": "Waves", "level": 1, "examWeight": null, "sortOrder": 2 },
-    { "code": "IGCSE.PHY.3.1", "parentCode": "IGCSE.PHY.3", "title": "General properties of waves", "level": 2, "sortOrder": 0 },
-    { "code": "IGCSE.PHY.3.2", "parentCode": "IGCSE.PHY.3", "title": "Light", "level": 2, "sortOrder": 1 },
-    { "code": "IGCSE.PHY.3.3", "parentCode": "IGCSE.PHY.3", "title": "Electromagnetic spectrum", "level": 2, "sortOrder": 2 },
-    { "code": "IGCSE.PHY.3.4", "parentCode": "IGCSE.PHY.3", "title": "Sound", "level": 2, "sortOrder": 3 },
-
-    { "code": "IGCSE.PHY.4", "parentCode": null, "title": "Electricity and magnetism", "level": 1, "examWeight": null, "sortOrder": 3 },
-    { "code": "IGCSE.PHY.4.1", "parentCode": "IGCSE.PHY.4", "title": "Simple phenomena of magnetism", "level": 2, "sortOrder": 0 },
-    { "code": "IGCSE.PHY.4.2", "parentCode": "IGCSE.PHY.4", "title": "Electrical quantities", "level": 2, "sortOrder": 1 },
-    { "code": "IGCSE.PHY.4.3", "parentCode": "IGCSE.PHY.4", "title": "Electric circuits", "level": 2, "sortOrder": 2 },
-    { "code": "IGCSE.PHY.4.4", "parentCode": "IGCSE.PHY.4", "title": "Electrical safety", "level": 2, "sortOrder": 3 },
-    { "code": "IGCSE.PHY.4.5", "parentCode": "IGCSE.PHY.4", "title": "Electromagnetic effects", "level": 2, "sortOrder": 4 },
-
-    { "code": "IGCSE.PHY.5", "parentCode": null, "title": "Nuclear physics", "level": 1, "examWeight": null, "sortOrder": 4 },
-    { "code": "IGCSE.PHY.5.1", "parentCode": "IGCSE.PHY.5", "title": "The nuclear model of the atom", "level": 2, "sortOrder": 0 },
-    { "code": "IGCSE.PHY.5.2", "parentCode": "IGCSE.PHY.5", "title": "Radioactivity", "level": 2, "sortOrder": 1 },
-
-    { "code": "IGCSE.PHY.6", "parentCode": null, "title": "Space physics", "level": 1, "examWeight": null, "sortOrder": 5 },
-    { "code": "IGCSE.PHY.6.1", "parentCode": "IGCSE.PHY.6", "title": "Earth and the Solar System", "level": 2, "sortOrder": 0 },
-    { "code": "IGCSE.PHY.6.2", "parentCode": "IGCSE.PHY.6", "title": "Stars and the Universe", "level": 2, "sortOrder": 1 }
+    {
+      "code": "1",
+      "parentCode": null,
+      "title": "Motion, forces and energy",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2",
+      "parentCode": null,
+      "title": "Thermal physics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3",
+      "parentCode": null,
+      "title": "Waves",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4",
+      "parentCode": null,
+      "title": "Electricity and magnetism",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5",
+      "parentCode": null,
+      "title": "Nuclear physics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6",
+      "parentCode": null,
+      "title": "Space physics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.1",
+      "parentCode": "3",
+      "title": "General properties of waves",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "6",
+      "title": "The Earth and the Solar System",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "5",
+      "title": "The nuclear model of the atom",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "4",
+      "title": "Simple phenomena of magnetism",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "1",
+      "title": "Physical quantities and measurement techniques",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "2",
+      "title": "Kinetic particle model of matter",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.2",
+      "parentCode": "6",
+      "title": "Stars and the Universe",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "2",
+      "title": "Thermal properties and temperature",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "3",
+      "title": "Light",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "4",
+      "title": "Electrical quantities",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "5",
+      "title": "Radioactivity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "1",
+      "title": "Motion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.3",
+      "parentCode": "1",
+      "title": "Mass and weight",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "3",
+      "title": "Electromagnetic spectrum",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "2",
+      "title": "Transfer of thermal energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3",
+      "parentCode": "4",
+      "title": "Electric circuits",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.4",
+      "parentCode": "1",
+      "title": "Density",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "3",
+      "title": "Sound",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4",
+      "parentCode": "4",
+      "title": "Electrical safety",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.5",
+      "parentCode": "1",
+      "title": "Forces",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5",
+      "parentCode": "4",
+      "title": "Electromagnetic effects",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.6",
+      "parentCode": "1",
+      "title": "Momentum",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.7",
+      "parentCode": "1",
+      "title": "Energy, work and power",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.8",
+      "parentCode": "1",
+      "title": "Pressure",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.5.1",
+      "parentCode": "1.5",
+      "title": "Forces can change the size and shape of objects",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.6.1",
+      "parentCode": "1.6",
+      "title": "Define and calculate momentum using p = mv",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.8.1",
+      "parentCode": "1.8",
+      "title": "Define pressure and apply the force per unit area equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.7.1",
+      "parentCode": "1.7",
+      "title": "Identify seven different forms of energy storage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.3.1",
+      "parentCode": "4.3",
+      "title": "Draw and interpret circuit diagrams with multiple component types and behaviors",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1.1",
+      "parentCode": "1.1",
+      "title": "Use rulers and measuring cylinders to determine length and volume measurements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.5.1",
+      "parentCode": "4.5",
+      "title": "Understand that moving conductors or changing magnetic fields induce e.m.f.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.4.1",
+      "parentCode": "4.4",
+      "title": "Identify hazards of damaged insulation, overheating cables, damp conditions, and excess current.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1.1",
+      "parentCode": "4.1",
+      "title": "Describe magnetic forces between poles and materials using standard terminology",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2.1",
+      "parentCode": "1.2",
+      "title": "Define speed and apply the distance per unit time equation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.4.1",
+      "parentCode": "3.4",
+      "title": "Explain how vibrating sources produce sound waves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.3.1",
+      "parentCode": "3.3",
+      "title": "Identify and order electromagnetic spectrum regions by frequency and wavelength",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1.1",
+      "parentCode": "5.1",
+      "title": "Explain atomic structure: positive nucleus with orbiting negative electrons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.2.1",
+      "parentCode": "5.2",
+      "title": "Understand the definition and concept of background radiation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.3.1",
+      "parentCode": "1.3",
+      "title": "Mass measures the quantity of matter in an object at rest.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.4.1",
+      "parentCode": "1.4",
+      "title": "Define density and apply the mass per unit volume equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.2.1",
+      "parentCode": "3.2",
+      "title": "Define and use terms: normal, angle of incidence, angle of reflection",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1.1",
+      "parentCode": "2.1",
+      "title": "Identify distinguishing properties of solids, liquids, and gases",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.2.1",
+      "parentCode": "4.2",
+      "title": "Identify positive and negative charges as two types of electric charge",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1.1",
+      "parentCode": "3.1",
+      "title": "Waves transfer energy but not matter",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.3.1",
+      "parentCode": "2.3",
+      "title": "Demonstrate experiments showing properties of good and bad thermal conductors",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1.1",
+      "parentCode": "6.1",
+      "title": "Earth's rotation explains daily Sun motion and day-night cycles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.2.1",
+      "parentCode": "2.2",
+      "title": "Describe qualitative thermal expansion of solids, liquids, and gases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.2.1",
+      "parentCode": "6.2",
+      "title": "Sun is medium star; mostly hydrogen/helium; radiates infrared, visible, ultraviolet",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.2.2",
+      "parentCode": "3.2",
+      "title": "Describe plane mirror image formation and characteristics: size, distance, virtual",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.7.2",
+      "parentCode": "1.7",
+      "title": "Explain energy transfer mechanisms across different stores and processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.4.2",
+      "parentCode": "1.4",
+      "title": "Determine density of liquids, regular solids, and irregular solids by displacement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2.2",
+      "parentCode": "4.2",
+      "title": "Explain charge interactions: like charges repel, opposite charges attract",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.4.2",
+      "parentCode": "4.4",
+      "title": "Explain mains circuit components and why switches connect to the live wire.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2.2",
+      "parentCode": "2.2",
+      "title": "Describe everyday applications and consequences of thermal expansion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.5.2",
+      "parentCode": "1.5",
+      "title": "Create and interpret load-extension graphs; describe experimental procedures",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2.2",
+      "parentCode": "6.2",
+      "title": "Stars powered by nuclear fusion converting hydrogen to helium",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.1.2",
+      "parentCode": "3.1",
+      "title": "Explain wave motion using ropes, springs, and water wave examples",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.6.2",
+      "parentCode": "1.6",
+      "title": "Define impulse and apply impulse-momentum equations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.5.2",
+      "parentCode": "4.5",
+      "title": "Describe an experimental demonstration of electromagnetic induction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.4.2",
+      "parentCode": "3.4",
+      "title": "Explain that sound waves are longitudinal in nature.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.3.2",
+      "parentCode": "4.3",
+      "title": "Draw and interpret circuits with diodes and LEDs; understand their behavior",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.3.2",
+      "parentCode": "3.3",
+      "title": "Understand that all electromagnetic waves travel at equal speed in vacuum",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.3.2",
+      "parentCode": "2.3",
+      "title": "Explain conduction via lattice vibrations and electron movement in metals",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.1.2",
+      "parentCode": "2.1",
+      "title": "Learn state change terminology, excluding gas-to-solid and solid-to-gas",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.1.2",
+      "parentCode": "5.1",
+      "title": "Understand ion formation through electron loss or gain",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.8.2",
+      "parentCode": "1.8",
+      "title": "Explain pressure variation with force and area using everyday contexts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2.2",
+      "parentCode": "1.2",
+      "title": "Distinguish velocity from speed by including direction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.1.2",
+      "parentCode": "4.1",
+      "title": "Describe how magnetism can be induced in materials",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2.2",
+      "parentCode": "5.2",
+      "title": "Identify major sources of background radiation from environment and space",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.1.2",
+      "parentCode": "6.1",
+      "title": "Earth's orbit explains seasonal changes throughout the year.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.1.2",
+      "parentCode": "1.1",
+      "title": "Measure time intervals using clocks and digital timers for various applications.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.3.2",
+      "parentCode": "1.3",
+      "title": "Weight is the gravitational force acting on a mass.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.1.3",
+      "parentCode": "4.1",
+      "title": "Compare temporary and permanent magnet properties and materials",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3.3",
+      "parentCode": "4.3",
+      "title": "Understand that current is constant throughout a series circuit",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.1.3",
+      "parentCode": "1.1",
+      "title": "Calculate average distances and time intervals by measuring multiple repetitions including pendulum periods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.2.3",
+      "parentCode": "1.2",
+      "title": "Calculate average speed from total distance and time",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3.3",
+      "parentCode": "1.3",
+      "title": "Define gravitational field strength; use g = W/m; relate to free fall acceleration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.4.3",
+      "parentCode": "1.4",
+      "title": "Predict whether objects float using density data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.5.3",
+      "parentCode": "1.5",
+      "title": "Find the resultant of multiple collinear forces",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.2.3",
+      "parentCode": "6.2",
+      "title": "Galaxies contain billions of stars; Sun in Milky Way; light-year measures distance",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.6.3",
+      "parentCode": "1.6",
+      "title": "Apply conservation of momentum in one-dimensional problems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.7.3",
+      "parentCode": "1.7",
+      "title": "Apply energy conservation to simple examples and flow diagrams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.8.3",
+      "parentCode": "1.8",
+      "title": "Qualitatively describe how liquid pressure changes with depth and density.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.1.3",
+      "parentCode": "2.1",
+      "title": "Describe particle structure and create diagrams for three states of matter",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.1.3",
+      "parentCode": "6.1",
+      "title": "Moon's monthly orbit explains its periodic phase cycle.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.2.3",
+      "parentCode": "2.2",
+      "title": "Explain particle motion and arrangement causing expansion magnitude differences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3.3",
+      "parentCode": "2.3",
+      "title": "Explain poor thermal conduction in gases and liquids using particle theory",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.2.3",
+      "parentCode": "5.2",
+      "title": "Understand detection and measurement of ionising nuclear radiation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.1.3",
+      "parentCode": "3.1",
+      "title": "Identify and describe key wave features and properties",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.2.3",
+      "parentCode": "3.2",
+      "title": "State and use the law of reflection: angle of incidence equals angle of reflection",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.1.3",
+      "parentCode": "5.1",
+      "title": "Explain that nuclei contain protons and neutrons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3.3",
+      "parentCode": "3.3",
+      "title": "Describe practical applications of each electromagnetic spectrum region",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.4.3",
+      "parentCode": "3.4",
+      "title": "State human hearing range as 20 Hz to 20 kHz.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.2.3",
+      "parentCode": "4.2",
+      "title": "Design experiments to produce and detect electrostatic charges through friction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.5.3",
+      "parentCode": "4.5",
+      "title": "Identify factors that affect induced e.m.f. magnitude",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.4.3",
+      "parentCode": "4.4",
+      "title": "Explain trip switches and fuses; select appropriate ratings and settings.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.1.4",
+      "parentCode": "3.1",
+      "title": "Apply wave speed equation v equals frequency times wavelength",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.2.4",
+      "parentCode": "4.2",
+      "title": "Explain friction charging as electron transfer between solid materials",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4.4",
+      "parentCode": "3.4",
+      "title": "Understand that sound requires a medium for transmission.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.5.4",
+      "parentCode": "1.5",
+      "title": "Objects remain at rest or move at constant velocity without resultant force",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.2.4",
+      "parentCode": "1.2",
+      "title": "Create and analyze distance-time and speed-time graphs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.1.4",
+      "parentCode": "6.1",
+      "title": "Calculate orbital speed using radius and period equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.4.4",
+      "parentCode": "4.4",
+      "title": "Explain why appliance casings must be double-insulated or earthed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.3.4",
+      "parentCode": "3.3",
+      "title": "Explain health hazards from overexposure to various electromagnetic radiations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.2.4",
+      "parentCode": "6.2",
+      "title": "One light-year equals 9.5 × 10¹⁵ metres",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.3.4",
+      "parentCode": "2.3",
+      "title": "Know intermediate thermal conductivity solids exist between insulators and conductors",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.8.4",
+      "parentCode": "1.8",
+      "title": "Apply the pressure change equation for liquids at different depths.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.2.4",
+      "parentCode": "2.2",
+      "title": "Know temperature rise increases object's internal energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.1.4",
+      "parentCode": "5.1",
+      "title": "Know relative charges: protons +1, neutrons 0, electrons –1",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.6.4",
+      "parentCode": "1.6",
+      "title": "Define resultant force as rate of change of momentum",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.3.4",
+      "parentCode": "1.3",
+      "title": "Compare weights and masses using a balance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.3.4",
+      "parentCode": "4.3",
+      "title": "Use Kirchhoff's current law, voltage laws for series and parallel circuits in calculations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.1.4",
+      "parentCode": "2.1",
+      "title": "Link particle motion to temperature; understand absolute zero concept",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.2.4",
+      "parentCode": "3.2",
+      "title": "Use constructions, measurements, calculations for plane mirror reflection",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4.4",
+      "parentCode": "1.4",
+      "title": "Predict whether one immiscible liquid floats on another using density.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.7.4",
+      "parentCode": "1.7",
+      "title": "Calculate kinetic energy using the standard equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.2.4",
+      "parentCode": "5.2",
+      "title": "Apply count rate measurements in appropriate units",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.5.4",
+      "parentCode": "4.5",
+      "title": "Understand that induced e.m.f. direction opposes the causing change",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.1.4",
+      "parentCode": "4.1",
+      "title": "Distinguish between magnetic and non-magnetic materials",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.1.4",
+      "parentCode": "1.1",
+      "title": "Distinguish between scalar quantities with magnitude only and vectors with magnitude and direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.2.5",
+      "parentCode": "5.2",
+      "title": "Calculate corrected count rates using background radiation data",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.5.5",
+      "parentCode": "4.5",
+      "title": "Apply relationships between force, field, and induced current directions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.5.5",
+      "parentCode": "1.5",
+      "title": "Resultant force changes velocity by altering direction or speed",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.1.5",
+      "parentCode": "3.1",
+      "title": "Transverse waves vibrate perpendicular to propagation direction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.7.5",
+      "parentCode": "1.7",
+      "title": "Calculate gravitational potential energy change using the equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.2.5",
+      "parentCode": "4.2",
+      "title": "Design experiments to differentiate conductors from insulators experimentally",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.2.5",
+      "parentCode": "6.2",
+      "title": "Star life cycle from formation through red giant/supergiant to final remnant",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.3.5",
+      "parentCode": "4.3",
+      "title": "Construct and use both series and parallel circuit configurations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.2.5",
+      "parentCode": "2.2",
+      "title": "Describe temperature increase as increased average particle kinetic energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.1.5",
+      "parentCode": "6.1",
+      "title": "Describe composition and structure of the Solar System.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.1.5",
+      "parentCode": "4.1",
+      "title": "Define a magnetic field as region where poles experience force",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.1.5",
+      "parentCode": "1.1",
+      "title": "Identify distance, speed, time, mass, energy, and temperature as scalar quantities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.4.5",
+      "parentCode": "3.4",
+      "title": "Know speed of sound in air is approximately 330-350 m/s.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.4.5",
+      "parentCode": "4.4",
+      "title": "State that fuses protect circuits and cabling in double-insulated appliances.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.2.5",
+      "parentCode": "1.2",
+      "title": "Identify motion states from graphs: rest, constant speed, acceleration, deceleration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.3.5",
+      "parentCode": "3.3",
+      "title": "Understand microwave use in satellite communications and orbital types",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.3.5",
+      "parentCode": "2.3",
+      "title": "Understand convection as important thermal energy transfer in fluids",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.1.5",
+      "parentCode": "5.1",
+      "title": "Define Z and A; calculate neutron numbers in nuclei",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.2.5",
+      "parentCode": "3.2",
+      "title": "Define and use terms: normal, angle of incidence, angle of refraction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.3.5",
+      "parentCode": "1.3",
+      "title": "Describe and use weight as gravitational field effect on mass.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.1.5",
+      "parentCode": "2.1",
+      "title": "Explain gas pressure using particle motion and surface collisions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.2.6",
+      "parentCode": "4.2",
+      "title": "Use electron model to explain conductor and insulator properties with examples",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.1.6",
+      "parentCode": "2.1",
+      "title": "Recognize random particle motion as evidence for kinetic theory",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.2.6",
+      "parentCode": "6.2",
+      "title": "Milky Way one of billions of galaxies; diameter ~100,000 light-years",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.2.6",
+      "parentCode": "2.2",
+      "title": "Define specific heat capacity and apply the equation c = ∆E/(m∆θ).",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.5.6",
+      "parentCode": "4.5",
+      "title": "Describe a.c. generator construction with slip rings and brushes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.3.6",
+      "parentCode": "2.3",
+      "title": "Explain convection by density changes and demonstrate with experiments",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.5.6",
+      "parentCode": "1.5",
+      "title": "Friction between surfaces impedes motion and produces heat",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.2.6",
+      "parentCode": "5.2",
+      "title": "Explain spontaneous and random nature of nuclear radiation emission",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.1.6",
+      "parentCode": "3.1",
+      "title": "Longitudinal waves vibrate parallel to propagation direction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.2.6",
+      "parentCode": "3.2",
+      "title": "Describe experiment showing refraction using transparent blocks",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.1.6",
+      "parentCode": "5.1",
+      "title": "Apply nuclide notation to represent atoms and nuclei",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.2.6",
+      "parentCode": "1.2",
+      "title": "Find speed using gradient of distance-time graph",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.3.6",
+      "parentCode": "3.3",
+      "title": "Know the speed value of electromagnetic waves in vacuum and air",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.4.6",
+      "parentCode": "3.4",
+      "title": "Describe a method using distance and time measurements for sound speed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.1.6",
+      "parentCode": "1.1",
+      "title": "Identify force, weight, velocity, acceleration, momentum, and field strengths as vectors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.1.6",
+      "parentCode": "4.1",
+      "title": "Draw magnetic field line patterns and directions around bar magnets",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.3.6",
+      "parentCode": "4.3",
+      "title": "Calculate total electromotive force of multiple sources in series",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.7.6",
+      "parentCode": "1.7",
+      "title": "Apply energy conservation to complex multi-stage examples and Sankey diagrams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.1.6",
+      "parentCode": "6.1",
+      "title": "Explain planetary differences using accretion model formation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.1.7",
+      "parentCode": "2.1",
+      "title": "Explain Brownian motion using random particle collisions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.4.7",
+      "parentCode": "3.4",
+      "title": "Explain how amplitude and frequency affect loudness and pitch.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.5.7",
+      "parentCode": "1.5",
+      "title": "Friction acts on objects moving through liquids",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.2.7",
+      "parentCode": "4.2",
+      "title": "Identify coulombs as the unit of electric charge measurement",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.2.7",
+      "parentCode": "6.2",
+      "title": "Redshift is increased wavelength from receding stars and galaxies",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.1.7",
+      "parentCode": "6.1",
+      "title": "Gravitational field strength depends on mass and distance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.3.7",
+      "parentCode": "3.3",
+      "title": "Explain electromagnetic radiation use in modern communication technologies",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.5.7",
+      "parentCode": "4.5",
+      "title": "Sketch and interpret a.c. generator e.m.f. graphs and coil position relationships",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.1.7",
+      "parentCode": "4.1",
+      "title": "State magnetic field direction equals force direction on N pole",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.2.7",
+      "parentCode": "3.2",
+      "title": "Describe light passage through transparent material at medium boundaries",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.1.7",
+      "parentCode": "5.1",
+      "title": "Define isotopes; recognize elements have multiple isotope forms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.3.7",
+      "parentCode": "4.3",
+      "title": "Calculate total resistance of multiple resistors in series",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.2.7",
+      "parentCode": "5.2",
+      "title": "Distinguish three nuclear emissions by nature, ionisation, and penetration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.3.7",
+      "parentCode": "2.3",
+      "title": "Know thermal radiation is infrared and all objects emit it",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.1.7",
+      "parentCode": "3.1",
+      "title": "Describe reflection, refraction, and diffraction of waves",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.2.7",
+      "parentCode": "2.2",
+      "title": "Describe experiments measuring specific heat capacity of solids and liquids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.7.7",
+      "parentCode": "1.7",
+      "title": "Understand the equivalence between work done and energy transferred.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.1.7",
+      "parentCode": "1.1",
+      "title": "Calculate or graph resultant vectors for perpendicular forces or velocities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.2.7",
+      "parentCode": "1.2",
+      "title": "Find distance from area under speed-time graph",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.1.8",
+      "parentCode": "3.1",
+      "title": "Use ripple tank to demonstrate wave reflection, refraction, and diffraction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.1.8",
+      "parentCode": "5.1",
+      "title": "Explain alpha scattering evidence for nuclear model structure and charge",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.3.8",
+      "parentCode": "2.3",
+      "title": "Know thermal radiation requires no medium for energy transfer",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.3.8",
+      "parentCode": "4.3",
+      "title": "State that source current exceeds branch current in parallel circuits",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.2.8",
+      "parentCode": "1.2",
+      "title": "Recall gravitational acceleration value near Earth surface",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.5.8",
+      "parentCode": "1.5",
+      "title": "Friction acts on objects moving through gases like air",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "6.1.8",
+      "parentCode": "6.1",
+      "title": "Calculate light travel time across Solar System distances.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.3.8",
+      "parentCode": "3.3",
+      "title": "Distinguish between digital and analogue signal characteristics",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "6.2.8",
+      "parentCode": "6.2",
+      "title": "Light from distant galaxies appears redshifted relative to Earth light",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.4.8",
+      "parentCode": "3.4",
+      "title": "Describe echoes as reflected sound waves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.2.8",
+      "parentCode": "2.2",
+      "title": "Describe melting and boiling as energy input without temperature change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.1.8",
+      "parentCode": "4.1",
+      "title": "Describe plotting field lines using compass and iron filings",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.5.8",
+      "parentCode": "4.5",
+      "title": "Describe magnetic field patterns from currents in wires and solenoids",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.2.8",
+      "parentCode": "4.2",
+      "title": "Define electric field as region where charges experience force",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.1.8",
+      "parentCode": "2.1",
+      "title": "Explain pressure changes with temperature and volume qualitatively",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.7.8",
+      "parentCode": "1.7",
+      "title": "Calculate mechanical work using force and distance or energy change.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.2.8",
+      "parentCode": "3.2",
+      "title": "State the meaning of critical angle",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.2.8",
+      "parentCode": "5.2",
+      "title": "Explain deflection of nuclear radiations in electromagnetic fields",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.1.9",
+      "parentCode": "3.1",
+      "title": "Explain how wavelength and gap size affect gap diffraction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.5.9",
+      "parentCode": "4.5",
+      "title": "Describe experiment to identify magnetic field patterns and directions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.2.9",
+      "parentCode": "2.2",
+      "title": "Know water's melting and boiling temperatures at standard pressure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.2.9",
+      "parentCode": "1.2",
+      "title": "Define acceleration and apply change in velocity equation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "5.1.9",
+      "parentCode": "5.1",
+      "title": "Explain fission and fusion with nuclide equations and energy changes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.1.9",
+      "parentCode": "4.1",
+      "title": "Describe applications of permanent magnets and electromagnets",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.1.9",
+      "parentCode": "2.1",
+      "title": "Convert between Kelvin and Celsius; use temperature conversion equation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "6.1.9",
+      "parentCode": "6.1",
+      "title": "Sun's mass explains why planets orbit around it.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "6.2.9",
+      "parentCode": "6.2",
+      "title": "Redshift evidence for expanding Universe and Big Bang Theory",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.2.9",
+      "parentCode": "4.2",
+      "title": "State electric field direction corresponds to positive charge force direction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "3.2.9",
+      "parentCode": "3.2",
+      "title": "Describe internal and total internal reflection with examples",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.3.9",
+      "parentCode": "2.3",
+      "title": "Describe surface colour and texture effects on infrared emission and absorption",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "3.3.9",
+      "parentCode": "3.3",
+      "title": "Understand sound transmission as digital or analogue signals",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "5.2.9",
+      "parentCode": "5.2",
+      "title": "Account for ionising effects using kinetic energy and electric charge",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.5.9",
+      "parentCode": "1.5",
+      "title": "Define spring constant; use equation k = F/x",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.7.9",
+      "parentCode": "1.7",
+      "title": "Describe energy generation methods from seven different renewable and non-renewable sources.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.3.9",
+      "parentCode": "4.3",
+      "title": "Explain Kirchhoff's current law at junctions in parallel circuits",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "3.4.9",
+      "parentCode": "3.4",
+      "title": "Define ultrasound as sound with frequency above 20 kHz.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.3.10",
+      "parentCode": "2.3",
+      "title": "Know constant temperature requires equal energy transfer rates in and out",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "3.4.10",
+      "parentCode": "3.4",
+      "title": "Describe compression and rarefaction in sound waves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "4.5.10",
+      "parentCode": "4.5",
+      "title": "Describe relay and loudspeaker applications of magnetic current effects",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "4.1.10",
+      "parentCode": "4.1",
+      "title": "Explain magnetic forces result from magnetic field interactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "4.2.10",
+      "parentCode": "4.2",
+      "title": "Describe electric field patterns around charges and between charged plates",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "2.2.10",
+      "parentCode": "2.2",
+      "title": "Describe condensation and solidification using particle model.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "4.3.10",
+      "parentCode": "4.3",
+      "title": "Calculate total resistance of two resistors in parallel",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "3.1.10",
+      "parentCode": "3.1",
+      "title": "Explain how wavelength affects edge diffraction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "3.3.10",
+      "parentCode": "3.3",
+      "title": "Explain advantages of digital signalling for data transmission and range",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "1.7.10",
+      "parentCode": "1.7",
+      "title": "Compare energy sources across five criteria: renewability, availability, reliability, scale, and environmental impact.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "1.5.10",
+      "parentCode": "1.5",
+      "title": "Define and identify limit of proportionality on load-extension graphs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "3.2.10",
+      "parentCode": "3.2",
+      "title": "Define refractive index as ratio of wave speeds in two regions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "5.1.10",
+      "parentCode": "5.1",
+      "title": "Understand how proton number determines nuclear charge",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "1.2.10",
+      "parentCode": "1.2",
+      "title": "Identify constant and changing acceleration from speed-time graphs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "6.2.10",
+      "parentCode": "6.2",
+      "title": "Cosmic microwave background radiation observed throughout space",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "6.1.10",
+      "parentCode": "6.1",
+      "title": "Gravitational attraction provides the force for orbital motion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "2.1.10",
+      "parentCode": "2.1",
+      "title": "Understand how particle forces, distances, and motion determine properties",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "5.2.10",
+      "parentCode": "5.2",
+      "title": "Understand radioactive decay as spontaneous nuclear change with emissions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "6.2.11",
+      "parentCode": "6.2",
+      "title": "CMBR produced early in Universe formation; expanded to microwave region",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "1.2.11",
+      "parentCode": "1.2",
+      "title": "Find acceleration using gradient of speed-time graph",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "1.5.11",
+      "parentCode": "1.5",
+      "title": "Use F = ma; force and acceleration are in same direction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "1.7.11",
+      "parentCode": "1.7",
+      "title": "Understand qualitative energy transfer efficiency concepts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "2.1.11",
+      "parentCode": "2.1",
+      "title": "Explain gas pressure as force per unit area from particle collisions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "2.2.11",
+      "parentCode": "2.2",
+      "title": "Describe evaporation as escape of high-energy particles from surface.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "2.3.11",
+      "parentCode": "2.3",
+      "title": "Know temperature changes when energy transfer rates are unequal",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "3.2.11",
+      "parentCode": "3.2",
+      "title": "Recall and use refractive index equation: n = sin i / sin r",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "3.4.11",
+      "parentCode": "3.4",
+      "title": "Understand sound speed ordering across solids, liquids, and gases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "4.1.11",
+      "parentCode": "4.1",
+      "title": "Know field line spacing represents relative magnetic field strength",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "4.2.11",
+      "parentCode": "4.2",
+      "title": "Understand electric current as the movement of electric charge",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "4.3.11",
+      "parentCode": "4.3",
+      "title": "State that parallel resistance is less than the smallest individual resistor",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "4.5.11",
+      "parentCode": "4.5",
+      "title": "State qualitative variation of magnetic field strength around conductors",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "5.1.11",
+      "parentCode": "5.1",
+      "title": "Understand how nucleon number relates to nuclear mass",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "5.2.11",
+      "parentCode": "5.2",
+      "title": "Recognize that alpha and beta decay produce different elements",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "6.1.11",
+      "parentCode": "6.1",
+      "title": "Orbits are elliptical with Sun off-center except circular cases.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "4.5.12",
+      "parentCode": "4.5",
+      "title": "Describe how current changes affect magnetic fields around conductors",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "4.3.12",
+      "parentCode": "4.3",
+      "title": "State advantages of parallel lamp connections in lighting circuits",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "3.2.12",
+      "parentCode": "3.2",
+      "title": "Recall and use critical angle equation: n = 1 / sin c",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "1.5.12",
+      "parentCode": "1.5",
+      "title": "Describe circular motion qualitatively; relationships between force, speed, radius, mass",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "6.1.12",
+      "parentCode": "6.1",
+      "title": "Analyse and interpret planetary data across multiple parameters.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "1.2.12",
+      "parentCode": "1.2",
+      "title": "Apply negative acceleration concept in deceleration calculations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "1.7.12",
+      "parentCode": "1.7",
+      "title": "Identify solar radiation as primary energy source for most renewable resources.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "2.1.12",
+      "parentCode": "2.1",
+      "title": "Recognize particle movement from molecular collisions; distinguish terminology",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "2.2.12",
+      "parentCode": "2.2",
+      "title": "Know evaporation causes cooling of liquids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "5.2.12",
+      "parentCode": "5.2",
+      "title": "Understand radioactivity in isotopes from neutron excess or size",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "2.3.12",
+      "parentCode": "2.3",
+      "title": "Know Earth's temperature depends on radiation balance",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "4.2.12",
+      "parentCode": "4.2",
+      "title": "Describe ammeter types and their range selection for current measurement",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "3.4.12",
+      "parentCode": "3.4",
+      "title": "Describe ultrasound applications in testing, medical imaging, and sonar with calculations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "2.2.13",
+      "parentCode": "2.2",
+      "title": "Describe differences between boiling and evaporation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "5.2.13",
+      "parentCode": "5.2",
+      "title": "Explain nuclear changes in decay processes and stability increases",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "3.2.13",
+      "parentCode": "3.2",
+      "title": "Describe optical fibre uses in telecommunications",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "4.5.13",
+      "parentCode": "4.5",
+      "title": "Describe experiment showing force on current-carrying conductor; reversing current and field",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "4.3.13",
+      "parentCode": "4.3",
+      "title": "Know potential difference increases with resistance at constant current",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "1.2.13",
+      "parentCode": "1.2",
+      "title": "Explain falling motion with and without air resistance, terminal velocity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "2.3.13",
+      "parentCode": "2.3",
+      "title": "Demonstrate experiments distinguishing good and bad infrared emitters",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "6.1.13",
+      "parentCode": "6.1",
+      "title": "Sun's gravitational field and orbital speeds decrease with distance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "1.7.13",
+      "parentCode": "1.7",
+      "title": "Know that nuclear fusion in the Sun releases energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "4.2.13",
+      "parentCode": "4.2",
+      "title": "Explain metallic electrical conduction using free electron movement model",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "2.1.13",
+      "parentCode": "2.1",
+      "title": "Use Boyle's Law equation and interpret its graphical representation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "1.5.13",
+      "parentCode": "1.5",
+      "title": "Describe moment as a turning effect; provide everyday examples",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "2.2.14",
+      "parentCode": "2.2",
+      "title": "Describe how temperature, area, and airflow affect evaporation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "1.5.14",
+      "parentCode": "1.5",
+      "title": "Define moment; use equation moment = force × perpendicular distance",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "4.3.14",
+      "parentCode": "4.3",
+      "title": "Describe how a variable potential divider operates",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "4.2.14",
+      "parentCode": "4.2",
+      "title": "Distinguish between direct current and alternating current characteristics",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "4.5.14",
+      "parentCode": "4.5",
+      "title": "Apply relationships between force, magnetic field, and current directions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "3.2.14",
+      "parentCode": "3.2",
+      "title": "Describe converging and diverging lens action on parallel light",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "2.3.14",
+      "parentCode": "2.3",
+      "title": "Demonstrate experiments distinguishing good and bad infrared absorbers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "5.2.14",
+      "parentCode": "5.2",
+      "title": "Write nuclear equations showing particle and radiation emissions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "1.7.14",
+      "parentCode": "1.7",
+      "title": "Know fusion research aims to generate large-scale electrical power.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "6.1.14",
+      "parentCode": "6.1",
+      "title": "Elliptical orbit speed increases near Sun via energy conservation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "4.5.15",
+      "parentCode": "4.5",
+      "title": "Determine force direction on charged particle beams in magnetic fields",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "4.2.15",
+      "parentCode": "4.2",
+      "title": "Define current quantitatively and apply the equation I equals Q over t",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "4.3.15",
+      "parentCode": "4.3",
+      "title": "Recall and use the potential divider equation for two resistors",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "1.7.15",
+      "parentCode": "1.7",
+      "title": "Define and calculate efficiency using energy and power equations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "2.2.15",
+      "parentCode": "2.2",
+      "title": "Explain cooling of objects in contact with evaporating liquids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "1.5.15",
+      "parentCode": "1.5",
+      "title": "Apply principle of moments to balanced beams with one force per side",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "3.2.15",
+      "parentCode": "3.2",
+      "title": "Define and use terms: focal length, principal axis, principal focus",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "5.2.15",
+      "parentCode": "5.2",
+      "title": "Define and calculate half-life from decay data and curves",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "2.3.15",
+      "parentCode": "2.3",
+      "title": "Describe radiation emission dependence on temperature and surface area",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "2.3.16",
+      "parentCode": "2.3",
+      "title": "Explain basic thermal transfer applications in everyday contexts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "1.7.16",
+      "parentCode": "1.7",
+      "title": "Define power and calculate it from work or energy and time.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "1.5.16",
+      "parentCode": "1.5",
+      "title": "No resultant force or moment means object is in equilibrium",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "4.2.16",
+      "parentCode": "4.2",
+      "title": "Distinguish conventional current direction from actual electron flow direction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "5.2.16",
+      "parentCode": "5.2",
+      "title": "Determine half-life from raw decay data without background correction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "3.2.16",
+      "parentCode": "3.2",
+      "title": "Draw and use ray diagrams for real image formation by converging lens",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "4.5.16",
+      "parentCode": "4.5",
+      "title": "Understand turning effect on coils; increasing turns, current, and field strength",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "4.5.17",
+      "parentCode": "4.5",
+      "title": "Describe electric motor operation with split-ring commutator and brushes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "1.5.17",
+      "parentCode": "1.5",
+      "title": "Apply principle of moments to multiple forces on each side",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "3.2.17",
+      "parentCode": "3.2",
+      "title": "Describe image characteristics: size, orientation, type",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "2.3.17",
+      "parentCode": "2.3",
+      "title": "Explain complex applications involving multiple thermal transfer mechanisms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "5.2.17",
+      "parentCode": "5.2",
+      "title": "Relate radiation type and half-life to isotope applications in practice",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "4.2.17",
+      "parentCode": "4.2",
+      "title": "Define e.m.f. as electrical work done per unit charge in a circuit",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "3.2.18",
+      "parentCode": "3.2",
+      "title": "Explain virtual image formation from extrapolated diverging rays",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 17
+    },
+    {
+      "code": "1.5.18",
+      "parentCode": "1.5",
+      "title": "Describe experiment showing no resultant moment for equilibrium",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 17
+    },
+    {
+      "code": "4.5.18",
+      "parentCode": "4.5",
+      "title": "Describe transformer construction with soft-iron core for voltage conversion",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 17
+    },
+    {
+      "code": "4.2.18",
+      "parentCode": "4.2",
+      "title": "Identify volts as the unit of measurement for electromotive force",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 17
+    },
+    {
+      "code": "5.2.18",
+      "parentCode": "5.2",
+      "title": "Identify biological effects of ionising radiation on organisms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 17
+    },
+    {
+      "code": "3.2.19",
+      "parentCode": "3.2",
+      "title": "Draw and use ray diagrams for virtual image formation by converging lens",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 18
+    },
+    {
+      "code": "5.2.19",
+      "parentCode": "5.2",
+      "title": "Outline safe handling, use, and storage of radioactive materials",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 18
+    },
+    {
+      "code": "4.2.19",
+      "parentCode": "4.2",
+      "title": "Define potential difference as work done per unit charge through component",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 18
+    },
+    {
+      "code": "1.5.19",
+      "parentCode": "1.5",
+      "title": "Define centre of gravity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 18
+    },
+    {
+      "code": "4.5.19",
+      "parentCode": "4.5",
+      "title": "Use transformer terminology: primary, secondary, step-up, step-down",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 18
+    },
+    {
+      "code": "1.5.20",
+      "parentCode": "1.5",
+      "title": "Describe experiment to find centre of gravity of irregular lamina",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 19
+    },
+    {
+      "code": "4.5.20",
+      "parentCode": "4.5",
+      "title": "Recall and use transformer voltage-turns ratio equation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 19
+    },
+    {
+      "code": "4.2.20",
+      "parentCode": "4.2",
+      "title": "Identify volts as the unit of measurement for potential difference",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 19
+    },
+    {
+      "code": "5.2.20",
+      "parentCode": "5.2",
+      "title": "Explain safety precautions by minimizing ionising radiation exposure time",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 19
+    },
+    {
+      "code": "3.2.20",
+      "parentCode": "3.2",
+      "title": "Describe single lens use as magnifying glass",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 19
+    },
+    {
+      "code": "1.5.21",
+      "parentCode": "1.5",
+      "title": "Describe how centre of gravity position affects object stability",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 20
+    },
+    {
+      "code": "4.5.21",
+      "parentCode": "4.5",
+      "title": "Describe transformer use in high-voltage electrical transmission systems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 20
+    },
+    {
+      "code": "3.2.21",
+      "parentCode": "3.2",
+      "title": "Describe lens use correcting long and short-sightedness",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 20
+    },
+    {
+      "code": "4.2.21",
+      "parentCode": "4.2",
+      "title": "Describe voltmeter types and their range selection for voltage measurement",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 20
+    },
+    {
+      "code": "4.5.22",
+      "parentCode": "4.5",
+      "title": "State advantages of high-voltage electricity transmission",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 21
+    },
+    {
+      "code": "4.2.22",
+      "parentCode": "4.2",
+      "title": "Apply the e.m.f. equation relating work and charge",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 21
+    },
+    {
+      "code": "3.2.22",
+      "parentCode": "3.2",
+      "title": "Describe light dispersion by prism refraction of white light",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 21
+    },
+    {
+      "code": "4.5.23",
+      "parentCode": "4.5",
+      "title": "Explain the operating principle of an iron-cored transformer",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 22
+    },
+    {
+      "code": "4.2.23",
+      "parentCode": "4.2",
+      "title": "Apply the potential difference equation relating work and charge",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 22
+    },
+    {
+      "code": "3.2.23",
+      "parentCode": "3.2",
+      "title": "Know visible spectrum seven colours ordered by frequency and wavelength",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 22
+    },
+    {
+      "code": "4.2.24",
+      "parentCode": "4.2",
+      "title": "Apply the resistance equation relating voltage and current",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 23
+    },
+    {
+      "code": "4.5.24",
+      "parentCode": "4.5",
+      "title": "Recall and use transformer efficiency equation relating currents and voltages",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 23
+    },
+    {
+      "code": "3.2.24",
+      "parentCode": "3.2",
+      "title": "Recall single frequency visible light described as monochromatic",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 23
+    },
+    {
+      "code": "4.2.25",
+      "parentCode": "4.2",
+      "title": "Design experiment to measure resistance using voltmeter and ammeter",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 24
+    },
+    {
+      "code": "4.5.25",
+      "parentCode": "4.5",
+      "title": "Use P = I²R to explain reduced power loss at higher voltages",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 24
+    },
+    {
+      "code": "4.2.26",
+      "parentCode": "4.2",
+      "title": "State qualitative relationships between wire resistance, length, and cross-sectional area",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 25
+    },
+    {
+      "code": "4.2.27",
+      "parentCode": "4.2",
+      "title": "Draw and interpret I-V characteristics for resistors, lamps, and diodes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 26
+    },
+    {
+      "code": "4.2.28",
+      "parentCode": "4.2",
+      "title": "Apply quantitative relationships between resistance, length, and cross-sectional area",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 27
+    },
+    {
+      "code": "4.2.29",
+      "parentCode": "4.2",
+      "title": "Understand energy transfer from electrical sources through circuits to surroundings",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 28
+    },
+    {
+      "code": "4.2.30",
+      "parentCode": "4.2",
+      "title": "Apply the electrical power equation relating current and voltage",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 29
+    },
+    {
+      "code": "4.2.31",
+      "parentCode": "4.2",
+      "title": "Apply the electrical energy equation relating power and time",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 30
+    },
+    {
+      "code": "4.2.32",
+      "parentCode": "4.2",
+      "title": "Define kilowatt-hour and calculate electrical appliance usage costs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 31
+    }
   ]
 }

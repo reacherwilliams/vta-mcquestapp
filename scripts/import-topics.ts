@@ -28,9 +28,18 @@ const prisma = new PrismaClient({ adapter })
 type Strand = { code: string; parentCode: string | null; title: string; level: number; examWeight?: number | null; sortOrder?: number }
 type Interchange = { curriculumCode: string; subject: string; syllabusCode?: string; source?: string; strands: Strand[] }
 
+// Run an async op over items in parallel batches (real trees are 300-800 strands;
+// sequential awaits over remote-DB latency are far too slow).
+async function inChunks<T>(items: T[], size: number, fn: (item: T) => Promise<unknown>) {
+  for (let i = 0; i < items.length; i += size) {
+    await Promise.all(items.slice(i, i + size).map(fn))
+  }
+}
+
 async function main() {
-  const file = process.argv[2]
-  if (!file) { console.error("Usage: import-topics.ts <interchange.json>"); process.exit(1) }
+  const file = process.argv.slice(2).find((a) => !a.startsWith("--"))
+  const replace = process.argv.includes("--replace")
+  if (!file) { console.error("Usage: import-topics.ts <interchange.json> [--replace]"); process.exit(1) }
 
   const data = JSON.parse(fs.readFileSync(path.resolve(file), "utf8")) as Interchange
   if (!data.curriculumCode || !data.subject || !Array.isArray(data.strands)) {
@@ -45,28 +54,34 @@ async function main() {
     console.error(`No subject "${data.subject}" under curriculum "${data.curriculumCode}". Seed it first.`); process.exit(1)
   }
 
+  // --replace: wipe this subject's topics first (Question.topicId is SetNull).
+  if (replace) {
+    const { count } = await prisma.topic.deleteMany({ where: { subjectId: subject.id } })
+    if (count) console.log(`  cleared ${count} existing topics for ${subject.name}`)
+  }
+
   // Pass 1 — upsert every strand (parent left null for now).
-  for (const s of data.strands) {
-    await prisma.topic.upsert({
+  await inChunks(data.strands, 25, (s) =>
+    prisma.topic.upsert({
       where: { subjectId_code: { subjectId: subject.id, code: s.code } },
       update: { title: s.title, level: s.level, examWeight: s.examWeight ?? null, sortOrder: s.sortOrder ?? 0, source: data.source ?? null },
       create: { subjectId: subject.id, code: s.code, title: s.title, level: s.level, examWeight: s.examWeight ?? null, sortOrder: s.sortOrder ?? 0, source: data.source ?? null },
-    })
-  }
+    }),
+  )
 
   // Pass 2 — resolve parentCode -> parentId now that all rows exist.
   const all = await prisma.topic.findMany({ where: { subjectId: subject.id }, select: { id: true, code: true } })
   const idByCode = new Map(all.map((t) => [t.code, t.id]))
   let linked = 0, orphaned = 0
-  for (const s of data.strands) {
+  await inChunks(data.strands, 25, (s) => {
     const parentId = s.parentCode ? idByCode.get(s.parentCode) ?? null : null
     if (s.parentCode && !parentId) orphaned++
-    await prisma.topic.update({
+    if (parentId) linked++
+    return prisma.topic.update({
       where: { subjectId_code: { subjectId: subject.id, code: s.code } },
       data: { parentId },
     })
-    if (parentId) linked++
-  }
+  })
 
   console.log(`✓ Imported ${data.strands.length} topics into ${subject.curriculum.code} ${subject.name} (${linked} child links${orphaned ? `, ${orphaned} unresolved parents` : ""}).`)
 }
