@@ -1,0 +1,2512 @@
+{
+  "curriculumCode": "IGCSE",
+  "subject": "Chemistry",
+  "syllabusCode": "0620",
+  "source": "school-core:CAIE-0620@2026–2028",
+  "strands": [
+    {
+      "code": "1",
+      "parentCode": null,
+      "title": "States of matter",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2",
+      "parentCode": null,
+      "title": "Atoms, elements and compounds",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3",
+      "parentCode": null,
+      "title": "Stoichiometry",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4",
+      "parentCode": null,
+      "title": "Electrochemistry",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5",
+      "parentCode": null,
+      "title": "Chemical energetics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6",
+      "parentCode": null,
+      "title": "Chemical reactions",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7",
+      "parentCode": null,
+      "title": "Acids, bases and salts",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "8",
+      "parentCode": null,
+      "title": "The Periodic Table",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "9",
+      "parentCode": null,
+      "title": "Metals",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "10",
+      "parentCode": null,
+      "title": "Chemistry of the environment",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "11",
+      "parentCode": null,
+      "title": "Organic chemistry",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "12",
+      "parentCode": null,
+      "title": "Experimental techniques and chemical analysis",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "2.1",
+      "parentCode": "2",
+      "title": "Elements, compounds and mixtures",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1",
+      "parentCode": "7",
+      "title": "The characteristic properties of acids and bases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1",
+      "parentCode": "8",
+      "title": "Arrangement of elements",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.1",
+      "parentCode": "12",
+      "title": "Experimental design",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "4",
+      "title": "Electrolysis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.1",
+      "parentCode": "11",
+      "title": "Formulae, functional groups and terminology",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "5",
+      "title": "Exothermic and endothermic reactions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.1",
+      "parentCode": "9",
+      "title": "Properties of metals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "3",
+      "title": "Formulae",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "6",
+      "title": "Physical and chemical changes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "1",
+      "title": "Solids, liquids and gases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.1",
+      "parentCode": "10",
+      "title": "Water",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.2",
+      "parentCode": "2",
+      "title": "Atomic structure and the Periodic Table",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "1",
+      "title": "Diffusion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "4",
+      "title": "Hydrogen–oxygen fuel cells",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "3",
+      "title": "Relative masses of atoms and molecules",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2",
+      "parentCode": "6",
+      "title": "Rate of reaction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2",
+      "parentCode": "7",
+      "title": "Oxides",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2",
+      "parentCode": "8",
+      "title": "Group I properties",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.2",
+      "parentCode": "9",
+      "title": "Uses of metals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.2",
+      "parentCode": "10",
+      "title": "Fertilisers",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.2",
+      "parentCode": "11",
+      "title": "Naming organic compounds",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.2",
+      "parentCode": "12",
+      "title": "Acid–base titrations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.3",
+      "parentCode": "2",
+      "title": "Isotopes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.3",
+      "parentCode": "12",
+      "title": "Chromatography",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.3",
+      "parentCode": "10",
+      "title": "Air quality and climate",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.3",
+      "parentCode": "9",
+      "title": "Alloys and their properties",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3",
+      "parentCode": "6",
+      "title": "Reversible reactions and equilibrium",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.3",
+      "parentCode": "7",
+      "title": "Preparation of salts",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3",
+      "parentCode": "8",
+      "title": "Group VII properties",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.3",
+      "parentCode": "11",
+      "title": "Fuels",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "3",
+      "title": "The mole and the Avogadro constant",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.4",
+      "parentCode": "6",
+      "title": "Redox",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.4",
+      "parentCode": "9",
+      "title": "Reactivity series",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4",
+      "parentCode": "2",
+      "title": "Ions and ionic bonds",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "12.4",
+      "parentCode": "12",
+      "title": "Separation and purification",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.4",
+      "parentCode": "11",
+      "title": "Alkanes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.4",
+      "parentCode": "8",
+      "title": "Transition elements",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.5",
+      "parentCode": "2",
+      "title": "Simple molecules and covalent bonds",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.5",
+      "parentCode": "9",
+      "title": "Corrosion of metals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "11.5",
+      "parentCode": "11",
+      "title": "Alkenes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.5",
+      "parentCode": "8",
+      "title": "Noble gases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "12.5",
+      "parentCode": "12",
+      "title": "Identification of ions and gases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.6",
+      "parentCode": "9",
+      "title": "Extraction of metals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "11.6",
+      "parentCode": "11",
+      "title": "Alcohols",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.6",
+      "parentCode": "2",
+      "title": "Giant covalent structures",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "11.7",
+      "parentCode": "11",
+      "title": "Carboxylic acids",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.7",
+      "parentCode": "2",
+      "title": "Metallic bonding",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "11.8",
+      "parentCode": "11",
+      "title": "Polymers",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "11.3.1",
+      "parentCode": "11.3",
+      "title": "Identify the three main fossil fuels and their names",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.3.1",
+      "parentCode": "6.3",
+      "title": "Identify reversible reactions and their symbolic representation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.1.1",
+      "parentCode": "12.1",
+      "title": "Identify apparatus for measuring time, temperature, mass, and volume.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.4.1",
+      "parentCode": "11.4",
+      "title": "Identify single covalent bonds and saturation as alkane characteristics",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1.1",
+      "parentCode": "4.1",
+      "title": "Define electrolysis as decomposition of ionic compounds by electric current",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.8.1",
+      "parentCode": "11.8",
+      "title": "Define polymers and monomers and their relationship",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1.1",
+      "parentCode": "8.1",
+      "title": "Periodic Table organizes elements by periods, groups, and atomic number",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.7.1",
+      "parentCode": "11.7",
+      "title": "Ethanoic acid reactions with metals, bases, carbonates and salt formation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.2.1",
+      "parentCode": "6.2",
+      "title": "Describe how concentration, pressure, surface area, temperature, and catalysts affect reaction rate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.2.1",
+      "parentCode": "4.2",
+      "title": "Hydrogen-oxygen fuel cells convert hydrogen and oxygen into electricity, producing only water.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1.1",
+      "parentCode": "5.1",
+      "title": "Exothermic reactions transfer heat energy, increasing surroundings temperature.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1.1",
+      "parentCode": "6.1",
+      "title": "Distinguish physical from chemical changes and explain their differences",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.6.1",
+      "parentCode": "11.6",
+      "title": "Describe ethanol manufacture via fermentation and catalytic hydration of ethene.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.5.1",
+      "parentCode": "11.5",
+      "title": "Alkenes contain C=C double bonds and are unsaturated hydrocarbons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.2.1",
+      "parentCode": "7.2",
+      "title": "Classify oxides as acidic or basic based on metallic/non-metallic character",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1.1",
+      "parentCode": "1.1",
+      "title": "Identify and state the key properties that distinguish solids, liquids, and gases",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.2.1",
+      "parentCode": "8.2",
+      "title": "Describe Group I alkali metals and their trends down the group.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.5.1",
+      "parentCode": "9.5",
+      "title": "Identify conditions necessary for iron and steel to rust into hydrated iron oxide",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.6.1",
+      "parentCode": "9.6",
+      "title": "Relate metal extraction ease to reactivity series position",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2.1",
+      "parentCode": "1.2",
+      "title": "Explain diffusion using kinetic particle theory concepts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1.1",
+      "parentCode": "2.1",
+      "title": "Distinguish elements, compounds, and mixtures by their defining characteristics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.2.1",
+      "parentCode": "2.2",
+      "title": "Describe atomic structure with nucleus and electron shells",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.3.1",
+      "parentCode": "8.3",
+      "title": "Describe halogen properties and trends: density increases, reactivity decreases down group",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.5.1",
+      "parentCode": "12.5",
+      "title": "Describe chemical tests to identify five different anions using specific reagents",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.3.1",
+      "parentCode": "2.3",
+      "title": "Define isotopes by proton and neutron numbers within same element",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.3.1",
+      "parentCode": "7.3",
+      "title": "Prepare, separate and purify soluble salts using acids with various reagents",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1.1",
+      "parentCode": "7.1",
+      "title": "Explain how acids react with metals, bases, and carbonates",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.4.1",
+      "parentCode": "2.4",
+      "title": "Explain how cations and anions form from atoms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.1.1",
+      "parentCode": "11.1",
+      "title": "Draw and interpret displayed formulas showing all atoms and bonds",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.1.1",
+      "parentCode": "10.1",
+      "title": "Test for water presence using anhydrous cobalt(II) chloride and copper(II) sulfate",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.4.1",
+      "parentCode": "8.4",
+      "title": "Identify key properties of transition metals including density, melting points, colored compounds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.4.1",
+      "parentCode": "12.4",
+      "title": "Describe and explain five key separation and purification methods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.5.1",
+      "parentCode": "2.5",
+      "title": "Define covalent bonds as shared electron pairs achieving noble gas configurations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.4.1",
+      "parentCode": "9.4",
+      "title": "Recall the standard order of metals in the reactivity series.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.2.1",
+      "parentCode": "10.2",
+      "title": "Identify ammonium salts and nitrates as fertiliser materials",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.3.1",
+      "parentCode": "10.3",
+      "title": "Identify the percentage composition of clean, dry air components",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.6.1",
+      "parentCode": "2.6",
+      "title": "Describe giant covalent structures of graphite and diamond",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.5.1",
+      "parentCode": "8.5",
+      "title": "Explain noble gas unreactivity and monatomic nature using electronic configuration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.4.1",
+      "parentCode": "6.4",
+      "title": "Use Roman numerals to represent oxidation numbers of elements in compounds",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.7.1",
+      "parentCode": "2.7",
+      "title": "Define metallic bonding as electrostatic attraction in giant lattice with delocalised electrons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.1.1",
+      "parentCode": "9.1",
+      "title": "Compare physical properties of metals and non-metals across multiple characteristics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1.1",
+      "parentCode": "3.1",
+      "title": "State formulae of named elements and compounds",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.3.1",
+      "parentCode": "9.3",
+      "title": "Define alloys and identify examples like brass and stainless steel.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.2.1",
+      "parentCode": "11.2",
+      "title": "Name and draw displayed formulae of simple organic compounds and reaction products",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.2.1",
+      "parentCode": "9.2",
+      "title": "Explain metal uses based on physical properties with specific examples.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.3.1",
+      "parentCode": "12.3",
+      "title": "Explain paper chromatography separation of coloured soluble substances using solvent",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.2.1",
+      "parentCode": "12.2",
+      "title": "Describe acid-base titrations and apparatus: burette, pipette, indicator",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.2.1",
+      "parentCode": "3.2",
+      "title": "Explain relative atomic mass as average isotope mass compared to carbon-12.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.3.1",
+      "parentCode": "3.3",
+      "title": "Identify concentration measurement units: g/dm³ or mol/dm³",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.2.2",
+      "parentCode": "6.2",
+      "title": "State that catalysts increase reaction rate and remain unchanged.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.1.2",
+      "parentCode": "8.1",
+      "title": "Metallic to non-metallic character changes across a period",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.3.2",
+      "parentCode": "9.3",
+      "title": "Recognize that alloys are harder, stronger, and more useful than pure metals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2.2",
+      "parentCode": "8.2",
+      "title": "Predict properties of other Group I elements using given information.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.3.2",
+      "parentCode": "8.3",
+      "title": "State physical appearance of chlorine, bromine, and iodine at room temperature",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.4.2",
+      "parentCode": "8.4",
+      "title": "Explain variable oxidation states in transition element ions, exemplified by iron.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.1.2",
+      "parentCode": "1.1",
+      "title": "Describe particle structure using separation, arrangement, and motion differences",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2.2",
+      "parentCode": "1.2",
+      "title": "Explain how molecular mass affects gas diffusion rates",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2.2",
+      "parentCode": "2.2",
+      "title": "State relative charges and masses of subatomic particles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.5.2",
+      "parentCode": "12.5",
+      "title": "Describe cation identification tests using sodium hydroxide and ammonia solutions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.3.2",
+      "parentCode": "2.3",
+      "title": "Interpret and use atomic symbols with mass and atomic numbers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.4.2",
+      "parentCode": "2.4",
+      "title": "Define ionic bonds as electrostatic attractions between opposite ions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.4.2",
+      "parentCode": "12.4",
+      "title": "Select appropriate separation techniques based on substance properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.5.2",
+      "parentCode": "2.5",
+      "title": "Describe covalent bond formation in H2, Cl2, H2O, CH4, NH3, HCl using dot-and-cross diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.6.2",
+      "parentCode": "2.6",
+      "title": "Relate graphite and diamond structures to their specific uses",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.7.2",
+      "parentCode": "2.7",
+      "title": "Explain metallic properties using structure and bonding concepts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.1.2",
+      "parentCode": "3.1",
+      "title": "Define molecular formula as number and type of atoms per molecule",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.3.2",
+      "parentCode": "12.3",
+      "title": "Analyze chromatograms to identify unknowns and determine purity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.2.2",
+      "parentCode": "12.2",
+      "title": "Explain how to identify titration end-point using indicator color change",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2.2",
+      "parentCode": "3.2",
+      "title": "Define relative molecular mass as sum of relative atomic masses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.3.2",
+      "parentCode": "3.3",
+      "title": "Define mole and Avogadro constant as 6.02 × 10²³ particles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.1.2",
+      "parentCode": "12.1",
+      "title": "Evaluate pros and cons of experimental methods and apparatus.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.1.2",
+      "parentCode": "4.1",
+      "title": "Identify anode, cathode, and electrolyte in electrolytic cells",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.8.2",
+      "parentCode": "11.8",
+      "title": "Describe addition polymerisation using poly(ethene) formation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.7.2",
+      "parentCode": "11.7",
+      "title": "Ethanoic acid formation from ethanol oxidation via permanganate and fermentation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.6.2",
+      "parentCode": "11.6",
+      "title": "Describe what happens when ethanol undergoes combustion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2.2",
+      "parentCode": "4.2",
+      "title": "Compare hydrogen fuel cells and petrol engines regarding advantages and disadvantages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.1.2",
+      "parentCode": "5.1",
+      "title": "Endothermic reactions absorb heat energy, decreasing surroundings temperature.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.5.2",
+      "parentCode": "11.5",
+      "title": "Explain how cracking produces alkenes and hydrogen from larger alkanes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.4.2",
+      "parentCode": "11.4",
+      "title": "Explain alkane unreactivity except for combustion and chlorine substitution",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.3.2",
+      "parentCode": "11.3",
+      "title": "Recognize methane as the primary component of natural gas",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.3.2",
+      "parentCode": "6.3",
+      "title": "Describe condition changes affecting reversible reactions using specific compounds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.2.2",
+      "parentCode": "11.2",
+      "title": "Identify compound types from names, molecular formulas, or displayed formulas",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.1.2",
+      "parentCode": "11.1",
+      "title": "Write and interpret general formulae for alkanes, alkenes, alcohols, carboxylic acids",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.4.2",
+      "parentCode": "6.4",
+      "title": "Define redox reactions as simultaneous oxidation and reduction processes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.3.2",
+      "parentCode": "10.3",
+      "title": "Identify sources of carbon dioxide, carbon monoxide, particulates, methane, nitrogen oxides, sulfur dioxide",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.2.2",
+      "parentCode": "10.2",
+      "title": "Explain how NPK fertilisers supply essential elements for plant growth",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.1.2",
+      "parentCode": "10.1",
+      "title": "Test water purity by measuring melting point and boiling point",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.1.2",
+      "parentCode": "7.1",
+      "title": "Explain acid effects on three different indicator dyes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.6.2",
+      "parentCode": "9.6",
+      "title": "Describe blast furnace iron extraction processes and slag formation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.5.2",
+      "parentCode": "9.5",
+      "title": "Name common barrier methods such as painting, greasing, and plastic coating",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.4.2",
+      "parentCode": "9.4",
+      "title": "Describe metal reactions with water and acid; explain using reactivity series.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2.2",
+      "parentCode": "7.2",
+      "title": "Describe amphoteric oxides reacting with both acids and bases",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.1.2",
+      "parentCode": "9.1",
+      "title": "Describe metal chemical properties through reactions with acids, water, and oxygen.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.3.2",
+      "parentCode": "7.3",
+      "title": "Apply solubility rules to predict whether salts dissolve in water",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.2.3",
+      "parentCode": "11.2",
+      "title": "Name and draw structural and displayed formulae of unbranched organic compounds up to four carbons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3.3",
+      "parentCode": "8.3",
+      "title": "Explain halogen displacement reactions with halide ions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.1.3",
+      "parentCode": "3.1",
+      "title": "Deduce simple compound formula from relative atom numbers in models",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.1.3",
+      "parentCode": "11.1",
+      "title": "Identify functional groups determining chemical properties of homologous series",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.1.3",
+      "parentCode": "1.1",
+      "title": "Describe phase changes using melting, boiling, evaporating, freezing, and condensing",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.3.3",
+      "parentCode": "10.3",
+      "title": "Describe harmful effects of major air pollutants on environment and human health",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.6.3",
+      "parentCode": "2.6",
+      "title": "Describe giant covalent structure of silicon(IV) oxide",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.4.3",
+      "parentCode": "9.4",
+      "title": "Determine metal reactivity order from experimental data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.1.3",
+      "parentCode": "8.1",
+      "title": "Group number determines charge of ions formed by elements",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.3.3",
+      "parentCode": "12.3",
+      "title": "Explain paper chromatography separation of colourless substances using locating agent",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.4.3",
+      "parentCode": "6.4",
+      "title": "Define oxidation as oxygen gain and reduction as oxygen loss",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.5.3",
+      "parentCode": "2.5",
+      "title": "Explain low melting/boiling points and poor conductivity of simple molecular compounds",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.1.3",
+      "parentCode": "10.1",
+      "title": "Explain why distilled water is preferred over tap water in chemistry",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.3.3",
+      "parentCode": "7.3",
+      "title": "Distinguish between hydrated and anhydrous substances chemically",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.4.3",
+      "parentCode": "12.4",
+      "title": "Use melting and boiling points to identify substances and determine purity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.4.3",
+      "parentCode": "2.4",
+      "title": "Show ionic bond formation between Group I and VII using dot-and-cross diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3.3",
+      "parentCode": "2.3",
+      "title": "Explain why isotopes have identical chemical properties via electron configuration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.2.3",
+      "parentCode": "7.2",
+      "title": "Classify aluminium oxide and zinc oxide as amphoteric",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.1.3",
+      "parentCode": "7.1",
+      "title": "Distinguish bases and alkalis by composition and solubility",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.2.3",
+      "parentCode": "2.2",
+      "title": "Define proton number as number of nuclear protons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.6.3",
+      "parentCode": "9.6",
+      "title": "Identify bauxite as aluminium's main ore and electrolysis extraction method",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.5.3",
+      "parentCode": "11.5",
+      "title": "Explain why cracking of larger alkane molecules is necessary",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.1.3",
+      "parentCode": "5.1",
+      "title": "Interpret reaction pathway diagrams for exothermic and endothermic reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.4.3",
+      "parentCode": "11.4",
+      "title": "Define substitution reaction as replacement of atoms or groups",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.6.3",
+      "parentCode": "11.6",
+      "title": "State ethanol's uses as solvent and fuel.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.7.3",
+      "parentCode": "11.7",
+      "title": "Carboxylic acid and alcohol esterification with acid catalyst",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.2.3",
+      "parentCode": "6.2",
+      "title": "Describe practical methods for investigating reaction rates using mass and gas formation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.1.3",
+      "parentCode": "4.1",
+      "title": "Identify products and observations from electrolysis of three specific compounds",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.3.3",
+      "parentCode": "9.3",
+      "title": "Link alloy properties to practical applications like cutlery composition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.8.3",
+      "parentCode": "11.8",
+      "title": "State that plastics are made from polymers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.3.3",
+      "parentCode": "11.3",
+      "title": "Define hydrocarbons as compounds containing only hydrogen and carbon",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.5.3",
+      "parentCode": "12.5",
+      "title": "Describe chemical tests to identify six different gases using specific methods",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.1.3",
+      "parentCode": "12.1",
+      "title": "Define solvent, solute, solution, saturated solution, residue, and filtrate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.5.3",
+      "parentCode": "9.5",
+      "title": "Explain how barrier methods work by blocking oxygen or water access",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.3.3",
+      "parentCode": "6.3",
+      "title": "Define chemical equilibrium using reaction rates and concentration changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3.3",
+      "parentCode": "3.3",
+      "title": "Calculate moles, mass, molar mass, relative masses, and particle numbers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.2.3",
+      "parentCode": "3.2",
+      "title": "Calculate reacting masses in simple proportions without using moles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.5.4",
+      "parentCode": "12.5",
+      "title": "Describe flame test procedures to identify six different metal cations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.1.4",
+      "parentCode": "1.1",
+      "title": "Describe how temperature and pressure affect gas volume",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.2.4",
+      "parentCode": "2.2",
+      "title": "Define mass number as total protons and neutrons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.3.4",
+      "parentCode": "2.3",
+      "title": "Calculate relative atomic mass using isotope masses and abundances",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4.4",
+      "parentCode": "2.4",
+      "title": "Explain high melting/boiling points and conductivity properties of ionic compounds",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.5.4",
+      "parentCode": "2.5",
+      "title": "Describe covalent bond formation in CH3OH, C2H4, O2, CO2, N2 using dot-and-cross diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.6.4",
+      "parentCode": "2.6",
+      "title": "Compare properties of diamond and silicon(IV) oxide structures",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.1.4",
+      "parentCode": "3.1",
+      "title": "Construct word and symbol equations with state symbols",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.3.4",
+      "parentCode": "3.3",
+      "title": "Apply molar gas volume of 24 dm³ at r.t.p. in gas calculations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.4.4",
+      "parentCode": "6.4",
+      "title": "Identify redox reactions by oxygen gain and loss between reactants",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.1.4",
+      "parentCode": "4.1",
+      "title": "State which substances form at cathode and anode during electrolysis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.1.4",
+      "parentCode": "5.1",
+      "title": "Enthalpy change ∆H is negative for exothermic, positive for endothermic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.2.4",
+      "parentCode": "6.2",
+      "title": "Interpret data and graphs from rate of reaction experiments.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.3.4",
+      "parentCode": "6.3",
+      "title": "Predict and explain equilibrium shifts from temperature, pressure, concentration, catalyst changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.1.4",
+      "parentCode": "7.1",
+      "title": "Explain how bases react with acids and ammonium salts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.3.4",
+      "parentCode": "7.3",
+      "title": "Prepare insoluble salts using precipitation reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.1.4",
+      "parentCode": "8.1",
+      "title": "Same group elements have similar properties due to electronic configuration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.3.4",
+      "parentCode": "8.3",
+      "title": "Predict properties of other Group VII elements using given information",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.3.4",
+      "parentCode": "9.3",
+      "title": "Recognize alloy structures in structural diagrams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.4.4",
+      "parentCode": "9.4",
+      "title": "Explain metal reactivity using ion formation and displacement reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.5.4",
+      "parentCode": "9.5",
+      "title": "Explain how zinc galvanising provides both barrier and sacrificial protection",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.6.4",
+      "parentCode": "9.6",
+      "title": "State five symbol equations for iron extraction from hematite",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "10.1.4",
+      "parentCode": "10.1",
+      "title": "List substances found in natural water sources and their origins",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "10.3.4",
+      "parentCode": "10.3",
+      "title": "Explain methods to reduce climate change and acid rain effects",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.1.4",
+      "parentCode": "11.1",
+      "title": "Define homologous series as compounds with same functional group and similar properties",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.2.4",
+      "parentCode": "11.2",
+      "title": "Name and draw displayed formulae of esters from alcohols and carboxylic acids",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.3.4",
+      "parentCode": "11.3",
+      "title": "Identify petroleum as a hydrocarbon mixture",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.4.4",
+      "parentCode": "11.4",
+      "title": "Explain photochemical alkane-chlorine substitution and draw monosubstitution products",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.5.4",
+      "parentCode": "11.5",
+      "title": "Use aqueous bromine reaction to distinguish saturated from unsaturated hydrocarbons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.6.4",
+      "parentCode": "11.6",
+      "title": "Compare advantages and disadvantages of fermentation and catalytic hydration methods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.8.4",
+      "parentCode": "11.8",
+      "title": "Link plastic properties to disposal implications",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "12.3.4",
+      "parentCode": "12.3",
+      "title": "Apply the Rf equation to calculate retention factor values",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.1.5",
+      "parentCode": "4.1",
+      "title": "Predict products from electrolysis of molten binary compounds",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "11.5.5",
+      "parentCode": "11.5",
+      "title": "Addition reactions produce a single product only",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "10.1.5",
+      "parentCode": "10.1",
+      "title": "Identify beneficial substances in natural water and their functions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.3.5",
+      "parentCode": "3.3",
+      "title": "Calculate stoichiometric masses, limiting reactants, gas volumes, solution volumes and concentrations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.1.5",
+      "parentCode": "8.1",
+      "title": "Element position predicts properties via Periodic Table location",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.1.5",
+      "parentCode": "7.1",
+      "title": "Explain alkali effects on three different indicator dyes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.5.5",
+      "parentCode": "2.5",
+      "title": "Explain low melting/boiling points via weak intermolecular forces and poor conductivity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "10.3.5",
+      "parentCode": "10.3",
+      "title": "Define photosynthesis as conversion of carbon dioxide and water to glucose and oxygen",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "11.8.5",
+      "parentCode": "11.8",
+      "title": "Describe environmental challenges: landfill, ocean accumulation, toxic gas formation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.1.5",
+      "parentCode": "1.1",
+      "title": "Explain phase changes using kinetic theory and interpret heating cooling curves",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "11.1.5",
+      "parentCode": "11.1",
+      "title": "Define saturated compounds as having only single carbon-carbon bonds",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.5.5",
+      "parentCode": "9.5",
+      "title": "Explain sacrificial protection using reactivity series and electron loss principles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.3.5",
+      "parentCode": "9.3",
+      "title": "Explain how different-sized atoms prevent layer sliding in alloys.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.6.5",
+      "parentCode": "9.6",
+      "title": "Describe aluminium extraction including cryolite role and electrode reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.4.5",
+      "parentCode": "9.4",
+      "title": "Account for aluminium's low reactivity through oxide layer formation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.3.5",
+      "parentCode": "6.3",
+      "title": "Write the Haber process equation for ammonia production.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.2.5",
+      "parentCode": "2.2",
+      "title": "Determine electron configurations for elements and ions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.3.5",
+      "parentCode": "7.3",
+      "title": "Define water of crystallisation in hydrated salt crystals",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "11.3.5",
+      "parentCode": "11.3",
+      "title": "Explain how fractional distillation separates petroleum into useful fractions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.2.5",
+      "parentCode": "6.2",
+      "title": "Describe collision theory: particle density, collision frequency, kinetic energy, activation energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.4.5",
+      "parentCode": "6.4",
+      "title": "Identify oxidation and reduction processes occurring in redox reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.4.5",
+      "parentCode": "2.4",
+      "title": "Describe ionic giant lattice structures as regular alternating ion arrangements",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.1.5",
+      "parentCode": "5.1",
+      "title": "Activation energy is minimum energy required for colliding particles to react.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.1.5",
+      "parentCode": "3.1",
+      "title": "Define empirical formula as simplest whole number atom ratio",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.2.6",
+      "parentCode": "6.2",
+      "title": "Explain how factors affect reaction rate using collision theory principles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.3.6",
+      "parentCode": "6.3",
+      "title": "Identify sources of hydrogen and nitrogen in Haber process.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.1.6",
+      "parentCode": "1.1",
+      "title": "Explain gas volume changes using kinetic particle theory",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "10.3.6",
+      "parentCode": "10.3",
+      "title": "Write the word equation for photosynthesis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.1.6",
+      "parentCode": "3.1",
+      "title": "Deduce ionic compound formula from ion numbers or charges",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.3.6",
+      "parentCode": "3.3",
+      "title": "Use titration data to find moles, concentration, or solution volume",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.1.6",
+      "parentCode": "5.1",
+      "title": "Draw labeled reaction pathway diagrams showing reactants, products, ∆H, and Ea.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.2.6",
+      "parentCode": "2.2",
+      "title": "State relationships between group number, period, and electron configuration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "11.8.6",
+      "parentCode": "11.8",
+      "title": "Identify repeat units and linkages in addition and condensation polymers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "11.5.6",
+      "parentCode": "11.5",
+      "title": "Describe alkene addition reactions with Br₂, H₂, and steam; draw product structures",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.4.6",
+      "parentCode": "2.4",
+      "title": "Show ionic bond formation between metallic and non-metallic elements using diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "10.1.6",
+      "parentCode": "10.1",
+      "title": "Identify harmful water substances and their effects on ecosystems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.1.6",
+      "parentCode": "7.1",
+      "title": "Identify H+ and OH– ions in aqueous acid and alkali solutions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.1.6",
+      "parentCode": "4.1",
+      "title": "State purposes of electroplating metal objects",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "11.3.6",
+      "parentCode": "11.3",
+      "title": "Explain property changes in petroleum fractions from bottom to top of column",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "11.1.6",
+      "parentCode": "11.1",
+      "title": "Define unsaturated compounds as having non-single carbon-carbon bonds",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.4.6",
+      "parentCode": "6.4",
+      "title": "Define oxidation as electron loss and increased oxidation number",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "8.1.6",
+      "parentCode": "8.1",
+      "title": "Identify trends within groups given elemental information",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.1.7",
+      "parentCode": "3.1",
+      "title": "Construct symbol equations with state symbols, including ionic equations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.1.7",
+      "parentCode": "7.1",
+      "title": "Use universal indicator to compare pH and acidity using colour",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "10.1.7",
+      "parentCode": "10.1",
+      "title": "Describe domestic water treatment methods: sedimentation, filtration, carbon, chlorination",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.4.7",
+      "parentCode": "6.4",
+      "title": "Define reduction as electron gain and decreased oxidation number",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "10.3.7",
+      "parentCode": "10.3",
+      "title": "Explain mechanisms of greenhouse gas warming through thermal energy trapping",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "11.1.7",
+      "parentCode": "11.1",
+      "title": "State structural formula unambiguously describes atom arrangement in molecules",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.3.7",
+      "parentCode": "6.3",
+      "title": "State typical conditions used in industrial Haber process.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.4.7",
+      "parentCode": "2.4",
+      "title": "Explain ionic compound properties using structure and bonding principles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.2.7",
+      "parentCode": "6.2",
+      "title": "State that catalysts decrease the activation energy of reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "11.3.7",
+      "parentCode": "11.3",
+      "title": "Identify the eight petroleum fractions and their specific industrial uses",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.1.7",
+      "parentCode": "5.1",
+      "title": "Bond breaking is endothermic, bond making is exothermic; explain enthalpy changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "4.1.7",
+      "parentCode": "4.1",
+      "title": "Describe the electroplating process for metals",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "11.8.7",
+      "parentCode": "11.8",
+      "title": "Deduce addition polymer structure from alkene and vice versa",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.3.7",
+      "parentCode": "3.3",
+      "title": "Determine empirical and molecular formulae from experimental data",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "11.8.8",
+      "parentCode": "11.8",
+      "title": "Deduce condensation polymer structure from monomers: polyamides and polyesters",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.3.8",
+      "parentCode": "3.3",
+      "title": "Calculate percentage yield, mass composition, and purity percentages",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "4.1.8",
+      "parentCode": "4.1",
+      "title": "Describe charge transfer including electron and ion movement during electrolysis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "6.2.8",
+      "parentCode": "6.2",
+      "title": "Evaluate practical methods for investigating reaction rates using mass and gas formation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.1.8",
+      "parentCode": "5.1",
+      "title": "Calculate reaction enthalpy change using bond energy values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.1.8",
+      "parentCode": "3.1",
+      "title": "Deduce symbol equations with state symbols from given information",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "10.3.8",
+      "parentCode": "10.3",
+      "title": "Explain nitrogen oxide formation in engines and catalytic converter removal",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "11.1.8",
+      "parentCode": "11.1",
+      "title": "Define structural isomers as same molecular formula with different structures",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "6.3.8",
+      "parentCode": "6.3",
+      "title": "Write the Contact process equation for sulfur trioxide production.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "6.4.8",
+      "parentCode": "6.4",
+      "title": "Identify redox reactions by electron transfer between reactants",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "7.1.8",
+      "parentCode": "7.1",
+      "title": "Explain neutralisation as H+ and OH– combining to form water",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "6.4.9",
+      "parentCode": "6.4",
+      "title": "Identify redox reactions using oxidation number rules and changes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "10.3.9",
+      "parentCode": "10.3",
+      "title": "Write the balanced symbol equation for photosynthesis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "7.1.9",
+      "parentCode": "7.1",
+      "title": "Define acids and bases by proton transfer capacity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "11.1.9",
+      "parentCode": "11.1",
+      "title": "Describe five general characteristics of homologous series members",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "6.3.9",
+      "parentCode": "6.3",
+      "title": "Identify sources of sulfur dioxide and oxygen in Contact process.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.1.9",
+      "parentCode": "4.1",
+      "title": "Identify products from copper sulfate electrolysis with different electrode types",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "11.8.9",
+      "parentCode": "11.8",
+      "title": "Compare and contrast addition and condensation polymerisation processes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "4.1.10",
+      "parentCode": "4.1",
+      "title": "Predict products from aqueous halide electrolysis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "6.3.10",
+      "parentCode": "6.3",
+      "title": "State typical conditions used in industrial Contact process.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "11.8.10",
+      "parentCode": "11.8",
+      "title": "Describe and draw structures of nylon and PET polymers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "6.4.10",
+      "parentCode": "6.4",
+      "title": "Identify redox reactions using colour changes with manganate and iodide",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "7.1.10",
+      "parentCode": "7.1",
+      "title": "Distinguish strong and weak acids by dissociation extent",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "4.1.11",
+      "parentCode": "4.1",
+      "title": "Construct ionic half-equations for anode and cathode reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "11.8.11",
+      "parentCode": "11.8",
+      "title": "State that PET can be depolymerised and re-polymerised",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "6.4.11",
+      "parentCode": "6.4",
+      "title": "Define oxidising agent as substance causing oxidation while being reduced",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "7.1.11",
+      "parentCode": "7.1",
+      "title": "Identify hydrochloric acid as strong acid with complete dissociation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "6.3.11",
+      "parentCode": "6.3",
+      "title": "Explain industrial conditions using equilibrium and rate concepts with safety and economics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "6.4.12",
+      "parentCode": "6.4",
+      "title": "Define reducing agent as substance causing reduction while being oxidised",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "7.1.12",
+      "parentCode": "7.1",
+      "title": "Identify ethanoic acid as weak acid with partial dissociation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "11.8.12",
+      "parentCode": "11.8",
+      "title": "Describe proteins as natural polyamides from amino acid monomers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "11.8.13",
+      "parentCode": "11.8",
+      "title": "Describe and draw protein structure with peptide linkages",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "6.4.13",
+      "parentCode": "6.4",
+      "title": "Identify oxidising and reducing agents within redox reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    }
+  ]
+}

@@ -1,0 +1,1288 @@
+{
+  "curriculumCode": "AS_LEVEL",
+  "subject": "Biology",
+  "syllabusCode": "9700",
+  "source": "school-core:CAIE-AS-9700@2025–2027",
+  "strands": [
+    {
+      "code": "1",
+      "parentCode": null,
+      "title": "Cell structure",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2",
+      "parentCode": null,
+      "title": "Biological molecules",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3",
+      "parentCode": null,
+      "title": "Enzymes",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4",
+      "parentCode": null,
+      "title": "Cell membranes and transport",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5",
+      "parentCode": null,
+      "title": "The mitotic cell cycle",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6",
+      "parentCode": null,
+      "title": "Nucleic acids and protein synthesis",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7",
+      "parentCode": null,
+      "title": "Transport in plants",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "8",
+      "parentCode": null,
+      "title": "Transport in mammals",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "9",
+      "parentCode": null,
+      "title": "Gas exchange",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "10",
+      "parentCode": null,
+      "title": "Infectious diseases",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "11",
+      "parentCode": null,
+      "title": "Immunity",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "10.1",
+      "parentCode": "10",
+      "title": "Infectious diseases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.1",
+      "parentCode": "11",
+      "title": "The immune system",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "1",
+      "title": "The microscope in cell studies",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "2",
+      "title": "Testing for biological molecules",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "3",
+      "title": "Mode of action of enzymes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "4",
+      "title": "Fluid mosaic membranes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "5",
+      "title": "Replication and division of nuclei and cells",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "6",
+      "title": "Structure of nucleic acids and replication of DNA",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1",
+      "parentCode": "7",
+      "title": "Structure of transport tissues",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1",
+      "parentCode": "8",
+      "title": "The circulatory system",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.1",
+      "parentCode": "9",
+      "title": "The gas exchange system",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.2",
+      "parentCode": "5",
+      "title": "Chromosome behaviour in mitosis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2",
+      "parentCode": "8",
+      "title": "Transport of oxygen and carbon dioxide",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2",
+      "parentCode": "6",
+      "title": "Protein synthesis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "2",
+      "title": "Carbohydrates and lipids",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "1",
+      "title": "Cells as the basic units of living organisms",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.2",
+      "parentCode": "11",
+      "title": "Antibodies and vaccination",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "3",
+      "title": "Factors that affect enzyme action",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2",
+      "parentCode": "7",
+      "title": "Transport mechanisms",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "4",
+      "title": "Movement into and out of cells",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.2",
+      "parentCode": "10",
+      "title": "Antibiotics",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.3",
+      "parentCode": "8",
+      "title": "The heart",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "2",
+      "title": "Proteins",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.4",
+      "parentCode": "2",
+      "title": "Water",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.3.1",
+      "parentCode": "2.3",
+      "title": "Draw amino acid structure and explain peptide bond formation and breakage",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1.1",
+      "parentCode": "8.1",
+      "title": "Describe mammalian circulatory system as closed double circulation with heart and vessels",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1.1",
+      "parentCode": "1.1",
+      "title": "Prepare temporary microscope slides of cellular material for light microscopy observation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.2.1",
+      "parentCode": "7.2",
+      "title": "Mineral ions and organic compounds dissolve in water for plant transport",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1.1",
+      "parentCode": "7.1",
+      "title": "Draw plan diagrams of transverse sections of stems, roots, leaves from microscope slides",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.3.1",
+      "parentCode": "8.3",
+      "title": "Describe external and internal structures of the mammalian heart",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2.1",
+      "parentCode": "1.2",
+      "title": "Identify eukaryotic organelles and structures with their functions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.2.1",
+      "parentCode": "8.2",
+      "title": "Explain how red blood cells transport O₂ and CO₂ using specific proteins",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.4.1",
+      "parentCode": "2.4",
+      "title": "Explain hydrogen bonding in water and relate properties to biological roles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.2.1",
+      "parentCode": "6.2",
+      "title": "Polypeptides are coded by genes, which are DNA nucleotide sequences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1.1",
+      "parentCode": "3.1",
+      "title": "Enzymes are globular proteins catalysing reactions intracellularly or extracellularly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.2.1",
+      "parentCode": "3.2",
+      "title": "Investigate how temperature, pH, enzyme, substrate, and inhibitor concentrations affect reaction rates",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1.1",
+      "parentCode": "6.1",
+      "title": "Explain nucleotide structure and ATP composition without detailed formulas.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1.1",
+      "parentCode": "2.1",
+      "title": "Perform tests identifying reducing sugars, starch, lipids, and proteins",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.2.1",
+      "parentCode": "10.2",
+      "title": "Explain penicillin's bacterial action and antibiotics' ineffectiveness against viruses",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.2.1",
+      "parentCode": "5.2",
+      "title": "Describe chromosome behavior and associated structures during mitosis stages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.2.1",
+      "parentCode": "2.2",
+      "title": "Draw and describe ring structures of α-glucose and β-glucose forms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.1.1",
+      "parentCode": "9.1",
+      "title": "Describe structures of lungs, trachea, bronchi, bronchioles, alveoli, capillary networks",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.1.1",
+      "parentCode": "10.1",
+      "title": "Infectious diseases result from pathogens and spread between organisms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1.1",
+      "parentCode": "4.1",
+      "title": "Explain fluid mosaic model, hydrophobic/hydrophilic interactions, and protein arrangement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.1.1",
+      "parentCode": "11.1",
+      "title": "Explain how macrophages and neutrophils function in immune defence",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.2.1",
+      "parentCode": "4.2",
+      "title": "Explain six key membrane transport mechanisms and their underlying processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1.1",
+      "parentCode": "5.1",
+      "title": "Identify and describe the key structural components of chromosomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.2.1",
+      "parentCode": "11.2",
+      "title": "Connect antibody structure to how they function in immune responses",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.1.2",
+      "parentCode": "11.1",
+      "title": "Define antigens and distinguish between self and non-self antigens",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.3.2",
+      "parentCode": "8.3",
+      "title": "Explain wall thickness differences between atria, ventricles, and left and right ventricles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2.2",
+      "parentCode": "8.2",
+      "title": "Explain chloride shift mechanism and its physiological significance",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.3.2",
+      "parentCode": "2.3",
+      "title": "Explain the four levels of protein structural organization",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.1.2",
+      "parentCode": "1.1",
+      "title": "Produce accurate drawings of cells from microscope slides and photomicrographs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2.2",
+      "parentCode": "1.2",
+      "title": "Interpret images of typical plant and animal cells",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.1.2",
+      "parentCode": "2.1",
+      "title": "Conduct semi-quantitative Benedict's test to estimate sugar concentration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2.2",
+      "parentCode": "2.2",
+      "title": "Define key carbohydrate terminology including monomers and polymers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.2.2",
+      "parentCode": "11.2",
+      "title": "Describe the hybridoma technique for creating monoclonal antibodies",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.2.2",
+      "parentCode": "10.2",
+      "title": "Examine antibiotic resistance consequences and mitigation strategies",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.1.2",
+      "parentCode": "3.1",
+      "title": "Explain enzyme action via active site, complex formation, activation energy, and specificity models.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2.2",
+      "parentCode": "3.2",
+      "title": "Explain how Vmax and Km relate to enzyme substrate affinity comparison",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.1.2",
+      "parentCode": "4.1",
+      "title": "Describe cholesterol, glycolipid, and glycoprotein positioning in membranes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2.2",
+      "parentCode": "4.2",
+      "title": "Experimentally investigate diffusion and osmosis using biological and synthetic materials.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.1.2",
+      "parentCode": "10.1",
+      "title": "Identify pathogens causing cholera, malaria, TB, and HIV/AIDS by name and type",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.1.2",
+      "parentCode": "5.1",
+      "title": "Explain why mitosis is essential for growth, repair, and asexual reproduction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2.2",
+      "parentCode": "5.2",
+      "title": "Identify mitotic stages in images and microscope slides of cells.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.1.2",
+      "parentCode": "6.1",
+      "title": "Identify purines and pyrimidines by ring structure without detailed formulas.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2.2",
+      "parentCode": "6.2",
+      "title": "DNA base triplets code for amino acids or signal start and stop points.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.1.2",
+      "parentCode": "7.1",
+      "title": "Describe xylem and phloem distribution in stem, root, leaf transverse sections",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2.2",
+      "parentCode": "7.2",
+      "title": "Water moves soil to xylem via apoplast and symplast pathways with specific structures",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.1.2",
+      "parentCode": "9.1",
+      "title": "Describe where tissues are located in the gas exchange system",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.1.2",
+      "parentCode": "8.1",
+      "title": "Explain functions of major vessels in pulmonary and systemic circulations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.1.3",
+      "parentCode": "7.1",
+      "title": "Draw and label xylem vessels, phloem sieve tubes, companion cells from images",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3.3",
+      "parentCode": "8.3",
+      "title": "Describe cardiac cycle relating blood pressure changes to valve opening and closing",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.2.3",
+      "parentCode": "4.2",
+      "title": "Calculate and demonstrate how surface area to volume ratios change with size.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.1.3",
+      "parentCode": "11.1",
+      "title": "Outline primary immune response events involving macrophages, B-cells, and T-cells",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.2.3",
+      "parentCode": "7.2",
+      "title": "Transpiration: leaf surface water evaporation then atmospheric water vapour diffusion",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.1.3",
+      "parentCode": "5.1",
+      "title": "Describe the stages of the mitotic cell cycle from interphase through cytokinesis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.2.3",
+      "parentCode": "2.2",
+      "title": "Explain covalent bonds' role in polymer formation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.1.3",
+      "parentCode": "2.1",
+      "title": "Test for non-reducing sugars using acid hydrolysis and Benedict's solution",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.2.3",
+      "parentCode": "11.2",
+      "title": "Explain monoclonal antibody applications in disease diagnosis and treatment",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.1.3",
+      "parentCode": "8.1",
+      "title": "Identify blood vessels microscopically and draw transverse and longitudinal sections",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.1.3",
+      "parentCode": "6.1",
+      "title": "Explain DNA double helix structure, base pairing, hydrogen bonding, and phosphodiester linkages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.2.3",
+      "parentCode": "8.2",
+      "title": "Explain how plasma contributes to carbon dioxide transport",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.2.3",
+      "parentCode": "6.2",
+      "title": "Explain transcription and translation roles of polymerase, mRNA, codons, tRNA, anticodons, ribosomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.2.3",
+      "parentCode": "1.2",
+      "title": "Compare structural differences between plant and animal cells",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.1.3",
+      "parentCode": "9.1",
+      "title": "Identify tissues in various microscopy images",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.1.3",
+      "parentCode": "10.1",
+      "title": "Describe transmission mechanisms for cholera, malaria, TB, and HIV",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.1.3",
+      "parentCode": "3.1",
+      "title": "Measure enzyme-catalysed reaction rates using catalase and amylase investigations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.2.3",
+      "parentCode": "3.2",
+      "title": "Explain competitive and non-competitive reversible inhibitor effects on enzymes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3.3",
+      "parentCode": "2.3",
+      "title": "Describe four types of interactions stabilizing protein structure",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.1.3",
+      "parentCode": "1.1",
+      "title": "Calculate magnification and actual specimen sizes from various microscopy image types",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.1.3",
+      "parentCode": "4.1",
+      "title": "Explain membrane component roles in stability, transport, signalling, and recognition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.1.4",
+      "parentCode": "3.1",
+      "title": "Explain colorimeter use for monitoring colour-change enzyme reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.2.4",
+      "parentCode": "6.2",
+      "title": "Template strand is transcribed; non-transcribed strand is the complementary strand.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.2.4",
+      "parentCode": "4.2",
+      "title": "Experimentally examine how size affects diffusion rates using agar blocks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.3.4",
+      "parentCode": "2.3",
+      "title": "Distinguish globular and fibrous proteins by solubility and function",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.1.4",
+      "parentCode": "9.1",
+      "title": "Identify structures and draw plan diagrams of trachea and bronchus transverse sections",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.1.4",
+      "parentCode": "11.1",
+      "title": "Explain how memory cells mediate secondary response and sustained immunity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.2.4",
+      "parentCode": "7.2",
+      "title": "Hydrogen bonds enable xylem water movement via cohesion-tension and cellulose adhesion",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.1.4",
+      "parentCode": "7.1",
+      "title": "Relate structure of xylem, phloem, companion cells to their functions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.1.4",
+      "parentCode": "5.1",
+      "title": "Explain how telomeres protect genetic information at chromosome ends during replication.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.2.4",
+      "parentCode": "2.2",
+      "title": "Classify glucose, fructose, maltose as reducing; sucrose as non-reducing",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.1.4",
+      "parentCode": "1.1",
+      "title": "Measure cells using graticule and micrometer; apply correct units (mm, µm, nm)",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.3.4",
+      "parentCode": "8.3",
+      "title": "Explain roles of sinoatrial node, atrioventricular node, and Purkyne tissue in cardiac cycle",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.2.4",
+      "parentCode": "8.2",
+      "title": "Interpret and explain adult haemoglobin oxygen dissociation curve",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.1.4",
+      "parentCode": "4.1",
+      "title": "Outline cell signalling stages: ligand secretion, transport, and receptor binding.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "10.1.4",
+      "parentCode": "10.1",
+      "title": "Evaluate biological, social, economic factors in preventing/controlling four major diseases",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.1.4",
+      "parentCode": "8.1",
+      "title": "Relate structure to function in different blood vessel types",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.1.4",
+      "parentCode": "6.1",
+      "title": "Explain semi-conservative DNA replication, enzyme roles, and leading/lagging strand synthesis.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.2.4",
+      "parentCode": "11.2",
+      "title": "Distinguish active from passive immunity and natural from artificial immunity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.2.4",
+      "parentCode": "1.2",
+      "title": "Explain ATP role in cellular energy-requiring processes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.2.4",
+      "parentCode": "3.2",
+      "title": "Compare immobilised and free enzyme activity; explain immobilised enzyme advantages",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.1.5",
+      "parentCode": "6.1",
+      "title": "Explain RNA structure using mRNA as the primary example.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.1.5",
+      "parentCode": "1.1",
+      "title": "Define and distinguish resolution and magnification in light and electron microscopy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.2.5",
+      "parentCode": "1.2",
+      "title": "Describe prokaryotic cell structures in typical bacteria",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.2.5",
+      "parentCode": "2.2",
+      "title": "Describe glycosidic bond formation via condensation in disaccharides and polysaccharides",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.3.5",
+      "parentCode": "2.3",
+      "title": "Describe haemoglobin structure as globular protein with quaternary structure",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.2.5",
+      "parentCode": "4.2",
+      "title": "Determine plant tissue water potential through osmotic experiments with varied solutions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.1.5",
+      "parentCode": "5.1",
+      "title": "Describe how stem cells contribute to tissue maintenance and repair.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.2.5",
+      "parentCode": "6.2",
+      "title": "Eukaryotic primary transcripts are processed by removing introns and joining exons.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.2.5",
+      "parentCode": "7.2",
+      "title": "Annotated xerophytic leaf drawings showing adaptations reducing transpirational water loss",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.1.5",
+      "parentCode": "8.1",
+      "title": "Identify and draw different types of blood cells from microscopy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.2.5",
+      "parentCode": "8.2",
+      "title": "Explain oxygen dissociation curve relevance in lungs and tissues",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.1.5",
+      "parentCode": "9.1",
+      "title": "Explain how ciliated cells, goblet cells, and mucous glands protect lungs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "11.2.5",
+      "parentCode": "11.2",
+      "title": "Explain how vaccine antigens generate long-term immune protection",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.2.6",
+      "parentCode": "8.2",
+      "title": "Explain Bohr shift mechanism and its physiological importance",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "8.1.6",
+      "parentCode": "8.1",
+      "title": "Explain water's role as main transport medium via solvent action and heat capacity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.3.6",
+      "parentCode": "2.3",
+      "title": "Link haemoglobin structure to function and iron's role",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.2.6",
+      "parentCode": "1.2",
+      "title": "Compare prokaryotic and eukaryotic cell structures",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.2.6",
+      "parentCode": "2.2",
+      "title": "Explain glycosidic bond hydrolysis and non-reducing sugar test",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.2.6",
+      "parentCode": "6.2",
+      "title": "Gene mutations are DNA base sequence changes potentially altering polypeptides.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "11.2.6",
+      "parentCode": "11.2",
+      "title": "Explain vaccination programmes' role in controlling infectious disease spread",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "9.1.6",
+      "parentCode": "9.1",
+      "title": "Describe functions of structural and tissue components in gas exchange",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.2.6",
+      "parentCode": "7.2",
+      "title": "Sucrose and amino acids move source to sink in phloem sieve tubes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.1.6",
+      "parentCode": "5.1",
+      "title": "Explain the connection between uncontrolled cell division and tumour formation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.2.6",
+      "parentCode": "4.2",
+      "title": "Explain water movement by water potential and contrast effects on plant and animal cells.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "8.1.7",
+      "parentCode": "8.1",
+      "title": "Explain tissue fluid functions and formation at capillary networks",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.2.7",
+      "parentCode": "7.2",
+      "title": "Companion cells use proton pumps and cotransporters to load phloem assimilates",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.2.7",
+      "parentCode": "6.2",
+      "title": "Mutations occur via substitution, deletion, or insertion affecting polypeptide production.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "9.1.7",
+      "parentCode": "9.1",
+      "title": "Explain how gases move between alveoli and blood capillaries",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.3.7",
+      "parentCode": "2.3",
+      "title": "Describe collagen structure as fibrous protein and fiber arrangement",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.2.7",
+      "parentCode": "2.2",
+      "title": "Describe starch and glycogen structures; relate to biological functions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.2.7",
+      "parentCode": "1.2",
+      "title": "Define viral structure: nucleic acid core with protein capsid",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.3.8",
+      "parentCode": "2.3",
+      "title": "Link collagen molecular and fiber structure to function",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "7.2.8",
+      "parentCode": "7.2",
+      "title": "Phloem mass flow occurs down hydrostatic pressure gradient source to sink",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.2.8",
+      "parentCode": "2.2",
+      "title": "Describe cellulose structure and its contribution to plant cell wall function",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.2.9",
+      "parentCode": "2.2",
+      "title": "Describe triglyceride structure including fatty acids, glycerol, and ester bonds",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "2.2.10",
+      "parentCode": "2.2",
+      "title": "Relate triglyceride structure to biological functions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "2.2.11",
+      "parentCode": "2.2",
+      "title": "Describe phospholipid structure with polar heads and nonpolar tails",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    }
+  ]
+}

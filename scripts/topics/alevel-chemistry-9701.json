@@ -1,0 +1,3968 @@
+{
+  "curriculumCode": "A2_LEVEL",
+  "subject": "Chemistry",
+  "syllabusCode": "9701",
+  "source": "school-core:CAIE-9701@2025–2027",
+  "strands": [
+    {
+      "code": "1",
+      "parentCode": null,
+      "title": "Atomic structure",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2",
+      "parentCode": null,
+      "title": "Atoms, molecules and stoichiometry",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3",
+      "parentCode": null,
+      "title": "Chemical bonding",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4",
+      "parentCode": null,
+      "title": "States of matter",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5",
+      "parentCode": null,
+      "title": "Chemical energetics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6",
+      "parentCode": null,
+      "title": "Electrochemistry",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7",
+      "parentCode": null,
+      "title": "Equilibria",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "8",
+      "parentCode": null,
+      "title": "Reaction kinetics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "9",
+      "parentCode": null,
+      "title": "The Periodic Table: chemical periodicity",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "10",
+      "parentCode": null,
+      "title": "Group 2",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "11",
+      "parentCode": null,
+      "title": "Group 17",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "12",
+      "parentCode": null,
+      "title": "Nitrogen and sulfur",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "13",
+      "parentCode": null,
+      "title": "An introduction to AS Level organic chemistry",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "14",
+      "parentCode": null,
+      "title": "Hydrocarbons",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "15",
+      "parentCode": null,
+      "title": "Halogen compounds",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "16",
+      "parentCode": null,
+      "title": "Hydroxy compounds",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "17",
+      "parentCode": null,
+      "title": "Carbonyl compounds",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "18",
+      "parentCode": null,
+      "title": "Carboxylic acids and derivatives",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 17
+    },
+    {
+      "code": "19",
+      "parentCode": null,
+      "title": "Nitrogen compounds",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 18
+    },
+    {
+      "code": "20",
+      "parentCode": null,
+      "title": "Polymerisation",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 19
+    },
+    {
+      "code": "21",
+      "parentCode": null,
+      "title": "Organic synthesis",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 20
+    },
+    {
+      "code": "22",
+      "parentCode": null,
+      "title": "Analytical techniques",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 21
+    },
+    {
+      "code": "23",
+      "parentCode": null,
+      "title": "Chemical energetics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 22
+    },
+    {
+      "code": "24",
+      "parentCode": null,
+      "title": "Electrochemistry",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 23
+    },
+    {
+      "code": "25",
+      "parentCode": null,
+      "title": "Equilibria",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 24
+    },
+    {
+      "code": "26",
+      "parentCode": null,
+      "title": "Reaction kinetics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 25
+    },
+    {
+      "code": "27",
+      "parentCode": null,
+      "title": "Group 2",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 26
+    },
+    {
+      "code": "28",
+      "parentCode": null,
+      "title": "Chemistry of transition elements",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 27
+    },
+    {
+      "code": "29",
+      "parentCode": null,
+      "title": "An introduction to A Level organic chemistry",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 28
+    },
+    {
+      "code": "30",
+      "parentCode": null,
+      "title": "Hydrocarbons",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 29
+    },
+    {
+      "code": "31",
+      "parentCode": null,
+      "title": "Halogen compounds",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 30
+    },
+    {
+      "code": "32",
+      "parentCode": null,
+      "title": "Hydroxy compounds",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 31
+    },
+    {
+      "code": "33",
+      "parentCode": null,
+      "title": "Carboxylic acids and derivatives",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 32
+    },
+    {
+      "code": "34",
+      "parentCode": null,
+      "title": "Nitrogen compounds",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 33
+    },
+    {
+      "code": "35",
+      "parentCode": null,
+      "title": "Polymerisation",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 34
+    },
+    {
+      "code": "36",
+      "parentCode": null,
+      "title": "Organic synthesis",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 35
+    },
+    {
+      "code": "37",
+      "parentCode": null,
+      "title": "Analytical techniques",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 36
+    },
+    {
+      "code": "3.1",
+      "parentCode": "3",
+      "title": "Electronegativity and bonding",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "19.1",
+      "parentCode": "19",
+      "title": "Primary amines",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "33.1",
+      "parentCode": "33",
+      "title": "Carboxylic acids",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "32.1",
+      "parentCode": "32",
+      "title": "Alcohols",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "31.1",
+      "parentCode": "31",
+      "title": "Halogen compounds",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "30.1",
+      "parentCode": "30",
+      "title": "Arenes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "4",
+      "title": "The gaseous state: ideal and real gases and pV = nRT",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "18.1",
+      "parentCode": "18",
+      "title": "Carboxylic acids",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "5",
+      "title": "Enthalpy change, ΔH",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "17.1",
+      "parentCode": "17",
+      "title": "Aldehydes and ketones",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "6",
+      "title": "Redox processes: electron transfer and changes in oxidation number (oxidation state)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1",
+      "parentCode": "7",
+      "title": "Chemical equilibria: reversible reactions, dynamic equilibrium",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "16.1",
+      "parentCode": "16",
+      "title": "Alcohols",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1",
+      "parentCode": "8",
+      "title": "Rate of reaction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "29.1",
+      "parentCode": "29",
+      "title": "Formulas, functional groups and the naming of organic compounds",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.1",
+      "parentCode": "9",
+      "title": "Periodicity of physical properties of the elements in Period 3",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "28.1",
+      "parentCode": "28",
+      "title": "General physical and chemical properties of the first row of transition elements, titanium to",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.1",
+      "parentCode": "10",
+      "title": "Similarities and trends in the properties of the Group 2 metals, magnesium to barium, and",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.1",
+      "parentCode": "11",
+      "title": "Physical properties of the Group 17 elements",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "15.1",
+      "parentCode": "15",
+      "title": "Halogenoalkanes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "27.1",
+      "parentCode": "27",
+      "title": "Similarities and trends in the properties of the Group 2 metals, magnesium to barium, and",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "26.1",
+      "parentCode": "26",
+      "title": "Simple rate equations, orders of reaction and rate constants",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.1",
+      "parentCode": "12",
+      "title": "Nitrogen and sulfur",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.1",
+      "parentCode": "13",
+      "title": "Formulas, functional groups and the naming of organic compounds",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.1",
+      "parentCode": "14",
+      "title": "Alkanes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "25.1",
+      "parentCode": "25",
+      "title": "Acids and bases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "23.1",
+      "parentCode": "23",
+      "title": "Lattice energy and Born-Haber cycles",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "24.1",
+      "parentCode": "24",
+      "title": "Electrolysis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "22.1",
+      "parentCode": "22",
+      "title": "Infrared spectroscopy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "21.1",
+      "parentCode": "21",
+      "title": "Organic synthesis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "1",
+      "title": "Particles in the atom and atomic radius",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "37.1",
+      "parentCode": "37",
+      "title": "Thin-layer chromatography",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "36.1",
+      "parentCode": "36",
+      "title": "Organic synthesis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "2",
+      "title": "Relative masses of atoms and molecules",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "20.1",
+      "parentCode": "20",
+      "title": "Addition polymerisation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "35.1",
+      "parentCode": "35",
+      "title": "Condensation polymerisation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "34.1",
+      "parentCode": "34",
+      "title": "Primary and secondary amines",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "32.2",
+      "parentCode": "32",
+      "title": "Phenol",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "1",
+      "title": "Isotopes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "2",
+      "title": "The mole and the Avogadro constant",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "3",
+      "title": "Ionic bonding",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "4",
+      "title": "Bonding and structure",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "5",
+      "title": "Hess’s law",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2",
+      "parentCode": "7",
+      "title": "Brønsted–Lowry theory of acids and bases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2",
+      "parentCode": "8",
+      "title": "Effect of temperature on reaction rates and the concept of activation energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.2",
+      "parentCode": "9",
+      "title": "Periodicity of chemical properties of the elements in Period 3",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.2",
+      "parentCode": "11",
+      "title": "The chemical properties of the halogen elements and the hydrogen halides",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.2",
+      "parentCode": "13",
+      "title": "Characteristic organic reactions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.2",
+      "parentCode": "14",
+      "title": "Alkenes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "18.2",
+      "parentCode": "18",
+      "title": "Esters",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "19.2",
+      "parentCode": "19",
+      "title": "Nitriles and hydroxynitriles",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "22.2",
+      "parentCode": "22",
+      "title": "Mass spectrometry",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "23.2",
+      "parentCode": "23",
+      "title": "Enthalpies of solution and hydration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "24.2",
+      "parentCode": "24",
+      "title": "Standard electrode potentials E , standard cell potentials E cell and the Nernst equation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "25.2",
+      "parentCode": "25",
+      "title": "Partition coefficients",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "26.2",
+      "parentCode": "26",
+      "title": "Homogeneous and heterogeneous catalysts",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "28.2",
+      "parentCode": "28",
+      "title": "General characteristic chemical properties of the first set of transition elements, titanium to",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "29.2",
+      "parentCode": "29",
+      "title": "Characteristic organic reactions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "33.2",
+      "parentCode": "33",
+      "title": "Esters",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "34.2",
+      "parentCode": "34",
+      "title": "Phenylamine and azo compounds",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "35.2",
+      "parentCode": "35",
+      "title": "Predicting the type of polymerisation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "37.2",
+      "parentCode": "37",
+      "title": "Gas / liquid chromatography",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.3",
+      "parentCode": "11",
+      "title": "Some reactions of the halide ions",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "35.3",
+      "parentCode": "35",
+      "title": "Degradable polymers",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "28.3",
+      "parentCode": "28",
+      "title": "Colour of complexes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3",
+      "parentCode": "8",
+      "title": "Homogeneous and heterogeneous catalysts",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "29.3",
+      "parentCode": "29",
+      "title": "Shapes of aromatic organic molecules; σ and π bonds",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "3",
+      "title": "Metallic bonding",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "1",
+      "title": "Electrons, energy levels and atomic orbitals",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "33.3",
+      "parentCode": "33",
+      "title": "Acyl chlorides",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "34.3",
+      "parentCode": "34",
+      "title": "Amides",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "23.3",
+      "parentCode": "23",
+      "title": "Entropy change, ΔS",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.3",
+      "parentCode": "13",
+      "title": "Shapes of organic molecules; σ and π bonds",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3",
+      "parentCode": "2",
+      "title": "Formulas",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "37.3",
+      "parentCode": "37",
+      "title": "Carbon-13 NMR spectroscopy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.3",
+      "parentCode": "9",
+      "title": "Chemical periodicity of other elements",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.4",
+      "parentCode": "11",
+      "title": "The reactions of chlorine",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "13.4",
+      "parentCode": "13",
+      "title": "Isomerism: structural isomerism and stereoisomerism",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.4",
+      "parentCode": "2",
+      "title": "Reacting masses and volumes (of solutions and gases)",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "28.4",
+      "parentCode": "28",
+      "title": "Stereoisomerism in transition element complexes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "34.4",
+      "parentCode": "34",
+      "title": "Amino acids",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "29.4",
+      "parentCode": "29",
+      "title": "Isomerism: optical",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4",
+      "parentCode": "3",
+      "title": "Covalent bonding and coordinate (dative covalent) bonding",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "23.4",
+      "parentCode": "23",
+      "title": "Gibbs free energy change, ΔG",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "37.4",
+      "parentCode": "37",
+      "title": "Proton (1H) NMR spectroscopy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "1",
+      "title": "Ionisation energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "28.5",
+      "parentCode": "28",
+      "title": "Stability constants, Kstab",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.5",
+      "parentCode": "3",
+      "title": "Shapes of molecules",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.6",
+      "parentCode": "3",
+      "title": "Intermolecular forces, electronegativity and bond properties",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.7",
+      "parentCode": "3",
+      "title": "Dot-and-cross diagrams",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.2.1",
+      "parentCode": "7.2",
+      "title": "Name and write formulas for common acids: HCl, H2SO4, HNO3, CH3COOH",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "23.4.1",
+      "parentCode": "23.4",
+      "title": "State and apply the Gibbs free energy equation to chemical systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "15.1.1",
+      "parentCode": "15.1",
+      "title": "Recall reactions and conditions for producing halogenoalkanes from alkanes, alkenes, alcohols",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "23.3.1",
+      "parentCode": "23.3",
+      "title": "Define entropy as the number of possible particle and energy arrangements in a system",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "23.2.1",
+      "parentCode": "23.2",
+      "title": "Define and use enthalpy change terms for hydration and solution processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "16.1.1",
+      "parentCode": "16.1",
+      "title": "Recall six methods for producing alcohols with appropriate reagents and conditions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "23.1.1",
+      "parentCode": "23.1",
+      "title": "Define and use enthalpy of atomisation and lattice energy terminology",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "17.1.1",
+      "parentCode": "17.1",
+      "title": "Recall oxidation reactions producing aldehydes from primary alcohols and ketones from secondary alcohols.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "22.2.1",
+      "parentCode": "22.2",
+      "title": "Analyze mass spectra using m/e values and isotopic abundance data",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "22.1.1",
+      "parentCode": "22.1",
+      "title": "Analyze IR spectra to identify functional groups in simple molecules",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "18.1.1",
+      "parentCode": "18.1",
+      "title": "Identify synthesis routes to carboxylic acids via oxidation, nitrile hydrolysis, or ester hydrolysis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "18.2.1",
+      "parentCode": "18.2",
+      "title": "Recall ester formation from alcohol and carboxylic acid with concentrated H₂SO₄",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "19.1.1",
+      "parentCode": "19.1",
+      "title": "Recall amine synthesis from halogenoalkanes with ammonia under heat and pressure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "19.2.1",
+      "parentCode": "19.2",
+      "title": "Nitrile synthesis from halogenoalkanes using KCN in ethanol with heat",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "20.1.1",
+      "parentCode": "20.1",
+      "title": "Describe addition polymerisation using poly(ethene) and poly(chloroethene) as examples",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "21.1.1",
+      "parentCode": "21.1",
+      "title": "Identify functional groups and predict properties and reactions of complex organic molecules",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.4.1",
+      "parentCode": "1.4",
+      "title": "Define and apply the concept of first ionisation energy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1.1",
+      "parentCode": "1.1",
+      "title": "Atoms consist of a small dense nucleus surrounded by electrons in shells.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "37.4.1",
+      "parentCode": "37.4",
+      "title": "Interpret 1H NMR spectra to determine proton environments, numbers, splitting patterns using n+1 rule, and molecular structure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "37.3.1",
+      "parentCode": "37.3",
+      "title": "Analyze and interpret C-13 NMR spectra to determine carbon environments and molecular structure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2.1",
+      "parentCode": "1.2",
+      "title": "Define isotope based on proton and neutron numbers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.3.1",
+      "parentCode": "1.3",
+      "title": "Understand terminology: shells, sub-shells, orbitals, principal quantum number, ground state",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "37.2.1",
+      "parentCode": "37.2",
+      "title": "Define stationary phase, mobile phase, and retention time in chromatography.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "37.1.1",
+      "parentCode": "37.1",
+      "title": "Define key thin-layer chromatography terminology: stationary phase, mobile phase, Rf value, solvent front, baseline.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "36.1.1",
+      "parentCode": "36.1",
+      "title": "Identify functional groups and predict properties and reactions of organic molecules",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "35.3.1",
+      "parentCode": "35.3",
+      "title": "Poly(alkenes) are chemically inert, making them difficult to biodegrade",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "35.1.1",
+      "parentCode": "35.1",
+      "title": "Describe polyester formation from diols, dicarboxylic acids, and hydroxycarboxylic acids",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1.1",
+      "parentCode": "2.1",
+      "title": "Define unified atomic mass unit relative to carbon-12 atom mass",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.2.1",
+      "parentCode": "2.2",
+      "title": "Define mole concept and apply it using Avogadro constant values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.3.1",
+      "parentCode": "2.3",
+      "title": "Write ionic compound formulas using charges and oxidation numbers; predict charges from periodic table position.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "34.4.1",
+      "parentCode": "34.4",
+      "title": "Explain amino acid acid-base properties, zwitterion formation, and isoelectric points",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.4.1",
+      "parentCode": "2.4",
+      "title": "Calculate mole-based reacting masses, gas volumes, solution concentrations, and stoichiometric relationships",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1.1",
+      "parentCode": "3.1",
+      "title": "Define electronegativity and understand its meaning in atomic electron attraction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "34.3.1",
+      "parentCode": "34.3",
+      "title": "Recall amide formation from ammonia or primary amines with acyl chlorides",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.2.1",
+      "parentCode": "3.2",
+      "title": "Define ionic bonding as electrostatic attraction between oppositely charged ions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.3.1",
+      "parentCode": "3.3",
+      "title": "Define metallic bonding as electrostatic attraction between positive ions and delocalised electrons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.4.1",
+      "parentCode": "3.4",
+      "title": "Define covalent bonding as electrostatic attraction and shared electron pairs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "34.2.1",
+      "parentCode": "34.2",
+      "title": "Explain phenylamine synthesis: benzene nitration, reduction with Sn/HCl, then NaOH.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "34.1.1",
+      "parentCode": "34.1",
+      "title": "Recall reagents and conditions for synthesizing primary and secondary amines",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "33.3.1",
+      "parentCode": "33.3",
+      "title": "Recall reagents and conditions for producing acyl chlorides from carboxylic acids",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.5.1",
+      "parentCode": "3.5",
+      "title": "Explain molecular shapes and bond angles using VSEPR theory with standard examples",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.6.1",
+      "parentCode": "3.6",
+      "title": "Explain hydrogen bonding in N–H and O–H molecules using ammonia and water.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "33.2.1",
+      "parentCode": "33.2",
+      "title": "Recall ester formation from alcohols and acyl chlorides reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "33.1.1",
+      "parentCode": "33.1",
+      "title": "Recall benzoic acid production from alkylbenzene oxidation with hot alkaline KMnO₄",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.7.1",
+      "parentCode": "3.7",
+      "title": "Draw dot-and-cross diagrams for ionic, covalent, and coordinate bonding types.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1.1",
+      "parentCode": "4.1",
+      "title": "Explain gas pressure as resulting from molecular collisions with container walls",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.2.1",
+      "parentCode": "4.2",
+      "title": "Describe lattice structures of ionic, molecular, giant molecular, and metallic solids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1.1",
+      "parentCode": "5.1",
+      "title": "Recognize that reactions involve enthalpy changes; exothermic or endothermic.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "32.2.1",
+      "parentCode": "32.2",
+      "title": "Recall phenol production from phenylamine via diazonium salt intermediate.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "32.1.1",
+      "parentCode": "32.1",
+      "title": "Describe ester formation from alcohols and acyl chlorides using ethyl ethanoate",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "31.1.1",
+      "parentCode": "31.1",
+      "title": "Recall halogenoarene synthesis via arene substitution with halogens and catalysts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.2.1",
+      "parentCode": "5.2",
+      "title": "Apply Hess's law to construct simple energy cycles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1.1",
+      "parentCode": "6.1",
+      "title": "Calculate oxidation numbers for elements in compounds and ionic species",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "30.1.1",
+      "parentCode": "30.1",
+      "title": "Describe key reactions of benzene and methylbenzene including substitution, nitration, alkylation, acylation, oxidation, and hydrogenation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "35.2.1",
+      "parentCode": "35.2",
+      "title": "Predict polymerisation type from monomer or monomer pair structures",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1.1",
+      "parentCode": "7.1",
+      "title": "Understand reversible reactions, dynamic equilibrium conditions, and closed system requirements",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "29.4.1",
+      "parentCode": "29.4",
+      "title": "Enantiomers differ only in optical rotation and biological activity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "29.3.1",
+      "parentCode": "29.3",
+      "title": "Explain aromatic molecule shapes using hybridisation, sigma bonds, and delocalised pi systems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "29.2.1",
+      "parentCode": "29.2",
+      "title": "Understand and use terminology for electrophilic substitution and addition–elimination mechanisms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "29.1.1",
+      "parentCode": "29.1",
+      "title": "Understand how functional groups determine compound properties",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.2.1",
+      "parentCode": "14.2",
+      "title": "Recall reactions producing alkenes: elimination, dehydration, cracking with conditions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "28.5.1",
+      "parentCode": "28.5",
+      "title": "Define stability constant as equilibrium constant for complex ion formation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "28.4.1",
+      "parentCode": "28.4",
+      "title": "Describe geometrical and optical stereoisomerism in transition element complexes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "28.3.1",
+      "parentCode": "28.3",
+      "title": "Define and use degenerate and non-degenerate d orbital terminology",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "28.2.1",
+      "parentCode": "28.2",
+      "title": "Explain transition element reactions with ligands forming complexes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1.1",
+      "parentCode": "8.1",
+      "title": "Define and apply rate of reaction, collision frequency, and collision effectiveness concepts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.2.1",
+      "parentCode": "8.2",
+      "title": "Define activation energy as minimum energy needed for effective collisions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.3.1",
+      "parentCode": "8.3",
+      "title": "Understand catalysts, mechanisms, activation energy, and reaction pathway diagrams.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.1.1",
+      "parentCode": "9.1",
+      "title": "Describe periodic trends in atomic radius, ionic radius, melting point, and electrical conductivity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.2.1",
+      "parentCode": "9.2",
+      "title": "Write equations for Period 3 element reactions with oxygen, chlorine, and water",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "28.1.1",
+      "parentCode": "28.1",
+      "title": "Define transition elements as d-block elements forming stable ions with incomplete d orbitals",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "27.1.1",
+      "parentCode": "27.1",
+      "title": "Explain thermal stability trends in Group 2 nitrates and carbonates via ionic radius effects.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.3.1",
+      "parentCode": "9.3",
+      "title": "Predict element properties in a group using chemical periodicity knowledge",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.1.1",
+      "parentCode": "10.1",
+      "title": "Describe and write equations for Group 2 element reactions with oxygen, water, and dilute acids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "26.2.1",
+      "parentCode": "26.2",
+      "title": "Distinguish between homogeneous and heterogeneous catalysts and their definitions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.1.1",
+      "parentCode": "11.1",
+      "title": "Identify colors and explain volatility trends across chlorine, bromine, iodine",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.2.1",
+      "parentCode": "11.2",
+      "title": "Compare how halogens function as oxidizing agents in reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.3.1",
+      "parentCode": "11.3",
+      "title": "Explain how halide ions vary in their reducing agent reactivity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.4.1",
+      "parentCode": "11.4",
+      "title": "Explain chlorine reactions with cold and hot NaOH as disproportionation using oxidation numbers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.1.1",
+      "parentCode": "12.1",
+      "title": "Explain nitrogen's inertness using bond strength and polarity arguments.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "26.1.1",
+      "parentCode": "26.1",
+      "title": "Define and apply key terminology for reaction kinetics and mechanisms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.1.1",
+      "parentCode": "13.1",
+      "title": "Define hydrocarbon as a compound containing only carbon and hydrogen atoms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "25.2.1",
+      "parentCode": "25.2",
+      "title": "Define partition coefficient and its notation Kpc",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.2.1",
+      "parentCode": "13.2",
+      "title": "Define and apply key terminology for organic compounds, reactions, and redox notation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.3.1",
+      "parentCode": "13.3",
+      "title": "Classify organic molecules by their carbon chain structure type",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.4.1",
+      "parentCode": "13.4",
+      "title": "Define structural isomerism and classify its three main types",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "25.1.1",
+      "parentCode": "25.1",
+      "title": "Understand and apply conjugate acid and conjugate base terminology",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "24.2.1",
+      "parentCode": "24.2",
+      "title": "Define standard electrode and cell potentials",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.1.1",
+      "parentCode": "14.1",
+      "title": "Recall reactions producing alkanes: hydrogenation and cracking conditions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "24.1.1",
+      "parentCode": "24.1",
+      "title": "Predict products of electrolysis using electrolyte state and electrode potential",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "17.1.2",
+      "parentCode": "17.1",
+      "title": "Describe reduction of carbonyl compounds and their reaction with hydrogen cyanide to form hydroxynitriles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "29.1.2",
+      "parentCode": "29.1",
+      "title": "Interpret and use multiple formula types for organic compounds",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.4.2",
+      "parentCode": "13.4",
+      "title": "Define stereoisomerism and distinguish between geometrical and optical isomerism",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "28.5.2",
+      "parentCode": "28.5",
+      "title": "Write Kstab expressions, excluding water concentration from expression",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.4.2",
+      "parentCode": "11.4",
+      "title": "Explain chlorine water purification via HOCl and ClO⁻ production killing bacteria.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2.2",
+      "parentCode": "7.2",
+      "title": "Name and write formulas for common alkalis: NaOH, KOH, NH3",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "37.3.2",
+      "parentCode": "37.3",
+      "title": "Predict or explain the number of peaks in C-13 NMR spectra for molecules.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "15.1.2",
+      "parentCode": "15.1",
+      "title": "Classify halogenoalkanes by carbon structure: primary, secondary, tertiary",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "28.4.2",
+      "parentCode": "28.4",
+      "title": "Deduce overall polarity of complexes showing stereoisomerism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.1.2",
+      "parentCode": "12.1",
+      "title": "Explain ammonia basicity, ammonium ion structure formation, and ammonia displacement mechanisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "28.3.2",
+      "parentCode": "28.3",
+      "title": "Describe d orbital splitting and ΔE in octahedral and tetrahedral complexes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "22.2.2",
+      "parentCode": "22.2",
+      "title": "Calculate relative atomic mass from isotope abundances or mass spectrum",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "28.2.2",
+      "parentCode": "28.2",
+      "title": "Define ligand and its dative covalent bonding to metal",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "24.1.2",
+      "parentCode": "24.1",
+      "title": "State and apply relationship between Faraday constant, Avogadro constant, electron charge",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "25.2.2",
+      "parentCode": "25.2",
+      "title": "Calculate and apply partition coefficients when solute exists in identical physical states",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "28.1.2",
+      "parentCode": "28.1",
+      "title": "Sketch the shapes of 3dxy and 3dz² orbitals",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "34.4.2",
+      "parentCode": "34.4",
+      "title": "Explain peptide bond formation in di- and tripeptides",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.1.2",
+      "parentCode": "8.1",
+      "title": "Explain how concentration and pressure affect reaction rate via effective collision frequency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.1.2",
+      "parentCode": "2.1",
+      "title": "Define Ar, relative isotopic mass, Mr, and relative formula mass concepts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "37.4.2",
+      "parentCode": "37.4",
+      "title": "Predict proton chemical shifts and splitting patterns for molecules.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "24.2.2",
+      "parentCode": "24.2",
+      "title": "Describe the standard hydrogen electrode",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.3.2",
+      "parentCode": "2.3",
+      "title": "Write balanced equations and ionic equations without spectator ions; use state symbols correctly.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "35.1.2",
+      "parentCode": "35.1",
+      "title": "Describe polyamide formation from diamines, dicarboxylic acids, and amino acids",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2.2",
+      "parentCode": "8.2",
+      "title": "Sketch and apply Boltzmann distribution to explain activation energy significance",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "34.3.2",
+      "parentCode": "34.3",
+      "title": "Describe amide hydrolysis and reduction of carbonyl group to amine",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.1.2",
+      "parentCode": "1.1",
+      "title": "Describe the charge and mass properties of subatomic particles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.1.2",
+      "parentCode": "13.1",
+      "title": "Understand alkanes as simple hydrocarbons lacking functional groups",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.1.2",
+      "parentCode": "3.1",
+      "title": "Explain how nuclear charge, atomic radius, and shielding affect electronegativity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "35.2.2",
+      "parentCode": "35.2",
+      "title": "Deduce polymerisation type from given polymer molecule section",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "16.1.2",
+      "parentCode": "16.1",
+      "title": "Describe reactions of alcohols: combustion, halogenoalkane formation, sodium reaction, oxidation, dehydration, esterification",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.1.2",
+      "parentCode": "9.1",
+      "title": "Explain melting point and electrical conductivity variations using structure and bonding concepts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2.2",
+      "parentCode": "3.2",
+      "title": "Describe ionic bonding using sodium chloride, magnesium oxide, and calcium fluoride examples.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "23.4.2",
+      "parentCode": "23.4",
+      "title": "Calculate Gibbs free energy changes using the standard thermodynamic equation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.2.2",
+      "parentCode": "9.2",
+      "title": "Explain oxidation number variations in oxides and chlorides using valence electrons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.4.2",
+      "parentCode": "3.4",
+      "title": "Describe covalent bonding in common molecules like H₂, O₂, N₂, HCl, CO₂, NH₃, CH₄, C₂H₆, C₂H₄.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.4.2",
+      "parentCode": "1.4",
+      "title": "Write equations for successive ionisation energy processes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "34.2.2",
+      "parentCode": "34.2",
+      "title": "Describe phenylamine's reaction with aqueous bromine at room temperature.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "20.1.2",
+      "parentCode": "20.1",
+      "title": "Deduce repeat units of addition polymers from given monomers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "34.1.2",
+      "parentCode": "34.1",
+      "title": "Describe condensation of ammonia or amines with acyl chlorides forming amides",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "23.1.2",
+      "parentCode": "23.1",
+      "title": "Define electron affinity and explain trends in Groups 16 and 17",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "33.3.2",
+      "parentCode": "33.3",
+      "title": "Describe acyl chloride reactions with water, alcohols, phenol, ammonia, and amines",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "27.1.2",
+      "parentCode": "27.1",
+      "title": "Explain solubility and enthalpy changes in Group 2 hydroxides and sulfates using hydration and lattice energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.2.2",
+      "parentCode": "14.2",
+      "title": "Describe electrophilic additions, oxidations, and polymerisation reactions of alkenes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.5.2",
+      "parentCode": "3.5",
+      "title": "Predict shapes and bond angles of analogous molecules and ions using VSEPR",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "26.2.2",
+      "parentCode": "26.2",
+      "title": "Explain heterogeneous catalyst mechanism: adsorption, bond weakening, desorption steps",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.6.2",
+      "parentCode": "3.6",
+      "title": "Apply hydrogen bonding to explain water's anomalous properties including melting point, boiling point, surface tension, and density.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "35.3.2",
+      "parentCode": "35.3",
+      "title": "Some polymers undergo degradation when exposed to light",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.2.2",
+      "parentCode": "13.2",
+      "title": "Apply terminology for organic mechanisms using curly arrow electron pair notation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "33.1.2",
+      "parentCode": "33.1",
+      "title": "Describe carboxylic acid conversion to acyl chlorides using PCl₃, PCl₅, or SOCl₂",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.3.2",
+      "parentCode": "9.3",
+      "title": "Deduce unknown element identity, nature, and Periodic Table position from properties",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "32.2.2",
+      "parentCode": "32.2",
+      "title": "Recall phenol reactions with bases, sodium, diazonium salts, and electrophilic aromatic substitution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.1.2",
+      "parentCode": "14.1",
+      "title": "Describe combustion types and free-radical halogenation of alkanes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.1.2",
+      "parentCode": "10.1",
+      "title": "Describe and write equations for Group 2 compound reactions with water and dilute acids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.1.2",
+      "parentCode": "4.1",
+      "title": "Understand ideal gas assumptions about particle volume and intermolecular forces",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "36.1.2",
+      "parentCode": "36.1",
+      "title": "Design multi-step synthesis routes for organic molecules using syllabus reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "19.2.2",
+      "parentCode": "19.2",
+      "title": "Hydroxynitrile synthesis from carbonyl compounds using HCN with KCN catalyst",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2.2",
+      "parentCode": "4.2",
+      "title": "Relate structure and bonding to physical properties like melting point and conductivity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "37.1.2",
+      "parentCode": "37.1",
+      "title": "Interpret the meaning and significance of Rf values in chromatography.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "18.2.2",
+      "parentCode": "18.2",
+      "title": "Describe ester hydrolysis under dilute acid and dilute alkali conditions with heat",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.1.2",
+      "parentCode": "5.1",
+      "title": "Draw and analyze reaction pathway diagrams showing enthalpy and activation energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.3.2",
+      "parentCode": "1.3",
+      "title": "Describe orbital counts and electron capacity of s, p, and d sub-shells",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.3.2",
+      "parentCode": "13.3",
+      "title": "Explain molecular shape and bond angles based on atom hybridization states",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "26.1.2",
+      "parentCode": "26.1",
+      "title": "Apply rate equations and deduce reaction orders from various experimental methods and data",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "31.1.2",
+      "parentCode": "31.1",
+      "title": "Explain reactivity differences between halogenoalkanes and halogenoarenes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "23.2.2",
+      "parentCode": "23.2",
+      "title": "Construct and use energy cycles linking solution, lattice energy, and hydration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.1.2",
+      "parentCode": "11.1",
+      "title": "Explain how bond strength varies among halogen diatomic molecules",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2.2",
+      "parentCode": "5.2",
+      "title": "Calculate enthalpy changes using cycles and bond energy data",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "18.1.2",
+      "parentCode": "18.1",
+      "title": "Explain carboxylic acid reactions with metals, alkalis, carbonates, alcohols, and reducing agents",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.1.2",
+      "parentCode": "6.1",
+      "title": "Apply oxidation number changes to balance chemical equations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "37.2.2",
+      "parentCode": "37.2",
+      "title": "Analyze chromatograms to determine mixture composition percentages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "30.1.2",
+      "parentCode": "30.1",
+      "title": "Explain electrophilic substitution mechanism in arenes and aromatic stabilisation preventing addition reactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "25.1.2",
+      "parentCode": "25.1",
+      "title": "Define conjugate acid-base pairs and identify them in chemical reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.2.2",
+      "parentCode": "11.2",
+      "title": "Explain halogen-hydrogen reactions and relative reactivity patterns",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "21.1.2",
+      "parentCode": "21.1",
+      "title": "Design multi-step synthesis pathways for organic molecules using available reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.1.2",
+      "parentCode": "7.1",
+      "title": "Define Le Chatelier's principle and equilibrium position response to change",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2.2",
+      "parentCode": "1.2",
+      "title": "Understand isotope notation with mass and atomic numbers.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "29.4.2",
+      "parentCode": "29.4",
+      "title": "Define and apply optically active substances and racemic mixtures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "23.3.2",
+      "parentCode": "23.3",
+      "title": "Predict and explain entropy sign changes in state changes, temperature changes, and reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.3.2",
+      "parentCode": "11.3",
+      "title": "Explain halide ion reactions with silver ions and subsequent ammonia addition",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "25.1.3",
+      "parentCode": "25.1",
+      "title": "Define pH, Ka, pKa, and Kw mathematically; use them in calculations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.1.3",
+      "parentCode": "1.1",
+      "title": "Understand definitions of atomic number, proton number, mass number, and nucleon number.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.2.3",
+      "parentCode": "1.2",
+      "title": "Explain why isotopes have identical chemical properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3.3",
+      "parentCode": "1.3",
+      "title": "Describe energy ordering of sub-shells in first three shells and 4s, 4p",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.4.3",
+      "parentCode": "1.4",
+      "title": "Explain ionisation energy patterns across periods and down groups",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.3.3",
+      "parentCode": "2.3",
+      "title": "Define and apply empirical and molecular formula terminology.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.1.3",
+      "parentCode": "3.1",
+      "title": "Describe and explain electronegativity trends across periods and down groups",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.4.3",
+      "parentCode": "3.4",
+      "title": "Understand octet expansion in period 3 elements like SO₂, PCl₅, SF₆.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.6.3",
+      "parentCode": "3.6",
+      "title": "Explain bond polarity and molecular dipole moments using electronegativity concepts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.1.3",
+      "parentCode": "4.1",
+      "title": "State and apply pV = nRT equation including determining relative molecular mass",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.2.3",
+      "parentCode": "4.2",
+      "title": "Identify structure and bonding types from substance information.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.1.3",
+      "parentCode": "5.1",
+      "title": "Define standard conditions and four types of enthalpy change with notation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.1.3",
+      "parentCode": "6.1",
+      "title": "Explain redox, oxidation, reduction, disproportionation using electrons and oxidation numbers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.1.3",
+      "parentCode": "7.1",
+      "title": "Apply Le Chatelier's principle to predict equilibrium effects from condition changes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.2.3",
+      "parentCode": "7.2",
+      "title": "Explain Brønsted–Lowry definitions of acids and bases",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.1.3",
+      "parentCode": "8.1",
+      "title": "Calculate reaction rates from experimental data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.2.3",
+      "parentCode": "8.2",
+      "title": "Explain temperature effects on reaction rate using Boltzmann distribution and collision frequency",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.2.3",
+      "parentCode": "9.2",
+      "title": "Write equations for oxide reactions with water; predict solution pHs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "20.1.3",
+      "parentCode": "20.1",
+      "title": "Identify monomers within given sections of addition polymer molecules",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.1.3",
+      "parentCode": "10.1",
+      "title": "Describe thermal decomposition of Group 2 nitrates and carbonates, including stability trends.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.1.3",
+      "parentCode": "11.1",
+      "title": "Relate element volatility to instantaneous dipole-induced dipole intermolecular forces",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.2.3",
+      "parentCode": "11.2",
+      "title": "Compare hydrogen halide thermal stability using bond strength explanations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.3.3",
+      "parentCode": "11.3",
+      "title": "Explain halide reactions with concentrated sulfuric acid using balanced equations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.1.3",
+      "parentCode": "12.1",
+      "title": "Describe nitrogen oxides' sources and catalytic removal from engine exhaust.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.1.3",
+      "parentCode": "13.1",
+      "title": "Understand functional groups determine physical and chemical properties of compounds",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.3.3",
+      "parentCode": "13.3",
+      "title": "Identify sigma and pi bond arrangements in hybridized organic molecules",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.4.3",
+      "parentCode": "13.4",
+      "title": "Explain cis/trans isomerism in alkenes caused by π bond rotation restriction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.1.3",
+      "parentCode": "14.1",
+      "title": "Describe free-radical substitution mechanism steps and processes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "30.1.3",
+      "parentCode": "30.1",
+      "title": "Predict halogenation location based on reaction conditions in arenes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.2.3",
+      "parentCode": "14.2",
+      "title": "Describe using aqueous bromine to test for C=C bonds",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "15.1.3",
+      "parentCode": "15.1",
+      "title": "Describe nucleophilic substitution reactions producing alcohols, nitriles, amines, halogen identification",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "16.1.3",
+      "parentCode": "16.1",
+      "title": "Classify alcohols by type and identify characteristic reactions to distinguish primary, secondary, tertiary",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "17.1.3",
+      "parentCode": "17.1",
+      "title": "Describe the nucleophilic addition mechanism of hydrogen cyanide with carbonyl compounds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "19.2.3",
+      "parentCode": "19.2",
+      "title": "Nitrile hydrolysis to carboxylic acids using dilute acid or alkali",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "21.1.3",
+      "parentCode": "21.1",
+      "title": "Analyze synthetic routes by identifying reaction types, reagents, and potential by-products",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "22.2.3",
+      "parentCode": "22.2",
+      "title": "Determine molecular mass from the molecular ion peak",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "23.1.3",
+      "parentCode": "23.1",
+      "title": "Construct and use Born-Haber cycles for ionic compounds",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "23.2.3",
+      "parentCode": "23.2",
+      "title": "Perform calculations using energy cycles from topic 23.2.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "23.3.3",
+      "parentCode": "23.3",
+      "title": "Calculate reaction entropy change using standard entropies of products and reactants",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "23.4.3",
+      "parentCode": "23.4",
+      "title": "Determine reaction feasibility by interpreting the sign of Gibbs free energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "24.1.3",
+      "parentCode": "24.1",
+      "title": "Calculate charge using Q=It and mass/volume of electrolysis products",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "24.2.3",
+      "parentCode": "24.2",
+      "title": "Describe methods for measuring standard electrode potentials",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "25.2.3",
+      "parentCode": "25.2",
+      "title": "Explain how solute and solvent polarity affect partition coefficient values",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "26.1.3",
+      "parentCode": "26.1",
+      "title": "Understand and use half-life properties specific to first-order reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "26.2.3",
+      "parentCode": "26.2",
+      "title": "Explain homogeneous catalyst mechanism: consumed then regenerated in reaction steps",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "28.1.3",
+      "parentCode": "28.1",
+      "title": "Understand transition element properties: variable oxidation states, catalysis, complex ion formation, coloured compounds",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "28.2.3",
+      "parentCode": "28.2",
+      "title": "Classify ligands by denticity with examples",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "28.3.3",
+      "parentCode": "28.3",
+      "title": "Explain colour of transition elements via d orbital electron promotion frequency",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "33.3.3",
+      "parentCode": "33.3",
+      "title": "Describe the addition-elimination mechanism for acyl chloride reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "28.5.3",
+      "parentCode": "28.5",
+      "title": "Perform calculations using Kstab expressions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "29.1.3",
+      "parentCode": "29.1",
+      "title": "Name aliphatic and cyclic organic molecules using systematic nomenclature",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "29.4.3",
+      "parentCode": "29.4",
+      "title": "Explain how enantiomers affect plane polarised light differently.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "32.2.3",
+      "parentCode": "32.2",
+      "title": "Explain why phenol exhibits acidic properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "33.1.3",
+      "parentCode": "33.1",
+      "title": "Recognise oxidation of methanoic and ethanedioic acids with various oxidising agents",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "34.1.3",
+      "parentCode": "34.1",
+      "title": "Describe and explain basicity of amine aqueous solutions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "34.2.3",
+      "parentCode": "34.2",
+      "title": "Explain diazonium salt formation from phenylamine and its conversion to phenol.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "34.3.3",
+      "parentCode": "34.3",
+      "title": "Explain why amides are weaker bases than amines",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "34.4.3",
+      "parentCode": "34.4",
+      "title": "Interpret and predict electrophoresis results for amino acids and dipeptides at different pH values",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "35.1.3",
+      "parentCode": "35.1",
+      "title": "Deduce repeat units of condensation polymers from given monomers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "35.3.3",
+      "parentCode": "35.3",
+      "title": "Polyesters and polyamides biodegrade through acidic and alkaline hydrolysis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "36.1.3",
+      "parentCode": "36.1",
+      "title": "Analyze synthetic routes for reaction types, reagents, and by-products at each step",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "37.1.3",
+      "parentCode": "37.1",
+      "title": "Explain Rf value variations based on stationary phase interactions and mobile phase solubility.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "37.2.3",
+      "parentCode": "37.2",
+      "title": "Account for retention times based on stationary phase interactions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "37.4.3",
+      "parentCode": "37.4",
+      "title": "Explain TMS as the standard reference for NMR chemical shift measurements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "25.1.4",
+      "parentCode": "25.1",
+      "title": "Calculate hydrogen ion concentration and pH for acids and alkalis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.1.4",
+      "parentCode": "5.1",
+      "title": "Understand energy transfers result from breaking and forming chemical bonds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.4.4",
+      "parentCode": "3.4",
+      "title": "Describe coordinate covalent bonding in NH₄⁺ and Al₂Cl₆ formation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "26.1.4",
+      "parentCode": "26.1",
+      "title": "Determine rate constant values using multiple calculation methods",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "24.1.4",
+      "parentCode": "24.1",
+      "title": "Describe determining Avogadro constant using electrolytic methods",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "10.1.4",
+      "parentCode": "10.1",
+      "title": "Describe and predict trends in physical and chemical properties of Group 2 elements and compounds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.3.4",
+      "parentCode": "2.3",
+      "title": "Understand and apply anhydrous, hydrated, and water of crystallisation terminology.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "14.1.4",
+      "parentCode": "14.1",
+      "title": "Suggest cracking applications for obtaining useful lower Mr hydrocarbons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.2.4",
+      "parentCode": "9.2",
+      "title": "Explain acid-base behaviour of oxides and hydroxides; identify amphoteric properties",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "13.1.4",
+      "parentCode": "13.1",
+      "title": "Interpret and use general, structural, displayed, and skeletal formulas",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4.4",
+      "parentCode": "1.4",
+      "title": "Explain why successive ionisation energies increase for elements",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "28.1.4",
+      "parentCode": "28.1",
+      "title": "Explain variable oxidation states from 3d and 4s sub-shell energy similarity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "23.1.4",
+      "parentCode": "23.1",
+      "title": "Perform calculations using Born-Haber cycles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "28.2.4",
+      "parentCode": "28.2",
+      "title": "Define complex ion and molecular structure",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "23.4.4",
+      "parentCode": "23.4",
+      "title": "Predict how temperature affects reaction feasibility using ΔH and ΔS values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "37.4.4",
+      "parentCode": "37.4",
+      "title": "Explain why deuterated solvents are needed for proton NMR spectroscopy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "16.1.4",
+      "parentCode": "16.1",
+      "title": "Identify CH3CH(OH)– group using iodoform test with alkaline iodine",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "22.2.4",
+      "parentCode": "22.2",
+      "title": "Identify molecules formed by simple fragmentation patterns",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "28.3.4",
+      "parentCode": "28.3",
+      "title": "Describe how different ligands affect ΔE and observed complementary colour",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "17.1.4",
+      "parentCode": "17.1",
+      "title": "Describe using 2,4-DNPH reagent to detect the presence of carbonyl compounds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "13.4.4",
+      "parentCode": "13.4",
+      "title": "Define chiral centers and explain how they produce enantiomeric pairs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.2.4",
+      "parentCode": "7.2",
+      "title": "Distinguish between complete dissociation of strong and partial dissociation of weak acids and bases",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.1.4",
+      "parentCode": "3.1",
+      "title": "Apply electronegativity differences to predict ionic versus covalent bond formation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "28.5.4",
+      "parentCode": "28.5",
+      "title": "Explain ligand exchanges using Kstab values; large Kstab indicates stable complex",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "20.1.4",
+      "parentCode": "20.1",
+      "title": "Recognise disposal difficulties of poly(alkene)s: non-biodegradability and harmful combustion",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.1.4",
+      "parentCode": "1.1",
+      "title": "Explain how mass and charge are distributed throughout an atom.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "29.1.4",
+      "parentCode": "29.1",
+      "title": "Name aromatic molecules with benzene ring and substituents systematically",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "34.2.4",
+      "parentCode": "34.2",
+      "title": "Compare and explain basicity trends in ammonia, ethylamine, and phenylamine.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "13.3.4",
+      "parentCode": "13.3",
+      "title": "Apply planar geometry terminology to describe organic molecular arrangements",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.1.4",
+      "parentCode": "7.1",
+      "title": "Derive equilibrium constant expressions using concentrations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "24.2.4",
+      "parentCode": "24.2",
+      "title": "Calculate standard cell potential from electrode potentials",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "29.4.4",
+      "parentCode": "29.4",
+      "title": "Explain chirality's importance in drug synthesis, separation, and catalytic production.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.1.4",
+      "parentCode": "6.1",
+      "title": "Explain and apply oxidising and reducing agent terminology",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "30.1.4",
+      "parentCode": "30.1",
+      "title": "Explain how different substituents direct electrophilic substitution to specific ring positions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.2.4",
+      "parentCode": "1.2",
+      "title": "Explain why isotopes differ in mass and density properties.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "32.2.4",
+      "parentCode": "32.2",
+      "title": "Compare and explain acidity differences between water, phenol, and ethanol.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "33.1.4",
+      "parentCode": "33.1",
+      "title": "Describe and explain relative acidities of carboxylic acids, phenols, and alcohols",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.6.4",
+      "parentCode": "3.6",
+      "title": "Define van der Waals' forces as intermolecular forces and use term generically for all such forces.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.3.4",
+      "parentCode": "1.3",
+      "title": "Describe electronic configurations including electron distribution across shells and orbitals",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "33.3.4",
+      "parentCode": "33.3",
+      "title": "Explain relative hydrolysis ease of acyl, alkyl, and aryl chlorides",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "14.2.4",
+      "parentCode": "14.2",
+      "title": "Describe electrophilic addition mechanism with bromine/ethene and HBr/propene",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "15.1.4",
+      "parentCode": "15.1",
+      "title": "Describe elimination reaction with NaOH in ethanol to form alkenes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "23.2.4",
+      "parentCode": "23.2",
+      "title": "Explain how ionic charge and radius affect hydration enthalpy magnitude qualitatively.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "12.1.4",
+      "parentCode": "12.1",
+      "title": "Understand PAN formation from nitrogen oxides and hydrocarbons in photochemical smog.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "35.1.4",
+      "parentCode": "35.1",
+      "title": "Identify monomers present in given condensation polymer sections",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.3.5",
+      "parentCode": "1.3",
+      "title": "Explain electronic configurations using electron energy and repulsion concepts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "16.1.5",
+      "parentCode": "16.1",
+      "title": "Explain why alcohols have different acidity than water",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "32.2.5",
+      "parentCode": "32.2",
+      "title": "Explain differences in nitration and bromination conditions for phenol versus benzene.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "25.1.5",
+      "parentCode": "25.1",
+      "title": "Define buffers, explain preparation and pH control mechanism, describe applications including blood pH",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.4.5",
+      "parentCode": "3.4",
+      "title": "Describe σ and π bonds formed by direct and sideways orbital overlap respectively.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "24.2.5",
+      "parentCode": "24.2",
+      "title": "Use cell potentials to deduce polarity and predict reaction feasibility",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.6.5",
+      "parentCode": "3.6",
+      "title": "Identify and describe London dispersion forces and permanent dipole–dipole forces including hydrogen bonding.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "37.4.5",
+      "parentCode": "37.4",
+      "title": "Identify O-H and N-H protons using D₂O proton exchange method.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.1.5",
+      "parentCode": "1.1",
+      "title": "Explain how subatomic particles behave when moving through electric fields.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "33.1.5",
+      "parentCode": "33.1",
+      "title": "Describe and explain relative acidities of chlorine-substituted carboxylic acids",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.1.5",
+      "parentCode": "6.1",
+      "title": "Use Roman numerals to denote oxidation state magnitudes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "28.1.5",
+      "parentCode": "28.1",
+      "title": "Explain catalytic behaviour from multiple oxidation states and accessible d orbitals forming dative bonds",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "14.1.5",
+      "parentCode": "14.1",
+      "title": "Understand alkane unreactivity due to strong C-H bonds and low polarity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "15.1.5",
+      "parentCode": "15.1",
+      "title": "Describe SN1 and SN2 mechanisms including inductive effects of alkyl groups",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "14.2.5",
+      "parentCode": "14.2",
+      "title": "Explain alkyl group inductive effects on carbocation stability and Markovnikov's rule",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "23.1.5",
+      "parentCode": "23.1",
+      "title": "Explain qualitatively how ionic charge and radius affect lattice energy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.1.5",
+      "parentCode": "7.1",
+      "title": "Use mole fraction and partial pressure terminology",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "13.1.5",
+      "parentCode": "13.1",
+      "title": "Apply systematic nomenclature to aliphatic organic molecules with functional groups",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "12.1.5",
+      "parentCode": "12.1",
+      "title": "Describe nitrogen oxides' roles in acid rain formation and SO₂ oxidation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "13.4.5",
+      "parentCode": "13.4",
+      "title": "Recognize chiral centers and geometric isomerism in structural formulas",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "28.3.5",
+      "parentCode": "28.3",
+      "title": "Use Cu(II) and Co(II) complexes to exemplify ligand exchange colour effects",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "10.1.5",
+      "parentCode": "10.1",
+      "title": "State the solubility variations of Group 2 hydroxides and sulfates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "28.2.5",
+      "parentCode": "28.2",
+      "title": "Describe complex geometries and bond angles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.1.5",
+      "parentCode": "5.1",
+      "title": "Calculate reaction enthalpy using bond energies for breaking and formation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "26.1.5",
+      "parentCode": "26.1",
+      "title": "Analyze multi-step mechanisms, relate them to rate equations and orders",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.2.5",
+      "parentCode": "7.2",
+      "title": "Understand pH values: water 7, acids below 7, alkalis above 7",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "34.2.5",
+      "parentCode": "34.2",
+      "title": "Describe azo compound formation via benzenediazonium chloride and phenol coupling.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "22.2.5",
+      "parentCode": "22.2",
+      "title": "Calculate carbon atom number using M+1 peak and provided formula",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.4.5",
+      "parentCode": "1.4",
+      "title": "Relate ionisation energy to nuclear-electron attraction forces",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "17.1.5",
+      "parentCode": "17.1",
+      "title": "Deduce whether an unknown carbonyl is aldehyde or ketone using Fehling's, Tollens' and oxidation tests.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.2.5",
+      "parentCode": "9.2",
+      "title": "Write equations for chloride hydrolysis reactions; predict solution pHs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.3.5",
+      "parentCode": "2.3",
+      "title": "Calculate empirical and molecular formulas from experimental or given data.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "32.2.6",
+      "parentCode": "32.2",
+      "title": "Recall that phenol's hydroxyl group is an ortho- and para-directing group.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.4.6",
+      "parentCode": "1.4",
+      "title": "Explain ionisation energy variations using nuclear charge, radius, shielding, repulsion",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "24.2.6",
+      "parentCode": "24.2",
+      "title": "Deduce relative reactivity as oxidising or reducing agents from E⦵",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "13.1.6",
+      "parentCode": "13.1",
+      "title": "Deduce molecular and empirical formulas from structural and skeletal formulas",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "25.1.6",
+      "parentCode": "25.1",
+      "title": "Calculate pH of buffer solutions using appropriate data and equations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.1.6",
+      "parentCode": "1.1",
+      "title": "Calculate subatomic particle numbers from atomic data in atoms and ions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "26.1.6",
+      "parentCode": "26.1",
+      "title": "Explain how temperature affects rate constants and reaction rates qualitatively",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "9.2.6",
+      "parentCode": "9.2",
+      "title": "Explain periodic trends using bonding and electronegativity concepts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "28.1.6",
+      "parentCode": "28.1",
+      "title": "Explain complex ion formation from energetically accessible vacant d orbitals",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "28.2.6",
+      "parentCode": "28.2",
+      "title": "Define coordination number and predict complex formulas",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.2.6",
+      "parentCode": "7.2",
+      "title": "Explain qualitative differences between strong and weak acids: reactivity, pH, conductivity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.1.6",
+      "parentCode": "7.1",
+      "title": "Derive equilibrium constant expressions using partial pressures",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.3.6",
+      "parentCode": "1.3",
+      "title": "Determine electronic configurations of atoms and ions from atomic number and charge",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.1.6",
+      "parentCode": "5.1",
+      "title": "Recognize that bond energies can be exact values or average values.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "13.4.6",
+      "parentCode": "13.4",
+      "title": "Determine all possible isomer structures from a given molecular formula",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.6.6",
+      "parentCode": "3.6",
+      "title": "Describe hydrogen bonding as special permanent dipole–dipole interaction with highly electronegative atoms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.4.6",
+      "parentCode": "3.4",
+      "title": "Describe σ and π bond formation in H₂, C₂H₆, C₂H₄, HCN, N₂.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "34.2.6",
+      "parentCode": "34.2",
+      "title": "Identify the azo functional group in organic compounds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "17.1.6",
+      "parentCode": "17.1",
+      "title": "Deduce presence of CH3CO– group from iodoform reaction with alkaline iodine solution.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "22.2.6",
+      "parentCode": "22.2",
+      "title": "Identify bromine and chlorine presence using M+2 peak patterns",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "15.1.6",
+      "parentCode": "15.1",
+      "title": "Recall mechanism preferences: primary SN2, tertiary SN1, secondary mixed pathways",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "14.1.6",
+      "parentCode": "14.1",
+      "title": "Recognise environmental impacts and catalytic removal of combustion pollutants",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.6.7",
+      "parentCode": "3.6",
+      "title": "State that ionic, covalent and metallic bonding are stronger than intermolecular forces.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.1.7",
+      "parentCode": "7.1",
+      "title": "Perform calculations using Kc and Kp expressions without quadratic equations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "34.2.7",
+      "parentCode": "34.2",
+      "title": "State azo compounds' application as dyes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.3.7",
+      "parentCode": "1.3",
+      "title": "Understand and use electrons in boxes orbital notation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.2.7",
+      "parentCode": "7.2",
+      "title": "Understand neutralisation as H+ and OH– ions forming water",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "15.1.7",
+      "parentCode": "15.1",
+      "title": "Explain different halogenoalkane reactivities based on C–X bond strengths",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "28.2.7",
+      "parentCode": "28.2",
+      "title": "Explain ligand exchange in copper and cobalt complexes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.4.7",
+      "parentCode": "1.4",
+      "title": "Determine electron configurations from successive ionisation energy patterns",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "9.2.7",
+      "parentCode": "9.2",
+      "title": "Deduce bonding types in oxides and chlorides from physical and chemical properties",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "25.1.7",
+      "parentCode": "25.1",
+      "title": "Understand and apply the solubility product constant concept",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "24.2.7",
+      "parentCode": "24.2",
+      "title": "Construct redox equations from half-equations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.4.7",
+      "parentCode": "3.4",
+      "title": "Use hybridisation concept to describe sp, sp², sp³ orbital types.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.1.7",
+      "parentCode": "1.1",
+      "title": "Explain periodic and group trends in atomic and ionic radius.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "32.2.7",
+      "parentCode": "32.2",
+      "title": "Apply phenol reaction knowledge to other phenolic compounds.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.1.7",
+      "parentCode": "5.1",
+      "title": "Calculate enthalpy from experimental data using heat and molar calculations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.2.8",
+      "parentCode": "7.2",
+      "title": "Understand that salts are products of neutralisation reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.4.8",
+      "parentCode": "1.4",
+      "title": "Identify periodic table position from ionisation energy data",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "34.2.8",
+      "parentCode": "34.2",
+      "title": "Explain that other azo dyes can be synthesized through similar coupling methods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "28.2.8",
+      "parentCode": "28.2",
+      "title": "Use standard electrode potentials to predict redox feasibility",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "25.1.8",
+      "parentCode": "25.1",
+      "title": "Write mathematical expressions for solubility product constants",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "1.3.8",
+      "parentCode": "1.3",
+      "title": "Describe and sketch shapes of s and p orbitals",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.4.8",
+      "parentCode": "3.4",
+      "title": "Define bond energy as molar breaking energy and bond length as internuclear distance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "24.2.8",
+      "parentCode": "24.2",
+      "title": "Predict qualitative variation of electrode potential with ion concentration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "7.1.8",
+      "parentCode": "7.1",
+      "title": "Calculate equilibrium quantities from given initial data",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "28.2.9",
+      "parentCode": "28.2",
+      "title": "Calculate redox reactions involving permanganate and copper systems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "1.3.9",
+      "parentCode": "1.3",
+      "title": "Describe free radicals as species with unpaired electrons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "7.2.9",
+      "parentCode": "7.2",
+      "title": "Sketch pH curves for titrations combining strong/weak acids with strong/weak alkalis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "3.4.9",
+      "parentCode": "3.4",
+      "title": "Use bond energy and length to compare reactivity of covalent molecules.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "7.1.9",
+      "parentCode": "7.1",
+      "title": "Identify which factors affect the equilibrium constant value",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "24.2.9",
+      "parentCode": "24.2",
+      "title": "Use Nernst equation to predict quantitative electrode potential variation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "25.1.9",
+      "parentCode": "25.1",
+      "title": "Calculate Ksp from ion concentrations and reverse calculations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "25.1.10",
+      "parentCode": "25.1",
+      "title": "Explain common ion effect on solubility; perform related calculations using Ksp",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "7.2.10",
+      "parentCode": "7.2",
+      "title": "Select appropriate indicators for acid-alkali titrations without using pKa values",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "24.2.10",
+      "parentCode": "24.2",
+      "title": "Understand and use the relationship between free energy and cell potential",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "28.2.10",
+      "parentCode": "28.2",
+      "title": "Calculate redox reactions for other transition systems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "7.1.10",
+      "parentCode": "7.1",
+      "title": "Describe industrial equilibrium examples: Haber and Contact processes with conditions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    }
+  ]
+}

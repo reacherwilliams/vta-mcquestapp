@@ -1,0 +1,3784 @@
+{
+  "curriculumCode": "IGCSE",
+  "subject": "Biology",
+  "syllabusCode": "0610",
+  "source": "school-core:CAIE-0610@2026–2028",
+  "strands": [
+    {
+      "code": "1",
+      "parentCode": null,
+      "title": "Characteristics and classification of living organisms",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2",
+      "parentCode": null,
+      "title": "Organisation of the organism",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3",
+      "parentCode": null,
+      "title": "Movement into and out of cells",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4",
+      "parentCode": null,
+      "title": "Biological molecules",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5",
+      "parentCode": null,
+      "title": "Enzymes",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6",
+      "parentCode": null,
+      "title": "Plant nutrition",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7",
+      "parentCode": null,
+      "title": "Human nutrition",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "8",
+      "parentCode": null,
+      "title": "Transport in plants",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "9",
+      "parentCode": null,
+      "title": "Transport in animals",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "10",
+      "parentCode": null,
+      "title": "Diseases and immunity",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "11",
+      "parentCode": null,
+      "title": "Gas exchange in humans",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "12",
+      "parentCode": null,
+      "title": "Respiration",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "13",
+      "parentCode": null,
+      "title": "Excretion in humans",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "14",
+      "parentCode": null,
+      "title": "Coordination and response",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "15",
+      "parentCode": null,
+      "title": "Drugs",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "16",
+      "parentCode": null,
+      "title": "Reproduction",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "17",
+      "parentCode": null,
+      "title": "Inheritance",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "18",
+      "parentCode": null,
+      "title": "Variation and selection",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 17
+    },
+    {
+      "code": "19",
+      "parentCode": null,
+      "title": "Organisms and their environment",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 18
+    },
+    {
+      "code": "20",
+      "parentCode": null,
+      "title": "Human influences on ecosystems",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 19
+    },
+    {
+      "code": "21",
+      "parentCode": null,
+      "title": "Biotechnology and genetic modification",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 20
+    },
+    {
+      "code": "9.1",
+      "parentCode": "9",
+      "title": "Circulatory systems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "16.1",
+      "parentCode": "16",
+      "title": "Asexual reproduction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "18.1",
+      "parentCode": "18",
+      "title": "Variation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "17.1",
+      "parentCode": "17",
+      "title": "Chromosomes, genes and proteins",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "1",
+      "title": "Characteristics of living organisms",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "2",
+      "title": "Cell structure",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "3",
+      "title": "Diffusion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "4",
+      "title": "Biological molecules",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "5",
+      "title": "Enzymes",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "6",
+      "title": "Photosynthesis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1",
+      "parentCode": "7",
+      "title": "Diet",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1",
+      "parentCode": "8",
+      "title": "Xylem and phloem",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "21.1",
+      "parentCode": "21",
+      "title": "Biotechnology and genetic modification",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "15.1",
+      "parentCode": "15",
+      "title": "Drugs",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.1",
+      "parentCode": "10",
+      "title": "Diseases and immunity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.1",
+      "parentCode": "11",
+      "title": "Gas exchange in humans",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.1",
+      "parentCode": "12",
+      "title": "Respiration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "20.1",
+      "parentCode": "20",
+      "title": "Food supply",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.1",
+      "parentCode": "13",
+      "title": "Excretion in humans",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.1",
+      "parentCode": "14",
+      "title": "Coordination and response",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "19.1",
+      "parentCode": "19",
+      "title": "Energy flow",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.2",
+      "parentCode": "12",
+      "title": "Aerobic respiration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "3",
+      "title": "Osmosis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.2",
+      "parentCode": "9",
+      "title": "Heart",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "18.2",
+      "parentCode": "18",
+      "title": "Adaptive features",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "20.2",
+      "parentCode": "20",
+      "title": "Habitat destruction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2",
+      "parentCode": "6",
+      "title": "Leaf structure",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.2",
+      "parentCode": "14",
+      "title": "Sense organs",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2",
+      "parentCode": "7",
+      "title": "Digestive system",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2",
+      "parentCode": "2",
+      "title": "Size of specimens",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2",
+      "parentCode": "1",
+      "title": "Concept and uses of classification systems",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "21.2",
+      "parentCode": "21",
+      "title": "Biotechnology",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "16.2",
+      "parentCode": "16",
+      "title": "Sexual reproduction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2",
+      "parentCode": "8",
+      "title": "Water uptake",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "17.2",
+      "parentCode": "17",
+      "title": "Mitosis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "19.2",
+      "parentCode": "19",
+      "title": "Food chains and food webs",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.3",
+      "parentCode": "12",
+      "title": "Anaerobic respiration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "1",
+      "title": "Features of organisms",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "3",
+      "title": "Active transport",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.3",
+      "parentCode": "7",
+      "title": "Physical digestion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3",
+      "parentCode": "8",
+      "title": "Transpiration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.3",
+      "parentCode": "9",
+      "title": "Blood vessels",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.3",
+      "parentCode": "14",
+      "title": "Hormones",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "16.3",
+      "parentCode": "16",
+      "title": "Sexual reproduction in plants",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "17.3",
+      "parentCode": "17",
+      "title": "Meiosis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "18.3",
+      "parentCode": "18",
+      "title": "Selection",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "19.3",
+      "parentCode": "19",
+      "title": "Nutrient cycles",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "20.3",
+      "parentCode": "20",
+      "title": "Pollution",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "21.3",
+      "parentCode": "21",
+      "title": "Genetic modification",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.4",
+      "parentCode": "7",
+      "title": "Chemical digestion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "20.4",
+      "parentCode": "20",
+      "title": "Conservation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "19.4",
+      "parentCode": "19",
+      "title": "Populations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "17.4",
+      "parentCode": "17",
+      "title": "Monohybrid inheritance",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "16.4",
+      "parentCode": "16",
+      "title": "Sexual reproduction in humans",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "14.4",
+      "parentCode": "14",
+      "title": "Homeostasis",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.4",
+      "parentCode": "9",
+      "title": "Blood",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.4",
+      "parentCode": "8",
+      "title": "Translocation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "14.5",
+      "parentCode": "14",
+      "title": "Tropic responses",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.5",
+      "parentCode": "7",
+      "title": "Absorption",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "16.5",
+      "parentCode": "16",
+      "title": "Sex hormones in humans",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "16.6",
+      "parentCode": "16",
+      "title": "Sexually transmitted infections",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.2.1",
+      "parentCode": "7.2",
+      "title": "Identify main digestive organs in diagrams including alimentary canal and associated organs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.3.1",
+      "parentCode": "7.3",
+      "title": "Define physical digestion as mechanical food breakdown without molecular chemical change",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.1.1",
+      "parentCode": "13.1",
+      "title": "Carbon dioxide is excreted by the lungs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "17.1.1",
+      "parentCode": "17.1",
+      "title": "Chromosomes are DNA structures containing genetic information organized as genes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "20.1.1",
+      "parentCode": "20.1",
+      "title": "Explain five methods humans use to increase food production.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "16.6.1",
+      "parentCode": "16.6",
+      "title": "Define sexually transmitted infections and their transmission method.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.2.1",
+      "parentCode": "3.2",
+      "title": "Explain water's solvent role in digestion, excretion, and transport processes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.4.1",
+      "parentCode": "7.4",
+      "title": "Chemical digestion breaks large insoluble molecules into small soluble molecules",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "21.3.1",
+      "parentCode": "21.3",
+      "title": "Define genetic modification as alteration of organism genetic material by removing, changing, or inserting genes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.1.1",
+      "parentCode": "10.1",
+      "title": "Define pathogens as organisms that cause disease",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "16.5.1",
+      "parentCode": "16.5",
+      "title": "Explain how testosterone and oestrogen develop secondary sexual characteristics at puberty",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "16.4.1",
+      "parentCode": "16.4",
+      "title": "Identify and describe functions of male reproductive system structures",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "19.4.1",
+      "parentCode": "19.4",
+      "title": "Define population as organisms of one species in same area simultaneously",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "16.3.1",
+      "parentCode": "16.3",
+      "title": "Identify and draw insect-pollinated flower parts including sepals, petals, and reproductive structures",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.5.1",
+      "parentCode": "7.5",
+      "title": "Identify the small intestine as the primary site of nutrient absorption",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "21.2.1",
+      "parentCode": "21.2",
+      "title": "Explain anaerobic respiration in yeast for ethanol biofuel production",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "19.3.1",
+      "parentCode": "19.3",
+      "title": "Explain carbon cycle processes including photosynthesis, respiration, and combustion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.3.1",
+      "parentCode": "1.3",
+      "title": "Identify key features for classifying animals and plants into kingdoms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "16.2.1",
+      "parentCode": "16.2",
+      "title": "Explain sexual reproduction as fusion of gamete nuclei producing genetically different offspring",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1.1",
+      "parentCode": "8.1",
+      "title": "Describe xylem and phloem functions in transport and support.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.3.1",
+      "parentCode": "9.3",
+      "title": "Describe structural features of arteries, veins, and capillaries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.2.1",
+      "parentCode": "8.2",
+      "title": "Identify root hair cells in diagrams and describe their functions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.3.1",
+      "parentCode": "3.3",
+      "title": "Define active transport as movement against concentration gradient using energy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.1.1",
+      "parentCode": "14.1",
+      "title": "Electrical impulses travel along neurones",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.1.1",
+      "parentCode": "11.1",
+      "title": "Describe key features of human gas exchange surfaces.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.3.1",
+      "parentCode": "8.3",
+      "title": "Define transpiration as water vapour loss from leaves",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.2.1",
+      "parentCode": "12.2",
+      "title": "Explain aerobic respiration as oxygen-dependent cellular reactions releasing energy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1.1",
+      "parentCode": "4.1",
+      "title": "Identify chemical elements composing carbohydrates, fats, and proteins",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "16.1.1",
+      "parentCode": "16.1",
+      "title": "Define asexual reproduction and its outcome of genetically identical offspring.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "15.1.1",
+      "parentCode": "15.1",
+      "title": "Define drugs as substances that modify chemical reactions in the body",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "21.1.1",
+      "parentCode": "21.1",
+      "title": "Explain why bacteria are useful in biotechnology and genetic modification",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.4.1",
+      "parentCode": "8.4",
+      "title": "Translocation moves sucrose and amino acids through phloem from sources to sinks",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "19.2.1",
+      "parentCode": "19.2",
+      "title": "Food chains transfer energy sequentially from producers onward",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.2.1",
+      "parentCode": "14.2",
+      "title": "Define sense organs as receptor cell groups responding to specific stimuli",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.1.1",
+      "parentCode": "9.1",
+      "title": "Explain how circulatory systems use vessels, pump, and valves for directional blood flow",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1.1",
+      "parentCode": "5.1",
+      "title": "Define catalysts and their role in accelerating chemical reactions unchanged",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.5.1",
+      "parentCode": "14.5",
+      "title": "Define gravitropism as directional plant growth response to gravity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.2.1",
+      "parentCode": "9.2",
+      "title": "Identify mammalian heart structures in diagrams and images",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "20.4.1",
+      "parentCode": "20.4",
+      "title": "Define sustainable resources as those replenished at the rate they are consumed.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.3.1",
+      "parentCode": "12.3",
+      "title": "Anaerobic respiration breaks down nutrients to release energy without oxygen.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "19.1.1",
+      "parentCode": "19.1",
+      "title": "Identify the Sun as the primary energy source for all biological systems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1.1",
+      "parentCode": "2.1",
+      "title": "Compare plant and animal cell structures including organelles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "18.3.1",
+      "parentCode": "18.3",
+      "title": "Explain natural selection mechanisms including variation, reproduction, competition, and inheritance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "18.2.1",
+      "parentCode": "18.2",
+      "title": "Define adaptive features as inherited traits aiding organism survival and reproduction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1.1",
+      "parentCode": "6.1",
+      "title": "Define photosynthesis as carbohydrate synthesis using light energy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.4.1",
+      "parentCode": "14.4",
+      "title": "Define homeostasis as maintaining stable internal conditions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "20.3.1",
+      "parentCode": "20.3",
+      "title": "Explain how sewage and fertilizers harm aquatic environments",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "18.1.1",
+      "parentCode": "18.1",
+      "title": "Explain variation as differences between individuals within a species",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "17.4.1",
+      "parentCode": "17.4",
+      "title": "Explain how genetic information passes between successive generations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1.1",
+      "parentCode": "1.1",
+      "title": "Describe seven key characteristics defining living organisms and their life processes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "20.2.1",
+      "parentCode": "20.2",
+      "title": "Define biodiversity as the number of different species in an area",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "17.3.1",
+      "parentCode": "17.3",
+      "title": "Understand meiosis produces gametes for sexual reproduction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.2.1",
+      "parentCode": "2.2",
+      "title": "State and apply the magnification formula to calculate image relationships",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "17.2.1",
+      "parentCode": "17.2",
+      "title": "Mitosis produces genetically identical cells through nuclear division",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2.1",
+      "parentCode": "1.2",
+      "title": "Organisms are classified into groups based on shared features.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.2.1",
+      "parentCode": "6.2",
+      "title": "Explain how large surface area and thinness adapt leaves for photosynthesis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.1.1",
+      "parentCode": "12.1",
+      "title": "Identify energy uses in organisms: contraction, synthesis, division, transport, growth, nerves, temperature.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.4.1",
+      "parentCode": "9.4",
+      "title": "Name the four main components of blood.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1.1",
+      "parentCode": "7.1",
+      "title": "Explain the concept and composition of a balanced diet",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1.1",
+      "parentCode": "3.1",
+      "title": "Explain diffusion as particle movement from high to low concentration via random motion",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.3.1",
+      "parentCode": "14.3",
+      "title": "Define hormone as chemical substance from glands transported by blood affecting target organs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.1.2",
+      "parentCode": "14.1",
+      "title": "Describe mammalian nervous system structure: CNS and PNS",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.3.2",
+      "parentCode": "14.3",
+      "title": "Identify endocrine glands and their hormones: adrenal, pancreas, testes, ovaries",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.4.2",
+      "parentCode": "14.4",
+      "title": "Identify insulin's role in lowering blood glucose levels",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2.2",
+      "parentCode": "1.2",
+      "title": "Species are groups of organisms producing fertile offspring together.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "21.3.2",
+      "parentCode": "21.3",
+      "title": "Outline four examples of genetic modification in bacteria and crops",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "21.2.2",
+      "parentCode": "21.2",
+      "title": "Explain anaerobic respiration in yeast for bread-making processes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.3.2",
+      "parentCode": "1.3",
+      "title": "Identify features for classifying vertebrates and arthropods within animals",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "21.1.2",
+      "parentCode": "21.1",
+      "title": "Discuss bacterial usefulness considering ethics and plasmid presence",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "20.4.2",
+      "parentCode": "20.4",
+      "title": "Identify forests and fish stocks as conservable and sustainably manageable resources.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.1.2",
+      "parentCode": "2.1",
+      "title": "Describe bacterial cell structure and key components.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.1.2",
+      "parentCode": "11.1",
+      "title": "Identify breathing system parts in diagrams and images.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "20.3.2",
+      "parentCode": "20.3",
+      "title": "Explain plastic pollution impacts on aquatic and land ecosystems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "20.2.2",
+      "parentCode": "20.2",
+      "title": "Identify reasons for habitat destruction: housing, agriculture, resource extraction, pollution",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.2.2",
+      "parentCode": "2.2",
+      "title": "Calculate magnification and specimen size measurements in millimetres",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.1.2",
+      "parentCode": "3.1",
+      "title": "Identify kinetic energy of random molecular motion as diffusion energy source",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.1.2",
+      "parentCode": "10.1",
+      "title": "Define transmissible disease as pathogen transfer between hosts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "20.1.2",
+      "parentCode": "20.1",
+      "title": "Evaluate benefits and drawbacks of single-crop large-scale farming.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2.2",
+      "parentCode": "3.2",
+      "title": "Identify water diffusion through permeable membranes as osmosis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "19.4.2",
+      "parentCode": "19.4",
+      "title": "Define community as all populations of different species in ecosystem",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "19.3.2",
+      "parentCode": "19.3",
+      "title": "Explain nitrogen cycle including fixation, nitrification, and denitrification processes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.1.2",
+      "parentCode": "12.1",
+      "title": "Examine how temperature affects yeast respiration experimentally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "19.2.2",
+      "parentCode": "19.2",
+      "title": "Build and analyze basic food chain diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.3.2",
+      "parentCode": "3.3",
+      "title": "Explain why active transport matters for molecular and ion movement",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.1.2",
+      "parentCode": "4.1",
+      "title": "Explain how large molecules are synthesized from smaller molecular building blocks",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.2.2",
+      "parentCode": "12.2",
+      "title": "Write the word equation for aerobic respiration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "19.1.2",
+      "parentCode": "19.1",
+      "title": "Explain how energy flows through organisms and transfers to the environment",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.1.2",
+      "parentCode": "5.1",
+      "title": "Explain enzymes as protein catalysts in metabolic reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "18.3.2",
+      "parentCode": "18.3",
+      "title": "Explain selective breeding process of human selection and repeated crossing for desired traits.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "18.2.2",
+      "parentCode": "18.2",
+      "title": "Analyze visual data to identify and describe species adaptive features",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "18.1.2",
+      "parentCode": "18.1",
+      "title": "Explain continuous variation produces phenotype range; examples: body length, mass",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.1.2",
+      "parentCode": "6.1",
+      "title": "State photosynthesis word equation with reactants and products",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.4.2",
+      "parentCode": "9.4",
+      "title": "Recognize red and white blood cells in visual representations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "17.4.2",
+      "parentCode": "17.4",
+      "title": "Define genotype as an organism's genetic composition including alleles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "17.3.2",
+      "parentCode": "17.3",
+      "title": "Explain meiosis halves chromosomes and creates genetic variation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "17.2.2",
+      "parentCode": "17.2",
+      "title": "Mitosis functions in growth, repair, cell replacement, and asexual reproduction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "17.1.2",
+      "parentCode": "17.1",
+      "title": "A gene is a DNA segment coding for protein production",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2.2",
+      "parentCode": "6.2",
+      "title": "Identify leaf structures in diagrams: chloroplasts, cuticle, guard cells, stomata, epidermis, mesophyll, vascular tissues",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.1.2",
+      "parentCode": "7.1",
+      "title": "Identify dietary sources and explain importance of major nutrients and water",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.3.2",
+      "parentCode": "12.3",
+      "title": "Anaerobic respiration releases much less energy than aerobic respiration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2.2",
+      "parentCode": "7.2",
+      "title": "Describe digestive organ functions: ingestion, digestion, absorption, assimilation, egestion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.3.2",
+      "parentCode": "7.3",
+      "title": "Explain how physical digestion increases surface area for enzyme action",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "16.6.2",
+      "parentCode": "16.6",
+      "title": "Identify HIV as a pathogen causing sexually transmitted infections.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "16.5.2",
+      "parentCode": "16.5",
+      "title": "Describe ovarian and uterine changes throughout the menstrual cycle",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.4.2",
+      "parentCode": "7.4",
+      "title": "Chemical digestion produces small soluble molecules for absorption",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.1.2",
+      "parentCode": "13.1",
+      "title": "Kidneys excrete urea, excess water, and ions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "16.4.2",
+      "parentCode": "16.4",
+      "title": "Identify and describe functions of female reproductive system structures",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "16.3.2",
+      "parentCode": "16.3",
+      "title": "Describe the functions of insect-pollinated flower structures",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.5.2",
+      "parentCode": "7.5",
+      "title": "Identify where water is absorbed in the digestive system",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.3.2",
+      "parentCode": "9.3",
+      "title": "State the functions of capillaries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "16.2.2",
+      "parentCode": "16.2",
+      "title": "Define fertilisation as the fusion of gamete nuclei",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.1.2",
+      "parentCode": "8.1",
+      "title": "Locate xylem and phloem in plant tissue sections.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2.2",
+      "parentCode": "8.2",
+      "title": "Explain how root hair surface area increases water and mineral ion uptake",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "16.1.2",
+      "parentCode": "16.1",
+      "title": "Recognize asexual reproduction examples in visual and textual sources.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.3.2",
+      "parentCode": "8.3",
+      "title": "Explain water evaporation and diffusion pathway through stomata",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.2.2",
+      "parentCode": "9.2",
+      "title": "State blood flow direction in arteries and veins",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "15.1.2",
+      "parentCode": "15.1",
+      "title": "Explain how antibiotics are used to treat bacterial infections",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.5.2",
+      "parentCode": "14.5",
+      "title": "Define phototropism as directional plant growth response to light",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.4.2",
+      "parentCode": "8.4",
+      "title": "Sources release; sinks use or store sucrose and amino acids in plants",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.1.2",
+      "parentCode": "9.1",
+      "title": "Describe fish single circulation pathway and characteristics",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.2.2",
+      "parentCode": "14.2",
+      "title": "Identify eye structures: cornea, iris, pupil, lens, retina, optic nerve, blind spot",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "19.2.3",
+      "parentCode": "19.2",
+      "title": "Food webs show multiple interconnected feeding relationships",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.2.3",
+      "parentCode": "1.2",
+      "title": "Binomial naming uses genus and species as internationally standardized names.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3.3",
+      "parentCode": "1.3",
+      "title": "Apply kingdom and animal classification features to classify organisms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.1.3",
+      "parentCode": "2.1",
+      "title": "Identify cell structures in diagrams of different cell types.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.2.3",
+      "parentCode": "2.2",
+      "title": "Convert between millimetres and micrometres measurement units",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.1.3",
+      "parentCode": "3.1",
+      "title": "Recognize that substances diffuse across cell membranes into and out of cells",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.2.3",
+      "parentCode": "3.2",
+      "title": "Describe water movement across cell membranes via osmosis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3.3",
+      "parentCode": "3.3",
+      "title": "Identify protein carriers as mechanism for active transport movement",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.1.3",
+      "parentCode": "4.1",
+      "title": "Describe biochemical tests identifying starch, sugars, proteins, fats, and vitamin C",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.1.3",
+      "parentCode": "5.1",
+      "title": "Describe enzyme importance for maintaining life-sustaining reaction rates",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.1.3",
+      "parentCode": "6.1",
+      "title": "Identify chlorophyll as green pigment in chloroplasts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.2.3",
+      "parentCode": "6.2",
+      "title": "Explain how identified leaf structures are adaptations for photosynthesis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.1.3",
+      "parentCode": "7.1",
+      "title": "Explain the nutritional causes of scurvy and rickets deficiency diseases",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.3.3",
+      "parentCode": "7.3",
+      "title": "Identify four human tooth types in visual representations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.4.3",
+      "parentCode": "7.4",
+      "title": "Amylase breaks starch to sugars; proteases break protein to amino acids; lipase breaks fats to fatty acids and glycerol",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.5.3",
+      "parentCode": "7.5",
+      "title": "Explain how villi and microvilli increase surface area for absorption",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.1.3",
+      "parentCode": "8.1",
+      "title": "Connect xylem vessel structure to transport function.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.2.3",
+      "parentCode": "8.2",
+      "title": "Outline water pathway from root hair cells through xylem to mesophyll cells",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3.3",
+      "parentCode": "8.3",
+      "title": "Investigate how temperature and wind speed affect transpiration rate",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.4.3",
+      "parentCode": "8.4",
+      "title": "Plant parts can function as both sources and sinks at different times",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.1.3",
+      "parentCode": "9.1",
+      "title": "Describe mammalian double circulation system and its two pathways",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.2.3",
+      "parentCode": "9.2",
+      "title": "State methods to monitor heart activity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.3.3",
+      "parentCode": "9.3",
+      "title": "Identify main blood vessels to/from heart, lungs, and kidneys.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.4.3",
+      "parentCode": "9.4",
+      "title": "Describe functions of red cells, white cells, platelets, and plasma.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.1.3",
+      "parentCode": "10.1",
+      "title": "Identify direct and indirect pathogen transmission routes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.1.3",
+      "parentCode": "11.1",
+      "title": "Investigate air composition differences using limewater test.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.2.3",
+      "parentCode": "12.2",
+      "title": "Write the balanced chemical equation for aerobic respiration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.3.3",
+      "parentCode": "12.3",
+      "title": "Word equation for yeast anaerobic respiration: glucose to alcohol and carbon dioxide.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.1.3",
+      "parentCode": "13.1",
+      "title": "Identify kidneys, ureters, bladder, and urethra in diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.1.3",
+      "parentCode": "14.1",
+      "title": "Nervous system coordinates and regulates body functions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.2.3",
+      "parentCode": "14.2",
+      "title": "Describe functions of cornea, iris, lens, retina, and optic nerve",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.3.3",
+      "parentCode": "14.3",
+      "title": "Describe adrenaline secretion and effects in fight or flight responses",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.4.3",
+      "parentCode": "14.4",
+      "title": "Explain negative feedback mechanisms and set points in homeostasis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.5.3",
+      "parentCode": "14.5",
+      "title": "Experimentally investigate and describe gravitropism and phototropism in shoots and roots",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "15.1.3",
+      "parentCode": "15.1",
+      "title": "Identify antibiotic resistance in bacteria and its impact on treatment",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "16.1.3",
+      "parentCode": "16.1",
+      "title": "Evaluate asexual reproduction benefits and drawbacks for wild populations and agriculture.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "16.2.3",
+      "parentCode": "16.2",
+      "title": "Identify gamete nuclei as haploid and zygote nucleus as diploid",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "16.3.3",
+      "parentCode": "16.3",
+      "title": "Identify and describe anthers and stigmas in wind-pollinated flowers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "16.4.3",
+      "parentCode": "16.4",
+      "title": "Describe fertilisation as fusion of sperm and egg cell nuclei",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "16.5.3",
+      "parentCode": "16.5",
+      "title": "Identify where oestrogen and progesterone are produced during cycle and pregnancy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "16.6.3",
+      "parentCode": "16.6",
+      "title": "Recognize that HIV infection can progress to AIDS.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "17.1.3",
+      "parentCode": "17.1",
+      "title": "An allele is an alternative version of a gene",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "17.2.3",
+      "parentCode": "17.2",
+      "title": "Chromosomes replicate exactly before mitosis begins",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "17.4.3",
+      "parentCode": "17.4",
+      "title": "Define phenotype as the observable characteristics of an organism",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "18.1.3",
+      "parentCode": "18.1",
+      "title": "Explain discontinuous variation produces limited phenotypes; examples: blood groups, seed traits",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "18.2.3",
+      "parentCode": "18.2",
+      "title": "Explain how hydrophytes and xerophytes are adapted to their specific environments",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "18.3.3",
+      "parentCode": "18.3",
+      "title": "Describe multi-generational artificial selection in crops and animals with practical applications.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "19.3.3",
+      "parentCode": "19.3",
+      "title": "Identify microorganism roles in decomposition, nitrification, fixation, and denitrification.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "19.4.3",
+      "parentCode": "19.4",
+      "title": "Define ecosystem as community and environment interacting as unit",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "20.1.3",
+      "parentCode": "20.1",
+      "title": "Evaluate benefits and drawbacks of intensive animal farming systems.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "20.2.3",
+      "parentCode": "20.2",
+      "title": "Explain how humans negatively impact habitats by altering food webs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "20.3.3",
+      "parentCode": "20.3",
+      "title": "Explain how methane and CO2 cause greenhouse effect and climate change",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "20.4.3",
+      "parentCode": "20.4",
+      "title": "Explain causes of endangerment and extinction: climate, habitat loss, hunting, overharvesting, pollution, introduced species.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "21.2.3",
+      "parentCode": "21.2",
+      "title": "Describe pectinase enzyme application in fruit juice production",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "21.3.3",
+      "parentCode": "21.3",
+      "title": "Outline six-step process of genetically modifying bacteria to produce human proteins",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "20.2.4",
+      "parentCode": "20.2",
+      "title": "Explain deforestation effects: biodiversity loss, extinction, soil loss, flooding, carbon increase",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.3.4",
+      "parentCode": "9.3",
+      "title": "Explain structure-function relationships between arteries, veins, and blood pressure.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "16.3.4",
+      "parentCode": "16.3",
+      "title": "Compare pollen grain characteristics between insect and wind-pollinated flowers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.1.4",
+      "parentCode": "9.1",
+      "title": "Explain benefits and advantages of double circulation systems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "16.2.4",
+      "parentCode": "16.2",
+      "title": "Evaluate sexual reproduction benefits and drawbacks for wild populations and crop production",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "20.4.4",
+      "parentCode": "20.4",
+      "title": "Describe conservation methods: monitoring, protection, education, captive breeding, seed banks.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "14.5.4",
+      "parentCode": "14.5",
+      "title": "Explain phototropism and gravitropism as chemical control examples in shoots",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "18.1.4",
+      "parentCode": "18.1",
+      "title": "Identify gene-only cause for discontinuous; genes and environment for continuous",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.5.4",
+      "parentCode": "7.5",
+      "title": "Describe the anatomical structure of a single villus",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "12.3.4",
+      "parentCode": "12.3",
+      "title": "Word equation for muscle anaerobic respiration: glucose to lactic acid.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.2.4",
+      "parentCode": "1.2",
+      "title": "Construct and use dichotomous keys with identifiable features.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "15.1.4",
+      "parentCode": "15.1",
+      "title": "Distinguish between antibiotic effects on bacteria versus viruses",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.1.4",
+      "parentCode": "6.1",
+      "title": "Explain chlorophyll converts light energy to chemical energy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.3.4",
+      "parentCode": "8.3",
+      "title": "Relate water loss to air spaces and stomatal characteristics",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.2.4",
+      "parentCode": "8.2",
+      "title": "Investigate water pathway in plant stems and leaves using staining techniques",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "18.3.4",
+      "parentCode": "18.3",
+      "title": "Explain how natural selection drives adaptation and environmental suitability over generations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "14.1.4",
+      "parentCode": "14.1",
+      "title": "Identify sensory, relay, and motor neurones in diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "21.3.4",
+      "parentCode": "21.3",
+      "title": "Discuss pros and cons of genetically modifying soya, maize, and rice crops",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.1.4",
+      "parentCode": "3.1",
+      "title": "Explain why diffusion of gases and solutes matters in living organisms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.1.4",
+      "parentCode": "11.1",
+      "title": "Describe air composition differences in oxygen, CO2, water vapour.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "17.4.4",
+      "parentCode": "17.4",
+      "title": "Define homozygous as possessing two identical alleles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.3.4",
+      "parentCode": "1.3",
+      "title": "Identify key features for classifying organisms into five kingdoms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.4.4",
+      "parentCode": "9.4",
+      "title": "Explain why blood clotting prevents blood loss and pathogen entry.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "17.2.4",
+      "parentCode": "17.2",
+      "title": "Chromosome copies separate during mitosis, preserving chromosome number",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "17.1.4",
+      "parentCode": "17.1",
+      "title": "Explain human sex inheritance using X and Y chromosome mechanisms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.1.4",
+      "parentCode": "2.1",
+      "title": "Explain functions of organelles in different cell types.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "14.2.4",
+      "parentCode": "14.2",
+      "title": "Explain pupil reflex response to light intensity changes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "19.2.4",
+      "parentCode": "19.2",
+      "title": "Producers synthesize nutrients from sunlight via photosynthesis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "10.1.4",
+      "parentCode": "10.1",
+      "title": "Describe physical and chemical body defence mechanisms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.3.4",
+      "parentCode": "7.3",
+      "title": "Describe tooth structure including enamel, dentine, pulp, nerves, vessels, cement, bone, gums",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "16.6.4",
+      "parentCode": "16.6",
+      "title": "Outline how HIV is transmitted between individuals.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "19.4.4",
+      "parentCode": "19.4",
+      "title": "Identify factors affecting population growth rate: food, competition, predation, disease",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "16.5.4",
+      "parentCode": "16.5",
+      "title": "Explain how FSH, LH, progesterone, and oestrogen control menstrual cycle and pregnancy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.4.4",
+      "parentCode": "7.4",
+      "title": "Identify digestive enzyme sources and sites of action in the digestive system",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.1.4",
+      "parentCode": "4.1",
+      "title": "Describe DNA double helix structure, base composition, bonding, and complementary base pairing",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "14.3.4",
+      "parentCode": "14.3",
+      "title": "Compare nervous and hormonal control regarding speed and duration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.2.4",
+      "parentCode": "3.2",
+      "title": "Conduct osmosis investigations using dialysis tubing materials",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "13.1.4",
+      "parentCode": "13.1",
+      "title": "Identify kidney structure: cortex and medulla in diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.1.4",
+      "parentCode": "5.1",
+      "title": "Describe how complementary active site shape enables product formation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.2.4",
+      "parentCode": "9.2",
+      "title": "Investigate and describe physical activity effects on heart rate",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "20.3.4",
+      "parentCode": "20.3",
+      "title": "Explain eutrophication process from nutrient excess to organism death",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "14.4.4",
+      "parentCode": "14.4",
+      "title": "Describe blood glucose regulation by liver, insulin and glucagon",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "21.2.4",
+      "parentCode": "21.2",
+      "title": "Investigate and describe enzyme-containing biological washing powder uses",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "16.4.4",
+      "parentCode": "16.4",
+      "title": "Explain sperm adaptations: flagellum, mitochondria, acrosomal enzymes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "13.1.5",
+      "parentCode": "13.1",
+      "title": "Outline nephron structure, filtration, reabsorption, and urine formation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "19.4.5",
+      "parentCode": "19.4",
+      "title": "Identify four phases of sigmoid population growth curve",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "21.2.5",
+      "parentCode": "21.2",
+      "title": "Explain lactase enzyme use in lactose-free milk production",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.2.5",
+      "parentCode": "3.2",
+      "title": "Investigate plant tissue responses to different solution concentrations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.1.5",
+      "parentCode": "2.1",
+      "title": "State that cell division produces new cells.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "14.1.5",
+      "parentCode": "14.1",
+      "title": "Describe reflex arc components and their sequence",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "14.2.5",
+      "parentCode": "14.2",
+      "title": "Explain pupil reflex using circular and radial iris muscle antagonism",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.3.5",
+      "parentCode": "9.3",
+      "title": "Explain how capillary structure relates to their functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.2.5",
+      "parentCode": "1.2",
+      "title": "Classification systems reflect evolutionary relationships between organisms.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "14.3.5",
+      "parentCode": "14.3",
+      "title": "State glucagon secretion source is the pancreas",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.2.5",
+      "parentCode": "9.2",
+      "title": "Describe coronary heart disease and its risk factors",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "14.4.5",
+      "parentCode": "14.4",
+      "title": "Outline treatment approaches for Type 1 diabetes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "14.5.5",
+      "parentCode": "14.5",
+      "title": "Explain auxin production, diffusion, distribution, and role in shoot cell elongation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "8.3.5",
+      "parentCode": "8.3",
+      "title": "Explain transpiration pull and cohesive forces in xylem water movement",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "15.1.5",
+      "parentCode": "15.1",
+      "title": "Describe how judicious antibiotic use prevents resistance development like MRSA",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.5.5",
+      "parentCode": "7.5",
+      "title": "Describe capillary and lacteal functions in villi transport",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "20.4.5",
+      "parentCode": "20.4",
+      "title": "Explain forest conservation through education, protected areas, quotas, and replanting.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "16.3.5",
+      "parentCode": "16.3",
+      "title": "Define pollination as pollen transfer from anther to stigma",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "9.4.5",
+      "parentCode": "9.4",
+      "title": "Recognize lymphocytes and phagocytes in visual representations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.4.5",
+      "parentCode": "7.4",
+      "title": "Hydrochloric acid kills microorganisms and provides optimal pH for enzyme activity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "16.4.5",
+      "parentCode": "16.4",
+      "title": "Explain egg cell adaptations: energy stores and jelly coat changes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.3.5",
+      "parentCode": "7.3",
+      "title": "Explain how each tooth type functions in mechanical food breakdown",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "16.6.5",
+      "parentCode": "16.6",
+      "title": "Explain control and prevention strategies for sexually transmitted infections.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "19.2.5",
+      "parentCode": "19.2",
+      "title": "Consumers gain energy by eating other organisms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "17.1.5",
+      "parentCode": "17.1",
+      "title": "Gene base sequence determines amino acid sequence in proteins",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "11.1.5",
+      "parentCode": "11.1",
+      "title": "Investigate effects of physical activity on breathing rate and depth.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "1.3.5",
+      "parentCode": "1.3",
+      "title": "Identify features for classifying ferns and flowering plants",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "17.2.5",
+      "parentCode": "17.2",
+      "title": "Stem cells divide by mitosis to produce specialised daughter cells",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.1.5",
+      "parentCode": "6.1",
+      "title": "Describe uses of photosynthetic carbohydrates in plants",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "17.4.5",
+      "parentCode": "17.4",
+      "title": "Explain that identical homozygous parents produce pure-breeding offspring",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "10.1.5",
+      "parentCode": "10.1",
+      "title": "Explain disease control measures: water, food, hygiene, waste management",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.1.5",
+      "parentCode": "3.1",
+      "title": "Examine how surface area, temperature, concentration gradient and distance affect diffusion",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "18.1.5",
+      "parentCode": "18.1",
+      "title": "Investigate and describe continuous and discontinuous variation examples",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.1.5",
+      "parentCode": "5.1",
+      "title": "Investigate and describe temperature and pH effects on enzyme activity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "18.3.5",
+      "parentCode": "18.3",
+      "title": "Use antibiotic resistance evolution as an example of natural selection in practice.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.1.5",
+      "parentCode": "4.1",
+      "title": "Enzymes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "12.3.5",
+      "parentCode": "12.3",
+      "title": "Balanced chemical equation for yeast anaerobic respiration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "19.4.6",
+      "parentCode": "19.4",
+      "title": "Interpret graphs and diagrams showing population growth patterns",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.2.6",
+      "parentCode": "3.2",
+      "title": "Identify water pressure inside cells supporting plant structure",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "9.4.6",
+      "parentCode": "9.4",
+      "title": "Describe functions of lymphocytes and phagocytes in immune response.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.1.6",
+      "parentCode": "6.1",
+      "title": "Explain roles of nitrate and magnesium in plant synthesis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "14.4.6",
+      "parentCode": "14.4",
+      "title": "Identify skin structures in diagrams including hair and sweat glands",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "12.3.6",
+      "parentCode": "12.3",
+      "title": "Lactic acid accumulates during vigorous exercise, causing oxygen debt.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "8.3.6",
+      "parentCode": "8.3",
+      "title": "Explain how temperature, wind speed, and humidity affect transpiration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "19.2.6",
+      "parentCode": "19.2",
+      "title": "Consumers classified by feeding level in food chains",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "17.4.6",
+      "parentCode": "17.4",
+      "title": "Define heterozygous as possessing two different alleles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "14.2.6",
+      "parentCode": "14.2",
+      "title": "Explain accommodation using ciliary muscles, suspensory ligaments, lens shape, refraction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.3.6",
+      "parentCode": "1.3",
+      "title": "Apply five kingdom and plant classification features to classify organisms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "9.3.6",
+      "parentCode": "9.3",
+      "title": "Identify main blood vessels to and from the liver.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "9.2.6",
+      "parentCode": "9.2",
+      "title": "Discuss diet and exercise roles in reducing disease risk",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "18.1.6",
+      "parentCode": "18.1",
+      "title": "Define mutation as genetic change",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "18.3.6",
+      "parentCode": "18.3",
+      "title": "Compare and contrast natural and artificial selection mechanisms and outcomes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "10.1.6",
+      "parentCode": "10.1",
+      "title": "Define active immunity as body-produced antibody defence",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "14.1.6",
+      "parentCode": "14.1",
+      "title": "Reflex actions automatically and rapidly integrate stimuli and responses",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "1.2.6",
+      "parentCode": "1.2",
+      "title": "DNA base sequences are used as classification criteria.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "21.2.6",
+      "parentCode": "21.2",
+      "title": "Describe fermenter use for large-scale bacterial and fungal product production",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "17.1.6",
+      "parentCode": "17.1",
+      "title": "Different amino acid sequences produce different protein molecular shapes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.3.6",
+      "parentCode": "7.3",
+      "title": "Describe the stomach's role in mechanical food digestion",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.1.6",
+      "parentCode": "2.1",
+      "title": "State functions of six types of specialised cells.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "13.1.6",
+      "parentCode": "13.1",
+      "title": "Liver converts amino acids into proteins through assimilation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "16.3.6",
+      "parentCode": "16.3",
+      "title": "Define self-pollination as pollen transfer within same plant",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "14.3.6",
+      "parentCode": "14.3",
+      "title": "Describe adrenaline's role in metabolic control and glucose regulation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "11.1.6",
+      "parentCode": "11.1",
+      "title": "Identify intercostal muscles in diagrams and images.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.1.6",
+      "parentCode": "5.1",
+      "title": "Explain enzyme mechanism using active site and substrate-complex terminology",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "20.4.6",
+      "parentCode": "20.4",
+      "title": "Explain fish stock conservation: education, closed seasons, protected areas, net control, quotas, monitoring.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "16.4.6",
+      "parentCode": "16.4",
+      "title": "Compare gametes by size, structure, motility and numbers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.4.6",
+      "parentCode": "7.4",
+      "title": "Amylase breaks starch to maltose; maltase breaks maltose to glucose at intestinal epithelium",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "19.2.7",
+      "parentCode": "19.2",
+      "title": "Herbivores obtain energy exclusively from plants",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "16.4.7",
+      "parentCode": "16.4",
+      "title": "Describe early embryo development and implantation into uterus",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "9.4.7",
+      "parentCode": "9.4",
+      "title": "Explain the biochemical mechanism of blood clot formation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.3.7",
+      "parentCode": "7.3",
+      "title": "Explain bile's role in fat emulsification and surface area increase",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "20.4.7",
+      "parentCode": "20.4",
+      "title": "Describe conservation programme purposes: biodiversity, extinction reduction, ecosystem protection, functions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "9.2.7",
+      "parentCode": "9.2",
+      "title": "Identify atrioventricular and semilunar valves in diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "19.4.7",
+      "parentCode": "19.4",
+      "title": "Explain each sigmoid curve phase with reference to limiting factors",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "14.2.7",
+      "parentCode": "14.2",
+      "title": "Describe retinal distribution of rods and cones in humans",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "5.1.7",
+      "parentCode": "5.1",
+      "title": "Explain enzyme specificity through complementary active site-substrate fit",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "17.1.7",
+      "parentCode": "17.1",
+      "title": "DNA controls cell function through directing protein synthesis including enzymes and receptors",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "11.1.7",
+      "parentCode": "11.1",
+      "title": "State the function of tracheal cartilage.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "13.1.7",
+      "parentCode": "13.1",
+      "title": "Urea is formed in the liver from excess amino acids",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "12.3.7",
+      "parentCode": "12.3",
+      "title": "Oxygen debt removal via heart rate, breathing, and hepatic lactic acid respiration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "6.1.7",
+      "parentCode": "6.1",
+      "title": "Experimentally demonstrate requirements for photosynthesis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "21.2.7",
+      "parentCode": "21.2",
+      "title": "Describe and explain fermenter control conditions for optimal production",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "17.4.7",
+      "parentCode": "17.4",
+      "title": "Explain that heterozygous individuals do not breed true",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "14.1.7",
+      "parentCode": "14.1",
+      "title": "Synapse is a junction between two neurones",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.1.7",
+      "parentCode": "2.1",
+      "title": "Define cell, tissue, organ, organ system, and organism.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "10.1.7",
+      "parentCode": "10.1",
+      "title": "State pathogens have unique antigens with specific shapes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "3.2.7",
+      "parentCode": "3.2",
+      "title": "Define osmosis as water movement between different water potential regions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.2.7",
+      "parentCode": "1.2",
+      "title": "Closely related organisms have more similar DNA base sequences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "1.3.7",
+      "parentCode": "1.3",
+      "title": "Identify key structural features of viruses",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "8.3.7",
+      "parentCode": "8.3",
+      "title": "Explain the mechanism and causes of plant wilting",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.4.7",
+      "parentCode": "7.4",
+      "title": "Pepsin breaks protein in acidic stomach; trypsin breaks protein in alkaline small intestine",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "16.3.7",
+      "parentCode": "16.3",
+      "title": "Define cross-pollination as pollen transfer between different plants",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "14.4.7",
+      "parentCode": "14.4",
+      "title": "Describe temperature regulation via insulation, sweating, shivering and brain",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "18.1.7",
+      "parentCode": "18.1",
+      "title": "Explain mutation creates new alleles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "14.2.8",
+      "parentCode": "14.2",
+      "title": "Outline rod and cone functions in night and colour vision",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "7.4.8",
+      "parentCode": "7.4",
+      "title": "Bile neutralises stomach acid to provide suitable pH for enzyme action in duodenum",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "18.1.8",
+      "parentCode": "18.1",
+      "title": "Identify radiation and chemicals as mutation rate increasers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "6.1.8",
+      "parentCode": "6.1",
+      "title": "Determine how environmental factors affect photosynthesis rate",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "14.4.8",
+      "parentCode": "14.4",
+      "title": "Describe temperature regulation via vasodilation and vasoconstriction",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "3.2.8",
+      "parentCode": "3.2",
+      "title": "Explain plant cell responses using turgid, turgor pressure, plasmolysis, flaccid",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "11.1.8",
+      "parentCode": "11.1",
+      "title": "Explain how ribs, intercostal muscles, diaphragm ventilate lungs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "20.4.8",
+      "parentCode": "20.4",
+      "title": "Describe AI and IVF techniques used in captive breeding programmes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "16.3.8",
+      "parentCode": "16.3",
+      "title": "Evaluate effects of self and cross-pollination on population variation and adaptation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "16.4.8",
+      "parentCode": "16.4",
+      "title": "Identify and describe fetal structures: umbilical cord, placenta, amniotic sac",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "10.1.8",
+      "parentCode": "10.1",
+      "title": "Describe antibody function in pathogen destruction mechanisms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "19.2.8",
+      "parentCode": "19.2",
+      "title": "Carnivores obtain energy by consuming other animals",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "13.1.8",
+      "parentCode": "13.1",
+      "title": "Deamination removes nitrogen from amino acids to form urea",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "17.1.8",
+      "parentCode": "17.1",
+      "title": "Describe protein synthesis from gene transcription through ribosomal translation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "17.4.8",
+      "parentCode": "17.4",
+      "title": "Define dominant alleles as those expressed when present",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "9.2.8",
+      "parentCode": "9.2",
+      "title": "Explain relative thickness of heart muscle walls",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "14.1.8",
+      "parentCode": "14.1",
+      "title": "Describe synapse structure: vesicles, gap, receptor proteins",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.1.8",
+      "parentCode": "5.1",
+      "title": "Explain temperature effects on enzymes via kinetic energy and denaturation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "5.1.9",
+      "parentCode": "5.1",
+      "title": "Explain pH effects on enzyme shape, fit, and denaturation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "13.1.9",
+      "parentCode": "13.1",
+      "title": "Excretion is important because urea is toxic",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "14.1.9",
+      "parentCode": "14.1",
+      "title": "Describe synaptic transmission events in sequence",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "9.2.9",
+      "parentCode": "9.2",
+      "title": "Explain septum importance in blood separation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "14.2.9",
+      "parentCode": "14.2",
+      "title": "Identify fovea position and explain its function",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "18.1.9",
+      "parentCode": "18.1",
+      "title": "Define gene mutation as random DNA base sequence change",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "16.3.9",
+      "parentCode": "16.3",
+      "title": "Define fertilisation as fusion of pollen and ovule nuclei",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "16.4.9",
+      "parentCode": "16.4",
+      "title": "Describe placenta and umbilical cord functions in material exchange",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "20.4.9",
+      "parentCode": "20.4",
+      "title": "Explain risks of decreased population size reducing genetic variation in species.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "17.1.9",
+      "parentCode": "17.1",
+      "title": "Most cells contain same genes but selectively express only needed proteins",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "6.1.9",
+      "parentCode": "6.1",
+      "title": "Study gas exchange changes in aquatic plants with indicator",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "17.4.9",
+      "parentCode": "17.4",
+      "title": "Define recessive alleles as expressed only without dominant alleles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "3.2.9",
+      "parentCode": "3.2",
+      "title": "Explain water potential and osmosis importance in organism water balance",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "19.2.9",
+      "parentCode": "19.2",
+      "title": "Decomposers derive energy from dead organic matter",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "10.1.9",
+      "parentCode": "10.1",
+      "title": "State antibodies have complementary shapes for specific antigens",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "11.1.9",
+      "parentCode": "11.1",
+      "title": "Explain why air composition differs between inspiration and expiration.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "11.1.10",
+      "parentCode": "11.1",
+      "title": "Explain how CO2 detection links activity to breathing changes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "17.4.10",
+      "parentCode": "17.4",
+      "title": "Analyze pedigree diagrams to understand inheritance patterns",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "17.1.10",
+      "parentCode": "17.1",
+      "title": "A haploid nucleus contains a single chromosome set",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "9.2.10",
+      "parentCode": "9.2",
+      "title": "Describe heart functioning in terms of contractions and valves",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "10.1.10",
+      "parentCode": "10.1",
+      "title": "Explain active immunity acquisition through infection or vaccination",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "19.2.10",
+      "parentCode": "19.2",
+      "title": "Analyze human impacts via overharvesting and invasive species",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "16.3.10",
+      "parentCode": "16.3",
+      "title": "Describe pollen tube growth, ovule entry, and fertilisation process",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "6.1.10",
+      "parentCode": "6.1",
+      "title": "State photosynthesis balanced chemical equation with coefficients",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "18.1.10",
+      "parentCode": "18.1",
+      "title": "Identify four sources of genetic variation in populations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "16.4.10",
+      "parentCode": "16.4",
+      "title": "State that pathogens and toxins can cross placenta to fetus",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "14.1.10",
+      "parentCode": "14.1",
+      "title": "Synapses ensure one-directional impulse transmission",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "17.1.11",
+      "parentCode": "17.1",
+      "title": "A diploid nucleus contains two chromosome sets",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "17.4.11",
+      "parentCode": "17.4",
+      "title": "Apply genetic diagrams to predict monohybrid cross outcomes and ratios",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "16.3.11",
+      "parentCode": "16.3",
+      "title": "Describe structural adaptations of insect and wind-pollinated flowers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "19.2.11",
+      "parentCode": "19.2",
+      "title": "Construct and analyze pyramids of numbers and biomass",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "6.1.11",
+      "parentCode": "6.1",
+      "title": "Identify and explain photosynthesis limiting factors environmentally",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "11.1.11",
+      "parentCode": "11.1",
+      "title": "Explain how goblet, mucus, ciliated cells protect breathing system.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "9.2.11",
+      "parentCode": "9.2",
+      "title": "Explain physical activity effects on heart rate",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "10.1.11",
+      "parentCode": "10.1",
+      "title": "Outline vaccination mechanism and immune response production",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "16.3.12",
+      "parentCode": "16.3",
+      "title": "Investigate seed germination requirements for water, oxygen, and temperature",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "19.2.12",
+      "parentCode": "19.2",
+      "title": "Compare advantages of biomass versus numbers pyramids",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "10.1.12",
+      "parentCode": "10.1",
+      "title": "Explain vaccination role in disease spread control",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "17.4.12",
+      "parentCode": "17.4",
+      "title": "Apply Punnett squares to determine possible genotypes in crosses",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "17.1.12",
+      "parentCode": "17.1",
+      "title": "Diploid cells contain chromosome pairs; humans have 23 pairs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "19.2.13",
+      "parentCode": "19.2",
+      "title": "Trophic levels indicate organism positions in feeding systems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "17.4.13",
+      "parentCode": "17.4",
+      "title": "Explain test cross methodology for determining unknown genotypes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "10.1.13",
+      "parentCode": "10.1",
+      "title": "Explain passive immunity as short-term antibody defence from others",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "17.4.14",
+      "parentCode": "17.4",
+      "title": "Define codominance as both alleles contributing to phenotype",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "19.2.14",
+      "parentCode": "19.2",
+      "title": "Identify all trophic level categories in ecosystems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "10.1.14",
+      "parentCode": "10.1",
+      "title": "Explain breast-feeding importance for infant passive immunity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "17.4.15",
+      "parentCode": "17.4",
+      "title": "Explain ABO blood group inheritance with alleles and phenotypes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "19.2.15",
+      "parentCode": "19.2",
+      "title": "Construct and analyze energy pyramids",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "10.1.15",
+      "parentCode": "10.1",
+      "title": "State passive immunity does not produce memory cells",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "10.1.16",
+      "parentCode": "10.1",
+      "title": "Describe cholera bacterium transmission via contaminated water",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "17.4.16",
+      "parentCode": "17.4",
+      "title": "Define sex-linked traits as genes on sex chromosomes affecting frequency",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "19.2.16",
+      "parentCode": "19.2",
+      "title": "Compare advantages of energy pyramids versus alternatives",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "17.4.17",
+      "parentCode": "17.4",
+      "title": "Use red-green colour blindness as a sex-linked trait example",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "19.2.17",
+      "parentCode": "19.2",
+      "title": "Energy transfer between trophic levels is inefficient",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "10.1.17",
+      "parentCode": "10.1",
+      "title": "Explain cholera toxin mechanism causing diarrhoea and dehydration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "19.2.18",
+      "parentCode": "19.2",
+      "title": "Energy loss limits food chain length to fewer levels",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 17
+    },
+    {
+      "code": "17.4.18",
+      "parentCode": "17.4",
+      "title": "Apply genetic diagrams to predict outcomes involving codominance or sex linkage",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 17
+    },
+    {
+      "code": "19.2.19",
+      "parentCode": "19.2",
+      "title": "Plant-based diets more energy efficient than livestock-based",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 18
+    }
+  ]
+}

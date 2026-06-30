@@ -1,0 +1,3216 @@
+{
+  "curriculumCode": "A2_LEVEL",
+  "subject": "Physics",
+  "syllabusCode": "9702",
+  "source": "school-core:CAIE-9702@2025–2027",
+  "strands": [
+    {
+      "code": "1",
+      "parentCode": null,
+      "title": "Physical quantities and units",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2",
+      "parentCode": null,
+      "title": "Kinematics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3",
+      "parentCode": null,
+      "title": "Dynamics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4",
+      "parentCode": null,
+      "title": "Forces, density and pressure",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5",
+      "parentCode": null,
+      "title": "Work, energy and power",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6",
+      "parentCode": null,
+      "title": "Deformation of solids",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7",
+      "parentCode": null,
+      "title": "Waves",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "8",
+      "parentCode": null,
+      "title": "Superposition",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "9",
+      "parentCode": null,
+      "title": "Electricity",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "10",
+      "parentCode": null,
+      "title": "D.C. circuits",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "11",
+      "parentCode": null,
+      "title": "Particle physics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "12",
+      "parentCode": null,
+      "title": "Motion in a circle",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 11
+    },
+    {
+      "code": "13",
+      "parentCode": null,
+      "title": "Gravitational fields",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 12
+    },
+    {
+      "code": "14",
+      "parentCode": null,
+      "title": "Temperature",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 13
+    },
+    {
+      "code": "15",
+      "parentCode": null,
+      "title": "Ideal gases",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 14
+    },
+    {
+      "code": "16",
+      "parentCode": null,
+      "title": "Thermodynamics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 15
+    },
+    {
+      "code": "17",
+      "parentCode": null,
+      "title": "Oscillations",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 16
+    },
+    {
+      "code": "18",
+      "parentCode": null,
+      "title": "Electric fields",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 17
+    },
+    {
+      "code": "19",
+      "parentCode": null,
+      "title": "Capacitance",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 18
+    },
+    {
+      "code": "20",
+      "parentCode": null,
+      "title": "Magnetic fields",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 19
+    },
+    {
+      "code": "21",
+      "parentCode": null,
+      "title": "Alternating currents",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 20
+    },
+    {
+      "code": "22",
+      "parentCode": null,
+      "title": "Quantum physics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 21
+    },
+    {
+      "code": "23",
+      "parentCode": null,
+      "title": "Nuclear physics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 22
+    },
+    {
+      "code": "24",
+      "parentCode": null,
+      "title": "Medical physics",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 23
+    },
+    {
+      "code": "25",
+      "parentCode": null,
+      "title": "Astronomy and cosmology",
+      "level": 1,
+      "examWeight": null,
+      "sortOrder": 24
+    },
+    {
+      "code": "9.1",
+      "parentCode": "9",
+      "title": "Electric current",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.1",
+      "parentCode": "11",
+      "title": "Atoms, nuclei and radiation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.1",
+      "parentCode": "12",
+      "title": "Kinematics of uniform circular motion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.1",
+      "parentCode": "13",
+      "title": "Gravitational field",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "15.1",
+      "parentCode": "15",
+      "title": "The mole",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.1",
+      "parentCode": "14",
+      "title": "Thermal equilibrium",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "25.1",
+      "parentCode": "25",
+      "title": "Standard candles",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "24.1",
+      "parentCode": "24",
+      "title": "Production and use of ultrasound",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1",
+      "parentCode": "2",
+      "title": "Equations of motion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1",
+      "parentCode": "3",
+      "title": "Momentum and Newton’s laws of motion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "23.1",
+      "parentCode": "23",
+      "title": "Mass defect and nuclear binding energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1",
+      "parentCode": "4",
+      "title": "Turning effects of forces",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "22.1",
+      "parentCode": "22",
+      "title": "Energy and momentum of a photon",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1",
+      "parentCode": "5",
+      "title": "Energy conservation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1",
+      "parentCode": "6",
+      "title": "Stress and strain",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1",
+      "parentCode": "7",
+      "title": "Progressive waves",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "21.1",
+      "parentCode": "21",
+      "title": "Characteristics of alternating currents",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "20.1",
+      "parentCode": "20",
+      "title": "Concept of a magnetic field",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "19.1",
+      "parentCode": "19",
+      "title": "Capacitors and capacitance",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1",
+      "parentCode": "8",
+      "title": "Stationary waves",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1",
+      "parentCode": "1",
+      "title": "Physical quantities",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "18.1",
+      "parentCode": "18",
+      "title": "Electric fields and field lines",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "17.1",
+      "parentCode": "17",
+      "title": "Simple harmonic oscillations",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "16.1",
+      "parentCode": "16",
+      "title": "Internal energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.1",
+      "parentCode": "10",
+      "title": "Practical circuits",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2",
+      "parentCode": "1",
+      "title": "SI units",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2",
+      "parentCode": "3",
+      "title": "Non-uniform motion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2",
+      "parentCode": "4",
+      "title": "Equilibrium of forces",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2",
+      "parentCode": "5",
+      "title": "Gravitational potential energy and kinetic energy",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2",
+      "parentCode": "6",
+      "title": "Elastic and plastic behaviour",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2",
+      "parentCode": "7",
+      "title": "Transverse and longitudinal waves",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2",
+      "parentCode": "8",
+      "title": "Diffraction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.2",
+      "parentCode": "9",
+      "title": "Potential difference and power",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.2",
+      "parentCode": "10",
+      "title": "Kirchhoff’s laws",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.2",
+      "parentCode": "11",
+      "title": "Fundamental particles",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.2",
+      "parentCode": "12",
+      "title": "Centripetal acceleration",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.2",
+      "parentCode": "13",
+      "title": "Gravitational force between point masses",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.2",
+      "parentCode": "14",
+      "title": "Temperature scales",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "15.2",
+      "parentCode": "15",
+      "title": "Equation of state",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "16.2",
+      "parentCode": "16",
+      "title": "The first law of thermodynamics",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "17.2",
+      "parentCode": "17",
+      "title": "Energy in simple harmonic motion",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "18.2",
+      "parentCode": "18",
+      "title": "Uniform electric fields",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "19.2",
+      "parentCode": "19",
+      "title": "Energy stored in a capacitor",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "20.2",
+      "parentCode": "20",
+      "title": "Force on a current-carrying conductor",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "21.2",
+      "parentCode": "21",
+      "title": "Rectification and smoothing",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "22.2",
+      "parentCode": "22",
+      "title": "Photoelectric effect",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "23.2",
+      "parentCode": "23",
+      "title": "Radioactive decay",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "24.2",
+      "parentCode": "24",
+      "title": "Production and use of X-rays",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "25.2",
+      "parentCode": "25",
+      "title": "Stellar radii",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "17.3",
+      "parentCode": "17",
+      "title": "Damped and forced oscillations, resonance",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3",
+      "parentCode": "3",
+      "title": "Linear momentum and its conservation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "18.3",
+      "parentCode": "18",
+      "title": "Electric force between point charges",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "25.3",
+      "parentCode": "25",
+      "title": "Hubble’s law and the Big Bang theory",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3",
+      "parentCode": "4",
+      "title": "Density and pressure",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.3",
+      "parentCode": "14",
+      "title": "Specific heat capacity and specific latent heat",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "24.3",
+      "parentCode": "24",
+      "title": "PET scanning",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.3",
+      "parentCode": "13",
+      "title": "Gravitational field of a point mass",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "15.3",
+      "parentCode": "15",
+      "title": "Kinetic theory of gases",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.3",
+      "parentCode": "10",
+      "title": "Potential dividers",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "22.3",
+      "parentCode": "22",
+      "title": "Wave-particle duality",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.3",
+      "parentCode": "9",
+      "title": "Resistance and resistivity",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3",
+      "parentCode": "8",
+      "title": "Interference",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3",
+      "parentCode": "1",
+      "title": "Errors and uncertainties",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "19.3",
+      "parentCode": "19",
+      "title": "Discharging a capacitor",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "20.3",
+      "parentCode": "20",
+      "title": "Force on a moving charge",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.3",
+      "parentCode": "7",
+      "title": "Doppler effect for sound waves",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "18.4",
+      "parentCode": "18",
+      "title": "Electric field of a point charge",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.4",
+      "parentCode": "1",
+      "title": "Scalars and vectors",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.4",
+      "parentCode": "8",
+      "title": "The diffraction grating",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "20.4",
+      "parentCode": "20",
+      "title": "Magnetic fields due to currents",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "22.4",
+      "parentCode": "22",
+      "title": "Energy levels in atoms and line spectra",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "13.4",
+      "parentCode": "13",
+      "title": "Gravitational potential",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.4",
+      "parentCode": "7",
+      "title": "Electromagnetic spectrum",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "18.5",
+      "parentCode": "18",
+      "title": "Electric potential",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.5",
+      "parentCode": "7",
+      "title": "Polarisation",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "20.5",
+      "parentCode": "20",
+      "title": "Electromagnetic induction",
+      "level": 2,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "13.1.1",
+      "parentCode": "13.1",
+      "title": "Understand gravitational fields as force per unit mass fields",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.3.1",
+      "parentCode": "7.3",
+      "title": "Understand Doppler effect for moving sound source relative to stationary observer.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.4.1",
+      "parentCode": "7.4",
+      "title": "Electromagnetic waves are transverse and travel at constant speed in free space",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.2.1",
+      "parentCode": "12.2",
+      "title": "Perpendicular constant force causes centripetal acceleration in circular motion",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.5.1",
+      "parentCode": "7.5",
+      "title": "Understand polarisation as a transverse wave phenomenon",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.1.1",
+      "parentCode": "8.1",
+      "title": "Explain and apply the principle of superposition in wave contexts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "12.1.1",
+      "parentCode": "12.1",
+      "title": "Define radians and express angular displacement using radian measure",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.2.1",
+      "parentCode": "11.2",
+      "title": "Quarks are fundamental particles; six flavour types exist with specific names.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.3.1",
+      "parentCode": "8.3",
+      "title": "Understand the definitions of interference and coherence in wave phenomena.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "11.1.1",
+      "parentCode": "11.1",
+      "title": "Interpret alpha scattering results to deduce nucleus existence and size",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.3.1",
+      "parentCode": "10.3",
+      "title": "Understand how potential divider circuits distribute voltage across resistors",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.4.1",
+      "parentCode": "8.4",
+      "title": "Recall and apply the diffraction grating equation d sin θ = nλ",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.1.1",
+      "parentCode": "9.1",
+      "title": "Electric current represents the flow of charge carriers through a conductor.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.2.1",
+      "parentCode": "10.2",
+      "title": "Understand Kirchhoff's first law as conservation of charge principle",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "10.1.1",
+      "parentCode": "10.1",
+      "title": "Recall and use circuit symbols from syllabus section 6",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.2.1",
+      "parentCode": "9.2",
+      "title": "Define potential difference as energy transferred per unit charge across components.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "9.3.1",
+      "parentCode": "9.3",
+      "title": "Define what resistance is in electrical circuits",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.1.1",
+      "parentCode": "1.1",
+      "title": "Physical quantities comprise numerical magnitude and corresponding unit.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.2.1",
+      "parentCode": "1.2",
+      "title": "Identify five SI base quantities and their corresponding standard units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "25.3.1",
+      "parentCode": "25.3",
+      "title": "Recognize spectral lines from distant objects exhibit increased wavelength shifts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "25.2.1",
+      "parentCode": "25.2",
+      "title": "Apply Wien's displacement law to determine stellar surface temperature from peak wavelength.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.3.1",
+      "parentCode": "1.3",
+      "title": "Understand how systematic and random errors affect measurement quality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "25.1.1",
+      "parentCode": "25.1",
+      "title": "Understand luminosity as the total power of radiation emitted by stars.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "1.4.1",
+      "parentCode": "1.4",
+      "title": "Distinguish between scalars and vectors with relevant syllabus examples",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "24.3.1",
+      "parentCode": "24.3",
+      "title": "Tracer definition: radioactive substance introduced into body for tissue study",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "2.1.1",
+      "parentCode": "2.1",
+      "title": "Define and apply distance, displacement, speed, velocity, and acceleration concepts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "24.2.1",
+      "parentCode": "24.2",
+      "title": "Explain X-ray production by electron bombardment; calculate minimum wavelength from accelerating potential difference.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "24.1.1",
+      "parentCode": "24.1",
+      "title": "Piezoelectric crystals convert electrical voltage to mechanical deformation and vice versa.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "23.2.1",
+      "parentCode": "23.2",
+      "title": "Count rate fluctuations demonstrate radioactive decay's random nature",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "23.1.1",
+      "parentCode": "23.1",
+      "title": "Understand and apply Einstein's mass-energy equivalence equation E = mc²",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "22.4.1",
+      "parentCode": "22.4",
+      "title": "Discrete electron energy levels exist in isolated atoms like hydrogen.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "22.3.1",
+      "parentCode": "22.3",
+      "title": "Photoelectric effect shows particle nature; interference and diffraction show wave nature",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "22.2.1",
+      "parentCode": "22.2",
+      "title": "Photoelectrons are emitted from metals when illuminated by electromagnetic radiation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.1.1",
+      "parentCode": "3.1",
+      "title": "Mass resists changes in an object's motion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "22.1.1",
+      "parentCode": "22.1",
+      "title": "Recognize electromagnetic radiation exhibits particle-like properties",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "21.2.1",
+      "parentCode": "21.2",
+      "title": "Graphically distinguish between half-wave and full-wave rectification methods",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "21.1.1",
+      "parentCode": "21.1",
+      "title": "Understand and apply period, frequency, and peak value to AC quantities.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "20.5.1",
+      "parentCode": "20.5",
+      "title": "Define magnetic flux as product of flux density and perpendicular area",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.2.1",
+      "parentCode": "3.2",
+      "title": "Qualitatively understand friction, viscous drag, and air resistance forces.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "20.4.1",
+      "parentCode": "20.4",
+      "title": "Sketch magnetic field patterns for straight wires, coils, and solenoids.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "3.3.1",
+      "parentCode": "3.3",
+      "title": "State the principle of conservation of momentum",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "20.3.1",
+      "parentCode": "20.3",
+      "title": "Determine force direction on moving charged particles in magnetic fields",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "20.2.1",
+      "parentCode": "20.2",
+      "title": "Understand that magnetic fields exert forces on current-carrying conductors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.1.1",
+      "parentCode": "4.1",
+      "title": "Understand weight acts at a single point called centre of gravity.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "20.1.1",
+      "parentCode": "20.1",
+      "title": "Understand magnetic fields as force fields from moving charges or permanent magnets",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "19.3.1",
+      "parentCode": "19.3",
+      "title": "Analyze time-variation graphs of voltage, charge, and current during capacitor discharge",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.2.1",
+      "parentCode": "4.2",
+      "title": "State and apply the principle of moments for rotational equilibrium",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "19.2.1",
+      "parentCode": "19.2",
+      "title": "Find capacitor energy using area beneath potential-charge graph",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "4.3.1",
+      "parentCode": "4.3",
+      "title": "Understand and apply the concept of density in physics problems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "19.1.1",
+      "parentCode": "19.1",
+      "title": "Define capacitance for spherical conductors and parallel plate capacitors",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "18.5.1",
+      "parentCode": "18.5",
+      "title": "Define electric potential as work done per unit positive charge from infinity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "18.4.1",
+      "parentCode": "18.4",
+      "title": "Recall and apply the equation for electric field strength around point charges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "18.3.1",
+      "parentCode": "18.3",
+      "title": "Spherical conductor charge behaves as point charge at centre externally.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.1.1",
+      "parentCode": "5.1",
+      "title": "Understand work concept and apply work equals force times displacement formula",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "18.2.1",
+      "parentCode": "18.2",
+      "title": "Use the electric field equation to find field strength between parallel plates.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "18.1.1",
+      "parentCode": "18.1",
+      "title": "Understand electric fields as force fields; define as force per unit positive charge",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "17.3.1",
+      "parentCode": "17.3",
+      "title": "Resistive forces cause damping in oscillating systems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "17.2.1",
+      "parentCode": "17.2",
+      "title": "Explain energy conversion between kinetic and potential forms in SHM",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "5.2.1",
+      "parentCode": "5.2",
+      "title": "Derive gravitational potential energy formula using work and force concepts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "17.1.1",
+      "parentCode": "17.1",
+      "title": "Define and apply oscillation terminology; relate period to frequency and angular frequency.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "16.2.1",
+      "parentCode": "16.2",
+      "title": "Calculate work done on/by gases at constant pressure; distinguish between directions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.1.1",
+      "parentCode": "6.1",
+      "title": "Deformation results from tensile or compressive forces in one dimension.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "16.1.1",
+      "parentCode": "16.1",
+      "title": "Internal energy is state-dependent; sum of molecular kinetic and potential energies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "15.3.1",
+      "parentCode": "15.3",
+      "title": "State the basic assumptions underlying kinetic theory of gases",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "15.2.1",
+      "parentCode": "15.2",
+      "title": "Understand ideal gas definition using proportionality pV ∝ T relationship",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "15.1.1",
+      "parentCode": "15.1",
+      "title": "Amount of substance is an SI base quantity measured in moles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "8.2.1",
+      "parentCode": "8.2",
+      "title": "Understand and explain what diffraction is",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "6.2.1",
+      "parentCode": "6.2",
+      "title": "Define and apply elastic deformation, plastic deformation, and elastic limit concepts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.3.1",
+      "parentCode": "14.3",
+      "title": "Define and apply the concept of specific heat capacity in calculations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.2.1",
+      "parentCode": "14.2",
+      "title": "Identify temperature-dependent physical properties used in thermometry",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.1.1",
+      "parentCode": "7.1",
+      "title": "Explain wave motion using vibrations in various physical systems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "14.1.1",
+      "parentCode": "14.1",
+      "title": "Thermal energy transfers from higher to lower temperature regions.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.4.1",
+      "parentCode": "13.4",
+      "title": "Define gravitational potential as work per unit mass from infinity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.3.1",
+      "parentCode": "13.3",
+      "title": "Derive gravitational field strength equation from Newton's law and field definition",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "13.2.1",
+      "parentCode": "13.2",
+      "title": "Point masses represent uniform spheres in gravitational calculations outside the sphere.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "7.2.1",
+      "parentCode": "7.2",
+      "title": "Distinguish between transverse and longitudinal wave characteristics.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 0
+    },
+    {
+      "code": "18.2.2",
+      "parentCode": "18.2",
+      "title": "Explain how uniform electric fields affect the motion of charged particles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.1.2",
+      "parentCode": "1.1",
+      "title": "Estimate physical quantities reasonably within syllabus scope.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.2.2",
+      "parentCode": "1.2",
+      "title": "Construct and apply derived units from combinations of base units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.3.2",
+      "parentCode": "1.3",
+      "title": "Distinguish between precision and accuracy in measurements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "1.4.2",
+      "parentCode": "1.4",
+      "title": "Perform addition and subtraction operations on coplanar vectors",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "2.1.2",
+      "parentCode": "2.1",
+      "title": "Represent distance, displacement, speed, velocity, and acceleration using graphs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.1.2",
+      "parentCode": "3.1",
+      "title": "Apply F = ma; acceleration and force are collinear.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.2.2",
+      "parentCode": "3.2",
+      "title": "Describe and explain motion in gravitational field with air resistance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "3.3.2",
+      "parentCode": "3.3",
+      "title": "Apply conservation of momentum to solve problems in one and two dimensions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.1.2",
+      "parentCode": "4.1",
+      "title": "Define and apply the concept of moment of a force.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.2.2",
+      "parentCode": "4.2",
+      "title": "Understand equilibrium conditions: zero resultant force and zero resultant torque",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "4.3.2",
+      "parentCode": "4.3",
+      "title": "Understand and apply the concept of pressure in physics problems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.1.2",
+      "parentCode": "5.1",
+      "title": "Recall and apply energy conservation principle to physical systems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "5.2.2",
+      "parentCode": "5.2",
+      "title": "Recall and apply gravitational potential energy formula in uniform fields.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.1.2",
+      "parentCode": "6.1",
+      "title": "Understand and apply load, extension, compression, and limit of proportionality.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "6.2.2",
+      "parentCode": "6.2",
+      "title": "Recognize that force-extension graph area equals work done on material",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.1.2",
+      "parentCode": "7.1",
+      "title": "Apply key wave terminology and parameters correctly",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.2.2",
+      "parentCode": "7.2",
+      "title": "Examine and explain graphs depicting transverse and longitudinal waves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.3.2",
+      "parentCode": "7.3",
+      "title": "Apply Doppler frequency formula for moving source and stationary observer.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.4.2",
+      "parentCode": "7.4",
+      "title": "Recall wavelength ranges for electromagnetic spectrum regions from radio to gamma rays",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "7.5.2",
+      "parentCode": "7.5",
+      "title": "Apply Malus's law to calculate intensity through polarising filters",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.1.2",
+      "parentCode": "8.1",
+      "title": "Understand experiments demonstrating stationary waves with microwaves, strings, and air columns.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.2.2",
+      "parentCode": "8.2",
+      "title": "Understand diffraction experiments and how gap width affects wavelength",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.3.2",
+      "parentCode": "8.3",
+      "title": "Understand two-source interference experiments across water, sound, light, and microwave domains.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "8.4.2",
+      "parentCode": "8.4",
+      "title": "Explain how diffraction gratings determine light wavelengths",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.1.2",
+      "parentCode": "9.1",
+      "title": "Charge carried by charge carriers exists in discrete, quantized amounts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.2.2",
+      "parentCode": "9.2",
+      "title": "Recall and apply the equation V = W / Q for potential difference.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "9.3.2",
+      "parentCode": "9.3",
+      "title": "Apply the relationship between voltage, current, and resistance",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.1.2",
+      "parentCode": "10.1",
+      "title": "Draw and interpret circuit diagrams using standard symbols",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.2.2",
+      "parentCode": "10.2",
+      "title": "Understand Kirchhoff's second law as conservation of energy principle",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "10.3.2",
+      "parentCode": "10.3",
+      "title": "Use potentiometers to compare and measure potential differences between sources",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.1.2",
+      "parentCode": "11.1",
+      "title": "Explain basic nuclear atom model with protons, neutrons, electrons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "11.2.2",
+      "parentCode": "11.2",
+      "title": "Know quark charges; antiquarks have opposite charges to their quark counterparts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.1.2",
+      "parentCode": "12.1",
+      "title": "Understand and apply the concept of angular speed in circular motion",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "12.2.2",
+      "parentCode": "12.2",
+      "title": "Centripetal acceleration produces uniform circular motion at constant angular velocity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.1.2",
+      "parentCode": "13.1",
+      "title": "Represent gravitational fields using field lines",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.2.2",
+      "parentCode": "13.2",
+      "title": "Apply Newton's law of gravitation to calculate force between point masses.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.3.2",
+      "parentCode": "13.3",
+      "title": "Recall and apply the gravitational field strength equation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "13.4.2",
+      "parentCode": "13.4",
+      "title": "Apply the equation for gravitational potential from point mass",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.1.2",
+      "parentCode": "14.1",
+      "title": "Equal temperature regions exist in thermal equilibrium state.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.2.2",
+      "parentCode": "14.2",
+      "title": "Recognize thermodynamic temperature scale independence from specific substances",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "14.3.2",
+      "parentCode": "14.3",
+      "title": "Define latent heat types and differentiate between fusion and vaporisation processes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "15.1.2",
+      "parentCode": "15.1",
+      "title": "Use molar quantities; one mole contains Avogadro's number of particles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "15.2.2",
+      "parentCode": "15.2",
+      "title": "Recall and apply ideal gas equation in both molar and molecular forms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "15.3.2",
+      "parentCode": "15.3",
+      "title": "Explain pressure from molecular movement; derive and use pV = 3Nm<c2>",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "16.1.2",
+      "parentCode": "16.1",
+      "title": "Temperature increase corresponds to increased internal energy.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "16.2.2",
+      "parentCode": "16.2",
+      "title": "Apply first law of thermodynamics relating internal energy, heat, and work.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "17.1.2",
+      "parentCode": "17.1",
+      "title": "Recognize that SHM requires acceleration opposite and proportional to displacement.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "17.2.2",
+      "parentCode": "17.2",
+      "title": "Apply total energy formula for SHM systems using amplitude and angular frequency",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "17.3.2",
+      "parentCode": "17.3",
+      "title": "Classify damping types and sketch corresponding displacement-time graphs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "18.1.2",
+      "parentCode": "18.1",
+      "title": "Recall and apply the equation F = qE to calculate force on charges",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "18.3.2",
+      "parentCode": "18.3",
+      "title": "Apply Coulomb's law to calculate electrostatic force between point charges.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "18.5.2",
+      "parentCode": "18.5",
+      "title": "Relate electric field to negative potential gradient at a point",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "19.1.2",
+      "parentCode": "19.1",
+      "title": "Recall and apply the capacitance equation C = Q / V",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "19.2.2",
+      "parentCode": "19.2",
+      "title": "Apply energy formulas for capacitors using charge and voltage",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "19.3.2",
+      "parentCode": "19.3",
+      "title": "Apply the time constant formula τ = RC for capacitor discharge through resistor",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "20.1.2",
+      "parentCode": "20.1",
+      "title": "Represent magnetic fields using field lines",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "20.2.2",
+      "parentCode": "20.2",
+      "title": "Apply F = BIL sin θ and use Fleming's left-hand rule for direction.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "20.3.2",
+      "parentCode": "20.3",
+      "title": "Apply the magnetic force equation with angle dependence",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "20.4.2",
+      "parentCode": "20.4",
+      "title": "Understand how ferrous cores enhance solenoid magnetic fields.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "20.5.2",
+      "parentCode": "20.5",
+      "title": "Recall and apply the magnetic flux equation Φ = BA",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "21.1.2",
+      "parentCode": "21.1",
+      "title": "Use sinusoidal equations to represent alternating currents and voltages.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "21.2.2",
+      "parentCode": "21.2",
+      "title": "Explain how a single diode performs half-wave rectification of AC",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "22.1.2",
+      "parentCode": "22.1",
+      "title": "Understand photons as discrete quanta of electromagnetic energy",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "22.2.2",
+      "parentCode": "22.2",
+      "title": "Understand and apply threshold frequency and threshold wavelength concepts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "22.3.2",
+      "parentCode": "22.3",
+      "title": "Explain how electron diffraction demonstrates particles exhibit wave-like properties",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "22.4.2",
+      "parentCode": "22.4",
+      "title": "Line spectra form from electron transitions; appearance differs for emission versus absorption.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "23.1.2",
+      "parentCode": "23.1",
+      "title": "Write and balance nuclear equations for simple nuclear reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "23.2.2",
+      "parentCode": "23.2",
+      "title": "Radioactive decay occurs spontaneously and randomly",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "24.1.2",
+      "parentCode": "24.1",
+      "title": "Piezoelectric transducers generate and detect ultrasound waves through oscillation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "24.2.2",
+      "parentCode": "24.2",
+      "title": "Understand X-ray imaging of internal body structures and the concept of contrast.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "24.3.2",
+      "parentCode": "24.3",
+      "title": "β+ decay tracers are used for PET scanning imaging",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "25.1.2",
+      "parentCode": "25.1",
+      "title": "Recall and apply the inverse square law relating flux intensity to luminosity and distance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "25.2.2",
+      "parentCode": "25.2",
+      "title": "Apply Stefan-Boltzmann law to relate luminosity, radius, and temperature of stars.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "25.3.2",
+      "parentCode": "25.3",
+      "title": "Apply redshift formulas to calculate relative motion of radiation sources",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 1
+    },
+    {
+      "code": "19.1.3",
+      "parentCode": "19.1",
+      "title": "Derive series and parallel capacitance formulae using C = Q / V",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "22.4.3",
+      "parentCode": "22.4",
+      "title": "Apply the photon energy equation relating frequency to energy level differences.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.2.3",
+      "parentCode": "4.2",
+      "title": "Use vector triangles to represent and analyze coplanar forces in equilibrium",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "2.1.3",
+      "parentCode": "2.1",
+      "title": "Calculate displacement by finding area beneath velocity-time graph curves",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.2.3",
+      "parentCode": "6.2",
+      "title": "Calculate elastic potential energy using force-extension graph area within proportionality limit",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "25.2.3",
+      "parentCode": "25.2",
+      "title": "Combine Wien's and Stefan-Boltzmann laws to calculate stellar radius measurements.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "19.3.3",
+      "parentCode": "19.3",
+      "title": "Apply exponential decay equations for capacitor discharge variables using time constant",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.1.3",
+      "parentCode": "4.1",
+      "title": "Understand a couple is a force pair producing rotation only.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "24.2.3",
+      "parentCode": "24.2",
+      "title": "Recall and apply the exponential attenuation formula for X-rays in matter.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.2.3",
+      "parentCode": "11.2",
+      "title": "Protons and neutrons are composite; describe them using quark composition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "11.1.3",
+      "parentCode": "11.1",
+      "title": "Differentiate nucleon number from proton number",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "20.2.3",
+      "parentCode": "20.2",
+      "title": "Define magnetic flux density as force per unit current per unit length.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.3.3",
+      "parentCode": "3.3",
+      "title": "Recall elastic collision properties: kinetic energy conservation and equal approach/separation speeds",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.4.3",
+      "parentCode": "1.4",
+      "title": "Resolve vectors into two perpendicular component parts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "20.3.3",
+      "parentCode": "20.3",
+      "title": "Derive and apply the Hall voltage formula for charge carriers",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.3.3",
+      "parentCode": "8.3",
+      "title": "Understand the conditions necessary for observing two-source interference fringes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "21.2.3",
+      "parentCode": "21.2",
+      "title": "Explain how a bridge rectifier performs full-wave rectification of AC",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "21.1.3",
+      "parentCode": "21.1",
+      "title": "Recall and apply mean power relationship for sinusoidal AC in resistive loads.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.2.3",
+      "parentCode": "3.2",
+      "title": "Understand terminal velocity concept for objects against resistive forces.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.2.3",
+      "parentCode": "1.2",
+      "title": "Verify dimensional consistency in equations using SI base units.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "20.4.3",
+      "parentCode": "20.4",
+      "title": "Explain and determine forces between current-carrying conductors.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "20.5.3",
+      "parentCode": "20.5",
+      "title": "Understand and apply magnetic flux linkage concepts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "24.3.3",
+      "parentCode": "24.3",
+      "title": "Particle-antiparticle annihilation conserves mass-energy and momentum",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.3.3",
+      "parentCode": "10.3",
+      "title": "Understand galvanometer application in null point measurement techniques",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.1.3",
+      "parentCode": "12.1",
+      "title": "Recall and use equations relating angular speed, period, and linear velocity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "15.2.3",
+      "parentCode": "15.2",
+      "title": "Recall relationship between Boltzmann constant and gas constant",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "23.1.3",
+      "parentCode": "23.1",
+      "title": "Define mass defect and binding energy; apply these concepts in calculations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "23.2.3",
+      "parentCode": "23.2",
+      "title": "Define activity and decay constant; apply A = λN equation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "15.3.3",
+      "parentCode": "15.3",
+      "title": "Understand root-mean-square speed definition and relationship to mean-square speed",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.3.3",
+      "parentCode": "13.3",
+      "title": "Explain why gravitational field strength is approximately constant near Earth's surface",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "6.1.3",
+      "parentCode": "6.1",
+      "title": "Recall and apply Hooke's law to elastic deformation.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.4.3",
+      "parentCode": "7.4",
+      "title": "Visible light wavelengths range from 400–700 nm in free space",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "12.2.3",
+      "parentCode": "12.2",
+      "title": "Apply centripetal acceleration equations using angular and linear velocities",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "22.3.3",
+      "parentCode": "22.3",
+      "title": "Recognize de Broglie wavelength as wavelength associated with moving particles",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.2.3",
+      "parentCode": "5.2",
+      "title": "Derive kinetic energy formula using equations of motion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.2.3",
+      "parentCode": "10.2",
+      "title": "Derive series resistance formula using Kirchhoff's laws",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "17.1.3",
+      "parentCode": "17.1",
+      "title": "Apply acceleration equation and displacement solution for simple harmonic motion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.4.3",
+      "parentCode": "13.4",
+      "title": "Relate gravitational potential to potential energy; apply energy equation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.1.3",
+      "parentCode": "9.1",
+      "title": "Apply the equation relating charge, current, and time: Q equals I times t.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.1.3",
+      "parentCode": "10.1",
+      "title": "Define e.m.f. as energy transferred per unit charge in circuit",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "7.1.3",
+      "parentCode": "7.1",
+      "title": "Use CRO controls to measure wave frequency and amplitude",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.3.3",
+      "parentCode": "9.3",
+      "title": "Draw current-voltage graphs for conductors, diodes, and filament lamps",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "25.3.3",
+      "parentCode": "25.3",
+      "title": "Explain how redshift observations support universal expansion concept",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "17.3.3",
+      "parentCode": "17.3",
+      "title": "Resonance occurs at natural frequency producing maximum amplitude oscillations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "9.2.3",
+      "parentCode": "9.2",
+      "title": "Recall and apply three equations relating power to voltage, current, and resistance.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "24.1.3",
+      "parentCode": "24.1",
+      "title": "Ultrasound reflection at tissue boundaries enables diagnostic imaging of internal structures.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "18.1.3",
+      "parentCode": "18.1",
+      "title": "Represent electric fields using field line diagrams",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "25.1.3",
+      "parentCode": "25.1",
+      "title": "Understand that objects of known luminosity are termed standard candles.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "5.1.3",
+      "parentCode": "5.1",
+      "title": "Understand efficiency as ratio of useful output to total energy input",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "22.2.3",
+      "parentCode": "22.2",
+      "title": "Explain photoelectric emission using photon and work function energies",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "13.2.3",
+      "parentCode": "13.2",
+      "title": "Connect gravitational force to centripetal acceleration in circular orbital motion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "1.3.3",
+      "parentCode": "1.3",
+      "title": "Calculate derived quantity uncertainty using absolute or percentage uncertainty addition.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "8.1.3",
+      "parentCode": "8.1",
+      "title": "Explain stationary wave formation graphically and identify nodes and antinodes.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "22.1.3",
+      "parentCode": "22.1",
+      "title": "Apply Planck's equation relating photon energy to frequency",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "18.5.3",
+      "parentCode": "18.5",
+      "title": "Apply potential formula for point charge electric field",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "14.2.3",
+      "parentCode": "14.2",
+      "title": "Convert between kelvin and Celsius using the conversion formula",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "4.3.3",
+      "parentCode": "4.3",
+      "title": "Derive the hydrostatic pressure equation from fundamental definitions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "3.1.3",
+      "parentCode": "3.1",
+      "title": "Define momentum as p = mv and apply it.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 2
+    },
+    {
+      "code": "10.1.4",
+      "parentCode": "10.1",
+      "title": "Distinguish e.m.f. from potential difference using energy analysis",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "25.1.4",
+      "parentCode": "25.1",
+      "title": "Understand how standard candles are used to measure distances to galaxies.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "13.2.4",
+      "parentCode": "13.2",
+      "title": "Geostationary satellites remain fixed above the Equator with 24-hour orbital periods.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "7.1.4",
+      "parentCode": "7.1",
+      "title": "Derive the wave equation from fundamental definitions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "23.1.4",
+      "parentCode": "23.1",
+      "title": "Plot and interpret binding energy per nucleon versus mass number graphs",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.2.4",
+      "parentCode": "6.2",
+      "title": "Apply elastic potential energy equations within the limit of proportionality",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "14.2.4",
+      "parentCode": "14.2",
+      "title": "Understand absolute zero as the lowest thermodynamic temperature limit",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "1.2.4",
+      "parentCode": "1.2",
+      "title": "Apply SI prefixes to express unit multiples and submultiples appropriately.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "6.1.4",
+      "parentCode": "6.1",
+      "title": "Recall and use spring constant formula k equals force divided by extension.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "15.3.4",
+      "parentCode": "15.3",
+      "title": "Deduce and use average translational kinetic energy expression from equation comparison",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "23.2.4",
+      "parentCode": "23.2",
+      "title": "Define the concept of half-life",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.2.4",
+      "parentCode": "5.2",
+      "title": "Recall and apply kinetic energy formula.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "17.1.4",
+      "parentCode": "17.1",
+      "title": "Apply velocity equations in simple harmonic motion calculations.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "2.1.4",
+      "parentCode": "2.1",
+      "title": "Find velocity by calculating gradient of displacement-time graph",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "5.1.4",
+      "parentCode": "5.1",
+      "title": "Solve problems using efficiency concept and calculations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "24.1.4",
+      "parentCode": "24.1",
+      "title": "Specific acoustic impedance equals density multiplied by sound speed in medium.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.3.4",
+      "parentCode": "4.3",
+      "title": "Apply the hydrostatic pressure equation to calculate pressure differences",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "18.5.4",
+      "parentCode": "18.5",
+      "title": "Calculate electric potential energy of two point charges",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "19.1.4",
+      "parentCode": "19.1",
+      "title": "Apply capacitance formulae for series and parallel capacitor combinations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "4.1.4",
+      "parentCode": "4.1",
+      "title": "Define and apply the torque of a couple concept.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.3.4",
+      "parentCode": "3.3",
+      "title": "Understand momentum is always conserved but kinetic energy may change in interactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "24.2.4",
+      "parentCode": "24.2",
+      "title": "Understand how CT scanning combines multiple X-ray images to produce 3D internal structure images.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "20.3.4",
+      "parentCode": "20.3",
+      "title": "Explain Hall probe application in measuring magnetic flux density",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "20.5.4",
+      "parentCode": "20.5",
+      "title": "Explain experiments demonstrating electromagnetic induction, opposition, and magnitude factors",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "24.3.4",
+      "parentCode": "24.3",
+      "title": "Positrons from tracer annihilate with electrons producing oppositely directed gamma photons",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "21.1.4",
+      "parentCode": "21.1",
+      "title": "Distinguish RMS and peak values; use RMS conversion equations for sinusoidal AC.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "3.1.4",
+      "parentCode": "3.1",
+      "title": "Force equals the rate of change of momentum.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "21.2.4",
+      "parentCode": "21.2",
+      "title": "Analyse capacitor smoothing effects on capacitance and load resistance values",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "22.1.4",
+      "parentCode": "22.1",
+      "title": "Apply electronvolt unit for measuring energy in atomic contexts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "22.2.4",
+      "parentCode": "22.2",
+      "title": "Recall and apply the photoelectric equation relating energy terms",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.3.4",
+      "parentCode": "9.3",
+      "title": "Explain why filament lamp resistance increases with current due to temperature",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.1.4",
+      "parentCode": "9.1",
+      "title": "Calculate current using I = Anvq involving charge carrier number density.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "12.2.4",
+      "parentCode": "12.2",
+      "title": "Apply centripetal force equations using angular and linear velocities",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "25.3.4",
+      "parentCode": "25.3",
+      "title": "Apply Hubble's law and connect it to Big Bang theory origins",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "10.2.4",
+      "parentCode": "10.2",
+      "title": "Apply series resistance formula to calculate combined resistance",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.3.4",
+      "parentCode": "8.3",
+      "title": "Recall and apply the wavelength formula for double-slit light interference.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "10.3.4",
+      "parentCode": "10.3",
+      "title": "Explain thermistors and LDRs in potential dividers for temperature and light sensing",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "22.3.4",
+      "parentCode": "22.3",
+      "title": "Apply the de Broglie equation relating wavelength to momentum and Planck constant",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.1.4",
+      "parentCode": "11.1",
+      "title": "Recognize isotopes as same element with varying neutron counts",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "8.1.4",
+      "parentCode": "8.1",
+      "title": "Determine wavelength from node and antinode positions in stationary waves.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "11.2.4",
+      "parentCode": "11.2",
+      "title": "Hadrons are baryons with three quarks or mesons with quark-antiquark pairs.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 3
+    },
+    {
+      "code": "9.3.5",
+      "parentCode": "9.3",
+      "title": "State the definition and conditions of Ohm's law",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "11.1.5",
+      "parentCode": "11.1",
+      "title": "Apply nuclide notation AZ X to represent nuclear species",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "22.2.5",
+      "parentCode": "22.2",
+      "title": "Explain intensity independence of max KE and proportionality of photoelectric current",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "23.2.5",
+      "parentCode": "23.2",
+      "title": "Apply the relationship between decay constant and half-life",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "6.1.5",
+      "parentCode": "6.1",
+      "title": "Define and apply stress, strain, and Young modulus concepts.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "23.1.5",
+      "parentCode": "23.1",
+      "title": "Explain the definitions and characteristics of nuclear fusion and fission",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "2.1.5",
+      "parentCode": "2.1",
+      "title": "Find acceleration by calculating gradient of velocity-time graph",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "7.1.5",
+      "parentCode": "7.1",
+      "title": "Apply the wave equation to solve problems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "22.1.5",
+      "parentCode": "22.1",
+      "title": "Understand photons carry momentum related to energy and light speed",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "24.1.5",
+      "parentCode": "24.1",
+      "title": "Calculate intensity reflection coefficient using impedance values at media boundaries.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "20.3.5",
+      "parentCode": "20.3",
+      "title": "Describe circular motion of charges in perpendicular magnetic fields",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "24.3.5",
+      "parentCode": "24.3",
+      "title": "Calculate energy of gamma photons from electron-positron annihilation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "3.1.5",
+      "parentCode": "3.1",
+      "title": "State and apply Newton's three laws of motion.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "20.5.5",
+      "parentCode": "20.5",
+      "title": "Recall and apply Faraday's and Lenz's electromagnetic induction laws",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "10.1.5",
+      "parentCode": "10.1",
+      "title": "Understand how internal resistance affects terminal potential difference",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "17.1.5",
+      "parentCode": "17.1",
+      "title": "Analyze and interpret displacement, velocity, and acceleration graphs for SHM.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "11.2.5",
+      "parentCode": "11.2",
+      "title": "Explain quark composition changes during beta minus and beta plus decay.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "5.1.5",
+      "parentCode": "5.1",
+      "title": "Define power as work done per unit time",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "4.3.5",
+      "parentCode": "4.3",
+      "title": "Explain upthrust in fluids as resulting from hydrostatic pressure differences",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "10.2.5",
+      "parentCode": "10.2",
+      "title": "Derive parallel resistance formula using Kirchhoff's laws",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 4
+    },
+    {
+      "code": "24.1.6",
+      "parentCode": "24.1",
+      "title": "Apply exponential attenuation formula for ultrasound intensity in absorbing media.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "2.1.6",
+      "parentCode": "2.1",
+      "title": "Derive equations for uniform acceleration in straight-line motion",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.1.6",
+      "parentCode": "5.1",
+      "title": "Solve power problems using P equals W divided by t",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "9.3.6",
+      "parentCode": "9.3",
+      "title": "Apply the resistivity formula relating resistance to material properties",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "23.2.6",
+      "parentCode": "23.2",
+      "title": "Understand exponential decay; apply x = x₀e⁻λt for activity, nuclei, or count rate",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "11.2.6",
+      "parentCode": "11.2",
+      "title": "Electrons and neutrinos are fundamental particles classified as leptons.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "10.2.6",
+      "parentCode": "10.2",
+      "title": "Apply parallel resistance formula to calculate combined resistance",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "23.1.6",
+      "parentCode": "23.1",
+      "title": "Relate binding energy per nucleon to energy release in fusion and fission reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "6.1.6",
+      "parentCode": "6.1",
+      "title": "Describe experimental procedure to measure Young modulus of wire.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "7.1.6",
+      "parentCode": "7.1",
+      "title": "Recognise energy transport as a fundamental wave property",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "11.1.6",
+      "parentCode": "11.1",
+      "title": "Apply conservation of nucleon number and charge in reactions",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "3.1.6",
+      "parentCode": "3.1",
+      "title": "Weight is gravitational field effect; W = mg.",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "20.3.6",
+      "parentCode": "20.3",
+      "title": "Explain velocity selection using combined electric and magnetic fields",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "4.3.6",
+      "parentCode": "4.3",
+      "title": "Calculate buoyant force using Archimedes' principle equation",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "24.3.6",
+      "parentCode": "24.3",
+      "title": "Gamma photons detected outside body create tracer concentration images via timing",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 5
+    },
+    {
+      "code": "5.1.7",
+      "parentCode": "5.1",
+      "title": "Derive and apply power formula P equals force times velocity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "9.3.7",
+      "parentCode": "9.3",
+      "title": "Explain how LDR resistance changes with varying light intensity",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "23.1.7",
+      "parentCode": "23.1",
+      "title": "Calculate energy released from mass defect using E = c²Δm",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.1.7",
+      "parentCode": "2.1",
+      "title": "Apply uniform acceleration equations including free fall without air resistance",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "10.2.7",
+      "parentCode": "10.2",
+      "title": "Apply Kirchhoff's laws to solve circuit analysis problems",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "11.1.7",
+      "parentCode": "11.1",
+      "title": "Explain composition, mass, charge of alpha, beta, gamma radiations",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "7.1.7",
+      "parentCode": "7.1",
+      "title": "Calculate and apply wave intensity relationships",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 6
+    },
+    {
+      "code": "2.1.8",
+      "parentCode": "2.1",
+      "title": "Describe experimental method to measure gravitational acceleration using falling objects",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "11.1.8",
+      "parentCode": "11.1",
+      "title": "Understand antiparticles have equal mass, opposite charge; positron is electron antiparticle",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "9.3.8",
+      "parentCode": "9.3",
+      "title": "Explain thermistor resistance decreases with temperature increase",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 7
+    },
+    {
+      "code": "2.1.9",
+      "parentCode": "2.1",
+      "title": "Explain motion combining constant velocity and perpendicular uniform acceleration",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "11.1.9",
+      "parentCode": "11.1",
+      "title": "Identify antineutrinos in beta-minus decay and neutrinos in beta-plus decay",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 8
+    },
+    {
+      "code": "11.1.10",
+      "parentCode": "11.1",
+      "title": "Explain alpha particles have discrete energies; beta particles have continuous energy range",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 9
+    },
+    {
+      "code": "11.1.11",
+      "parentCode": "11.1",
+      "title": "Write nuclear decay equations for alpha and beta decay processes",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 10
+    },
+    {
+      "code": "11.1.12",
+      "parentCode": "11.1",
+      "title": "Apply unified atomic mass unit for expressing nuclear masses",
+      "level": 3,
+      "examWeight": null,
+      "sortOrder": 11
+    }
+  ]
+}
