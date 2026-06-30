@@ -80,22 +80,29 @@ export const { handlers, signIn, signOut, auth: _nextAuth } = NextAuth({
     signIn: "/login",
   },
   providers: [
-    Google({
-      clientId: process.env.GOOGLE_CLIENT_ID!,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
-      // Auto-linking by email is dangerous: an attacker controlling a Google
-      // account with the same email as a provisioned user could sign in as
-      // that user without credential verification. Account linking has to
-      // be an explicit, authenticated action.
-      allowDangerousEmailAccountLinking: false,
-      authorization: {
-        params: {
-          access_type: "offline",
-          prompt: "consent",
-          scope: "openid email profile",
-        },
-      },
-    }),
+    // Google is optional — enabled ONLY when its credentials are configured.
+    // A Google provider with undefined clientId/secret invalidates the whole
+    // Auth.js config (the "server configuration" error) and would break
+    // email/password sign-in too. China deployments run credentials-only.
+    ...(process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET
+      ? [
+          Google({
+            clientId: process.env.GOOGLE_CLIENT_ID,
+            clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+            // Auto-linking by email is dangerous: an attacker controlling a Google
+            // account with the same email could sign in as that user without
+            // credential verification. Linking must be an explicit, authed action.
+            allowDangerousEmailAccountLinking: false,
+            authorization: {
+              params: {
+                access_type: "offline",
+                prompt: "consent",
+                scope: "openid email profile",
+              },
+            },
+          }),
+        ]
+      : []),
     Credentials({
       name: "credentials",
       credentials: {
