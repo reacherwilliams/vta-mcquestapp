@@ -95,8 +95,17 @@ export function FilterClient({
         .map(([code, name]) => ({ code, name }))
     : []
 
-  const dbFilteredSubjects = useDbMode
-    ? dbSubjects.filter((s) => !curriculum || s.curriculumCode === curriculum)
+  // Cascading: subjects are scoped to a single curriculum. When only one
+  // curriculum is available (the future "enrolled student" case), it's the
+  // implicit selection so the student never has to pick. Otherwise the student
+  // must choose a curriculum before any subjects appear — no more duplicate
+  // "Mathematics × 5" across curricula.
+  const availableCurriculumCodes = useDbMode ? dbCurricula.map((c) => c.code) : DEMO_CURRICULA
+  const soleCurriculum = availableCurriculumCodes.length === 1 ? availableCurriculumCodes[0] : null
+  const activeCurriculum = curriculum ?? soleCurriculum
+
+  const dbFilteredSubjects = useDbMode && activeCurriculum
+    ? dbSubjects.filter((s) => s.curriculumCode === activeCurriculum)
     : []
 
   const dbChapters = useDbMode && subjectId
@@ -104,9 +113,9 @@ export function FilterClient({
     : []
 
   // ── Demo mode helpers ───────────────────────────────────────────────────
-  const demoSubjects = curriculum
-    ? (DEMO_SUBJECTS_BY_CURRICULUM[curriculum] ?? [])
-    : [...new Set(Object.values(DEMO_SUBJECTS_BY_CURRICULUM).flat())].sort()
+  const demoSubjects = activeCurriculum
+    ? (DEMO_SUBJECTS_BY_CURRICULUM[activeCurriculum] ?? [])
+    : []
 
   function toggleYear(y: string) {
     setYears((prev) => (prev.includes(y) ? prev.filter((x) => x !== y) : [...prev, y]))
@@ -184,7 +193,7 @@ export function FilterClient({
                 <Chip
                   key={code}
                   label={name}
-                  active={curriculum === code}
+                  active={activeCurriculum === code}
                   chipClass={theme.duoChip}
                   onClick={() => {
                     setCurriculum((prev) => (prev === code ? null : code))
@@ -196,7 +205,7 @@ export function FilterClient({
                 <Chip
                   key={c}
                   label={c}
-                  active={curriculum === c}
+                  active={activeCurriculum === c}
                   chipClass={theme.duoChip}
                   onClick={() => {
                     setCurriculum((prev) => (prev === c ? null : c))
@@ -212,6 +221,11 @@ export function FilterClient({
         <p className="text-[11px] font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500">
           Subject
         </p>
+        {!activeCurriculum ? (
+          <p className="text-sm text-slate-400 dark:text-slate-500">
+            Pick a curriculum above to see its subjects.
+          </p>
+        ) : (
         <div className="flex flex-wrap gap-2">
           {useDbMode
             ? dbFilteredSubjects.map((s) => (
@@ -243,6 +257,7 @@ export function FilterClient({
                 />
               ))}
         </div>
+        )}
       </section>
 
       {/* Chapter — only in DB mode when a subject is selected */}
