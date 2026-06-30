@@ -872,20 +872,25 @@ model OriginalQuestion {
   variant        Int      // 1, 2, 3
   questionNumber Int
   tier           String?  // "CORE" | "EXTENDED" | null
-  // Encrypted expressive content — never stored in plaintext.
-  stemCipher     String   @db.Text
-  optionsCipher  String   @db.Text
+  // Encrypted expressive content. NULL in fingerprint-only mode (Option A) —
+  // the text is discarded after embedding and never stored.
+  stemCipher     String?  @db.Text
+  optionsCipher  String?  @db.Text
   // Clear, non-expressive metadata.
   answer         String   // "A".."D"
   citation       String   // e.g. "0625/12 M/J 2021 Q14"
-  // Non-reversible semantic embedding (pgvector, 384-dim — all-MiniLM-L6-v2).
-  // Requires the `vector` extension enabled in Postgres. Written via raw SQL.
+  // Non-reversible fingerprints (the comparison artifacts):
+  //  - embedding: 384-dim semantic vector (pgvector, all-MiniLM-L6-v2; needs the
+  //    `vector` extension). Written via raw SQL.
+  //  - normHash: sha256 of normalized text, for exact/verbatim-copy detection.
   embedding      Unsupported("vector(384)")?
+  normHash       String?
   createdById    String?
   createdAt      DateTime @default(now())
 
   @@unique([syllabusCode, session, year, paper, variant, questionNumber])
   @@index([syllabusCode, level, subjectName])
+  @@index([subjectName, normHash])
   @@map("original_questions")
 }
 

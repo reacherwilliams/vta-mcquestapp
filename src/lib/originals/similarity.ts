@@ -28,6 +28,15 @@ export async function findSimilarOriginals(vec: number[], subjectName: string, l
   return rows.map((r) => ({ id: r.id, citation: r.citation, score: Number(r.score) }))
 }
 
+/** Exact/verbatim match via normalized-text hash (cheap, no embedding). */
+export async function findExactByHash(normHash: string, subjectName: string): Promise<SimMatch | null> {
+  const row = await prisma.originalQuestion.findFirst({
+    where: { normHash, subjectName },
+    select: { id: true, citation: true },
+  })
+  return row ? { id: row.id, citation: row.citation, score: 1 } : null
+}
+
 /** Embed arbitrary question text and return its closest originals in a subject. */
 export async function checkSimilarity(text: string, subjectName: string, limit = 5): Promise<SimMatch[]> {
   const vec = await embed(text)

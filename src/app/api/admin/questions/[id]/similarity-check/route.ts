@@ -4,7 +4,8 @@ import { auth } from "@/lib/auth"
 import { prisma } from "@/lib/prisma"
 import { isAdminTier } from "@/lib/permissions"
 import { questionToText } from "@/lib/originals/text"
-import { checkSimilarity } from "@/lib/originals/similarity"
+import { normalizedHash } from "@/lib/originals/hash"
+import { checkSimilarity, findExactByHash } from "@/lib/originals/similarity"
 
 // Cross-check ONE contributor question against the Original Question Bank.
 // Embeds the question, finds the nearest originals in the same subject, and
@@ -31,13 +32,17 @@ export async function POST(_req: Request, { params }: { params: Promise<{ id: st
   if (!text) return NextResponse.json({ error: "Question has no comparable text." }, { status: 400 })
 
   let matches
+  let exact: Awaited<ReturnType<typeof findExactByHash>> = null
   try {
+    // Exact (verbatim) check is cheap; semantic embedding catches rewordings.
+    exact = await findExactByHash(normalizedHash(text), q.subject.name)
     matches = await checkSimilarity(text, q.subject.name, 5)
   } catch (e) {
     return NextResponse.json({ error: `Similarity check failed: ${(e as Error).message}` }, { status: 502 })
   }
 
-  const top = matches[0]
+  // A verbatim hash hit outranks any fuzzy semantic match.
+  const top = exact ?? matches[0]
   await prisma.question.update({
     where: { id },
     data: {
@@ -48,5 +53,5 @@ export async function POST(_req: Request, { params }: { params: Promise<{ id: st
     },
   })
 
-  return NextResponse.json({ matches, top: top ?? null })
+  return NextResponse.json({ matches, top: top ?? null, verbatim: !!exact })
 }

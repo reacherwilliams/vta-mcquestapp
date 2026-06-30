@@ -24,6 +24,16 @@ export async function POST(req: Request, { params }: { params: Promise<{ id: str
   })
   if (!row) return NextResponse.json({ error: "Not found." }, { status: 404 })
 
+  // Fingerprint-only mode (Option A): no text was stored — point to the citation.
+  if (!row.stemCipher || !row.optionsCipher) {
+    return NextResponse.json({
+      textRetained: false,
+      citation: row.citation,
+      answer: row.answer,
+      message: `Text isn't stored (fingerprint-only mode). Open ${row.citation} in the School Support Hub to compare.`,
+    })
+  }
+
   let stem: string
   let options: unknown
   try {

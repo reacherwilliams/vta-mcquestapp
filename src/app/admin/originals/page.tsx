@@ -31,6 +31,7 @@ export default async function OriginalsPage() {
     byCode.set(it.syllabusCode, e)
   }
   const coverage = [...byCode.entries()].map(([syllabusCode, v]) => ({ syllabusCode, ...v }))
+  const retainText = process.env.ORIGINALS_RETAIN_TEXT === "true"
 
-  return <OriginalsClient items={items} coverage={coverage} total={items.length} />
+  return <OriginalsClient items={items} coverage={coverage} total={items.length} retainText={retainText} />
 }

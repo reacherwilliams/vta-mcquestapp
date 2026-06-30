@@ -57,7 +57,7 @@ export function QaClient({ items, curricula, subjects, status, curriculumId, sub
     }])),
   )
   const [simBusy, setSimBusy] = useState(false)
-  const [revealedOriginal, setRevealedOriginal] = useState<{ citation: string; answer: string; stem: string; options: { label: string; text: string }[] } | null>(null)
+  const [revealedOriginal, setRevealedOriginal] = useState<{ citation: string; answer: string; stem?: string; options?: { label: string; text: string }[]; message?: string } | null>(null)
 
   async function runSimCheck(questionId: string) {
     setSimBusy(true)
@@ -254,16 +254,22 @@ export function QaClient({ items, curricula, subjects, status, curriculumId, sub
                 <h3 className="font-mono text-xs text-slate-500">Original · {revealedOriginal.citation}</h3>
                 <span className="rounded-full bg-rose-100 px-2 py-0.5 text-[10px] font-semibold text-rose-700 dark:bg-rose-950/40 dark:text-rose-400">Reveal logged</span>
               </div>
-              <p className="mt-3 text-sm text-slate-900 dark:text-slate-100">{revealedOriginal.stem}</p>
-              <ul className="mt-3 space-y-1.5 text-sm">
-                {revealedOriginal.options.map((o) => (
-                  <li key={o.label} className={cn("flex gap-2", o.label === revealedOriginal.answer ? "font-semibold text-emerald-700 dark:text-emerald-400" : "text-slate-600 dark:text-slate-400")}>
-                    <span className="font-mono">{o.label}.</span><span>{o.text}</span>
-                    {o.label === revealedOriginal.answer && <span className="text-[11px]">✓</span>}
-                  </li>
-                ))}
-              </ul>
-              <p className="mt-3 text-[11px] text-slate-400">Compare against the contributor question to judge whether it&apos;s too close.</p>
+              {revealedOriginal.options ? (
+                <>
+                  <p className="mt-3 text-sm text-slate-900 dark:text-slate-100">{revealedOriginal.stem}</p>
+                  <ul className="mt-3 space-y-1.5 text-sm">
+                    {revealedOriginal.options.map((o) => (
+                      <li key={o.label} className={cn("flex gap-2", o.label === revealedOriginal.answer ? "font-semibold text-emerald-700 dark:text-emerald-400" : "text-slate-600 dark:text-slate-400")}>
+                        <span className="font-mono">{o.label}.</span><span>{o.text}</span>
+                        {o.label === revealedOriginal.answer && <span className="text-[11px]">✓</span>}
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="mt-3 text-[11px] text-slate-400">Compare against the contributor question to judge whether it&apos;s too close.</p>
+                </>
+              ) : (
+                <p className="mt-3 text-sm text-slate-700 dark:text-slate-300">{revealedOriginal.message} <span className="font-semibold">(answer: {revealedOriginal.answer})</span></p>
+              )}
               <div className="mt-4 text-right">
                 <button onClick={() => setRevealedOriginal(null)} className="rounded-full bg-slate-800 px-4 py-2 text-xs font-bold uppercase tracking-widest text-white hover:bg-slate-700">Close</button>
               </div>

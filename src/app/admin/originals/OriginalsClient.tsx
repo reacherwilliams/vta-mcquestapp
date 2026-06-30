@@ -19,11 +19,11 @@ type Item = {
   citation: string
 }
 type Coverage = { syllabusCode: string; subjectName: string; level: string; count: number }
-type Props = { items: Item[]; coverage: Coverage[]; total: number }
+type Props = { items: Item[]; coverage: Coverage[]; total: number; retainText: boolean }
 
 type Revealed = { id: string; citation: string; answer: string; stem: string; options: { label: string; text: string }[] }
 
-export function OriginalsClient({ items, coverage, total }: Props) {
+export function OriginalsClient({ items, coverage, total, retainText }: Props) {
   const router = useRouter()
   const [showAdd, setShowAdd] = useState(false)
   const [revealed, setRevealed] = useState<Revealed | null>(null)
@@ -62,10 +62,13 @@ export function OriginalsClient({ items, coverage, total }: Props) {
         </button>
       </div>
 
-      {/* Security banner */}
+      {/* Security / mode banner */}
       <div className="rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-xs text-amber-800 dark:border-amber-800/40 dark:bg-amber-950/20 dark:text-amber-300">
-        🔒 Question text is <strong>encrypted at rest</strong> and never bulk-readable. Use <strong>Reveal</strong> only to
-        adjudicate a specific match — every reveal is <strong>logged to the audit trail</strong>. This bank is Super-Admin only.
+        {retainText ? (
+          <>🔒 <strong>Text-retained mode (Option B).</strong> Question text is <strong>encrypted at rest</strong> and never bulk-readable. Use <strong>Reveal</strong> only to adjudicate a specific match — every reveal is <strong>logged</strong>. Super-Admin only.</>
+        ) : (
+          <>🔐 <strong>Fingerprint-only mode (Option A).</strong> The question <strong>text is not stored</strong> — only a non-reversible embedding + hash are kept. To compare a flagged match, open its <strong>citation</strong> in the School Support Hub. Lowest legal exposure; no IP sign-off needed to start.</>
+        )}
       </div>
 
       {/* How this works */}
@@ -73,8 +76,8 @@ export function OriginalsClient({ items, coverage, total }: Props) {
         <p className="mb-1.5 font-semibold text-slate-700 dark:text-slate-300">How this works</p>
         <ul className="list-disc space-y-1 pl-4">
           <li><strong>Purpose:</strong> real past-paper questions, kept only to cross-check contributor questions for originality during QA.</li>
-          <li><strong>Stored:</strong> on save, each question is embedded locally (in-house — text never leaves your servers) for similarity search, then its text is encrypted. The clear data is just the citation, answer, and metadata.</li>
-          <li><strong>Used:</strong> in QA, reviewers see a <em>% match + citation</em> only. You (Super Admin) reveal the actual original case-by-case to judge — and it&apos;s logged.</li>
+          <li><strong>Stored:</strong> on save, each question is embedded locally (in-house — text never leaves your servers) and hashed for search. {retainText ? "The text is then encrypted at rest." : "The text itself is discarded — only the fingerprints + citation/answer remain."}</li>
+          <li><strong>Used:</strong> in QA, reviewers see a <em>% match + citation</em> only. {retainText ? "You (Super Admin) reveal the original in-app, case-by-case (logged)." : "To compare, open the citation in your Hub."}</li>
           <li><strong>⚠ Before ingesting real papers:</strong> source them legitimately (your registered-school Hub access) and get IP-counsel sign-off — comparison-only, internal use.</li>
         </ul>
       </div>
@@ -91,7 +94,7 @@ export function OriginalsClient({ items, coverage, total }: Props) {
         </div>
       )}
 
-      {showAdd && <AddForm onDone={() => { setShowAdd(false); router.refresh() }} />}
+      {showAdd && <AddForm retainText={retainText} onDone={() => { setShowAdd(false); router.refresh() }} />}
 
       {/* List (citations only) */}
       {total === 0 ? (
@@ -116,13 +119,17 @@ export function OriginalsClient({ items, coverage, total }: Props) {
                   <td className="px-4 py-2.5 text-slate-600 dark:text-slate-400">{it.level} {it.subjectName}{it.tier ? ` · ${it.tier}` : ""}</td>
                   <td className="px-4 py-2.5 font-semibold text-slate-700 dark:text-slate-300">{it.answer}</td>
                   <td className="px-4 py-2.5 text-right">
-                    <button
-                      disabled={busyId === it.id}
-                      onClick={() => reveal(it.id)}
-                      className="rounded-full border border-slate-300 px-3 py-1 text-xs font-semibold text-slate-600 transition hover:border-rose-400 hover:text-rose-600 disabled:opacity-50 dark:border-slate-700 dark:text-slate-300"
-                    >
-                      {busyId === it.id ? "…" : "Reveal"}
-                    </button>
+                    {retainText ? (
+                      <button
+                        disabled={busyId === it.id}
+                        onClick={() => reveal(it.id)}
+                        className="rounded-full border border-slate-300 px-3 py-1 text-xs font-semibold text-slate-600 transition hover:border-rose-400 hover:text-rose-600 disabled:opacity-50 dark:border-slate-700 dark:text-slate-300"
+                      >
+                        {busyId === it.id ? "…" : "Reveal"}
+                      </button>
+                    ) : (
+                      <span className="text-[11px] text-slate-400">look up citation</span>
+                    )}
                   </td>
                 </tr>
               ))}
@@ -158,7 +165,7 @@ export function OriginalsClient({ items, coverage, total }: Props) {
   )
 }
 
-function AddForm({ onDone }: { onDone: () => void }) {
+function AddForm({ onDone, retainText }: { onDone: () => void; retainText: boolean }) {
   const [f, setF] = useState({
     syllabusCode: "", subjectName: "", level: "IGCSE", session: "MJ", year: new Date().getFullYear() - 1,
     paper: 1, variant: 1, questionNumber: 1, tier: "", answer: "A", citation: "",
@@ -231,7 +238,7 @@ function AddForm({ onDone }: { onDone: () => void }) {
       </div>
       <div className="text-right">
         <button disabled={busy} onClick={submit} className="rounded-full bg-lime-500 px-5 py-2 text-xs font-bold uppercase tracking-widest text-slate-900 transition hover:bg-lime-400 disabled:opacity-50">
-          {busy ? "Encrypting…" : "Encrypt & save"}
+          {busy ? "Fingerprinting…" : retainText ? "Encrypt & save" : "Fingerprint & save"}
         </button>
       </div>
     </div>

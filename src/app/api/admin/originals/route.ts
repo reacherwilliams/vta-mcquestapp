@@ -5,9 +5,15 @@ import { prisma } from "@/lib/prisma"
 import { canViewOriginals } from "@/lib/permissions"
 import { encrypt } from "@/lib/originals/crypto"
 import { originalToText } from "@/lib/originals/text"
+import { normalizedHash } from "@/lib/originals/hash"
 import { embed } from "@/lib/originals/embed"
 import { setOriginalEmbedding } from "@/lib/originals/similarity"
 import { writeAudit } from "@/lib/audit"
+
+// Option A (default): fingerprint-only — embed + hash, discard the text.
+// Option B (ORIGINALS_RETAIN_TEXT=true, after IP sign-off): also store the
+// encrypted text for in-app reveal.
+const RETAIN_TEXT = process.env.ORIGINALS_RETAIN_TEXT === "true"
 
 async function assertSA() {
   const session = await auth()
@@ -59,26 +65,31 @@ export async function POST(req: Request) {
   }
 
   try {
+    // Flatten + fingerprint from the plaintext. The hash is non-reversible; the
+    // embedding is local/in-house (Transformers.js) — text never leaves our infra.
+    const options = Array.isArray(body.options) ? (body.options as { text?: string }[]) : []
+    const text = originalToText(body.stem, options.map((o) => ({ text: o.text ?? "" })))
+    const normHash = normalizedHash(text)
+
     const created = await prisma.originalQuestion.create({
       data: {
         syllabusCode, subjectName, level, session, year, paper, variant, questionNumber,
         tier: body.tier ?? null,
         answer,
         citation,
-        stemCipher: encrypt(body.stem),
-        optionsCipher: encrypt(JSON.stringify(body.options)),
+        normHash,
+        // Text retained only in Option B; otherwise discarded after fingerprinting.
+        stemCipher:    RETAIN_TEXT ? encrypt(body.stem) : null,
+        optionsCipher: RETAIN_TEXT ? encrypt(JSON.stringify(body.options)) : null,
         createdById: adminId,
       },
       select: { id: true, citation: true },
     })
 
-    // Embed from the plaintext (while we still have it) so the row is searchable.
-    // Embedding is local/in-house (Transformers.js) — text never leaves our infra.
-    // Non-fatal: if it fails, the row is stored but won't be matched until re-embedded.
+    // Embed (searchable). Non-fatal: if it fails, the row keeps its hash but
+    // won't match semantically until re-embedded.
     let embedded = true
     try {
-      const options = Array.isArray(body.options) ? (body.options as { text?: string }[]) : []
-      const text = originalToText(body.stem, options.map((o) => ({ text: o.text ?? "" })))
       const vec = await embed(text)
       await setOriginalEmbedding(created.id, vec)
     } catch (e) {
@@ -86,8 +97,8 @@ export async function POST(req: Request) {
       console.warn("[originals] embedding skipped:", (e as Error).message)
     }
 
-    writeAudit(adminId, "ORIGINAL_CREATED", "OriginalQuestion", created.id, { citation: created.citation })
-    return NextResponse.json({ ...created, embedded }, { status: 201 })
+    writeAudit(adminId, "ORIGINAL_CREATED", "OriginalQuestion", created.id, { citation: created.citation, retained: RETAIN_TEXT })
+    return NextResponse.json({ ...created, embedded, retained: RETAIN_TEXT }, { status: 201 })
   } catch (err) {
     // Unique constraint (same paper+Q already ingested) or encryption failure.
     const msg = (err as Error).message.includes("Unique")
