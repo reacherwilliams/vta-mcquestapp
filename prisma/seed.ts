@@ -86,6 +86,13 @@ async function main() {
   ])
   console.log("  ✓ Subjects")
 
+  // Idempotency: seed questions are created (not upserted) and carry NO authorId.
+  // Clear prior seed runs up-front so reseeding doesn't pile up duplicates.
+  // Authored/imported questions always have an authorId and are left untouched.
+  // (All Question children cascade on delete.)
+  const purged = await prisma.question.deleteMany({ where: { authorId: null } })
+  if (purged.count) console.log(`  ✓ Cleared ${purged.count} prior seed question(s)`)
+
   // Map subjects by [curriculumCode, subjectCode]
   const sub = (currCode: string, subCode: string) => {
     const curriculum = { IGCSE: igcse, AS_LEVEL: as, A2_LEVEL: a2, IB_DP: ib, AP: ap }[currCode]!
@@ -98,7 +105,6 @@ async function main() {
   const [
     igcseMathAlgebra, igcseMathStats, igcseMathGeometry,
     igcsePhyForces, igcsePhyWaves, igcsePhyKinematics,
-    igcseBioCells, igcseBioEcology,
     igcseChemAtoms, igcseChemReactions,
     asMathDiff, asMathInteg,
     a2PhyQuantum,
@@ -113,8 +119,6 @@ async function main() {
     upsertChapter(sub("IGCSE", "PHY").id, "Forces and Motion", 1),
     upsertChapter(sub("IGCSE", "PHY").id, "Waves", 2),
     upsertChapter(sub("IGCSE", "PHY").id, "Kinematics Graphs", 3),
-    upsertChapter(sub("IGCSE", "BIO").id, "Cell Structure", 1),
-    upsertChapter(sub("IGCSE", "BIO").id, "Ecology", 2),
     upsertChapter(sub("IGCSE", "CHEM").id, "Atomic Structure", 1),
     upsertChapter(sub("IGCSE", "CHEM").id, "Chemical Reactions", 2),
     upsertChapter(sub("AS_LEVEL", "MATH").id, "Differentiation", 1),
@@ -126,6 +130,45 @@ async function main() {
     upsertChapter(sub("AP", "CALC_AB").id, "Limits and Continuity", 1),
   ])
   console.log("  ✓ Chapters")
+
+  // ── IGCSE Biology 0610 — full syllabus chapters ──────────────────────────────
+  // The official Cambridge IGCSE Biology topic list (replaces the old 2-chapter
+  // placeholder). Seeded as a named map so demo questions reference by title.
+  const IGCSE_BIO_CHAPTERS = [
+    "Characteristics and classification of living organisms",
+    "Organisation of the organism",
+    "Movement into and out of cells",
+    "Biological molecules",
+    "Enzymes",
+    "Plant nutrition",
+    "Human nutrition",
+    "Transport in plants",
+    "Transport in animals",
+    "Diseases and immunity",
+    "Gas exchange in humans",
+    "Respiration",
+    "Excretion in humans",
+    "Coordination and response",
+    "Drugs",
+    "Reproduction",
+    "Inheritance",
+    "Variation and selection",
+    "Organisms and their environment",
+    "Human influences on ecosystems",
+    "Biotechnology and genetic modification",
+  ]
+  const igcseBioChapterMap = new Map<string, { id: string }>()
+  for (let i = 0; i < IGCSE_BIO_CHAPTERS.length; i++) {
+    igcseBioChapterMap.set(IGCSE_BIO_CHAPTERS[i], await upsertChapter(sub("IGCSE", "BIO").id, IGCSE_BIO_CHAPTERS[i], i + 1))
+  }
+  const bioCh = (name: string) => igcseBioChapterMap.get(name)!
+  // Drop legacy placeholder chapters (e.g. "Cell Structure", "Ecology") now that
+  // the full syllabus is seeded — but only if they carry no questions, so we
+  // never delete authored content.
+  const removedBioCh = await prisma.chapter.deleteMany({
+    where: { subjectId: sub("IGCSE", "BIO").id, name: { notIn: IGCSE_BIO_CHAPTERS }, questions: { none: {} } },
+  })
+  if (removedBioCh.count) console.log(`  ✓ Removed ${removedBioCh.count} legacy Biology chapter(s)`)
 
   // ── Questions ──────────────────────────────────────────────────────────────────
 
@@ -304,10 +347,10 @@ async function main() {
     ],
   })
 
-  // ── IGCSE Biology / Cell Structure ───────────────────────────────────────────
+  // ── IGCSE Biology / Organisation of the organism ─────────────────────────────
   await createQ({
     subjectId: sub("IGCSE", "BIO").id,
-    chapterId: igcseBioCells.id,
+    chapterId: bioCh("Organisation of the organism").id,
     tags: ["2024", "Paper 2", "cells"],
     difficulty: "EASY",
     stem: [t("Which structure is found in plant cells but NOT in animal cells?")],
@@ -324,7 +367,7 @@ async function main() {
 
   await createQ({
     subjectId: sub("IGCSE", "BIO").id,
-    chapterId: igcseBioCells.id,
+    chapterId: bioCh("Movement into and out of cells").id,
     tags: ["2023", "Paper 2", "cells", "diffusion"],
     difficulty: "MEDIUM",
     stem: [t("Which statement correctly describes osmosis?")],
