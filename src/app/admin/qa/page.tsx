@@ -30,6 +30,7 @@ export default async function QaPage({ searchParams }: { searchParams: SearchPar
   const session = await auth()
   if (!session?.user?.id) redirect("/login")
   if (!isAdminTier(session.user.role)) redirect("/admin")
+  const isSuperAdmin = session.user.role === "SUPER_ADMIN"
 
   const { status: rawStatus, curriculumId, subjectId } = await searchParams
   const status = resolveStatus(rawStatus)
@@ -71,6 +72,10 @@ export default async function QaPage({ searchParams }: { searchParams: SearchPar
     chapterName: q.chapter.name,
     difficulty: q.difficulty as string,
     stemPreview: stemPreview(q.stem),
+    simScore: q.simScore,
+    simCitation: q.simCitation,
+    simOriginalId: q.simOriginalId,
+    simChecked: q.simCheckedAt != null,
     display: {
       id: q.id,
       curriculum: q.subject.curriculum.code,
@@ -99,6 +104,7 @@ export default async function QaPage({ searchParams }: { searchParams: SearchPar
       curriculumId={curriculumId ?? ""}
       subjectId={subjectId ?? ""}
       cappedAt={rows.length === 100 ? 100 : null}
+      isSuperAdmin={isSuperAdmin}
     />
   )
 }

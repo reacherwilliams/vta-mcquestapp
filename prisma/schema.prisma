@@ -196,6 +196,11 @@ model Question {
   // doesn't need to join QuestionReview. Full audit trail lives in QuestionReview.
   lastReviewerId String?
   lastReviewNote String?
+  // Originality cross-check vs the Original Question Bank (top match only).
+  simScore       Float?    // 0..1 cosine similarity to the closest original
+  simCitation    String?   // e.g. "0625/12 M/J 2021 Q14"
+  simOriginalId  String?
+  simCheckedAt   DateTime?
   createdAt     DateTime           @default(now())
   updatedAt     DateTime           @updatedAt
   subject       Subject            @relation(fields: [subjectId], references: [id], onDelete: Restrict)
@@ -873,6 +878,9 @@ model OriginalQuestion {
   // Clear, non-expressive metadata.
   answer         String   // "A".."D"
   citation       String   // e.g. "0625/12 M/J 2021 Q14"
+  // Non-reversible semantic embedding (pgvector) — the comparison artifact.
+  // Requires the `vector` extension enabled in Postgres. Written via raw SQL.
+  embedding      Unsupported("vector(1536)")?
   createdById    String?
   createdAt      DateTime @default(now())
 

@@ -4,6 +4,9 @@ import { auth } from "@/lib/auth"
 import { prisma } from "@/lib/prisma"
 import { canViewOriginals } from "@/lib/permissions"
 import { encrypt } from "@/lib/originals/crypto"
+import { originalToText } from "@/lib/originals/text"
+import { embed } from "@/lib/originals/embed"
+import { setOriginalEmbedding } from "@/lib/originals/similarity"
 import { writeAudit } from "@/lib/audit"
 
 async function assertSA() {
@@ -68,8 +71,23 @@ export async function POST(req: Request) {
       },
       select: { id: true, citation: true },
     })
+
+    // Embed from the plaintext (while we still have it) so the row is searchable.
+    // Non-fatal: if embedding fails (no OPENAI_API_KEY), the row is stored but won't
+    // be matched until re-embedded.
+    let embedded = true
+    try {
+      const options = Array.isArray(body.options) ? (body.options as { text?: string }[]) : []
+      const text = originalToText(body.stem, options.map((o) => ({ text: o.text ?? "" })))
+      const vec = await embed(text)
+      await setOriginalEmbedding(created.id, vec)
+    } catch (e) {
+      embedded = false
+      console.warn("[originals] embedding skipped:", (e as Error).message)
+    }
+
     writeAudit(adminId, "ORIGINAL_CREATED", "OriginalQuestion", created.id, { citation: created.citation })
-    return NextResponse.json(created, { status: 201 })
+    return NextResponse.json({ ...created, embedded }, { status: 201 })
   } catch (err) {
     // Unique constraint (same paper+Q already ingested) or encryption failure.
     const msg = (err as Error).message.includes("Unique")

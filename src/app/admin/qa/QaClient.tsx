@@ -13,10 +13,15 @@ type QaItem = {
   chapterName: string
   difficulty: string
   stemPreview: string
+  simScore: number | null
+  simCitation: string | null
+  simOriginalId: string | null
+  simChecked: boolean
   display: DemoQuestion
 }
 type Subject = { id: string; name: string; curriculumId: string; curriculumCode: string }
 type Curriculum = { id: string; code: string; displayName: string }
+type SimState = { score: number | null; citation: string | null; originalId: string | null; checked: boolean }
 
 type Props = {
   items: QaItem[]
@@ -26,6 +31,7 @@ type Props = {
   curriculumId: string
   subjectId: string
   cappedAt: number | null
+  isSuperAdmin: boolean
 }
 
 const DIFFICULTY_BADGE: Record<string, string> = {
@@ -35,13 +41,46 @@ const DIFFICULTY_BADGE: Record<string, string> = {
   CHALLENGE: "bg-rose-50 text-rose-700 dark:bg-rose-950/30 dark:text-rose-400",
 }
 
-export function QaClient({ items, curricula, subjects, status, curriculumId, subjectId, cappedAt }: Props) {
+export function QaClient({ items, curricula, subjects, status, curriculumId, subjectId, cappedAt, isSuperAdmin }: Props) {
   const router = useRouter()
   const [testing, setTesting] = useState<number | null>(null)
   const [acted, setActed] = useState<Set<string>>(() => new Set())
   const [busy, setBusy] = useState(false)
   const [sendBackOpen, setSendBackOpen] = useState(false)
   const [note, setNote] = useState("")
+  // Originality cross-check state, keyed by question id (seeded from the server).
+  const [sim, setSim] = useState<Record<string, SimState>>(() =>
+    Object.fromEntries(items.map((it) => [it.id, {
+      score: it.simScore, citation: it.simCitation, originalId: it.simOriginalId, checked: it.simChecked,
+    }])),
+  )
+  const [simBusy, setSimBusy] = useState(false)
+  const [revealedOriginal, setRevealedOriginal] = useState<{ citation: string; answer: string; stem: string; options: { label: string; text: string }[] } | null>(null)
+
+  async function runSimCheck(questionId: string) {
+    setSimBusy(true)
+    try {
+      const res = await fetch(`/api/admin/questions/${questionId}/similarity-check`, { method: "POST" })
+      const data = await res.json().catch(() => ({}))
+      if (!res.ok) { alert(data.error ?? "Originality check failed."); return }
+      const top = data.top as { id: string; citation: string; score: number } | null
+      setSim((p) => ({ ...p, [questionId]: { score: top?.score ?? 0, citation: top?.citation ?? null, originalId: top?.id ?? null, checked: true } }))
+    } finally { setSimBusy(false) }
+  }
+
+  async function revealMatch(originalId: string, contributorQuestionId: string) {
+    setSimBusy(true)
+    try {
+      const res = await fetch(`/api/admin/originals/${originalId}/reveal`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ reason: "QA originality adjudication", contributorQuestionId }),
+      })
+      const data = await res.json().catch(() => ({}))
+      if (!res.ok) { alert(data.error ?? "Reveal failed."); return }
+      setRevealedOriginal(data)
+    } finally { setSimBusy(false) }
+  }
 
   // Subjects shown in the second dropdown cascade from the chosen curriculum.
   const visibleSubjects = curriculumId ? subjects.filter((s) => s.curriculumId === curriculumId) : subjects
@@ -129,6 +168,43 @@ export function QaClient({ items, curricula, subjects, status, curriculumId, sub
           ← Queue
         </button>
 
+        {/* Originality cross-check panel */}
+        {(() => {
+          const s = sim[item.id]
+          const pct = s?.score != null ? Math.round(s.score * 100) : null
+          const tone = pct == null ? "" : pct >= 85
+            ? "border-rose-300 bg-rose-50 text-rose-700 dark:border-rose-800 dark:bg-rose-950/40 dark:text-rose-300"
+            : pct >= 70
+              ? "border-amber-300 bg-amber-50 text-amber-700 dark:border-amber-800 dark:bg-amber-950/30 dark:text-amber-300"
+              : "border-emerald-300 bg-emerald-50 text-emerald-700 dark:border-emerald-800 dark:bg-emerald-950/30 dark:text-emerald-300"
+          return (
+            <div className="fixed right-4 top-4 z-50 flex max-w-60 flex-col items-end gap-1.5">
+              {!s?.checked ? (
+                <button
+                  onClick={() => runSimCheck(item.id)}
+                  disabled={simBusy}
+                  className="rounded-full border border-slate-200 bg-white/90 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-widest text-slate-500 shadow-sm backdrop-blur transition hover:text-slate-800 disabled:opacity-50 dark:border-slate-700 dark:bg-slate-900/90 dark:hover:text-slate-200"
+                >
+                  {simBusy ? "Checking…" : "Check originality"}
+                </button>
+              ) : (
+                <div className={cn("rounded-xl border px-3 py-2 text-right text-[11px] font-medium shadow-sm backdrop-blur", tone)}>
+                  <div className="font-bold">
+                    {pct}% match · {pct! >= 85 ? "⚠ close to a real Q" : pct! >= 70 ? "review" : "looks original"}
+                  </div>
+                  {s.citation && <div className="mt-0.5 font-mono text-[10px] opacity-80">{s.citation}</div>}
+                  <div className="mt-1 flex justify-end gap-2">
+                    <button onClick={() => runSimCheck(item.id)} disabled={simBusy} className="underline opacity-70 hover:opacity-100">re-check</button>
+                    {isSuperAdmin && s.originalId && (
+                      <button onClick={() => revealMatch(s.originalId!, item.id)} disabled={simBusy} className="font-semibold underline">reveal match</button>
+                    )}
+                  </div>
+                </div>
+              )}
+            </div>
+          )
+        })()}
+
         <SwissQuestionCard
           key={item.id}
           question={item.display}
@@ -163,6 +239,31 @@ export function QaClient({ items, curricula, subjects, status, curriculumId, sub
                 >
                   Send back
                 </button>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* SA reveal of the matched original (audited) */}
+        {revealedOriginal && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/50 px-6" onClick={() => setRevealedOriginal(null)}>
+            <div className="w-full max-w-lg rounded-2xl bg-white p-5 dark:bg-slate-900" onClick={(e) => e.stopPropagation()}>
+              <div className="flex items-center justify-between">
+                <h3 className="font-mono text-xs text-slate-500">Original · {revealedOriginal.citation}</h3>
+                <span className="rounded-full bg-rose-100 px-2 py-0.5 text-[10px] font-semibold text-rose-700 dark:bg-rose-950/40 dark:text-rose-400">Reveal logged</span>
+              </div>
+              <p className="mt-3 text-sm text-slate-900 dark:text-slate-100">{revealedOriginal.stem}</p>
+              <ul className="mt-3 space-y-1.5 text-sm">
+                {revealedOriginal.options.map((o) => (
+                  <li key={o.label} className={cn("flex gap-2", o.label === revealedOriginal.answer ? "font-semibold text-emerald-700 dark:text-emerald-400" : "text-slate-600 dark:text-slate-400")}>
+                    <span className="font-mono">{o.label}.</span><span>{o.text}</span>
+                    {o.label === revealedOriginal.answer && <span className="text-[11px]">✓</span>}
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-3 text-[11px] text-slate-400">Compare against the contributor question to judge whether it&apos;s too close.</p>
+              <div className="mt-4 text-right">
+                <button onClick={() => setRevealedOriginal(null)} className="rounded-full bg-slate-800 px-4 py-2 text-xs font-bold uppercase tracking-widest text-white hover:bg-slate-700">Close</button>
               </div>
             </div>
           </div>
