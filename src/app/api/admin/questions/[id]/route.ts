@@ -54,7 +54,7 @@ export async function PATCH(req: Request, { params }: RouteCtx) {
 
   const body = await req.json()
   const {
-    subjectId, chapterId, unitId,
+    subjectId, chapterId, unitId, topicId,
     year,
     stem, options, explanation,
     difficulty, allowMultipleCorrect, tags, sourceNote, aiAssisted,
@@ -68,6 +68,7 @@ export async function PATCH(req: Request, { params }: RouteCtx) {
         ...(subjectId !== undefined && { subjectId }),
         ...(chapterId !== undefined && { chapterId }),
         ...(unitId !== undefined && { unitId: unitId ?? null }),
+        ...(topicId !== undefined && { topicId: topicId ?? null }),
         ...(year !== undefined && { year: year ? Number(year) : null }),
         ...(stem !== undefined && { stem }),
         ...(explanation !== undefined && { explanation }),

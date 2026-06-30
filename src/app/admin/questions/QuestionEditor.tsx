@@ -1,7 +1,8 @@
 "use client"
 
 import { useRouter } from "next/navigation"
-import { useState, useCallback, useRef } from "react"
+import { useState, useCallback, useRef, useEffect } from "react"
+import { TopicPicker, type Topic } from "./TopicPicker"
 import { cn } from "@/lib/utils"
 import type { ContentBlock } from "@/lib/questions/types"
 import { QuestionPreview } from "./QuestionPreview"
@@ -35,6 +36,7 @@ type EditorProps = {
     subjectId: string
     chapterId: string
     unitId?: string
+    topicId?: string
     year?: number | null
     stem: ContentBlock[]
     options: OptionDraft[]
@@ -59,7 +61,7 @@ function emptyOption(sortOrder: number): OptionDraft {
 
 function defaultInitial() {
   return {
-    subjectId: "", chapterId: "", unitId: "", year: null as number | null,
+    subjectId: "", chapterId: "", unitId: "", topicId: "", year: null as number | null,
     stem: [{ kind: "text" as const, text: "" }],
     options: [emptyOption(0), emptyOption(1), emptyOption(2), emptyOption(3)],
     explanation: [] as ContentBlock[],
@@ -327,6 +329,7 @@ export function QuestionEditor({ mode, questionId, initial, subjects, initialCha
     subjectId:          init.subjectId,
     chapterId:          init.chapterId,
     unitId:             init.unitId ?? "",
+    topicId:            init.topicId ?? "",
     year:               init.year ?? null as number | null,
     stem:               init.stem,
     options:            init.options,
@@ -349,20 +352,36 @@ export function QuestionEditor({ mode, questionId, initial, subjects, initialCha
 
   const [chapters, setChapters] = useState<Chapter[]>(initialChapters)
   const [units, setUnits] = useState<Unit[]>(initialUnits)
+  const [topics, setTopics] = useState<Topic[]>([])
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState("")
   const [statusTarget, setStatusTarget] = useState<string | null>(null)
 
   const set = useCallback((key: string, val: unknown) => setForm((f) => ({ ...f, [key]: val })), [])
 
+  async function loadTopics(subjectId: string) {
+    if (!subjectId) { setTopics([]); return }
+    const res = await fetch(`/api/admin/topics?subjectId=${subjectId}`)
+    setTopics(res.ok ? await res.json() : [])
+  }
+
+  // Load the subject's topics on mount (edit mode), so the chosen topic shows.
+  // (loadTopics setStates only after an async fetch — not a synchronous effect setState.)
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect, react-hooks/exhaustive-deps
+    if (init.subjectId) loadTopics(init.subjectId)
+  }, [])
+
   async function loadChapters(subjectId: string) {
-    if (!subjectId) { setChapters([]); setUnits([]); return }
+    if (!subjectId) { setChapters([]); setUnits([]); setTopics([]); return }
     const res = await fetch(`/api/admin/subjects/${subjectId}/chapters`)
     if (res.ok) setChapters(await res.json())
     else setChapters([])
     setUnits([])
     set("chapterId", "")
     set("unitId", "")
+    set("topicId", "")
+    loadTopics(subjectId)
   }
 
   async function loadUnits(chapterId: string) {
@@ -383,6 +402,7 @@ export function QuestionEditor({ mode, questionId, initial, subjects, initialCha
       subjectId: form.subjectId,
       chapterId: form.chapterId,
       unitId: form.unitId || null,
+      topicId: form.topicId || null,
       year: form.year || null,
       stem: form.stem,
       options: form.options.map((o, i) => ({ ...o, sortOrder: i })),
@@ -642,6 +662,13 @@ export function QuestionEditor({ mode, questionId, initial, subjects, initialCha
                   <option value="">None</option>
                   {units.map((u) => <option key={u.id} value={u.id}>{u.name}</option>)}
                 </select>
+              </div>
+            )}
+            {/* Syllabus topic */}
+            {topics.length > 0 && (
+              <div>
+                <label className="mb-1 block text-xs text-slate-500">Syllabus topic (optional)</label>
+                <TopicPicker topics={topics} value={form.topicId} onChange={(id) => set("topicId", id)} />
               </div>
             )}
             {/* Build Year */}

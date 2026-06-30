@@ -51,6 +51,7 @@ export default async function EditQuestionPage({ params }: Props) {
     subjectId: question.subjectId,
     chapterId: question.chapterId,
     unitId: question.unitId ?? "",
+    topicId: question.topicId ?? "",
     year: question.year ?? null,
     stem: question.stem as ContentBlock[],
     options: question.options.map((o) => ({

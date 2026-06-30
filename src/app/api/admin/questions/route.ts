@@ -57,7 +57,7 @@ export async function POST(req: Request) {
 
   const body = await req.json()
   const {
-    subjectId, chapterId, unitId,
+    subjectId, chapterId, unitId, topicId,
     year,
     stem, options, explanation,
     difficulty = "MEDIUM",
@@ -85,6 +85,7 @@ export async function POST(req: Request) {
       subjectId,
       chapterId,
       unitId: unitId ?? null,
+      topicId: topicId ?? null,
       year: yearInt,
       stem,
       explanation: explanation ?? [],
