@@ -2,6 +2,7 @@ import Link from "next/link"
 import { resolveAccent } from "@/lib/accents"
 import { auth } from "@/lib/auth"
 import { prisma } from "@/lib/prisma"
+import { getEntitledSubjectScope } from "@/lib/entitlements"
 import { FilterClient } from "./FilterClient"
 
 export const metadata = { title: "Choose your topic" }
@@ -31,8 +32,12 @@ export default async function FilterPage({ searchParams }: { searchParams: Searc
 
   if (isAuthenticated) {
     try {
+      // Restrict to the student's entitled subjects (null = unrestricted: gate
+      // off, admin, or grandfathered). Enforcement also lives in the session
+      // builder; this just keeps the picker honest.
+      const scope = await getEntitledSubjectScope(session!.user!.id, session!.user!.role as string | undefined)
       const subjects = await prisma.subject.findMany({
-        where: { isActive: true },
+        where: { isActive: true, ...(scope !== null ? { id: { in: scope } } : {}) },
         include: {
           curriculum: { select: { code: true, displayName: true } },
           chapters: {

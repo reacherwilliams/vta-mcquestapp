@@ -1,6 +1,7 @@
 import "server-only"
 import { prisma } from "@/lib/prisma"
 import { shuffledOptionIds } from "@/lib/questions/shuffle"
+import { getEntitledSubjectScope, scopeAllows } from "@/lib/entitlements"
 
 // ── Types ──────────────────────────────────────────────────────────────────
 
@@ -34,9 +35,15 @@ export async function createPracticeSession(
   userId: string,
   filter: SessionFilter,
   limit = 20,
+  role?: string | null,
 ) {
+  const scope = await getEntitledSubjectScope(userId, role)
+  if (scope !== null && filter.subjectId && !scopeAllows(scope, filter.subjectId)) {
+    throw new Error("You're not enrolled in this subject.")
+  }
+
   const questions = await prisma.question.findMany({
-    where: buildWhereClause(filter),
+    where: buildWhereClause(filter, scope),
     select: { id: true },
     take: limit,
     orderBy: { createdAt: "asc" },
@@ -173,9 +180,15 @@ export async function createExamSession(
   filter: SessionFilter,
   durationMinutes: number,
   questionCount: number,
+  role?: string | null,
 ) {
+  const scope = await getEntitledSubjectScope(userId, role)
+  if (scope !== null && filter.subjectId && !scopeAllows(scope, filter.subjectId)) {
+    throw new Error("You're not enrolled in this subject.")
+  }
+
   const questions = await prisma.question.findMany({
-    where: buildWhereClause(filter),
+    where: buildWhereClause(filter, scope),
     select: { id: true },
     take: questionCount,
     orderBy: { createdAt: "asc" },
@@ -198,13 +211,20 @@ export async function createExamSession(
 
 // ── Filter builder ────────────────────────────────────────────────────────
 
-function buildWhereClause(filter: SessionFilter) {
+function buildWhereClause(filter: SessionFilter, scope: string[] | null = null) {
+  // Subject scoping: an explicit (already entitlement-checked) subjectId wins;
+  // otherwise restrict to the entitled subjects when a scope is enforced.
+  const subjectClause = filter.subjectId
+    ? { subjectId: filter.subjectId }
+    : scope !== null
+      ? { subjectId: { in: scope } }
+      : {}
   return {
     status: "PUBLISHED" as const,
     ...(filter.curriculumId && {
       subject: { curriculumId: filter.curriculumId },
     }),
-    ...(filter.subjectId && { subjectId: filter.subjectId }),
+    ...subjectClause,
     ...(filter.chapterId && { chapterId: filter.chapterId }),
     ...(filter.difficulty?.length && {
       difficulty: { in: filter.difficulty as ("EASY" | "MEDIUM" | "HARD" | "CHALLENGE")[] },

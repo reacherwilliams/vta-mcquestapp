@@ -10,6 +10,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Not authenticated." }, { status: 401 })
   }
   const userId = session.user.id
+  const role = session.user.role as string | undefined
 
   try {
     const body = await req.json()
@@ -30,9 +31,10 @@ export async function POST(req: Request) {
         filter ?? {},
         durationMinutes ?? 45,
         questionCount ?? 40,
+        role,
       )
     } else {
-      practiceSession = await createPracticeSession(userId, filter ?? {}, limit ?? 20)
+      practiceSession = await createPracticeSession(userId, filter ?? {}, limit ?? 20, role)
     }
 
     return NextResponse.json({ id: practiceSession.id })

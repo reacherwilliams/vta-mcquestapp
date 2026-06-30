@@ -108,6 +108,16 @@ const NAV = [
 // Items visible only to SUPER_ADMIN — appended after the main nav.
 const SUPER_ADMIN_NAV = [
   {
+    href: "/admin/access",
+    label: "Access & Billing",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4 shrink-0">
+        <rect x="2" y="5" width="20" height="14" rx="2" />
+        <line x1="2" y1="10" x2="22" y2="10" />
+      </svg>
+    ),
+  },
+  {
     href: "/admin/platform-team",
     label: "Platform Team",
     icon: (

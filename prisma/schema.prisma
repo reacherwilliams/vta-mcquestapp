@@ -83,6 +83,7 @@ model Subject {
   reviewerAssignments ReviewerAssignment[]
   bounties         Bounty[]
   topics           Topic[]
+  enrollments      Enrollment[]
 
   @@unique([curriculumId, code])
   @@map("subjects")
@@ -478,6 +479,8 @@ model User {
   auditLogs         AuditLog[]
   contributorApplication ContributorApplication?
   contributorPayouts     ContributorPayout[]
+  enrollments            Enrollment[]
+  enrollmentsGranted     Enrollment[]         @relation("EnrollmentGrantedBy")
 
   @@map("users")
 }
@@ -769,6 +772,62 @@ model Subscription {
   user               User                @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@map("subscriptions")
+}
+
+// ─── Student access entitlements ──────────────────────────────────────────────
+// Per-subject access is the unit of entitlement (pricing is per-subject). A
+// student may practice a subject only while they hold an ACTIVE, unexpired
+// Enrollment for it. "Which curricula a student has" is derived from the
+// distinct curricula of their enrolled subjects — there is no separate
+// curriculum entitlement. The Subscription row remains the billing wrapper.
+// See lib/entitlements.ts for the gate + scope logic (admins are exempt;
+// accounts predating the gate's enforceFrom date are grandfathered).
+
+enum EnrollmentStatus {
+  ACTIVE
+  EXPIRED
+  CANCELLED
+}
+
+enum EnrollmentSource {
+  TRIAL // time-limited free grace period
+  PAID  // covered by an active paid subscription
+  COMP  // comped/granted by an admin
+}
+
+model Enrollment {
+  id          String           @id @default(cuid())
+  userId      String
+  subjectId   String
+  status      EnrollmentStatus @default(ACTIVE)
+  source      EnrollmentSource @default(TRIAL)
+  startedAt   DateTime         @default(now())
+  // null = no expiry (active paid); set for trials / fixed-term comps.
+  expiresAt   DateTime?
+  // The admin who comped/granted it, when source = COMP.
+  grantedById String?
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+  user        User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  subject     Subject          @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  grantedBy   User?            @relation("EnrollmentGrantedBy", fields: [grantedById], references: [id], onDelete: SetNull)
+
+  @@unique([userId, subjectId])
+  @@index([userId, status])
+  @@map("enrollments")
+}
+
+// ─── Platform settings ────────────────────────────────────────────────────────
+// Generic key/value store for global, admin-toggleable settings (the
+// entitlement gate, pricing config, etc.). One row per setting key.
+model PlatformSetting {
+  key         String   @id
+  value       Json
+  updatedById String?
+  updatedAt   DateTime @updatedAt
+  createdAt   DateTime @default(now())
+
+  @@map("platform_settings")
 }
 
 // ─── Contributor marketplace ──────────────────────────────────────────────────

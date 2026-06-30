@@ -18,6 +18,9 @@ type AuditAction =
   | "BOUNTY_RELEASED"
   | "ORIGINAL_CREATED"
   | "ORIGINAL_REVEALED"
+  | "ENTITLEMENT_GATE_UPDATED"
+  | "ENROLLMENTS_GRANTED"
+  | "ENROLLMENT_REVOKED"
 
 export async function writeAudit(
   userId: string,
