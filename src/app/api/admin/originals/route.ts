@@ -73,8 +73,8 @@ export async function POST(req: Request) {
     })
 
     // Embed from the plaintext (while we still have it) so the row is searchable.
-    // Non-fatal: if embedding fails (no OPENAI_API_KEY), the row is stored but won't
-    // be matched until re-embedded.
+    // Embedding is local/in-house (Transformers.js) — text never leaves our infra.
+    // Non-fatal: if it fails, the row is stored but won't be matched until re-embedded.
     let embedded = true
     try {
       const options = Array.isArray(body.options) ? (body.options as { text?: string }[]) : []

@@ -878,9 +878,9 @@ model OriginalQuestion {
   // Clear, non-expressive metadata.
   answer         String   // "A".."D"
   citation       String   // e.g. "0625/12 M/J 2021 Q14"
-  // Non-reversible semantic embedding (pgvector) — the comparison artifact.
+  // Non-reversible semantic embedding (pgvector, 384-dim — all-MiniLM-L6-v2).
   // Requires the `vector` extension enabled in Postgres. Written via raw SQL.
-  embedding      Unsupported("vector(1536)")?
+  embedding      Unsupported("vector(384)")?
   createdById    String?
   createdAt      DateTime @default(now())
 
