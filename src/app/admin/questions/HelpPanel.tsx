@@ -181,7 +181,7 @@ const WRITING_TIPS = [
   {
     icon: "🚫",
     title: "Never copy verbatim past-paper text",
-    body: 'Use the source note to credit inspiration (e.g. "Inspired by CIE 0625/22 Q5") but rewrite the question in your own words. Verbatim reproduction violates copyright.',
+    body: 'Use the source note to credit inspiration (e.g. "Inspired by CIE 0625/22 Q5") but rewrite the question in your own words. Verbatim reproduction violates copyright — and during QA, questions are automatically checked for similarity against real past papers, so close copies get flagged.',
   },
   {
     icon: "🏷️",
@@ -306,7 +306,7 @@ export function HelpPanel({ onClose }: { onClose: () => void }) {
                     { n: "3", title: "Enter 2–5 answer options", body: "Click the circle to mark the correct answer (lime = correct). Add a Rationale for each wrong option explaining the common mistake." },
                     { n: "4", title: "Write the explanation", body: "Show the full working — not just the answer. Students see this after submitting." },
                     { n: "5", title: "Set difficulty & tags", body: "Tag with year, paper number, and topic (e.g. \"2024\", \"Paper 2\", \"kinematics\")." },
-                    { n: "6", title: "Save or submit", body: '"Save as draft" stores it privately. "Submit for review" sends it to the moderation queue (requires 2 approvals to publish).' },
+                    { n: "6", title: "Save or submit", body: '"Save as draft" stores it privately. "Submit for review" sends it through subject + curriculum review, then QA Testing — an admin test-plays it before it goes live to students.' },
                   ].map(({ n, title, body }) => (
                     <li key={n} className="flex gap-3">
                       <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-lime-500 text-xs font-black text-white">{n}</span>
@@ -370,7 +370,7 @@ export function HelpPanel({ onClose }: { onClose: () => void }) {
                   <li>Use <code className="font-mono bg-amber-100 dark:bg-amber-900/40 px-1 rounded">{`{}`}</code> for multi-character exponents/subscripts: <code className="font-mono">x^{`{10}`}</code> not <code className="font-mono">x^10</code></li>
                   <li>Escape special chars: <code className="font-mono">%</code> → <code className="font-mono">\%</code>, <code className="font-mono">&amp;</code> → <code className="font-mono">\&amp;</code></li>
                   <li>Use <code className="font-mono">\text{`{}`}</code> for words inside math: <code className="font-mono">\text{`{m/s}`}</code></li>
-                  <li>Add a thin space before units: <code className="font-mono">9.81\ \text{`{m/s}`}^2</code> (that's a backslash-space)</li>
+                  <li>Add a thin space before units: <code className="font-mono">9.81\ \text{`{m/s}`}^2</code> (that&apos;s a backslash-space)</li>
                   <li>Chemical symbols need <code className="font-mono">\text{`{}`}</code>: <code className="font-mono">\text{`{H}`}_2\text{`{O}`}</code></li>
                 </ul>
               </div>

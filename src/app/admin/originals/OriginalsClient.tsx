@@ -68,6 +68,17 @@ export function OriginalsClient({ items, coverage, total }: Props) {
         adjudicate a specific match — every reveal is <strong>logged to the audit trail</strong>. This bank is Super-Admin only.
       </div>
 
+      {/* How this works */}
+      <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-xs text-slate-600 dark:border-slate-800 dark:bg-slate-900/40 dark:text-slate-400">
+        <p className="mb-1.5 font-semibold text-slate-700 dark:text-slate-300">How this works</p>
+        <ul className="list-disc space-y-1 pl-4">
+          <li><strong>Purpose:</strong> real past-paper questions, kept only to cross-check contributor questions for originality during QA.</li>
+          <li><strong>Stored:</strong> on save, each question is embedded locally (in-house — text never leaves your servers) for similarity search, then its text is encrypted. The clear data is just the citation, answer, and metadata.</li>
+          <li><strong>Used:</strong> in QA, reviewers see a <em>% match + citation</em> only. You (Super Admin) reveal the actual original case-by-case to judge — and it&apos;s logged.</li>
+          <li><strong>⚠ Before ingesting real papers:</strong> source them legitimately (your registered-school Hub access) and get IP-counsel sign-off — comparison-only, internal use.</li>
+        </ul>
+      </div>
+
       {/* Coverage */}
       {coverage.length > 0 && (
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
