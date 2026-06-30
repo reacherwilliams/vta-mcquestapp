@@ -848,6 +848,39 @@ model QuestionReport {
   @@map("question_reports")
 }
 
+// ─── Original Question Bank ──────────────────────────────────────────────────
+// Real past-paper MCQs (e.g. CAIE), stored ONLY for internal similarity
+// comparison against contributor questions. Expressive content (stem/options)
+// is AES-GCM ENCRYPTED at rest and decrypted only via an audited, case-by-case
+// reveal — never bulk-readable, even by a Super Admin. Access gated to
+// SUPER_ADMIN (canViewOriginals). Slice 2 adds the embedding (pgvector) +
+// lexical signatures used for the actual matching.
+model OriginalQuestion {
+  id             String   @id @default(cuid())
+  board          String   @default("CAIE")
+  syllabusCode   String   // e.g. "0625"
+  subjectName    String   // e.g. "Physics"
+  level          String   // "IGCSE" | "AS_A_LEVEL"
+  session        String   // "FM" (Feb/March) | "MJ" (May/June) | "ON" (Oct/Nov)
+  year           Int
+  paper          Int      // 1, 2
+  variant        Int      // 1, 2, 3
+  questionNumber Int
+  tier           String?  // "CORE" | "EXTENDED" | null
+  // Encrypted expressive content — never stored in plaintext.
+  stemCipher     String   @db.Text
+  optionsCipher  String   @db.Text
+  // Clear, non-expressive metadata.
+  answer         String   // "A".."D"
+  citation       String   // e.g. "0625/12 M/J 2021 Q14"
+  createdById    String?
+  createdAt      DateTime @default(now())
+
+  @@unique([syllabusCode, session, year, paper, variant, questionNumber])
+  @@index([syllabusCode, level, subjectName])
+  @@map("original_questions")
+}
+
 // ─── Audit ───────────────────────────────────────────────────────────────────
 // Lighter than School-Core's audit log — we don't have multi-tenant
 // blast radius — but keeps the pattern for question moderation +

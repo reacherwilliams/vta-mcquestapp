@@ -41,6 +41,15 @@ export function canManageFinance(role: Role): boolean {
 }
 
 /**
+ * Access the Original Question Bank (copyrighted past-paper originals used for
+ * similarity checking). SUPER_ADMIN only, and even then full text is revealed
+ * case-by-case via an audited action — never bulk-readable.
+ */
+export function canViewOriginals(role: Role): boolean {
+  return role === "SUPER_ADMIN"
+}
+
+/**
  * Whether `actorRole` may grant/assign `targetRole` to someone else.
  *  - SUPER_ADMIN can grant any role.
  *  - CO_FOUNDER can grant ADMIN and below, but not mint SUPER_ADMIN / CO_FOUNDER.

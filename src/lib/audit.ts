@@ -16,6 +16,8 @@ type AuditAction =
   | "BOUNTY_DELETED"
   | "BOUNTY_CLAIMED"
   | "BOUNTY_RELEASED"
+  | "ORIGINAL_CREATED"
+  | "ORIGINAL_REVEALED"
 
 export async function writeAudit(
   userId: string,
