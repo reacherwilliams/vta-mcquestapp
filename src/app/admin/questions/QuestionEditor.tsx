@@ -5,6 +5,7 @@ import { useState, useCallback, useRef, useEffect } from "react"
 import { TopicPicker, type Topic } from "./TopicPicker"
 import { cn } from "@/lib/utils"
 import type { ContentBlock } from "@/lib/questions/types"
+import { splitTags, joinTags, PAPER_OPTIONS, COMMAND_WORDS, SKILL_TYPES } from "@/lib/questions/tags"
 import { QuestionPreview } from "./QuestionPreview"
 import { HelpPanel } from "./HelpPanel"
 
@@ -324,6 +325,9 @@ function OptionEditor({
 export function QuestionEditor({ mode, questionId, initial, subjects, initialChapters = [], initialUnits = [] }: EditorProps) {
   const router = useRouter()
   const init = initial ?? defaultInitial()
+  // Pull the structured facets (paper / command word / skill) out of the flat
+  // tag array; whatever's left stays as free-text tags.
+  const initTags = splitTags(init.tags)
 
   const [form, setForm] = useState({
     subjectId:          init.subjectId,
@@ -336,7 +340,10 @@ export function QuestionEditor({ mode, questionId, initial, subjects, initialCha
     explanation:        init.explanation,
     difficulty:         init.difficulty,
     allowMultipleCorrect: init.allowMultipleCorrect,
-    tags:               init.tags.join(", "),
+    paper:              initTags.paper as number | null,
+    command:            initTags.command,
+    skills:             initTags.skills,
+    tags:               initTags.free.join(", "),
     sourceNote:         init.sourceNote,
     aiAssisted:         init.aiAssisted,
   })
@@ -409,7 +416,12 @@ export function QuestionEditor({ mode, questionId, initial, subjects, initialCha
       explanation: form.explanation,
       difficulty: form.difficulty,
       allowMultipleCorrect: form.allowMultipleCorrect,
-      tags: form.tags.split(",").map((t) => t.trim()).filter(Boolean),
+      tags: joinTags({
+        paper: form.paper,
+        command: form.command,
+        skills: form.skills,
+        free: form.tags.split(",").map((t) => t.trim()).filter(Boolean),
+      }),
       sourceNote: form.sourceNote || null,
       aiAssisted: form.aiAssisted,
     }
@@ -720,15 +732,65 @@ export function QuestionEditor({ mode, questionId, initial, subjects, initialCha
         <div className="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900">
           <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Tags & attribution</p>
           <div className="space-y-3">
+            {/* Paper + command word — structured chips, so "Paper 2" ≠ "paper2" ≠ "P2". */}
+            <div className="grid grid-cols-2 gap-2">
+              <div>
+                <label className="mb-1 block text-xs text-slate-500">Paper</label>
+                <select
+                  value={form.paper ?? ""}
+                  onChange={(e) => set("paper", e.target.value ? Number(e.target.value) : null)}
+                  className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300"
+                >
+                  <option value="">— any —</option>
+                  {PAPER_OPTIONS.map((p) => <option key={p} value={p}>Paper {p}</option>)}
+                </select>
+              </div>
+              <div>
+                <label className="mb-1 block text-xs text-slate-500">Command word</label>
+                <select
+                  value={form.command}
+                  onChange={(e) => set("command", e.target.value)}
+                  className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm capitalize text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300"
+                >
+                  <option value="">— none —</option>
+                  {COMMAND_WORDS.map((c) => <option key={c} value={c} className="capitalize">{c}</option>)}
+                </select>
+              </div>
+            </div>
+            {/* Skill type — multi-select chips (a question can be both). */}
             <div>
-              <label className="mb-1 block text-xs text-slate-500">Tags (comma-separated)</label>
+              <label className="mb-1 block text-xs text-slate-500">Skill type</label>
+              <div className="flex flex-wrap gap-1.5">
+                {SKILL_TYPES.map((s) => {
+                  const on = form.skills.includes(s)
+                  return (
+                    <button
+                      key={s}
+                      type="button"
+                      onClick={() => set("skills", on ? form.skills.filter((x: string) => x !== s) : [...form.skills, s])}
+                      className={cn(
+                        "rounded-full border px-2.5 py-1 text-[11px] font-medium transition",
+                        on
+                          ? "border-lime-400 bg-lime-50 text-lime-700 dark:border-lime-700 dark:bg-lime-950/30 dark:text-lime-400"
+                          : "border-slate-200 text-slate-500 hover:border-slate-300 dark:border-slate-700 dark:text-slate-400",
+                      )}
+                    >
+                      {s}
+                    </button>
+                  )
+                })}
+              </div>
+            </div>
+            <div>
+              <label className="mb-1 block text-xs text-slate-500">Other tags (comma-separated)</label>
               <input
                 type="text"
                 value={form.tags}
                 onChange={(e) => set("tags", e.target.value)}
-                placeholder="kinematics, Paper 2, 2024…"
+                placeholder="kinematics, May/June…"
                 className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm text-slate-700 placeholder:text-slate-300 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300 dark:placeholder:text-slate-600"
               />
+              <p className="mt-1 text-[10px] text-slate-400">Paper / command word / skill are stored above — keep these for anything else.</p>
             </div>
             <div>
               <label className="mb-1 block text-xs text-slate-500">Source note</label>
