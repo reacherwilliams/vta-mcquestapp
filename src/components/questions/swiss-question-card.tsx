@@ -28,7 +28,9 @@ export function SwissQuestionCard({ question, currentIndex, total, nextHref, wro
   const theme = ACCENTS[accent]
   const [selectedIds, setSelectedIds] = useState(() => new Set<string>())
   const [submitted, setSubmitted] = useState(false)
-  const [confidence, setConfidence] = useState<Confidence | null>(null)
+  // The answer is only graded/revealed AFTER confidence is given or skipped —
+  // so the red/green reveal can't bias the confidence rating.
+  const [revealed, setRevealed] = useState(false)
 
   const multi = !!question.allowMultipleCorrect
 
@@ -59,31 +61,29 @@ export function SwissQuestionCard({ question, currentIndex, total, nextHref, wro
 
   function submit() {
     if (!selectedIds.size || submitted) return
-    const right =
-      correctIds.size === selectedIds.size &&
-      [...selectedIds].every((id) => correctIds.has(id))
+    // Just lock in the answer + ask for confidence — no correctness cue yet.
     setSubmitted(true)
-    if (right) notifySuccess(); else notifyError()
   }
 
   function pickConfidence(c: Confidence | undefined) {
-    if (confidence !== null) return
-    setConfidence(c ?? null)
+    if (revealed) return
+    setRevealed(true)
     const right =
       correctIds.size === selectedIds.size &&
       [...selectedIds].every((id) => correctIds.has(id))
+    if (right) notifySuccess(); else notifyError()
     onAnswered?.(right, c)
   }
 
   const isRight =
-    submitted &&
+    revealed &&
     correctIds.size === selectedIds.size &&
     [...selectedIds].every((id) => correctIds.has(id))
 
-  const wrongPicks = submitted
+  const wrongPicks = revealed
     ? question.options.filter((o) => selectedIds.has(o.id) && !o.isCorrect)
     : []
-  const missedOptions = submitted && multi
+  const missedOptions = revealed && multi
     ? question.options.filter((o) => !selectedIds.has(o.id) && o.isCorrect)
     : []
 
@@ -133,11 +133,14 @@ export function SwissQuestionCard({ question, currentIndex, total, nextHref, wro
           >
             {question.options.map((opt, i) => {
               const isSelected = selectedIds.has(opt.id)
-              const isCorrect = submitted && opt.isCorrect
-              const isWrongPick = submitted && isSelected && !opt.isCorrect
-              const isMissed = submitted && multi && !isSelected && opt.isCorrect
+              // Multi-select correct answers the user didn't pick stay amber ("you missed this").
+              const isMissed = revealed && multi && !isSelected && opt.isCorrect
+              // Every correct option is highlighted green on reveal (even if the user picked wrong),
+              // except multi-select misses which use amber to flag they were left out.
+              const isCorrectHighlight = revealed && opt.isCorrect && !isMissed
+              const isWrongPick = revealed && isSelected && !opt.isCorrect
 
-              const railClass = isCorrect && isSelected
+              const railClass = isCorrectHighlight
                 ? "border-l-4 border-emerald-500"
                 : isWrongPick
                   ? "border-l-4 border-rose-500"
@@ -147,7 +150,7 @@ export function SwissQuestionCard({ question, currentIndex, total, nextHref, wro
                       ? cn("border-l-4", theme.swissActiveRule.split(" ").filter(c => c.startsWith("border-")).join(" "))
                       : "border-l-[3px] border-transparent"
 
-              const textClass = isCorrect && isSelected
+              const textClass = isCorrectHighlight
                 ? "text-emerald-700 dark:text-emerald-300"
                 : isWrongPick
                   ? "text-rose-700 dark:text-rose-300"
@@ -167,7 +170,7 @@ export function SwissQuestionCard({ question, currentIndex, total, nextHref, wro
                     className={cn(
                       "group flex w-full items-baseline gap-4 py-4 pr-2 pl-5 text-left transition",
                       railClass,
-                      ((isSelected && !submitted) || (isCorrect && isSelected) || isWrongPick || isMissed) && "border-b-2",
+                      (isSelected || isCorrectHighlight || isWrongPick || isMissed) && "border-b-2",
                       !submitted && !isSelected && "hover:border-l-4 hover:border-b-2 hover:border-slate-300 hover:text-slate-700 dark:hover:border-slate-600",
                       submitted && "cursor-default",
                     )}
@@ -190,9 +193,9 @@ export function SwissQuestionCard({ question, currentIndex, total, nextHref, wro
       <footer
         className={cn(
           "sticky bottom-0 z-20 border-t-2 transition-colors",
-          !submitted && "border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950",
-          submitted && isRight && "border-emerald-200 bg-emerald-50 dark:border-emerald-900 dark:bg-emerald-950/40",
-          submitted && !isRight && "border-rose-200 bg-rose-50 dark:border-rose-900 dark:bg-rose-950/40",
+          !revealed && "border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950",
+          revealed && isRight && "border-emerald-200 bg-emerald-50 dark:border-emerald-900 dark:bg-emerald-950/40",
+          revealed && !isRight && "border-rose-200 bg-rose-50 dark:border-rose-900 dark:bg-rose-950/40",
         )}
       >
         <div className="mx-auto w-full max-w-2xl px-6 py-5 sm:px-10">
@@ -232,8 +235,8 @@ export function SwissQuestionCard({ question, currentIndex, total, nextHref, wro
             </div>
           ) : (
             <div className="space-y-4">
-              {/* Confidence tap */}
-              {confidence === null ? (
+              {/* Confidence tap — shown after submit, before the answer is revealed */}
+              {!revealed ? (
                 <div>
                   <p className="mb-2 text-center text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500 dark:text-slate-400">
                     How confident were you?

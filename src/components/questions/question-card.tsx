@@ -28,7 +28,8 @@ export function QuestionCard({ question, currentIndex, total, nextHref, wrongHre
   const theme = ACCENTS[accent]
   const [selectedIds, setSelectedIds] = useState(() => new Set<string>())
   const [submitted, setSubmitted] = useState(false)
-  const [confidence, setConfidence] = useState<Confidence | null>(null)
+  // Reveal grading only AFTER confidence is given/skipped (so it can't bias the rating).
+  const [revealed, setRevealed] = useState(false)
 
   const multi = !!question.allowMultipleCorrect
 
@@ -59,25 +60,22 @@ export function QuestionCard({ question, currentIndex, total, nextHref, wrongHre
 
   function submit() {
     if (!selectedIds.size || submitted) return
-    const right =
-      correctIds.size === selectedIds.size &&
-      [...selectedIds].every((id) => correctIds.has(id))
+    // Lock in the answer + ask confidence — no correctness cue yet.
     setSubmitted(true)
-    if (right) notifySuccess(); else notifyError()
-    // onAnswered is deferred until confidence is picked (or skipped)
   }
 
   function pickConfidence(c: Confidence | undefined) {
-    if (confidence !== null) return
-    setConfidence(c ?? null)
+    if (revealed) return
+    setRevealed(true)
     const right =
       correctIds.size === selectedIds.size &&
       [...selectedIds].every((id) => correctIds.has(id))
+    if (right) notifySuccess(); else notifyError()
     onAnswered?.(right, c)
   }
 
   const isRight =
-    submitted &&
+    revealed &&
     correctIds.size === selectedIds.size &&
     [...selectedIds].every((id) => correctIds.has(id))
 
@@ -87,10 +85,10 @@ export function QuestionCard({ question, currentIndex, total, nextHref, wrongHre
   )
 
   // Wrong picks and missed answers for the footer rationale block
-  const wrongPicks = submitted
+  const wrongPicks = revealed
     ? question.options.filter((o) => selectedIds.has(o.id) && !o.isCorrect)
     : []
-  const missedOptions = submitted && multi
+  const missedOptions = revealed && multi
     ? question.options.filter((o) => !selectedIds.has(o.id) && o.isCorrect)
     : []
 
@@ -157,10 +155,11 @@ export function QuestionCard({ question, currentIndex, total, nextHref, wrongHre
         <ul className={cn("grid gap-3", optionsAreImage ? "grid-cols-2" : "grid-cols-1")}>
           {question.options.map((opt, i) => {
             const isSelected = selectedIds.has(opt.id)
-            const isCorrect = submitted && opt.isCorrect
-            const isWrongPick = submitted && isSelected && !opt.isCorrect
-            // For multi-select: highlight correct options the user didn't pick
-            const isMissed = submitted && multi && !isSelected && opt.isCorrect
+            // For multi-select: correct options the user didn't pick stay amber.
+            const isMissed = revealed && multi && !isSelected && opt.isCorrect
+            // Every correct option goes green on reveal (even if the user picked wrong).
+            const isCorrectHighlight = revealed && opt.isCorrect && !isMissed
+            const isWrongPick = revealed && isSelected && !opt.isCorrect
 
             return (
               <li key={opt.id}>
@@ -174,7 +173,7 @@ export function QuestionCard({ question, currentIndex, total, nextHref, wrongHre
                     "border-slate-200 dark:border-slate-800 dark:hover:bg-slate-800",
                     !submitted && theme.duoOptionHover,
                     isSelected && !submitted && theme.duoOptionSelected,
-                    isCorrect && isSelected && "border-emerald-500 bg-emerald-50 dark:border-emerald-400 dark:bg-emerald-950/30",
+                    isCorrectHighlight && "border-emerald-500 bg-emerald-50 dark:border-emerald-400 dark:bg-emerald-950/30",
                     isWrongPick && "border-rose-500 bg-rose-50 dark:border-rose-400 dark:bg-rose-950/30",
                     isMissed && "border-amber-400 bg-amber-50 dark:border-amber-500 dark:bg-amber-950/30",
                     submitted && "cursor-default active:translate-y-0 active:border-b-4",
@@ -186,7 +185,7 @@ export function QuestionCard({ question, currentIndex, total, nextHref, wrongHre
                       multi ? "rounded-lg" : "rounded-xl",
                       "border-slate-300 text-slate-500 dark:border-slate-700 dark:text-slate-400",
                       isSelected && !submitted && theme.duoLabelSelected,
-                      isCorrect && isSelected && "border-emerald-500 bg-emerald-500 text-white",
+                      isCorrectHighlight && "border-emerald-500 bg-emerald-500 text-white",
                       isWrongPick && "border-rose-500 bg-rose-500 text-white",
                       isMissed && "border-amber-400 bg-amber-400 text-white",
                     )}
@@ -207,9 +206,9 @@ export function QuestionCard({ question, currentIndex, total, nextHref, wrongHre
       <footer
         className={cn(
           "sticky bottom-0 z-20 border-t-2 transition-colors",
-          !submitted && "border-slate-100 bg-white dark:border-slate-900 dark:bg-slate-950",
-          submitted && isRight && "border-emerald-200 bg-emerald-50 dark:border-emerald-900 dark:bg-emerald-950/40",
-          submitted && !isRight && "border-rose-200 bg-rose-50 dark:border-rose-900 dark:bg-rose-950/40",
+          !revealed && "border-slate-100 bg-white dark:border-slate-900 dark:bg-slate-950",
+          revealed && isRight && "border-emerald-200 bg-emerald-50 dark:border-emerald-900 dark:bg-emerald-950/40",
+          revealed && !isRight && "border-rose-200 bg-rose-50 dark:border-rose-900 dark:bg-rose-950/40",
         )}
       >
         <div className="mx-auto w-full max-w-2xl px-6 py-4 sm:px-10">
@@ -241,8 +240,8 @@ export function QuestionCard({ question, currentIndex, total, nextHref, wrongHre
             </div>
           ) : (
             <div className="flex flex-col gap-3">
-              {/* Confidence tap — shown before Continue */}
-              {confidence === null ? (
+              {/* Confidence tap — shown after submit, before the answer is revealed */}
+              {!revealed ? (
                 <div>
                   <p className="mb-2 text-center text-xs font-semibold text-slate-500 dark:text-slate-400">
                     How confident were you?
@@ -293,12 +292,12 @@ export function QuestionCard({ question, currentIndex, total, nextHref, wrongHre
                 </div>
               )}
 
-              {confidence !== null && wrongPicks.map((o) => o.rationale && (
+              {revealed && wrongPicks.map((o) => o.rationale && (
                 <p key={o.id} className="text-sm italic text-rose-900 dark:text-rose-200">
                   {o.rationale}
                 </p>
               ))}
-              {confidence !== null && missedOptions.length > 0 && (
+              {revealed && missedOptions.length > 0 && (
                 <p className="text-sm italic text-amber-800 dark:text-amber-300">
                   You missed: {missedOptions.map((o, i) => (
                     <span key={o.id}>{i > 0 ? " and " : ""}{OPTION_LABELS[question.options.indexOf(o)]}</span>
@@ -306,7 +305,7 @@ export function QuestionCard({ question, currentIndex, total, nextHref, wrongHre
                 </p>
               )}
 
-              {confidence !== null && <ContentBlockList blocks={question.explanation} variant="explanation" />}
+              {revealed && <ContentBlockList blocks={question.explanation} variant="explanation" />}
             </div>
           )}
         </div>
