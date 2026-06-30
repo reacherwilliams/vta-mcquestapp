@@ -1,6 +1,7 @@
 import "server-only"
 import { prisma } from "@/lib/prisma"
 import { isAdminTier } from "@/lib/permissions"
+import { PRICES } from "@/lib/stripe/client"
 import { type PricingConfig, DEFAULT_PRICING } from "@/lib/pricing"
 
 // ─── Student access entitlements ──────────────────────────────────────────────
@@ -218,5 +219,57 @@ export async function expireAllPaidEnrollments(userId: string): Promise<void> {
     where: { userId, source: "PAID" },
     data: { status: "EXPIRED" },
   })
+}
+
+/**
+ * Make the user's PAID enrollments exactly `subjectIds`: expire any PAID subject
+ * not in the set, and (re)activate the listed ones as PAID. Used when a student
+ * self-serve changes their subject subscription. (Trials in the set convert to
+ * PAID.)
+ */
+export async function reconcilePaidEnrollments(userId: string, subjectIds: string[]): Promise<void> {
+  await prisma.enrollment.updateMany({
+    where: { userId, source: "PAID", subjectId: { notIn: subjectIds } },
+    data: { status: "EXPIRED" },
+  })
+  if (subjectIds.length) {
+    await prisma.$transaction(
+      subjectIds.map((subjectId) =>
+        prisma.enrollment.upsert({
+          where: { userId_subjectId: { userId, subjectId } },
+          create: { userId, subjectId, status: "ACTIVE", source: "PAID", expiresAt: null },
+          update: { status: "ACTIVE", source: "PAID", expiresAt: null },
+        }),
+      ),
+    )
+  }
+}
+
+export type SubjectSubscriptionState = {
+  active: boolean
+  interval: "monthly" | "yearly" | null
+  stripeSubscriptionId: string | null
+  paidSubjectIds: string[]
+}
+
+/**
+ * The user's current per-subject subscription, identified by the Subscription
+ * row's Stripe price matching a SUBJECT_* price. Powers the "manage vs. new
+ * subscribe" branch on the subscribe page.
+ */
+export async function getSubjectSubscription(userId: string): Promise<SubjectSubscriptionState> {
+  const [sub, sources] = await Promise.all([
+    prisma.subscription.findUnique({
+      where: { userId },
+      select: { stripeSubscriptionId: true, stripePriceId: true, status: true },
+    }),
+    getActiveEnrollmentSources(userId),
+  ])
+  const price = sub?.stripePriceId
+  const interval: "monthly" | "yearly" | null =
+    price && price === PRICES.SUBJECT_YEARLY ? "yearly" : price && price === PRICES.SUBJECT_MONTHLY ? "monthly" : null
+  const active = !!sub?.stripeSubscriptionId && interval !== null && sub.status !== "CANCELED" && sub.status !== "EXPIRED"
+  const paidSubjectIds = Object.entries(sources).filter(([, s]) => s === "PAID").map(([id]) => id)
+  return { active, interval, stripeSubscriptionId: sub?.stripeSubscriptionId ?? null, paidSubjectIds }
 }
 
