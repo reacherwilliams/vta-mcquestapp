@@ -78,9 +78,38 @@ model Subject {
   subjectProgress  SubjectProgress[]
   reviewerAssignments ReviewerAssignment[]
   bounties         Bounty[]
+  topics           Topic[]
 
   @@unique([curriculumId, code])
   @@map("subjects")
+}
+
+// ─── Curriculum Topic tree ───────────────────────────────────────────────────
+// A coded, hierarchical syllabus taxonomy imported from the School-Core
+// curriculum library (LibraryStrand) — one subtree per subject, any framework
+// (IGCSE / A-Level / AP / IB / CBSE). Additive: sits alongside Chapter/Unit; a
+// Question may carry an optional topicId for syllabus-precise tagging.
+model Topic {
+  id         String   @id @default(cuid())
+  subjectId  String
+  parentId   String?
+  code       String   // framework code, e.g. "IGCSE.PHY.1.4"
+  title      String
+  level      Int      @default(1) // 1=Area, 2=Strand, 3=Sub-strand, 4=Standard
+  examWeight Float?   // % of the exam, from the library's metadata
+  sortOrder  Int      @default(0)
+  source     String?  // provenance, e.g. "school-core:CAMBRIDGE_IGCSE"
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  subject   Subject    @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  parent    Topic?     @relation("TopicTree", fields: [parentId], references: [id], onDelete: SetNull)
+  children  Topic[]    @relation("TopicTree")
+  questions Question[]
+
+  @@unique([subjectId, code])
+  @@index([subjectId, parentId])
+  @@map("topics")
 }
 
 model Chapter {
@@ -158,6 +187,8 @@ model Question {
   subjectId     String
   chapterId     String
   unitId        String?
+  // Optional syllabus-precise tag from the imported curriculum Topic tree.
+  topicId       String?
   // Free-text tags that capture the "paper-style" filter: year of the
   // syllabus, term/session, paper number, topic codes. Kept as a JSON
   // array of strings so adding/removing tags doesn't need a migration.
@@ -206,6 +237,7 @@ model Question {
   subject       Subject            @relation(fields: [subjectId], references: [id], onDelete: Restrict)
   chapter       Chapter            @relation(fields: [chapterId], references: [id], onDelete: Restrict)
   unit          Unit?              @relation(fields: [unitId], references: [id], onDelete: SetNull)
+  topic         Topic?             @relation(fields: [topicId], references: [id], onDelete: SetNull)
   author        User?              @relation("QuestionAuthor", fields: [authorId], references: [id], onDelete: SetNull)
   publishedBy   User?              @relation("QuestionPublisher", fields: [publishedById], references: [id], onDelete: SetNull)
   lastReviewer  User?              @relation("QuestionLastReviewer", fields: [lastReviewerId], references: [id], onDelete: SetNull)

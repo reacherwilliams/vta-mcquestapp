@@ -1,0 +1,44 @@
+{
+  "curriculumCode": "IGCSE",
+  "subject": "Physics",
+  "syllabusCode": "0625",
+  "source": "school-core:CAMBRIDGE_IGCSE",
+  "note": "Sample/representative tree following the CAIE 0625 syllabus structure. examWeight is null here; the real import from School-Core carries per-strand weighting from LibraryStrand.metadata.",
+  "strands": [
+    { "code": "IGCSE.PHY.1", "parentCode": null, "title": "Motion, forces and energy", "level": 1, "examWeight": null, "sortOrder": 0 },
+    { "code": "IGCSE.PHY.1.1", "parentCode": "IGCSE.PHY.1", "title": "Physical quantities and measurement techniques", "level": 2, "sortOrder": 0 },
+    { "code": "IGCSE.PHY.1.2", "parentCode": "IGCSE.PHY.1", "title": "Motion", "level": 2, "sortOrder": 1 },
+    { "code": "IGCSE.PHY.1.3", "parentCode": "IGCSE.PHY.1", "title": "Mass and weight", "level": 2, "sortOrder": 2 },
+    { "code": "IGCSE.PHY.1.4", "parentCode": "IGCSE.PHY.1", "title": "Density", "level": 2, "sortOrder": 3 },
+    { "code": "IGCSE.PHY.1.5", "parentCode": "IGCSE.PHY.1", "title": "Forces", "level": 2, "sortOrder": 4 },
+    { "code": "IGCSE.PHY.1.6", "parentCode": "IGCSE.PHY.1", "title": "Momentum", "level": 2, "sortOrder": 5 },
+    { "code": "IGCSE.PHY.1.7", "parentCode": "IGCSE.PHY.1", "title": "Energy, work and power", "level": 2, "sortOrder": 6 },
+    { "code": "IGCSE.PHY.1.8", "parentCode": "IGCSE.PHY.1", "title": "Pressure", "level": 2, "sortOrder": 7 },
+
+    { "code": "IGCSE.PHY.2", "parentCode": null, "title": "Thermal physics", "level": 1, "examWeight": null, "sortOrder": 1 },
+    { "code": "IGCSE.PHY.2.1", "parentCode": "IGCSE.PHY.2", "title": "Kinetic particle model of matter", "level": 2, "sortOrder": 0 },
+    { "code": "IGCSE.PHY.2.2", "parentCode": "IGCSE.PHY.2", "title": "Thermal properties and temperature", "level": 2, "sortOrder": 1 },
+    { "code": "IGCSE.PHY.2.3", "parentCode": "IGCSE.PHY.2", "title": "Transfer of thermal energy", "level": 2, "sortOrder": 2 },
+
+    { "code": "IGCSE.PHY.3", "parentCode": null, "title": "Waves", "level": 1, "examWeight": null, "sortOrder": 2 },
+    { "code": "IGCSE.PHY.3.1", "parentCode": "IGCSE.PHY.3", "title": "General properties of waves", "level": 2, "sortOrder": 0 },
+    { "code": "IGCSE.PHY.3.2", "parentCode": "IGCSE.PHY.3", "title": "Light", "level": 2, "sortOrder": 1 },
+    { "code": "IGCSE.PHY.3.3", "parentCode": "IGCSE.PHY.3", "title": "Electromagnetic spectrum", "level": 2, "sortOrder": 2 },
+    { "code": "IGCSE.PHY.3.4", "parentCode": "IGCSE.PHY.3", "title": "Sound", "level": 2, "sortOrder": 3 },
+
+    { "code": "IGCSE.PHY.4", "parentCode": null, "title": "Electricity and magnetism", "level": 1, "examWeight": null, "sortOrder": 3 },
+    { "code": "IGCSE.PHY.4.1", "parentCode": "IGCSE.PHY.4", "title": "Simple phenomena of magnetism", "level": 2, "sortOrder": 0 },
+    { "code": "IGCSE.PHY.4.2", "parentCode": "IGCSE.PHY.4", "title": "Electrical quantities", "level": 2, "sortOrder": 1 },
+    { "code": "IGCSE.PHY.4.3", "parentCode": "IGCSE.PHY.4", "title": "Electric circuits", "level": 2, "sortOrder": 2 },
+    { "code": "IGCSE.PHY.4.4", "parentCode": "IGCSE.PHY.4", "title": "Electrical safety", "level": 2, "sortOrder": 3 },
+    { "code": "IGCSE.PHY.4.5", "parentCode": "IGCSE.PHY.4", "title": "Electromagnetic effects", "level": 2, "sortOrder": 4 },
+
+    { "code": "IGCSE.PHY.5", "parentCode": null, "title": "Nuclear physics", "level": 1, "examWeight": null, "sortOrder": 4 },
+    { "code": "IGCSE.PHY.5.1", "parentCode": "IGCSE.PHY.5", "title": "The nuclear model of the atom", "level": 2, "sortOrder": 0 },
+    { "code": "IGCSE.PHY.5.2", "parentCode": "IGCSE.PHY.5", "title": "Radioactivity", "level": 2, "sortOrder": 1 },
+
+    { "code": "IGCSE.PHY.6", "parentCode": null, "title": "Space physics", "level": 1, "examWeight": null, "sortOrder": 5 },
+    { "code": "IGCSE.PHY.6.1", "parentCode": "IGCSE.PHY.6", "title": "Earth and the Solar System", "level": 2, "sortOrder": 0 },
+    { "code": "IGCSE.PHY.6.2", "parentCode": "IGCSE.PHY.6", "title": "Stars and the Universe", "level": 2, "sortOrder": 1 }
+  ]
+}
