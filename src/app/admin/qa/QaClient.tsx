@@ -195,16 +195,24 @@ export function QaClient({ items, subjects, status, subjectId, cappedAt }: Props
             </button>
           ))}
         </div>
-        <select
-          value={subjectId}
-          onChange={(e) => setFilter({ subjectId: e.target.value })}
-          className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
-        >
-          <option value="">All subjects</option>
-          {subjects.map((s) => (
-            <option key={s.id} value={s.id}>{s.curriculumCode} — {s.name}</option>
-          ))}
-        </select>
+        <div className="relative">
+          <select
+            value={subjectId}
+            onChange={(e) => setFilter({ subjectId: e.target.value })}
+            className="appearance-none rounded-xl border border-slate-200 bg-white py-2 pl-3 pr-10 text-sm text-slate-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
+          >
+            <option value="">All subjects</option>
+            {subjects.map((s) => (
+              <option key={s.id} value={s.id}>{s.curriculumCode} — {s.name}</option>
+            ))}
+          </select>
+          <svg
+            className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+          >
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </div>
         {remaining.length > 0 && (
           <button
             onClick={() => setTesting(0)}

@@ -191,7 +191,7 @@ export default async function QuestionBankPage({ searchParams }: Props) {
         <div className="space-y-4">
           {/* Status tabs + Difficulty chips — single row */}
           <div className="flex flex-wrap items-center gap-2">
-            <div className="flex min-w-0 flex-1 gap-1 rounded-xl border border-slate-200 bg-slate-100 p-1 dark:border-slate-800 dark:bg-slate-900">
+            <div className="flex min-w-0 flex-1 gap-1 overflow-x-auto rounded-xl border border-slate-200 bg-slate-100 p-1 dark:border-slate-800 dark:bg-slate-900">
               {STATUS_TABS.map(({ key, label }) => {
                 const active = status === key
                 return (
@@ -199,7 +199,7 @@ export default async function QuestionBankPage({ searchParams }: Props) {
                     key={key}
                     href={statusHref(key)}
                     className={[
-                      "flex-1 rounded-lg px-3 py-1.5 text-center text-xs font-semibold transition whitespace-nowrap",
+                      "shrink-0 rounded-lg px-3 py-1.5 text-center text-xs font-semibold transition whitespace-nowrap",
                       active
                         ? "bg-white text-slate-900 shadow-sm dark:bg-slate-800 dark:text-slate-100"
                         : "text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200",
