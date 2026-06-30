@@ -156,18 +156,45 @@ export function FinanceClient({
         </p>
 
         {!editSplit ? (
-          <div className="mt-3 space-y-2">
-            {distribution.shares.map((s) => (
-              <div key={s.label} className="flex items-center gap-3 text-sm">
-                <span className="font-medium text-slate-700 dark:text-slate-200">{s.label}</span>
-                <span className="rounded bg-slate-100 px-1.5 py-0.5 text-[11px] font-semibold text-slate-500 dark:bg-slate-800 dark:text-slate-400">{s.pct}%</span>
-                <span className="ml-auto font-bold text-slate-900 dark:text-slate-100">{formatMoney(s.cents, currency)}</span>
+          (() => {
+            // Group the email-linked (personal) beneficiaries as "Founders' share".
+            const founders = distribution.shares.filter((s) => s.email)
+            const others = distribution.shares.filter((s) => !s.email)
+            const fPct = founders.reduce((a, b) => a + b.pct, 0)
+            const fCents = founders.reduce((a, b) => a + b.cents, 0)
+            return (
+              <div className="mt-3 space-y-2">
+                {founders.length > 0 && (
+                  <div className="rounded-xl bg-slate-50 p-3 dark:bg-slate-800/40">
+                    <div className="flex items-center gap-3 text-sm">
+                      <span className="font-bold text-slate-800 dark:text-slate-100">Founders&apos; share</span>
+                      <span className="rounded bg-slate-200 px-1.5 py-0.5 text-[11px] font-semibold text-slate-600 dark:bg-slate-700 dark:text-slate-300">{fPct}%</span>
+                      <span className="ml-auto font-bold text-slate-900 dark:text-slate-100">{formatMoney(fCents, currency)}</span>
+                    </div>
+                    <div className="mt-1.5 space-y-1 border-l border-slate-200 pl-3 dark:border-slate-700">
+                      {founders.map((s) => (
+                        <div key={s.label} className="flex items-center gap-3 text-[13px]">
+                          <span className="text-slate-600 dark:text-slate-300">{s.label}</span>
+                          <span className="text-[11px] text-slate-400">{s.pct}%</span>
+                          <span className="ml-auto font-semibold text-slate-700 dark:text-slate-200">{formatMoney(s.cents, currency)}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {others.map((s) => (
+                  <div key={s.label} className="flex items-center gap-3 text-sm">
+                    <span className="font-medium text-slate-700 dark:text-slate-200">{s.label}</span>
+                    <span className="rounded bg-slate-100 px-1.5 py-0.5 text-[11px] font-semibold text-slate-500 dark:bg-slate-800 dark:text-slate-400">{s.pct}%</span>
+                    <span className="ml-auto font-bold text-slate-900 dark:text-slate-100">{formatMoney(s.cents, currency)}</span>
+                  </div>
+                ))}
+                {distribution.totalPct !== 100 && (
+                  <p className="text-[11px] text-amber-600 dark:text-amber-400">⚠ Percentages total {distribution.totalPct}%, not 100%.</p>
+                )}
               </div>
-            ))}
-            {distribution.totalPct !== 100 && (
-              <p className="text-[11px] text-amber-600 dark:text-amber-400">⚠ Percentages total {distribution.totalPct}%, not 100%.</p>
-            )}
-          </div>
+            )
+          })()
         ) : (
           <div className="mt-3 space-y-2">
             {bens.map((b, i) => (

@@ -126,15 +126,13 @@ export default async function AdminDashboard() {
   // This-month P&L for the monetization card (founders only).
   const finance = founder ? await getMonthlyFinance(undefined, now) : null
 
-  // Founders' profit shares this month — the email-linked (personal)
-  // beneficiaries, with the logged-in founder flagged.
-  let founderShares: { label: string; pct: number; cents: number; isMe: boolean }[] = []
+  // The logged-in founder's personal profit share this month (matched by email).
+  let myShare: { cents: number; pct: number } | null = null
   if (finance) {
     const dist = computeDistribution(finance.netCents, await getProfitShare())
     const email = session?.user?.email?.toLowerCase()
-    founderShares = dist.shares
-      .filter((s) => s.email)
-      .map((s) => ({ label: s.label, pct: s.pct, cents: s.cents, isMe: !!email && s.email?.toLowerCase() === email }))
+    const mine = email ? dist.shares.find((s) => s.email?.toLowerCase() === email) : undefined
+    if (mine) myShare = { cents: mine.cents, pct: mine.pct }
   }
 
   const STATUS_BADGE: Record<string, string> = {
@@ -237,22 +235,14 @@ export default async function AdminDashboard() {
             <Link href="/admin/finance" className="text-xs font-semibold text-lime-700 hover:underline dark:text-lime-400">Finance →</Link>
           </div>
 
-          {/* Founders' share */}
-          {finance && founderShares.length > 0 && (
-            <div className="mb-4 rounded-xl border border-lime-200 bg-lime-50 px-4 py-3 dark:border-lime-800 dark:bg-lime-950/20">
-              <p className="mb-2 text-[10px] font-semibold uppercase tracking-widest text-lime-700 dark:text-lime-400">
-                Founders&apos; share · {finance.range.label}{finance.incomeIsProjected ? " (est.)" : ""}
-              </p>
-              <div className="space-y-1.5">
-                {founderShares.map((f) => (
-                  <div key={f.label} className="flex items-center gap-2 text-sm">
-                    <span className="font-semibold text-slate-800 dark:text-slate-100">{f.label}</span>
-                    {f.isMe && <span className="rounded bg-lime-200 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide text-lime-800 dark:bg-lime-900 dark:text-lime-300">you</span>}
-                    <span className="text-[11px] text-slate-500 dark:text-slate-400">{f.pct}%</span>
-                    <span className="ml-auto font-black text-lime-700 dark:text-lime-400">{formatMoney(f.cents, finance.income.currency)}</span>
-                  </div>
-                ))}
+          {/* Your personal profit share */}
+          {finance && myShare && (
+            <div className="mb-4 flex items-center justify-between rounded-xl border border-lime-200 bg-lime-50 px-4 py-3 dark:border-lime-800 dark:bg-lime-950/20">
+              <div>
+                <p className="text-[10px] font-semibold uppercase tracking-widest text-lime-700 dark:text-lime-400">Your share · {finance.range.label}</p>
+                <p className="text-[11px] text-lime-600 dark:text-lime-500">{myShare.pct}% of net profit{finance.incomeIsProjected ? " (est.)" : ""}</p>
               </div>
+              <p className="text-2xl font-black text-lime-700 dark:text-lime-400">{formatMoney(myShare.cents, finance.income.currency)}</p>
             </div>
           )}
 
