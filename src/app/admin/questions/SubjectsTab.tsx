@@ -27,6 +27,7 @@ type Props = {
   subjects: SubjectRow[]
   curricula: CurriculumOption[]
   curriculumId: string
+  showInactive?: boolean
 }
 
 const EMPTY_FORM = {
@@ -40,7 +41,7 @@ const EMPTY_FORM = {
   isActive: true,
 }
 
-export function SubjectsTab({ subjects, curricula, curriculumId }: Props) {
+export function SubjectsTab({ subjects, curricula, curriculumId, showInactive = false }: Props) {
   const router = useRouter()
   const searchParams = useSearchParams()
   const [slideOver, setSlideOver] = useState<"add" | "edit" | null>(null)
@@ -166,23 +167,13 @@ export function SubjectsTab({ subjects, curricula, curriculumId }: Props) {
 
   const activeCurriculum = curricula.find((c) => c.id === curriculumId)
 
-  // Inactive subjects (e.g. no-MCQ ones) are hidden by default; toggle to manage them.
-  const [showInactive, setShowInactive] = useState(false)
-  const inactiveCount = subjects.filter((s) => !s.isActive).length
+  // Inactive subjects (e.g. no-MCQ ones) are hidden unless toggled (page-level URL filter).
   const visibleSubjects = showInactive ? subjects : subjects.filter((s) => s.isActive)
 
   return (
     <div className="space-y-4">
       {/* Header row */}
       <div className="flex flex-wrap items-center gap-3">
-        {inactiveCount > 0 && (
-          <button
-            onClick={() => setShowInactive((v) => !v)}
-            className="rounded-full border border-slate-200 px-3 py-1 text-xs font-semibold text-slate-600 transition hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
-          >
-            {showInactive ? "Hide inactive" : `Show inactive (${inactiveCount})`}
-          </button>
-        )}
         {/* Active filter chip */}
         {activeCurriculum && (
           <div className="flex items-center gap-1.5 rounded-full border border-lime-200 bg-lime-50 px-3 py-1 text-xs font-semibold text-lime-800 dark:border-lime-800/40 dark:bg-lime-950/20 dark:text-lime-400">

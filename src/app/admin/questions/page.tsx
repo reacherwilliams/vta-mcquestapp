@@ -31,6 +31,7 @@ type SearchParams = {
   status?: string
   difficulty?: string
   page?: string
+  inactive?: string
 }
 
 type Props = { searchParams: Promise<SearchParams> }
@@ -43,7 +44,9 @@ export default async function QuestionBankPage({ searchParams }: Props) {
     status = "",
     difficulty = "",
     page: pageStr = "1",
+    inactive = "",
   } = await searchParams
+  const showInactive = inactive === "1"
 
   const page = Math.max(1, Number(pageStr))
   const limit = 25
@@ -109,6 +112,15 @@ export default async function QuestionBankPage({ searchParams }: Props) {
     { key: "questions",  label: "Questions",  value: totalQuestions,              href: tabHref("questions")  },
   ]
 
+  const inactiveCount = subjects ? subjects.filter((s) => !s.isActive).length : 0
+  const inactiveToggleHref = (() => {
+    const params = new URLSearchParams()
+    params.set("tab", "subjects")
+    if (curriculumId) params.set("curriculumId", curriculumId)
+    if (!showInactive) params.set("inactive", "1")
+    return `/admin/questions?${params.toString()}`
+  })()
+
   return (
     <div className="space-y-6">
       {/* Page heading */}
@@ -140,8 +152,9 @@ export default async function QuestionBankPage({ searchParams }: Props) {
         )}
       </div>
 
-      {/* Summary tiles — also serve as tab nav */}
-      <div className="grid grid-cols-3 gap-3">
+      {/* Summary tiles (tab nav) + inactive toggle — one row */}
+      <div className="flex flex-wrap items-stretch gap-3">
+      <div className="grid flex-1 grid-cols-3 gap-3">
         {STAT_TILES.map(({ key, label, value, href }) => {
           const active = tab === key
           return (
@@ -171,6 +184,20 @@ export default async function QuestionBankPage({ searchParams }: Props) {
           )
         })}
       </div>
+        {tab === "subjects" && inactiveCount > 0 && (
+          <Link
+            href={inactiveToggleHref}
+            className={[
+              "flex items-center rounded-xl border px-4 text-sm font-semibold transition",
+              showInactive
+                ? "border-lime-300 bg-lime-50 text-lime-700 dark:border-lime-700 dark:bg-lime-950/20 dark:text-lime-400"
+                : "border-slate-200 bg-white text-slate-600 hover:border-slate-300 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-slate-700",
+            ].join(" ")}
+          >
+            {showInactive ? "Hide inactive" : `Show inactive (${inactiveCount})`}
+          </Link>
+        )}
+      </div>
 
       {/* Tab content */}
       {tab === "curriculum" && curriculaWithCounts && (
@@ -184,6 +211,7 @@ export default async function QuestionBankPage({ searchParams }: Props) {
           subjects={subjects}
           curricula={curricula}
           curriculumId={curriculumId}
+          showInactive={showInactive}
         />
       )}
 
