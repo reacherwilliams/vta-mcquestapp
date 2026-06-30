@@ -2,6 +2,7 @@
 
 import { useState, type FormEvent } from "react"
 import { cn } from "@/lib/utils"
+import { computeSubjectPrice, formatMoney, type PricingConfig } from "@/lib/pricing"
 
 type Gate = { enabled: boolean; enforceFrom: string | null }
 
@@ -29,7 +30,7 @@ type Lookup = {
 
 const SOURCES = ["TRIAL", "PAID", "COMP"] as const
 
-export function AccessClient({ initialGate, initialTrialDays }: { initialGate: Gate; initialTrialDays: number }) {
+export function AccessClient({ initialGate, initialTrialDays, initialPricing }: { initialGate: Gate; initialTrialDays: number; initialPricing: PricingConfig }) {
   // ── Gate ──────────────────────────────────────────────────────────────────
   const [gate, setGate] = useState<Gate>(initialGate)
   const [savingGate, setSavingGate] = useState(false)
@@ -54,6 +55,37 @@ export function AccessClient({ initialGate, initialTrialDays }: { initialGate: G
       setTrialDays(data.days)
       setTrialMsg("Saved.")
     } finally { setSavingTrial(false) }
+  }
+
+  // ── Pricing ───────────────────────────────────────────────────────────────
+  const [pricing, setPricing] = useState<PricingConfig>(initialPricing)
+  const [savingPrice, setSavingPrice] = useState(false)
+  const [priceMsg, setPriceMsg] = useState<string | null>(null)
+
+  function setTier(i: number, patch: Partial<{ minQty: number; perSubjectCents: number }>) {
+    setPricing((p) => ({ ...p, tiers: p.tiers.map((t, idx) => (idx === i ? { ...t, ...patch } : t)) }))
+  }
+  function addTier() {
+    setPricing((p) => ({ ...p, tiers: [...p.tiers, { minQty: (p.tiers.at(-1)?.minQty ?? 0) + 1, perSubjectCents: p.tiers.at(-1)?.perSubjectCents ?? 0 }] }))
+  }
+  function removeTier(i: number) {
+    setPricing((p) => ({ ...p, tiers: p.tiers.length > 1 ? p.tiers.filter((_, idx) => idx !== i) : p.tiers }))
+  }
+
+  async function savePricing() {
+    setSavingPrice(true)
+    setPriceMsg(null)
+    try {
+      const res = await fetch("/api/admin/access/pricing", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(pricing),
+      })
+      const data = await res.json()
+      if (!res.ok) { setPriceMsg(data.error ?? "Failed to save."); return }
+      setPricing(data)
+      setPriceMsg("Saved.")
+    } finally { setSavingPrice(false) }
   }
 
   async function saveGate(next: Gate) {
@@ -216,6 +248,68 @@ export function AccessClient({ initialGate, initialTrialDays }: { initialGate: G
             {savingTrial ? "Saving…" : "Save"}
           </button>
           {trialMsg && <span className="text-xs text-slate-400">{trialMsg}</span>}
+        </div>
+      </section>
+
+      {/* ── Per-subject pricing ──────────────────────────────────────────── */}
+      <section className="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900">
+        <h2 className="text-sm font-bold text-slate-800 dark:text-slate-100">Per-subject pricing</h2>
+        <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400">
+          Volume tiers for the on-site estimate. <span className="font-semibold">Must mirror the Stripe Price&apos;s volume tiers</span> —
+          this drives what students see, not what Stripe charges.
+        </p>
+
+        <div className="mt-3 flex flex-wrap items-end gap-3">
+          <label className="text-xs text-slate-500">
+            <span className="mb-1 block font-semibold">Currency</span>
+            <input value={pricing.currency} onChange={(e) => setPricing((p) => ({ ...p, currency: e.target.value }))}
+              className="w-24 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm uppercase text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300" />
+          </label>
+          <label className="text-xs text-slate-500">
+            <span className="mb-1 block font-semibold">Year billed as (months)</span>
+            <input type="number" min={1} max={12} value={pricing.yearlyMonths}
+              onChange={(e) => setPricing((p) => ({ ...p, yearlyMonths: Number(e.target.value) }))}
+              className="w-24 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300" />
+          </label>
+        </div>
+
+        <div className="mt-3 space-y-2">
+          <p className="text-[11px] font-semibold uppercase tracking-wide text-slate-400">Volume tiers</p>
+          {pricing.tiers.map((t, i) => (
+            <div key={i} className="flex items-center gap-2 text-sm">
+              <span className="text-slate-500">from</span>
+              <input type="number" min={1} value={t.minQty} onChange={(e) => setTier(i, { minQty: Number(e.target.value) })}
+                className="w-16 rounded-lg border border-slate-200 bg-white px-2 py-1.5 text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300" />
+              <span className="text-slate-500">subjects →</span>
+              <input type="number" min={0} step="0.01" value={(t.perSubjectCents / 100).toString()}
+                onChange={(e) => setTier(i, { perSubjectCents: Math.round(Number(e.target.value) * 100) })}
+                className="w-24 rounded-lg border border-slate-200 bg-white px-2 py-1.5 text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300" />
+              <span className="text-slate-500">/subject/mo</span>
+              {pricing.tiers.length > 1 && (
+                <button onClick={() => removeTier(i)} className="ml-auto text-xs text-rose-500 hover:underline">remove</button>
+              )}
+            </div>
+          ))}
+          <button onClick={addTier} className="rounded-lg border border-dashed border-slate-300 px-3 py-1 text-xs font-semibold text-slate-500 hover:border-slate-400 dark:border-slate-600">
+            + Add tier
+          </button>
+        </div>
+
+        {/* Live preview */}
+        <div className="mt-4 rounded-xl bg-slate-50 p-3 text-[11px] text-slate-500 dark:bg-slate-800/50 dark:text-slate-400">
+          <span className="font-semibold">Preview (monthly): </span>
+          {[1, 3, 5].map((q) => {
+            const quote = computeSubjectPrice(pricing, q, "monthly")
+            return <span key={q} className="mr-3">{q} subj = {formatMoney(quote.totalCents, pricing.currency)} ({formatMoney(quote.perSubjectCents, pricing.currency)}/ea)</span>
+          })}
+        </div>
+
+        <div className="mt-3 flex items-center gap-3">
+          <button onClick={savePricing} disabled={savingPrice}
+            className="rounded-lg bg-slate-800 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-700 disabled:opacity-50 dark:bg-slate-700">
+            {savingPrice ? "Saving…" : "Save pricing"}
+          </button>
+          {priceMsg && <span className="text-xs text-slate-400">{priceMsg}</span>}
         </div>
       </section>
 

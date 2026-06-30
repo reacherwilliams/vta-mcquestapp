@@ -3,6 +3,7 @@ import { NextResponse } from "next/server"
 import { headers } from "next/headers"
 import { stripe } from "@/lib/stripe/client"
 import { prisma } from "@/lib/prisma"
+import { setPaidEnrollments, expireAllPaidEnrollments } from "@/lib/entitlements"
 import type Stripe from "stripe"
 
 export async function POST(req: Request) {
@@ -21,9 +22,8 @@ export async function POST(req: Request) {
       const cs = event.data.object as Stripe.Checkout.Session
       if (cs.mode !== "subscription") break
 
-      // userId + plan set on the checkout session's own metadata
-      const userId = (cs.metadata as Record<string, string>)?.userId
-      const plan   = (cs.metadata as Record<string, string>)?.plan ?? "PRO"
+      const meta = (cs.metadata as Record<string, string>) ?? {}
+      const userId = meta.userId
       if (!userId) break
 
       const subId = typeof cs.subscription === "string" ? cs.subscription : cs.subscription?.id
@@ -31,6 +31,20 @@ export async function POST(req: Request) {
 
       const stripeSub = await stripe.subscriptions.retrieve(subId)
 
+      // Per-subject subscription: turn the chosen subjects into PAID enrollments.
+      if (meta.kind === "subjects") {
+        const subjectIds = (meta.subjectIds ?? "").split(",").filter(Boolean)
+        if (subjectIds.length) await setPaidEnrollments(userId, subjectIds)
+        await prisma.subscription.upsert({
+          where: { userId },
+          update: buildSubData("PRO", cs.customer as string, stripeSub),
+          create: { userId, ...buildSubData("PRO", cs.customer as string, stripeSub) },
+        })
+        break
+      }
+
+      // Legacy plan subscription (PRO / PRO_FAMILY).
+      const plan = meta.plan ?? "PRO"
       await prisma.subscription.upsert({
         where: { userId },
         update: buildSubData(plan, cs.customer as string, stripeSub),
@@ -70,6 +84,13 @@ export async function POST(req: Request) {
 
     case "customer.subscription.deleted": {
       const stripeSub = event.data.object as Stripe.Subscription
+      // Find the owner so we can revoke their paid subject access.
+      const sub = await prisma.subscription.findFirst({
+        where: { stripeSubscriptionId: stripeSub.id },
+        select: { userId: true },
+      })
+      if (sub?.userId) await expireAllPaidEnrollments(sub.userId)
+
       await prisma.subscription.updateMany({
         where: { stripeSubscriptionId: stripeSub.id },
         data: {

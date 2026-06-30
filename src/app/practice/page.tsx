@@ -192,7 +192,7 @@ export default async function PracticeDashboard() {
         {/* Entitlement trial banner — shown only while the gate restricts this user */}
         {isGated && trial.onTrial && (
           <Link
-            href="/pricing"
+            href="/practice/subscribe"
             className="flex items-center justify-between gap-3 rounded-2xl border border-lime-200 bg-lime-50 px-5 py-3.5 transition hover:bg-lime-100 dark:border-lime-800 dark:bg-lime-950/20 dark:hover:bg-lime-950/30"
           >
             <div>
@@ -206,7 +206,7 @@ export default async function PracticeDashboard() {
         )}
         {trialEnded && (
           <Link
-            href="/pricing"
+            href="/practice/subscribe"
             className="flex items-center justify-between gap-3 rounded-2xl border border-rose-200 bg-rose-50 px-5 py-3.5 transition hover:bg-rose-100 dark:border-rose-800 dark:bg-rose-950/20 dark:hover:bg-rose-950/30"
           >
             <div>

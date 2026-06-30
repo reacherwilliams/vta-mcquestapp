@@ -1,6 +1,7 @@
 import "server-only"
 import { prisma } from "@/lib/prisma"
 import { isAdminTier } from "@/lib/permissions"
+import { type PricingConfig, DEFAULT_PRICING } from "@/lib/pricing"
 
 // ─── Student access entitlements ──────────────────────────────────────────────
 // Access is gated per-subject via Enrollment rows. This module is the single
@@ -146,3 +147,76 @@ export async function getTrialStatus(userId: string): Promise<TrialStatus> {
   const daysLeft = Math.max(0, Math.ceil((trial.expiresAt.getTime() - now.getTime()) / (24 * 60 * 60 * 1000)))
   return { onTrial: true, daysLeft, expiresAt: trial.expiresAt }
 }
+
+// ─── Pricing ──────────────────────────────────────────────────────────────────
+// Per-subject volume pricing. The actual charge is governed by the Stripe Price's
+// volume tiers; this config drives the on-site estimate and the pricing page, and
+// MUST mirror the Stripe Price. Subscriptions are billed with quantity = number
+// of subjects.
+
+const PRICING_KEY = "entitlement_pricing"
+
+export async function getPricingConfig(): Promise<PricingConfig> {
+  const row = await prisma.platformSetting.findUnique({ where: { key: PRICING_KEY } })
+  const v = row?.value as Partial<PricingConfig> | undefined
+  if (!v) return DEFAULT_PRICING
+  return {
+    currency: v.currency ?? DEFAULT_PRICING.currency,
+    tiers: Array.isArray(v.tiers) && v.tiers.length ? [...v.tiers].sort((a, b) => a.minQty - b.minQty) : DEFAULT_PRICING.tiers,
+    yearlyMonths: typeof v.yearlyMonths === "number" && v.yearlyMonths > 0 ? v.yearlyMonths : DEFAULT_PRICING.yearlyMonths,
+  }
+}
+
+export async function setPricingConfig(config: PricingConfig, updatedById?: string): Promise<void> {
+  const clean: PricingConfig = {
+    currency: (config.currency || "usd").toLowerCase(),
+    tiers: (config.tiers ?? [])
+      .filter((t) => Number.isFinite(t.minQty) && t.minQty >= 1 && Number.isFinite(t.perSubjectCents) && t.perSubjectCents >= 0)
+      .map((t) => ({ minQty: Math.round(t.minQty), perSubjectCents: Math.round(t.perSubjectCents) }))
+      .sort((a, b) => a.minQty - b.minQty),
+    yearlyMonths: Math.max(1, Math.min(12, Math.round(config.yearlyMonths))),
+  }
+  if (!clean.tiers.length) clean.tiers = DEFAULT_PRICING.tiers
+  await prisma.platformSetting.upsert({
+    where: { key: PRICING_KEY },
+    create: { key: PRICING_KEY, value: clean, updatedById: updatedById ?? null },
+    update: { value: clean, updatedById: updatedById ?? null },
+  })
+}
+
+/**
+ * Mark the given subjects as PAID + ACTIVE (no expiry) for a user — called from
+ * the Stripe webhook on a successful subject subscription. Upserts so a TRIAL
+ * converts to PAID. Does not touch other subjects.
+ */
+export async function setPaidEnrollments(userId: string, subjectIds: string[]): Promise<void> {
+  if (!subjectIds.length) return
+  await prisma.$transaction(
+    subjectIds.map((subjectId) =>
+      prisma.enrollment.upsert({
+        where: { userId_subjectId: { userId, subjectId } },
+        create: { userId, subjectId, status: "ACTIVE", source: "PAID", expiresAt: null },
+        update: { status: "ACTIVE", source: "PAID", expiresAt: null },
+      }),
+    ),
+  )
+}
+
+/** subjectId → source for the user's currently-active (unexpired) enrollments. */
+export async function getActiveEnrollmentSources(userId: string): Promise<Record<string, string>> {
+  const now = new Date()
+  const rows = await prisma.enrollment.findMany({
+    where: { userId, status: "ACTIVE", OR: [{ expiresAt: null }, { expiresAt: { gt: now } }] },
+    select: { subjectId: true, source: true },
+  })
+  return Object.fromEntries(rows.map((r) => [r.subjectId, r.source]))
+}
+
+/** Expire all PAID enrollments for a user — called when their subscription ends. */
+export async function expireAllPaidEnrollments(userId: string): Promise<void> {
+  await prisma.enrollment.updateMany({
+    where: { userId, source: "PAID" },
+    data: { status: "EXPIRED" },
+  })
+}
+

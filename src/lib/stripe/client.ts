@@ -29,4 +29,11 @@ export const PRICES = {
   PRO_YEARLY:     process.env.STRIPE_PRICE_PRO_YEARLY!,
   FAMILY_MONTHLY: process.env.STRIPE_PRICE_FAMILY_MONTHLY!,
   FAMILY_YEARLY:  process.env.STRIPE_PRICE_FAMILY_YEARLY!,
+  // Per-subject access. These MUST be recurring Stripe Prices with VOLUME tiered
+  // pricing (billing_scheme=tiered, tiers_mode=volume) — the subscription is
+  // created with quantity = number of subjects and Stripe applies the volume
+  // discount. The tier table in the app's pricing config is for display/estimate
+  // only and must mirror these Stripe Prices.
+  SUBJECT_MONTHLY: process.env.STRIPE_PRICE_SUBJECT_MONTHLY!,
+  SUBJECT_YEARLY:  process.env.STRIPE_PRICE_SUBJECT_YEARLY!,
 }

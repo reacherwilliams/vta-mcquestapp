@@ -2,7 +2,7 @@ import "server-only"
 import { redirect } from "next/navigation"
 import { auth } from "@/lib/auth"
 import { isFounderTier } from "@/lib/permissions"
-import { getEntitlementGate, getTrialDays } from "@/lib/entitlements"
+import { getEntitlementGate, getTrialDays, getPricingConfig } from "@/lib/entitlements"
 import { AccessClient } from "./AccessClient"
 
 export const metadata = { title: "Admin — Access & Entitlements" }
@@ -12,7 +12,7 @@ export default async function AccessPage() {
   if (!session?.user?.id) redirect("/login")
   if (!isFounderTier(session.user.role)) redirect("/admin")
 
-  const [gate, trialDays] = await Promise.all([getEntitlementGate(), getTrialDays()])
+  const [gate, trialDays, pricing] = await Promise.all([getEntitlementGate(), getTrialDays(), getPricingConfig()])
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-8 md:py-12">
@@ -23,7 +23,7 @@ export default async function AccessPage() {
           subjects they&apos;re enrolled in (admins are always exempt).
         </p>
       </header>
-      <AccessClient initialGate={gate} initialTrialDays={trialDays} />
+      <AccessClient initialGate={gate} initialTrialDays={trialDays} initialPricing={pricing} />
     </div>
   )
 }
