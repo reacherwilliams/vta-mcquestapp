@@ -16,16 +16,30 @@ export async function setOriginalEmbedding(id: string, vec: number[]): Promise<v
 
 export type SimMatch = { id: string; citation: string; score: number }
 
-/** Cosine similarity search against embedded originals in the same subject. */
-export async function findSimilarOriginals(vec: number[], subjectName: string, limit = 5): Promise<SimMatch[]> {
+export type SimScope = { subjectName: string; syllabusCode?: string | null }
+
+/**
+ * Cosine similarity search against embedded originals in the same subject.
+ * Scopes by CAIE syllabus code when the subject has one (so an IGCSE Biology
+ * question isn't compared against A-Level "Biology" originals), else by name.
+ */
+export async function findSimilarOriginals(vec: number[], scope: SimScope, limit = 5): Promise<SimMatch[]> {
   const lit = vectorLiteral(vec)
-  const rows = await prisma.$queryRaw<{ id: string; citation: string; score: number }[]>`
-    SELECT id, citation, 1 - (embedding <=> ${lit}::vector) AS score
-    FROM original_questions
-    WHERE embedding IS NOT NULL AND "subjectName" = ${subjectName}
-    ORDER BY embedding <=> ${lit}::vector
-    LIMIT ${limit}
-  `
+  const rows = scope.syllabusCode
+    ? await prisma.$queryRaw<{ id: string; citation: string; score: number }[]>`
+        SELECT id, citation, 1 - (embedding <=> ${lit}::vector) AS score
+        FROM original_questions
+        WHERE embedding IS NOT NULL AND "syllabusCode" = ${scope.syllabusCode}
+        ORDER BY embedding <=> ${lit}::vector
+        LIMIT ${limit}
+      `
+    : await prisma.$queryRaw<{ id: string; citation: string; score: number }[]>`
+        SELECT id, citation, 1 - (embedding <=> ${lit}::vector) AS score
+        FROM original_questions
+        WHERE embedding IS NOT NULL AND "subjectName" = ${scope.subjectName}
+        ORDER BY embedding <=> ${lit}::vector
+        LIMIT ${limit}
+      `
   return rows.map((r) => ({ id: r.id, citation: r.citation, score: Number(r.score) }))
 }
 
@@ -39,9 +53,9 @@ export async function findExactByHash(normHash: string, subjectName: string): Pr
 }
 
 /** Embed arbitrary question text and return its closest originals in a subject. */
-export async function checkSimilarity(text: string, subjectName: string, limit = 5): Promise<SimMatch[]> {
+export async function checkSimilarity(text: string, scope: SimScope, limit = 5): Promise<SimMatch[]> {
   const vec = await embed(text)
-  return findSimilarOriginals(vec, subjectName, limit)
+  return findSimilarOriginals(vec, scope, limit)
 }
 
 /**

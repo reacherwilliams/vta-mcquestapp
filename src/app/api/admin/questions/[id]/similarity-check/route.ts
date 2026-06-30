@@ -28,7 +28,7 @@ export async function POST(_req: Request, { params }: { params: Promise<{ id: st
       id: true,
       stem: true,
       sourceNote: true,
-      subject: { select: { name: true } },
+      subject: { select: { name: true, syllabusCode: true } },
       options: { select: { content: true } },
     },
   })
@@ -44,11 +44,13 @@ export async function POST(_req: Request, { params }: { params: Promise<{ id: st
     // Embed once, reuse for both the subject-pool search and the cited check.
     const vec = await embed(text)
     // Exact (verbatim) check is cheap; semantic embedding catches rewordings.
+    // Scope the semantic pool by the subject's CAIE code when it has one.
     exact = await findExactByHash(normalizedHash(text), q.subject.name)
-    matches = await findSimilarOriginals(vec, q.subject.name, 5)
+    matches = await findSimilarOriginals(vec, { subjectName: q.subject.name, syllabusCode: q.subject.syllabusCode }, 5)
 
-    // Verify an "inspired by …" claim against the specific cited original.
-    const parsed = parseCitation(q.sourceNote)
+    // Verify an "inspired by …" claim against the specific cited original. The
+    // subject's syllabus code fills in a citation that omits the code.
+    const parsed = parseCitation(q.sourceNote, { fallbackSyllabusCode: q.subject.syllabusCode })
     if (parsed) {
       const orig = await findCitedOriginal(parsed)
       cited = orig

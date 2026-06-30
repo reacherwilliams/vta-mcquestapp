@@ -26,18 +26,19 @@ const SESSION_MAP: Record<string, ParsedCitation["session"]> = {
 
 /**
  * Parse a free-text source note into a structured CAIE-style citation.
- * Returns null when no syllabus/paper code (NNNN/PV) is present.
+ *
+ * Normally requires an explicit syllabus/paper code (NNNN/PV). When the note
+ * omits the code but still carries a real reference (session / year / question
+ * number), pass `fallbackSyllabusCode` (the contributor's subject code) to fill
+ * it in — so "inspired by Q5 May/June 2021" resolves against the right syllabus
+ * without the contributor having to type "0610".
  */
-export function parseCitation(note: string | null | undefined): ParsedCitation | null {
+export function parseCitation(
+  note: string | null | undefined,
+  opts: { fallbackSyllabusCode?: string | null } = {},
+): ParsedCitation | null {
   if (!note) return null
   const text = note.trim()
-
-  // Core anchor: 4-digit syllabus code + "/" + paper digit + optional variant
-  // digit. e.g. "0625/22", "9701/4", "0610/31".
-  const code = /\b(\d{4})\/(\d)(\d?)\b/.exec(text)
-  if (!code) return null
-
-  const [matched, syllabusCode, paperDigit, variantDigit] = code
 
   // Session: M/J, O/N, F/M (and spelled-out / collapsed variants).
   let session: ParsedCitation["session"]
@@ -54,15 +55,38 @@ export function parseCitation(note: string | null | undefined): ParsedCitation |
   const qn = /\bQ(?:uestion)?\s*\.?\s*(\d{1,2})\b/i.exec(text)
   if (qn) questionNumber = Number(qn[1])
 
-  return {
-    syllabusCode,
-    paper: Number(paperDigit),
-    ...(variantDigit ? { variant: Number(variantDigit) } : {}),
-    ...(session ? { session } : {}),
-    ...(year ? { year } : {}),
-    ...(questionNumber ? { questionNumber } : {}),
-    raw: matched + (sess ? ` ${sess[1]}` : "") + (year ? ` ${year}` : "") + (questionNumber ? ` Q${questionNumber}` : ""),
+  const tail = (sess ? ` ${sess[1]}` : "") + (year ? ` ${year}` : "") + (questionNumber ? ` Q${questionNumber}` : "")
+
+  // Core anchor: 4-digit syllabus code + "/" + paper digit + optional variant
+  // digit. e.g. "0625/22", "9701/4", "0610/31".
+  const code = /\b(\d{4})\/(\d)(\d?)\b/.exec(text)
+  if (code) {
+    const [matched, syllabusCode, paperDigit, variantDigit] = code
+    return {
+      syllabusCode,
+      paper: Number(paperDigit),
+      ...(variantDigit ? { variant: Number(variantDigit) } : {}),
+      ...(session ? { session } : {}),
+      ...(year ? { year } : {}),
+      ...(questionNumber ? { questionNumber } : {}),
+      raw: matched + tail,
+    }
   }
+
+  // No explicit code: fall back to the subject's syllabus code, but only when a
+  // genuine reference signal is present (avoid treating "Original — Dr Smith" as
+  // a citation).
+  if (opts.fallbackSyllabusCode && (session || year || questionNumber != null)) {
+    return {
+      syllabusCode: opts.fallbackSyllabusCode,
+      ...(session ? { session } : {}),
+      ...(year ? { year } : {}),
+      ...(questionNumber ? { questionNumber } : {}),
+      raw: (opts.fallbackSyllabusCode + tail).trim(),
+    }
+  }
+
+  return null
 }
 
 /** Compact human label for a parsed citation, e.g. "0625/22 · MJ 2021 · Q14". */
