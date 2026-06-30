@@ -4,10 +4,11 @@ import { auth } from "@/lib/auth"
 import { prisma } from "@/lib/prisma"
 import { isAdminTier } from "@/lib/permissions"
 import { CoverageTree, type CoverageNode } from "./CoverageTree"
+import { CoverageFilters } from "./CoverageFilters"
 
 export const metadata = { title: "Admin — Coverage" }
 
-type SearchParams = Promise<{ subjectId?: string }>
+type SearchParams = Promise<{ subjectId?: string; curriculumId?: string }>
 
 // Questions that are live vs. still working through the review pipeline.
 const PIPELINE_STATUSES = ["DRAFT", "IN_SUBJECT_REVIEW", "IN_CURRICULUM_REVIEW", "IN_QA"] as const
@@ -17,15 +18,26 @@ export default async function CoveragePage({ searchParams }: { searchParams: Sea
   if (!session?.user?.id) redirect("/login")
   if (!isAdminTier(session.user.role)) redirect("/admin")
 
-  const { subjectId: rawSubjectId } = await searchParams
+  const { subjectId: rawSubjectId, curriculumId: rawCurriculumId } = await searchParams
 
-  const subjects = await prisma.subject.findMany({
-    where: { isActive: true },
-    select: { id: true, name: true, curriculum: { select: { code: true, displayName: true, sortOrder: true } } },
-    orderBy: [{ curriculum: { sortOrder: "asc" } }, { name: "asc" }],
-  })
+  const [allSubjects, curricula] = await Promise.all([
+    prisma.subject.findMany({
+      where: { isActive: true },
+      select: { id: true, name: true, code: true, curriculum: { select: { id: true, code: true, displayName: true, sortOrder: true } } },
+      orderBy: [{ curriculum: { sortOrder: "asc" } }, { name: "asc" }],
+    }),
+    prisma.curriculum.findMany({
+      where: { isActive: true },
+      select: { id: true, code: true, displayName: true },
+      orderBy: { sortOrder: "asc" },
+    }),
+  ])
 
-  // Default to the first subject that actually has a topic tree.
+  // Curriculum filter narrows which subjects are pickable.
+  const curriculumId = rawCurriculumId && curricula.some((c) => c.id === rawCurriculumId) ? rawCurriculumId : ""
+  const subjects = curriculumId ? allSubjects.filter((s) => s.curriculum.id === curriculumId) : allSubjects
+
+  // Default to the first subject in the (filtered) list.
   const subjectId = rawSubjectId && subjects.some((s) => s.id === rawSubjectId)
     ? rawSubjectId
     : subjects[0]?.id ?? ""
@@ -118,22 +130,13 @@ export default async function CoveragePage({ searchParams }: { searchParams: Sea
         </p>
       </header>
 
-      {/* Subject picker */}
-      <form className="mb-6">
-        <label className="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">Subject</label>
-        <select
-          name="subjectId"
-          defaultValue={subjectId}
-          className="w-full max-w-md rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300"
-        >
-          {subjects.map((s) => (
-            <option key={s.id} value={s.id}>{s.curriculum.code} · {s.name}</option>
-          ))}
-        </select>
-        <button type="submit" className="ml-2 rounded-lg border border-slate-200 px-3 py-2 text-sm font-semibold text-slate-600 transition hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800">
-          View
-        </button>
-      </form>
+      {/* Curriculum → Subject cascade */}
+      <CoverageFilters
+        curricula={curricula}
+        subjects={allSubjects.map((s) => ({ id: s.id, name: s.name, code: s.code, curriculumId: s.curriculum.id }))}
+        curriculumId={curriculumId}
+        subjectId={subjectId}
+      />
 
       {!subjectId ? (
         <p className="rounded-xl border border-slate-200 bg-white p-6 text-sm text-slate-500 dark:border-slate-800 dark:bg-slate-900">No active subjects yet.</p>

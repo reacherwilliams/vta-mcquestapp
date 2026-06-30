@@ -646,7 +646,7 @@ export function QuestionEditor({ mode, questionId, initial, subjects, initialCha
                 <option value="">Select subject…</option>
                 {subjects
                   .filter((s) => !curriculumFilter || s.curriculumId === curriculumFilter)
-                  .map((s) => <option key={s.id} value={s.id}>{s.name}</option>)
+                  .map((s) => <option key={s.id} value={s.id}>{s.name}{s.code ? ` · ${s.code}` : ""}</option>)
                 }
               </select>
             </div>
