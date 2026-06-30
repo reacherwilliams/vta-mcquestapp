@@ -18,12 +18,13 @@ export async function PATCH(
 
   const { id } = await params
   const body = await req.json()
-  const { code, name, description, sortOrder, hasFrq, isActive, curriculumId } = body
+  const { code, syllabusCode, name, description, sortOrder, hasFrq, isActive, curriculumId } = body
 
   const subject = await prisma.subject.update({
     where: { id },
     data: {
       ...(code !== undefined ? { code } : {}),
+      ...(syllabusCode !== undefined ? { syllabusCode: syllabusCode || null } : {}),
       ...(name !== undefined ? { name } : {}),
       ...(description !== undefined ? { description } : {}),
       ...(sortOrder !== undefined ? { sortOrder } : {}),

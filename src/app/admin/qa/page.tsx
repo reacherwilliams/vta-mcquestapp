@@ -55,7 +55,7 @@ export default async function QaPage({ searchParams }: { searchParams: SearchPar
     }),
     prisma.subject.findMany({
       where: { isActive: true },
-      select: { id: true, name: true, curriculum: { select: { id: true, code: true } } },
+      select: { id: true, name: true, code: true, syllabusCode: true, curriculum: { select: { id: true, code: true } } },
       orderBy: [{ curriculum: { sortOrder: "asc" } }, { name: "asc" }],
     }),
     prisma.curriculum.findMany({
@@ -99,7 +99,7 @@ export default async function QaPage({ searchParams }: { searchParams: SearchPar
     <QaClient
       items={items}
       curricula={curricula}
-      subjects={subjects.map((s) => ({ id: s.id, name: s.name, curriculumId: s.curriculum.id, curriculumCode: s.curriculum.code }))}
+      subjects={subjects.map((s) => ({ id: s.id, name: s.name, code: s.code, syllabusCode: s.syllabusCode, curriculumId: s.curriculum.id, curriculumCode: s.curriculum.code }))}
       status={status}
       curriculumId={curriculumId ?? ""}
       subjectId={subjectId ?? ""}

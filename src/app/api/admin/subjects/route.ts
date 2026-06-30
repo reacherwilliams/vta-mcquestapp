@@ -38,6 +38,7 @@ export async function POST(req: Request) {
   const {
     curriculumId,
     code,
+    syllabusCode,
     name,
     description,
     sortOrder = 0,
@@ -56,6 +57,7 @@ export async function POST(req: Request) {
     data: {
       curriculumId,
       code,
+      syllabusCode: syllabusCode ?? null,
       name,
       description: description ?? null,
       sortOrder,

@@ -6,6 +6,7 @@ import { useState, useEffect } from "react"
 type SubjectRow = {
   id: string
   code: string
+  syllabusCode: string | null
   name: string
   description: string | null
   sortOrder: number
@@ -31,6 +32,7 @@ type Props = {
 const EMPTY_FORM = {
   curriculumId: "",
   code: "",
+  syllabusCode: "",
   name: "",
   description: "",
   sortOrder: 0,
@@ -68,6 +70,7 @@ export function SubjectsTab({ subjects, curricula, curriculumId }: Props) {
     setForm({
       curriculumId: s.curriculumId,
       code: s.code,
+      syllabusCode: s.syllabusCode ?? "",
       name: s.name,
       description: s.description ?? "",
       sortOrder: s.sortOrder,
@@ -101,6 +104,7 @@ export function SubjectsTab({ subjects, curricula, curriculumId }: Props) {
       const body = {
         curriculumId: form.curriculumId,
         code: form.code.trim(),
+        syllabusCode: form.syllabusCode.trim() || null,
         name: form.name.trim(),
         description: form.description.trim() || null,
         sortOrder: Number(form.sortOrder),
@@ -195,6 +199,7 @@ export function SubjectsTab({ subjects, curricula, curriculumId }: Props) {
               <tr className="border-b border-slate-200 bg-slate-50 text-left dark:border-slate-800 dark:bg-slate-900/60">
                 <th className="px-4 py-3 font-semibold text-slate-600 dark:text-slate-400">Curriculum</th>
                 <th className="px-4 py-3 font-semibold text-slate-600 dark:text-slate-400">Code</th>
+                <th className="px-4 py-3 font-semibold text-slate-600 dark:text-slate-400">Syllabus</th>
                 <th className="px-4 py-3 font-semibold text-slate-600 dark:text-slate-400">Name</th>
                 <th className="px-4 py-3 font-semibold text-slate-600 dark:text-slate-400">Description</th>
                 <th className="px-4 py-3 font-semibold text-slate-600 dark:text-slate-400">Chapters</th>
@@ -216,6 +221,15 @@ export function SubjectsTab({ subjects, curricula, curriculumId }: Props) {
                     <span className="rounded bg-slate-100 px-1.5 py-0.5 font-mono text-[11px] text-slate-600 dark:bg-slate-800 dark:text-slate-400">
                       {s.code}
                     </span>
+                  </td>
+                  <td className="px-4 py-3">
+                    {s.syllabusCode ? (
+                      <span className="rounded bg-slate-100 px-1.5 py-0.5 font-mono text-[11px] text-slate-600 dark:bg-slate-800 dark:text-slate-400">
+                        {s.syllabusCode}
+                      </span>
+                    ) : (
+                      <span className="text-xs text-slate-400">—</span>
+                    )}
                   </td>
                   <td className="px-4 py-3">
                     <button
@@ -382,6 +396,20 @@ export function SubjectsTab({ subjects, curricula, curriculumId }: Props) {
                   value={form.code}
                   onChange={(e) => setForm((f) => ({ ...f, code: e.target.value.toUpperCase() }))}
                   placeholder="e.g. PHY, MATH, BIO"
+                  className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-mono text-slate-700 placeholder-slate-400 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300 dark:placeholder-slate-500"
+                />
+              </div>
+
+              {/* Syllabus code (CAIE) */}
+              <div>
+                <label className="mb-1 block text-xs font-semibold text-slate-600 dark:text-slate-400">
+                  Syllabus code
+                </label>
+                <input
+                  type="text"
+                  value={form.syllabusCode}
+                  onChange={(e) => setForm((f) => ({ ...f, syllabusCode: e.target.value.trim() }))}
+                  placeholder="e.g. 0610, 9700 (Cambridge only)"
                   className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-mono text-slate-700 placeholder-slate-400 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300 dark:placeholder-slate-500"
                 />
               </div>

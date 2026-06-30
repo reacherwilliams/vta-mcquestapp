@@ -20,7 +20,7 @@ type QaItem = {
   simChecked: boolean
   display: DemoQuestion
 }
-type Subject = { id: string; name: string; curriculumId: string; curriculumCode: string }
+type Subject = { id: string; name: string; code: string; syllabusCode: string | null; curriculumId: string; curriculumCode: string }
 type Curriculum = { id: string; code: string; displayName: string }
 type CitedState =
   | { citation: string; originalId: string; score: number | null; found: true }
@@ -359,7 +359,10 @@ export function QaClient({ items, curricula, subjects, status, curriculumId, sub
           value={subjectId}
           onChange={(v) => setFilter({ subjectId: v })}
           placeholder="All subjects"
-          options={visibleSubjects.map((s) => ({ value: s.id, label: curriculumId ? s.name : `${s.curriculumCode} — ${s.name}` }))}
+          options={visibleSubjects.map((s) => ({
+            value: s.id,
+            label: `${curriculumId ? s.name : `${s.curriculumCode} — ${s.name}`} · ${s.syllabusCode ?? s.code}`,
+          }))}
         />
         {remaining.length > 0 && (
           <button
@@ -418,23 +421,15 @@ function FilterSelect({
   options: { value: string; label: string }[]
 }) {
   return (
-    <div className="relative">
-      <select
-        value={value}
-        onChange={(e) => onChange(e.target.value)}
-        className="appearance-none rounded-xl border border-slate-200 bg-white py-2 pl-3 pr-10 text-sm text-slate-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
-      >
-        <option value="">{placeholder}</option>
-        {options.map((o) => (
-          <option key={o.value} value={o.value}>{o.label}</option>
-        ))}
-      </select>
-      <svg
-        className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"
-        viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
-      >
-        <polyline points="6 9 12 15 18 9" />
-      </svg>
-    </div>
+    <select
+      value={value}
+      onChange={(e) => onChange(e.target.value)}
+      className="rounded-xl border border-slate-200 bg-white py-2 pl-3 text-sm text-slate-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
+    >
+      <option value="">{placeholder}</option>
+      {options.map((o) => (
+        <option key={o.value} value={o.value}>{o.label}</option>
+      ))}
+    </select>
   )
 }

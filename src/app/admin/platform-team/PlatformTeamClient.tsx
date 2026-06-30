@@ -387,7 +387,7 @@ function PillSelect({
         value={value}
         onChange={(e) => onChange(e.target.value)}
         title="Click to change"
-        className="appearance-none bg-transparent rounded-full pl-2.5 pr-6 py-0.5 text-[10px] font-semibold uppercase tracking-wide border-0 outline-none cursor-pointer"
+        className="custom-select appearance-none bg-transparent rounded-full pl-2.5 pr-6 py-0.5 text-[10px] font-semibold uppercase tracking-wide border-0 outline-none cursor-pointer"
       >
         {options.map((o) => (
           <option key={o.value} value={o.value}>{o.label}</option>
