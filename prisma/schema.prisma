@@ -111,6 +111,8 @@ model Topic {
   parent    Topic?     @relation("TopicTree", fields: [parentId], references: [id], onDelete: SetNull)
   children  Topic[]    @relation("TopicTree")
   questions Question[]
+  // Back-relation: a top-level Topic (Area) may be mirrored by a Chapter.
+  chapter   Chapter?   @relation("ChapterArea")
 
   @@unique([subjectId, code])
   @@index([subjectId, parentId])
@@ -127,9 +129,14 @@ model Chapter {
   // IB DP SL/HL classification. Null for non-IB chapters.
   // "SL" = Standard Level only, "HL" = Higher Level only, "BOTH" = common to SL and HL
   ibLevel     String?
+  // When the subject has a syllabus Topic tree, a Chapter corresponds 1:1 to a
+  // top-level Topic (Area) — they're unified so Chapter and Topic can't conflict.
+  // Null for subjects without a tree (IB/AP) where Chapter is the only taxonomy.
+  topicId     String?    @unique
   createdAt   DateTime   @default(now())
   updatedAt   DateTime   @updatedAt
   subject     Subject    @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  areaTopic   Topic?     @relation("ChapterArea", fields: [topicId], references: [id], onDelete: SetNull)
   units       Unit[]
   questions   Question[]
   bounties    Bounty[]
