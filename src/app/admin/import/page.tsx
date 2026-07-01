@@ -1,8 +1,19 @@
+import { prisma } from "@/lib/prisma"
 import { ImportClient } from "./ImportClient"
 
 export const metadata = { title: "Admin — Bulk Import" }
 
-export default function BulkImportPage() {
+export default async function BulkImportPage() {
+  const subjectRows = await prisma.subject.findMany({
+    where: { isActive: true },
+    select: { id: true, name: true, code: true, syllabusCode: true, curriculum: { select: { code: true, displayName: true, sortOrder: true } } },
+    orderBy: [{ curriculum: { sortOrder: "asc" } }, { sortOrder: "asc" }],
+  })
+  const subjects = subjectRows.map((s) => ({
+    id: s.id, name: s.name, code: s.syllabusCode ?? s.code,
+    curriculumCode: s.curriculum.code, curriculumName: s.curriculum.displayName,
+  }))
+
   return (
     <div className="space-y-6">
       <div>
@@ -49,7 +60,7 @@ export default function BulkImportPage() {
         </div>
       </details>
 
-      <ImportClient />
+      <ImportClient subjects={subjects} />
     </div>
   )
 }

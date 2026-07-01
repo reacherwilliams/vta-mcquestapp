@@ -16,15 +16,18 @@ function colLetter(n: number): string {
   return s
 }
 
-export async function GET() {
+export async function GET(req: Request) {
   const session = await auth()
   if (!isAdmin(session?.user?.role as string)) {
     return NextResponse.json({ error: "Forbidden." }, { status: 403 })
   }
 
+  // Scoped mode: ?subjectId=… → template for one subject with chapter/topic dropdowns.
+  const subjectId = new URL(req.url).searchParams.get("subjectId") || null
+
   // ── Fetch DB hierarchy (active subjects only) ─────────────────────────────
   const subjects = await prisma.subject.findMany({
-    where: { isActive: true },
+    where: { isActive: true, ...(subjectId ? { id: subjectId } : {}) },
     include: {
       curriculum: { select: { code: true, displayName: true } },
       chapters: {
@@ -35,10 +38,11 @@ export async function GET() {
     },
     orderBy: [{ curriculum: { sortOrder: "asc" } }, { sortOrder: "asc" }],
   })
+  const scoped = !!subjectId && subjects.length === 1
 
   // Syllabus topic tree (for the topic_code column lookup).
   const topics = await prisma.topic.findMany({
-    where: { subject: { isActive: true } },
+    where: { subject: { isActive: true, ...(subjectId ? { id: subjectId } : {}) } },
     select: {
       code: true, title: true,
       subject: { select: { code: true, curriculum: { select: { code: true } } } },
@@ -192,6 +196,17 @@ export async function GET() {
   const paperList = `"${PAPER_OPTIONS.join(",")}"`
   const commandList = `"${COMMAND_WORDS.join(",")}"`
 
+  // Scoped mode: back chapter/topic dropdowns with this subject's real values.
+  let chRange = "", tcRange = ""
+  if (scoped) {
+    const lists = wb.addWorksheet("_Lists")
+    lists.state = "hidden"
+    subjects[0].chapters.forEach((c, i) => { lists.getCell(`A${i + 1}`).value = c.name })
+    topics.forEach((t, i) => { lists.getCell(`B${i + 1}`).value = t.code })
+    chRange = `_Lists!$A$1:$A$${Math.max(1, subjects[0].chapters.length)}`
+    tcRange = `_Lists!$B$1:$B$${Math.max(1, topics.length)}`
+  }
+
   for (let r = 2; r <= 201; r++) {
     if (currList.length <= 255) {
       sheetQ.getCell(`${L("curriculum_code")}${r}`).dataValidation = {
@@ -211,6 +226,13 @@ export async function GET() {
     sheetQ.getCell(`${L("command_word")}${r}`).dataValidation = { type: "list", allowBlank: true, formulae: [commandList] }
     sheetQ.getCell(`${L("ai_assisted")}${r}`).dataValidation = { type: "list", allowBlank: true, formulae: ['"TRUE,FALSE"'] }
     sheetQ.getCell(`${L("allow_multiple_correct")}${r}`).dataValidation = { type: "list", allowBlank: true, formulae: ['"TRUE,FALSE"'] }
+    // Scoped: lock curriculum/subject to this one, and offer its chapters + topics as dropdowns.
+    if (scoped) {
+      sheetQ.getCell(`${L("curriculum_code")}${r}`).dataValidation = { type: "list", allowBlank: false, formulae: [`"${subjects[0].curriculum.code}"`] }
+      sheetQ.getCell(`${L("subject_code")}${r}`).dataValidation = { type: "list", allowBlank: false, formulae: [`"${subjects[0].code}"`] }
+      sheetQ.getCell(`${L("chapter_name")}${r}`).dataValidation = { type: "list", allowBlank: false, formulae: [chRange], showErrorMessage: true, errorTitle: "Invalid chapter", error: "Pick a chapter from the list." }
+      if (topics.length) sheetQ.getCell(`${L("topic_code")}${r}`).dataValidation = { type: "list", allowBlank: true, formulae: [tcRange] }
+    }
   }
 
   // Alternate row shading for readability
@@ -323,7 +345,7 @@ export async function GET() {
     status: 200,
     headers: {
       "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "Content-Disposition": 'attachment; filename="mcq-masterloop-import-template.xlsx"',
+      "Content-Disposition": `attachment; filename="mcq-import-template${scoped ? `-${subjects[0].curriculum.code}-${subjects[0].code}` : ""}.xlsx"`,
       "Cache-Control": "no-store",
     },
   })

@@ -11,7 +11,14 @@ type ImportResult = {
   results: ResultItem[]
 }
 
-export function ImportClient() {
+type SubjectOpt = { id: string; name: string; code: string; curriculumCode: string; curriculumName: string }
+
+export function ImportClient({ subjects = [] }: { subjects?: SubjectOpt[] }) {
+  const [tplCurriculum, setTplCurriculum] = useState("")
+  const [tplSubjectId, setTplSubjectId] = useState("")
+  const curricula = [...new Map(subjects.map((s) => [s.curriculumCode, s.curriculumName])).entries()]
+  const tplSubjects = subjects.filter((s) => s.curriculumCode === tplCurriculum)
+
   const [json, setJson] = useState("")
   const [loading, setLoading] = useState(false)
   const [parseError, setParseError] = useState("")
@@ -105,23 +112,43 @@ export function ImportClient() {
   return (
     <div className="space-y-5">
       {/* Download template */}
-      <div className="flex items-center gap-3 rounded-2xl border border-lime-200 bg-lime-50 px-5 py-4 dark:border-lime-900 dark:bg-lime-950/20">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-5 w-5 shrink-0 text-lime-700 dark:text-lime-500">
-          <path d="M12 16l-4-4h2.5V4h3v8H16l-4 4z" /><path d="M4 20h16" strokeLinecap="round" />
-        </svg>
-        <div className="flex-1 min-w-0">
-          <p className="text-sm font-semibold text-lime-800 dark:text-lime-300">Download Excel template</p>
-          <p className="text-xs text-lime-700/80 dark:text-lime-400/70">
-            Pre-filled with your curricula, subjects, and chapters. Includes dropdown validation and a sample row.
-          </p>
+      <div className="rounded-2xl border border-lime-200 bg-lime-50 px-5 py-4 dark:border-lime-900 dark:bg-lime-950/20">
+        <p className="text-sm font-semibold text-lime-800 dark:text-lime-300">Download Excel template</p>
+        <p className="mt-0.5 text-xs text-lime-700/80 dark:text-lime-400/70">
+          Pick a curriculum + subject for a template scoped to that subject — chapters and syllabus topic codes become dropdowns.
+          Leave the subject blank for the full all-subjects template.
+        </p>
+        <div className="mt-3 flex flex-wrap items-end gap-2">
+          <label className="text-xs text-lime-800/80 dark:text-lime-400/70">
+            <span className="mb-1 block font-semibold">Curriculum</span>
+            <select
+              value={tplCurriculum}
+              onChange={(e) => { setTplCurriculum(e.target.value); setTplSubjectId("") }}
+              className="rounded-lg border border-lime-300 bg-white px-3 py-2 text-sm text-slate-700 dark:border-lime-800 dark:bg-slate-900 dark:text-slate-300"
+            >
+              <option value="">All curricula</option>
+              {curricula.map(([code, name]) => <option key={code} value={code}>{name}</option>)}
+            </select>
+          </label>
+          <label className="text-xs text-lime-800/80 dark:text-lime-400/70">
+            <span className="mb-1 block font-semibold">Subject</span>
+            <select
+              value={tplSubjectId}
+              onChange={(e) => setTplSubjectId(e.target.value)}
+              disabled={!tplCurriculum}
+              className="rounded-lg border border-lime-300 bg-white px-3 py-2 text-sm text-slate-700 disabled:opacity-50 dark:border-lime-800 dark:bg-slate-900 dark:text-slate-300"
+            >
+              <option value="">{tplCurriculum ? "All subjects" : "— pick curriculum —"}</option>
+              {tplSubjects.map((s) => <option key={s.id} value={s.id}>{s.name} · {s.code}</option>)}
+            </select>
+          </label>
+          <a
+            href={tplSubjectId ? `/api/admin/import/template?subjectId=${tplSubjectId}` : "/api/admin/import/template"}
+            className="ml-auto shrink-0 rounded-xl border border-lime-600 bg-lime-500 px-4 py-2 text-xs font-black uppercase tracking-widest text-white transition hover:bg-lime-400 active:translate-y-px"
+          >
+            {tplSubjectId ? "Download scoped" : "Download all"}
+          </a>
         </div>
-        <a
-          href="/api/admin/import/template"
-          download="mcq-masterloop-import-template.xlsx"
-          className="shrink-0 rounded-xl border border-lime-600 bg-lime-500 px-4 py-2 text-xs font-black uppercase tracking-widest text-white transition hover:bg-lime-400 active:translate-y-px"
-        >
-          Download
-        </a>
       </div>
 
       {/* File picker */}
