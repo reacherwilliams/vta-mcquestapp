@@ -6,11 +6,19 @@ export type Topic = { id: string; parentId: string | null; code: string; title: 
 
 const levelLabel = (lvl: number) => (lvl === 1 ? "area" : lvl === 2 ? "sub-topic" : lvl === 3 ? "standard" : `level ${lvl}`)
 
-// Topic picker for a deep syllabus tree: cascading selects (drill Area -> Sub-topic
-// -> Standard, stop at any level) + a search box that jumps to any node.
-export function TopicPicker({ topics, value, onChange }: { topics: Topic[]; value: string; onChange: (id: string) => void }) {
+// Topic picker for a deep syllabus tree. When `rootTopicId` is given (the
+// selected chapter's Area), the picker is scoped to that area's subtree —
+// cascading Sub-topic -> Standard, plus a search that jumps to any node within
+// it. Chapter already IS the area, so this only refines below it.
+export function TopicPicker({
+  topics, value, onChange, rootTopicId = null,
+}: {
+  topics: Topic[]
+  value: string
+  onChange: (id: string) => void
+  rootTopicId?: string | null
+}) {
   const byId = useMemo(() => new Map(topics.map((t) => [t.id, t])), [topics])
-  // children keyed by parentId, preserving the API's sortOrder.
   const childrenOf = useMemo(() => {
     const m = new Map<string | null, Topic[]>()
     for (const t of topics) {
@@ -21,25 +29,38 @@ export function TopicPicker({ topics, value, onChange }: { topics: Topic[]; valu
     return m
   }, [topics])
 
-  // root → value chain (so the cascade reflects the current selection).
+  // Is `id` within the scoped subtree (below rootTopicId)?
+  const inScope = useMemo(() => (id: string): boolean => {
+    if (!rootTopicId) return true
+    let p = byId.get(id)?.parentId
+    while (p) { if (p === rootTopicId) return true; p = byId.get(p)?.parentId }
+    return false
+  }, [byId, rootTopicId])
+
+  // root → value chain, stopping at (and excluding) the scoping root.
   const path = useMemo(() => {
     const p: Topic[] = []
     let cur = value ? byId.get(value) : undefined
-    while (cur) { p.unshift(cur); cur = cur.parentId ? byId.get(cur.parentId) : undefined }
+    while (cur && cur.id !== rootTopicId) {
+      p.unshift(cur)
+      cur = cur.parentId ? byId.get(cur.parentId) : undefined
+    }
     return p
-  }, [value, byId])
+  }, [value, byId, rootTopicId])
 
   const [query, setQuery] = useState("")
   const results = useMemo(() => {
     const q = query.trim().toLowerCase()
     if (!q) return []
-    return topics.filter((t) => t.code.toLowerCase().includes(q) || t.title.toLowerCase().includes(q)).slice(0, 40)
-  }, [query, topics])
+    return topics
+      .filter((t) => inScope(t.id) && (t.code.toLowerCase().includes(q) || t.title.toLowerCase().includes(q)))
+      .slice(0, 40)
+  }, [query, topics, inScope])
 
-  // Build cascade slots: roots, then the children of each selected node.
+  // Cascade slots: children of the root, then children of each selection.
   const slots: { idx: number; level: number; options: Topic[]; selectedId: string }[] = []
   {
-    let parentKey: string | null = null
+    let parentKey: string | null = rootTopicId ?? null
     let idx = 0
     for (;;) {
       const options = childrenOf.get(parentKey) ?? []
@@ -52,18 +73,22 @@ export function TopicPicker({ topics, value, onChange }: { topics: Topic[]; valu
     }
   }
 
-  // Clearing a level falls back to its parent as the tagged node.
+  // Clearing a level falls back to its parent (or nothing at the top).
   function selectAt(idx: number, id: string) {
     onChange(id || (path[idx - 1]?.id ?? ""))
   }
 
   const cls = "w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300"
 
+  if (slots.length === 0) {
+    return <p className="text-[11px] text-slate-400">No sub-topics for this chapter.</p>
+  }
+
   return (
     <div className="space-y-2">
-      {/* Search any node */}
+      {/* Search any node within the chapter's area */}
       <div className="relative">
-        <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search any topic by code or title…" className={cls} />
+        <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search sub-topic or standard…" className={cls} />
         {results.length > 0 && (
           <div className="absolute z-30 mt-1 max-h-60 w-full overflow-y-auto rounded-lg border border-slate-200 bg-white shadow-lg dark:border-slate-700 dark:bg-slate-900">
             {results.map((t) => (

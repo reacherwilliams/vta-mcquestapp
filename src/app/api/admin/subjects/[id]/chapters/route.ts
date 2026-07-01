@@ -16,7 +16,7 @@ export async function GET(_req: Request, { params }: { params: Promise<{ id: str
   const { id: subjectId } = await params
   const chapters = await prisma.chapter.findMany({
     where: { subjectId, isActive: true },
-    select: { id: true, name: true },
+    select: { id: true, name: true, topicId: true },
     orderBy: { sortOrder: "asc" },
   })
 

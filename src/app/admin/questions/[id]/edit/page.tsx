@@ -35,7 +35,7 @@ export default async function EditQuestionPage({ params }: Props) {
   const [chapters, units] = await Promise.all([
     prisma.chapter.findMany({
       where: { subjectId: question.subjectId, isActive: true },
-      select: { id: true, name: true },
+      select: { id: true, name: true, topicId: true },
       orderBy: { sortOrder: "asc" },
     }),
     question.chapterId

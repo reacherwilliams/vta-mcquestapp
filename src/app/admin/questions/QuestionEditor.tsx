@@ -20,7 +20,7 @@ type Subject = {
   curriculumId: string
   curriculum: { code: string; displayName: string }
 }
-type Chapter = { id: string; name: string }
+type Chapter = { id: string; name: string; topicId?: string | null }
 type Unit    = { id: string; name: string }
 
 type OptionDraft = {
@@ -657,7 +657,7 @@ export function QuestionEditor({ mode, questionId, initial, subjects, initialCha
               <select
                 value={form.chapterId}
                 disabled={!chapters.length}
-                onChange={(e) => { set("chapterId", e.target.value); loadUnits(e.target.value) }}
+                onChange={(e) => { set("chapterId", e.target.value); set("topicId", ""); loadUnits(e.target.value) }}
                 className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm text-slate-700 disabled:opacity-40 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300"
               >
                 <option value="">Select chapter…</option>
@@ -678,11 +678,16 @@ export function QuestionEditor({ mode, questionId, initial, subjects, initialCha
                 </select>
               </div>
             )}
-            {/* Syllabus topic */}
-            {topics.length > 0 && (
+            {/* Syllabus topic — scoped to the chosen chapter's area (chapter = area) */}
+            {topics.length > 0 && form.chapterId && chapters.find((c) => c.id === form.chapterId)?.topicId && (
               <div>
-                <label className="mb-1 block text-xs text-slate-500">Syllabus topic (optional)</label>
-                <TopicPicker topics={topics} value={form.topicId} onChange={(id) => set("topicId", id)} />
+                <label className="mb-1 block text-xs text-slate-500">Sub-topic / standard (optional)</label>
+                <TopicPicker
+                  topics={topics}
+                  value={form.topicId}
+                  onChange={(id) => set("topicId", id)}
+                  rootTopicId={chapters.find((c) => c.id === form.chapterId)?.topicId ?? null}
+                />
               </div>
             )}
             {/* Build Year */}
